@@ -1,0 +1,251 @@
+{
+  "cards": [
+    {
+      "slug": "card-img-microbiology-staph-gram-stain",
+      "track": "step1",
+      "system": "microbiology",
+      "discipline": "microbiology",
+      "tags": [
+        "images-microbiology",
+        "gram-stain",
+        "gram-positive-cocci"
+      ],
+      "front": "Describe these bacteria on Gram stain (Gram reaction, shape, arrangement). Which simple bench test separates the two main genera of gram-positive cocci?",
+      "back": "**Gram-positive cocci in grape-like clusters**: ***Staphylococcus***. They are **catalase positive** (streptococci are catalase negative). Next step: **coagulase** positive = *S. aureus*; coagulase negative = *S. epidermidis*, *S. saprophyticus*.",
+      "back_pt": "**Cocos gram-positivos em cachos de uva**: ***Staphylococcus***. São **catalase positivos** (os estreptococos são catalase negativos). Próximo passo: **coagulase** positiva = *S. aureus*; coagulase negativa = *S. epidermidis*, *S. saprophyticus*.",
+      "image_url": "images/microbiology/staph-gram-stain-1.jpg",
+      "image_credit": "Dr Graham Beards, CC BY-SA 4.0, https://commons.wikimedia.org/wiki/File:Staphylococcus_aureus_Gram_stain.jpg"
+    },
+    {
+      "slug": "card-img-microbiology-strep-gram-stain",
+      "track": "step1",
+      "system": "microbiology",
+      "discipline": "microbiology",
+      "tags": [
+        "images-microbiology",
+        "gram-stain",
+        "gram-positive-cocci"
+      ],
+      "front": "Describe these bacteria on Gram stain (Gram reaction, shape, arrangement). Are they catalase positive or negative, and which lab feature is used next to sort them into groups?",
+      "back": "**Gram-positive cocci in chains**: ***Streptococcus*** (enterococci can also form chains). They are **catalase negative**. Next, sort them by **hemolysis on blood agar**: alpha (partial, green), beta (complete, clear) or gamma (none).",
+      "back_pt": "**Cocos gram-positivos em cadeias**: ***Streptococcus*** (os enterococos também podem formar cadeias). São **catalase negativos**. Depois, separe-os pela **hemólise em ágar sangue**: alfa (parcial, esverdeada), beta (completa, transparente) ou gama (ausente).",
+      "image_url": "images/microbiology/strep-gram-stain-1.jpg",
+      "image_credit": "Gary E. Kaiser, Ph.D., CC BY 3.0, https://commons.wikimedia.org/wiki/File:Gram_stain_of_Streptococcus_pyogenes.jpg"
+    },
+    {
+      "slug": "card-img-microbiology-acid-fast-bacilli",
+      "track": "step1",
+      "system": "microbiology",
+      "discipline": "microbiology",
+      "tags": [
+        "images-microbiology",
+        "acid-fast-stain",
+        "mycobacteria"
+      ],
+      "front": "This stained sputum smear comes from a man with chronic cough, night sweats and weight loss. Which stain is this, what are the red structures, and why do they keep the red dye?",
+      "back": "**Ziehl-Neelsen (acid-fast) stain**: thin, slightly curved **red rods** on a blue background = **acid-fast bacilli**, here ***Mycobacterium tuberculosis***. Their cell wall is rich in **mycolic acid** (waxy lipid), so acid-alcohol cannot remove the carbol fuchsin.",
+      "back_pt": "**Coloração de Ziehl-Neelsen (álcool-ácido resistente)**: **bastonetes vermelhos** finos e levemente curvos sobre fundo azul = **bacilos álcool-ácido resistentes (BAAR)**, aqui ***Mycobacterium tuberculosis***. A parede celular é rica em **ácido micólico** (lipídio ceroso), por isso o álcool-ácido não remove a fucsina fenicada.",
+      "image_url": "images/microbiology/acid-fast-bacilli-1.jpg",
+      "image_credit": "Dr Graham Beards, CC BY-SA 4.0, https://commons.wikimedia.org/wiki/File:ZN_of_MTB.jpg"
+    },
+    {
+      "slug": "card-img-microbiology-schistosoma-egg",
+      "track": "step1",
+      "system": "microbiology",
+      "discipline": "microbiology",
+      "tags": [
+        "images-microbiology",
+        "parasitology",
+        "helminths"
+      ],
+      "front": "This egg was found in the urine of a young man from Egypt who has painless blood in his urine. Identify the parasite and its key egg feature. Which cancer does chronic infection cause?",
+      "back": "***Schistosoma haematobium***: large oval egg with a **terminal spine**. Adult worms live in the **venous plexus of the bladder**, so eggs pass in urine (hematuria). Chronic infection causes **squamous cell carcinoma of the bladder**. Treatment: **praziquantel**.",
+      "back_pt": "***Schistosoma haematobium***: ovo grande e oval com **espículo terminal**. Os vermes adultos vivem no **plexo venoso da bexiga**, então os ovos saem na urina (hematúria). A infecção crônica causa **carcinoma de células escamosas (epidermoide) da bexiga**. Tratamento: **praziquantel**.",
+      "image_url": "images/microbiology/schistosoma-egg-1.jpg",
+      "image_credit": "Luca Oddone, CC BY-SA 3.0, https://commons.wikimedia.org/wiki/File:Schistosoma_haematobium_egg.jpg"
+    },
+    {
+      "slug": "card-img-microbiology-blastomyces",
+      "track": "step1",
+      "system": "microbiology",
+      "discipline": "microbiology",
+      "tags": [
+        "images-microbiology",
+        "mycology",
+        "dimorphic-fungi"
+      ],
+      "front": "This silver-stained biopsy comes from a chronic, crusted skin lesion on the leg of a man from Wisconsin who also has lung infiltrates. Identify the organism and the key feature of its yeast form.",
+      "back": "***Blastomyces dermatitidis***: large yeast with a **thick, double-contoured wall** and **broad-based budding** (wide connection between mother and daughter cell). Endemic near the **Great Lakes and the Ohio/Mississippi river valleys**. Starts in the lungs and spreads to **skin** and **bone**.",
+      "back_pt": "***Blastomyces dermatitidis***: levedura grande, com **parede espessa de duplo contorno** e **brotamento de base larga** (conexão ampla entre célula-mãe e célula-filha). Endêmico perto dos **Grandes Lagos e dos vales dos rios Ohio/Mississippi**. Começa nos pulmões e se dissemina para **pele** e **ossos**.",
+      "image_url": "images/microbiology/blastomyces-1.jpg",
+      "image_credit": "Medmyco (James Scott), CC0, https://commons.wikimedia.org/wiki/File:Blastomyces_dermatitidis_GMS.jpeg"
+    },
+    {
+      "slug": "card-img-microbiology-giardia",
+      "track": "step1",
+      "system": "microbiology",
+      "discipline": "microbiology",
+      "tags": [
+        "images-microbiology",
+        "parasitology",
+        "protozoa"
+      ],
+      "front": "Identify these Giemsa-stained organisms. How is the infection usually acquired, and what type of diarrhea does it cause?",
+      "back": "***Giardia lamblia* trophozoites**: pear-shaped, with **two nuclei** (a \"face\") and several **flagella**. Infection comes from **cysts in untreated water** (campers, hikers). It causes **foul-smelling, fatty, non-bloody diarrhea**, bloating and malabsorption. Treatment: **metronidazole**.",
+      "back_pt": "**Trofozoítos de *Giardia lamblia***: em forma de pera, com **dois núcleos** (um \"rosto\") e vários **flagelos**. A infecção vem de **cistos em água não tratada** (campistas, trilheiros). Causa **diarreia gordurosa, fétida e sem sangue**, distensão abdominal e má absorção. Tratamento: **metronidazol**.",
+      "image_url": "images/microbiology/giardia-1.jpg",
+      "image_credit": "Eva Nohýnková (Department of Tropical Medicine, Charles University, Prague), CC BY 4.0, https://commons.wikimedia.org/wiki/File:Giardia_trophozoites_Giemsa.tif"
+    }
+  ],
+  "questions": [
+    {
+      "slug": "q-img-microbiology-gonococcus",
+      "track": "step1",
+      "system": "microbiology",
+      "discipline": "microbiology",
+      "tags": [
+        "images-microbiology",
+        "gram-stain",
+        "sti"
+      ],
+      "stem": "A 24-year-old man has had burning on urination and a thick yellow urethral discharge for 3 days. A Gram stain of the discharge is shown. He had the same infection 1 year ago, and it was cured. Which feature of the organism best explains why he can be infected again?",
+      "choices": [
+        "IgA protease that cleaves mucosal antibodies",
+        "A thick polysaccharide capsule",
+        "Antigenic variation of its pilus proteins",
+        "Lipooligosaccharide in the outer membrane",
+        "Formation of heat-resistant spores"
+      ],
+      "correct": 2,
+      "explanation": "The smear shows many **gram-negative diplococci inside neutrophils**: ***Neisseria gonorrhoeae***. Its **pili undergo antigenic variation**, so antibodies from an earlier infection do not protect, and **reinfection is common** (there is no vaccine). The most tempting wrong answer is **IgA protease**: it cleaves secretory IgA and helps the organism colonize mucosa, but it does not explain repeat infection after cure. *N. gonorrhoeae* has no real capsule (unlike *N. meningitidis*). Lipooligosaccharide drives inflammation. *Neisseria* does not form spores.",
+      "explanation_pt": "O esfregaço mostra muitos **diplococos gram-negativos dentro de neutrófilos**: ***Neisseria gonorrhoeae***. As **fímbrias (pili) sofrem variação antigênica**, então os anticorpos de uma infecção anterior não protegem, e a **reinfecção é comum** (não há vacina). A alternativa errada mais tentadora é a **protease de IgA**: ela cliva a IgA secretora e ajuda a bactéria a colonizar a mucosa, mas não explica a infecção repetida após a cura. *N. gonorrhoeae* não tem cápsula verdadeira (ao contrário de *N. meningitidis*). O lipo-oligossacarídeo causa inflamação. *Neisseria* não forma esporos.",
+      "image_url": "images/microbiology/gonococcus-gram-stain-1.jpg",
+      "image_credit": "Dr Graham Beards, CC BY-SA 4.0, https://commons.wikimedia.org/wiki/File:Pus_cells_with_Neisseria_gonorrhoeae.jpg"
+    },
+    {
+      "slug": "q-img-microbiology-cryptococcus",
+      "track": "step1",
+      "system": "microbiology",
+      "discipline": "microbiology",
+      "tags": [
+        "images-microbiology",
+        "mycology",
+        "meningitis",
+        "hiv"
+      ],
+      "stem": "A 35-year-old man with untreated HIV infection has had headache and fever for 2 weeks. His CD4 count is 40/mm³. Lumbar puncture shows a high opening pressure. An India ink preparation of the cerebrospinal fluid is shown. Which initial treatment is most appropriate?",
+      "choices": [
+        "Amphotericin B plus flucytosine",
+        "Caspofungin",
+        "Ceftriaxone plus vancomycin",
+        "Pyrimethamine plus sulfadiazine",
+        "Rifampin, isoniazid, pyrazinamide and ethambutol"
+      ],
+      "correct": 0,
+      "explanation": "The India ink preparation shows round yeasts surrounded by **clear halos** (the **polysaccharide capsule** pushes the ink away): ***Cryptococcus neoformans*** meningitis, typical when CD4 < 100/mm³. Initial (induction) therapy is **amphotericin B plus flucytosine**, followed by long-term **fluconazole**. High pressure may need repeated lumbar punctures. The most tempting wrong answer is **caspofungin**: echinocandins do not work against *Cryptococcus*. Ceftriaxone plus vancomycin treats bacterial meningitis, pyrimethamine plus sulfadiazine treats toxoplasmosis, and the four-drug regimen treats tuberculosis.",
+      "explanation_pt": "A preparação com tinta nanquim mostra leveduras redondas cercadas por **halos claros** (a **cápsula polissacarídica** afasta a tinta): meningite por ***Cryptococcus neoformans***, típica com CD4 < 100/mm³. O tratamento inicial (indução) é **anfotericina B mais flucitosina**, seguido de **fluconazol** por longo prazo. A pressão elevada pode exigir punções lombares repetidas. A alternativa errada mais tentadora é a **caspofungina**: as equinocandinas não agem contra *Cryptococcus*. Ceftriaxona mais vancomicina tratam meningite bacteriana, pirimetamina mais sulfadiazina tratam toxoplasmose, e o esquema de quatro drogas trata tuberculose.",
+      "image_url": "images/microbiology/cryptococcus-india-ink-1.jpg",
+      "image_credit": "Ed Uthman from Houston, TX, USA, CC BY 2.0, https://commons.wikimedia.org/wiki/File:Cryptococcus_in_cerebrospinal_fluid,_India_ink_prep._(49623531757).jpg"
+    },
+    {
+      "slug": "q-img-microbiology-pneumocystis",
+      "track": "step1",
+      "system": "microbiology",
+      "discipline": "microbiology",
+      "tags": [
+        "images-microbiology",
+        "mycology",
+        "pneumonia",
+        "hiv"
+      ],
+      "stem": "A 42-year-old man has had dry cough, fever and worsening shortness of breath on exertion for 3 weeks. He has oral thrush. His oxygen saturation drops when he walks. Chest x-ray shows bilateral diffuse interstitial infiltrates. A silver stain of lung tissue is shown. An HIV test is positive. In patients like him, below which CD4 count is prophylaxis against this organism started, and with which drug?",
+      "choices": [
+        "Below 500/mm³; azithromycin",
+        "Below 100/mm³; fluconazole",
+        "Below 50/mm³; ganciclovir",
+        "Below 100/mm³; trimethoprim-sulfamethoxazole",
+        "Below 200/mm³; trimethoprim-sulfamethoxazole"
+      ],
+      "correct": 4,
+      "explanation": "The stain shows round and **cup-shaped (crushed ping-pong ball) cysts with black walls**: ***Pneumocystis jirovecii*** pneumonia. Prophylaxis starts when **CD4 < 200/mm³** (or with oral thrush), and the drug of choice is **trimethoprim-sulfamethoxazole**. The most tempting wrong answer is **CD4 < 100/mm³ with trimethoprim-sulfamethoxazole**: that is the threshold for *Toxoplasma* prophylaxis (in IgG-positive patients), which the same drug also covers. Azithromycin is prophylaxis for *Mycobacterium avium* complex (CD4 < 50/mm³), and fluconazole and ganciclovir are not used for *Pneumocystis*.",
+      "explanation_pt": "A coloração mostra **cistos redondos e em forma de taça (bola de pingue-pongue amassada) com parede preta**: pneumonia por ***Pneumocystis jirovecii***. A profilaxia começa com **CD4 < 200/mm³** (ou com candidíase oral), e a droga de escolha é **sulfametoxazol-trimetoprima**. A alternativa errada mais tentadora é **CD4 < 100/mm³ com sulfametoxazol-trimetoprima**: esse é o limite da profilaxia de *Toxoplasma* (em pacientes IgG positivos), que a mesma droga também cobre. A azitromicina é a profilaxia do complexo *Mycobacterium avium* (CD4 < 50/mm³), e fluconazol e ganciclovir não são usados para *Pneumocystis*.",
+      "image_url": "images/microbiology/pneumocystis-silver-1.jpg",
+      "image_credit": "CDC/Dr. Edwin P. Ewing, Jr., Public domain, https://commons.wikimedia.org/wiki/File:Pneumocystis_carinii_01.jpg"
+    },
+    {
+      "slug": "q-img-microbiology-falciparum",
+      "track": "step1",
+      "system": "microbiology",
+      "discipline": "microbiology",
+      "tags": [
+        "images-microbiology",
+        "parasitology",
+        "protozoa",
+        "malaria"
+      ],
+      "stem": "A 28-year-old woman came back from Nigeria 10 days ago. She has fever, chills and headache, and today she is confused. She did not take any preventive drugs. Her thin blood smear is shown (the arrows mark parasites). Which feature of this species best explains her neurologic symptoms?",
+      "choices": [
+        "Dormant liver forms that reactivate months later",
+        "Infection of reticulocytes only",
+        "Destruction of red cells every 72 hours",
+        "Infected red cells that stick to the walls of small brain vessels",
+        "Direct invasion of neurons by sporozoites"
+      ],
+      "correct": 3,
+      "explanation": "The smear shows a **small ring form** in a red cell and a **crescent (banana-shaped) gametocyte**: ***Plasmodium falciparum***. Infected red cells express adhesion proteins on surface knobs and **stick to the endothelium of small vessels**. In the brain this blocks blood flow and causes **cerebral malaria**. The most tempting wrong answer is **dormant liver forms (hypnozoites)**: these belong to *P. vivax* and *P. ovale* and cause relapses, not severe acute disease. *P. vivax* prefers reticulocytes, and a 72-hour cycle is typical of *P. malariae*. Sporozoites infect the liver, not neurons.",
+      "explanation_pt": "O esfregaço mostra um **anel pequeno** dentro de uma hemácia e um **gametócito em crescente (em forma de banana)**: ***Plasmodium falciparum***. As hemácias infectadas expressam proteínas de adesão em protuberâncias (knobs) e **aderem ao endotélio de pequenos vasos**. No cérebro isso bloqueia o fluxo sanguíneo e causa **malária cerebral**. A alternativa errada mais tentadora são as **formas hepáticas latentes (hipnozoítos)**: elas pertencem a *P. vivax* e *P. ovale* e causam recaídas, não doença aguda grave. *P. vivax* prefere reticulócitos, e o ciclo de 72 horas é típico de *P. malariae*. Os esporozoítos infectam o fígado, não os neurônios.",
+      "image_url": "images/microbiology/falciparum-smear-1.jpg",
+      "image_credit": "Jenkayaks, CC BY-SA 3.0, https://commons.wikimedia.org/wiki/File:P._falciparum_thin_smear_ring_forms_and_gametocyte.jpg"
+    },
+    {
+      "slug": "q-img-microbiology-histoplasma",
+      "track": "step1",
+      "system": "microbiology",
+      "discipline": "microbiology",
+      "tags": [
+        "images-microbiology",
+        "mycology",
+        "dimorphic-fungi",
+        "hiv"
+      ],
+      "stem": "A 38-year-old man with HIV infection lives in Kentucky and explores caves on weekends. He has had fever, weight loss and enlarged lymph nodes for 1 month. Labs show pancytopenia. A fine-needle aspirate of a lymph node (Diff-Quik stain) is shown. Which organism is most likely?",
+      "choices": [
+        "Leishmania donovani",
+        "Histoplasma capsulatum",
+        "Toxoplasma gondii",
+        "Cryptococcus neoformans",
+        "Blastomyces dermatitidis"
+      ],
+      "correct": 1,
+      "explanation": "The macrophages are packed with many **tiny oval yeasts** (2-4 µm). With cave exploring (**bat and bird droppings**) in the **Ohio/Mississippi river valleys** and HIV, this is disseminated ***Histoplasma capsulatum***. It lives **inside macrophages** and spreads to lymph nodes, liver, spleen and bone marrow (pancytopenia). The most tempting wrong answer is ***Leishmania donovani***: its amastigotes also fill macrophages, but they have a **kinetoplast** and the disease follows sandfly bites in the tropics. *Blastomyces* is a much larger yeast with broad-based budding. *Cryptococcus* has a thick capsule. *Toxoplasma* does not fill macrophages like this.",
+      "explanation_pt": "Os macrófagos estão cheios de muitas **leveduras ovais minúsculas** (2-4 µm). Com exploração de cavernas (**fezes de morcegos e aves**) nos **vales dos rios Ohio/Mississippi** e HIV, trata-se de ***Histoplasma capsulatum*** disseminado. Ele vive **dentro dos macrófagos** e se espalha para linfonodos, fígado, baço e medula óssea (pancitopenia). A alternativa errada mais tentadora é ***Leishmania donovani***: seus amastigotas também enchem os macrófagos, mas têm **cinetoplasto**, e a doença é transmitida por picadas de flebotomíneos em regiões tropicais. *Blastomyces* é uma levedura muito maior, com brotamento de base larga. *Cryptococcus* tem cápsula espessa. *Toxoplasma* não enche os macrófagos dessa forma.",
+      "image_url": "images/microbiology/histoplasma-1.jpg",
+      "image_credit": "Yale Rosen from USA, CC BY-SA 2.0, https://commons.wikimedia.org/wiki/File:Histoplasmosis_(5414173501).jpg"
+    },
+    {
+      "slug": "q-img-microbiology-negri-bodies",
+      "track": "step1",
+      "system": "microbiology",
+      "discipline": "microbiology",
+      "tags": [
+        "images-microbiology",
+        "virology",
+        "cns-infection"
+      ],
+      "stem": "A 45-year-old man dies after 1 week of fever, agitation, spasms of the throat when he tries to drink, and then coma. Two months earlier he woke up with a bat in his bedroom but did not see a doctor. A section of his brain at autopsy (H&E stain) is shown. How did the causative agent reach his central nervous system?",
+      "choices": [
+        "Through the blood, crossing the blood-brain barrier",
+        "Through the cribriform plate along the olfactory nerve",
+        "By retrograde transport inside peripheral nerve axons",
+        "Inside infected monocytes that enter the brain",
+        "By direct spread from an infected middle ear"
+      ],
+      "correct": 2,
+      "explanation": "The neuron contains round, pink **cytoplasmic inclusions** next to the nucleus: **Negri bodies** of **rabies**. After a bite (bat bites can be tiny and unnoticed), the virus binds the **nicotinic acetylcholine receptor** at the neuromuscular junction and moves to the CNS by **retrograde axonal transport** (dynein). This explains the long, variable incubation. The most tempting wrong answer is **the cribriform plate route**: that is how *Naegleria fowleri* enters after swimming in warm fresh water. Entry inside monocytes is the \"Trojan horse\" route of HIV. Rabies does not spread to the brain through the blood.",
+      "explanation_pt": "O neurônio contém **inclusões citoplasmáticas** rosadas e redondas ao lado do núcleo: **corpúsculos de Negri** da **raiva**. Após uma mordida (mordidas de morcego podem ser mínimas e passar despercebidas), o vírus se liga ao **receptor nicotínico de acetilcolina** na junção neuromuscular e chega ao SNC por **transporte axonal retrógrado** (dineína). Isso explica a incubação longa e variável. A alternativa errada mais tentadora é **a via da placa cribriforme**: é assim que *Naegleria fowleri* entra após nadar em água doce morna. A entrada dentro de monócitos é a via do \"cavalo de Troia\" do HIV. O vírus da raiva não chega ao cérebro pelo sangue.",
+      "image_url": "images/microbiology/negri-bodies-1.jpg",
+      "image_credit": "CDC/Dr. Daniel P. Perl, Public domain, https://commons.wikimedia.org/wiki/File:Rabies_encephalitis_Negri_bodies_PHIL_3377_lores.jpg"
+    }
+  ],
+  "notes": []
+}

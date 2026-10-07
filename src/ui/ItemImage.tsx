@@ -8,12 +8,13 @@ export function ItemImage({ src, credit }: { src?: string | null; credit?: strin
   const [failed, setFailed] = useState(false);
   if (!src) return null;
   const url = src.startsWith('https://') ? src : `${import.meta.env.BASE_URL}${src.replace(/^\/+/, '')}`;
+  // The credit URL often contains the Commons file name, which can name the diagnosis: keep it collapsed.
   return (
     <figure>
       {failed ? <p>Image unavailable</p> : (
         <img src={url} alt={IMAGE_ALT} loading="lazy" decoding="async" style={{ maxWidth: '100%' }} onError={() => setFailed(true)} />
       )}
-      {credit && <figcaption>{credit}</figcaption>}
+      {credit && <figcaption><details><summary>Image credit</summary>{credit}</details></figcaption>}
     </figure>
   );
 }

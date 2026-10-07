@@ -1,0 +1,179 @@
+{
+  "cards": [
+    {
+      "slug": "card-img-reproductive-seminoma",
+      "track": "step1",
+      "system": "reproductive",
+      "discipline": "pathology",
+      "tags": ["images-reproductive", "histology", "testicular-tumor"],
+      "front": "This tissue comes from a painless, firm testicular mass in a 32-year-old man. Serum AFP is normal. What is the tumor, and which features in the image support it?",
+      "back": "**Seminoma**: sheets of large, uniform cells with **clear cytoplasm** and central round nuclei (\"fried egg\" cells), with thin fibrous septa and many **lymphocytes**. AFP is normal. It is very **radiosensitive** and has a good prognosis.",
+      "back_pt": "**Seminoma**: lençóis de células grandes e uniformes com **citoplasma claro** e núcleo central redondo (células em \"ovo frito\"), com septos fibrosos finos e muitos **linfócitos**. A AFP é normal. É muito **radiossensível** e tem bom prognóstico.",
+      "image_url": "images/reproductive/seminoma-1.jpg",
+      "image_credit": "Ed Uthman from Houston, TX, USA, CC BY 2.0, https://commons.wikimedia.org/wiki/File:Seminoma_(microscopic,_H%26E)_(268018290).jpg"
+    },
+    {
+      "slug": "card-img-reproductive-leiomyoma",
+      "track": "step1",
+      "system": "reproductive",
+      "discipline": "pathology",
+      "tags": ["images-reproductive", "gross-pathology", "uterus"],
+      "front": "This uterus was removed from a 46-year-old woman with heavy menstrual bleeding and pelvic pressure. Look at the round mass in the fundus. What is it, and how do hormones affect it?",
+      "back": "**Leiomyoma** (fibroid): a sharply circumscribed, rubbery mass with a **whorled** cut surface, made of benign smooth muscle. It is **estrogen-sensitive**: it grows in pregnancy and shrinks after menopause. It does not turn into leiomyosarcoma.",
+      "back_pt": "**Leiomioma** (mioma): massa bem delimitada e elástica, com superfície de corte **em redemoinho**, formada por músculo liso benigno. É **sensível ao estrogênio**: cresce na gestação e diminui após a menopausa. Não se transforma em leiomiossarcoma.",
+      "image_url": "images/reproductive/leiomyoma-1.jpg",
+      "image_credit": "Ed Uthman, MD, Public domain, https://commons.wikimedia.org/wiki/File:Leiomyoma_of_the_Uterus.jpg"
+    },
+    {
+      "slug": "card-img-reproductive-koilocytes",
+      "track": "step1",
+      "system": "reproductive",
+      "discipline": "pathology",
+      "tags": ["images-reproductive", "cytology", "cervix"],
+      "front": "Liquid-based Pap smear. Compare the cells on the right with the normal squamous cells on the left. What are the cells on the right, and what causes them?",
+      "back": "**Koilocytes** (HPV cytopathic effect): enlarged, dark, wrinkled nuclei, a clear **perinuclear halo**, and **binucleation**. They mark HPV infection and a **low-grade squamous intraepithelial lesion** (LSIL, CIN 1).",
+      "back_pt": "**Coilócitos** (efeito citopático do HPV): núcleos aumentados, escuros e enrugados, **halo perinuclear** claro e **binucleação**. Indicam infecção pelo HPV e **lesão intraepitelial escamosa de baixo grau** (LSIL, NIC 1).",
+      "image_url": "images/reproductive/koilocytes-1.jpg",
+      "image_credit": "Ed Uthman, MD, CC BY-SA 2.0, https://commons.wikimedia.org/wiki/File:ThinPrep_Pap_smear_HPV.jpeg"
+    },
+    {
+      "slug": "card-img-reproductive-mature-cystic-teratoma",
+      "track": "step1",
+      "system": "reproductive",
+      "discipline": "pathology",
+      "tags": ["images-reproductive", "gross-pathology", "ovarian-tumor"],
+      "front": "A 4-cm ovarian cyst was removed from a 29-year-old woman. The opened cyst is shown. What is the tumor, and what is one complication it can cause?",
+      "back": "**Mature cystic teratoma** (dermoid cyst): a germ cell tumor lined by skin, filled with **hair** and sebum, sometimes with teeth. It is the most common ovarian germ cell tumor and is benign. Complications: **ovarian torsion**; thyroid tissue (struma ovarii) can cause hyperthyroidism.",
+      "back_pt": "**Teratoma cístico maduro** (cisto dermoide): tumor de células germinativas revestido por pele, cheio de **pelos** e sebo, às vezes com dentes. É o tumor de células germinativas mais comum do ovário e é benigno. Complicações: **torção ovariana**; tecido tireoidiano (struma ovarii) pode causar hipertireoidismo.",
+      "image_url": "images/reproductive/mature-cystic-teratoma-1.jpg",
+      "image_credit": "Ed Uthman, MD, Public domain, https://commons.wikimedia.org/wiki/File:Mature_cystic_teratoma_of_ovary.jpg"
+    },
+    {
+      "slug": "card-img-reproductive-fibroadenoma",
+      "track": "step1",
+      "system": "reproductive",
+      "discipline": "pathology",
+      "tags": ["images-reproductive", "histology", "breast"],
+      "front": "Excision of a firm, mobile, painless breast mass in a 24-year-old woman. The green ink marks the surgical margin. What is the lesion, and which two tissue components does it contain?",
+      "back": "**Fibroadenoma**: a well-circumscribed benign tumor with two components: proliferating **stroma** that compresses benign **ducts** into slit-like shapes. It is the most common benign breast tumor in young women and can grow with estrogen (pregnancy).",
+      "back_pt": "**Fibroadenoma**: tumor benigno bem delimitado com dois componentes: **estroma** em proliferação que comprime **ductos** benignos em fendas. É o tumor benigno de mama mais comum em mulheres jovens e pode crescer com estrogênio (gestação).",
+      "image_url": "images/reproductive/fibroadenoma-1.jpg",
+      "image_credit": "Mikael Häggström, M.D., CC0, https://commons.wikimedia.org/wiki/File:Histopathology_of_fibroadenoma_with_variable_gland_compression.jpg"
+    },
+    {
+      "slug": "card-img-reproductive-granulosa-cell-tumor",
+      "track": "step1",
+      "system": "reproductive",
+      "discipline": "pathology",
+      "tags": ["images-reproductive", "histology", "ovarian-tumor"],
+      "front": "Ovarian mass in a 60-year-old woman with postmenopausal bleeding. Note the small round spaces among the tumor cells. What is the tumor, and why does she bleed?",
+      "back": "**Granulosa cell tumor** (sex cord-stromal): sheets of small cells around small spaces filled with pink material (**Call-Exner bodies**). The tumor makes **estrogen**, which causes endometrial hyperplasia and bleeding (precocious puberty in girls). Marker: **inhibin**.",
+      "back_pt": "**Tumor de células da granulosa** (cordão sexual-estromal): lençóis de células pequenas ao redor de pequenos espaços com material róseo (**corpúsculos de Call-Exner**). O tumor produz **estrogênio**, que causa hiperplasia endometrial e sangramento (puberdade precoce em meninas). Marcador: **inibina**.",
+      "image_url": "images/reproductive/granulosa-cell-tumor-1.jpg",
+      "image_credit": "Nephron, CC BY-SA 3.0, https://commons.wikimedia.org/wiki/File:Granulosa_cell_tumour2.jpg"
+    }
+  ],
+  "questions": [
+    {
+      "slug": "q-img-reproductive-hydatidiform-mole",
+      "track": "step1",
+      "system": "reproductive",
+      "discipline": "pathology",
+      "tags": ["images-reproductive", "histology", "gestational-trophoblastic-disease"],
+      "stem": "A 22-year-old woman at 11 weeks' gestation has painless vaginal bleeding. The uterus is larger than expected for her dates. Serum beta-hCG is much higher than expected. Ultrasound shows no fetus. A micrograph of the tissue removed by uterine evacuation is shown. After the evacuation, which follow-up is most important?",
+      "choices": [
+        "Serial serum CA-125 levels",
+        "Serial serum alpha-fetoprotein levels",
+        "Serial serum beta-hCG levels until undetectable",
+        "Repeat pelvic ultrasound only if new bleeding occurs",
+        "Serial serum inhibin levels"
+      ],
+      "correct": 2,
+      "explanation": "The image shows a large, swollen (**hydropic**) chorionic villus with a central fluid-filled space and **trophoblast proliferation** around its edge. With a large uterus, very high hCG and no fetus, this is a **complete hydatidiform mole**. Moles can persist as **invasive mole** or progress to **choriocarcinoma**, so beta-hCG is followed until it is undetectable; a plateau or rise means gestational trophoblastic neoplasia. The most tempting wrong answer is ultrasound only when bleeding returns: persistent disease is often silent and is found by hCG, not by symptoms. CA-125, AFP and inhibin are markers for other tumors.",
+      "explanation_pt": "A imagem mostra uma vilosidade coriônica grande e inchada (**hidrópica**), com espaço central cheio de líquido e **proliferação do trofoblasto** em sua borda. Com útero aumentado, hCG muito alto e ausência de feto, trata-se de **mola hidatiforme completa**. A mola pode persistir como **mola invasora** ou evoluir para **coriocarcinoma**, por isso o beta-hCG é acompanhado até ficar indetectável; platô ou aumento indica neoplasia trofoblástica gestacional. A alternativa errada mais tentadora é ultrassom apenas se o sangramento voltar: a doença persistente costuma ser silenciosa e é detectada pelo hCG, não por sintomas. CA-125, AFP e inibina são marcadores de outros tumores.",
+      "image_url": "images/reproductive/hydatidiform-mole-1.jpg",
+      "image_credit": "Ed Uthman from Houston, TX, USA, CC BY 2.0, https://commons.wikimedia.org/wiki/File:Complete_Hydatidiform_Mole_(6032015405).jpg"
+    },
+    {
+      "slug": "q-img-reproductive-trichomonas",
+      "track": "step1",
+      "system": "reproductive",
+      "discipline": "microbiology",
+      "tags": ["images-reproductive", "microscopy", "vaginitis"],
+      "stem": "A 25-year-old woman has vaginal itching and a frothy, yellow-green vaginal discharge. Vaginal pH is 6.0. A saline wet mount of the discharge viewed with phase-contrast microscopy is shown; the small pear-shaped cells move quickly. Which management is most appropriate?",
+      "choices": [
+        "Oral fluconazole for the patient only",
+        "Oral metronidazole for the patient and her sexual partners",
+        "Topical clindamycin for the patient only",
+        "Intramuscular ceftriaxone plus oral doxycycline",
+        "No treatment, because this is normal vaginal flora"
+      ],
+      "correct": 1,
+      "explanation": "The wet mount shows many small, pear-shaped organisms with **flagella** clustered around squamous cells. Motile flagellated protozoa with itching, frothy yellow-green discharge and pH above 4.5 mean ***Trichomonas vaginalis***. It is **sexually transmitted**, so the patient and her **partners** are treated with **metronidazole** (or tinidazole). The most tempting wrong answer is fluconazole: it treats Candida, which gives thick white discharge, normal pH and pseudohyphae. Ceftriaxone plus doxycycline treats gonorrhea and chlamydia, and clindamycin is an option for bacterial vaginosis.",
+      "explanation_pt": "O exame a fresco mostra muitos organismos pequenos, em forma de pera, com **flagelos**, agrupados ao redor de células escamosas. Protozoários flagelados móveis com prurido, corrimento espumoso amarelo-esverdeado e pH acima de 4,5 indicam ***Trichomonas vaginalis***. É uma **infecção sexualmente transmissível**, então a paciente e seus **parceiros** são tratados com **metronidazol** (ou tinidazol). A alternativa errada mais tentadora é o fluconazol: ele trata Candida, que causa corrimento branco e espesso, pH normal e pseudo-hifas. Ceftriaxona com doxiciclina trata gonorreia e clamídia, e a clindamicina é uma opção para vaginose bacteriana.",
+      "image_url": "images/reproductive/trichomonas-1.jpg",
+      "image_credit": "CDC/ Joe Miller, Public domain, https://commons.wikimedia.org/wiki/File:14500_lores.jpg"
+    },
+    {
+      "slug": "q-img-reproductive-clue-cells",
+      "track": "step1",
+      "system": "reproductive",
+      "discipline": "microbiology",
+      "tags": ["images-reproductive", "microscopy", "vaginitis"],
+      "stem": "A 30-year-old woman has a thin, gray vaginal discharge for 1 week. She has no itching or pain, and the vaginal walls are not inflamed. A saline wet mount of the discharge is shown. Which additional finding is most likely?",
+      "choices": [
+        "Vaginal pH below 4.5",
+        "Pseudohyphae after adding potassium hydroxide",
+        "Many motile flagellated organisms",
+        "A fishy odor after adding potassium hydroxide",
+        "Gram-negative intracellular diplococci"
+      ],
+      "correct": 3,
+      "explanation": "The wet mount shows squamous cells whose surface and borders are covered by many small bacteria (**clue cells**). With thin gray discharge and no inflammation, this is **bacterial vaginosis**: lactobacilli are lost and *Gardnerella vaginalis* and anaerobes overgrow. Adding KOH releases amines and gives a **fishy odor** (positive whiff test), and the pH is **above 4.5**. The most tempting wrong answer is motile flagellated organisms: that is trichomoniasis, which usually causes itching and inflammation. Pseudohyphae mean Candida, and intracellular diplococci mean gonorrhea.",
+      "explanation_pt": "O exame a fresco mostra células escamosas com a superfície e as bordas cobertas por muitas bactérias pequenas (**clue cells**, ou células-guia). Com corrimento fino e acinzentado e sem inflamação, trata-se de **vaginose bacteriana**: os lactobacilos diminuem e *Gardnerella vaginalis* e anaeróbios proliferam. A adição de KOH libera aminas e produz **odor de peixe** (teste das aminas positivo), e o pH fica **acima de 4,5**. A alternativa errada mais tentadora é a presença de organismos flagelados móveis: isso é tricomoníase, que costuma causar prurido e inflamação. Pseudo-hifas indicam Candida, e diplococos intracelulares indicam gonorreia.",
+      "image_url": "images/reproductive/clue-cells-1.jpg",
+      "image_credit": "CDC/ M. Rein, Public domain, https://commons.wikimedia.org/wiki/File:Clue_cells_-_CDC_PHIL_3720.jpg"
+    },
+    {
+      "slug": "q-img-reproductive-invasive-ductal-carcinoma",
+      "track": "step1",
+      "system": "reproductive",
+      "discipline": "pathology",
+      "tags": ["images-reproductive", "histology", "breast"],
+      "stem": "A 58-year-old woman has a hard, irregular, painless mass in the upper outer quadrant of the left breast. Mammography shows a spiculated mass. A micrograph of the excised tumor is shown. Which is the most likely diagnosis?",
+      "choices": [
+        "Invasive ductal carcinoma",
+        "Invasive lobular carcinoma",
+        "Ductal carcinoma in situ",
+        "Fibroadenoma",
+        "Phyllodes tumor"
+      ],
+      "correct": 0,
+      "explanation": "The image shows atypical epithelial cells in **cohesive nests and cords** that **infiltrate** fibrous (desmoplastic) stroma and reach the fat. This is **invasive ductal carcinoma**, the most common breast cancer, which usually forms a hard, spiculated mass. The most tempting wrong answer is invasive lobular carcinoma: its cells are small and **discohesive** (loss of **E-cadherin**) and invade in **single file**, not in nests. DCIS stays inside ducts with an intact basement membrane. Fibroadenoma and phyllodes tumor are well-circumscribed stromal-epithelial lesions.",
+      "explanation_pt": "A imagem mostra células epiteliais atípicas em **ninhos e cordões coesos** que **infiltram** o estroma fibroso (desmoplásico) e chegam ao tecido adiposo. Trata-se de **carcinoma ductal invasivo**, o câncer de mama mais comum, que costuma formar uma massa endurecida e espiculada. A alternativa errada mais tentadora é o carcinoma lobular invasivo: suas células são pequenas e **pouco coesas** (perda de **E-caderina**) e invadem em **fila indiana**, não em ninhos. O CDIS fica dentro dos ductos, com membrana basal íntegra. Fibroadenoma e tumor filoides são lesões estromais-epiteliais bem delimitadas.",
+      "image_url": "images/reproductive/invasive-ductal-carcinoma-1.jpg",
+      "image_credit": "Mikael Häggström, M.D., CC0, https://commons.wikimedia.org/wiki/File:Histopathology_of_invasive_ductal_carcinoma,_intermediate_magnification.jpg"
+    },
+    {
+      "slug": "q-img-reproductive-ectopic-pregnancy",
+      "track": "step1",
+      "system": "reproductive",
+      "discipline": "pathology",
+      "tags": ["images-reproductive", "gross-pathology", "pregnancy"],
+      "stem": "A 25-year-old woman with a history of pelvic inflammatory disease has sudden severe lower abdominal pain. Her last menstrual period was 7 weeks ago. Blood pressure is 88/56 mm Hg, and serum beta-hCG is positive. Ultrasound shows an empty uterine cavity and free fluid in the pelvis. At emergency surgery, the specimen shown is removed. A biopsy of her endometrium at the same time would most likely show which finding?",
+      "choices": [
+        "Chorionic villi in the endometrium",
+        "Thin, inactive (atrophic) endometrium",
+        "Swollen villi with trophoblast proliferation",
+        "Proliferative endometrium with straight tubular glands",
+        "Decidualized endometrium without chorionic villi"
+      ],
+      "correct": 4,
+      "explanation": "The specimen is a resected **fallopian tube** with an intact gestational sac bulging from it and attached blood clot. With hypotension and free pelvic fluid, this is a ruptured **tubal ectopic pregnancy**. Past PID scars the tube and is a major risk factor. Hormones from the pregnancy (progesterone, hCG) still act on the uterus, so the endometrium becomes **decidualized**, but it contains **no chorionic villi** because the pregnancy is outside the uterus. The most tempting wrong answer is chorionic villi in the endometrium: villi in a uterine sample prove an intrauterine pregnancy. Swollen villi suggest a mole, and proliferative or atrophic endometrium does not fit a pregnancy.",
+      "explanation_pt": "A peça é uma **tuba uterina** ressecada, com saco gestacional íntegro fazendo saliência e coágulo aderido. Com hipotensão e líquido livre na pelve, trata-se de uma **gravidez ectópica tubária** rota. DIP prévia causa cicatrizes na tuba e é um fator de risco importante. Os hormônios da gestação (progesterona, hCG) continuam agindo no útero, então o endométrio fica **decidualizado**, mas **não contém vilosidades coriônicas**, porque a gestação está fora do útero. A alternativa errada mais tentadora é a presença de vilosidades coriônicas no endométrio: vilosidades em amostra uterina comprovam gravidez intrauterina. Vilosidades inchadas sugerem mola, e endométrio proliferativo ou atrófico não combina com gestação.",
+      "image_url": "images/reproductive/ectopic-pregnancy-1.jpg",
+      "image_credit": "Efraim Hart, CC BY-SA 4.0, https://commons.wikimedia.org/wiki/File:EUG_2.png"
+    }
+  ],
+  "notes": []
+}

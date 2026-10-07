@@ -1,0 +1,239 @@
+{
+  "cards": [
+    {
+      "slug": "card-img-renal-rbc-cast",
+      "track": "step1",
+      "system": "renal",
+      "discipline": "pathology",
+      "tags": [
+        "images-renal",
+        "urine-microscopy",
+        "glomerular-disease"
+      ],
+      "front": "Identify the structure seen in this urine sediment. Which part of the kidney does it point to?",
+      "back": "**Red blood cell cast**: a cylinder packed with red-brown red blood cells. Red cells leak through a damaged **glomerulus** and are trapped in tubular protein. It points to **glomerulonephritis** (nephritic syndrome).",
+      "back_pt": "**Cilindro hemático**: cilindro repleto de hemácias de cor castanho-avermelhada. As hemácias passam por um **glomérulo** lesado e ficam presas na proteína tubular. Indica **glomerulonefrite** (síndrome nefrítica).",
+      "image_url": "images/renal/rbc-cast-1.jpg",
+      "image_credit": "Rian Kabir (from Queremel Milani DA, Jialal I. Urinalysis. StatPearls), CC BY 2.0, https://commons.wikimedia.org/wiki/File:Red_blood_cell_cast_in_urine_sediment.jpg"
+    },
+    {
+      "slug": "card-img-renal-cystine-crystal",
+      "track": "step1",
+      "system": "renal",
+      "discipline": "pathology",
+      "tags": [
+        "images-renal",
+        "urine-microscopy",
+        "nephrolithiasis"
+      ],
+      "front": "Identify the crystal in the center of this urine sediment. Which inherited disorder does it suggest?",
+      "back": "**Cystine crystal**: flat, **hexagonal** crystal. It suggests **cystinuria**, an autosomal recessive defect of the proximal tubule transporter for cystine, ornithine, lysine and arginine. It causes recurrent stones from childhood.",
+      "back_pt": "**Cristal de cistina**: cristal plano e **hexagonal**. Sugere **cistinúria**, defeito autossômico recessivo do transportador do túbulo proximal para cistina, ornitina, lisina e arginina. Causa cálculos recorrentes desde a infância.",
+      "image_url": "images/renal/cystine-crystal-1.jpg",
+      "image_credit": "J3D3, CC BY-SA 4.0, https://commons.wikimedia.org/wiki/File:Cystine_Crystal_Urine.jpg"
+    },
+    {
+      "slug": "card-img-renal-calcium-oxalate",
+      "track": "step1",
+      "system": "renal",
+      "discipline": "pathology",
+      "tags": [
+        "images-renal",
+        "urine-microscopy",
+        "nephrolithiasis"
+      ],
+      "front": "Identify the square crystals with an X-shaped center in this urine sediment. What type of kidney stone do they form?",
+      "back": "**Calcium oxalate crystals** (dihydrate): colorless squares with an **envelope** shape. They form the **most common** kidney stone, which is radiopaque. Risks include hypercalciuria, fat malabsorption (e.g. Crohn disease) and ethylene glycol poisoning.",
+      "back_pt": "**Cristais de oxalato de cálcio** (di-hidratado): quadrados incolores em forma de **envelope**. Formam o cálculo renal **mais comum**, que é radiopaco. Fatores de risco: hipercalciúria, má absorção de gordura (p. ex. doença de Crohn) e intoxicação por etilenoglicol.",
+      "image_url": "images/renal/calcium-oxalate-1.jpg",
+      "image_credit": "NASA/JSC, Public domain, https://commons.wikimedia.org/wiki/File:Calcium_oxalate_crystals_in_urine.jpg"
+    },
+    {
+      "slug": "card-img-renal-crescentic-gn",
+      "track": "step1",
+      "system": "renal",
+      "discipline": "pathology",
+      "tags": [
+        "images-renal",
+        "histology",
+        "glomerular-disease"
+      ],
+      "front": "This kidney biopsy (PAS stain) is from a patient whose creatinine rose over a few weeks. Most glomeruli look like this. Name the pattern of injury and its three main immunologic groups.",
+      "back": "**Crescentic glomerulonephritis** (rapidly progressive GN): **crescents** of proliferating parietal cells, macrophages and fibrin fill Bowman space and compress the tuft. Groups: **anti-GBM** (linear IgG), **immune complex** (granular) and **pauci-immune** (often ANCA-positive).",
+      "back_pt": "**Glomerulonefrite crescêntica** (GN rapidamente progressiva): **crescentes** de células parietais em proliferação, macrófagos e fibrina ocupam o espaço de Bowman e comprimem o tufo. Grupos: **anti-MBG** (IgG linear), **por imunocomplexos** (granular) e **pauci-imune** (em geral ANCA positivo).",
+      "image_url": "images/renal/crescentic-gn-1.jpg",
+      "image_credit": "Nephron, CC BY-SA 3.0, https://commons.wikimedia.org/wiki/File:Crescentic_glomerulonephritis_-_intermed_mag.jpg"
+    },
+    {
+      "slug": "card-img-renal-staghorn-calculus",
+      "track": "step1",
+      "system": "renal",
+      "discipline": "pathology",
+      "tags": [
+        "images-renal",
+        "gross-pathology",
+        "nephrolithiasis"
+      ],
+      "front": "This branched stone was removed from a renal pelvis. What is this stone shape called, and which stone type classically forms it?",
+      "back": "**Staghorn calculus**: a large branched stone that fills the renal pelvis and calyces. It is classically **struvite** (magnesium ammonium phosphate), formed in **alkaline urine** during infection with **urease-producing** bacteria such as *Proteus*.",
+      "back_pt": "**Cálculo coraliforme** (*staghorn*): cálculo grande e ramificado que ocupa a pelve e os cálices renais. Classicamente é de **estruvita** (fosfato de amônio e magnésio), formado em **urina alcalina** durante infecção por bactérias **produtoras de urease**, como *Proteus*.",
+      "image_url": "images/renal/staghorn-calculus-1.jpg",
+      "image_credit": "Dr. Roshan Nasimudeen, CC BY-SA 3.0, https://commons.wikimedia.org/wiki/File:Renal_stone.jpg"
+    },
+    {
+      "slug": "card-img-renal-horseshoe-kidney",
+      "track": "step1",
+      "system": "renal",
+      "discipline": "embryology",
+      "tags": [
+        "images-renal",
+        "imaging",
+        "kidney-development"
+      ],
+      "front": "This axial CT of the lower abdomen was taken with the patient lying face down, so the spine is at the top. Look at the kidney tissue in front of the spine and aorta. Identify the anomaly. Why do these kidneys sit low?",
+      "back": "**Horseshoe kidney**: the **lower poles are fused** by a band of renal tissue (isthmus) that crosses in front of the aorta. During ascent the isthmus is trapped under the **inferior mesenteric artery**, so the kidneys stay low. Associated with **Turner syndrome**.",
+      "back_pt": "**Rim em ferradura**: os **polos inferiores estão fundidos** por uma faixa de tecido renal (istmo) que cruza à frente da aorta. Durante a ascensão, o istmo fica preso sob a **artéria mesentérica inferior**, e os rins permanecem baixos. Associado à **síndrome de Turner**.",
+      "image_url": "images/renal/horseshoe-kidney-ct-1.jpg",
+      "image_credit": "James Heilman, MD, CC BY-SA 4.0, https://commons.wikimedia.org/wiki/File:HorseshoeKid.png"
+    },
+    {
+      "slug": "card-img-renal-rcc",
+      "track": "step1",
+      "system": "renal",
+      "discipline": "pathology",
+      "tags": [
+        "images-renal",
+        "gross-pathology",
+        "renal-neoplasia"
+      ],
+      "front": "This nephrectomy specimen from a 62-year-old smoker with hematuria shows a mass in the lower pole. Identify the tumor. Which cells does it arise from?",
+      "back": "**Renal cell carcinoma** (clear cell type): a well-circumscribed, **golden-yellow** mass (lipid-rich cells) with hemorrhage, necrosis and cystic areas. It arises from **proximal tubule** epithelium and is linked to loss of **VHL** on chromosome 3p.",
+      "back_pt": "**Carcinoma de células renais** (tipo células claras): massa bem delimitada, **amarelo-dourada** (células ricas em lipídios), com hemorragia, necrose e áreas císticas. Origina-se do epitélio do **túbulo proximal** e se associa à perda do **VHL** no cromossomo 3p.",
+      "image_url": "images/renal/renal-cell-carcinoma-1.jpg",
+      "image_credit": "Ed Uthman, MD, Public domain, https://commons.wikimedia.org/wiki/File:Renal_cell_carcinoma.jpg"
+    }
+  ],
+  "questions": [
+    {
+      "slug": "q-img-renal-wbc-cast",
+      "track": "step1",
+      "system": "renal",
+      "discipline": "pathology",
+      "tags": [
+        "images-renal",
+        "urine-microscopy",
+        "urinary-tract-infection"
+      ],
+      "stem": "A 24-year-old woman comes to the clinic with fever, chills, right flank pain and painful urination for 2 days. Temperature is 39.2°C. There is right costovertebral angle tenderness. Microscopy of her urine sediment shows the structure in the image. Where is the inflammation that produced this structure most likely located?",
+      "choices": [
+        "Bladder mucosa only",
+        "Urethra",
+        "Glomerular capillary walls",
+        "Renal tubules and interstitium",
+        "Vaginal mucosa"
+      ],
+      "correct": 3,
+      "explanation": "The image shows a **white blood cell cast**: a cylinder of protein with trapped round, granular white cells. Casts form only inside **renal tubules**, so white cell casts place the inflammation in the **kidney** (tubules and interstitium). With fever and flank pain, this is **acute pyelonephritis**. The most tempting wrong answer is the bladder: **cystitis** also causes pyuria and dysuria, but it does not make casts and usually has no fever or flank pain. Glomerular injury typically produces red blood cell casts, not white cell casts.",
+      "explanation_pt": "A imagem mostra um **cilindro leucocitário**: um cilindro de proteína com leucócitos redondos e granulosos presos. Cilindros só se formam dentro dos **túbulos renais**, então cilindros leucocitários localizam a inflamação no **rim** (túbulos e interstício). Com febre e dor lombar, trata-se de **pielonefrite aguda**. A resposta errada mais tentadora é a bexiga: a **cistite** também causa piúria e disúria, mas não forma cilindros e em geral não tem febre nem dor lombar. A lesão glomerular costuma produzir cilindros hemáticos, não cilindros leucocitários.",
+      "image_url": "images/renal/wbc-cast-1.jpg",
+      "image_credit": "Ajay Kumar Chaurasiya, CC BY-SA 4.0, https://commons.wikimedia.org/wiki/File:WBC_cast_in_urine.jpg"
+    },
+    {
+      "slug": "q-img-renal-adpkd",
+      "track": "step1",
+      "system": "renal",
+      "discipline": "pathology",
+      "tags": [
+        "images-renal",
+        "gross-pathology",
+        "cystic-kidney-disease"
+      ],
+      "stem": "A 47-year-old man with long-standing hypertension and end-stage kidney disease has both kidneys removed before a kidney transplant. His father also needed dialysis in middle age. The cut surface of one kidney is shown. A mutation in which gene most likely causes his disease?",
+      "choices": [
+        "PKD1 on chromosome 16",
+        "PKHD1 on chromosome 6",
+        "VHL on chromosome 3",
+        "WT1 on chromosome 11",
+        "COL4A5 on the X chromosome"
+      ],
+      "correct": 0,
+      "explanation": "The kidney is greatly enlarged and its tissue is replaced by **many cysts** of different sizes: **autosomal dominant polycystic kidney disease** (ADPKD). An affected father fits dominant inheritance. Most cases are caused by **PKD1** (polycystin-1) on chromosome 16; PKD2 on chromosome 4 causes the rest. The most tempting wrong answer is **PKHD1**: it causes the autosomal recessive form, which presents in infants with small cysts, oligohydramnios and liver fibrosis. VHL causes clear cell renal cell carcinoma and cysts, WT1 relates to Wilms tumor, and COL4A5 causes Alport syndrome, which does not make large cysts.",
+      "explanation_pt": "O rim está muito aumentado e o parênquima foi substituído por **múltiplos cistos** de tamanhos variados: **doença renal policística autossômica dominante** (DRPAD). Um pai afetado combina com herança dominante. A maioria dos casos é causada pelo gene **PKD1** (policistina-1), no cromossomo 16; o PKD2, no cromossomo 4, causa o restante. A resposta errada mais tentadora é o **PKHD1**: ele causa a forma autossômica recessiva, que se manifesta no lactente com cistos pequenos, oligoidrâmnio e fibrose hepática. O VHL causa carcinoma de células renais de células claras e cistos, o WT1 se relaciona ao tumor de Wilms e o COL4A5 causa a síndrome de Alport, que não forma grandes cistos.",
+      "image_url": "images/renal/adpkd-1.jpg",
+      "image_credit": "Ed Uthman, CC BY 2.0, https://commons.wikimedia.org/wiki/File:Adult_Polycystic_Kidney.jpg"
+    },
+    {
+      "slug": "q-img-renal-ureteral-stone-ct",
+      "track": "step1",
+      "system": "renal",
+      "discipline": "pathology",
+      "tags": [
+        "images-renal",
+        "imaging",
+        "nephrolithiasis"
+      ],
+      "stem": "A 38-year-old man comes to the emergency department with sudden, severe right flank pain that comes in waves and spreads to the groin. Urinalysis shows blood. A non-contrast CT scan of the abdomen is shown; the arrow marks the key finding. Which composition is most likely for the structure marked by the arrow?",
+      "choices": [
+        "Uric acid",
+        "Magnesium ammonium phosphate",
+        "Calcium oxalate",
+        "Cystine",
+        "Calcium phosphate"
+      ],
+      "correct": 2,
+      "explanation": "The CT shows a small, very bright (dense) **stone** near the right renal pelvis and proximal ureter, with mild dilation of the collecting system. Colicky flank pain to the groin with hematuria fits **nephrolithiasis**. **Calcium oxalate** is by far the most common stone in adults, so it is the most likely composition. The most tempting wrong answer is **uric acid**: these stones are radiolucent on plain X-ray, but they are still visible on CT, so CT density alone does not rule them out; they are simply much less common and favored by acidic urine or gout. Struvite stones usually need a urease-positive infection, and cystine stones need cystinuria.",
+      "explanation_pt": "A TC mostra um pequeno **cálculo** muito brilhante (denso) próximo à pelve renal direita e ao ureter proximal, com leve dilatação do sistema coletor. Dor lombar em cólica irradiada para a virilha com hematúria indica **nefrolitíase**. O **oxalato de cálcio** é de longe o cálculo mais comum no adulto, então é a composição mais provável. A resposta errada mais tentadora é o **ácido úrico**: esses cálculos são radiotransparentes na radiografia simples, mas aparecem na TC, então a densidade na TC sozinha não os exclui; eles são apenas bem menos comuns e favorecidos por urina ácida ou gota. Cálculos de estruvita em geral exigem infecção por germe produtor de urease, e os de cistina exigem cistinúria.",
+      "image_url": "images/renal/ureteral-stone-ct-1.jpg",
+      "image_credit": "James Heilman, MD, CC BY-SA 3.0, https://commons.wikimedia.org/wiki/File:KidneyStone.JPG"
+    },
+    {
+      "slug": "q-img-renal-granular-cast-atn",
+      "track": "step1",
+      "system": "renal",
+      "discipline": "pathology",
+      "tags": [
+        "images-renal",
+        "urine-microscopy",
+        "acute-kidney-injury"
+      ],
+      "stem": "A 67-year-old man has cardiac surgery complicated by several hours of low blood pressure. Over the next 2 days his urine output falls and his serum creatinine doubles. His fractional excretion of sodium is above 2%. Microscopy of his urine sediment shows many structures like those in the image. What is the most likely diagnosis?",
+      "choices": [
+        "Prerenal azotemia",
+        "Acute interstitial nephritis",
+        "Rapidly progressive glomerulonephritis",
+        "Bilateral ureteral obstruction",
+        "Acute tubular necrosis"
+      ],
+      "correct": 4,
+      "explanation": "The image shows **coarse granular casts** (the 'muddy brown' casts of tubular injury): cylinders filled with debris from dead tubular cells. After prolonged hypotension, ischemia kills tubular cells, which slough into the lumen and form these casts. A high fractional excretion of sodium shows that the tubules can no longer reabsorb sodium. This is **ischemic acute tubular necrosis**. The most tempting wrong answer is **prerenal azotemia**, which follows the same low blood pressure; but in prerenal disease the tubules still work, the FENa is below 1% and the sediment is bland (at most hyaline casts). Interstitial nephritis gives white cell casts, and glomerulonephritis gives red cell casts.",
+      "explanation_pt": "A imagem mostra **cilindros granulosos grosseiros** (os cilindros 'marrom-barrentos', *muddy brown*, da lesão tubular): cilindros cheios de restos de células tubulares mortas. Após hipotensão prolongada, a isquemia mata as células tubulares, que se descamam para a luz e formam esses cilindros. A fração de excreção de sódio alta mostra que os túbulos não conseguem mais reabsorver sódio. Trata-se de **necrose tubular aguda isquêmica**. A resposta errada mais tentadora é a **azotemia pré-renal**, que segue a mesma hipotensão; mas na doença pré-renal os túbulos ainda funcionam, a FENa fica abaixo de 1% e o sedimento é pobre (no máximo cilindros hialinos). A nefrite intersticial dá cilindros leucocitários, e a glomerulonefrite dá cilindros hemáticos.",
+      "image_url": "images/renal/granular-cast-1.jpg",
+      "image_credit": "Ajay Kumar Chaurasiya, CC BY 4.0, https://commons.wikimedia.org/wiki/File:Granular_Casts_in_Urine_Microscopy.jpg"
+    },
+    {
+      "slug": "q-img-renal-diabetic-nephropathy",
+      "track": "step1",
+      "system": "renal",
+      "discipline": "pathology",
+      "tags": [
+        "images-renal",
+        "histology",
+        "glomerular-disease"
+      ],
+      "stem": "A 58-year-old woman has had poorly controlled type 2 diabetes mellitus for 15 years. She now has rising proteinuria and a slowly increasing serum creatinine. A kidney biopsy is shown. Which mechanism best explains how an ACE inhibitor slows the progression of her kidney disease?",
+      "choices": [
+        "Constriction of the afferent arteriole",
+        "Dilation of the efferent arteriole",
+        "Increased reabsorption of glucose in the proximal tubule",
+        "Blockade of sodium reabsorption in the thick ascending limb",
+        "Increased angiotensin II activity at the efferent arteriole"
+      ],
+      "correct": 1,
+      "explanation": "The glomerulus shows round, pink, nearly acellular **nodules of mesangial matrix** (Kimmelstiel-Wilson nodules), with a thickened, glassy arteriole nearby: **diabetic nodular glomerulosclerosis**. In diabetes, glomerular hyperfiltration and high intraglomerular pressure damage the glomerulus. Angiotensin II mainly constricts the **efferent** arteriole, so an ACE inhibitor **dilates the efferent arteriole**, lowers glomerular pressure and reduces protein leak. The most tempting wrong answer is afferent arteriole constriction: it would also lower glomerular pressure, but ACE inhibitors do not act there. Increasing angiotensin II activity would raise glomerular pressure, and loop-diuretic action in the thick ascending limb does not protect the glomerulus. ACE inhibitors do not change proximal glucose reabsorption.",
+      "explanation_pt": "O glomérulo mostra **nódulos de matriz mesangial** redondos, rosados e quase acelulares (nódulos de Kimmelstiel-Wilson), com uma arteríola espessada e hialina ao lado: **glomeruloesclerose nodular diabética**. No diabetes, a hiperfiltração e a pressão intraglomerular alta lesam o glomérulo. A angiotensina II contrai principalmente a arteríola **eferente**, então um IECA **dilata a arteríola eferente**, reduz a pressão glomerular e diminui a perda de proteína. A resposta errada mais tentadora é a constrição da arteríola aferente: ela também reduziria a pressão glomerular, mas os IECA não agem ali. Aumentar a atividade da angiotensina II elevaria a pressão glomerular, e a ação de diurético de alça na alça ascendente espessa não protege o glomérulo. Os IECA não alteram a reabsorção proximal de glicose.",
+      "image_url": "images/renal/diabetic-nephropathy-1.jpg",
+      "image_credit": "Doc.mari, CC BY-SA 3.0, https://commons.wikimedia.org/wiki/File:Diabetic_nephropathy.jpg"
+    }
+  ],
+  "notes": []
+}

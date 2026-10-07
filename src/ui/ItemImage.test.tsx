@@ -41,3 +41,13 @@ test('http src is treated as relative, not passed through', () => {
   render(<ItemImage src="http://example.com/a.jpg" />);
   expect(screen.getByRole('img').getAttribute('src')).toBe(`${base}http://example.com/a.jpg`);
 });
+test('credit is collapsed by default so a file name cannot reveal the answer', () => {
+  render(<ItemImage src="images/a.jpg" credit="Jane, CC0, https://x.org/Lobar_pneumonia.jpg" />);
+  const d = document.querySelector('details') as HTMLDetailsElement;
+  expect(d).toBeTruthy();
+  expect(d.open).toBe(false);
+});
+test('renders no stray source text next to the credit', () => {
+  const { container } = render(<ItemImage src="images/a.jpg" credit="Jane, CC0" />);
+  expect(container.textContent).toBe('Image creditJane, CC0');
+});

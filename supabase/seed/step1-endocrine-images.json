@@ -1,0 +1,179 @@
+{
+  "cards": [
+    {
+      "slug": "card-img-endocrine-hashimoto-thyroiditis",
+      "track": "step1",
+      "system": "endocrine",
+      "discipline": "pathology",
+      "tags": ["images-endocrine", "histology", "thyroid"],
+      "front": "This H&E section comes from the thyroid of a middle-aged woman with fatigue and weight gain. Identify the disease. What are the key features?",
+      "back": "**Hashimoto thyroiditis**: a dense **lymphocytic infiltrate** that forms a **lymphoid follicle** (left), with small, damaged follicles (right). Antibodies against **thyroid peroxidase** and thyroglobulin. It raises the risk of **thyroid B-cell lymphoma**.",
+      "back_pt": "**Tireoidite de Hashimoto**: **infiltrado linfocitário** denso que forma um **folículo linfoide** (à esquerda), com folículos pequenos e lesados (à direita). Anticorpos contra a **tireoperoxidase** e a tireoglobulina. Aumenta o risco de **linfoma B da tireoide**.",
+      "image_url": "images/endocrine/hashimoto-thyroiditis-1.jpg",
+      "image_credit": "Librepath, CC BY-SA 3.0, https://commons.wikimedia.org/wiki/File:Hashimoto_thyroiditis_--_intermed_mag.jpg"
+    },
+    {
+      "slug": "card-img-endocrine-graves-histology",
+      "track": "step1",
+      "system": "endocrine",
+      "discipline": "pathology",
+      "tags": ["images-endocrine", "histology", "thyroid"],
+      "front": "This thyroid section comes from a young woman with weight loss, tremor and a diffusely enlarged gland. Describe the findings. What causes them?",
+      "back": "**Graves disease**: **tall columnar** follicular cells with **papillary infoldings**, and pale colloid with **scalloped edges** (small vacuoles next to the cells). Cause: antibodies that **stimulate the TSH receptor** (type II hypersensitivity).",
+      "back_pt": "**Doença de Graves**: células foliculares **colunares altas** com **projeções papilares**, e coloide pálido com **bordas festonadas** (pequenos vacúolos junto às células). Causa: anticorpos que **estimulam o receptor de TSH** (hipersensibilidade tipo II).",
+      "image_url": "images/endocrine/graves-histology-1.jpg",
+      "image_credit": "Librepath, CC BY-SA 3.0, https://commons.wikimedia.org/wiki/File:Graves_disease_--_high_mag.jpg"
+    },
+    {
+      "slug": "card-img-endocrine-papillary-carcinoma",
+      "track": "step1",
+      "system": "endocrine",
+      "discipline": "pathology",
+      "tags": ["images-endocrine", "histology", "thyroid-cancer"],
+      "front": "This H&E section comes from a cold thyroid nodule. Look closely at the nuclei. What is the diagnosis, and which nuclear features support it?",
+      "back": "**Papillary thyroid carcinoma**: crowded, **overlapping** oval nuclei with **pale, empty-looking chromatin** (\"Orphan Annie eye\") and **nuclear grooves**. It is the most common thyroid cancer and spreads mainly to **cervical lymph nodes**.",
+      "back_pt": "**Carcinoma papilífero da tireoide**: núcleos ovais **sobrepostos** e aglomerados, com **cromatina clara, de aspecto vazio** (\"olhos da órfã Annie\") e **fendas nucleares**. É o câncer de tireoide mais comum e se espalha principalmente para os **linfonodos cervicais**.",
+      "image_url": "images/endocrine/papillary-carcinoma-1.jpg",
+      "image_credit": "Nephron, CC BY-SA 3.0, https://commons.wikimedia.org/wiki/File:Papillary_thyroid_carcinoma_tall_cell_var_high_mag.jpg"
+    },
+    {
+      "slug": "card-img-endocrine-psammoma-body",
+      "track": "step1",
+      "system": "endocrine",
+      "discipline": "pathology",
+      "tags": ["images-endocrine", "histology", "thyroid-cancer"],
+      "front": "This round, layered structure was found in a section of a thyroid nodule. What is it, and which thyroid cancer does it suggest?",
+      "back": "**Psammoma body**: a round, **concentrically laminated** focus of **dystrophic calcification**. In the thyroid it suggests **papillary carcinoma**. It is also seen in serous ovarian carcinoma, meningioma and mesothelioma.",
+      "back_pt": "**Corpo psamomatoso**: foco arredondado e **laminado em camadas concêntricas** de **calcificação distrófica**. Na tireoide, sugere **carcinoma papilífero**. Também aparece no carcinoma seroso de ovário, no meningioma e no mesotelioma.",
+      "image_url": "images/endocrine/psammoma-body-1.jpg",
+      "image_credit": "Eriugen, CC BY-SA 4.0, https://commons.wikimedia.org/wiki/File:Psammoma_body_Papillary_thyroid_carcinoma_magnx400.jpg"
+    },
+    {
+      "slug": "card-img-endocrine-pheochromocytoma",
+      "track": "step1",
+      "system": "endocrine",
+      "discipline": "pathology",
+      "tags": ["images-endocrine", "gross-pathology", "adrenal"],
+      "front": "This adrenal gland was removed from a patient with episodes of headache, sweating and palpitations. Identify the lesion. Which tests confirm the diagnosis?",
+      "back": "**Pheochromocytoma**: a well-defined, tan-pink tumor with hemorrhage, arising from the **adrenal medulla**; a rim of yellow normal adrenal is seen at the left. It is a tumor of **chromaffin cells**. Confirm with **plasma free or urine fractionated metanephrines**.",
+      "back_pt": "**Feocromocitoma**: tumor bem delimitado, castanho-rosado, com hemorragia, originado da **medula adrenal**; à esquerda vê-se adrenal normal amarelada. É um tumor de **células cromafins**. Confirmação com **metanefrinas livres plasmáticas ou fracionadas urinárias**.",
+      "image_url": "images/endocrine/pheochromocytoma-1.jpg",
+      "image_credit": "Michael Feldman, MD, PhD, University of Pennsylvania School of Medicine, CC BY 2.0, https://commons.wikimedia.org/wiki/File:Adrenal_paraganglioma_clinical_Pheochromocytoma.jpg"
+    },
+    {
+      "slug": "card-img-endocrine-diabetic-retinopathy",
+      "track": "step1",
+      "system": "endocrine",
+      "discipline": "pathology",
+      "tags": ["images-endocrine", "fundus", "diabetes"],
+      "front": "This fundus photo comes from a patient with long-standing, poorly controlled diabetes. What is the key finding on and around the optic disc, and what drives it?",
+      "back": "**Proliferative diabetic retinopathy**: a tangle of fine **new vessels (neovascularization)** on and around the optic disc. Retinal **ischemia** releases **VEGF**. The fragile vessels can cause **vitreous hemorrhage** and **tractional retinal detachment**.",
+      "back_pt": "**Retinopatia diabética proliferativa**: emaranhado de **vasos novos finos (neovascularização)** sobre o disco óptico e ao redor dele. A **isquemia** da retina libera **VEGF**. Os vasos frágeis podem causar **hemorragia vítrea** e **descolamento de retina tracional**.",
+      "image_url": "images/endocrine/diabetic-retinopathy-1.jpg",
+      "image_credit": "National Eye Institute, National Institutes of Health, Public domain, https://commons.wikimedia.org/wiki/File:Fundus_Proliferative_retinopathy_EDA01.JPG"
+    }
+  ],
+  "questions": [
+    {
+      "slug": "q-img-endocrine-medullary-carcinoma",
+      "track": "step1",
+      "system": "endocrine",
+      "discipline": "pathology",
+      "tags": ["images-endocrine", "histology", "thyroid-cancer"],
+      "stem": "A 34-year-old man has a firm nodule in his thyroid. His father had thyroid surgery for cancer and later had an adrenal tumor removed. A biopsy of the nodule is shown: nests of small, round cells with pink, amorphous material between them. Which substance does this tumor most likely secrete?",
+      "choices": [
+        "Thyroglobulin",
+        "Calcitonin",
+        "Parathyroid hormone",
+        "Parathyroid hormone-related peptide",
+        "Serotonin"
+      ],
+      "correct": 1,
+      "explanation": "This is **medullary thyroid carcinoma**, a tumor of the **parafollicular C cells**. The pink, amorphous material is **amyloid** made from **calcitonin** (apple-green birefringence with Congo red). The family history fits **MEN 2** (RET mutation): medullary carcinoma plus pheochromocytoma. The most tempting wrong answer is thyroglobulin: it is made by **follicular** cells, so it is a marker for papillary and follicular carcinoma, not for C-cell tumors. PTH comes from the parathyroid glands, PTHrP is typical of squamous cell carcinomas, and serotonin of carcinoid tumors.",
+      "explanation_pt": "Trata-se de **carcinoma medular da tireoide**, tumor das **células C parafoliculares**. O material rosado e amorfo é **amiloide** formado a partir da **calcitonina** (birrefringência verde-maçã no vermelho Congo). A história familiar sugere **NEM 2** (mutação do RET): carcinoma medular mais feocromocitoma. A alternativa errada mais tentadora é tireoglobulina: ela é produzida pelas células **foliculares**, portanto é marcador dos carcinomas papilífero e folicular, e não de tumores de células C. O PTH vem das paratireoides, o PTHrP é típico dos carcinomas espinocelulares e a serotonina, dos tumores carcinoides.",
+      "image_url": "images/endocrine/medullary-carcinoma-1.jpg",
+      "image_credit": "Sarahkayb, CC BY-SA 4.0, https://commons.wikimedia.org/wiki/File:Thyroid_MedullaryCarcinoma_Amyloid_MP_PA.JPG"
+    },
+    {
+      "slug": "q-img-endocrine-bilateral-pheochromocytoma",
+      "track": "step1",
+      "system": "endocrine",
+      "discipline": "pathology",
+      "tags": ["images-endocrine", "gross-pathology", "men-syndromes"],
+      "stem": "A 30-year-old man has episodes of severe hypertension, headache and sweating. His serum calcium and parathyroid hormone are both high. Both of his adrenal glands are removed; the cut surfaces are shown. Which other tumor is he most likely to develop?",
+      "choices": [
+        "Pituitary adenoma",
+        "Pancreatic gastrinoma",
+        "Cerebellar hemangioblastoma",
+        "Medullary thyroid carcinoma",
+        "Renal cell carcinoma"
+      ],
+      "correct": 3,
+      "explanation": "Both adrenals contain large, nodular tumors: **bilateral pheochromocytomas**. With **primary hyperparathyroidism**, this is **MEN 2A** (germline **RET** mutation). Almost all patients with MEN 2A develop **medullary thyroid carcinoma**, so prophylactic thyroidectomy is advised for carriers. The most tempting wrong answers belong to other syndromes: pituitary adenoma and gastrinoma are part of **MEN 1**, which also has hyperparathyroidism but not pheochromocytoma. Hemangioblastoma and renal cell carcinoma occur in **von Hippel-Lindau** disease, which can cause bilateral pheochromocytomas but not hyperparathyroidism.",
+      "explanation_pt": "As duas adrenais contêm tumores grandes e nodulares: **feocromocitomas bilaterais**. Com **hiperparatireoidismo primário**, trata-se de **NEM 2A** (mutação germinativa do **RET**). Quase todos os pacientes com NEM 2A desenvolvem **carcinoma medular da tireoide**, por isso a tireoidectomia profilática é indicada aos portadores. As alternativas erradas mais tentadoras pertencem a outras síndromes: adenoma hipofisário e gastrinoma fazem parte da **NEM 1**, que também tem hiperparatireoidismo, mas não feocromocitoma. Hemangioblastoma e carcinoma de células renais ocorrem na doença de **von Hippel-Lindau**, que pode causar feocromocitomas bilaterais, mas não hiperparatireoidismo.",
+      "image_url": "images/endocrine/bilateral-pheochromocytoma-1.jpg",
+      "image_credit": "AFIP Atlas of Tumor Pathology, Public domain, https://commons.wikimedia.org/wiki/File:Bilateral_pheo_MEN2.jpg"
+    },
+    {
+      "slug": "q-img-endocrine-adrenal-hemorrhage",
+      "track": "step1",
+      "system": "endocrine",
+      "discipline": "pathology",
+      "tags": ["images-endocrine", "gross-pathology", "adrenal"],
+      "stem": "A 6-year-old boy has a sudden high fever and a spreading purpuric rash. Within hours he develops shock that does not respond to fluids, and he dies. Both adrenal glands from the autopsy are shown. Which set of laboratory findings would most likely have been present before death?",
+      "choices": [
+        "Low cortisol, high ACTH, low sodium, high potassium",
+        "High cortisol, low ACTH, normal sodium, low potassium",
+        "Low cortisol, low ACTH, low sodium, normal potassium",
+        "Normal cortisol, low renin, high sodium, low potassium",
+        "Low cortisol, high ACTH, high sodium, low potassium"
+      ],
+      "correct": 0,
+      "explanation": "Both adrenals are enlarged, with dark, hemorrhagic centers: **bilateral adrenal hemorrhage** (**Waterhouse-Friderichsen syndrome**), classically from ***Neisseria meningitidis*** sepsis with DIC. Destruction of the cortex causes **acute primary adrenal insufficiency**: **low cortisol** with **high ACTH**, and loss of aldosterone gives **hyponatremia** and **hyperkalemia**. The most tempting wrong answer is low cortisol with low ACTH: this is **secondary** (pituitary) insufficiency, where aldosterone is mostly preserved, so potassium stays normal. High cortisol with low ACTH is an adrenal Cushing tumor, and low renin with hypokalemia is primary hyperaldosteronism.",
+      "explanation_pt": "As duas adrenais estão aumentadas, com centros escuros e hemorrágicos: **hemorragia adrenal bilateral** (**síndrome de Waterhouse-Friderichsen**), classicamente por sepse por ***Neisseria meningitidis*** com CIVD. A destruição do córtex causa **insuficiência adrenal primária aguda**: **cortisol baixo** com **ACTH alto**, e a perda de aldosterona gera **hiponatremia** e **hipercalemia**. A alternativa errada mais tentadora é cortisol baixo com ACTH baixo: isso é insuficiência **secundária** (hipofisária), em que a aldosterona fica em grande parte preservada, então o potássio permanece normal. Cortisol alto com ACTH baixo é tumor adrenal com síndrome de Cushing, e renina baixa com hipocalemia é hiperaldosteronismo primário.",
+      "image_url": "images/endocrine/adrenal-hemorrhage-1.jpg",
+      "image_credit": "Amadalvarez, CC BY-SA 4.0, https://commons.wikimedia.org/wiki/File:Waterhouse-Friderichsen._IMG_2912.jpg"
+    },
+    {
+      "slug": "q-img-endocrine-pituitary-macroadenoma",
+      "track": "step1",
+      "system": "endocrine",
+      "discipline": "pathology",
+      "tags": ["images-endocrine", "mri", "pituitary"],
+      "stem": "A 52-year-old man has headaches and has noticed that his rings and shoes no longer fit. He has a large jaw and wide spaces between his teeth. A coronal contrast-enhanced MRI of the head is shown. Which visual field defect is he most likely to have?",
+      "choices": [
+        "Left homonymous hemianopia",
+        "Right monocular vision loss",
+        "Left superior quadrantanopia",
+        "Central scotoma in both eyes",
+        "Bitemporal hemianopia"
+      ],
+      "correct": 4,
+      "explanation": "The MRI shows a large, enhancing **pituitary macroadenoma** that grows up out of the sella. With the clinical signs, it is a **GH-secreting adenoma** (acromegaly). Upward growth presses on the **optic chiasm**, where the crossing fibers from the **nasal retinas** run, so both **temporal** fields are lost: **bitemporal hemianopia**. The most tempting wrong answer is homonymous hemianopia: it comes from a lesion **behind** the chiasm (optic tract, radiations or occipital cortex). A lesion of one optic nerve causes monocular loss, and a superior quadrantanopia comes from Meyer loop in the temporal lobe.",
+      "explanation_pt": "A RM mostra um grande **macroadenoma hipofisário** com realce, que cresce para cima a partir da sela. Com os sinais clínicos, é um **adenoma secretor de GH** (acromegalia). O crescimento para cima comprime o **quiasma óptico**, onde passam as fibras cruzadas das **retinas nasais**, então os dois campos **temporais** se perdem: **hemianopsia bitemporal**. A alternativa errada mais tentadora é a hemianopsia homônima: ela vem de lesão **atrás** do quiasma (trato óptico, radiações ou córtex occipital). Lesão de um nervo óptico causa perda monocular, e a quadrantanopsia superior vem da alça de Meyer no lobo temporal.",
+      "image_url": "images/endocrine/pituitary-macroadenoma-1.jpg",
+      "image_credit": "Philippe Chanson and Sylvie Salenave, CC BY 2.0, https://commons.wikimedia.org/wiki/File:Acromegaly_pituitary_macroadenoma.JPEG"
+    },
+    {
+      "slug": "q-img-endocrine-thyroid-scan",
+      "track": "step1",
+      "system": "endocrine",
+      "discipline": "pathology",
+      "tags": ["images-endocrine", "nuclear-medicine", "thyroid"],
+      "stem": "A 58-year-old woman has palpitations, heat intolerance and weight loss. A single nodule is felt in her thyroid. Her TSH is low and her free T4 is high. A technetium thyroid scan is shown. What is the most likely diagnosis?",
+      "choices": [
+        "Graves disease",
+        "Toxic multinodular goiter",
+        "Toxic adenoma",
+        "Subacute granulomatous thyroiditis",
+        "Papillary thyroid carcinoma"
+      ],
+      "correct": 2,
+      "explanation": "The scan shows one intense **\"hot\" nodule** in the lower part of the gland, while the rest of the gland takes up very little tracer. The nodule makes hormone on its own, and the high T4 **suppresses TSH**, so the normal tissue is quiet. This is a **toxic adenoma**. The most tempting wrong answer is toxic multinodular goiter: it shows **several** patchy hot and cold areas, not one nodule. Graves disease gives **diffuse** high uptake in both lobes. Thyroiditis gives **low** uptake because hormone leaks from damaged follicles. Thyroid cancers are usually **cold** nodules.",
+      "explanation_pt": "A cintilografia mostra um único **nódulo \"quente\"** intenso na parte inferior da glândula, enquanto o restante da glândula capta muito pouco traçador. O nódulo produz hormônio de forma autônoma, e o T4 alto **suprime o TSH**, por isso o tecido normal fica \"silencioso\". Trata-se de **adenoma tóxico**. A alternativa errada mais tentadora é o bócio multinodular tóxico: ele mostra **várias** áreas quentes e frias irregulares, e não um único nódulo. A doença de Graves dá captação **difusa** e alta nos dois lobos. A tireoidite dá captação **baixa**, porque o hormônio vaza de folículos lesados. Os cânceres de tireoide costumam ser nódulos **frios**.",
+      "image_url": "images/endocrine/thyroid-scan-1.jpg",
+      "image_credit": "Petros Perros, CC BY-SA 3.0, https://commons.wikimedia.org/wiki/File:Thyroid_scintigraphy.jpg"
+    }
+  ],
+  "notes": []
+}

@@ -1,0 +1,199 @@
+{
+  "cards": [
+    {
+      "slug": "card-img-musculoskeletal-dermatology-gout-crystals",
+      "track": "step1",
+      "system": "musculoskeletal-dermatology",
+      "discipline": "pathology",
+      "tags": ["images-musculoskeletal-dermatology", "polarized-microscopy", "gout"],
+      "front": "This sample is seen under compensated polarized light. Identify the crystals. What are their shape and optical sign, and which disease do they cause?",
+      "back": "**Monosodium urate crystals**: thin **needle-shaped** crystals with **negative birefringence**. They look **yellow when parallel** to the compensator axis and **blue when perpendicular**. They cause **gout**.",
+      "back_pt": "**Cristais de urato monossódico**: cristais finos em **forma de agulha** com **birrefringência negativa**. Ficam **amarelos quando paralelos** ao eixo do compensador e **azuis quando perpendiculares**. Causam **gota**.",
+      "image_url": "images/musculoskeletal-dermatology/gout-crystals-1.jpg",
+      "image_credit": "Mikael Häggström, M.D., CC0, https://commons.wikimedia.org/wiki/File:Birefringence_microscopy_of_gout,_original.jpg"
+    },
+    {
+      "slug": "card-img-musculoskeletal-dermatology-cppd-crystals",
+      "track": "step1",
+      "system": "musculoskeletal-dermatology",
+      "discipline": "pathology",
+      "tags": ["images-musculoskeletal-dermatology", "polarized-microscopy", "pseudogout"],
+      "front": "This tissue from near a joint is seen under compensated polarized light. Identify the crystals. What are their shape and optical sign, and which disease do they cause?",
+      "back": "**Calcium pyrophosphate (CPPD) crystals**: **rhomboid** (rectangular) crystals with **weakly positive birefringence** (blue when parallel to the compensator axis). They cause **pseudogout** and chondrocalcinosis, most often in the knee.",
+      "back_pt": "**Cristais de pirofosfato de cálcio (CPPD)**: cristais **romboides** (retangulares) com **birrefringência fracamente positiva** (azuis quando paralelos ao eixo do compensador). Causam **pseudogota** e condrocalcinose, mais frequentemente no joelho.",
+      "image_url": "images/musculoskeletal-dermatology/cppd-crystals-1.jpg",
+      "image_credit": "Mikael Häggström, M.D., CC0, https://commons.wikimedia.org/wiki/File:Birefringence_microscopy_of_pseudogout.jpg"
+    },
+    {
+      "slug": "card-img-musculoskeletal-dermatology-seborrheic-keratosis-histology",
+      "track": "step1",
+      "system": "musculoskeletal-dermatology",
+      "discipline": "pathology",
+      "tags": ["images-musculoskeletal-dermatology", "histology", "skin-neoplasia"],
+      "front": "This H&E section comes from a raised brown skin lesion on the trunk of a 70-year-old man. Identify the lesion. What are the round keratin-filled spaces called?",
+      "back": "**Seborrheic keratosis**: a benign, raised proliferation of small basaloid epidermal cells that sits on top of the skin (\"stuck-on\" look). The round keratin-filled spaces are **horn cysts** (keratin pseudocysts).",
+      "back_pt": "**Ceratose seborreica**: proliferação benigna e elevada de pequenas células epidérmicas basaloides, que fica por cima da pele (aspecto \"colado\"). Os espaços redondos cheios de queratina são **cistos córneos** (pseudocistos de queratina).",
+      "image_url": "images/musculoskeletal-dermatology/seborrheic-keratosis-histology-1.jpg",
+      "image_credit": "Nephron, CC BY-SA 3.0, https://commons.wikimedia.org/wiki/File:Seborrheic_keratosis_-_low_mag.jpg"
+    },
+    {
+      "slug": "card-img-musculoskeletal-dermatology-basal-cell-carcinoma",
+      "track": "step1",
+      "system": "musculoskeletal-dermatology",
+      "discipline": "pathology",
+      "tags": ["images-musculoskeletal-dermatology", "histology", "skin-neoplasia"],
+      "front": "This H&E section comes from a slowly growing nodule on sun-exposed skin of a 65-year-old man. Identify the tumor. What do the arrows point to?",
+      "back": "**Nodular basal cell carcinoma**: nests of dark **basaloid cells** in the dermis, with **peripheral palisading** of nuclei. The arrows point to a **retraction cleft** (an artifact space between tumor and stroma). It invades locally and rarely metastasizes.",
+      "back_pt": "**Carcinoma basocelular nodular**: ninhos de **células basaloides** escuras na derme, com **paliçada periférica** dos núcleos. As setas apontam para uma **fenda de retração** (artefato: espaço entre o tumor e o estroma). Invade localmente e raramente dá metástases.",
+      "image_url": "images/musculoskeletal-dermatology/basal-cell-carcinoma-1.jpg",
+      "image_credit": "Mikael Häggström, M.D., CC0, https://commons.wikimedia.org/wiki/File:Nodular_basal_cell_cancer_with_cleft.jpg"
+    },
+    {
+      "slug": "card-img-musculoskeletal-dermatology-lichen-planus",
+      "track": "step1",
+      "system": "musculoskeletal-dermatology",
+      "discipline": "pathology",
+      "tags": ["images-musculoskeletal-dermatology", "clinical-photo", "inflammatory-dermatology"],
+      "front": "A 45-year-old woman has very itchy lesions on both shins. Identify the condition. What is its typical histology, and which infection is it linked to?",
+      "back": "**Lichen planus**: **pruritic, purple, polygonal, flat-topped** papules and plaques, sometimes with white lines (Wickham striae). Histology: **band-like lymphocyte infiltrate** at the dermal-epidermal junction with **sawtooth** rete ridges. Linked to **hepatitis C**.",
+      "back_pt": "**Líquen plano**: pápulas e placas **pruriginosas, violáceas, poligonais e planas**, às vezes com linhas brancas (estrias de Wickham). Histologia: **infiltrado linfocitário em faixa** na junção dermoepidérmica, com cristas epidérmicas em **dente de serra**. Associado à **hepatite C**.",
+      "image_url": "images/musculoskeletal-dermatology/lichen-planus-1.jpg",
+      "image_credit": "James Heilman, MD, CC BY-SA 3.0, https://commons.wikimedia.org/wiki/File:Lichen_Planus_(2).JPG"
+    },
+    {
+      "slug": "card-img-musculoskeletal-dermatology-psoriasis",
+      "track": "step1",
+      "system": "musculoskeletal-dermatology",
+      "discipline": "pathology",
+      "tags": ["images-musculoskeletal-dermatology", "clinical-photo", "inflammatory-dermatology"],
+      "front": "A 30-year-old man has had these scaly lesions on both shins for years. Identify the condition. Name three histologic features.",
+      "back": "**Plaque psoriasis**: well-demarcated red plaques with **silvery scale**, often on extensor surfaces. Histology: **acanthosis** with elongated rete ridges, **parakeratosis** (nuclei kept in the stratum corneum), **neutrophil microabscesses** (Munro) and thin epidermis over the dermal papillae (the cause of pinpoint bleeding when scale is removed, the Auspitz sign).",
+      "back_pt": "**Psoríase em placas**: placas vermelhas bem delimitadas com **escamas prateadas**, muitas vezes em superfícies extensoras. Histologia: **acantose** com cristas epidérmicas alongadas, **paraceratose** (núcleos mantidos no estrato córneo), **microabscessos de neutrófilos** (Munro) e epiderme fina sobre as papilas dérmicas (causa do sangramento puntiforme ao remover a escama, o sinal de Auspitz).",
+      "image_url": "images/musculoskeletal-dermatology/psoriasis-1.jpg",
+      "image_credit": "Drb206, CC BY 4.0, https://commons.wikimedia.org/wiki/File:Psoriasis_on_Human_shins.jpg"
+    }
+  ],
+  "questions": [
+    {
+      "slug": "q-img-musculoskeletal-dermatology-osteosarcoma",
+      "track": "step1",
+      "system": "musculoskeletal-dermatology",
+      "discipline": "pathology",
+      "tags": ["images-musculoskeletal-dermatology", "x-ray", "bone-tumor"],
+      "stem": "A 15-year-old boy has had pain below his right knee for 2 months. The pain wakes him at night. There is a firm, tender swelling over the upper calf. A lateral x-ray of the knee is shown. A germline mutation in which gene most increases the risk of this tumor?",
+      "choices": [
+        "EXT1",
+        "APC",
+        "RB1",
+        "NF2",
+        "VHL"
+      ],
+      "correct": 2,
+      "explanation": "The x-ray shows a lesion in the **proximal tibial metaphysis and upper shaft** with dense, cloud-like **tumor bone** that extends out into the soft tissue behind the tibia. In a teenager near the knee, this is **osteosarcoma**, the most common primary malignant bone tumor of adolescents. A germline **RB1** mutation (hereditary retinoblastoma) greatly raises the risk; Li-Fraumeni syndrome (TP53) and Paget disease of bone are other risk factors. The most tempting wrong answer is **EXT1**: it causes multiple osteochondromas, which are cartilage-capped outgrowths that point away from the joint, not a destructive bone-forming mass. APC, NF2 and VHL are linked to colon polyps, schwannomas/meningiomas and renal cell carcinoma.",
+      "explanation_pt": "A radiografia mostra uma lesão na **metáfise proximal e diáfise superior da tíbia**, com **osso tumoral** denso, em aspecto de nuvem, que se estende para as partes moles atrás da tíbia. Em um adolescente, perto do joelho, isso é **osteossarcoma**, o tumor ósseo maligno primário mais comum em adolescentes. Uma mutação germinativa de **RB1** (retinoblastoma hereditário) aumenta muito o risco; a síndrome de Li-Fraumeni (TP53) e a doença de Paget óssea são outros fatores de risco. A alternativa errada mais tentadora é **EXT1**: causa osteocondromas múltiplos, que são projeções com capa de cartilagem que apontam para longe da articulação, e não uma massa destrutiva formadora de osso. APC, NF2 e VHL se associam a pólipos de cólon, schwannomas/meningiomas e carcinoma de células renais.",
+      "image_url": "images/musculoskeletal-dermatology/osteosarcoma-1.jpg",
+      "image_credit": "Yousef Samir, CC BY-SA 4.0, https://commons.wikimedia.org/wiki/File:Osteosarcoma_of_the_tibia.png"
+    },
+    {
+      "slug": "q-img-musculoskeletal-dermatology-rheumatoid-hand",
+      "track": "step1",
+      "system": "musculoskeletal-dermatology",
+      "discipline": "pathology",
+      "tags": ["images-musculoskeletal-dermatology", "x-ray", "rheumatoid-arthritis"],
+      "stem": "A 65-year-old woman has had painful, swollen hands for many years, with morning stiffness that lasts more than an hour. Both hands look similar. An x-ray of her right hand is shown. Which process best explains the bone damage seen in this image?",
+      "choices": [
+        "Deposition of urate crystals that form tophi next to the joints",
+        "Mechanical wear of cartilage with new bone formed at the joint margins",
+        "Inflammation at tendon and ligament insertions with new bone formation",
+        "Inflamed synovial tissue (pannus) that activates osteoclasts through RANKL",
+        "Bacterial infection of the joint space spread through the blood"
+      ],
+      "correct": 3,
+      "explanation": "The x-ray shows **rheumatoid arthritis**: diffuse **periarticular osteopenia**, **marginal erosions** and destruction of the **MCP joints and carpal bones**, with subluxation of the fingers, while the DIP joints are relatively spared. Symmetric disease and long morning stiffness fit. Inflamed synovium grows over cartilage as **pannus**; its T cells and fibroblast-like synoviocytes express **RANKL**, which activates osteoclasts and erodes bone. The most tempting wrong answer is **mechanical wear** (osteoarthritis): it causes joint-space narrowing with **osteophytes** and subchondral sclerosis, mostly at the DIP and PIP joints, not osteopenia with erosions. Tophi give punched-out erosions with overhanging edges; enthesitis with new bone fits spondyloarthritis; septic arthritis usually affects one joint.",
+      "explanation_pt": "A radiografia mostra **artrite reumatoide**: **osteopenia periarticular** difusa, **erosões marginais** e destruição das **articulações MCF e dos ossos do carpo**, com subluxação dos dedos, enquanto as IFD estão relativamente poupadas. Doença simétrica e rigidez matinal longa combinam com o quadro. A sinóvia inflamada cresce sobre a cartilagem como **pannus**; seus linfócitos T e sinoviócitos semelhantes a fibroblastos expressam **RANKL**, que ativa osteoclastos e causa erosão óssea. A alternativa errada mais tentadora é o **desgaste mecânico** (osteoartrite): causa redução do espaço articular com **osteófitos** e esclerose subcondral, principalmente nas IFD e IFP, e não osteopenia com erosões. Os tofos dão erosões em saca-bocado com bordas pendentes; entesite com neoformação óssea combina com espondiloartrite; artrite séptica costuma acometer uma só articulação.",
+      "image_url": "images/musculoskeletal-dermatology/rheumatoid-hand-1.jpg",
+      "image_credit": "Hellerhoff, CC BY-SA 4.0, https://commons.wikimedia.org/wiki/File:Rheumatoide_Arthritis_der_Hand_65W_-_CR_ap_-_001.jpg"
+    },
+    {
+      "slug": "q-img-musculoskeletal-dermatology-scaphoid-fracture",
+      "track": "step1",
+      "system": "musculoskeletal-dermatology",
+      "discipline": "anatomy",
+      "tags": ["images-musculoskeletal-dermatology", "x-ray", "upper-limb"],
+      "stem": "A 22-year-old man fell on his outstretched hand while skateboarding. He has pain on the thumb side of the wrist, and there is tenderness in the anatomical snuffbox. An x-ray of the wrist is shown, with an arrow at the injured bone. Without proper treatment, which complication is this patient at highest risk of?",
+      "choices": [
+        "Compression of the median nerve in the carpal tunnel",
+        "Avascular necrosis of the proximal part of the bone",
+        "Ischemic contracture of the forearm flexor muscles",
+        "Injury to the radial nerve with wrist drop",
+        "Injury to the ulnar nerve with a claw hand"
+      ],
+      "correct": 1,
+      "explanation": "The x-ray shows a **fracture through the waist of the scaphoid** (a lucent line across the bone at the arrow). The scaphoid gets most of its blood from branches of the **radial artery** that enter its **distal** part and flow backward to the proximal pole. A waist fracture cuts this supply, so the **proximal fragment** can undergo **avascular necrosis** and nonunion. The most tempting wrong answer is **median nerve compression**: it is classically linked to a **lunate** dislocation (or a distal radius fracture), not an isolated scaphoid fracture. Ischemic (Volkmann) contracture follows supracondylar humerus fractures; radial nerve injury follows midshaft humerus fractures; ulnar claw hand follows medial epicondyle or hook of hamate injury.",
+      "explanation_pt": "A radiografia mostra uma **fratura da cintura do escafoide** (linha radiotransparente atravessando o osso na seta). O escafoide recebe a maior parte do sangue de ramos da **artéria radial** que entram na sua parte **distal** e correm de forma retrógrada até o polo proximal. A fratura da cintura interrompe esse suprimento, então o **fragmento proximal** pode sofrer **necrose avascular** e pseudoartrose. A alternativa errada mais tentadora é a **compressão do nervo mediano**: classicamente se associa à luxação do **semilunar** (ou à fratura distal do rádio), e não a uma fratura isolada do escafoide. A contratura isquêmica (de Volkmann) ocorre após fraturas supracondilianas do úmero; lesão do nervo radial, após fraturas da diáfise do úmero; mão em garra ulnar, após lesão do epicôndilo medial ou do hâmulo do hamato.",
+      "image_url": "images/musculoskeletal-dermatology/scaphoid-fracture-1.jpg",
+      "image_credit": "Gilo1969, CC BY 3.0, https://commons.wikimedia.org/wiki/File:X-ray_of_scaphoid_fracture.png"
+    },
+    {
+      "slug": "q-img-musculoskeletal-dermatology-osteoarthritis-knee",
+      "track": "step1",
+      "system": "musculoskeletal-dermatology",
+      "discipline": "pathology",
+      "tags": ["images-musculoskeletal-dermatology", "x-ray", "osteoarthritis"],
+      "stem": "A 70-year-old woman has had left knee pain for several years. The pain gets worse when she walks and better with rest. Morning stiffness lasts about 10 minutes. There is no warmth or redness. A frontal x-ray of the knee is shown. Which process is the main cause of her condition?",
+      "choices": [
+        "Autoimmune inflammation of the synovium with pannus formation",
+        "Deposition of calcium pyrophosphate crystals in the joint cartilage",
+        "Breakdown of articular cartilage driven by mechanical stress and chondrocyte enzymes",
+        "Bacterial infection of the joint after spread through the blood",
+        "Death of subchondral bone due to a loss of blood supply"
+      ],
+      "correct": 2,
+      "explanation": "The x-ray shows **osteoarthritis**: **uneven joint-space narrowing** (arrow), **subchondral sclerosis** and **osteophytes** at the joint margins. Pain that worsens with use and brief morning stiffness fit. The main process is **degeneration of articular cartilage**: mechanical stress and aging lead chondrocytes to release matrix-degrading enzymes (such as metalloproteinases), cartilage wears away and bone remodels. The most tempting wrong answer is **calcium pyrophosphate deposition**: it can cause chondrocalcinosis and pseudogout attacks in older adults, but this film shows no cartilage calcification and the story is chronic wear-related pain, not acute hot joints. Pannus gives erosions and osteopenia; septic arthritis causes a hot, swollen joint; osteonecrosis causes collapse of the subchondral bone.",
+      "explanation_pt": "A radiografia mostra **osteoartrite**: **redução assimétrica do espaço articular** (seta), **esclerose subcondral** e **osteófitos** nas margens articulares. Dor que piora com o uso e rigidez matinal curta combinam com o quadro. O processo principal é a **degeneração da cartilagem articular**: o estresse mecânico e o envelhecimento fazem os condrócitos liberarem enzimas que degradam a matriz (como metaloproteinases), a cartilagem se desgasta e o osso se remodela. A alternativa errada mais tentadora é a **deposição de pirofosfato de cálcio**: pode causar condrocalcinose e crises de pseudogota em idosos, mas esta radiografia não mostra calcificação da cartilagem e a história é de dor crônica ligada ao desgaste, e não de articulações quentes agudas. O pannus causa erosões e osteopenia; a artrite séptica causa articulação quente e inchada; a osteonecrose causa colapso do osso subcondral.",
+      "image_url": "images/musculoskeletal-dermatology/osteoarthritis-knee-1.jpg",
+      "image_credit": "James Heilman, MD, CC BY-SA 3.0, https://commons.wikimedia.org/wiki/File:Osteoarthritis_left_knee.jpg"
+    },
+    {
+      "slug": "q-img-musculoskeletal-dermatology-paget-pelvis",
+      "track": "step1",
+      "system": "musculoskeletal-dermatology",
+      "discipline": "pathology",
+      "tags": ["images-musculoskeletal-dermatology", "x-ray", "bone-pathology"],
+      "stem": "A 77-year-old woman has a dull, deep ache in the right hip and pelvis. She had a left hip replacement years ago. A frontal x-ray of the pelvis is shown. The right half of the pelvis looks different from the left. Which set of serum results is most likely?",
+      "choices": [
+        "Calcium high, phosphate low, alkaline phosphatase high, PTH high",
+        "Calcium low, phosphate low, alkaline phosphatase high, PTH high",
+        "Calcium normal, phosphate normal, alkaline phosphatase normal, PTH normal",
+        "Calcium high, phosphate high, alkaline phosphatase normal, PTH low",
+        "Calcium normal, phosphate normal, alkaline phosphatase high, PTH normal"
+      ],
+      "correct": 4,
+      "explanation": "The right hemipelvis shows **thickened cortex**, a **thick iliopectineal line** and **coarse, disorganized trabeculae** with enlarged bone, typical of **Paget disease of bone** (osteitis deformans) in an older adult. Overactive osteoclasts are followed by disorganized osteoblast activity, so bone turnover is very high. The typical labs are an **isolated high alkaline phosphatase** with **normal calcium, phosphate and PTH**. The most tempting wrong answer is **normal labs throughout**, which fits osteoporosis, not Paget disease. High calcium with low phosphate and high PTH is primary hyperparathyroidism; low calcium and phosphate with high PTH is vitamin D deficiency (osteomalacia); high calcium with low PTH suggests vitamin D excess or malignancy.",
+      "explanation_pt": "A hemipelve direita mostra **cortical espessada**, **linha iliopectínea espessa** e **trabéculas grosseiras e desorganizadas** com aumento do osso, típico da **doença de Paget óssea** (osteíte deformante) em uma idosa. Osteoclastos hiperativos são seguidos de atividade osteoblástica desorganizada, então a remodelação óssea é muito alta. Os exames típicos mostram **fosfatase alcalina elevada isolada**, com **cálcio, fosfato e PTH normais**. A alternativa errada mais tentadora são **exames todos normais**, o que combina com osteoporose, e não com doença de Paget. Cálcio alto com fosfato baixo e PTH alto é hiperparatireoidismo primário; cálcio e fosfato baixos com PTH alto é deficiência de vitamina D (osteomalácia); cálcio alto com PTH baixo sugere excesso de vitamina D ou neoplasia maligna.",
+      "image_url": "images/musculoskeletal-dermatology/paget-pelvis-1.jpg",
+      "image_credit": "Hellerhoff, CC BY-SA 4.0, https://commons.wikimedia.org/wiki/File:Morbus_Paget_des_Beckens_rechts_77W_-_CR_ap_-_001.jpg"
+    },
+    {
+      "slug": "q-img-musculoskeletal-dermatology-leser-trelat",
+      "track": "step1",
+      "system": "musculoskeletal-dermatology",
+      "discipline": "pathology",
+      "tags": ["images-musculoskeletal-dermatology", "clinical-photo", "paraneoplastic"],
+      "stem": "A 68-year-old man notes that many brown, slightly raised, waxy lesions appeared on his back over the past 4 months. They look \"stuck on\" the skin. He has lost 7 kg and feels tired. Blood tests show iron deficiency anemia. A photo of his back is shown. Which condition should be looked for first?",
+      "choices": [
+        "Metastatic melanoma",
+        "Neurofibromatosis type 1",
+        "Insulin resistance",
+        "Adenocarcinoma of the gastrointestinal tract",
+        "Chronic arsenic exposure"
+      ],
+      "correct": 3,
+      "explanation": "The photo shows many **seborrheic keratoses**: brown, waxy, well-circumscribed lesions that look \"stuck on\". A sudden eruption of many of them is the **Leser-Trélat sign**, a paraneoplastic sign most often linked to **gastrointestinal adenocarcinoma** (stomach or colon). Weight loss and iron deficiency anemia point to a GI source, so this patient needs a GI work-up. The most tempting wrong answer is **insulin resistance**: it causes acanthosis nigricans (velvety dark plaques in skin folds), not many stuck-on brown papules on the back. Melanoma is usually one changing lesion; NF1 gives café-au-lait macules and neurofibromas from childhood; arsenic causes palmar keratoses and skin cancers.",
+      "explanation_pt": "A foto mostra muitas **ceratoses seborreicas**: lesões marrons, de aspecto ceroso, bem delimitadas, que parecem \"coladas\" na pele. O aparecimento súbito de muitas delas é o **sinal de Leser-Trélat**, um sinal paraneoplásico mais ligado ao **adenocarcinoma gastrointestinal** (estômago ou cólon). A perda de peso e a anemia ferropriva apontam para uma origem gastrointestinal, então o paciente precisa de investigação do trato gastrointestinal. A alternativa errada mais tentadora é a **resistência à insulina**: causa acantose nigricans (placas escuras e aveludadas nas dobras), e não muitas pápulas marrons \"coladas\" nas costas. O melanoma costuma ser uma lesão única que muda; a NF1 causa manchas café com leite e neurofibromas desde a infância; o arsênico causa ceratoses palmares e cânceres de pele.",
+      "image_url": "images/musculoskeletal-dermatology/leser-trelat-1.jpg",
+      "image_credit": "James Heilman, MD, CC BY-SA 3.0, https://commons.wikimedia.org/wiki/File:Seborrheic_keratosis_on_human_back.jpg"
+    }
+  ],
+  "notes": []
+}

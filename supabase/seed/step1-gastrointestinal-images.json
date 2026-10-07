@@ -1,0 +1,252 @@
+{
+  "cards": [
+    {
+      "slug": "card-img-gastrointestinal-achalasia",
+      "track": "step1",
+      "system": "gastrointestinal",
+      "discipline": "pathology",
+      "tags": [
+        "images-gastrointestinal",
+        "esophagus",
+        "radiology"
+      ],
+      "front": "Barium swallow. What is the most likely diagnosis, and what is the underlying defect?",
+      "back": "**Achalasia**: dilated esophagus with retained barium that narrows smoothly to a **bird's beak** at the lower esophageal sphincter. Defect: loss of inhibitory neurons in the **myenteric (Auerbach) plexus**, so the LES does not relax.",
+      "back_pt": "**Acalasia**: esôfago dilatado com bário retido, que se afila suavemente em **bico de pássaro** (*bird's beak*) no esfíncter esofágico inferior. Defeito: perda dos neurônios inibitórios do **plexo mioentérico (de Auerbach)**; o EEI não relaxa.",
+      "image_url": "images/gastrointestinal/achalasia-1.jpg",
+      "image_credit": "Nevit Dilmen, CC BY-SA 3.0, https://commons.wikimedia.org/wiki/File:Radiology_0009_Nevit.jpg"
+    },
+    {
+      "slug": "card-img-gastrointestinal-barrett",
+      "track": "step1",
+      "system": "gastrointestinal",
+      "discipline": "pathology",
+      "tags": [
+        "images-gastrointestinal",
+        "esophagus",
+        "histology"
+      ],
+      "front": "Biopsy of the distal esophagus (H&E). Name the change shown and its key cell type.",
+      "back": "**Barrett esophagus**: the normal squamous lining (top right) is replaced by **columnar mucosa with goblet cells** (intestinal metaplasia). Cause: chronic acid reflux. It raises the risk of esophageal **adenocarcinoma**.",
+      "back_pt": "**Esôfago de Barrett**: o epitélio escamoso normal (canto superior direito) é substituído por **mucosa colunar com células caliciformes** (metaplasia intestinal). Causa: refluxo ácido crônico. Aumenta o risco de **adenocarcinoma** de esôfago.",
+      "image_url": "images/gastrointestinal/barrett-1.jpg",
+      "image_credit": "CoRus13, CC BY-SA 4.0, https://commons.wikimedia.org/wiki/File:Barrett_esophagus_intermed._mag.jpg"
+    },
+    {
+      "slug": "card-img-gastrointestinal-celiac",
+      "track": "step1",
+      "system": "gastrointestinal",
+      "discipline": "pathology",
+      "tags": [
+        "images-gastrointestinal",
+        "small-bowel",
+        "malabsorption",
+        "histology"
+      ],
+      "front": "Small-bowel biopsy (H&E). Describe the mucosal pattern. What is the most likely diagnosis?",
+      "back": "**Celiac disease**: flat mucosa with **villous atrophy**, elongated (**hyperplastic**) **crypts** and many lymphocytes in the epithelium and lamina propria. It is an immune reaction to **gluten (gliadin)**; IgA anti-tissue transglutaminase supports the diagnosis.",
+      "back_pt": "**Doença celíaca**: mucosa plana com **atrofia das vilosidades**, **criptas** alongadas (**hiperplásicas**) e muitos linfócitos no epitélio e na lâmina própria. É uma reação imune ao **glúten (gliadina)**; o IgA antitransglutaminase tecidual apoia o diagnóstico.",
+      "image_url": "images/gastrointestinal/celiac-1.jpg",
+      "image_credit": "Ed Uthman, CC BY 2.0, https://commons.wikimedia.org/wiki/File:Celiac_Sprue,_Small_Bowel_Biopsy_(5709845147).jpg"
+    },
+    {
+      "slug": "card-img-gastrointestinal-h-pylori",
+      "track": "step1",
+      "system": "gastrointestinal",
+      "discipline": "microbiology",
+      "tags": [
+        "images-gastrointestinal",
+        "stomach",
+        "histology"
+      ],
+      "front": "Gastric biopsy, Giemsa stain. Identify the organism shown and two of its key features.",
+      "back": "***Helicobacter pylori***: small **curved (spiral) gram-negative rods** in the mucus on the gastric surface. It is **urease-positive**. It causes chronic gastritis, **peptic ulcers**, gastric adenocarcinoma and **MALT lymphoma**.",
+      "back_pt": "***Helicobacter pylori***: pequenos **bacilos gram-negativos curvos (espiralados)** no muco da superfície gástrica. É **urease-positivo**. Causa gastrite crônica, **úlcera péptica**, adenocarcinoma gástrico e **linfoma MALT**.",
+      "image_url": "images/gastrointestinal/h-pylori-1.jpg",
+      "image_credit": "Ed Uthman, CC BY 2.0, https://commons.wikimedia.org/wiki/File:Helicobacter_pylori,_Gastric_Biopsy,_Giemsa_Stain_(5517582111).jpg"
+    },
+    {
+      "slug": "card-img-gastrointestinal-mallory-body",
+      "track": "step1",
+      "system": "gastrointestinal",
+      "discipline": "pathology",
+      "tags": [
+        "images-gastrointestinal",
+        "liver",
+        "histology"
+      ],
+      "front": "Liver biopsy, high power (H&E). What is the dense clump inside the swollen central hepatocyte? Name its main association.",
+      "back": "**Mallory-Denk body**: clumped **keratin intermediate filaments** in a **ballooned hepatocyte**. Fat vacuoles (steatosis) surround it. Classic for **alcoholic hepatitis**; also seen in nonalcoholic steatohepatitis and Wilson disease.",
+      "back_pt": "**Corpúsculo de Mallory-Denk**: agregados de **filamentos intermediários de queratina** em um **hepatócito balonizado**. Vacúolos de gordura (esteatose) ao redor. Clássico da **hepatite alcoólica**; também visto na esteato-hepatite não alcoólica e na doença de Wilson.",
+      "image_url": "images/gastrointestinal/mallory-body-1.jpg",
+      "image_credit": "Nephron, CC BY-SA 3.0, https://commons.wikimedia.org/wiki/File:Mallory_body_high_mag_cropped.jpg"
+    },
+    {
+      "slug": "card-img-gastrointestinal-ulcerative-colitis",
+      "track": "step1",
+      "system": "gastrointestinal",
+      "discipline": "pathology",
+      "tags": [
+        "images-gastrointestinal",
+        "colon",
+        "ibd",
+        "gross"
+      ],
+      "front": "Opened colectomy specimen; the mucosa on the left is normal. What is the most likely diagnosis? Which features support it?",
+      "back": "**Ulcerative colitis**: **continuous** mucosal disease (no skip areas) with a red, granular surface and many small **pseudopolyps**. It starts in the rectum and extends proximally. Crohn disease shows skip lesions and cobblestoning instead.",
+      "back_pt": "**Retocolite ulcerativa**: doença mucosa **contínua** (sem áreas salteadas), com superfície vermelha e granulosa e muitos pequenos **pseudopólipos**. Começa no reto e se estende proximalmente. A doença de Crohn mostra lesões salteadas e aspecto em pedra de calçamento (*cobblestone*).",
+      "image_url": "images/gastrointestinal/ulcerative-colitis-1.jpg",
+      "image_credit": "Mikael Häggström, M.D., CC0, https://commons.wikimedia.org/wiki/File:Severe_ulcerative_colitis.jpg"
+    }
+  ],
+  "questions": [
+    {
+      "slug": "q-img-gastrointestinal-pneumoperitoneum",
+      "track": "step1",
+      "system": "gastrointestinal",
+      "discipline": "pathology",
+      "tags": [
+        "images-gastrointestinal",
+        "peptic-ulcer",
+        "radiology"
+      ],
+      "stem": "A 58-year-old man has taken ibuprofen every day for knee pain for 2 years. Three hours ago he had sudden, severe epigastric pain that quickly spread over the whole abdomen. His abdomen is rigid and bowel sounds are absent. His upright chest x-ray is shown. Which is the most likely cause of his condition?",
+      "choices": [
+        "Acute pancreatitis",
+        "Ruptured abdominal aortic aneurysm",
+        "Acute cholecystitis",
+        "Perforated peptic ulcer",
+        "Acute mesenteric ischemia"
+      ],
+      "correct": 3,
+      "explanation": "The upright film shows a crescent of **free air under the right hemidiaphragm** (pneumoperitoneum). With sudden pain, a rigid abdomen and daily NSAID use, the best explanation is a **perforated peptic ulcer**, often on the anterior wall of the duodenum. **Acute pancreatitis** is the most tempting choice because it also causes severe epigastric pain, but it does not put gas into the peritoneal cavity. An aortic rupture, cholecystitis and mesenteric ischemia do not cause free air unless the bowel later perforates.",
+      "explanation_pt": "A radiografia em pé mostra uma faixa de **ar livre sob a hemicúpula diafragmática direita** (pneumoperitônio). Com dor súbita, abdome em tábua e uso diário de AINE, a melhor explicação é uma **úlcera péptica perfurada**, muitas vezes na parede anterior do duodeno. A **pancreatite aguda** é a alternativa mais tentadora, pois também causa dor epigástrica intensa, mas não coloca gás na cavidade peritoneal. Ruptura de aneurisma de aorta, colecistite e isquemia mesentérica não causam ar livre, a menos que o intestino perfure depois.",
+      "image_url": "images/gastrointestinal/pneumoperitoneum-1.jpg",
+      "image_credit": "Bill Rhodes from Asheville, CC BY 2.0, https://commons.wikimedia.org/wiki/File:Pneumoperitoneum_chest_X-ray.jpg"
+    },
+    {
+      "slug": "q-img-gastrointestinal-small-bowel-obstruction",
+      "track": "step1",
+      "system": "gastrointestinal",
+      "discipline": "pathology",
+      "tags": [
+        "images-gastrointestinal",
+        "bowel-obstruction",
+        "radiology"
+      ],
+      "stem": "A 64-year-old woman had an open hysterectomy 10 years ago. For 2 days she has had crampy abdominal pain, repeated vomiting and no passage of stool or gas. Her abdomen is distended, and bowel sounds are high-pitched. Her upright abdominal x-ray is shown. What is the most likely cause?",
+      "choices": [
+        "Adhesions from previous surgery",
+        "Paralytic ileus",
+        "Sigmoid volvulus",
+        "Colorectal carcinoma",
+        "Gallstone ileus"
+      ],
+      "correct": 0,
+      "explanation": "The film shows many dilated small-bowel loops with **multiple air-fluid levels** in a step-ladder pattern: **small-bowel obstruction**. In a patient with prior abdominal surgery, **adhesions** are the most common cause. **Paralytic ileus** is the most tempting answer, because it can also show dilated loops with fluid levels, but it causes absent bowel sounds, not high-pitched ones, and it follows a trigger such as recent surgery or low potassium. Sigmoid volvulus and colon cancer obstruct the large bowel. Gallstone ileus is rare and needs a history of gallstone disease, which she does not have.",
+      "explanation_pt": "A radiografia mostra muitas alças de delgado dilatadas, com **múltiplos níveis hidroaéreos** em degraus de escada: **obstrução do intestino delgado**. Em paciente com cirurgia abdominal prévia, as **aderências (bridas)** são a causa mais comum. O **íleo paralítico** é a alternativa mais tentadora, pois também pode mostrar alças dilatadas com níveis hidroaéreos, mas cursa com ruídos hidroaéreos ausentes, e não metálicos, e surge após um gatilho como cirurgia recente ou hipocalemia. Volvo de sigmoide e câncer de cólon obstruem o intestino grosso. O íleo biliar é raro e exige história de colelitíase, que ela não tem.",
+      "image_url": "images/gastrointestinal/small-bowel-obstruction-1.jpg",
+      "image_credit": "James Heilman, MD, CC BY-SA 3.0, https://commons.wikimedia.org/wiki/File:Upright_X-ray_demonstrating_small_bowel_obstruction.jpg"
+    },
+    {
+      "slug": "q-img-gastrointestinal-sigmoid-volvulus",
+      "track": "step1",
+      "system": "gastrointestinal",
+      "discipline": "pathology",
+      "tags": [
+        "images-gastrointestinal",
+        "bowel-obstruction",
+        "colon",
+        "radiology"
+      ],
+      "stem": "An 82-year-old man who lives in a nursing home has had chronic constipation for years. For 3 days he has had marked abdominal distension, mild pain and no passage of stool or gas. An abdominal x-ray taken with him lying on his left side is shown. What is the most likely diagnosis?",
+      "choices": [
+        "Acute colonic pseudo-obstruction (Ogilvie syndrome)",
+        "Small-bowel obstruction from adhesions",
+        "Sigmoid volvulus",
+        "Toxic megacolon",
+        "Cecal volvulus"
+      ],
+      "correct": 2,
+      "explanation": "One massively dilated, bent loop that looks like a **coffee bean** or inverted U, in an elderly, bedbound patient with chronic constipation, suggests **sigmoid volvulus**: the redundant sigmoid colon twists on its mesentery. **Ogilvie syndrome** is the most tempting choice, but it causes diffuse dilation of the colon without a twisted loop, often after surgery or severe illness. Cecal volvulus is less common, occurs in younger patients and the loop points toward the left upper quadrant. Toxic megacolon happens with colitis and systemic toxicity. Adhesions obstruct the small bowel, which gives many smaller loops.",
+      "explanation_pt": "Uma única alça muito dilatada e dobrada, com aspecto de **grão de café** (*coffee bean*) ou U invertido, em idoso acamado com constipação crônica, sugere **volvo de sigmoide**: o sigmoide redundante torce sobre o seu mesentério. A **síndrome de Ogilvie** é a alternativa mais tentadora, mas causa dilatação difusa do cólon sem alça torcida, muitas vezes após cirurgia ou doença grave. O volvo de ceco é menos comum, ocorre em pacientes mais jovens e a alça aponta para o quadrante superior esquerdo. O megacólon tóxico ocorre com colite e toxicidade sistêmica. As aderências obstruem o delgado, com muitas alças menores.",
+      "image_url": "images/gastrointestinal/sigmoid-volvulus-1.jpg",
+      "image_credit": "Hellerhoff, CC BY-SA 3.0, https://commons.wikimedia.org/wiki/File:Sigmavolvulus_-_Coffee-bean-sign_-_LSL.jpg"
+    },
+    {
+      "slug": "q-img-gastrointestinal-crohn-granuloma",
+      "track": "step1",
+      "system": "gastrointestinal",
+      "discipline": "pathology",
+      "tags": [
+        "images-gastrointestinal",
+        "ibd",
+        "colon",
+        "histology"
+      ],
+      "stem": "A 24-year-old man has had diarrhea, crampy abdominal pain and weight loss for 6 months. Stool cultures are negative. A colonic biopsy is shown (H&E). Which other finding is most likely in this patient's disease?",
+      "choices": [
+        "Disease that always starts in the rectum and extends continuously",
+        "Caseating necrosis with acid-fast bacilli",
+        "IgA antibodies against tissue transglutaminase",
+        "Inflammation limited to the mucosa and submucosa",
+        "Transmural inflammation with fistula formation"
+      ],
+      "correct": 4,
+      "explanation": "The biopsy shows a **non-caseating granuloma** in the colonic mucosa between crypts. In a young adult with chronic diarrhea and weight loss, this points to **Crohn disease**, which causes **transmural** inflammation and therefore **fistulas**, strictures and skip lesions. **Intestinal tuberculosis** is the most tempting choice because it also forms granulomas, but its granulomas are typically caseating with acid-fast bacilli, and the granuloma shown has no central necrosis. Continuous disease from the rectum and inflammation limited to the mucosa and submucosa describe ulcerative colitis. Anti-tissue transglutaminase IgA points to celiac disease, which affects the small bowel.",
+      "explanation_pt": "A biópsia mostra um **granuloma não caseoso** na mucosa colônica, entre as criptas. Em adulto jovem com diarreia crônica e perda de peso, isso aponta para **doença de Crohn**, que causa inflamação **transmural** e, por isso, **fístulas**, estenoses e lesões salteadas. A **tuberculose intestinal** é a alternativa mais tentadora, pois também forma granulomas, mas eles costumam ser caseosos e com bacilos álcool-ácido resistentes, e o granuloma mostrado não tem necrose central. Doença contínua a partir do reto e inflamação limitada à mucosa e submucosa descrevem a retocolite ulcerativa. O IgA antitransglutaminase tecidual aponta para doença celíaca, que acomete o delgado.",
+      "image_url": "images/gastrointestinal/crohn-granuloma-1.jpg",
+      "image_credit": "Mikael Häggström, M.D., CC0, https://commons.wikimedia.org/wiki/File:Histopathology_of_granuloma_of_colonic_mucosa.jpg"
+    },
+    {
+      "slug": "q-img-gastrointestinal-toxic-megacolon",
+      "track": "step1",
+      "system": "gastrointestinal",
+      "discipline": "pathology",
+      "tags": [
+        "images-gastrointestinal",
+        "ibd",
+        "colon",
+        "radiology"
+      ],
+      "stem": "A 29-year-old woman with a 3-year history of bloody diarrhea is admitted with a severe flare. Before admission she took loperamide to reduce the number of stools. On day 3 her temperature is 39.2 °C, pulse is 124/min, and her abdomen is distended and tender. Her abdominal x-ray is shown. What is the most likely complication?",
+      "choices": [
+        "Sigmoid volvulus",
+        "Toxic megacolon",
+        "Small-bowel obstruction",
+        "Colorectal adenocarcinoma",
+        "Acute colonic pseudo-obstruction (Ogilvie syndrome)"
+      ],
+      "correct": 1,
+      "explanation": "The film shows a markedly **dilated colon** in a patient with **ulcerative colitis**, fever and tachycardia: **toxic megacolon**. Inflammation spreads into the muscle layer and the colon loses its tone; **antimotility drugs** (loperamide, opioids, anticholinergics) and low potassium can trigger it. The main risk is **perforation**. **Ogilvie syndrome** is the most tempting choice because it also dilates the colon without a mechanical block, but it occurs without colitis or systemic toxicity, usually in older patients after surgery or severe illness. Sigmoid volvulus gives one twisted loop. Small-bowel obstruction shows dilated small-bowel loops instead of colon.",
+      "explanation_pt": "A radiografia mostra o **cólon muito dilatado** em paciente com **retocolite ulcerativa**, febre e taquicardia: **megacólon tóxico**. A inflamação atinge a camada muscular e o cólon perde o tônus; **antidiarreicos que reduzem a motilidade** (loperamida, opioides, anticolinérgicos) e hipocalemia podem desencadeá-lo. O principal risco é a **perfuração**. A **síndrome de Ogilvie** é a alternativa mais tentadora, pois também dilata o cólon sem obstrução mecânica, mas ocorre sem colite nem toxicidade sistêmica, em geral em idosos após cirurgia ou doença grave. O volvo de sigmoide forma uma única alça torcida. A obstrução do delgado mostra alças de delgado dilatadas, e não o cólon.",
+      "image_url": "images/gastrointestinal/toxic-megacolon-1.jpg",
+      "image_credit": "Hellerhoff, CC BY-SA 3.0, https://commons.wikimedia.org/wiki/File:Toxisches_Megacolon_bei_Colitis_ulcerosa.jpg"
+    },
+    {
+      "slug": "q-img-gastrointestinal-acute-pancreatitis",
+      "track": "step1",
+      "system": "gastrointestinal",
+      "discipline": "pathology",
+      "tags": [
+        "images-gastrointestinal",
+        "pancreas",
+        "radiology"
+      ],
+      "stem": "A 47-year-old man who drinks heavily every day has had severe epigastric pain that radiates to the back, with nausea and vomiting, for 1 day. He is leaning forward on the stretcher. A contrast-enhanced CT scan of the abdomen is shown. Which laboratory finding is most likely?",
+      "choices": [
+        "Serum calcium above the normal range",
+        "Positive antimitochondrial antibodies",
+        "Markedly elevated serum lipase",
+        "Markedly elevated serum gastrin",
+        "Positive IgA anti-tissue transglutaminase"
+      ],
+      "correct": 2,
+      "explanation": "The CT shows an inflamed pancreas with **fluid and fat stranding around it** (acute exudative pancreatitis). Alcohol and gallstones are the two most common causes, and a **markedly elevated serum lipase** supports the diagnosis. **High calcium** is the most tempting choice because hypercalcemia can cause pancreatitis, but pancreatitis itself tends to **lower** calcium, because fatty acids from fat necrosis bind calcium (saponification). Antimitochondrial antibodies suggest primary biliary cholangitis. High gastrin suggests a gastrinoma. Anti-tissue transglutaminase suggests celiac disease.",
+      "explanation_pt": "A TC mostra o pâncreas inflamado, com **líquido e densificação da gordura ao redor** (pancreatite aguda exsudativa). Álcool e cálculos biliares são as duas causas mais comuns, e uma **lipase sérica muito elevada** apoia o diagnóstico. **Cálcio alto** é a alternativa mais tentadora, pois a hipercalcemia pode causar pancreatite, mas a pancreatite em si tende a **reduzir** o cálcio, porque os ácidos graxos da necrose gordurosa se ligam ao cálcio (saponificação). Anticorpos antimitocôndria sugerem colangite biliar primária. Gastrina alta sugere gastrinoma. O antitransglutaminase tecidual sugere doença celíaca.",
+      "image_url": "images/gastrointestinal/acute-pancreatitis-1.jpg",
+      "image_credit": "Hellerhoff, CC BY-SA 3.0, https://commons.wikimedia.org/wiki/File:Akute_exsudative_Pankreatitis_-_CT_axial.jpg"
+    }
+  ],
+  "notes": []
+}

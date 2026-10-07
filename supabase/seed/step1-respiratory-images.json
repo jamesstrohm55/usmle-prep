@@ -1,0 +1,207 @@
+{
+  "cards": [
+    {
+      "slug": "card-img-respiratory-lobar-pneumonia",
+      "track": "step1",
+      "system": "respiratory",
+      "discipline": "pathology",
+      "tags": [
+        "images-respiratory",
+        "chest-x-ray",
+        "pneumonia"
+      ],
+      "front": "Look at the lower half of the right lung on this chest x-ray. What is the finding, and which organism most often causes it?",
+      "back": "**Lobar pneumonia**: a dense, uniform opacity (**consolidation**) that fills one lobe, here the right middle lobe. The alveoli are filled with exudate. Most common cause: ***Streptococcus pneumoniae***.",
+      "back_pt": "**Pneumonia lobar**: opacidade densa e homogênea (**consolidação**) que ocupa um lobo, aqui o lobo médio direito. Os alvéolos estão cheios de exsudato. Causa mais comum: ***Streptococcus pneumoniae***.",
+      "image_url": "images/respiratory/lobar-pneumonia-1.jpg",
+      "image_credit": "Mikael Häggström, M.D., CC0, https://commons.wikimedia.org/wiki/File:X-ray_of_lobar_pneumonia.jpg"
+    },
+    {
+      "slug": "card-img-respiratory-asbestos-body",
+      "track": "step1",
+      "system": "respiratory",
+      "discipline": "pathology",
+      "tags": [
+        "images-respiratory",
+        "histology",
+        "pneumoconiosis"
+      ],
+      "front": "Identify the golden-brown structures in this lung sample. What exposure do they indicate, and which cancer risk rises the most?",
+      "back": "**Asbestos (ferruginous) bodies**: thin fibers coated with iron and protein, beaded, with **dumbbell-shaped ends**; Prussian blue positive. They show **asbestos exposure**. The biggest cancer risk is **bronchogenic carcinoma** (more common than mesothelioma), especially in smokers.",
+      "back_pt": "**Corpos de asbesto (ferruginosos)**: fibras finas revestidas de ferro e proteína, em contas, com **extremidades em haltere**; positivos no azul da Prússia. Indicam **exposição ao asbesto (amianto)**. O maior risco de câncer é o **carcinoma broncogênico** (mais comum que o mesotelioma), sobretudo em fumantes.",
+      "image_url": "images/respiratory/asbestos-body-1.jpg",
+      "image_credit": "Yale Rosen, MD, CC BY-SA 2.0, https://commons.wikimedia.org/wiki/File:Lung_-_Asbestosis_-_Asbestos_bodies.jpg"
+    },
+    {
+      "slug": "card-img-respiratory-caseating-granuloma",
+      "track": "step1",
+      "system": "respiratory",
+      "discipline": "pathology",
+      "tags": [
+        "images-respiratory",
+        "histology",
+        "tuberculosis"
+      ],
+      "front": "This H&E section comes from an enlarged lymph node. Identify the lesion. What are its parts, and what is the classic cause?",
+      "back": "**Caseating granuloma**: a center of pink, amorphous, granular **caseous necrosis** (upper right), surrounded by **epithelioid macrophages**, **Langhans giant cells** (lower left) and lymphocytes. Classic cause: ***Mycobacterium tuberculosis***.",
+      "back_pt": "**Granuloma caseoso**: centro de **necrose caseosa** rosada, amorfa e granular (canto superior direito), cercado por **macrófagos epitelioides**, **células gigantes de Langhans** (canto inferior esquerdo) e linfócitos. Causa clássica: ***Mycobacterium tuberculosis***.",
+      "image_url": "images/respiratory/caseating-granuloma-1.jpg",
+      "image_credit": "Department of Pathology, Calicut Medical College, CC BY-SA 4.0, https://commons.wikimedia.org/wiki/File:Tuberculous_lymph_node_with_caseating_granuloma_40X.jpg"
+    },
+    {
+      "slug": "card-img-respiratory-emphysema-gross",
+      "track": "step1",
+      "system": "respiratory",
+      "discipline": "pathology",
+      "tags": [
+        "images-respiratory",
+        "gross-pathology",
+        "copd"
+      ],
+      "front": "This is a close-up of the cut surface of the lung of a long-time smoker. What is the finding? Which lung zone does it usually affect in smokers?",
+      "back": "**Centriacinar (centrilobular) emphysema**: large air spaces from **destroyed alveolar walls**, with black **anthracotic pigment** around them. In smokers it is worst in the **upper lobes**. Cause: protease (elastase) activity greater than antiprotease activity.",
+      "back_pt": "**Enfisema centroacinar (centrolobular)**: grandes espaços aéreos por **destruição das paredes alveolares**, com **pigmento antracótico** negro ao redor. Em fumantes, é mais intenso nos **lobos superiores**. Causa: atividade de proteases (elastase) maior que a de antiproteases.",
+      "image_url": "images/respiratory/emphysema-gross-1.jpg",
+      "image_credit": "Yale Rosen, CC BY-SA 2.0, https://commons.wikimedia.org/wiki/File:Emphysema,_centrilobular_(4563270814).jpg"
+    },
+    {
+      "slug": "card-img-respiratory-squamous-cell-carcinoma",
+      "track": "step1",
+      "system": "respiratory",
+      "discipline": "pathology",
+      "tags": [
+        "images-respiratory",
+        "histology",
+        "lung-cancer"
+      ],
+      "front": "This biopsy comes from a central lung mass in a heavy smoker. Look at the large pink cells and the round structure in the center. Identify the tumor.",
+      "back": "**Squamous cell carcinoma of the lung**: large polygonal cells with abundant pink cytoplasm and **keratinization** (a concentric **keratin pearl** in the center). Typically **central** (hilar), strongly linked to **smoking**, may cause hypercalcemia through **PTHrP**.",
+      "back_pt": "**Carcinoma de células escamosas (epidermoide) do pulmão**: células poligonais grandes, com citoplasma rosado abundante e **queratinização** (uma **pérola córnea** concêntrica no centro). Em geral **central** (hilar), fortemente ligado ao **tabagismo**, pode causar hipercalcemia por **PTHrP**.",
+      "image_url": "images/respiratory/squamous-cell-carcinoma-1.jpg",
+      "image_credit": "Nephron, CC BY-SA 3.0, https://commons.wikimedia.org/wiki/File:Lung_squamous_carcinoma_--_high_mag.jpg"
+    }
+  ],
+  "questions": [
+    {
+      "slug": "q-img-respiratory-pneumothorax",
+      "track": "step1",
+      "system": "respiratory",
+      "discipline": "pathology",
+      "tags": [
+        "images-respiratory",
+        "chest-x-ray",
+        "pneumothorax"
+      ],
+      "stem": "A 68-year-old man in the hospital suddenly develops right-sided chest pain and shortness of breath. His blood pressure is 128/76 mm Hg and his pulse is 104/min. His chest x-ray is shown. Which set of physical findings over the right chest is most likely?",
+      "choices": [
+        "Dull percussion, decreased tactile fremitus, decreased breath sounds",
+        "Dull percussion, increased tactile fremitus, bronchial breath sounds",
+        "Normal percussion, normal tactile fremitus, diffuse wheezes",
+        "Hyperresonant percussion, decreased tactile fremitus, decreased breath sounds",
+        "Normal percussion, normal tactile fremitus, fine crackles at the base"
+      ],
+      "correct": 3,
+      "explanation": "The x-ray shows a **right pneumothorax**: the right hemithorax is dark with **no lung markings** at the periphery, and the edge of the collapsed lung lies near the heart. Air in the pleural space gives **hyperresonant** percussion and blocks sound, so **tactile fremitus and breath sounds decrease**. The most tempting wrong answer is dull percussion with decreased fremitus: this is a **pleural effusion**, where fluid (not air) fills the pleural space. Dullness with increased fremitus and bronchial breath sounds means consolidation. The blood pressure is normal, so there is no sign of tension pneumothorax.",
+      "explanation_pt": "A radiografia mostra **pneumotórax à direita**: o hemitórax direito está escuro, **sem trama pulmonar** na periferia, e a borda do pulmão colapsado fica perto do coração. O ar no espaço pleural gera percussão **hipertimpânica** e bloqueia o som, então o **frêmito toracovocal e o murmúrio vesicular diminuem**. A alternativa errada mais tentadora é macicez com frêmito diminuído: isso é **derrame pleural**, em que líquido (e não ar) ocupa o espaço pleural. Macicez com frêmito aumentado e sopro tubário indica consolidação. A pressão arterial é normal, então não há sinal de pneumotórax hipertensivo.",
+      "image_url": "images/respiratory/pneumothorax-1.jpg",
+      "image_credit": "Hellerhoff, CC BY-SA 3.0, https://commons.wikimedia.org/wiki/File:09-01-Pneumothorax.png"
+    },
+    {
+      "slug": "q-img-respiratory-cavitary-tb",
+      "track": "step1",
+      "system": "respiratory",
+      "discipline": "pathology",
+      "tags": [
+        "images-respiratory",
+        "chest-x-ray",
+        "tuberculosis"
+      ],
+      "stem": "A 34-year-old man has had cough, night sweats and a 7-kg weight loss for 3 months. Sputum smears show acid-fast bacilli. His chest x-ray is shown. Which factor best explains why this lesion is located in the upper part of the lung?",
+      "choices": [
+        "Higher blood flow to the lung apex brings more macrophages",
+        "Higher alveolar oxygen tension at the apex favors growth of the organism",
+        "Aspirated material drains mainly to the apical segments",
+        "Lymphatic drainage of the apex goes directly to the hilar nodes",
+        "Lower alveolar oxygen tension at the apex weakens local immunity"
+      ],
+      "correct": 1,
+      "explanation": "The x-ray shows a **cavity** in the **upper zone**, with surrounding patchy opacities: **secondary (reactivation) tuberculosis**. *M. tuberculosis* is an **obligate aerobe**. The lung apex has a **high V/Q ratio**, so alveolar **PO2 is highest** there, and the organism grows best. The most tempting wrong answer is higher blood flow at the apex, but blood flow is actually **lowest** at the apex in an upright person; this low perfusion is why the V/Q ratio and PO2 are high. The apex has the highest, not the lowest, oxygen tension. Aspiration goes mainly to dependent segments, such as the right lower lobe.",
+      "explanation_pt": "A radiografia mostra uma **cavidade** na **zona superior**, com opacidades irregulares ao redor: **tuberculose secundária (de reativação)**. O *M. tuberculosis* é **aeróbio obrigatório**. O ápice pulmonar tem **relação V/Q alta**, então a **PO2 alveolar é maior** ali, e o organismo cresce melhor. A alternativa errada mais tentadora é o maior fluxo sanguíneo no ápice, mas na posição ortostática o fluxo é, na verdade, **menor** no ápice; essa baixa perfusão é o motivo de a relação V/Q e a PO2 serem altas. O ápice tem a maior, e não a menor, tensão de oxigênio. A aspiração vai principalmente para os segmentos pendentes, como o lobo inferior direito.",
+      "image_url": "images/respiratory/cavitary-tb-1.jpg",
+      "image_credit": "Giller Boris, CC0, https://commons.wikimedia.org/wiki/File:Chest_plain_film._Fibrotic_cavitary_Tuberculosis.jpg"
+    },
+    {
+      "slug": "q-img-respiratory-pulmonary-embolism",
+      "track": "step1",
+      "system": "respiratory",
+      "discipline": "pathology",
+      "tags": [
+        "images-respiratory",
+        "ct",
+        "pulmonary-embolism"
+      ],
+      "stem": "A 57-year-old woman develops sudden shortness of breath and chest pain 6 days after a hip replacement. Her pulse is 118/min and oxygen saturation is 88% on room air. A contrast-enhanced CT of the chest is shown. Where did the material seen in the pulmonary arteries most likely form?",
+      "choices": [
+        "Deep veins of the leg and pelvis",
+        "Left atrial appendage",
+        "Superficial veins of the leg",
+        "Right ventricular apex",
+        "Pulmonary arteries themselves (thrombosis in place)"
+      ],
+      "correct": 0,
+      "explanation": "The CT pulmonary angiogram shows dark **filling defects** inside the bright, contrast-filled **pulmonary arteries**: a large **pulmonary embolism**. Almost all pulmonary emboli are thrombi from the **deep veins of the legs** (femoral, popliteal, iliac). Recent surgery and immobility are classic risk factors (Virchow triad: stasis, endothelial injury, hypercoagulability). The most tempting wrong answer is the left atrial appendage, but clots from the left heart go to the **systemic** circulation (stroke, limb or mesenteric ischemia), not to the lungs. Superficial vein thrombi rarely embolize. Thrombosis in place in the pulmonary arteries is rare and does not fit a sudden event after surgery.",
+      "explanation_pt": "A angiotomografia de tórax mostra **falhas de enchimento** escuras dentro das **artérias pulmonares** contrastadas: uma grande **embolia pulmonar**. Quase todos os êmbolos pulmonares são trombos das **veias profundas dos membros inferiores** (femoral, poplítea, ilíaca). Cirurgia recente e imobilidade são fatores de risco clássicos (tríade de Virchow: estase, lesão endotelial, hipercoagulabilidade). A alternativa errada mais tentadora é o apêndice atrial esquerdo, mas coágulos do coração esquerdo vão para a circulação **sistêmica** (AVC, isquemia de membro ou mesentérica), e não para os pulmões. Trombos de veias superficiais raramente embolizam. A trombose in situ nas artérias pulmonares é rara e não se encaixa em um evento súbito após cirurgia.",
+      "image_url": "images/respiratory/pulmonary-embolism-1.jpg",
+      "image_credit": "Rvahudson, CC BY-SA 4.0, https://commons.wikimedia.org/wiki/File:CTA_Chest_With_Massive_Pulmonary_Embolism_and_Complete_Occlusion.jpg"
+    },
+    {
+      "slug": "q-img-respiratory-hilar-lymphadenopathy",
+      "track": "step1",
+      "system": "respiratory",
+      "discipline": "pathology",
+      "tags": [
+        "images-respiratory",
+        "gross-pathology",
+        "sarcoidosis"
+      ],
+      "stem": "A 31-year-old woman has had a dry cough and mild shortness of breath for 2 months. She has tender red nodules on both shins and pain in both ankles. Her chest imaging shows the same finding as in the autopsy specimen shown (from another patient with the same disease). Which finding is most likely on biopsy of the affected tissue?",
+      "choices": [
+        "Caseating granulomas with acid-fast bacilli",
+        "Reed-Sternberg cells in a mixed inflammatory background",
+        "Well-formed non-caseating granulomas",
+        "Sheets of small cells with nuclear molding",
+        "Broad-based budding yeasts in macrophages"
+      ],
+      "correct": 2,
+      "explanation": "The specimen shows **markedly enlarged hilar lymph nodes on both sides**, with lungs that look nearly normal: **bilateral hilar lymphadenopathy**. With erythema nodosum and ankle arthritis in a young woman, this is **sarcoidosis** (this triad is Löfgren syndrome). Biopsy shows **non-caseating granulomas**. The most tempting wrong answer is caseating granulomas from tuberculosis, which can also enlarge hilar nodes, but TB granulomas have central necrosis and the stem gives no TB features (fever, weight loss, exposure). Lymphoma, small cell carcinoma and blastomycosis do not fit this classic triad of erythema nodosum, ankle arthritis and bilateral hilar nodes.",
+      "explanation_pt": "A peça mostra **linfonodos hilares muito aumentados nos dois lados**, com pulmões de aspecto quase normal: **linfadenopatia hilar bilateral**. Com eritema nodoso e artrite de tornozelos em uma mulher jovem, trata-se de **sarcoidose** (essa tríade é a síndrome de Löfgren). A biópsia mostra **granulomas não caseosos**. A alternativa errada mais tentadora são granulomas caseosos da tuberculose, que também pode aumentar linfonodos hilares, mas os granulomas da TB têm necrose central e o enunciado não traz sinais de TB (febre, perda de peso, exposição). Linfoma, carcinoma de pequenas células e blastomicose não se encaixam nessa tríade clássica de eritema nodoso, artrite de tornozelos e linfonodos hilares bilaterais.",
+      "image_url": "images/respiratory/hilar-lymphadenopathy-1.jpg",
+      "image_credit": "Yale Rosen, CC BY-SA 2.0, https://commons.wikimedia.org/wiki/File:Sarcoidosis_-_Bilateral_hilar_lymphadenoathy.jpg"
+    },
+    {
+      "slug": "q-img-respiratory-hyaline-membranes",
+      "track": "step1",
+      "system": "respiratory",
+      "discipline": "pathology",
+      "tags": [
+        "images-respiratory",
+        "histology",
+        "ards"
+      ],
+      "stem": "A 49-year-old man with severe acute pancreatitis develops rapidly worsening hypoxemia and bilateral lung opacities. His pulmonary capillary wedge pressure is normal. He dies 5 days later. A section of his lung at autopsy is shown. The pale pink, waxy material lining the alveolar walls is mainly made of which of the following?",
+      "choices": [
+        "Surfactant lipoproteins that accumulated from abnormal clearance",
+        "Collagen laid down by activated fibroblasts",
+        "Amyloid deposits from misfolded light chains",
+        "Mucus secreted by goblet cells of the small airways",
+        "Fibrin-rich plasma proteins mixed with debris of necrotic alveolar lining cells"
+      ],
+      "correct": 4,
+      "explanation": "The image shows congested capillaries and **hyaline membranes**: pink, waxy bands lining the alveolar spaces. This is **diffuse alveolar damage**, the histology of **ARDS** (here from pancreatitis). Injury to the alveolar-capillary wall lets **protein-rich fluid** leak into the alveoli; **fibrin** from this fluid mixes with **necrotic type I pneumocytes** and forms the membranes. The most tempting wrong answer is accumulated surfactant, but that is **pulmonary alveolar proteinosis**, where the alveoli fill with granular PAS-positive material, not membranes along the walls. Collagen appears only later, in the organizing (fibrotic) phase.",
+      "explanation_pt": "A imagem mostra capilares congestos e **membranas hialinas**: faixas rosadas e cerosas que revestem os espaços alveolares. Isso é **dano alveolar difuso**, a histologia da **SDRA** (aqui por pancreatite). A lesão da parede alvéolo-capilar deixa **líquido rico em proteínas** extravasar para os alvéolos; a **fibrina** desse líquido se mistura com **pneumócitos tipo I necróticos** e forma as membranas. A alternativa errada mais tentadora é o acúmulo de surfactante, mas isso é **proteinose alveolar pulmonar**, em que os alvéolos se enchem de material granular PAS-positivo, e não de membranas ao longo das paredes. O colágeno só aparece depois, na fase de organização (fibrótica).",
+      "image_url": "images/respiratory/hyaline-membranes-1.jpg",
+      "image_credit": "Nephron, CC BY-SA 3.0, https://commons.wikimedia.org/wiki/File:Hyaline_membranes_-_very_high_mag.jpg"
+    }
+  ],
+  "notes": []
+}

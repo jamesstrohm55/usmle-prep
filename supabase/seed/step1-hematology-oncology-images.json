@@ -1,0 +1,199 @@
+{
+  "cards": [
+    {
+      "slug": "card-img-hematology-oncology-target-cells",
+      "track": "step1",
+      "system": "hematology-oncology",
+      "discipline": "pathology",
+      "tags": ["images-hematology-oncology", "blood-smear", "red-cell-morphology"],
+      "front": "Several red cells in this peripheral blood smear have an unusual pattern of color. Identify these cells and name the main conditions that cause them.",
+      "back": "**Target cells (codocytes)**: a dark central spot of hemoglobin inside the pale ring, like a bull's-eye. The cell has extra membrane compared with its hemoglobin. Causes: **HbC disease**, **asplenia**, **liver disease**, **thalassemia**.",
+      "back_pt": "**Células em alvo (codócitos)**: uma mancha central escura de hemoglobina dentro do halo pálido, como um alvo (*bull's-eye*). A célula tem excesso de membrana em relação à hemoglobina. Causas: **doença da HbC**, **asplenia**, **doença hepática**, **talassemia**.",
+      "image_url": "images/hematology-oncology/target-cells-1.jpg",
+      "image_credit": "Ed Uthman from Houston, TX, USA, CC BY 2.0, https://commons.wikimedia.org/wiki/File:Target_Cells,_Peripheral_Blood_Smear_(39144139915).jpg"
+    },
+    {
+      "slug": "card-img-hematology-oncology-iron-deficiency",
+      "track": "step1",
+      "system": "hematology-oncology",
+      "discipline": "pathology",
+      "tags": ["images-hematology-oncology", "blood-smear", "anemia"],
+      "front": "This blood smear is from a 38-year-old woman with heavy menstrual periods and fatigue. Describe the red cells. What iron studies do you expect?",
+      "back": "**Iron deficiency anemia**: the red cells are **small** with a **wide pale center** (**microcytic, hypochromic**) and vary in size and shape. Iron studies: **low ferritin**, low serum iron, **high TIBC**, low transferrin saturation.",
+      "back_pt": "**Anemia ferropriva**: as hemácias são **pequenas**, com **halo central pálido amplo** (**microcíticas, hipocrômicas**), e variam em tamanho e forma. Perfil de ferro: **ferritina baixa**, ferro sérico baixo, **CTLF (TIBC) alta**, saturação da transferrina baixa.",
+      "image_url": "images/hematology-oncology/iron-deficiency-1.jpg",
+      "image_credit": "Ed Uthman from Houston, TX, USA, CC BY 2.0, https://commons.wikimedia.org/wiki/File:Iron-deficiency_Anemia,_Peripheral_Blood_Smear_(4422704616).jpg"
+    },
+    {
+      "slug": "card-img-hematology-oncology-basophilic-stippling",
+      "track": "step1",
+      "system": "hematology-oncology",
+      "discipline": "pathology",
+      "tags": ["images-hematology-oncology", "blood-smear", "red-cell-inclusions"],
+      "front": "Look at the red cells that contain many fine dark dots. Identify the finding and give its classic causes.",
+      "back": "**Basophilic stippling**: many small blue-black dots of leftover **ribosomal RNA** inside red cells. Classic causes: **lead poisoning** (lead inhibits pyrimidine 5'-nucleotidase, so RNA is not broken down), **thalassemias** and **sideroblastic anemia**.",
+      "back_pt": "**Pontilhado basofílico**: muitos pontos pequenos azul-escuros de **RNA ribossômico** residual dentro das hemácias. Causas clássicas: **intoxicação por chumbo** (o chumbo inibe a pirimidina 5'-nucleotidase, e o RNA não é degradado), **talassemias** e **anemia sideroblástica**.",
+      "image_url": "images/hematology-oncology/basophilic-stippling-1.jpg",
+      "image_credit": "Prof. Erhabor Osaro, CC BY-SA 4.0, https://commons.wikimedia.org/wiki/File:Basophilic_stippling_2.jpg"
+    },
+    {
+      "slug": "card-img-hematology-oncology-auer-rods",
+      "track": "step1",
+      "system": "hematology-oncology",
+      "discipline": "pathology",
+      "tags": ["images-hematology-oncology", "bone-marrow", "leukemia"],
+      "front": "This bone marrow aspirate is from an adult with fatigue, fever and easy bruising. Many large immature cells contain thin, needle-like inclusions. Identify the inclusions and the disease they point to.",
+      "back": "**Auer rods** in **myeloblasts**: needle-shaped inclusions of fused **azurophilic granules**, positive for **myeloperoxidase**. They point to **acute myeloid leukemia** (myeloid, not lymphoid, blasts). Many rods per cell suggest acute promyelocytic leukemia, with a high risk of **DIC**.",
+      "back_pt": "**Bastonetes de Auer** em **mieloblastos**: inclusões em forma de agulha formadas pela fusão de **grânulos azurófilos**, positivas para **mieloperoxidase**. Indicam **leucemia mieloide aguda** (blastos mieloides, não linfoides). Muitos bastonetes por célula sugerem leucemia promielocítica aguda, com alto risco de **CIVD**.",
+      "image_url": "images/hematology-oncology/auer-rods-1.jpg",
+      "image_credit": "Paulo Henrique Orlandi Mourao, CC BY-SA 3.0, https://commons.wikimedia.org/wiki/File:Myeloblast_with_Auer_rod_smear_2010-01-27.JPG"
+    },
+    {
+      "slug": "card-img-hematology-oncology-smudge-cells",
+      "track": "step1",
+      "system": "hematology-oncology",
+      "discipline": "pathology",
+      "tags": ["images-hematology-oncology", "blood-smear", "leukemia"],
+      "front": "This blood smear is from a 72-year-old man whose very high white cell count was found on routine testing. Identify the broken cells with thin strands, and the most likely disease.",
+      "back": "**Smudge (smear) cells**: fragile lymphocytes crushed while the smear is made. Together with many small, mature-looking lymphocytes, they suggest **chronic lymphocytic leukemia**: clonal **CD5+, CD23+** B cells, mostly in older adults.",
+      "back_pt": "**Sombras de Gumprecht (*smudge cells*)**: linfócitos frágeis esmagados durante o preparo do esfregaço. Junto com muitos linfócitos pequenos de aspecto maduro, sugerem **leucemia linfocítica crônica**: linfócitos B clonais **CD5+, CD23+**, sobretudo em idosos.",
+      "image_url": "images/hematology-oncology/smudge-cells-1.jpg",
+      "image_credit": "Dr Graham Beards, CC BY-SA 3.0, https://commons.wikimedia.org/wiki/File:Smear_cells.jpg"
+    },
+    {
+      "slug": "card-img-hematology-oncology-burkitt-starry-sky",
+      "track": "step1",
+      "system": "hematology-oncology",
+      "discipline": "pathology",
+      "tags": ["images-hematology-oncology", "histology", "lymphoma"],
+      "front": "This biopsy is from a rapidly growing abdominal mass in a 10-year-old boy. Name the pattern, the tumor and its classic translocation.",
+      "back": "**Starry-sky pattern** of **Burkitt lymphoma**: sheets of medium-sized B cells (the dark 'sky') with scattered pale **tingible-body macrophages** (the 'stars') that eat dead tumor cells. **t(8;14)** places **MYC** next to the immunoglobulin heavy-chain gene.",
+      "back_pt": "**Padrão em céu estrelado** (*starry sky*) do **linfoma de Burkitt**: lençóis de linfócitos B de tamanho médio (o 'céu' escuro) com **macrófagos de corpos tingíveis** pálidos e dispersos (as 'estrelas'), que fagocitam células tumorais mortas. A **t(8;14)** coloca o **MYC** ao lado do gene da cadeia pesada da imunoglobulina.",
+      "image_url": "images/hematology-oncology/burkitt-starry-sky-1.jpg",
+      "image_credit": "Ed Uthman, MD., CC BY 2.0, https://commons.wikimedia.org/wiki/File:Burkitt_lymphoma,_H&E.jpg"
+    }
+  ],
+  "questions": [
+    {
+      "slug": "q-img-hematology-oncology-sickle-cells",
+      "track": "step1",
+      "system": "hematology-oncology",
+      "discipline": "pathology",
+      "tags": ["images-hematology-oncology", "blood-smear", "hemoglobinopathy"],
+      "stem": "A 6-year-old boy of West African descent has had several episodes of severe pain in his bones and chest. His hemoglobin is low and his reticulocyte count is high. His peripheral blood smear is shown. Which molecular change underlies his disease?",
+      "choices": [
+        "Substitution of lysine for glutamate at position 6 of the beta-globin chain",
+        "Deletion of three of the four alpha-globin genes",
+        "Substitution of valine for glutamate at position 6 of the beta-globin chain",
+        "Point mutation that reduces production of beta-globin chains",
+        "Mutation in a gene for the red cell membrane protein spectrin"
+      ],
+      "correct": 2,
+      "explanation": "The smear shows many **sickle cells**: long, curved red cells with pointed ends. In **sickle cell disease**, **valine replaces glutamate at position 6 of beta-globin** (HbS). The hydrophobic valine lets deoxygenated HbS **polymerize**, so the cells bend, block small vessels (pain crises) and hemolyze. The most tempting wrong answer is lysine at the same position: this is **HbC**, which causes a milder hemolytic anemia with target cells and crystals, not sickle cells. Alpha-gene deletions and reduced beta-chain production are thalassemias (microcytic cells), and spectrin defects cause spherocytes.",
+      "explanation_pt": "O esfregaço mostra muitas **hemácias falciformes** (drepanócitos): células longas e curvas, com pontas afiladas. Na **doença falciforme**, a **valina substitui o glutamato na posição 6 da beta-globina** (HbS). A valina hidrofóbica permite que a HbS desoxigenada **polimerize**; as células se deformam, obstruem pequenos vasos (crises dolorosas) e sofrem hemólise. A alternativa errada mais tentadora é a lisina na mesma posição: isso é a **HbC**, que causa anemia hemolítica mais leve, com células em alvo e cristais, e não células falciformes. Deleções de genes alfa e menor produção de cadeias beta são talassemias (células microcíticas), e defeitos da espectrina causam esferócitos.",
+      "image_url": "images/hematology-oncology/sickle-cells-1.jpg",
+      "image_credit": "Ed Uthman from Houston, TX, USA, CC BY 2.0, https://commons.wikimedia.org/wiki/File:Sickle_Cell_Anemia_(5610746554).jpg"
+    },
+    {
+      "slug": "q-img-hematology-oncology-spherocytes",
+      "track": "step1",
+      "system": "hematology-oncology",
+      "discipline": "pathology",
+      "tags": ["images-hematology-oncology", "blood-smear", "hemolytic-anemia"],
+      "stem": "A 70-year-old woman with long-standing inflammatory bowel disease has had fatigue and yellow eyes for 2 weeks. Her hemoglobin is low, and her reticulocyte count and indirect bilirubin are high. A direct antiglobulin (Coombs) test is positive for IgG. Her blood smear is shown. How are the small, dense, round red cells on this smear mainly formed?",
+      "choices": [
+        "Complement-mediated lysis of red cells inside blood vessels",
+        "Mechanical damage to red cells on fibrin strands in small vessels",
+        "Inherited defects in red cell membrane proteins such as ankyrin or spectrin",
+        "Partial removal of IgG-coated red cell membrane by splenic macrophages",
+        "Oxidative damage that makes hemoglobin precipitate inside red cells"
+      ],
+      "correct": 3,
+      "explanation": "The smear shows **spherocytes**: small, round red cells that stain darkly and have **no central pallor**. With a positive direct Coombs test for IgG, this is **warm autoimmune hemolytic anemia**, which is linked to autoimmune diseases such as inflammatory bowel disease. **Splenic macrophages** bind the IgG on the red cells through Fc receptors and **remove pieces of membrane**; the cell loses surface area and becomes a sphere, which the spleen then destroys (extravascular hemolysis). The most tempting wrong answer is an inherited membrane defect (**hereditary spherocytosis**): it makes the same cells, but the Coombs test is negative and the disease starts early in life. Complement lysis in vessels fits cold agglutinin disease or PNH, fibrin strands make schistocytes, and oxidative damage (G6PD deficiency) makes Heinz bodies and bite cells.",
+      "explanation_pt": "O esfregaço mostra **esferócitos**: hemácias pequenas e redondas, que coram de forma intensa e **não têm palidez central**. Com teste de Coombs direto positivo para IgG, trata-se de **anemia hemolítica autoimune a quente**, associada a doenças autoimunes como a doença inflamatória intestinal. Os **macrófagos do baço** ligam a IgG das hemácias por receptores Fc e **retiram partes da membrana**; a célula perde área de superfície, vira uma esfera e é então destruída no baço (hemólise extravascular). A alternativa errada mais tentadora é o defeito hereditário de membrana (**esferocitose hereditária**): forma as mesmas células, mas o Coombs é negativo e a doença começa cedo na vida. Lise por complemento dentro dos vasos indica doença por crioaglutininas ou HPN, filamentos de fibrina formam esquizócitos, e o dano oxidativo (deficiência de G6PD) forma corpos de Heinz e células mordidas.",
+      "image_url": "images/hematology-oncology/spherocytes-1.jpg",
+      "image_credit": "Ed Uthman from Houston, TX, USA, CC BY 2.0, https://commons.wikimedia.org/wiki/File:Warm_Autoimmune_Hemolytic_Anemia_(2989438061).jpg"
+    },
+    {
+      "slug": "q-img-hematology-oncology-hypersegmented-neutrophil",
+      "track": "step1",
+      "system": "hematology-oncology",
+      "discipline": "pathology",
+      "tags": ["images-hematology-oncology", "blood-smear", "megaloblastic-anemia"],
+      "stem": "A 64-year-old woman has fatigue, a smooth sore tongue and tingling in both feet. Vibration sense is reduced in both legs. Her hemoglobin is low and her MCV is high. A white cell from her blood smear is shown. Which pair of laboratory results is most likely?",
+      "choices": [
+        "High methylmalonic acid and high homocysteine",
+        "Normal methylmalonic acid and high homocysteine",
+        "High methylmalonic acid and normal homocysteine",
+        "Low ferritin and high total iron-binding capacity",
+        "Normal methylmalonic acid and normal homocysteine"
+      ],
+      "correct": 0,
+      "explanation": "The image shows a **hypersegmented neutrophil** (more than five nuclear lobes), a sign of **megaloblastic anemia** from impaired DNA synthesis. The **neurologic signs** (loss of vibration sense, paresthesias from dorsal column damage) point to **vitamin B12 deficiency**. B12 is a cofactor for **methylmalonyl-CoA mutase** and **methionine synthase**, so both **methylmalonic acid and homocysteine rise**. The most tempting wrong answer is normal methylmalonic acid with high homocysteine: this is **folate deficiency**, which gives the same smear but no neurologic disease. Low ferritin with high TIBC means iron deficiency, which is microcytic.",
+      "explanation_pt": "A imagem mostra um **neutrófilo hipersegmentado** (mais de cinco lobos nucleares), sinal de **anemia megaloblástica** por síntese de DNA prejudicada. Os **sinais neurológicos** (perda da sensibilidade vibratória, parestesias por lesão dos cordões posteriores) indicam **deficiência de vitamina B12**. A B12 é cofator da **metilmalonil-CoA mutase** e da **metionina sintase**, então **ácido metilmalônico e homocisteína aumentam**. A alternativa errada mais tentadora é ácido metilmalônico normal com homocisteína alta: isso é **deficiência de folato**, que dá o mesmo esfregaço, mas sem doença neurológica. Ferritina baixa com CTLF alta indica deficiência de ferro, que é microcítica.",
+      "image_url": "images/hematology-oncology/hypersegmented-neutrophil-1.jpg",
+      "image_credit": "Ed Uthman from Houston, TX, USA, CC BY 2.0, https://commons.wikimedia.org/wiki/File:Hyperlobated_Neutrophil_(8612790151).jpg"
+    },
+    {
+      "slug": "q-img-hematology-oncology-reed-sternberg",
+      "track": "step1",
+      "system": "hematology-oncology",
+      "discipline": "pathology",
+      "tags": ["images-hematology-oncology", "histology", "lymphoma"],
+      "stem": "A 22-year-old man has painless, enlarged lymph nodes in his neck, fevers and night sweats. A biopsy of one node is shown; note the large cell in the center with two nuclei and large nucleoli. Which immunophenotype is most typical of this large cell?",
+      "choices": [
+        "CD20+, CD10+, BCL6+",
+        "CD15+, CD30+, CD45-",
+        "CD5+, CD23+, weak CD20",
+        "CD3+, CD4+, CD25+",
+        "TdT+, CD10+, CD19+"
+      ],
+      "correct": 1,
+      "explanation": "The large binucleate cell with a big nucleolus in each nucleus ('owl eyes') is a **Reed-Sternberg cell**, set in a mixed background of small lymphocytes and other inflammatory cells. This is **classic Hodgkin lymphoma**, common in young adults with painless cervical nodes and B symptoms. Reed-Sternberg cells are typically **CD15+ and CD30+**, and **CD45-**. The most tempting wrong answer is CD20+/CD10+/BCL6+: Reed-Sternberg cells come from germinal-center B cells, but they **lose most B-cell markers**; this profile fits germinal-center B-cell lymphomas such as Burkitt or follicular lymphoma. CD5+/CD23+ is CLL, CD3+/CD4+/CD25+ is adult T-cell leukemia/lymphoma, and TdT+ marks lymphoblasts.",
+      "explanation_pt": "A célula grande binucleada, com um nucléolo grande em cada núcleo (*owl eyes*, 'olhos de coruja'), é uma **célula de Reed-Sternberg**, em fundo misto de pequenos linfócitos e outras células inflamatórias. Trata-se de **linfoma de Hodgkin clássico**, comum em adultos jovens com linfonodos cervicais indolores e sintomas B. As células de Reed-Sternberg costumam ser **CD15+ e CD30+**, e **CD45-**. A alternativa errada mais tentadora é CD20+/CD10+/BCL6+: as células de Reed-Sternberg vêm de linfócitos B do centro germinativo, mas **perdem a maioria dos marcadores B**; esse perfil se encaixa em linfomas B de centro germinativo, como Burkitt ou folicular. CD5+/CD23+ é LLC, CD3+/CD4+/CD25+ é leucemia/linfoma de células T do adulto, e TdT+ marca linfoblastos.",
+      "image_url": "images/hematology-oncology/reed-sternberg-1.jpg",
+      "image_credit": "Ed Uthman, MD, CC BY-SA 2.0, https://commons.wikimedia.org/wiki/File:Hodgkin_Disease,_Reed-Sternberg_Cell.jpg"
+    },
+    {
+      "slug": "q-img-hematology-oncology-cml",
+      "track": "step1",
+      "system": "hematology-oncology",
+      "discipline": "pathology",
+      "tags": ["images-hematology-oncology", "blood-smear", "myeloproliferative"],
+      "stem": "A 52-year-old man has fatigue, night sweats and a feeling of fullness after small meals. His spleen is palpable well below the left costal margin. His white cell count is markedly high. A smear from the patient is shown. Which genetic change is most likely present in these cells?",
+      "choices": [
+        "JAK2 V617F point mutation",
+        "PML-RARA fusion from t(15;17)",
+        "BCL2 overexpression from t(14;18)",
+        "MYC overexpression from t(8;14)",
+        "BCR-ABL1 fusion from t(9;22)"
+      ],
+      "correct": 4,
+      "explanation": "The smear is crowded with **granulocytes at every stage of maturation** (myelocytes, metamyelocytes, band and segmented neutrophils, with few blasts). With massive splenomegaly, this points to **chronic myeloid leukemia**. Its cause is the **Philadelphia chromosome, t(9;22)**, which makes the **BCR-ABL1** fusion gene, a constantly active tyrosine kinase (the target of imatinib). The most tempting wrong answer is **JAK2 V617F**: it drives the other myeloproliferative neoplasms (polycythemia vera, essential thrombocythemia, primary myelofibrosis), not CML. PML-RARA is acute promyelocytic leukemia, t(14;18) is follicular lymphoma, and t(8;14) is Burkitt lymphoma.",
+      "explanation_pt": "O esfregaço está repleto de **granulócitos em todas as fases de maturação** (mielócitos, metamielócitos, bastonetes e segmentados, com poucos blastos). Com esplenomegalia volumosa, isso indica **leucemia mieloide crônica**. A causa é o **cromossomo Filadélfia, t(9;22)**, que forma o gene de fusão **BCR-ABL1**, uma tirosina-quinase sempre ativa (alvo do imatinibe). A alternativa errada mais tentadora é a **JAK2 V617F**: ela causa as outras neoplasias mieloproliferativas (policitemia vera, trombocitemia essencial, mielofibrose primária), não a LMC. PML-RARA é leucemia promielocítica aguda, t(14;18) é linfoma folicular e t(8;14) é linfoma de Burkitt.",
+      "image_url": "images/hematology-oncology/cml-1.jpg",
+      "image_credit": "Paulo Henrique Orlandi Mourao, CC BY-SA 3.0, https://commons.wikimedia.org/wiki/File:Chronic_Myeloid_Leukemia_smear_2009-04-09.JPG"
+    },
+    {
+      "slug": "q-img-hematology-oncology-myeloma",
+      "track": "step1",
+      "system": "hematology-oncology",
+      "discipline": "pathology",
+      "tags": ["images-hematology-oncology", "bone-marrow", "plasma-cell-neoplasm"],
+      "stem": "A 66-year-old man has back pain, fatigue and two recent pneumonias. His hemoglobin is low. His serum calcium and creatinine are high, and his total serum protein is high with a normal albumin. His bone marrow aspirate is shown. Which finding is most likely on further testing?",
+      "choices": [
+        "High alkaline phosphatase and intense uptake on a bone scan",
+        "A diffuse (polyclonal) increase in gamma globulins",
+        "A monoclonal (M) spike on serum protein electrophoresis",
+        "A positive tartrate-resistant acid phosphatase (TRAP) stain",
+        "A t(9;22) on cytogenetic testing"
+      ],
+      "correct": 2,
+      "explanation": "The aspirate shows many **plasma cells**: large cells with an **eccentric round nucleus** and abundant cytoplasm with a paler zone next to the nucleus. Red cells nearby are stacked like coins (**rouleaux**). With bone pain, **hypercalcemia**, **renal injury**, anemia and infections, this is **multiple myeloma**, a clonal plasma cell tumor that makes one immunoglobulin, seen as an **M spike** on serum protein electrophoresis. The most tempting wrong answer is high alkaline phosphatase with a positive bone scan: myeloma lesions are **purely lytic** because osteoblasts are suppressed, so alkaline phosphatase is usually normal and bone scans often miss the lesions. A polyclonal increase fits chronic inflammation, TRAP marks hairy cell leukemia, and t(9;22) is CML.",
+      "explanation_pt": "O aspirado mostra muitos **plasmócitos**: células grandes com **núcleo redondo excêntrico** e citoplasma abundante, com uma zona mais clara ao lado do núcleo. As hemácias próximas estão empilhadas como moedas (***rouleaux***). Com dor óssea, **hipercalcemia**, **lesão renal**, anemia e infecções, trata-se de **mieloma múltiplo**, um tumor clonal de plasmócitos que produz uma única imunoglobulina, vista como **pico M** na eletroforese de proteínas séricas. A alternativa errada mais tentadora é fosfatase alcalina alta com cintilografia óssea positiva: as lesões do mieloma são **puramente líticas** porque os osteoblastos ficam suprimidos; por isso a fosfatase alcalina costuma ser normal e a cintilografia muitas vezes não detecta as lesões. Aumento policlonal indica inflamação crônica, TRAP marca a tricoleucemia e t(9;22) é LMC.",
+      "image_url": "images/hematology-oncology/myeloma-plasma-cells-1.jpg",
+      "image_credit": "Dr Osaro Erhabor, CC BY-SA 3.0, https://commons.wikimedia.org/wiki/File:Plasma_Cells_in_a_Marrow_film_on_a_Myeloma_patient.jpg"
+    }
+  ],
+  "notes": []
+}

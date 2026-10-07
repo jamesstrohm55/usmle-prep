@@ -1,0 +1,127 @@
+{
+  "cards": [
+    {
+      "slug": "card-img-nervous-epidural-hematoma",
+      "track": "step1",
+      "system": "nervous",
+      "discipline": "pathology",
+      "tags": ["images-nervous", "head-ct", "head-trauma"],
+      "front": "This noncontrast head CT is from a young man who was hit on the head with a bat. Look at the bright collection in the upper left of the image. What is it, and which vessel usually bleeds?",
+      "back": "**Epidural hematoma**: a bright, **biconvex (lens-shaped)** collection that does **not cross suture lines**. Usual source: the **middle meningeal artery**, torn by a temporal bone fracture. Classic course: brief loss of consciousness, a **lucid interval**, then rapid decline.",
+      "back_pt": "**Hematoma epidural**: coleção hiperdensa **biconvexa (em lente)** que **não cruza as suturas**. Fonte habitual: a **artéria meníngea média**, lesada por fratura do osso temporal. Curso clássico: perda breve da consciência, **intervalo lúcido** e depois piora rápida.",
+      "image_url": "images/nervous/epidural-hematoma-1.jpg",
+      "image_credit": "Jpogi, CC BY-SA 3.0, https://commons.wikimedia.org/wiki/File:Traumatic_acute_epidual_hematoma.jpg"
+    },
+    {
+      "slug": "card-img-nervous-pseudopalisading-necrosis",
+      "track": "step1",
+      "system": "nervous",
+      "discipline": "pathology",
+      "tags": ["images-nervous", "histology", "cns-tumors"],
+      "front": "This H&E section comes from a cerebral hemisphere mass in a 62-year-old man. Look at the pink bands lined by dense rows of nuclei. Name the pattern and the tumor.",
+      "back": "**Pseudopalisading necrosis**: serpentine zones of pink **necrosis** lined by rows of crowded tumor nuclei, in a very cellular tumor. This is the hallmark of **glioblastoma** (grade 4 astrocytic tumor), which is **GFAP positive** and also shows vascular (microvascular) proliferation.",
+      "back_pt": "**Necrose em pseudopaliçada**: faixas serpiginosas de **necrose** rosada margeadas por fileiras de núcleos tumorais aglomerados, num tumor muito celular. É o marco do **glioblastoma** (tumor astrocitário grau 4), que é **GFAP positivo** e também mostra proliferação microvascular.",
+      "image_url": "images/nervous/pseudopalisading-necrosis-1.jpg",
+      "image_credit": "Jensflorian, CC BY-SA 3.0, https://commons.wikimedia.org/wiki/File:GBM_pseudopalisading_necrosis.jpg"
+    },
+    {
+      "slug": "card-img-nervous-neuritic-plaque",
+      "track": "step1",
+      "system": "nervous",
+      "discipline": "pathology",
+      "tags": ["images-nervous", "histology", "dementia"],
+      "front": "This silver-stained section of cerebral cortex comes from a 78-year-old woman with years of progressive memory loss. Identify the two round structures. What protein forms their core?",
+      "back": "**Neuritic (senile) plaques** of **Alzheimer disease**: round extracellular deposits with a core of **β-amyloid (Aβ)**, made from **amyloid precursor protein (APP)**, surrounded by swollen, dark **dystrophic neurites**. The other classic lesion is the intracellular neurofibrillary tangle (hyperphosphorylated tau).",
+      "back_pt": "**Placas neuríticas (senis)** da **doença de Alzheimer**: depósitos extracelulares arredondados com núcleo de **β-amiloide (Aβ)**, derivado da **proteína precursora do amiloide (APP)**, cercados por **neuritos distróficos** escuros e dilatados. A outra lesão clássica é o emaranhado neurofibrilar intracelular (tau hiperfosforilada).",
+      "image_url": "images/nervous/neuritic-plaque-1.jpg",
+      "image_credit": "Tulemo, CC BY-SA 4.0, https://commons.wikimedia.org/wiki/File:Neuritic_senile_(Abeta)_plaques.jpg"
+    },
+    {
+      "slug": "card-img-nervous-lewy-body",
+      "track": "step1",
+      "system": "nervous",
+      "discipline": "pathology",
+      "tags": ["images-nervous", "histology", "movement-disorders"],
+      "front": "This H&E section comes from the pigmented brainstem neurons of a man who had a resting tremor and slow movements. Look at the round pink bodies inside the brown-pigmented neurons. What are they, and what protein do they contain?",
+      "back": "**Lewy bodies**: round, **eosinophilic intracytoplasmic inclusions** with a pale halo, in pigmented (neuromelanin-containing) brainstem neurons. They are made mainly of **α-synuclein**. Seen in **Parkinson disease** (substantia nigra, locus coeruleus) and in dementia with Lewy bodies.",
+      "back_pt": "**Corpos de Lewy**: inclusões **intracitoplasmáticas eosinofílicas** e arredondadas, com halo claro, em neurônios pigmentados (com neuromelanina) do tronco encefálico. São formados principalmente por **α-sinucleína**. Ocorrem na **doença de Parkinson** (substância negra, locus coeruleus) e na demência com corpos de Lewy.",
+      "image_url": "images/nervous/lewy-body-1.jpg",
+      "image_credit": "Jensflorian, CC BY-SA 3.0, https://commons.wikimedia.org/wiki/File:Locus_coeruleus_SN.jpg"
+    },
+    {
+      "slug": "card-img-nervous-schwannoma",
+      "track": "step1",
+      "system": "nervous",
+      "discipline": "pathology",
+      "tags": ["images-nervous", "histology", "cns-tumors"],
+      "front": "This H&E section comes from a mass at the cerebellopontine angle in a woman with one-sided hearing loss and tinnitus. Look at the rows of spindle-cell nuclei. Name the tumor and this pattern.",
+      "back": "**Schwannoma** (vestibular schwannoma): spindle cells whose nuclei line up in parallel rows (**palisading**) around pink, nucleus-free zones (**Verocay bodies**) in dense, cellular **Antoni A** areas. Arises from Schwann cells, **S-100 positive**; bilateral tumors suggest **neurofibromatosis type 2**.",
+      "back_pt": "**Schwannoma** (schwannoma vestibular): células fusiformes cujos núcleos se alinham em fileiras paralelas (**paliçada**) ao redor de zonas rosadas sem núcleos (**corpos de Verocay**) em áreas densas e celulares **Antoni A**. Origina-se das células de Schwann, **S-100 positivo**; tumores bilaterais sugerem **neurofibromatose tipo 2**.",
+      "image_url": "images/nervous/schwannoma-1.jpg",
+      "image_credit": "Jensflorian, CC BY-SA 3.0, https://commons.wikimedia.org/wiki/File:Akn_t4_antoni_a.jpg"
+    }
+  ],
+  "questions": [
+    {
+      "slug": "q-img-nervous-subdural-hematoma",
+      "track": "step1",
+      "system": "nervous",
+      "discipline": "pathology",
+      "tags": ["images-nervous", "head-ct", "head-trauma"],
+      "stem": "An 81-year-old man who takes warfarin for atrial fibrillation fell at home 3 days ago and hit his head. Since then he has become more confused and sleepy. His noncontrast head CT is shown. Tearing of which structure most likely caused this lesion?",
+      "choices": [
+        "Middle meningeal artery",
+        "Bridging veins between the cortex and the dural sinuses",
+        "Lenticulostriate arteries",
+        "Saccular aneurysm of the anterior communicating artery",
+        "Arteriovenous malformation in the brain tissue"
+      ],
+      "correct": 1,
+      "explanation": "The CT shows a bright, **crescent-shaped** collection along the convexity of one hemisphere that follows the surface of the brain, with compression of the lateral ventricle and **midline shift**. This is a **subdural hematoma**, caused by tearing of the **bridging veins**. Brain atrophy in older adults stretches these veins, and anticoagulation raises the risk, so even a minor fall can cause it. The most tempting wrong answer is the middle meningeal artery: it causes an **epidural** hematoma, which is lens-shaped, does not cross suture lines and usually follows a skull fracture. Lenticulostriate arteries cause deep hypertensive bleeds in the basal ganglia. An aneurysm causes subarachnoid blood in the cisterns, and an arteriovenous malformation causes bleeding inside the brain tissue.",
+      "explanation_pt": "A TC mostra uma coleção hiperdensa **em crescente** sobre a convexidade de um hemisfério, acompanhando a superfície do cérebro, com compressão do ventrículo lateral e **desvio da linha média**. É um **hematoma subdural**, causado pela ruptura das **veias ponte**. A atrofia cerebral do idoso estira essas veias, e a anticoagulação aumenta o risco, por isso até uma queda leve pode causá-lo. A alternativa errada mais tentadora é a artéria meníngea média: ela causa hematoma **epidural**, que é biconvexo (em lente), não cruza as suturas e em geral acompanha fratura do crânio. As artérias lenticuloestriadas causam sangramentos hipertensivos profundos nos núcleos da base. Um aneurisma causa sangue subaracnóideo nas cisternas, e uma malformação arteriovenosa causa sangramento dentro do parênquima.",
+      "image_url": "images/nervous/subdural-hematoma-1.jpg",
+      "image_credit": "James Heilman, MD, CC BY-SA 3.0, https://commons.wikimedia.org/wiki/File:Subduralandherniation.PNG"
+    },
+    {
+      "slug": "q-img-nervous-subarachnoid-hemorrhage",
+      "track": "step1",
+      "system": "nervous",
+      "discipline": "pathology",
+      "tags": ["images-nervous", "head-ct", "stroke"],
+      "stem": "A 49-year-old woman has a sudden, very severe headache while lifting a box, followed by vomiting and neck stiffness. Her noncontrast head CT is shown. On day 6 of her hospital stay she develops new weakness of the right arm and becomes confused. A repeat CT shows no new blood, and the ventricles are no larger than on the first scan. Her serum sodium is normal. Which complication most likely explains her new deficits?",
+      "choices": [
+        "Rebleeding from the same lesion",
+        "Obstructive hydrocephalus",
+        "Hyponatremia from inappropriate ADH secretion",
+        "Spread of the blood into the subdural space",
+        "Cerebral vasospasm causing ischemia"
+      ],
+      "correct": 4,
+      "explanation": "The first CT shows bright blood filling the **basal cisterns** around the midbrain, in a star-like shape. With a sudden 'worst headache' this is a **subarachnoid hemorrhage**, most often from a ruptured saccular (berry) aneurysm. New focal deficits about **3-14 days** later, with no new blood on CT, are typical of **cerebral vasospasm**, which causes delayed ischemia; **nimodipine** is used to reduce this risk. The most tempting wrong answer is rebleeding: it is most likely in the first day and would show new blood on CT. Hydrocephalus (the temporal horns are already slightly wide on the first CT) would show further ventricular enlargement and usually causes global decline rather than a new one-sided weakness. Hyponatremia is excluded by the normal sodium. Subarachnoid blood does not 'spread' to become a subdural hematoma.",
+      "explanation_pt": "A primeira TC mostra sangue hiperdenso preenchendo as **cisternas da base** ao redor do mesencéfalo, em forma de estrela. Com uma cefaleia súbita, 'a pior da vida', isso é uma **hemorragia subaracnóidea**, em geral por ruptura de aneurisma sacular. Novos déficits focais cerca de **3 a 14 dias** depois, sem sangue novo na TC, são típicos de **vasoespasmo cerebral**, que causa isquemia tardia; usa-se **nimodipino** para reduzir esse risco. A alternativa errada mais tentadora é o ressangramento: é mais provável no primeiro dia e mostraria sangue novo na TC. A hidrocefalia (os cornos temporais já estão discretamente alargados na primeira TC) mostraria aumento adicional dos ventrículos e em geral causa piora global, e não uma nova fraqueza de um lado só. A hiponatremia está excluída pelo sódio normal. O sangue subaracnóideo não 'migra' para formar um hematoma subdural.",
+      "image_url": "images/nervous/subarachnoid-hemorrhage-1.jpg",
+      "image_credit": "Lipothymia, CC BY-SA 3.0, https://commons.wikimedia.org/wiki/File:Subarachnoid_haemorrhage.jpg"
+    },
+    {
+      "slug": "q-img-nervous-glioblastoma",
+      "track": "step1",
+      "system": "nervous",
+      "discipline": "pathology",
+      "tags": ["images-nervous", "brain-mri", "cns-tumors"],
+      "stem": "A 63-year-old man has had headaches for 6 weeks and, more recently, weakness of his left arm and leg. His contrast-enhanced T1-weighted brain MRI is shown. A biopsy is done. Which histologic finding is most likely?",
+      "choices": [
+        "Whorls of meningothelial cells with psammoma bodies",
+        "Small round blue cells forming Homer Wright rosettes",
+        "Pseudopalisading tumor cells around areas of necrosis",
+        "Bipolar cells with Rosenthal fibers and eosinophilic granular bodies",
+        "Round cells with clear cytoplasm ('fried egg') and chicken-wire capillaries"
+      ],
+      "correct": 2,
+      "explanation": "The MRI shows a large mass deep in the right hemisphere, next to the lateral ventricle, with an **irregular, thick rim of enhancement** around a dark, **necrotic center** and mass effect on the ventricle. In an older adult this is most likely a **glioblastoma**, and its biopsy shows **pseudopalisading necrosis** and microvascular proliferation. The most tempting wrong answer is meningioma (whorls, psammoma bodies): a meningioma is **extra-axial**, attached to the dura, and usually enhances uniformly; it does not sit inside the brain with a necrotic core. Homer Wright rosettes suggest medulloblastoma, a cerebellar tumor of children. Rosenthal fibers suggest pilocytic astrocytoma, usually a cystic cerebellar tumor of children. Fried-egg cells suggest oligodendroglioma, which is usually calcified and less aggressive.",
+      "explanation_pt": "A RM mostra uma grande massa profunda no hemisfério direito, junto ao ventrículo lateral, com **anel de realce espesso e irregular** ao redor de um **centro necrótico** escuro e efeito de massa sobre o ventrículo. Num adulto mais velho, o mais provável é um **glioblastoma**, cuja biópsia mostra **necrose em pseudopaliçada** e proliferação microvascular. A alternativa errada mais tentadora é o meningioma (arranjos em redemoinho, corpos psamomatosos): o meningioma é **extra-axial**, aderido à dura-máter, e em geral realça de modo homogêneo; não fica dentro do parênquima com centro necrótico. Rosetas de Homer Wright sugerem meduloblastoma, tumor cerebelar da criança. Fibras de Rosenthal sugerem astrocitoma pilocítico, em geral tumor cerebelar cístico da criança. Células em 'ovo frito' sugerem oligodendroglioma, que costuma ser calcificado e menos agressivo.",
+      "image_url": "images/nervous/glioblastoma-mri-1.jpg",
+      "image_credit": "Hellerhoff, CC BY-SA 3.0, https://commons.wikimedia.org/wiki/File:Glioblastoma_multiforme_-_MRT_T1KM_ax.jpg"
+    }
+  ],
+  "notes": []
+}
