@@ -23,7 +23,7 @@ for (const file of readdirSync(dir).filter((f) => f.endsWith('.json'))) {
     const rows = parsed.data[table];
     if (!rows.length) continue;
     // Seed rows are curated: owner_id stays null (default).
-    const { error } = await db.from(table).upsert(rows, { onConflict: 'owner_key,slug', ignoreDuplicates: !force });
+    const { error } = await db.from(table).upsert(rows as Record<string, unknown>[], { onConflict: 'owner_key,slug', ignoreDuplicates: !force });
     if (error) { console.error(`${file}/${table}:`, error.message); failed = true; }
     else console.log(`${file}/${table}: ${rows.length} rows (${force ? 'upsert' : 'insert-new-only'})`);
   }
