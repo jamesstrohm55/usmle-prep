@@ -5,6 +5,18 @@ import { gradeAnswer, canShowExplanation, timedLimitMs, type Answer, type Mode }
 import { useToast } from '../../ui/Toast';
 import { Rich } from '../../ui/Rich';
 
+// crypto.randomUUID is missing on non-secure origins (http://LAN-IP); fall back to getRandomValues.
+function uuid() {
+  if (typeof crypto.randomUUID === 'function') return crypto.randomUUID();
+  const b = crypto.getRandomValues(new Uint8Array(16));
+  b[6] = (b[6] & 0x0f) | 0x40; b[8] = (b[8] & 0x3f) | 0x80;
+  const h = Array.from(b, (x) => x.toString(16).padStart(2, '0')).join('');
+  return `${h.slice(0, 8)}-${h.slice(8, 12)}-${h.slice(12, 16)}-${h.slice(16, 20)}-${h.slice(20)}`;
+}
+
+// Everything a save needs, captured at finish time so a late Retry never reads another session's state.
+type Pending = { rows: AttemptInsert[]; done: boolean; inFlight: boolean };
+
 // Total = session length: unanswered (e.g. timer expiry) count as missed.
 export function sessionSummary(session: Question[], answers: Answer[]) {
   const correctIds = new Set(answers.filter((a) => a.correct).map((a) => a.questionId));
@@ -24,11 +36,10 @@ export function Questions({ load = fetchQuestions, save = saveAttempts }: { load
   const [showPt, setShowPt] = useState(false);
   const [, tick] = useState(0);
   const shownAt = useRef(Date.now());
-  const sessionId = useRef(crypto.randomUUID());
+  const sessionId = useRef('');
   // Refs mirror state so two same-tick events can't act on stale values.
   const answersRef = useRef<Answer[]>([]);
   const finishedRef = useRef(false);
-  const persistedRef = useRef(false);
   const deadlineRef = useRef(0);
   const modeRef = useRef<Mode | null>(null);
 
@@ -42,24 +53,32 @@ export function Questions({ load = fetchQuestions, save = saveAttempts }: { load
 
   function start(m: Mode, pool: Question[]) {
     if (!pool.length) return;
-    modeRef.current = m; answersRef.current = []; finishedRef.current = false; persistedRef.current = false;
+    modeRef.current = m; answersRef.current = []; finishedRef.current = false;
     deadlineRef.current = Date.now() + timedLimitMs(pool.length);
     setMode(m); setSession(pool); setIdx(0); setAnswers([]); setFinished(false); setShowPt(false);
-    sessionId.current = crypto.randomUUID(); shownAt.current = Date.now();
+    sessionId.current = uuid(); shownAt.current = Date.now();
   }
 
-  async function persist(final: Answer[]) {
-    if (persistedRef.current || !final.length) return;
-    const rows: AttemptInsert[] = final.map((a) => ({
-      question_id: a.questionId, chosen: a.chosen, correct: a.correct, duration_ms: a.durationMs, mode: modeRef.current!, session_id: sessionId.current,
-    }));
-    try { await save(rows); persistedRef.current = true; } catch (e) { toast.show(`Could not save results: ${(e as Error).message}`, () => persist(final)); }
+  async function persist(p: Pending) {
+    if (p.done || p.inFlight) return;
+    p.inFlight = true;
+    try { await save(p.rows); p.done = true; } catch (e) { toast.show(`Could not save results: ${(e as Error).message}`, () => persist(p)); } finally { p.inFlight = false; }
+  }
+
+  function setStatus(id: string, status: 'flagged' | 'verified', ok: string) {
+    setItemStatus('question', id, status).then(() => toast.show(ok)).catch((e) => toast.show(`Could not update question: ${(e as Error).message}`, () => setStatus(id, status, ok)));
   }
 
   function finish() {
     if (finishedRef.current) return;
     finishedRef.current = true;
-    setFinished(true); persist(answersRef.current);
+    setFinished(true);
+    if (!answersRef.current.length) return;
+    const mode = modeRef.current!, session_id = sessionId.current;
+    persist({
+      rows: answersRef.current.map((a) => ({ question_id: a.questionId, chosen: a.chosen, correct: a.correct, duration_ms: a.durationMs, mode, session_id })),
+      done: false, inFlight: false,
+    });
   }
 
   if (!bank) return <p>Loading…</p>;
@@ -110,8 +129,8 @@ export function Questions({ load = fetchQuestions, save = saveAttempts }: { load
           <p><Rich text={q.explanation} /></p>
           {q.explanation_pt && (showPt ? <p lang="pt-BR"><Rich text={q.explanation_pt} /></p> : <button onClick={() => setShowPt(true)}>Ver em português</button>)}
           <p>
-            <button onClick={() => setItemStatus('question', q.id, 'flagged').then(() => toast.show('Flagged for review.'))}>Flag as wrong</button>{' '}
-            <button onClick={() => setItemStatus('question', q.id, 'verified').then(() => toast.show('Marked verified.'))}>Mark verified</button>
+            <button onClick={() => setStatus(q.id, 'flagged', 'Flagged for review.')}>Flag as wrong</button>{' '}
+            <button onClick={() => setStatus(q.id, 'verified', 'Marked verified.')}>Mark verified</button>
           </p>
         </>
       )}
