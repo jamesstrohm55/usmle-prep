@@ -4,6 +4,8 @@ import { join } from 'node:path';
 import { seedFileSchema, type SeedFile } from './seedSchema';
 
 const force = process.argv.includes('--force');
+// --only=<prefix> seeds just the files whose name starts with the prefix (e.g. --only=step1-renal-).
+const only = process.argv.find((a) => a.startsWith('--only='))?.slice('--only='.length);
 const url = process.env.SUPABASE_URL;
 const key = process.env.SUPABASE_SECRET_KEY;
 if (!url || !key) throw new Error('SUPABASE_URL and SUPABASE_SECRET_KEY must be set in .env');
@@ -14,7 +16,9 @@ let failed = false;
 
 // Validate every file before writing anything, so one bad file can't leave a half-seeded database.
 const files: { file: string; data: SeedFile }[] = [];
-for (const file of readdirSync(dir).filter((f) => f.endsWith('.json'))) {
+const names = readdirSync(dir).filter((f) => f.endsWith('.json') && (!only || f.startsWith(only)));
+if (only && !names.length) { console.error(`No seed files match --only=${only}`); process.exit(1); }
+for (const file of names) {
   let json: unknown;
   try { json = JSON.parse(readFileSync(join(dir, file), 'utf8')); } catch (e) {
     console.error(`INVALID ${file}: ${(e as Error).message}`);

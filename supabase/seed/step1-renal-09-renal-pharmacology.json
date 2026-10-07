@@ -1,0 +1,221 @@
+{
+  "cards": [
+    {
+      "slug": "card-renal-pharmacology-acetazolamide",
+      "track": "step1",
+      "system": "renal",
+      "discipline": "pharmacology",
+      "tags": [
+        "renal-pharmacology",
+        "diuretics",
+        "acid-base"
+      ],
+      "front": "How does acetazolamide work, what acid-base change does it cause, and what is it used for?",
+      "back": "It inhibits **carbonic anhydrase** in the **proximal tubule**, so less bicarbonate is reabsorbed. Bicarbonate is lost in the urine: **hyperchloremic (normal anion gap) metabolic acidosis**. Uses: **glaucoma**, **altitude sickness**, **metabolic alkalosis**. Watch for **paresthesias** and sulfa allergy.",
+      "back_pt": "Inibe a **anidrase carbônica** no **túbulo proximal**, reduzindo a reabsorção de bicarbonato. O bicarbonato é perdido na urina: **acidose metabólica hiperclorêmica (ânion gap normal)**. Usos: **glaucoma**, **mal agudo da montanha**, **alcalose metabólica**. Atenção a **parestesias** e alergia a sulfas."
+    },
+    {
+      "slug": "card-renal-pharmacology-mannitol",
+      "track": "step1",
+      "system": "renal",
+      "discipline": "pharmacology",
+      "tags": [
+        "renal-pharmacology",
+        "diuretics",
+        "osmotic-diuretics"
+      ],
+      "front": "How does mannitol work, when is it used, and when must it be avoided?",
+      "back": "Mannitol is filtered but **not reabsorbed**, so it keeps water in the tubule (**osmotic diuresis**). It draws water out of tissues to lower **intracranial** and **intraocular pressure**. It first expands plasma volume, so avoid it in **pulmonary edema / heart failure** and **anuria**.",
+      "back_pt": "O manitol é filtrado, mas **não é reabsorvido**, e mantém água no túbulo (**diurese osmótica**). Retira água dos tecidos para reduzir a **pressão intracraniana** e a **pressão intraocular**. Primeiro expande o volume plasmático, por isso deve ser evitado em **edema pulmonar / insuficiência cardíaca** e **anúria**."
+    },
+    {
+      "slug": "card-renal-pharmacology-potassium-sparing",
+      "track": "step1",
+      "system": "renal",
+      "discipline": "pharmacology",
+      "tags": [
+        "renal-pharmacology",
+        "diuretics",
+        "potassium-sparing"
+      ],
+      "front": "What are the two groups of potassium-sparing diuretics, and what is their main shared risk?",
+      "back": "**Spironolactone** and **eplerenone** block the **mineralocorticoid (aldosterone) receptor**. **Amiloride** and **triamterene** block the **epithelial sodium channel (ENaC)**. Both groups act in the **collecting duct** and can cause **hyperkalemia**, especially with ACE inhibitors, ARBs or CKD.",
+      "back_pt": "**Espironolactona** e **eplerenona** bloqueiam o **receptor mineralocorticoide (de aldosterona)**. **Amilorida** e **triantereno** bloqueiam o **canal epitelial de sódio (ENaC)**. Os dois grupos atuam no **ducto coletor** e podem causar **hipercalemia**, sobretudo com IECA, BRA ou DRC."
+    },
+    {
+      "slug": "card-renal-pharmacology-loop-adverse-effects",
+      "track": "step1",
+      "system": "renal",
+      "discipline": "pharmacology",
+      "tags": [
+        "renal-pharmacology",
+        "diuretics",
+        "adverse-effects"
+      ],
+      "front": "What are the main adverse effects of loop diuretics, and which loop diuretic is not a sulfonamide?",
+      "back": "**Ototoxicity**, **hypokalemia**, **hypomagnesemia**, **hypocalcemia** (more calcium lost in urine), **metabolic alkalosis**, **hyperuricemia (gout)** and volume depletion. **Ethacrynic acid** is not a sulfonamide, so it is the choice for sulfa-allergic patients; it is the most ototoxic.",
+      "back_pt": "**Ototoxicidade**, **hipocalemia**, **hipomagnesemia**, **hipocalcemia** (mais cálcio perdido na urina), **alcalose metabólica**, **hiperuricemia (gota)** e depleção de volume. O **ácido etacrínico** não é uma sulfonamida, por isso é a opção para alérgicos a sulfas; é o mais ototóxico."
+    },
+    {
+      "slug": "card-renal-pharmacology-adh-antagonists",
+      "track": "step1",
+      "system": "renal",
+      "discipline": "pharmacology",
+      "tags": [
+        "renal-pharmacology",
+        "adh",
+        "hyponatremia"
+      ],
+      "front": "Which drugs block the action of ADH, and what are they used for?",
+      "back": "**Conivaptan** (IV; V1a and V2) and **tolvaptan** (oral; V2) are **vasopressin receptor antagonists** for euvolemic or hypervolemic **hyponatremia** (e.g., SIADH). **Demeclocycline**, a tetracycline, also blunts ADH action in the collecting duct. It works by causing a mild **nephrogenic diabetes insipidus**.",
+      "back_pt": "**Conivaptana** (IV; V1a e V2) e **tolvaptana** (oral; V2) são **antagonistas do receptor de vasopressina** usados na **hiponatremia** euvolêmica ou hipervolêmica (ex.: SIADH). A **demeclociclina**, uma tetraciclina, também reduz a ação do ADH no ducto coletor. Ela age causando um **diabetes insípido nefrogênico** leve."
+    },
+    {
+      "slug": "card-renal-pharmacology-sglt2-inhibitors",
+      "track": "step1",
+      "system": "renal",
+      "discipline": "pharmacology",
+      "tags": [
+        "renal-pharmacology",
+        "sglt2-inhibitors",
+        "adverse-effects"
+      ],
+      "front": "How do SGLT2 inhibitors work, and what are their classic adverse effects?",
+      "back": "They block **SGLT2** in the **proximal tubule**, causing **glucosuria** and mild natriuresis. Adverse effects: **genital mycotic infections**, UTIs, volume depletion and **euglycemic ketoacidosis**. They also slow **CKD progression** and help in heart failure.",
+      "back_pt": "Bloqueiam o **SGLT2** no **túbulo proximal**, causando **glicosúria** e natriurese leve. Efeitos adversos: **infecções fúngicas genitais**, ITU, depleção de volume e **cetoacidose euglicêmica**. Também retardam a **progressão da DRC** e ajudam na insuficiência cardíaca."
+    },
+    {
+      "slug": "card-renal-pharmacology-ckd-mineral-drugs",
+      "track": "step1",
+      "system": "renal",
+      "discipline": "pharmacology",
+      "tags": [
+        "renal-pharmacology",
+        "ckd",
+        "hyperparathyroidism"
+      ],
+      "front": "Which drugs treat high phosphate and secondary hyperparathyroidism in CKD?",
+      "back": "Phosphate binders taken with meals: **sevelamer** (no calcium) and **calcium acetate** (can cause hypercalcemia). **Cinacalcet** is a **calcimimetic**: it makes the parathyroid **calcium-sensing receptor** more sensitive, which lowers PTH; it can cause **hypocalcemia**.",
+      "back_pt": "Quelantes de fósforo tomados com as refeições: **sevelâmer** (sem cálcio) e **acetato de cálcio** (pode causar hipercalcemia). O **cinacalcete** é um **calcimimético**: torna o **receptor sensível ao cálcio** da paratireoide mais sensível, o que reduz o PTH; pode causar **hipocalcemia**."
+    },
+    {
+      "slug": "card-renal-pharmacology-nephrotoxins",
+      "track": "step1",
+      "system": "renal",
+      "discipline": "pharmacology",
+      "tags": [
+        "renal-pharmacology",
+        "nephrotoxicity",
+        "acute-kidney-injury"
+      ],
+      "front": "Which specific kidney problem goes with amphotericin B, cisplatin, IV acyclovir and NSAIDs?",
+      "back": "**Amphotericin B**: **distal (type 1) RTA** with K and Mg wasting. **Cisplatin**: ATN with **magnesium wasting** (plus ototoxicity). **IV acyclovir**: **crystal nephropathy**, so give fluids. **NSAIDs**: less afferent flow, which matters most with ACE inhibitors or volume depletion.",
+      "back_pt": "**Anfotericina B**: **ATR distal (tipo 1)** com perda de K e Mg. **Cisplatina**: NTA com **perda de magnésio** (e ototoxicidade). **Aciclovir IV**: **nefropatia por cristais**, por isso hidratar. **AINEs**: menor fluxo aferente, o que pesa mais com IECA ou depleção de volume."
+    }
+  ],
+  "questions": [
+    {
+      "slug": "q-renal-pharmacology-acetazolamide-acidosis",
+      "track": "step1",
+      "system": "renal",
+      "discipline": "pharmacology",
+      "tags": [
+        "renal-pharmacology",
+        "acetazolamide",
+        "acid-base"
+      ],
+      "stem": "A 34-year-old man plans a trek to a high mountain. He starts a drug 2 days before the trip to prevent acute mountain sickness. Before he leaves home, he notices tingling in his fingers and around his mouth. Serum studies show sodium 140 mEq/L, potassium 3.4 mEq/L, chloride 113 mEq/L and bicarbonate 17 mEq/L. Arterial pH is 7.34 and PaCO2 is 33 mm Hg. Which mechanism best explains these laboratory findings?",
+      "choices": [
+        "Impaired hydrogen ion secretion by alpha-intercalated cells",
+        "Reduced aldosterone effect in the collecting duct",
+        "Loss of bicarbonate in diarrheal stool",
+        "Reduced bicarbonate reabsorption in the proximal tubule",
+        "Accumulation of unmeasured organic acids"
+      ],
+      "correct": 3,
+      "explanation": "The drug is **acetazolamide**. It inhibits **carbonic anhydrase** in the **proximal tubule**, so bicarbonate is lost in the urine and chloride rises: a **normal anion gap** (140 − 113 − 17 = 10) **metabolic acidosis** with appropriate respiratory compensation and **paresthesias**. Impaired hydrogen ion secretion in the distal nephron (type 1 RTA, e.g., from amphotericin B) also gives a normal anion gap acidosis, but he was healthy until he started a carbonic anhydrase inhibitor, which acts on bicarbonate reabsorption, not on distal acid secretion. Low aldosterone effect would raise potassium, not lower it.",
+      "explanation_pt": "O fármaco é a **acetazolamida**. Ela inibe a **anidrase carbônica** no **túbulo proximal**, então o bicarbonato é perdido na urina e o cloro sobe: **acidose metabólica** com **ânion gap normal** (140 − 113 − 17 = 10), compensação respiratória adequada e **parestesias**. A secreção prejudicada de hidrogênio no néfron distal (ATR tipo 1, ex.: por anfotericina B) também causa acidose com ânion gap normal, mas ele era saudável até iniciar um inibidor da anidrase carbônica, que age na reabsorção de bicarbonato, e não na secreção distal de ácido. Um efeito reduzido da aldosterona elevaria o potássio, e não o reduziria."
+    },
+    {
+      "slug": "q-renal-pharmacology-eplerenone-gynecomastia",
+      "track": "step1",
+      "system": "renal",
+      "discipline": "pharmacology",
+      "tags": [
+        "renal-pharmacology",
+        "potassium-sparing",
+        "adverse-effects"
+      ],
+      "stem": "A 67-year-old man with heart failure with reduced ejection fraction takes lisinopril, carvedilol, furosemide and spironolactone. Four months after starting spironolactone, he notices tender enlargement of both breasts. Exam shows bilateral soft, tender subareolar tissue without masses or nipple discharge. Serum potassium is 4.9 mEq/L and creatinine is stable. His physician wants to keep a drug from the same class that lowers mortality in his condition. Which drug is the best replacement for spironolactone?",
+      "choices": [
+        "Eplerenone",
+        "Amiloride",
+        "Triamterene",
+        "Hydrochlorothiazide",
+        "Tolvaptan"
+      ],
+      "correct": 0,
+      "explanation": "Spironolactone also blocks **androgen receptors**, which causes **gynecomastia**. **Eplerenone** is a more **selective mineralocorticoid receptor antagonist**, so it keeps the benefit of aldosterone blockade in HFrEF with much less gynecomastia; potassium still needs monitoring. Amiloride also spares potassium without endocrine effects, but it blocks ENaC rather than the aldosterone receptor and has no proven mortality benefit in heart failure.",
+      "explanation_pt": "A espironolactona também bloqueia **receptores androgênicos**, o que causa **ginecomastia**. A **eplerenona** é um **antagonista do receptor mineralocorticoide mais seletivo**, então mantém o benefício do bloqueio da aldosterona na ICFEr com muito menos ginecomastia; o potássio ainda precisa ser monitorado. A amilorida também poupa potássio sem efeitos endócrinos, mas bloqueia o ENaC, e não o receptor de aldosterona, e não tem redução comprovada da mortalidade na insuficiência cardíaca."
+    },
+    {
+      "slug": "q-renal-pharmacology-lithium-diabetes-insipidus",
+      "track": "step1",
+      "system": "renal",
+      "discipline": "pharmacology",
+      "tags": [
+        "renal-pharmacology",
+        "diabetes-insipidus",
+        "lithium"
+      ],
+      "stem": "A 52-year-old man with bipolar disorder has taken lithium for many years. Two years ago, he was diagnosed with nephrogenic diabetes insipidus after a water deprivation test. He still passes about 5 L of dilute urine per day and wakes up three times each night to urinate. His lithium level is in the therapeutic range, and serum creatinine is normal. His psychiatrist wants to continue lithium. Which drug is most appropriate to add to reduce his urine output?",
+      "choices": [
+        "Desmopressin",
+        "Demeclocycline",
+        "Tolvaptan",
+        "Furosemide",
+        "Amiloride"
+      ],
+      "correct": 4,
+      "explanation": "Lithium enters collecting duct principal cells through **ENaC** and causes **nephrogenic diabetes insipidus**. **Amiloride** blocks ENaC, limits lithium uptake and reduces polyuria. Desmopressin is the most tempting choice, but it treats central diabetes insipidus; in nephrogenic DI the kidney does not respond to ADH. Demeclocycline and tolvaptan block ADH action and would make the water loss worse.",
+      "explanation_pt": "O lítio entra nas células principais do ducto coletor pelo **ENaC** e causa **diabetes insípido nefrogênico**. A **amilorida** bloqueia o ENaC, limita a entrada do lítio e reduz a poliúria. A desmopressina é a opção mais tentadora, mas trata o diabetes insípido central; no DI nefrogênico o rim não responde ao ADH. A demeclociclina e a tolvaptana bloqueiam a ação do ADH e piorariam a perda de água."
+    },
+    {
+      "slug": "q-renal-pharmacology-cisplatin-nephrotoxicity",
+      "track": "step1",
+      "system": "renal",
+      "discipline": "pharmacology",
+      "tags": [
+        "renal-pharmacology",
+        "nephrotoxicity",
+        "chemotherapy"
+      ],
+      "stem": "A 28-year-old man completes his first cycle of chemotherapy for a metastatic testicular germ cell tumor. Ten days later, he reports ringing in his ears and trouble hearing high-pitched sounds. Serum creatinine has risen from 0.9 to 2.0 mg/dL. Serum magnesium is 1.1 mg/dL and potassium is 3.3 mEq/L. Urine sediment shows muddy brown granular casts. Which drug most likely caused these findings?",
+      "choices": [
+        "Bleomycin",
+        "Cisplatin",
+        "Etoposide",
+        "Methotrexate",
+        "Ifosfamide"
+      ],
+      "correct": 1,
+      "explanation": "**Cisplatin** injures the proximal tubule and causes **acute tubular necrosis** (muddy brown casts) with renal **magnesium wasting**, and it is also **ototoxic**. Hydration and amifostine help prevent kidney injury. High-dose methotrexate can also cause acute kidney injury, but by precipitating in the tubules, and it does not explain the hearing loss or magnesium wasting. Bleomycin mainly damages the lungs, and ifosfamide injures the proximal tubule (Fanconi syndrome) but is not ototoxic.",
+      "explanation_pt": "A **cisplatina** lesa o túbulo proximal e causa **necrose tubular aguda** (cilindros granulosos marrom-escuros, *muddy brown casts*) com **perda renal de magnésio**, e também é **ototóxica**. Hidratação e amifostina ajudam a prevenir a lesão renal. O metotrexato em altas doses também pode causar lesão renal aguda, mas por precipitação nos túbulos, e não explica a perda auditiva nem a perda de magnésio. A bleomicina lesa principalmente os pulmões, e a ifosfamida lesa o túbulo proximal (síndrome de Fanconi), mas não é ototóxica."
+    }
+  ],
+  "notes": [
+    {
+      "slug": "note-renal-pharmacology-overview",
+      "track": "step1",
+      "system": "renal",
+      "discipline": "pharmacology",
+      "tags": [
+        "renal-pharmacology",
+        "overview"
+      ],
+      "title": "Renal pharmacology: diuretics, ADH drugs, CKD drugs and nephrotoxins",
+      "body_md": "## Diuretics: proximal, osmotic, loop adverse effects and potassium-sparing\n\n- **Acetazolamide** (proximal tubule): blocks **carbonic anhydrase**; bicarbonate diuresis causes **hyperchloremic metabolic acidosis**, hypokalemia and **paresthesias**. Uses: glaucoma, altitude sickness, metabolic alkalosis.\n- **Mannitol**: osmotic diuresis; lowers intracranial and intraocular pressure. Avoid in pulmonary edema and anuria.\n- **Loop diuretics**: ototoxicity, hypokalemia, hypomagnesemia, **hypocalcemia**, metabolic alkalosis, hyperuricemia. **Ethacrynic acid** is the non-sulfonamide option.\n- **Potassium-sparing** (collecting duct): spironolactone and eplerenone block the aldosterone receptor; amiloride and triamterene block **ENaC**. Main risk: **hyperkalemia**. Spironolactone also blocks androgen receptors (**gynecomastia**); eplerenone is more selective.\n\n## ADH-related drugs\n\n- **Desmopressin** (V2 agonist): central diabetes insipidus. It does not work in nephrogenic DI.\n- **Conivaptan** and **tolvaptan**: block vasopressin receptors and increase free water loss. Raise sodium slowly (risk of **osmotic demyelination**). Tolvaptan can injure the liver.\n- **Demeclocycline**: causes a mild nephrogenic DI, which is why it works in SIADH.\n- **Lithium** enters principal cells through ENaC and causes nephrogenic DI; **amiloride** blocks its entry.\n\n## SGLT2 inhibitors\n\n- **Glucosuria**; genital yeast infections, UTIs, volume depletion, **euglycemic ketoacidosis**.\n- Renoprotective: they reduce glomerular hyperfiltration.\n\n## CKD drugs\n\n- **Sevelamer** and **calcium acetate** bind dietary phosphate.\n- **Cinacalcet** (calcimimetic) lowers PTH; it can cause hypocalcemia.\n- **Erythropoiesis-stimulating agents** (epoetin alfa, darbepoetin) treat anemia of CKD. They can cause **hypertension** and **thrombosis**, so the goal is not a fully normal hemoglobin. Check iron stores.\n\n## Nephrotoxic patterns\n\n- **Acute tubular necrosis**: aminoglycosides, cisplatin (with magnesium wasting), IV contrast.\n- **Amphotericin B**: tubular injury, distal RTA, hypokalemia, hypomagnesemia.\n- **NSAIDs**: less afferent flow, interstitial nephritis, papillary necrosis.\n- **IV acyclovir**: crystals in the tubules; give fluids.\n- **Ifosfamide**: proximal tubule injury (Fanconi).\n\n## Renal dose adjustment\n\n- Drugs cleared mainly by the kidney (aminoglycosides, vancomycin, digoxin, lithium) build up when GFR falls.\n- Estimate kidney function, then lower the dose or lengthen the interval.",
+      "body_pt_md": "## Diuréticos: proximais, osmóticos, efeitos adversos dos de alça e poupadores de potássio\n\n- **Acetazolamida** (túbulo proximal): bloqueia a **anidrase carbônica**; a diurese de bicarbonato causa **acidose metabólica hiperclorêmica**, hipocalemia e **parestesias**. Usos: glaucoma, mal agudo da montanha, alcalose metabólica.\n- **Manitol**: diurese osmótica; reduz a pressão intracraniana e a intraocular. Evitar em edema pulmonar e anúria.\n- **Diuréticos de alça**: ototoxicidade, hipocalemia, hipomagnesemia, **hipocalcemia**, alcalose metabólica, hiperuricemia. O **ácido etacrínico** é a opção sem sulfonamida.\n- **Poupadores de potássio** (ducto coletor): espironolactona e eplerenona bloqueiam o receptor de aldosterona; amilorida e triantereno bloqueiam o **ENaC**. Principal risco: **hipercalemia**. A espironolactona também bloqueia receptores androgênicos (**ginecomastia**); a eplerenona é mais seletiva.\n\n## Fármacos relacionados ao ADH\n\n- **Desmopressina** (agonista V2): diabetes insípido central. Não funciona no DI nefrogênico.\n- **Conivaptana** e **tolvaptana**: bloqueiam receptores de vasopressina e aumentam a perda de água livre. Elevar o sódio devagar (risco de **desmielinização osmótica**). A tolvaptana pode lesar o fígado.\n- **Demeclociclina**: causa DI nefrogênico leve, por isso funciona na SIADH.\n- O **lítio** entra nas células principais pelo ENaC e causa DI nefrogênico; a **amilorida** bloqueia essa entrada.\n\n## Inibidores de SGLT2\n\n- **Glicosúria**; infecções fúngicas genitais, ITU, depleção de volume, **cetoacidose euglicêmica**.\n- Nefroprotetores: reduzem a hiperfiltração glomerular.\n\n## Fármacos na DRC\n\n- **Sevelâmer** e **acetato de cálcio** ligam o fósforo da dieta.\n- **Cinacalcete** (calcimimético) reduz o PTH; pode causar hipocalcemia.\n- **Agentes estimuladores da eritropoese** (alfaepoetina, darbepoetina) tratam a anemia da DRC. Podem causar **hipertensão** e **trombose**, por isso a meta não é uma hemoglobina totalmente normal. Avaliar os estoques de ferro.\n\n## Padrões de nefrotoxicidade\n\n- **Necrose tubular aguda**: aminoglicosídeos, cisplatina (com perda de magnésio), contraste IV.\n- **Anfotericina B**: lesão tubular, ATR distal, hipocalemia, hipomagnesemia.\n- **AINEs**: menor fluxo aferente, nefrite intersticial, necrose papilar.\n- **Aciclovir IV**: cristais nos túbulos; hidratar.\n- **Ifosfamida**: lesão do túbulo proximal (Fanconi).\n\n## Ajuste de dose renal\n\n- Fármacos eliminados principalmente pelos rins (aminoglicosídeos, vancomicina, digoxina, lítio) se acumulam quando a TFG cai.\n- Estimar a função renal e então reduzir a dose ou aumentar o intervalo."
+    }
+  ]
+}

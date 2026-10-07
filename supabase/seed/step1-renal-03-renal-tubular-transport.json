@@ -1,0 +1,217 @@
+{
+  "cards": [
+    {
+      "slug": "card-renal-tubular-transport-proximal-tubule",
+      "track": "step1",
+      "system": "renal",
+      "discipline": "physiology",
+      "tags": [
+        "renal-tubular-transport",
+        "proximal-tubule"
+      ],
+      "front": "What does the proximal convoluted tubule reabsorb?",
+      "back": "About **two-thirds of filtered Na+ and water**, so the fluid stays isosmotic. It also takes back nearly all **glucose** and **amino acids** and most **HCO3-**. Bicarbonate recovery depends on **carbonic anhydrase** in the brush border and inside the cell.",
+      "back_pt": "Cerca de **dois terços do Na+ e da água filtrados**, de forma isosmótica. Também reabsorve quase toda a **glicose** e os **aminoácidos** e a maior parte do **HCO3-**. A recuperação do bicarbonato depende da **anidrase carbônica** na borda em escova e dentro da célula."
+    },
+    {
+      "slug": "card-renal-tubular-transport-thick-ascending-limb",
+      "track": "step1",
+      "system": "renal",
+      "discipline": "physiology",
+      "tags": [
+        "renal-tubular-transport",
+        "loop-of-henle"
+      ],
+      "front": "How does the thick ascending limb handle NaCl, water, Ca2+ and Mg2+?",
+      "back": "The **Na-K-2Cl cotransporter (NKCC2)** reabsorbs NaCl, but the segment is **impermeable to water**, so the fluid becomes dilute. K+ leaks back into the lumen and makes it **positive**. This voltage drives **paracellular Ca2+ and Mg2+** reabsorption.",
+      "back_pt": "O **cotransportador Na-K-2Cl (NKCC2)** reabsorve NaCl, mas o segmento é **impermeável à água**, então o líquido fica diluído. O K+ volta para o lúmen e o torna **positivo**. Essa voltagem impulsiona a reabsorção **paracelular de Ca2+ e Mg2+**."
+    },
+    {
+      "slug": "card-renal-tubular-transport-distal-convoluted-tubule",
+      "track": "step1",
+      "system": "renal",
+      "discipline": "physiology",
+      "tags": [
+        "renal-tubular-transport",
+        "distal-tubule",
+        "pth"
+      ],
+      "front": "What does the distal convoluted tubule reabsorb, and how does PTH act there?",
+      "back": "It reabsorbs NaCl through the **Na-Cl cotransporter (NCC)** and is **impermeable to water**, so it keeps diluting the fluid. **PTH** increases **Ca2+ reabsorption** in the distal tubule (mainly its late part) through apical Ca2+ channels.",
+      "back_pt": "Reabsorve NaCl pelo **cotransportador Na-Cl (NCC)** e é **impermeável à água**, então continua diluindo o líquido. O **PTH** aumenta a **reabsorção de Ca2+** no túbulo distal (principalmente na sua porção final) por meio de canais apicais de Ca2+."
+    },
+    {
+      "slug": "card-renal-tubular-transport-intercalated-cells",
+      "track": "step1",
+      "system": "renal",
+      "discipline": "physiology",
+      "tags": [
+        "renal-tubular-transport",
+        "collecting-duct",
+        "acid-base"
+      ],
+      "front": "What do the two types of intercalated cells in the collecting duct do?",
+      "back": "**Alpha-intercalated cells** secrete **H+** (H+-ATPase and H+/K+-ATPase) and add new HCO3- to the blood; they are most active in acidosis. **Beta-intercalated cells** secrete **HCO3-** into the lumen (Cl-/HCO3- exchanger, pendrin) in alkalosis.",
+      "back_pt": "As **células intercaladas alfa** secretam **H+** (H+-ATPase e H+/K+-ATPase) e devolvem HCO3- novo ao sangue; são mais ativas na acidose. As **células intercaladas beta** secretam **HCO3-** para o lúmen (trocador Cl-/HCO3-, pendrina) na alcalose."
+    },
+    {
+      "slug": "card-renal-tubular-transport-adh-aquaporin",
+      "track": "step1",
+      "system": "renal",
+      "discipline": "physiology",
+      "tags": [
+        "renal-tubular-transport",
+        "adh",
+        "collecting-duct"
+      ],
+      "front": "How does ADH make the collecting duct permeable to water?",
+      "back": "ADH binds **V2 receptors** on **principal cells** (**Gs → cAMP → PKA**). This moves vesicles with **aquaporin-2** into the **apical membrane**, so water can leave the lumen. ADH also raises **urea** permeability in the inner medullary collecting duct.",
+      "back_pt": "O ADH se liga a **receptores V2** nas **células principais** (**Gs → AMPc → PKA**). Isso leva vesículas com **aquaporina-2** até a **membrana apical**, e a água pode sair do lúmen. O ADH também aumenta a permeabilidade à **ureia** no ducto coletor medular interno."
+    },
+    {
+      "slug": "card-renal-tubular-transport-aldosterone",
+      "track": "step1",
+      "system": "renal",
+      "discipline": "physiology",
+      "tags": [
+        "renal-tubular-transport",
+        "aldosterone",
+        "collecting-duct"
+      ],
+      "front": "What does aldosterone do in the collecting duct?",
+      "back": "In **principal cells** it increases **ENaC** and **Na+/K+-ATPase** activity: more Na+ reabsorption and more **K+ secretion**. In **alpha-intercalated cells** it increases **H+ secretion**. Too much aldosterone causes **hypokalemia** and **metabolic alkalosis**.",
+      "back_pt": "Nas **células principais** aumenta a atividade do **ENaC** e da **Na+/K+-ATPase**: mais reabsorção de Na+ e mais **secreção de K+**. Nas **células intercaladas alfa** aumenta a **secreção de H+**. O excesso de aldosterona causa **hipocalemia** e **alcalose metabólica**."
+    },
+    {
+      "slug": "card-renal-tubular-transport-countercurrent-multiplier",
+      "track": "step1",
+      "system": "renal",
+      "discipline": "physiology",
+      "tags": [
+        "renal-tubular-transport",
+        "urine-concentration"
+      ],
+      "front": "How does the loop of Henle build the medullary osmotic gradient?",
+      "back": "The **thick ascending limb** pumps NaCl into the interstitium but keeps water in. The **thin descending limb** lets water out, so its fluid concentrates. Flow in opposite directions multiplies this (**countercurrent multiplier**); **urea recycling** adds more. Papilla: about **1200 mOsm/kg**.",
+      "back_pt": "O **ramo ascendente espesso** bombeia NaCl para o interstício sem água. O **ramo descendente delgado** perde água, e seu líquido se concentra. O fluxo em sentidos opostos multiplica esse efeito (**multiplicador em contracorrente**); a **reciclagem de ureia** acrescenta mais. Papila: cerca de **1200 mOsm/kg**."
+    },
+    {
+      "slug": "card-renal-tubular-transport-free-water-clearance",
+      "track": "step1",
+      "system": "renal",
+      "discipline": "physiology",
+      "tags": [
+        "renal-tubular-transport",
+        "free-water-clearance"
+      ],
+      "front": "What is free water clearance, and what does its sign mean?",
+      "back": "**CH2O = V - Cosm**, where Cosm = (Uosm × V) / Posm. **Positive**: urine is hypotonic and solute-free water is lost (low ADH, diabetes insipidus). **Negative**: urine is concentrated and water is kept (ADH present). **Zero**: isotonic urine.",
+      "back_pt": "**CH2O = V - Cosm**, em que Cosm = (Uosm × V) / Posm. **Positivo**: a urina é hipotônica e se perde água livre de solutos (ADH baixo, diabetes insípido). **Negativo**: a urina é concentrada e a água é retida (ADH presente). **Zero**: urina isotônica."
+    }
+  ],
+  "questions": [
+    {
+      "slug": "q-renal-tubular-transport-water-deprivation",
+      "track": "step1",
+      "system": "renal",
+      "discipline": "physiology",
+      "tags": [
+        "renal-tubular-transport",
+        "water-deprivation-test",
+        "polyuria"
+      ],
+      "stem": "A 34-year-old woman has passed large volumes of urine for 3 months, about 6 L/day. She drinks water all day and always carries a bottle. She takes no medications. Serum sodium is 134 mEq/L, plasma osmolality is 276 mOsm/kg, and urine osmolality is 90 mOsm/kg. Serum glucose is normal. During a supervised water deprivation test, urine osmolality rises to 640 mOsm/kg and plasma osmolality rises to 290 mOsm/kg. After desmopressin, urine osmolality is 660 mOsm/kg. What is the most likely cause of her polyuria?",
+      "choices": [
+        "Complete central diabetes insipidus",
+        "Partial central diabetes insipidus",
+        "Nephrogenic diabetes insipidus",
+        "Primary polydipsia",
+        "Osmotic diuresis"
+      ],
+      "correct": 3,
+      "explanation": "In **primary polydipsia**, ADH release and the collecting duct both work: when she stops drinking, urine concentrates well (90 to 640 mOsm/kg), and desmopressin adds only about 3%. Her slightly low sodium and plasma osmolality at baseline point to excess water intake, and long-term water loading washes out the medullary gradient, so urine does not reach a maximal concentration. **Partial central DI** is the tempting choice, but there urine osmolality would rise further after desmopressin (usually by more than 10%).",
+      "explanation_pt": "Na **polidipsia primária**, a liberação de ADH e o ducto coletor funcionam: quando ela para de beber, a urina se concentra bem (de 90 para 640 mOsm/kg), e a desmopressina acrescenta apenas cerca de 3%. O sódio e a osmolalidade plasmática levemente baixos no início indicam ingestão excessiva de água, e a sobrecarga hídrica prolongada \"lava\" o gradiente medular, por isso a urina não atinge a concentração máxima. O **DI central parcial** é a alternativa tentadora, mas nele a osmolalidade urinária subiria mais após a desmopressina (geralmente mais de 10%)."
+    },
+    {
+      "slug": "q-renal-tubular-transport-lithium-adh-resistance",
+      "track": "step1",
+      "system": "renal",
+      "discipline": "physiology",
+      "tags": [
+        "renal-tubular-transport",
+        "adh",
+        "nephrogenic-diabetes-insipidus"
+      ],
+      "stem": "A 39-year-old woman with bipolar disorder has taken lithium for 8 years. She wakes up three times each night to urinate and drinks about 5 L of water per day. Serum sodium is 145 mEq/L, plasma osmolality is 298 mOsm/kg, and urine osmolality is 120 mOsm/kg. Her plasma ADH level is high. Two hours after a dose of desmopressin, urine osmolality is 128 mOsm/kg. Which step in renal water handling is most likely impaired?",
+      "choices": [
+        "Insertion of aquaporin-2 into the apical membrane of collecting duct principal cells",
+        "Water movement through aquaporin-1 in the proximal tubule",
+        "NaCl reabsorption by the Na-K-2Cl cotransporter in the thick ascending limb",
+        "Release of ADH from the posterior pituitary",
+        "Na+ reabsorption through ENaC in collecting duct principal cells"
+      ],
+      "correct": 0,
+      "explanation": "This is **nephrogenic diabetes insipidus** from lithium. Lithium enters principal cells through ENaC and blunts **V2 receptor-cAMP signaling**, so less **aquaporin-2** reaches the apical membrane and water stays in the lumen. A failure of ADH release is the tempting answer, but her ADH is high and desmopressin raises urine osmolality by only about 7%. ENaC is only the entry route for lithium; Na+ reabsorption itself is not the cause of the water loss.",
+      "explanation_pt": "Trata-se de **diabetes insípido nefrogênico** por lítio. O lítio entra nas células principais pelo ENaC e reduz a **sinalização receptor V2-AMPc**, então menos **aquaporina-2** chega à membrana apical e a água permanece no lúmen. A falha na liberação de ADH é a resposta tentadora, mas o ADH dela está alto e a desmopressina aumenta a osmolalidade urinária em apenas cerca de 7%. O ENaC é apenas a via de entrada do lítio; a reabsorção de Na+ em si não causa a perda de água."
+    },
+    {
+      "slug": "q-renal-tubular-transport-pth-phosphate",
+      "track": "step1",
+      "system": "renal",
+      "discipline": "physiology",
+      "tags": [
+        "renal-tubular-transport",
+        "pth",
+        "phosphate"
+      ],
+      "stem": "A 62-year-old man is found to have high calcium on routine blood tests. He reports mild fatigue and no other symptoms. Serum calcium is 11.2 mg/dL (normal 8.5-10.5), serum phosphate is 2.1 mg/dL (normal 2.5-4.5), and serum PTH is elevated. Creatinine is normal. His 24-hour urinary phosphate excretion is high. Which renal action of PTH best explains his low serum phosphate?",
+      "choices": [
+        "Increased Ca2+ reabsorption in the distal convoluted tubule",
+        "Increased phosphate secretion by collecting duct principal cells",
+        "Increased 1-alpha-hydroxylase activity in the proximal tubule",
+        "Increased Na-K-2Cl cotransport in the thick ascending limb",
+        "Internalization of Na-phosphate cotransporters in the proximal tubule"
+      ],
+      "correct": 4,
+      "explanation": "PTH lowers the number of **Na-phosphate cotransporters** in the proximal tubule. Less phosphate is reabsorbed, so phosphate is lost in the urine (**phosphaturia**) and serum phosphate falls. Increased Ca2+ reabsorption in the distal convoluted tubule is a real PTH effect, but it explains the high calcium, not the low phosphate. 1-alpha-hydroxylase makes calcitriol, which increases gut phosphate absorption and would tend to raise serum phosphate.",
+      "explanation_pt": "O PTH reduz o número de **cotransportadores Na-fosfato** no túbulo proximal. Menos fosfato é reabsorvido, então o fosfato é perdido na urina (**fosfatúria**) e o fosfato sérico cai. O aumento da reabsorção de Ca2+ no túbulo contorcido distal é um efeito real do PTH, mas explica o cálcio alto, não o fosfato baixo. A 1-alfa-hidroxilase produz calcitriol, que aumenta a absorção intestinal de fosfato e tenderia a elevar o fosfato sérico."
+    },
+    {
+      "slug": "q-renal-tubular-transport-saline-natriuresis",
+      "track": "step1",
+      "system": "renal",
+      "discipline": "physiology",
+      "tags": [
+        "renal-tubular-transport",
+        "fena",
+        "anp"
+      ],
+      "stem": "A healthy 25-year-old man takes part in a physiology study. He receives 2 L of 0.9% saline intravenously over 1 hour. Before the infusion, his fractional excretion of sodium (FENa) is 0.5%. Two hours after the infusion, plasma sodium is 140 mEq/L, plasma creatinine is 1.0 mg/dL, urine sodium is 150 mEq/L, and urine creatinine is 50 mg/dL. Which hormonal change best explains the change in his sodium excretion?",
+      "choices": [
+        "Increased renin release from juxtaglomerular cells",
+        "Increased aldosterone secretion",
+        "Increased atrial natriuretic peptide (ANP) release",
+        "Increased ADH secretion",
+        "Increased angiotensin II production"
+      ],
+      "correct": 2,
+      "explanation": "FENa is now (150 × 1.0) / (140 × 50) × 100, about **2.1%**, a fourfold rise. Saline expands the ECF and stretches the atria, which release **ANP**. ANP raises GFR, reduces Na+ reabsorption in the collecting duct and suppresses renin and aldosterone, so renin, aldosterone and angiotensin II all fall. ADH is the tempting answer, but isotonic saline does not raise plasma osmolality, and volume expansion lowers ADH.",
+      "explanation_pt": "A FENa agora é (150 × 1,0) / (140 × 50) × 100, cerca de **2,1%**, um aumento de quatro vezes. O soro fisiológico expande o LEC e distende os átrios, que liberam **ANP**. O ANP aumenta a TFG, reduz a reabsorção de Na+ no ducto coletor e suprime renina e aldosterona, então renina, aldosterona e angiotensina II caem. O ADH é a resposta tentadora, mas o soro isotônico não eleva a osmolalidade plasmática, e a expansão de volume reduz o ADH."
+    }
+  ],
+  "notes": [
+    {
+      "slug": "note-renal-tubular-transport-overview",
+      "track": "step1",
+      "system": "renal",
+      "discipline": "physiology",
+      "tags": [
+        "renal-tubular-transport",
+        "overview"
+      ],
+      "title": "Renal tubular transport: segments, hormones and urine concentration",
+      "body_md": "## Segments\n\n- **Proximal tubule**: reabsorbs about two-thirds of filtered Na+ and water, nearly all glucose and amino acids, and most HCO3- (needs **carbonic anhydrase**).\n- **Thin descending limb**: permeable to **water**, not to NaCl.\n- **Thick ascending limb**: **Na-K-2Cl** cotransport and **no water permeability** (the diluting segment). A lumen-positive voltage drives paracellular **Ca2+** and **Mg2+** reabsorption.\n- **DCT**: **Na-Cl** cotransport, impermeable to water. **PTH** increases Ca2+ reabsorption here.\n- **Collecting duct**: **principal cells** reabsorb Na+ (ENaC), secrete K+, and absorb water when ADH is present. **Intercalated cells** secrete H+ (alpha) or HCO3- (beta).\n\n## Hormones\n\n- **ADH**: V2 receptor → cAMP → **aquaporin-2** in the apical membrane.\n- **Aldosterone**: more Na+ reabsorption and more K+ and H+ secretion in the collecting duct.\n- **Angiotensin II**: constricts the **efferent arteriole** (protects GFR), increases Na+/H+ exchange in the proximal tubule, and stimulates aldosterone and ADH release.\n- **ANP/BNP**: released when the heart is stretched; they raise GFR, reduce Na+ reabsorption in the collecting duct, and suppress renin and aldosterone.\n- **PTH**: less phosphate reabsorption in the proximal tubule (**phosphaturia**), more Ca2+ reabsorption in the DCT, and activation of **1-alpha-hydroxylase**.\n\n## Concentrating urine\n\n- The **countercurrent multiplier** builds a gradient from about 300 mOsm/kg in the cortex to about 1200 at the papilla.\n- **Urea recycling** adds to the gradient.\n- The **vasa recta** are countercurrent exchangers: slow, hairpin blood flow removes reabsorbed water without washing out the gradient.\n- Fluid leaves the thick ascending limb dilute (about 100 mOsm/kg). Without ADH, urine can fall to about 50 mOsm/kg; with maximal ADH it can approach 1200.\n\n## Measuring water and sodium handling\n\n- **Free water clearance**: CH2O = V - Cosm. Positive: dilute urine; negative: concentrated urine.\n- **FENa** = (UNa × PCr) / (PNa × UCr) × 100: the share of filtered Na+ that ends up in the urine. It is usually 1% or less and rises after volume expansion.",
+      "body_pt_md": "## Segmentos\n\n- **Túbulo proximal**: reabsorve cerca de dois terços do Na+ e da água filtrados, quase toda a glicose e aminoácidos e a maior parte do HCO3- (depende da **anidrase carbônica**).\n- **Ramo descendente delgado**: permeável à **água**, não ao NaCl.\n- **Ramo ascendente espesso**: cotransporte **Na-K-2Cl** e **nenhuma permeabilidade à água** (o segmento diluidor). A voltagem positiva no lúmen impulsiona a reabsorção paracelular de **Ca2+** e **Mg2+**.\n- **Túbulo contorcido distal (TCD)**: cotransporte **Na-Cl**, impermeável à água. O **PTH** aumenta a reabsorção de Ca2+ aqui.\n- **Ducto coletor**: as **células principais** reabsorvem Na+ (ENaC), secretam K+ e absorvem água na presença de ADH. As **células intercaladas** secretam H+ (alfa) ou HCO3- (beta).\n\n## Hormônios\n\n- **ADH**: receptor V2 → AMPc → **aquaporina-2** na membrana apical.\n- **Aldosterona**: mais reabsorção de Na+ e mais secreção de K+ e H+ no ducto coletor.\n- **Angiotensina II**: contrai a **arteríola eferente** (preserva a TFG), aumenta a troca Na+/H+ no túbulo proximal e estimula a secreção de aldosterona e ADH.\n- **ANP/BNP**: liberados com a distensão cardíaca; aumentam a TFG, reduzem a reabsorção de Na+ no ducto coletor e suprimem renina e aldosterona.\n- **PTH**: menos reabsorção de fosfato no túbulo proximal (**fosfatúria**), mais reabsorção de Ca2+ no TCD e ativação da **1-alfa-hidroxilase**.\n\n## Concentração da urina\n\n- O **multiplicador em contracorrente** cria um gradiente de cerca de 300 mOsm/kg no córtex até cerca de 1200 na papila.\n- A **reciclagem de ureia** reforça o gradiente.\n- Os **vasa recta** são trocadores em contracorrente: o fluxo lento, em alça, remove a água reabsorvida sem \"lavar\" o gradiente.\n- O líquido sai diluído do ramo ascendente espesso (cerca de 100 mOsm/kg). Sem ADH, a urina cai a cerca de 50 mOsm/kg; com ADH máximo, chega perto de 1200.\n\n## Medindo o manejo de água e sódio\n\n- **Depuração de água livre**: CH2O = V - Cosm. Positivo: urina diluída; negativo: urina concentrada.\n- **FENa** = (UNa × PCr) / (PNa × UCr) × 100: fração do Na+ filtrado que é excretada. Costuma ser de 1% ou menos e aumenta após expansão de volume."
+    }
+  ]
+}
