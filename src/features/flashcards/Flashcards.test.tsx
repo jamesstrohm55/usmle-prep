@@ -139,3 +139,11 @@ test('an old Retry cannot re-rate a requeued card that is back at the head', asy
   expect(save).toHaveBeenCalledTimes(2);
   expect(screen.queryByText('Retry')).toBeNull(); // toast dismissed after a successful save
 });
+
+test('a card with a relative image_url renders the BASE_URL-prefixed image with generic alt', async () => {
+  const c = { ...card('c1', 'Q1'), image_url: 'images/ecg/afib-1.jpg', image_credit: 'Jane, CC BY 4.0' };
+  wrap(<Flashcards load={async () => ({ cards: [c], states: new Map() })} save={async () => {}} />);
+  const img = await screen.findByAltText('Clinical image (see the question)');
+  expect(img.getAttribute('src')).toBe(`${import.meta.env.BASE_URL}images/ecg/afib-1.jpg`);
+  expect(screen.getByText('Jane, CC BY 4.0')).toBeTruthy();
+});

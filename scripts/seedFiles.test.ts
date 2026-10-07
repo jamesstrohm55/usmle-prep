@@ -1,4 +1,4 @@
-import { readdirSync, readFileSync } from 'node:fs';
+import { existsSync, readdirSync, readFileSync } from 'node:fs';
 import { join } from 'node:path';
 import { seedFileSchema } from './seedSchema';
 
@@ -23,4 +23,23 @@ test('slugs are unique across all seed files', () => {
     }
   }
   expect(dupes).toEqual([]);
+});
+
+describe('images', () => {
+  const walk = (d: string): string[] =>
+    !existsSync(d) ? [] : readdirSync(d, { withFileTypes: true }).flatMap((e) => (e.isDirectory() ? walk(join(d, e.name)) : [join(d, e.name)]));
+  const urls = files.flatMap((f) => {
+    const data = JSON.parse(readFileSync(join(dir, f), 'utf8'));
+    return [...(data.cards ?? []), ...(data.questions ?? [])].map((i) => i.image_url).filter((u): u is string => !!u && !/^https?:/.test(u));
+  });
+
+  test('every relative image_url exists under public/', () => {
+    expect(urls.filter((u) => !existsSync(join('public', u)))).toEqual([]);
+  });
+  test('every file under public/images is referenced or listed in ATTRIBUTION.md', () => {
+    const listed = existsSync('public/images/ATTRIBUTION.md') ? readFileSync('public/images/ATTRIBUTION.md', 'utf8') : '';
+    const orphans = walk('public/images').map((p) => p.replace(/^public\//, ''))
+      .filter((p) => p !== 'images/ATTRIBUTION.md' && !urls.includes(p) && !listed.includes(p));
+    expect(orphans).toEqual([]);
+  });
 });

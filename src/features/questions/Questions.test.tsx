@@ -223,3 +223,10 @@ test('no missed button when everything is correct', async () => {
   expect(await screen.findByText(/1 of 1/)).toBeTruthy();
   expect(screen.queryByText(/missed/)).toBeNull();
 });
+
+test('a question with a relative image_url renders the prefixed image in the stem area', async () => {
+  const withImg = { ...q('1'), image_url: 'images/ecg/afib-1.jpg', image_credit: 'Jane, CC0' };
+  wrap(<Questions load={async () => [withImg]} save={async () => {}} />);
+  fireEvent.click(await screen.findByText(/Start tutor session/));
+  expect((await screen.findByAltText('Clinical image (see the question)')).getAttribute('src')).toBe(`${import.meta.env.BASE_URL}images/ecg/afib-1.jpg`);
+});

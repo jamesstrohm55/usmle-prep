@@ -102,3 +102,8 @@ test('row not found and load errors are handled; Retry works', async () => {
   fireEvent.click(screen.getByText('Retry'));
   expect(await screen.findByText(/no longer available/)).toBeTruthy();
 });
+
+test('an expanded card hit with an image shows it', async () => {
+  await opened('card', { back: 'b', back_pt: null, image_url: 'images/x.jpg', image_credit: 'CC0' });
+  expect((await screen.findByAltText('Clinical image (see the question)')).getAttribute('src')).toBe(`${import.meta.env.BASE_URL}images/x.jpg`);
+});

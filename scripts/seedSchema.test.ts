@@ -42,3 +42,20 @@ test('the same slug across different tables is fine', () => {
   const n = { ...base, title: 't', body_md: 'b' };
   expect(seedFileSchema.safeParse({ notes: [n], questions: [q] }).success).toBe(true);
 });
+
+describe('images', () => {
+  const card = { ...base, front: 'f', back: 'b' };
+  const ok = (extra: object) => seedFileSchema.safeParse({ cards: [{ ...card, ...extra }] }).success;
+  const credit = 'Jane Doe, CC BY-SA 4.0, https://commons.wikimedia.org/x';
+  test('valid relative path with credit', () => expect(ok({ image_url: 'images/ecg/afib-1.jpg', image_credit: credit })).toBe(true));
+  test.each(['../x.jpg', '/images/x.jpg', 'images/ECG/x.jpg', 'images/x.gif', 'images/../x.jpg', 'x.jpg'])('rejects %s', (p) =>
+    expect(ok({ image_url: p, image_credit: credit })).toBe(false));
+  test('https url with valid credit accepted', () => expect(ok({ image_url: 'https://a.org/x.jpg', image_credit: 'Public domain (NIH)' })).toBe(true));
+  test('credit required with image', () => expect(ok({ image_url: 'images/x.jpg' })).toBe(false));
+  test('credit without permissive license rejected', () => expect(ok({ image_url: 'images/x.jpg', image_credit: 'Jane Doe, all rights reserved' })).toBe(false));
+  test('questions enforce the same rules', () => {
+    expect(seedFileSchema.safeParse({ questions: [{ ...q, image_url: 'images/x.jpg' }] }).success).toBe(false);
+    expect(seedFileSchema.safeParse({ questions: [{ ...q, image_url: 'images/x.jpg', image_credit: 'CC0' }] }).success).toBe(true);
+  });
+  test('items without images unaffected', () => expect(ok({})).toBe(true));
+});

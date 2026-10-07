@@ -1,3 +1,4 @@
+import { ItemImage } from '../../ui/ItemImage';
 import { useCallback, useEffect, useMemo, useRef, useState } from 'react';
 import { fetchCards, fetchCardStates, saveReview, setItemStatus } from '../../db/queries';
 import type { Card } from '../../db/models';
@@ -92,7 +93,7 @@ export function Flashcards({ load = loadData, save = saveReview }: { load?: type
     <div className="card">
       <p><small>{queue.length} left · {current.system} · {current.discipline}</small></p>
       <h2>{current.front}</h2>
-      {current.image_url && <figure><img src={current.image_url} alt="" style={{ maxWidth: '100%' }} /><figcaption>{current.image_credit}</figcaption></figure>}
+      {current.image_url && <ItemImage src={current.image_url} credit={current.image_credit} />}
       {!revealed ? (
         <button onClick={() => setRevealed(true)}>Show answer</button>
       ) : (

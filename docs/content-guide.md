@@ -30,6 +30,13 @@ Every item has: `slug` (globally unique across ALL seed files), `track` (`"step1
 ### Notes
 - One note per block: 200-350 words, `##` headings and `-` bullet lists. **No tables** (they render as raw text). Key terms in `**bold**`. `body_pt_md` is a faithful pt-BR version.
 
+## Images
+- Files live in `public/images/<system>/<topic>-<n>.jpg` (lowercase, `[a-z0-9_-]` only, .jpg/.jpeg/.png/.webp), at most 300 KB each. `image_url` is the relative path without a leading slash, e.g. `images/ecg/afib-1.jpg` (an `https://` URL also validates, but prefer repo files).
+- Permissive licenses only: public domain, CC0, CC BY, CC BY-SA. `image_credit` is required with any image and must give author, license and source URL, e.g. `Jane Doe, CC BY-SA 4.0, https://commons.wikimedia.org/...`.
+- The alt text is generic on purpose (`Clinical image (see the question)`) so it never reveals the answer.
+- Image items should be NEW image-recognition cards or questions: the image appears on the card front or in the question stem, so the text must not name the finding.
+- Every file in `public/images` must be referenced by a seed item (a test enforces this).
+
 ## Language rules
 - English at about B1-B2: short sentences, common words, one idea per sentence. Medical terms stay (she knows them); avoid idioms and phrasal-verb-heavy phrasing.
 - pt-BR: Brazilian medical terminology and abbreviations (IAMCSST, ICFEr, ICFEp, ECG, BRA, IECA, ARNI, FA, TV, FV, PA, DC...). Drug names use the Brazilian INN spelling (e.g. succinato de metoprolol, espironolactona). Keep the same bold terms as the English.
@@ -37,7 +44,6 @@ Every item has: `slug` (globally unique across ALL seed files), `track` (`"step1
 ## Accuracy and originality rules
 - Only well-established, Step 1-level facts. If a fact is guideline-dependent, state it generally or leave it out. Never invent a statistic, eponym or study.
 - Write everything fresh. Do not copy sentences from First Aid, UWorld, Amboss, Sketchy, Pathoma or textbooks; facts are fair game, phrasing must be original.
-- No images in this pass (`image_url` and `image_credit` omitted).
 - All items start unreviewed; Vanessa verifies or flags them in the app.
 
 ## Checks before committing a block
