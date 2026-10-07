@@ -1,0 +1,221 @@
+{
+  "cards": [
+    {
+      "slug": "card-liver-disease-gilbert",
+      "track": "step1",
+      "system": "gastrointestinal",
+      "discipline": "pathology",
+      "tags": [
+        "liver-disease",
+        "jaundice",
+        "bilirubin"
+      ],
+      "front": "What causes Gilbert syndrome, and when does the jaundice appear?",
+      "back": "Mildly **reduced UGT1A1 activity**, so **unconjugated bilirubin** rises a little. Jaundice appears with **fasting**, stress, illness or hard exercise. Liver tests and liver histology are otherwise normal. It is **benign** and needs no treatment.",
+      "back_pt": "**Atividade da UGT1A1 levemente reduzida**, então a **bilirrubina não conjugada (indireta)** sobe um pouco. A icterícia aparece com **jejum**, estresse, doença ou exercício intenso. As demais provas hepáticas e a histologia são normais. É **benigna** e não precisa de tratamento."
+    },
+    {
+      "slug": "card-liver-disease-crigler-najjar-type1",
+      "track": "step1",
+      "system": "gastrointestinal",
+      "discipline": "pathology",
+      "tags": [
+        "liver-disease",
+        "jaundice",
+        "kernicterus"
+      ],
+      "front": "What is the defect in Crigler-Najjar syndrome type I, and what is its main danger?",
+      "back": "**Absent UGT1A1** activity (autosomal recessive), so bilirubin cannot be conjugated. Very high **unconjugated bilirubin** from the first days of life crosses the blood-brain barrier and causes **kernicterus**. Liver transplant is the definitive treatment.",
+      "back_pt": "**Ausência de atividade da UGT1A1** (autossômica recessiva), então a bilirrubina não pode ser conjugada. A **bilirrubina não conjugada** muito alta desde os primeiros dias de vida atravessa a barreira hematoencefálica e causa **kernicterus**. O transplante hepático é o tratamento definitivo."
+    },
+    {
+      "slug": "card-liver-disease-dubin-johnson",
+      "track": "step1",
+      "system": "gastrointestinal",
+      "discipline": "pathology",
+      "tags": [
+        "liver-disease",
+        "jaundice",
+        "bilirubin"
+      ],
+      "front": "What is the defect in Dubin-Johnson syndrome, and what does the liver look like?",
+      "back": "Hepatocytes cannot **excrete conjugated bilirubin** into bile (defective **MRP2** canalicular transporter), causing benign **conjugated** hyperbilirubinemia. The liver is **black** from pigment. **Rotor syndrome** is similar but milder, with a liver of normal color.",
+      "back_pt": "Os hepatócitos não conseguem **excretar a bilirrubina conjugada** para a bile (defeito do transportador canalicular **MRP2**), causando hiperbilirrubinemia **conjugada (direta)** benigna. O fígado fica **negro** por pigmento. A **síndrome de Rotor** é semelhante, porém mais leve, com fígado de cor normal."
+    },
+    {
+      "slug": "card-liver-disease-hbv-window-period",
+      "track": "step1",
+      "system": "gastrointestinal",
+      "discipline": "pathology",
+      "tags": [
+        "liver-disease",
+        "hepatitis-b",
+        "serology"
+      ],
+      "front": "Which hepatitis B marker is positive during the window period?",
+      "back": "**Anti-HBc IgM** is the key marker (anti-HBe may also be present). **HBsAg** has already disappeared, and **anti-HBs** is not yet detectable. Testing HBsAg alone would miss this acute infection.",
+      "back_pt": "O **anti-HBc IgM** é o marcador-chave (o anti-HBe também pode estar presente). O **HBsAg** já desapareceu, e o **anti-HBs** ainda não é detectável. Testar apenas o HBsAg deixaria passar essa infecção aguda."
+    },
+    {
+      "slug": "card-liver-disease-hbv-vaccine-vs-infection",
+      "track": "step1",
+      "system": "gastrointestinal",
+      "discipline": "pathology",
+      "tags": [
+        "liver-disease",
+        "hepatitis-b",
+        "serology"
+      ],
+      "front": "How does hepatitis B serology tell immunity from vaccination apart from immunity after infection?",
+      "back": "**Vaccination**: **anti-HBs only**, because the vaccine contains only HBsAg. **Recovered infection**: **anti-HBs plus anti-HBc IgG**, because the immune system also saw the core antigen. HBsAg is negative in both.",
+      "back_pt": "**Vacinação**: **apenas anti-HBs**, pois a vacina contém somente HBsAg. **Infecção resolvida**: **anti-HBs mais anti-HBc IgG**, pois o sistema imune também teve contato com o antígeno do core. O HBsAg é negativo nos dois casos."
+    },
+    {
+      "slug": "card-liver-disease-alcoholic-hepatitis",
+      "track": "step1",
+      "system": "gastrointestinal",
+      "discipline": "pathology",
+      "tags": [
+        "liver-disease",
+        "alcohol",
+        "histology"
+      ],
+      "front": "What are the histologic and lab hallmarks of alcoholic hepatitis?",
+      "back": "Swollen hepatocytes with **Mallory-Denk bodies** (clumped intermediate filaments), a **neutrophil** infiltrate, and steatosis. Labs show **AST:ALT greater than 2:1**. In MASLD (NAFLD), ALT is usually higher than AST.",
+      "back_pt": "Hepatócitos balonizados com **corpúsculos de Mallory-Denk** (filamentos intermediários agregados), infiltrado de **neutrófilos** e esteatose. Os exames mostram **AST:ALT maior que 2:1**. Na MASLD/DHEM (antiga DHGNA), a ALT costuma ser maior que a AST."
+    },
+    {
+      "slug": "card-liver-disease-hyperestrogenism",
+      "track": "step1",
+      "system": "gastrointestinal",
+      "discipline": "pathology",
+      "tags": [
+        "liver-disease",
+        "cirrhosis",
+        "clinical-signs"
+      ],
+      "front": "Which signs of cirrhosis come from excess estrogen, and why?",
+      "back": "The failing liver clears **estrogen** poorly. Signs: **spider angiomata**, **palmar erythema**, **gynecomastia**, **testicular atrophy** and loss of body hair in men.",
+      "back_pt": "O fígado doente metaboliza mal o **estrogênio**. Sinais: **aranhas vasculares** (*spider angiomata*), **eritema palmar**, **ginecomastia**, **atrofia testicular** e perda de pelos corporais nos homens."
+    },
+    {
+      "slug": "card-liver-disease-wilson",
+      "track": "step1",
+      "system": "gastrointestinal",
+      "discipline": "pathology",
+      "tags": [
+        "liver-disease",
+        "wilson-disease",
+        "metabolic"
+      ],
+      "front": "What is the defect in Wilson disease, and what are its key findings?",
+      "back": "**ATP7B** mutation (autosomal recessive): copper is not excreted into bile or loaded onto ceruloplasmin. Findings: **low serum ceruloplasmin**, liver disease, **Kayser-Fleischer rings** (cornea), and **basal ganglia** damage with movement and psychiatric symptoms.",
+      "back_pt": "Mutação do **ATP7B** (autossômica recessiva): o cobre não é excretado na bile nem incorporado à ceruloplasmina. Achados: **ceruloplasmina sérica baixa**, doença hepática, **anéis de Kayser-Fleischer** (córnea) e lesão dos **núcleos da base** com sintomas motores e psiquiátricos."
+    }
+  ],
+  "questions": [
+    {
+      "slug": "q-liver-disease-hbv-chronic-serology",
+      "track": "step1",
+      "system": "gastrointestinal",
+      "discipline": "pathology",
+      "tags": [
+        "liver-disease",
+        "hepatitis-b",
+        "serology"
+      ],
+      "stem": "A 34-year-old man comes for a routine visit. He feels well. Blood tests 8 months ago, done before a planned blood donation, showed a positive HBsAg. Today his ALT is mildly elevated. Repeat serology shows: HBsAg positive, HBeAg positive, anti-HBs negative, anti-HBc IgM negative, and anti-HBc IgG positive. Which of the following best describes his hepatitis B status?",
+      "choices": [
+        "Acute hepatitis B infection",
+        "Chronic hepatitis B infection with active viral replication",
+        "Window period of acute hepatitis B infection",
+        "Resolved hepatitis B infection with immunity",
+        "Immunity from hepatitis B vaccination"
+      ],
+      "correct": 1,
+      "explanation": "**HBsAg** that stays positive for more than 6 months means **chronic infection**. A positive **HBeAg** shows active replication and high infectivity. Acute infection is the most tempting choice, but acute infection has **anti-HBc IgM**, not IgG alone, and HBsAg would not last 8 months. Resolved infection and vaccination both have anti-HBs and a negative HBsAg.",
+      "explanation_pt": "**HBsAg** positivo por mais de 6 meses indica **infecção crônica**. O **HBeAg** positivo mostra replicação viral ativa e alta infecciosidade. Infecção aguda é a alternativa mais tentadora, mas a infecção aguda tem **anti-HBc IgM**, e não apenas IgG, e o HBsAg não persistiria por 8 meses. Infecção resolvida e vacinação apresentam anti-HBs e HBsAg negativo."
+    },
+    {
+      "slug": "q-liver-disease-hemolytic-jaundice-urine",
+      "track": "step1",
+      "system": "gastrointestinal",
+      "discipline": "pathology",
+      "tags": [
+        "liver-disease",
+        "jaundice",
+        "bilirubin"
+      ],
+      "stem": "A 19-year-old man has fatigue and yellow eyes for 1 week after a viral illness. His mother had her spleen removed as a young adult. Exam shows scleral icterus and a palpable spleen tip. Hemoglobin is 9.8 g/dL, and the reticulocyte count is high. The blood smear shows many small, round red cells without central pallor. Total bilirubin is 4.2 mg/dL, with a direct (conjugated) fraction of 0.4 mg/dL. LDH is high and haptoglobin is low. AST, ALT and alkaline phosphatase are normal. Which urine findings are most likely?",
+      "choices": [
+        "Bilirubin positive; urobilinogen absent",
+        "Bilirubin positive; urobilinogen increased",
+        "Bilirubin negative; urobilinogen increased",
+        "Bilirubin negative; urobilinogen absent",
+        "Bilirubin positive; urobilinogen normal"
+      ],
+      "correct": 2,
+      "explanation": "This is **hemolysis** (likely hereditary spherocytosis) with **unconjugated** hyperbilirubinemia. Unconjugated bilirubin is bound to albumin and is not filtered, so **urine bilirubin is negative**. The liver conjugates and excretes more bilirubin than usual, gut bacteria make more urobilinogen, and more is reabsorbed and excreted, so **urine urobilinogen rises**. Positive urine bilirubin with increased urobilinogen is the tempting choice, but that pattern fits hepatocellular injury, where conjugated bilirubin leaks into the blood.",
+      "explanation_pt": "Trata-se de **hemólise** (provável esferocitose hereditária) com hiperbilirrubinemia **não conjugada**. A bilirrubina não conjugada está ligada à albumina e não é filtrada, então a **bilirrubina urinária é negativa**. O fígado conjuga e excreta mais bilirrubina que o normal, as bactérias intestinais formam mais urobilinogênio, e mais urobilinogênio é reabsorvido e excretado, então o **urobilinogênio urinário aumenta**. Bilirrubina urinária positiva com urobilinogênio aumentado é a alternativa tentadora, mas esse padrão é de lesão hepatocelular, em que a bilirrubina conjugada extravasa para o sangue."
+    },
+    {
+      "slug": "q-liver-disease-hepatic-encephalopathy",
+      "track": "step1",
+      "system": "gastrointestinal",
+      "discipline": "pathology",
+      "tags": [
+        "liver-disease",
+        "cirrhosis",
+        "hepatic-encephalopathy"
+      ],
+      "stem": "A 58-year-old man with alcoholic cirrhosis was admitted 2 days ago for vomiting blood from esophageal varices. The bleeding was stopped endoscopically. Today he is confused and sleepy. He has a flapping tremor of the outstretched hands. His eye movements are normal, there is no nystagmus, and there are no focal neurologic deficits. Temperature is 36.9°C, and blood pressure is 112/70 mm Hg. Serum sodium is 136 mEq/L and glucose is 104 mg/dL. Which of the following best explains his new mental status change?",
+      "choices": [
+        "Ammonia from digested blood in the gut reaching the brain without hepatic clearance",
+        "Thiamine deficiency damaging the mammillary bodies",
+        "Low blood glucose from failed hepatic gluconeogenesis",
+        "Brain swelling caused by acute hyponatremia",
+        "Intracranial bleeding caused by low platelet count"
+      ],
+      "correct": 0,
+      "explanation": "Blood in the gut is a large **protein load** that gut bacteria turn into **ammonia**; the cirrhotic liver, partly bypassed by **portosystemic shunts**, cannot convert it to urea. Ammonia reaches the brain and causes **hepatic encephalopathy** with **asterixis**. Wernicke encephalopathy is the tempting choice in a drinker, but it shows ophthalmoplegia or nystagmus and ataxia, not asterixis. Asterixis without focal deficits also argues against an intracranial bleed, and his glucose and sodium are normal.",
+      "explanation_pt": "Sangue no intestino é uma grande **carga proteica** que as bactérias intestinais transformam em **amônia**; o fígado cirrótico, em parte desviado por **shunts portossistêmicos**, não consegue convertê-la em ureia. A amônia chega ao cérebro e causa **encefalopatia hepática** com **asterixe** (*flapping*). A encefalopatia de Wernicke é a alternativa tentadora em um etilista, mas cursa com oftalmoplegia ou nistagmo e ataxia, e não com asterixe. Asterixe sem déficits focais também fala contra sangramento intracraniano, e a glicemia e o sódio estão normais."
+    },
+    {
+      "slug": "q-liver-disease-hemochromatosis",
+      "track": "step1",
+      "system": "gastrointestinal",
+      "discipline": "pathology",
+      "tags": [
+        "liver-disease",
+        "hemochromatosis",
+        "metabolic"
+      ],
+      "stem": "A 52-year-old man has 2 years of fatigue and pain in the knuckles of his index and middle fingers. Diabetes was diagnosed 6 months ago. His skin has a gray-bronze color, and the liver edge is felt 3 cm below the costal margin. He drinks alcohol rarely. AST and ALT are mildly elevated. Serum ferritin and transferrin saturation are both very high. A slit-lamp eye exam is normal. Which gene is most likely mutated?",
+      "choices": [
+        "ATP7B",
+        "SERPINA1",
+        "UGT1A1",
+        "CFTR",
+        "HFE"
+      ],
+      "correct": 4,
+      "explanation": "Liver disease, **diabetes**, **bronze skin** and arthropathy of the **second and third MCP joints**, with high ferritin and **transferrin saturation**, point to **hereditary hemochromatosis**, most often **HFE C282Y**. Iron overload leads to **cirrhosis** and a high risk of **hepatocellular carcinoma**. *ATP7B* (Wilson disease) is the tempting choice, but Wilson disease stores copper, usually presents in younger patients with low ceruloplasmin and neuropsychiatric signs, and shows Kayser-Fleischer rings on slit-lamp exam.",
+      "explanation_pt": "Doença hepática, **diabetes**, **pele bronzeada** e artropatia da **2ª e 3ª articulações metacarpofalângicas**, com ferritina e **saturação de transferrina** elevadas, indicam **hemocromatose hereditária**, mais frequentemente **HFE C282Y**. A sobrecarga de ferro leva a **cirrose** e a alto risco de **carcinoma hepatocelular**. O *ATP7B* (doença de Wilson) é a alternativa tentadora, mas a doença de Wilson acumula cobre, costuma surgir em pacientes mais jovens com ceruloplasmina baixa e sinais neuropsiquiátricos, e mostra anéis de Kayser-Fleischer no exame com lâmpada de fenda."
+    }
+  ],
+  "notes": [
+    {
+      "slug": "note-liver-disease-overview",
+      "track": "step1",
+      "system": "gastrointestinal",
+      "discipline": "pathology",
+      "tags": [
+        "liver-disease",
+        "overview"
+      ],
+      "title": "Liver disease: jaundice, hepatitis, cirrhosis and tumors",
+      "body_md": "## Jaundice\n\n- **Unconjugated**: hemolysis, **Gilbert**, **Crigler-Najjar**. Albumin-bound, so **no bilirubin in urine**; hemolysis raises **urine urobilinogen**.\n- **Neonatal physiologic jaundice**: immature UGT and fast red cell turnover. Very high levels risk **kernicterus**; phototherapy helps.\n- **Conjugated**: bile duct **obstruction** (dark urine, pale stools, itching, high ALP), **Dubin-Johnson**, **Rotor**.\n\n## Viral hepatitis\n\n- **HAV** and **HEV**: fecal-oral, acute only. HEV can be severe in **pregnancy**.\n- **HBV**, **HCV**, **HDV**: blood-borne; HBV also spreads by sex and at birth.\n- Most adults clear HBV. Most **HCV** infections become **chronic**.\n- **HDV** needs **HBsAg** as its coat, so it infects only people with HBV.\n- **HBsAg**: current infection. **Anti-HBs**: immunity. **Anti-HBc IgM**: recent infection. **HBeAg**: active replication.\n- Chronic HBV and HCV lead to **cirrhosis** and **HCC**.\n\n## Fatty liver and cirrhosis\n\n- Alcohol: steatosis, then **alcoholic hepatitis** (Mallory-Denk bodies, neutrophils, AST:ALT >2), then cirrhosis.\n- **MASLD** (NAFLD): obesity and insulin resistance; ALT usually above AST.\n- **Stellate (Ito) cells** make collagen. Nodules are **micronodular** in alcohol, **macronodular** after viral hepatitis.\n- Complications: **ascites**, **varices**, **hepatic encephalopathy** (ammonia, asterixis), **spontaneous bacterial peritonitis**, **hepatorenal syndrome**, **coagulopathy**, **hyperestrogenism**.\n\n## Portal hypertension\n\n- Prehepatic or presinusoidal: portal vein thrombosis, **schistosomiasis**.\n- Sinusoidal: **cirrhosis**.\n- Posthepatic: **Budd-Chiari**, right heart failure.\n\n## Metabolic and vascular\n\n- **Hemochromatosis** (**HFE C282Y**): iron in liver, pancreas, skin, joints, heart; cirrhosis and HCC.\n- **Wilson disease** (**ATP7B**): copper; low ceruloplasmin, Kayser-Fleischer rings, basal ganglia.\n- **Budd-Chiari**: hepatic vein thrombosis (polycythemia vera, hypercoagulable states); painful hepatomegaly and ascites. Congestion resembles right heart failure, but **without jugular venous distension**.\n- **Reye syndrome**: **aspirin** in a child with a viral illness; **microvesicular steatosis** and encephalopathy.\n\n## Tumors\n\n- **Metastases**: most common liver malignancy.\n- **Hemangioma**: most common benign tumor.\n- **Hepatic adenoma**: oral contraceptives; may bleed.\n- **HCC**: cirrhosis, HBV, HCV, **aflatoxin**; high **AFP**.",
+      "body_pt_md": "## Icterícia\n\n- **Não conjugada**: hemólise, **Gilbert**, **Crigler-Najjar**. Ligada à albumina, então **não há bilirrubina na urina**; a hemólise aumenta o **urobilinogênio urinário**.\n- **Icterícia fisiológica do recém-nascido**: UGT imatura e renovação rápida de hemácias. Níveis muito altos: risco de **kernicterus**; a fototerapia ajuda.\n- **Conjugada**: **obstrução** biliar (colúria, acolia, prurido, FA alta), **Dubin-Johnson**, **Rotor**.\n\n## Hepatites virais\n\n- **HAV** e **HEV**: fecal-oral, apenas agudas. O HEV pode ser grave na **gestação**.\n- **HBV**, **HCV**, **HDV**: transmissão sanguínea; o HBV também por via sexual e no parto.\n- A maioria dos adultos elimina o HBV. A maioria das infecções por **HCV** se torna **crônica**.\n- O **HDV** precisa do **HBsAg** como envoltório, por isso só infecta portadores de HBV.\n- **HBsAg**: infecção atual. **Anti-HBs**: imunidade. **Anti-HBc IgM**: infecção recente. **HBeAg**: replicação ativa.\n- HBV e HCV crônicos levam a **cirrose** e **CHC**.\n\n## Esteatose e cirrose\n\n- Álcool: esteatose, depois **hepatite alcoólica** (corpúsculos de Mallory-Denk, neutrófilos, AST:ALT >2), depois cirrose.\n- **MASLD/DHEM** (antiga DHGNA): obesidade e resistência à insulina; ALT geralmente acima da AST.\n- As **células estreladas (de Ito)** produzem colágeno. Os nódulos são **micronodulares** no álcool e **macronodulares** após hepatite viral.\n- Complicações: **ascite**, **varizes**, **encefalopatia hepática** (amônia, asterixe), **peritonite bacteriana espontânea**, **síndrome hepatorrenal**, **coagulopatia**, **hiperestrogenismo**.\n\n## Hipertensão portal\n\n- Pré-hepática ou pré-sinusoidal: trombose da veia porta, **esquistossomose**.\n- Sinusoidal: **cirrose**.\n- Pós-hepática: **Budd-Chiari**, insuficiência cardíaca direita.\n\n## Metabólicas e vasculares\n\n- **Hemocromatose** (**HFE C282Y**): ferro no fígado, pâncreas, pele, articulações e coração; cirrose e CHC.\n- **Doença de Wilson** (**ATP7B**): cobre; ceruloplasmina baixa, anéis de Kayser-Fleischer, núcleos da base.\n- **Budd-Chiari**: trombose das veias hepáticas (policitemia vera, estados de hipercoagulabilidade); hepatomegalia dolorosa e ascite. Congestão semelhante à da insuficiência cardíaca direita, mas **sem estase jugular**.\n- **Síndrome de Reye**: **ácido acetilsalicílico** em criança com infecção viral; **esteatose microvesicular** e encefalopatia.\n\n## Tumores\n\n- **Metástases**: neoplasia maligna mais comum do fígado.\n- **Hemangioma**: tumor benigno mais comum.\n- **Adenoma hepático**: anticoncepcionais orais; pode sangrar.\n- **CHC**: cirrose, HBV, HCV, **aflatoxina**; **AFP** elevada."
+    }
+  ]
+}
