@@ -2,6 +2,7 @@ name: Deploy
 on:
   push:
     branches: [main]
+  workflow_dispatch:
 permissions:
   contents: read
   pages: write
@@ -17,12 +18,19 @@ jobs:
       - uses: actions/setup-node@v4
         with: { node-version: 24, cache: npm }
       - run: npm ci
-      # supabase/tests needs a local Supabase stack, so CI runs only src and scripts.
+      # supabase/tests needs a local Supabase stack, so CI runs only src and scripts
+      # (scripts includes seedFiles.test.ts, which validates every supabase/seed/*.json).
       # Dummy values: src/db/client.ts throws at import without them (not secrets).
       - run: npx vitest run src scripts
         env:
           VITE_SUPABASE_URL: http://localhost
           VITE_SUPABASE_PUBLISHABLE_KEY: test
+      - name: Require Supabase repo variables
+        run: |
+          test -n "$VITE_SUPABASE_URL" && test -n "$VITE_SUPABASE_PUBLISHABLE_KEY" || { echo "::error::Set repo Variables VITE_SUPABASE_URL and VITE_SUPABASE_PUBLISHABLE_KEY (Settings > Secrets and variables > Actions > Variables)"; exit 1; }
+        env:
+          VITE_SUPABASE_URL: ${{ vars.VITE_SUPABASE_URL }}
+          VITE_SUPABASE_PUBLISHABLE_KEY: ${{ vars.VITE_SUPABASE_PUBLISHABLE_KEY }}
       - run: npm run build
         env:
           VITE_SUPABASE_URL: ${{ vars.VITE_SUPABASE_URL }}
