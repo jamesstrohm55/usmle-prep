@@ -12,8 +12,9 @@ vi.mock('./client', () => ({
 }));
 
 import { cachedRead, clearCache, queryError } from './queries';
+import { setLastUserId, clearLastUserId } from './lastUser';
 
-beforeEach(() => { store.clear(); uid = 'userA'; });
+beforeEach(() => { store.clear(); uid = 'userA'; clearLastUserId(); });
 
 describe('cachedRead', () => {
   it('returns fetched data and caches it', async () => {
@@ -37,6 +38,27 @@ describe('cachedRead', () => {
     await cachedRead('cards', async () => ['A-data']);
     uid = 'userB';
     await expect(cachedRead('cards', async () => { throw new Error('offline'); })).rejects.toThrow('offline');
+  });
+
+  it('uses lastUserId for the cache key when the session is gone (expired, offline)', async () => {
+    await cachedRead('cards', async () => ['A-data']);
+    setLastUserId('userA');
+    uid = null;
+    expect(await cachedRead('cards', async () => { throw new Error('offline'); })).toEqual(['A-data']);
+  });
+
+  it('keeps users isolated when falling back to lastUserId', async () => {
+    await cachedRead('cards', async () => ['A-data']);
+    setLastUserId('userB');
+    uid = null;
+    await expect(cachedRead('cards', async () => { throw new Error('offline'); })).rejects.toThrow('offline');
+  });
+
+  it('still rethrows auth errors when using lastUserId', async () => {
+    await cachedRead('cards', async () => ['A-data']);
+    setLastUserId('userA');
+    uid = null;
+    await expect(cachedRead('cards', async () => { throw queryError({ message: 'x', status: 401 }); })).rejects.toThrow();
   });
 
   it('round-trips Maps', async () => {

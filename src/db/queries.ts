@@ -1,5 +1,6 @@
 import { get as idbGet, set as idbSet, clear as idbClear } from 'idb-keyval';
 import { supabase } from './client';
+import { getLastUserId } from './lastUser';
 import type { Card, Question, Note, ItemStatus } from './models';
 import type { CardStateRow } from '../engine/fsrs';
 
@@ -31,7 +32,8 @@ export async function pageAll<T>(page: (from: number, to: number) => PromiseLike
 
 export async function cachedRead<T>(name: string, fetcher: () => Promise<T>): Promise<T> {
   const { data } = await supabase.auth.getSession(); // local; works offline
-  const key = `${data.session?.user.id ?? 'anon'}:${name}`;
+  // After expiry (refresh failed offline) there is no session; fall back to who last signed in.
+  const key = `${data.session?.user.id ?? getLastUserId() ?? 'anon'}:${name}`;
   try {
     const result = await fetcher();
     try { await idbSet(key, result instanceof Map ? { __map: [...result] } : result); } catch { /* cache is best-effort */ }
