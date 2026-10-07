@@ -20,7 +20,7 @@ const isAuthError = (e: unknown) => {
 };
 
 const PAGE = 1000; // PostgREST default row cap
-async function pageAll<T>(page: (from: number, to: number) => PromiseLike<Res<T[]>>): Promise<T[]> {
+export async function pageAll<T>(page: (from: number, to: number) => PromiseLike<Res<T[]>>): Promise<T[]> {
   const out: T[] = [];
   for (let from = 0; ; from += PAGE) {
     const rows = must(await page(from, from + PAGE - 1));
