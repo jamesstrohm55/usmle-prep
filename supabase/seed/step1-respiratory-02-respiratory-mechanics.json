@@ -1,0 +1,217 @@
+{
+  "cards": [
+    {
+      "slug": "card-respiratory-mechanics-lung-capacities",
+      "track": "step1",
+      "system": "respiratory",
+      "discipline": "physiology",
+      "tags": [
+        "respiratory-mechanics",
+        "lung-volumes"
+      ],
+      "front": "Which lung volumes add up to each lung capacity?",
+      "back": "**IC** = TV + IRV. **FRC** = ERV + RV. **VC** = TV + IRV + ERV. **TLC** = VC + RV. Spirometry cannot measure the **residual volume**, so it also cannot measure FRC or TLC.",
+      "back_pt": "**CI** = VC + VRI. **CRF** = VRE + VR. **CV** = VC + VRI + VRE. **CPT** = CV + VR. A espirometria não mede o **volume residual**, por isso também não mede a CRF nem a CPT. (VC = volume corrente; CV = capacidade vital.)"
+    },
+    {
+      "slug": "card-respiratory-mechanics-frc-equilibrium",
+      "track": "step1",
+      "system": "respiratory",
+      "discipline": "physiology",
+      "tags": [
+        "respiratory-mechanics",
+        "lung-volumes",
+        "elastic-recoil"
+      ],
+      "front": "What sets the functional residual capacity (FRC)?",
+      "back": "At **FRC**, the **inward elastic recoil of the lung** equals the **outward recoil of the chest wall**. The respiratory system is at rest (airway pressure is zero), and intrapleural pressure is negative, about −5 cm H2O.",
+      "back_pt": "Na **CRF**, a **retração elástica do pulmão para dentro** é igual à **retração da parede torácica para fora**. O sistema respiratório está em repouso (pressão na via aérea igual a zero), e a pressão intrapleural é negativa, cerca de −5 cm H2O."
+    },
+    {
+      "slug": "card-respiratory-mechanics-compliance",
+      "track": "step1",
+      "system": "respiratory",
+      "discipline": "physiology",
+      "tags": [
+        "respiratory-mechanics",
+        "compliance"
+      ],
+      "front": "What is lung compliance, and which conditions raise or lower it?",
+      "back": "**Compliance** = ΔV/ΔP (stretch per unit pressure). **Higher** in **emphysema** and **aging** (loss of elastic fibers, weak recoil). **Lower** in **pulmonary fibrosis**, **surfactant deficiency** and **pulmonary edema** (stiff lungs).",
+      "back_pt": "**Complacência** = ΔV/ΔP (distensão por unidade de pressão). **Maior** no **enfisema** e no **envelhecimento** (perda de fibras elásticas, retração fraca). **Menor** na **fibrose pulmonar**, na **deficiência de surfactante** e no **edema pulmonar** (pulmões rígidos)."
+    },
+    {
+      "slug": "card-respiratory-mechanics-laplace-surfactant",
+      "track": "step1",
+      "system": "respiratory",
+      "discipline": "physiology",
+      "tags": [
+        "respiratory-mechanics",
+        "surfactant",
+        "laplace"
+      ],
+      "front": "How does the law of Laplace explain the need for surfactant?",
+      "back": "**P = 2T/r**. With the same surface tension, a small alveolus has a higher collapsing pressure and would empty into larger ones. **Surfactant** (from **type II pneumocytes**) lowers surface tension, most in small alveoli, and prevents collapse (**atelectasis**).",
+      "back_pt": "**P = 2T/r**. Com a mesma tensão superficial, um alvéolo pequeno tem pressão de colapso maior e se esvaziaria nos maiores. O **surfactante** (dos **pneumócitos tipo II**) reduz a tensão superficial, mais nos alvéolos pequenos, e evita o colapso (**atelectasia**)."
+    },
+    {
+      "slug": "card-respiratory-mechanics-spirometry-patterns",
+      "track": "step1",
+      "system": "respiratory",
+      "discipline": "physiology",
+      "tags": [
+        "respiratory-mechanics",
+        "spirometry"
+      ],
+      "front": "How do FEV1/FVC and TLC separate obstructive from restrictive disease?",
+      "back": "**Obstructive**: FEV1 falls more than FVC, so **FEV1/FVC is low**; TLC and RV are normal or high (air trapping). **Restrictive**: FEV1 and FVC both fall, **FEV1/FVC is normal or high**, and **TLC is low**.",
+      "back_pt": "**Obstrutivo**: o VEF1 cai mais que a CVF, então a **relação VEF1/CVF está baixa**; CPT e VR normais ou altos (aprisionamento aéreo). **Restritivo**: VEF1 e CVF caem, a **relação VEF1/CVF fica normal ou alta**, e a **CPT está baixa**."
+    },
+    {
+      "slug": "card-respiratory-mechanics-dead-space",
+      "track": "step1",
+      "system": "respiratory",
+      "discipline": "physiology",
+      "tags": [
+        "respiratory-mechanics",
+        "dead-space",
+        "alveolar-ventilation"
+      ],
+      "front": "How do you calculate physiologic dead space and alveolar ventilation?",
+      "back": "**Physiologic dead space** = anatomic (conducting airways) + alveolar (ventilated, not perfused). **Bohr**: VD/VT = (PaCO2 − PECO2)/PaCO2, where PECO2 is the PCO2 of mixed expired air. **Alveolar ventilation** = (VT − VD) × respiratory rate.",
+      "back_pt": "**Espaço morto fisiológico** = anatômico (vias aéreas de condução) + alveolar (ventilado, não perfundido). **Bohr**: VD/VC = (PaCO2 − PECO2)/PaCO2, sendo PECO2 a PCO2 do ar expirado misto e VC o volume corrente. **Ventilação alveolar** = (VC − VD) × frequência respiratória."
+    },
+    {
+      "slug": "card-respiratory-mechanics-chemoreceptors",
+      "track": "step1",
+      "system": "respiratory",
+      "discipline": "physiology",
+      "tags": [
+        "respiratory-mechanics",
+        "control-of-breathing",
+        "chemoreceptors"
+      ],
+      "front": "What do central and peripheral chemoreceptors sense?",
+      "back": "**Central** (ventral medulla): **H+ in the CSF**. CO2 crosses the blood-brain barrier and forms H+, so they track **PaCO2**. **Peripheral** (**carotid** and aortic bodies): **PaO2 below about 60 mm Hg**, and also PaCO2 and arterial H+.",
+      "back_pt": "**Centrais** (face ventral do bulbo): **H+ no LCR**. O CO2 atravessa a barreira hematoencefálica e forma H+, então eles acompanham a **PaCO2**. **Periféricos** (corpos **carotídeos** e aórticos): **PaO2 abaixo de cerca de 60 mm Hg**, e também PaCO2 e H+ arterial."
+    },
+    {
+      "slug": "card-respiratory-mechanics-brainstem-centers",
+      "track": "step1",
+      "system": "respiratory",
+      "discipline": "physiology",
+      "tags": [
+        "respiratory-mechanics",
+        "control-of-breathing"
+      ],
+      "front": "What do the brainstem respiratory centers and the Hering-Breuer reflex do?",
+      "back": "**Dorsal respiratory group** (medulla): inspiration. **Ventral respiratory group** (medulla): mainly forced expiration. **Pneumotaxic center** (upper pons): shortens inspiration. **Apneustic center** (lower pons): prolongs inspiration. **Hering-Breuer**: lung stretch receptors signal via the **vagus** to end inspiration.",
+      "back_pt": "**Grupo respiratório dorsal** (bulbo): inspiração. **Grupo respiratório ventral** (bulbo): principalmente expiração forçada. **Centro pneumotáxico** (ponte superior): encurta a inspiração. **Centro apnêustico** (ponte inferior): prolonga a inspiração. **Hering-Breuer**: receptores de estiramento pulmonar sinalizam pelo **vago** para encerrar a inspiração."
+    }
+  ],
+  "questions": [
+    {
+      "slug": "q-respiratory-mechanics-restrictive-spirometry",
+      "track": "step1",
+      "system": "respiratory",
+      "discipline": "physiology",
+      "tags": [
+        "respiratory-mechanics",
+        "spirometry",
+        "restrictive-disease"
+      ],
+      "stem": "A 58-year-old woman has 6 months of shortness of breath that is worse when she lies flat. She has never smoked. Exam shows fasciculations of the tongue, weakness and wasting of the hand muscles, and brisk reflexes in the legs. Her lungs are clear. Pulmonary function tests show: FEV1 1.6 L (60% of predicted), FVC 1.8 L (56% of predicted), FEV1/FVC 0.89, TLC 64% of predicted, and DLCO 95% of predicted. Which mechanism best explains her pulmonary function results?",
+      "choices": [
+        "Thickening of the alveolar interstitium",
+        "Destruction of alveolar walls with loss of elastic recoil",
+        "Reversible narrowing of the bronchi",
+        "Loss of the pulmonary capillary bed from recurrent emboli",
+        "Weakness of the respiratory muscles"
+      ],
+      "correct": 4,
+      "explanation": "A low TLC with a **normal-to-high FEV1/FVC** is a **restrictive** pattern, and the **normal DLCO** shows that the alveolar-capillary membrane is healthy. The restriction is **extrapulmonary**: in **amyotrophic lateral sclerosis**, weak inspiratory muscles, including the diaphragm, cannot fully expand a normal lung. Interstitial thickening is the tempting choice, because it also causes restriction, but it lowers DLCO and usually causes crackles.",
+      "explanation_pt": "Uma CPT baixa com **VEF1/CVF normal ou alta** é um padrão **restritivo**, e a **DLCO normal** mostra que a membrana alvéolo-capilar está preservada. A restrição é **extrapulmonar**: na **esclerose lateral amiotrófica**, os músculos inspiratórios fracos, inclusive o diafragma, não conseguem expandir por completo um pulmão normal. O espessamento do interstício é a opção tentadora, porque também causa restrição, mas reduz a DLCO e em geral causa estertores crepitantes."
+    },
+    {
+      "slug": "q-respiratory-mechanics-alveolar-ventilation",
+      "track": "step1",
+      "system": "respiratory",
+      "discipline": "physiology",
+      "tags": [
+        "respiratory-mechanics",
+        "dead-space",
+        "alveolar-ventilation"
+      ],
+      "stem": "A 45-year-old woman is evaluated 2 days after a pulmonary embolism. She breathes at a tidal volume of 600 mL and a rate of 20/min. Her anatomic dead space is estimated at 150 mL. Arterial PCO2 is 36 mm Hg, and the PCO2 of her mixed expired air is 18 mm Hg. What is her alveolar ventilation?",
+      "choices": [
+        "3.0 L/min",
+        "4.5 L/min",
+        "6.0 L/min",
+        "9.0 L/min",
+        "12.0 L/min"
+      ],
+      "correct": 2,
+      "explanation": "By the **Bohr equation**, VD/VT = (36 − 18)/36 = 0.5, so the **physiologic dead space** is 0.5 × 600 = 300 mL. **Alveolar ventilation** = (600 − 300) × 20 = 6,000 mL/min, or **6.0 L/min**. The tempting 9.0 L/min uses only the anatomic dead space and ignores the unperfused alveoli created by the embolism, 3.0 L/min counts the anatomic dead space twice, and 12.0 L/min is the total minute ventilation.",
+      "explanation_pt": "Pela **equação de Bohr**, VD/VC = (36 − 18)/36 = 0,5, então o **espaço morto fisiológico** é 0,5 × 600 = 300 mL. **Ventilação alveolar** = (600 − 300) × 20 = 6.000 mL/min, ou **6,0 L/min**. O valor tentador de 9,0 L/min usa apenas o espaço morto anatômico e ignora os alvéolos não perfundidos criados pela embolia, 3,0 L/min conta o espaço morto anatômico duas vezes, e 12,0 L/min é o volume-minuto total."
+    },
+    {
+      "slug": "q-respiratory-mechanics-altitude-chemoreceptor",
+      "track": "step1",
+      "system": "respiratory",
+      "discipline": "physiology",
+      "tags": [
+        "respiratory-mechanics",
+        "control-of-breathing",
+        "chemoreceptors"
+      ],
+      "stem": "A healthy 28-year-old man flies to a city at 4,000 m above sea level. A few hours after arrival, his respiratory rate is 22/min. Arterial blood gas on room air shows pH 7.49, PaO2 48 mm Hg and PaCO2 30 mm Hg. Which structure is most responsible for his increased ventilation?",
+      "choices": [
+        "Glomus cells of the carotid bodies",
+        "Central chemoreceptors on the ventral surface of the medulla",
+        "Pulmonary stretch receptors in airway smooth muscle",
+        "Juxtacapillary (J) receptors in the alveolar walls",
+        "Baroreceptors in the carotid sinus"
+      ],
+      "correct": 0,
+      "explanation": "At high altitude the low inspired PO2 brings **PaO2 below 60 mm Hg**, which strongly stimulates the **peripheral chemoreceptors**, mainly the glomus cells of the **carotid bodies** (afferents in the glossopharyngeal nerve). Central chemoreceptors do not respond to hypoxemia; the low PaCO2 from hyperventilation raises CSF pH and actually reduces their drive. Pulmonary stretch receptors end inspiration and do not sense oxygen.",
+      "explanation_pt": "Em grande altitude, a PO2 inspirada baixa leva a **PaO2 abaixo de 60 mm Hg**, o que estimula fortemente os **quimiorreceptores periféricos**, principalmente as células glômicas dos **corpos carotídeos** (aferência pelo nervo glossofaríngeo). Os quimiorreceptores centrais não respondem à hipoxemia; a PaCO2 baixa pela hiperventilação eleva o pH do LCR e na verdade reduz o estímulo deles. Os receptores de estiramento pulmonar encerram a inspiração e não detectam oxigênio."
+    },
+    {
+      "slug": "q-respiratory-mechanics-emphysema-compliance",
+      "track": "step1",
+      "system": "respiratory",
+      "discipline": "physiology",
+      "tags": [
+        "respiratory-mechanics",
+        "compliance",
+        "obstructive-disease"
+      ],
+      "stem": "A 67-year-old man with a 60-pack-year smoking history has progressive dyspnea. He is thin, breathes through pursed lips, and has a barrel-shaped chest. Pulmonary function tests show FEV1/FVC 0.50, TLC 125% of predicted, FRC 150% of predicted, RV 180% of predicted, and a low DLCO. Chest CT shows centriacinar emphysema in the upper lobes. Which change in lung mechanics best explains his increased TLC and FRC?",
+      "choices": [
+        "Decreased lung compliance from interstitial collagen deposition",
+        "Increased lung compliance from destruction of elastic fibers",
+        "Increased alveolar surface tension from surfactant deficiency",
+        "Decreased chest wall compliance from kyphosis",
+        "Weakness of the diaphragm from phrenic nerve injury"
+      ],
+      "correct": 1,
+      "explanation": "In **emphysema**, protease activity destroys **elastic fibers** in the alveolar walls. **Lung compliance rises** and **inward recoil falls**, so the balance with the outward-pulling chest wall moves to a higher volume: **FRC and TLC increase**. Loss of recoil also lets small airways collapse during expiration, which traps air and raises RV. Interstitial fibrosis does the opposite: stiff lungs with low compliance and a low TLC.",
+      "explanation_pt": "No **enfisema**, a atividade de proteases destrói as **fibras elásticas** das paredes alveolares. A **complacência pulmonar aumenta** e a **retração para dentro diminui**, então o equilíbrio com a parede torácica (que puxa para fora) se desloca para um volume maior: **CRF e CPT aumentam**. A perda de retração também deixa as pequenas vias aéreas colapsarem na expiração, o que aprisiona ar e eleva o VR. A fibrose intersticial faz o oposto: pulmões rígidos, com complacência baixa e CPT baixa."
+    }
+  ],
+  "notes": [
+    {
+      "slug": "note-respiratory-mechanics-overview",
+      "track": "step1",
+      "system": "respiratory",
+      "discipline": "physiology",
+      "tags": [
+        "respiratory-mechanics",
+        "overview"
+      ],
+      "title": "Respiratory mechanics and control of breathing",
+      "body_md": "## Volumes and FRC\n\n- **TLC** = VC + RV; **FRC** = ERV + RV. Spirometry cannot measure **RV**, FRC or TLC.\n- At **FRC**, inward **lung recoil** equals outward **chest wall recoil**; intrapleural pressure is about −5 cm H2O.\n\n## Compliance and surfactant\n\n- **Compliance** = ΔV/ΔP. **Up** in **emphysema** and aging; **down** in **fibrosis**, edema and **surfactant deficiency**.\n- **Laplace**: P = 2T/r. Small alveoli tend to collapse. **Surfactant** from **type II pneumocytes** lowers surface tension.\n\n## Spirometry and flow-volume loops\n\n- **Obstructive**: **low FEV1/FVC**, normal or high TLC and RV. The loop sits at **higher lung volumes**, with a **scooped** expiratory limb.\n- **Restrictive**: **normal or high FEV1/FVC**, **low TLC**. The loop is **narrow** and sits at lower volumes.\n- **DLCO** is low in fibrosis and emphysema, and normal in extrapulmonary restriction (obesity, neuromuscular disease).\n\n## Dead space and ventilation\n\n- **Physiologic dead space** = anatomic + alveolar. **Bohr**: VD/VT = (PaCO2 − PECO2)/PaCO2.\n- **Alveolar ventilation** = (VT − VD) × rate. At the same minute ventilation, **rapid shallow breathing** gives less alveolar ventilation.\n\n## Muscles and work of breathing\n\n- Inspiration: **diaphragm** (phrenic nerve, C3-C5) and external intercostals; accessory: **scalenes** and **sternocleidomastoid**.\n- Quiet expiration is **passive**. Forced expiration: **abdominal muscles** and internal intercostals.\n- Stiff lungs: **rapid shallow** breathing saves elastic work. Obstruction: **slow deep** breathing saves resistive work.\n\n## Control of breathing\n\n- **Medulla**: dorsal group (inspiration), ventral group (mainly forced expiration).\n- **Pons**: **pneumotaxic** center shortens inspiration; **apneustic** center prolongs it.\n- **Central chemoreceptors**: CSF **H+**, so they track **PaCO2**.\n- **Peripheral chemoreceptors** (carotid > aortic bodies): **PaO2 < 60 mm Hg**, PaCO2, H+.\n- **Hering-Breuer**: stretch receptors, via the **vagus**, end inspiration.",
+      "body_pt_md": "## Volumes e CRF\n\n- **CPT** = CV + VR; **CRF** = VRE + VR. A espirometria não mede **VR**, CRF nem CPT.\n- Na **CRF**, a **retração do pulmão** para dentro iguala a **retração da parede torácica** para fora; a pressão intrapleural é cerca de −5 cm H2O.\n\n## Complacência e surfactante\n\n- **Complacência** = ΔV/ΔP. **Aumenta** no **enfisema** e no envelhecimento; **diminui** na **fibrose**, no edema e na **deficiência de surfactante**.\n- **Laplace**: P = 2T/r. Alvéolos pequenos tendem a colapsar. O **surfactante** dos **pneumócitos tipo II** reduz a tensão superficial.\n\n## Espirometria e curvas fluxo-volume\n\n- **Obstrutivo**: **VEF1/CVF baixa**, CPT e VR normais ou altos. A curva fica em **volumes pulmonares maiores**, com ramo expiratório **côncavo** (*scooped*).\n- **Restritivo**: **VEF1/CVF normal ou alta**, **CPT baixa**. A curva é **estreita** e fica em volumes menores.\n- A **DLCO** é baixa na fibrose e no enfisema, e normal na restrição extrapulmonar (obesidade, doença neuromuscular).\n\n## Espaço morto e ventilação\n\n- **Espaço morto fisiológico** = anatômico + alveolar. **Bohr**: VD/VC = (PaCO2 − PECO2)/PaCO2 (VC = volume corrente).\n- **Ventilação alveolar** = (VC − VD) × frequência. Com o mesmo volume-minuto, a **respiração rápida e superficial** dá menos ventilação alveolar.\n\n## Músculos e trabalho respiratório\n\n- Inspiração: **diafragma** (nervo frênico, C3-C5) e intercostais externos; acessórios: **escalenos** e **esternocleidomastoideo**.\n- A expiração em repouso é **passiva**. Expiração forçada: **músculos abdominais** e intercostais internos.\n- Pulmões rígidos: respiração **rápida e superficial** poupa trabalho elástico. Obstrução: respiração **lenta e profunda** poupa trabalho resistivo.\n\n## Controle da respiração\n\n- **Bulbo**: grupo dorsal (inspiração), grupo ventral (principalmente expiração forçada).\n- **Ponte**: o centro **pneumotáxico** encurta a inspiração; o centro **apnêustico** a prolonga.\n- **Quimiorreceptores centrais**: **H+** no LCR, portanto acompanham a **PaCO2**.\n- **Quimiorreceptores periféricos** (corpos carotídeos > aórticos): **PaO2 < 60 mm Hg**, PaCO2, H+.\n- **Hering-Breuer**: receptores de estiramento, pelo **vago**, encerram a inspiração."
+    }
+  ]
+}
