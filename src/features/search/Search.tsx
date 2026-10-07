@@ -1,4 +1,4 @@
-import { useRef, useState } from 'react';
+import { useEffect, useRef, useState } from 'react';
 import { search, fetchCards, fetchQuestions, fetchNotes } from '../../db/queries';
 import type { Card, Question, Note } from '../../db/models';
 import { useToast } from '../../ui/Toast';
@@ -80,7 +80,11 @@ export function Search({ load = search, lookup = lookupRow }: { load?: typeof se
   const [hits, setHits] = useState<Hit[] | null>(null);
   const seq = useRef(0); // latest-wins: a slower, older response must not overwrite a newer one
 
+  const alive = useRef(true);
+  useEffect(() => { alive.current = true; return () => { alive.current = false; }; }, []);
+
   async function run(term: string) {
+    if (!alive.current) return;
     const mine = ++seq.current;
     try {
       const r = await load(term);

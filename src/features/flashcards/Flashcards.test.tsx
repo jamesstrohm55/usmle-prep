@@ -60,8 +60,7 @@ test('a stale Retry is a no-op once the card has moved on', async () => {
   await screen.findByRole('alert');
   fireEvent.click(screen.getByText('Easy'));
   await waitFor(() => expect(screen.getByText('Q2')).toBeTruthy());
-  const retry = screen.getByText('Retry'); // the stale toast is still showing
-  fireEvent.click(retry);
+  expect(screen.queryByText('Retry')).toBeNull(); // the stale toast is dismissed after the later successful save
   await new Promise((r) => setTimeout(r, 20));
   expect(save).toHaveBeenCalledTimes(2);
   expect(screen.getByText('Q2')).toBeTruthy();
@@ -124,4 +123,19 @@ test('flagging asks for a note and passes it; cancel does not flag', async () =>
   fireEvent.click(screen.getByText('Flag as wrong'));
   expect(prompt).toHaveBeenCalledWith('What is wrong? (optional)');
   await waitFor(() => expect(set).toHaveBeenCalledWith('card', 'c1', 'flagged', 'wrong dose'));
+});
+
+test('an old Retry cannot re-rate a requeued card that is back at the head', async () => {
+  const save = vi.fn().mockRejectedValueOnce(new Error('offline')).mockResolvedValue(undefined);
+  wrap(<Flashcards load={async () => ({ cards: [card('c1', 'Q1')], states: new Map() })} save={save} />);
+  fireEvent.click(await screen.findByText('Show answer'));
+  fireEvent.click(screen.getByText('Good'));
+  const oldRetry = await screen.findByText('Retry');
+  fireEvent.click(screen.getByText('Good')); // succeeds; Good on a new card is due in minutes, so c1 is requeued
+  await waitFor(() => expect(save).toHaveBeenCalledTimes(2));
+  await screen.findByText('Show answer'); // same card back at the head
+  fireEvent.click(oldRetry);
+  await new Promise((r) => setTimeout(r, 20));
+  expect(save).toHaveBeenCalledTimes(2);
+  expect(screen.queryByText('Retry')).toBeNull(); // toast dismissed after a successful save
 });

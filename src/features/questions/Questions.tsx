@@ -66,13 +66,17 @@ export function Questions({ load = fetchQuestions, save = saveAttempts }: { load
     sessionId.current = uuid(); shownAt.current = Date.now();
   }
 
+  const alive = useRef(true);
+  useEffect(() => { alive.current = true; return () => { alive.current = false; }; }, []);
+
   async function persist(p: Pending) {
-    if (p.done || p.inFlight) return;
+    if (!alive.current || p.done || p.inFlight) return;
     p.inFlight = true;
     try { await save(p.rows); p.done = true; } catch (e) { toast.show(`Could not save results: ${(e as Error).message}`, () => persist(p)); } finally { p.inFlight = false; }
   }
 
   function setStatus(id: string, status: 'flagged' | 'verified', ok: string, note?: string) {
+    if (!alive.current) return;
     setItemStatus('question', id, status, note).then(() => toast.show(ok)).catch((e) => toast.show(`Could not update question: ${(e as Error).message}`, () => setStatus(id, status, ok, note)));
   }
   function flag(id: string) {

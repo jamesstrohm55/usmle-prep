@@ -36,7 +36,8 @@ export async function cachedRead<T>(name: string, fetcher: () => Promise<T>): Pr
   const key = `${data.session?.user.id ?? getLastUserId() ?? 'anon'}:${name}`;
   try {
     const result = await fetcher();
-    try { await idbSet(key, result instanceof Map ? { __map: [...result] } : result); } catch { /* cache is best-effort */ }
+    // Without a session RLS returns empty (no error); never let that overwrite the last user's cache.
+    if (data.session) try { await idbSet(key, result instanceof Map ? { __map: [...result] } : result); } catch { /* cache is best-effort */ }
     return result;
   } catch (e) {
     if (isAuthError(e)) throw e;

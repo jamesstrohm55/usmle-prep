@@ -41,14 +41,17 @@ export function Flashcards({ load = loadData, save = saveReview }: { load?: type
   const byId = useMemo(() => new Map((data?.cards ?? []).map((c) => [c.id, c])), [data]);
   const current = queue[0] ? byId.get(queue[0]) : undefined;
 
-  const headId = useRef<string | undefined>(undefined);
-  headId.current = current?.id;
+  // Retry closures die on unmount (e.g. a different user signed in) and when the card has been advanced/re-presented.
+  const alive = useRef(true);
+  useEffect(() => { alive.current = true; return () => { alive.current = false; }; }, []);
+  const turn = useRef(0);
 
   async function rate(rating: (typeof GRADES)[number][1]) {
     if (!current || !data || busy.current) return;
     busy.current = true;
     setSaving(true);
     const id = current.id;
+    const myTurn = turn.current;
     const now = new Date();
     const prev = data.states.get(current.id);
     const { card } = rateCard(prev ? fromRow(prev) : newCard(now), rating, now);
@@ -56,12 +59,14 @@ export function Flashcards({ load = loadData, save = saveReview }: { load?: type
       await save(current.id, toRow(card), rating, now.getTime() - shownAt.current);
     } catch (e) {
       // retry is a no-op if the card has since moved on (stale closure would re-save and skip a card)
-      toast.show(`Could not save your rating: ${(e as Error).message}`, () => { if (headId.current === id) rate(rating); });
+      toast.show(`Could not save your rating: ${(e as Error).message}`, () => { if (alive.current && turn.current === myTurn) rate(rating); });
       return;
     } finally {
       busy.current = false;
       setSaving(false);
     }
+    turn.current++;
+    toast.dismiss(); // any earlier Retry is now stale
     data.states.set(current.id, toRow(card));
     // Due again within minutes (Again/Hard/learning steps): send it to the back of this session's queue.
     const soon = card.due.getTime() - now.getTime() <= REQUEUE_WITHIN_MS;

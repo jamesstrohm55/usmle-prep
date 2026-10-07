@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import { useEffect, useRef, useState } from 'react';
 import { supabase } from '../../db/client';
 import { pageAll } from '../../db/queries';
 import { useToast } from '../../ui/Toast';
@@ -24,11 +24,14 @@ const errMsg = (e: unknown) => (e instanceof Error ? e.message : String(e));
 export function ImportExport() {
   const toast = useToast();
   const [report, setReport] = useState('');
+  const alive = useRef(true);
+  useEffect(() => { alive.current = true; return () => { alive.current = false; }; }, []);
 
   async function runImport(
     noun: string, rejected: string[], total: number,
     run: (resume?: ImportProgress) => Promise<ImportProgress>, resume?: ImportProgress,
   ): Promise<void> {
+    if (!alive.current) return; // stale Retry after unmount / user change
     const p = await run(resume);
     setReport(describeImport(noun, p, rejected));
     if (p.error) toast.show(`Import stopped after ${p.processed} of ${total} saved: ${p.error}`, () => void runImport(noun, rejected, total, run, p));

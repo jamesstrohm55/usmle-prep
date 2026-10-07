@@ -93,3 +93,14 @@ test('explicit sign-out clears lastUserId and the cache and unmounts children', 
   expect(clearCache).toHaveBeenCalled();
   expect(screen.getByText(/sign-in link/i)).toBeTruthy();
 });
+
+test('coming back online with no session leaves offline mode and shows Login (no banner)', async () => {
+  setLastUserId('u1');
+  getSession.mockResolvedValueOnce({ data: { session: null }, error: { name: 'AuthRetryableFetchError' } });
+  render(ui);
+  await screen.findByText(/Offline — showing saved content/);
+  getSession.mockResolvedValue({ data: { session: null }, error: null });
+  act(() => { window.dispatchEvent(new Event('online')); });
+  expect(await screen.findByText(/sign-in link/i)).toBeTruthy();
+  expect(screen.queryByText(/Offline — showing saved content/)).toBeNull();
+});

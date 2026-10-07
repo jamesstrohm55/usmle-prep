@@ -61,6 +61,15 @@ describe('cachedRead', () => {
     await expect(cachedRead('cards', async () => { throw queryError({ message: 'x', status: 401 }); })).rejects.toThrow();
   });
 
+  it('never writes the cache without a session (anon reads return empty, not data)', async () => {
+    setLastUserId('userA');
+    await cachedRead('cards', async () => ['A-data']);
+    store.clear();
+    uid = null;
+    expect(await cachedRead('cards', async () => [])).toEqual([]);
+    expect(store.size).toBe(0);
+  });
+
   it('round-trips Maps', async () => {
     await cachedRead('states', async () => new Map([['c1', { due: 'd' }]]));
     const got = await cachedRead<Map<string, { due: string }>>('states', async () => { throw new Error('offline'); });
