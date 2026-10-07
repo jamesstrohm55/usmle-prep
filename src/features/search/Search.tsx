@@ -23,14 +23,14 @@ function PtReveal({ label, text }: { label: string; text: string | null }) {
 function Detail({ kind, row }: { kind: Hit['kind']; row: Row }) {
   if (kind === 'card') {
     const c = row as Card;
-    return <>{c.image_url && <ItemImage src={c.image_url} credit={c.image_credit} />}<p><Rich text={c.back} /></p><PtReveal label="Ver em português" text={c.back_pt} /></>;
+    return <><ItemImage src={c.image_url} credit={c.image_credit} /><p><Rich text={c.back} /></p><PtReveal label="Ver em português" text={c.back_pt} /></>;
   }
   if (kind === 'question') {
     const q = row as Question;
     return (
       <>
         <p>{q.stem}</p>
-        {q.image_url && <ItemImage src={q.image_url} credit={q.image_credit} />}
+        <ItemImage src={q.image_url} credit={q.image_credit} />
         <ul>{q.choices.map((c, i) => <li key={i}>{c}{i === q.correct && ' ✓ (correct)'}</li>)}</ul>
         <p><Rich text={q.explanation} /></p>
         <PtReveal label="Ver em português" text={q.explanation_pt} />

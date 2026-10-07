@@ -58,4 +58,10 @@ describe('images', () => {
     expect(seedFileSchema.safeParse({ questions: [{ ...q, image_url: 'images/x.jpg', image_credit: 'CC0' }] }).success).toBe(true);
   });
   test('items without images unaffected', () => expect(ok({})).toBe(true));
+  test.each(['Jane Doe, CC BY-SA 4.0, https://commons.wikimedia.org/x', 'CC BY 4.0', 'CC0 1.0', 'Public domain', 'public domain (CDC PHIL)', 'CC-BY-SA-3.0'])('accepts credit %s', (c) =>
+    expect(ok({ image_url: 'images/x.jpg', image_credit: c })).toBe(true));
+  test.each(['CC BY-NC 4.0', 'CC BY-ND', 'CC BY-NC-SA 4.0', 'CC-BY-NC', 'CC BY-NC-ND 4.0', 'All rights reserved', 'not public domain', ''])('rejects credit "%s"', (c) =>
+    expect(ok({ image_url: 'images/x.jpg', image_credit: c })).toBe(false));
+  test.each(['images/a//b.jpg', 'images/a/.jpg', 'images/.a/b.jpg', 'images/a/b/.png'])('rejects path %s', (p) =>
+    expect(ok({ image_url: p, image_credit: 'CC0' })).toBe(false));
 });

@@ -1,5 +1,5 @@
 import { render, screen, fireEvent } from '@testing-library/react';
-import { ItemImage } from './ItemImage';
+import { ItemImage, IMAGE_ALT } from './ItemImage';
 
 const base = import.meta.env.BASE_URL;
 
@@ -14,7 +14,7 @@ test('https src passes through', () => {
 test('generic alt, lazy loading, credit as text', () => {
   render(<ItemImage src="images/a.jpg" credit="Jane, CC BY 4.0, https://x.org/a" />);
   const img = screen.getByRole('img');
-  expect(img.getAttribute('alt')).toBe('Clinical image (see the question)');
+  expect(img.getAttribute('alt')).toBe(IMAGE_ALT);
   expect(img.getAttribute('loading')).toBe('lazy');
   expect(screen.getByText('Jane, CC BY 4.0, https://x.org/a')).toBeTruthy();
   expect(document.querySelector('a')).toBeNull();
@@ -29,4 +29,15 @@ test('onError shows fallback and keeps credit', () => {
 test('missing credit does not crash', () => {
   render(<ItemImage src="images/a.jpg" />);
   expect(screen.getByRole('img')).toBeTruthy();
+});
+test('missing or empty src renders nothing', () => {
+  const { container, rerender } = render(<ItemImage src={null} credit="x" />);
+  expect(container.innerHTML).toBe('');
+  rerender(<ItemImage src="" credit="x" />);
+  expect(container.innerHTML).toBe('');
+});
+// http:// is not absolute (schema allows https only); it is treated as a relative path and will not load.
+test('http src is treated as relative, not passed through', () => {
+  render(<ItemImage src="http://example.com/a.jpg" />);
+  expect(screen.getByRole('img').getAttribute('src')).toBe(`${base}http://example.com/a.jpg`);
 });

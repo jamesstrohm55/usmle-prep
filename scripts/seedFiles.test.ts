@@ -1,5 +1,6 @@
-import { existsSync, readdirSync, readFileSync } from 'node:fs';
-import { join } from 'node:path';
+import { existsSync, readdirSync, readFileSync, statSync } from 'node:fs';
+import { basename, dirname, join, relative, resolve } from 'node:path';
+import { fileURLToPath } from 'node:url';
 import { seedFileSchema } from './seedSchema';
 
 const dir = 'supabase/seed';
@@ -26,20 +27,23 @@ test('slugs are unique across all seed files', () => {
 });
 
 describe('images', () => {
+  const root = resolve(dirname(fileURLToPath(import.meta.url)), '..');
+  const imgDir = join(root, 'public/images');
   const walk = (d: string): string[] =>
     !existsSync(d) ? [] : readdirSync(d, { withFileTypes: true }).flatMap((e) => (e.isDirectory() ? walk(join(d, e.name)) : [join(d, e.name)]));
   const urls = files.flatMap((f) => {
-    const data = JSON.parse(readFileSync(join(dir, f), 'utf8'));
+    const data = JSON.parse(readFileSync(join(root, dir, f), 'utf8'));
     return [...(data.cards ?? []), ...(data.questions ?? [])].map((i) => i.image_url).filter((u): u is string => !!u && !/^https?:/.test(u));
   });
+  const imageFiles = walk(imgDir).filter((p) => !basename(p).startsWith('.') && basename(p) !== 'ATTRIBUTION.md');
 
   test('every relative image_url exists under public/', () => {
-    expect(urls.filter((u) => !existsSync(join('public', u)))).toEqual([]);
+    expect(urls.filter((u) => !existsSync(join(root, 'public', u)))).toEqual([]);
   });
-  test('every file under public/images is referenced or listed in ATTRIBUTION.md', () => {
-    const listed = existsSync('public/images/ATTRIBUTION.md') ? readFileSync('public/images/ATTRIBUTION.md', 'utf8') : '';
-    const orphans = walk('public/images').map((p) => p.replace(/^public\//, ''))
-      .filter((p) => p !== 'images/ATTRIBUTION.md' && !urls.includes(p) && !listed.includes(p));
-    expect(orphans).toEqual([]);
+  test('every file under public/images is referenced by a seed item', () => {
+    expect(imageFiles.map((p) => relative(join(root, 'public'), p)).filter((p) => !urls.includes(p))).toEqual([]);
+  });
+  test('image files are jpg/jpeg/png/webp and at most 300 KB', () => {
+    expect(imageFiles.filter((p) => !/\.(jpg|jpeg|png|webp)$/.test(p) || statSync(p).size > 300 * 1024)).toEqual([]);
   });
 });

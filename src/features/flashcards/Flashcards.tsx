@@ -1,4 +1,3 @@
-import { ItemImage } from '../../ui/ItemImage';
 import { useCallback, useEffect, useMemo, useRef, useState } from 'react';
 import { fetchCards, fetchCardStates, saveReview, setItemStatus } from '../../db/queries';
 import type { Card } from '../../db/models';
@@ -6,6 +5,7 @@ import { buildQueue } from '../../engine/queue';
 import { newCard, rateCard, toRow, fromRow, Rating, type CardStateRow } from '../../engine/fsrs';
 import { useToast } from '../../ui/Toast';
 import { Rich } from '../../ui/Rich';
+import { ItemImage } from '../../ui/ItemImage';
 
 type States = Map<string, CardStateRow>;
 const loadData = async () => ({ cards: await fetchCards(), states: (await fetchCardStates()) as States });
@@ -93,7 +93,7 @@ export function Flashcards({ load = loadData, save = saveReview }: { load?: type
     <div className="card">
       <p><small>{queue.length} left · {current.system} · {current.discipline}</small></p>
       <h2>{current.front}</h2>
-      {current.image_url && <ItemImage src={current.image_url} credit={current.image_credit} />}
+      <ItemImage src={current.image_url} credit={current.image_credit} />
       {!revealed ? (
         <button onClick={() => setRevealed(true)}>Show answer</button>
       ) : (

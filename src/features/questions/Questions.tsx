@@ -1,10 +1,10 @@
-import { ItemImage } from '../../ui/ItemImage';
 import { useCallback, useEffect, useRef, useState } from 'react';
 import { fetchQuestions, saveAttempts, setItemStatus, type AttemptInsert } from '../../db/queries';
 import type { Question } from '../../db/models';
 import { gradeAnswer, canShowExplanation, timedLimitMs, pickBlock, type Answer, type Mode } from '../../engine/mcq';
 import { useToast } from '../../ui/Toast';
 import { Rich } from '../../ui/Rich';
+import { ItemImage } from '../../ui/ItemImage';
 
 // crypto.randomUUID is missing on non-secure origins (http://LAN-IP); fall back to getRandomValues.
 function uuid() {
@@ -138,7 +138,7 @@ export function Questions({ load = fetchQuestions, save = saveAttempts }: { load
     <div className="card">
       <p><small>Q{idx + 1}/{session.length}{mode === 'timed' && ` · ${Math.floor(remaining / 60)}:${String(remaining % 60).padStart(2, '0')} left`}</small></p>
       <p>{q.stem}</p>
-      {q.image_url && <ItemImage src={q.image_url} credit={q.image_credit} />}
+      <ItemImage src={q.image_url} credit={q.image_credit} />
       {q.choices.map((c, i) => (
         <div key={i}><button onClick={() => choose(i)} disabled={!!answered && mode === 'tutor'} aria-pressed={mode === 'timed' ? answered?.chosen === i : undefined}
           style={mode === 'timed' && answered?.chosen === i ? { fontWeight: 'bold', outline: '2px solid currentColor' } : undefined}>{c}</button>
