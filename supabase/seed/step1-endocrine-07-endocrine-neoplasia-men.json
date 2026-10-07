@@ -1,0 +1,221 @@
+{
+  "cards": [
+    {
+      "slug": "card-endocrine-neoplasia-men-men1-three-ps",
+      "track": "step1",
+      "system": "endocrine",
+      "discipline": "pathology",
+      "tags": [
+        "endocrine-neoplasia-men",
+        "men1",
+        "genetics"
+      ],
+      "front": "Which gene and protein are mutated in MEN1, and which three organs develop tumors?",
+      "back": "The **MEN1** gene on **chromosome 11** encodes **menin**, a **tumor suppressor**. The 3 Ps: **parathyroid** hyperplasia (most common, usually first), **pituitary** adenoma, and **pancreatic/duodenal** neuroendocrine tumors (**gastrinoma**, **insulinoma**).",
+      "back_pt": "O gene **MEN1** no **cromossomo 11** codifica a proteína **menina**, um **supressor tumoral**. Os 3 Ps: hiperplasia de **paratireoide** (a mais comum, em geral a primeira), adenoma de **pituitária** (hipófise) e tumores neuroendócrinos **pancreáticos/duodenais** (**gastrinoma**, **insulinoma**)."
+    },
+    {
+      "slug": "card-endocrine-neoplasia-men-men2a",
+      "track": "step1",
+      "system": "endocrine",
+      "discipline": "pathology",
+      "tags": [
+        "endocrine-neoplasia-men",
+        "men2",
+        "ret"
+      ],
+      "front": "What mutation causes MEN2A, and which three tumors does it produce?",
+      "back": "An **activating** (gain-of-function) mutation of the **RET** proto-oncogene (chromosome 10), a receptor tyrosine kinase. Tumors: **medullary thyroid carcinoma**, **pheochromocytoma** and **parathyroid hyperplasia**.",
+      "back_pt": "Uma mutação **ativadora** (ganho de função) do proto-oncogene **RET** (cromossomo 10), um receptor tirosina-quinase. Tumores: **carcinoma medular de tireoide**, **feocromocitoma** e **hiperplasia de paratireoide**."
+    },
+    {
+      "slug": "card-endocrine-neoplasia-men-men2b",
+      "track": "step1",
+      "system": "endocrine",
+      "discipline": "pathology",
+      "tags": [
+        "endocrine-neoplasia-men",
+        "men2",
+        "ret"
+      ],
+      "front": "How does MEN2B differ from MEN2A?",
+      "back": "Both have **RET** mutations, **medullary thyroid carcinoma** and **pheochromocytoma**. **MEN2B** adds **mucosal neuromas** (lips, tongue) and a **marfanoid habitus**, and lacks parathyroid disease. Its thyroid cancer starts earliest and is most aggressive.",
+      "back_pt": "Ambas têm mutação do **RET**, **carcinoma medular de tireoide** e **feocromocitoma**. A **NEM2B** acrescenta **neuromas mucosos** (lábios, língua) e **hábito marfanoide**, e não tem doença de paratireoide. Seu câncer de tireoide começa mais cedo e é o mais agressivo."
+    },
+    {
+      "slug": "card-endocrine-neoplasia-men-prophylactic-thyroidectomy",
+      "track": "step1",
+      "system": "endocrine",
+      "discipline": "pathology",
+      "tags": [
+        "endocrine-neoplasia-men",
+        "men2",
+        "prevention"
+      ],
+      "front": "Why do children who carry a RET mutation have a prophylactic thyroidectomy?",
+      "back": "Almost every **RET** carrier develops **medullary thyroid carcinoma**, often early. Removing the thyroid in childhood, earliest in **MEN2B**, prevents it. In older children and adults, **pheochromocytoma** must be ruled out before surgery.",
+      "back_pt": "Quase todo portador de mutação do **RET** desenvolve **carcinoma medular de tireoide**, muitas vezes cedo. Retirar a tireoide na infância, mais cedo na **NEM2B**, previne o câncer. Em crianças maiores e adultos, é preciso excluir **feocromocitoma** antes da cirurgia."
+    },
+    {
+      "slug": "card-endocrine-neoplasia-men-paraganglioma-sdhb",
+      "track": "step1",
+      "system": "endocrine",
+      "discipline": "pathology",
+      "tags": [
+        "endocrine-neoplasia-men",
+        "paraganglioma",
+        "genetics"
+      ],
+      "front": "What is a paraganglioma, and which gene mutation makes one most likely to metastasize?",
+      "back": "A **paraganglioma** is a pheochromocytoma-like tumor **outside the adrenal gland** (abdomen, head and neck). **SDHB** (succinate dehydrogenase B) mutations favor these **extra-adrenal** tumors and carry the highest risk of **metastasis**.",
+      "back_pt": "O **paraganglioma** é um tumor semelhante ao feocromocitoma **fora da glândula adrenal** (abdome, cabeça e pescoço). Mutações do **SDHB** (succinato desidrogenase B) favorecem esses tumores **extra-adrenais** e trazem o maior risco de **metástase**."
+    },
+    {
+      "slug": "card-endocrine-neoplasia-men-net-markers",
+      "track": "step1",
+      "system": "endocrine",
+      "discipline": "pathology",
+      "tags": [
+        "endocrine-neoplasia-men",
+        "neuroendocrine-tumors",
+        "markers"
+      ],
+      "front": "Which immunohistochemical markers identify a neuroendocrine tumor?",
+      "back": "**Chromogranin A** and **synaptophysin**. Electron microscopy shows **dense-core neurosecretory granules**. *Carcinoid* is the older name for a well-differentiated NET.",
+      "back_pt": "**Cromogranina A** e **sinaptofisina**. A microscopia eletrônica mostra **grânulos neurossecretores de núcleo denso**. *Carcinoide* é o nome antigo de um TNE bem diferenciado."
+    },
+    {
+      "slug": "card-endocrine-neoplasia-men-vhl",
+      "track": "step1",
+      "system": "endocrine",
+      "discipline": "pathology",
+      "tags": [
+        "endocrine-neoplasia-men",
+        "vhl",
+        "phakomatoses"
+      ],
+      "front": "Which tumors occur in von Hippel-Lindau disease?",
+      "back": "Loss of the **VHL** tumor suppressor (**chromosome 3p**) lets **HIF** build up. Tumors: **hemangioblastomas** (cerebellum, retina, spinal cord), bilateral **clear cell renal cell carcinoma**, **pheochromocytoma**, and pancreatic cysts and NETs.",
+      "back_pt": "A perda do supressor tumoral **VHL** (**cromossomo 3p**) deixa o **HIF** acumular. Tumores: **hemangioblastomas** (cerebelo, retina, medula espinal), **carcinoma de células renais de células claras** bilateral, **feocromocitoma**, e cistos e TNEs pancreáticos."
+    },
+    {
+      "slug": "card-endocrine-neoplasia-men-neurofibromatosis",
+      "track": "step1",
+      "system": "endocrine",
+      "discipline": "pathology",
+      "tags": [
+        "endocrine-neoplasia-men",
+        "neurofibromatosis",
+        "phakomatoses"
+      ],
+      "front": "How do NF1 and NF2 differ?",
+      "back": "**NF1** (chromosome 17, **neurofibromin**): **café-au-lait spots**, neurofibromas, **Lisch nodules**, optic glioma, **pheochromocytoma**. **NF2** (chromosome 22, **merlin**): **bilateral vestibular schwannomas**, meningiomas.",
+      "back_pt": "**NF1** (cromossomo 17, **neurofibromina**): **manchas café com leite**, neurofibromas, **nódulos de Lisch**, glioma óptico, **feocromocitoma**. **NF2** (cromossomo 22, **merlina**): **schwannomas vestibulares bilaterais**, meningiomas."
+    }
+  ],
+  "questions": [
+    {
+      "slug": "q-endocrine-neoplasia-men-men2a-family-testing",
+      "track": "step1",
+      "system": "endocrine",
+      "discipline": "pathology",
+      "tags": [
+        "endocrine-neoplasia-men",
+        "men2",
+        "genetic-testing"
+      ],
+      "stem": "A 34-year-old woman has a 2-cm thyroid nodule. Fine-needle aspiration shows spindle-shaped cells, and serum calcitonin is high. Serum calcium is 11.2 mg/dL (normal 8.5-10.5) with a high PTH. Her father had attacks of severe headache, sweating and palpitations, and an adrenal tumor was removed. Her paternal aunt died of thyroid cancer. She has an 8-year-old son. Testing for a mutation in which gene is most appropriate for her son?",
+      "choices": [
+        "MEN1",
+        "SDHB",
+        "VHL",
+        "RET",
+        "NF1"
+      ],
+      "correct": 3,
+      "explanation": "Medullary thyroid carcinoma (high calcitonin), pheochromocytoma and hyperparathyroidism across generations point to **MEN2A**, an autosomal dominant **RET** gain-of-function syndrome. A positive test in the child would lead to **prophylactic thyroidectomy**. **MEN1** is the most tempting choice because of the hyperparathyroidism, but MEN1 does not cause medullary thyroid carcinoma or pheochromocytoma.",
+      "explanation_pt": "Carcinoma medular de tireoide (calcitonina alta), feocromocitoma e hiperparatireoidismo em várias gerações indicam **NEM2A**, síndrome autossômica dominante por ganho de função do **RET**. Um teste positivo na criança levaria à **tireoidectomia profilática**. **MEN1** é a alternativa mais tentadora por causa do hiperparatireoidismo, mas a NEM1 não causa carcinoma medular de tireoide nem feocromocitoma."
+    },
+    {
+      "slug": "q-endocrine-neoplasia-men-men2b-preop",
+      "track": "step1",
+      "system": "endocrine",
+      "discipline": "pathology",
+      "tags": [
+        "endocrine-neoplasia-men",
+        "men2",
+        "pheochromocytoma"
+      ],
+      "stem": "A 20-year-old man is referred for a thyroid mass. He is tall and thin with long arms and legs. His lips look thick and bumpy, and there are small pink nodules on the tip of his tongue. Blood pressure is 152/96 mm Hg and pulse is 104/min. A firm 3-cm thyroid nodule is palpable, and serum calcitonin is markedly high. Thyroidectomy is planned. Which test is most important before the operation?",
+      "choices": [
+        "Plasma free metanephrines",
+        "Serum parathyroid hormone",
+        "Serum prolactin",
+        "Fasting serum gastrin",
+        "24-hour urine 5-HIAA"
+      ],
+      "correct": 0,
+      "explanation": "Mucosal neuromas, a marfanoid habitus and medullary thyroid carcinoma point to **MEN2B**, which also causes **pheochromocytoma**. An unknown pheochromocytoma can cause a **hypertensive crisis** during anesthesia, so it must be excluded with **plasma free metanephrines** and removed first if present. **Parathyroid hormone** is the tempting choice, but hyperparathyroidism belongs to MEN2A and MEN1, not MEN2B.",
+      "explanation_pt": "Neuromas mucosos, hábito marfanoide e carcinoma medular de tireoide indicam **NEM2B**, que também causa **feocromocitoma**. Um feocromocitoma não detectado pode causar **crise hipertensiva** durante a anestesia, então deve ser excluído com **metanefrinas livres plasmáticas** e, se presente, retirado primeiro. O **paratormônio** é a alternativa tentadora, mas o hiperparatireoidismo faz parte da NEM2A e da NEM1, não da NEM2B."
+    },
+    {
+      "slug": "q-endocrine-neoplasia-men-men1-insulinoma-gene",
+      "track": "step1",
+      "system": "endocrine",
+      "discipline": "pathology",
+      "tags": [
+        "endocrine-neoplasia-men",
+        "men1",
+        "insulinoma"
+      ],
+      "stem": "A 38-year-old man has episodes of confusion, sweating and tremor in the morning before breakfast. They improve after he eats. He has passed two kidney stones in the past year. During an episode, plasma glucose is 40 mg/dL, and insulin and C-peptide are both high; a sulfonylurea screen is negative. Serum calcium is 11.0 mg/dL (normal 8.5-10.5) with a high PTH. His brother had a pituitary tumor removed. Which gene product is most likely abnormal?",
+      "choices": [
+        "RET, a receptor tyrosine kinase encoded on chromosome 10",
+        "VHL protein, a tumor suppressor encoded on chromosome 3",
+        "Menin, a tumor suppressor encoded on chromosome 11",
+        "Neurofibromin, a tumor suppressor encoded on chromosome 17",
+        "Succinate dehydrogenase subunit B, a tumor suppressor encoded on chromosome 1"
+      ],
+      "correct": 2,
+      "explanation": "An **insulinoma** (high insulin and C-peptide, no sulfonylurea), primary hyperparathyroidism and a family pituitary tumor make the 3 Ps of **MEN1**. It comes from loss of **menin**, a tumor suppressor on chromosome 11. **RET** is tempting because MEN2A also has hyperparathyroidism, but MEN2 is a gain-of-function syndrome with medullary thyroid carcinoma and pheochromocytoma, not pancreatic or pituitary tumors.",
+      "explanation_pt": "Um **insulinoma** (insulina e peptídeo C altos, sem sulfonilureia), hiperparatireoidismo primário e tumor hipofisário na família formam os 3 Ps da **NEM1**. Ela resulta da perda da **menina**, um supressor tumoral no cromossomo 11. O **RET** é tentador porque a NEM2A também tem hiperparatireoidismo, mas a NEM2 é uma síndrome de ganho de função com carcinoma medular de tireoide e feocromocitoma, e não com tumores pancreáticos ou hipofisários."
+    },
+    {
+      "slug": "q-endocrine-neoplasia-men-nf1-pheochromocytoma",
+      "track": "step1",
+      "system": "endocrine",
+      "discipline": "pathology",
+      "tags": [
+        "endocrine-neoplasia-men",
+        "neurofibromatosis",
+        "pheochromocytoma"
+      ],
+      "stem": "A 16-year-old girl has had attacks of pounding headache, palpitations and sweating for 3 months. During an attack, blood pressure is 172/104 mm Hg. She has eight light-brown macules, each larger than 1.5 cm, on her trunk, freckles in both armpits and several soft skin nodules. Slit-lamp exam shows small tan nodules on both irises. Plasma metanephrines are high, and CT shows a 4-cm left adrenal mass. The protein encoded by the mutated gene normally has which function?",
+      "choices": [
+        "Targets hypoxia-inducible factor for proteasomal degradation",
+        "Acts as a receptor tyrosine kinase for neurotrophic growth factors",
+        "Links membrane proteins to the actin cytoskeleton",
+        "Regulates gene transcription as a nuclear scaffold protein",
+        "Stimulates GTP hydrolysis to inactivate RAS"
+      ],
+      "correct": 4,
+      "explanation": "Café-au-lait spots, axillary freckling, neurofibromas and **Lisch nodules** point to **NF1**, and NF1 also predisposes to **pheochromocytoma**. **Neurofibromin** is a GTPase-activating protein that turns RAS off; without it, RAS signaling stays on. **HIF degradation** (VHL protein) is the tempting choice because VHL also causes pheochromocytoma, but VHL has no skin or iris findings.",
+      "explanation_pt": "Manchas café com leite, efélides axilares, neurofibromas e **nódulos de Lisch** indicam **NF1**, que também predispõe ao **feocromocitoma**. A **neurofibromina** é uma proteína ativadora de GTPase que desliga o RAS; sem ela, a sinalização do RAS fica ligada. A **degradação do HIF** (proteína VHL) é a alternativa tentadora porque a doença de von Hippel-Lindau também causa feocromocitoma, mas não tem achados na pele nem na íris."
+    }
+  ],
+  "notes": [
+    {
+      "slug": "note-endocrine-neoplasia-men-overview",
+      "track": "step1",
+      "system": "endocrine",
+      "discipline": "pathology",
+      "tags": [
+        "endocrine-neoplasia-men",
+        "overview"
+      ],
+      "title": "Multiple endocrine neoplasia and other hereditary endocrine tumors",
+      "body_md": "## MEN1 (menin, chromosome 11)\n\n- The **MEN1** gene encodes **menin**, a **tumor suppressor**; tumors need a second hit.\n- The 3 Ps: **parathyroid** hyperplasia (most common, usually first), **pituitary** adenoma, and **pancreatic/duodenal NETs** (gastrinoma, insulinoma).\n- High calcium stimulates gastrin release, so treating the hyperparathyroidism can lower gastrin. Zollinger-Ellison itself is in the stomach block.\n\n## MEN2A and MEN2B (RET, chromosome 10)\n\n- **RET** is a proto-oncogene (receptor tyrosine kinase). An **activating** mutation drives tumors of C cells and the adrenal medulla (neural crest-derived).\n- Both: **medullary thyroid carcinoma** (C cells, **calcitonin**) and **pheochromocytoma**.\n- **MEN2A** adds **parathyroid hyperplasia**.\n- **MEN2B** adds **mucosal neuromas** and a **marfanoid habitus**, with no parathyroid disease. Its thyroid cancer starts earliest.\n- Carriers have a **prophylactic thyroidectomy** in childhood. In older children and adults, rule out pheochromocytoma (plasma metanephrines) before surgery.\n- Loss-of-function RET mutations cause **Hirschsprung disease**; a few MEN2A families have both.\n\n## Hereditary pheochromocytoma and paraganglioma\n\n- Pheochromocytoma arises in the adrenal medulla; a **paraganglioma** is extra-adrenal.\n- Genes: **RET**, **VHL**, **NF1**, **SDHx**. **SDHB**: extra-adrenal tumors with higher metastatic risk.\n- **VHL** (3p): hemangioblastomas (cerebellum, retina), bilateral clear cell RCC, pheochromocytoma, pancreatic cysts and NETs.\n- **NF1** (17, neurofibromin): café-au-lait spots, neurofibromas, Lisch nodules, optic glioma, pheochromocytoma. **NF2** (22, merlin): bilateral vestibular schwannomas.\n\n## Neuroendocrine tumors\n\n- Markers: **chromogranin A** and **synaptophysin**.\n- Carcinoid syndrome is in the small bowel block; ectopic ACTH and ADH from small cell carcinoma are in the lung block.\n\n## Genetic counselling\n\n- All of these syndromes are **autosomal dominant**: each child has a 50% risk.\n- **Penetrance** is high for most of them (lower for SDHB), and **expressivity** varies, even within one family. Anticipation does not apply.\n- Test at-risk relatives early: a positive result changes care (thyroidectomy for RET, tumor surveillance for MEN1 and VHL).",
+      "body_pt_md": "## NEM1 (menina, cromossomo 11)\n\n- O gene **MEN1** codifica a proteína **menina**, um **supressor tumoral**; os tumores precisam de um segundo evento (*second hit*).\n- Os 3 Ps: hiperplasia de **paratireoide** (a mais comum, em geral a primeira), adenoma de **pituitária** e **TNEs pancreáticos/duodenais** (gastrinoma, insulinoma).\n- O cálcio alto estimula a liberação de gastrina, então tratar o hiperparatireoidismo pode reduzir a gastrina. A síndrome de Zollinger-Ellison em si está no bloco de estômago.\n\n## NEM2A e NEM2B (RET, cromossomo 10)\n\n- O **RET** é um proto-oncogene (receptor tirosina-quinase). Uma mutação **ativadora** provoca tumores das células C e da medula adrenal (derivadas da crista neural).\n- Ambas: **carcinoma medular de tireoide** (células C, **calcitonina**) e **feocromocitoma**.\n- A **NEM2A** acrescenta **hiperplasia de paratireoide**.\n- A **NEM2B** acrescenta **neuromas mucosos** e **hábito marfanoide**, sem doença de paratireoide. Seu câncer de tireoide começa mais cedo.\n- Os portadores fazem **tireoidectomia profilática** na infância. Em crianças maiores e adultos, excluir feocromocitoma (metanefrinas plasmáticas) antes da cirurgia.\n- Mutações do RET com perda de função causam a **doença de Hirschsprung**; algumas famílias com NEM2A têm as duas.\n\n## Feocromocitoma e paraganglioma hereditários\n\n- O feocromocitoma surge na medula adrenal; o **paraganglioma** é extra-adrenal.\n- Genes: **RET**, **VHL**, **NF1**, **SDHx**. **SDHB**: tumores extra-adrenais com maior risco de metástase.\n- **VHL** (3p): hemangioblastomas (cerebelo, retina), carcinoma de células renais de células claras bilateral, feocromocitoma, cistos e TNEs pancreáticos.\n- **NF1** (17, neurofibromina): manchas café com leite, neurofibromas, nódulos de Lisch, glioma óptico, feocromocitoma. **NF2** (22, merlina): schwannomas vestibulares bilaterais.\n\n## Tumores neuroendócrinos\n\n- Marcadores: **cromogranina A** e **sinaptofisina**.\n- A síndrome carcinoide está no bloco de intestino delgado; o ACTH e o ADH ectópicos do carcinoma de pequenas células estão no bloco de pulmão.\n\n## Aconselhamento genético\n\n- Todas essas síndromes são **autossômicas dominantes**: cada filho tem risco de 50%.\n- A **penetrância** é alta na maioria (menor no SDHB), e a **expressividade** varia, mesmo dentro de uma família. A antecipação não se aplica.\n- Testar cedo os parentes em risco: um resultado positivo muda a conduta (tireoidectomia no RET, vigilância de tumores na NEM1 e na VHL)."
+    }
+  ]
+}

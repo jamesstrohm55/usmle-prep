@@ -1,0 +1,215 @@
+{
+ "cards": [
+  {
+   "slug": "card-infection-syndromes-host-diabetes-infections",
+   "track": "step1",
+   "system": "microbiology",
+   "discipline": "microbiology",
+   "tags": [
+    "infection-syndromes-host",
+    "diabetes"
+   ],
+   "front": "Which infections are classic in diabetes mellitus?",
+   "back": "**Malignant otitis externa**: *Pseudomonas aeruginosa* (severe ear pain, granulation tissue, can spread to the skull base). **Foot ulcers**: polymicrobial **osteomyelitis**. **Ketoacidosis**: rhinocerebral **mucormycosis**. Also **Candida** infections (vulvovaginitis, thrush).",
+   "back_pt": "**Otite externa maligna**: *Pseudomonas aeruginosa* (otalgia intensa, tecido de granulação, pode atingir a base do crânio). **Úlceras do pé**: **osteomielite** polimicrobiana. **Cetoacidose**: **mucormicose** rinocerebral. Também infecções por ***Candida*** (vulvovaginite, candidíase oral)."
+  },
+  {
+   "slug": "card-infection-syndromes-host-neutropenia",
+   "track": "step1",
+   "system": "microbiology",
+   "discipline": "microbiology",
+   "tags": [
+    "infection-syndromes-host",
+    "neutropenia"
+   ],
+   "front": "Which organisms threaten a patient with severe neutropenia after chemotherapy?",
+   "back": "Early: bacteria from the **gut and skin**; ***Pseudomonas aeruginosa*** is the classic gram-negative threat and must always be covered. With **prolonged** neutropenia: invasive molds (***Aspergillus***, Mucorales) and ***Candida***. Pus and other signs of inflammation may be minimal.",
+   "back_pt": "No início: bactérias da **flora intestinal e da pele**; a ***Pseudomonas aeruginosa*** é a ameaça gram-negativa clássica e deve sempre ser coberta. Na neutropenia **prolongada**: fungos filamentosos invasivos (***Aspergillus***, Mucorales) e ***Candida***. Pus e outros sinais de inflamação podem ser mínimos."
+  },
+  {
+   "slug": "card-infection-syndromes-host-mucor-iron",
+   "track": "step1",
+   "system": "microbiology",
+   "discipline": "microbiology",
+   "tags": [
+    "infection-syndromes-host",
+    "diabetes",
+    "fungi"
+   ],
+   "front": "Why do ketoacidosis and deferoxamine therapy both raise the risk of mucormycosis?",
+   "back": "**Mucorales** need **iron** to grow. In **ketoacidosis**, acid releases iron from transferrin, so more **free iron** is available. **Deferoxamine** binds iron but acts as a **siderophore** for the fungus, which takes the iron up. Neutropenia and steroids also raise risk.",
+   "back_pt": "Os **Mucorales** precisam de **ferro** para crescer. Na **cetoacidose**, o ácido libera o ferro da transferrina, e há mais **ferro livre** disponível. A **deferoxamina** liga o ferro, mas funciona como **sideróforo** para o fungo, que capta esse ferro. Neutropenia e corticoides também aumentam o risco."
+  },
+  {
+   "slug": "card-infection-syndromes-host-transplant-viruses",
+   "track": "step1",
+   "system": "microbiology",
+   "discipline": "microbiology",
+   "tags": [
+    "infection-syndromes-host",
+    "transplant",
+    "viruses"
+   ],
+   "front": "Which two viruses classically cause disease in the first year after a kidney transplant?",
+   "back": "**CMV**: fever, leukopenia, hepatitis, pneumonitis or colitis; highest risk when a seropositive donor organ goes to a seronegative recipient. **BK polyomavirus**: **nephropathy** of the graft (rising creatinine), with *decoy cells* in the urine.",
+   "back_pt": "**CMV**: febre, leucopenia, hepatite, pneumonite ou colite; risco maior quando o órgão de doador soropositivo vai para receptor soronegativo. **Poliomavírus BK**: **nefropatia** do enxerto (creatinina em elevação), com *células decoy* na urina."
+  },
+  {
+   "slug": "card-infection-syndromes-host-cystic-fibrosis",
+   "track": "step1",
+   "system": "microbiology",
+   "discipline": "microbiology",
+   "tags": [
+    "infection-syndromes-host",
+    "cystic-fibrosis"
+   ],
+   "front": "Which organisms infect the lungs in cystic fibrosis, and in what order?",
+   "back": "***S. aureus*** and *H. influenzae* in childhood; then ***Pseudomonas aeruginosa***, which becomes **mucoid** (alginate biofilm) and dominates in adults. ***Burkholderia cepacia* complex** is less common, spreads between patients and predicts faster decline.",
+   "back_pt": "***S. aureus*** e *H. influenzae* na infância; depois ***Pseudomonas aeruginosa***, que se torna **mucoide** (biofilme de alginato) e predomina nos adultos. O **complexo *Burkholderia cepacia*** é menos comum, passa de paciente para paciente e associa-se a declínio mais rápido da função pulmonar."
+  },
+  {
+   "slug": "card-infection-syndromes-host-bite-wounds",
+   "track": "step1",
+   "system": "microbiology",
+   "discipline": "microbiology",
+   "tags": [
+    "infection-syndromes-host",
+    "zoonoses"
+   ],
+   "front": "Which organisms classically infect each kind of bite wound?",
+   "back": "**Cat bite** (deep puncture): *Pasteurella multocida*, with cellulitis within about a day. **Dog bite**: *Pasteurella*, plus ***Capnocytophaga canimorsus*** sepsis in **asplenic** or alcohol-dependent patients. **Human bite** or a fist hitting teeth: ***Eikenella corrodens***, oral streptococci and anaerobes.",
+   "back_pt": "**Mordedura de gato** (punção profunda): *Pasteurella multocida*, com celulite em cerca de um dia. **Mordedura de cão**: *Pasteurella*, além de sepse por ***Capnocytophaga canimorsus*** em pacientes **asplênicos** ou etilistas. **Mordedura humana** ou soco contra dentes: ***Eikenella corrodens***, estreptococos orais e anaeróbios."
+  },
+  {
+   "slug": "card-infection-syndromes-host-device-infections",
+   "track": "step1",
+   "system": "microbiology",
+   "discipline": "microbiology",
+   "tags": [
+    "infection-syndromes-host",
+    "nosocomial"
+   ],
+   "front": "Which organisms classically infect each hospital device?",
+   "back": "**Central venous line**: coagulase-negative staphylococci (*S. epidermidis*), *S. aureus*, and *Candida* (especially with **parenteral nutrition**). **Urinary catheter**: *E. coli* and other gram-negative rods, *Enterococcus*. **Ventilator**: *Pseudomonas*, *S. aureus* (including MRSA).",
+   "back_pt": "**Cateter venoso central**: estafilococos coagulase-negativos (*S. epidermidis*), *S. aureus* e *Candida* (sobretudo com **nutrição parenteral**). **Sonda vesical**: *E. coli* e outros bastonetes gram-negativos, *Enterococcus*. **Ventilação mecânica**: *Pseudomonas*, *S. aureus* (incluindo MRSA)."
+  },
+  {
+   "slug": "card-infection-syndromes-host-isolation-precautions",
+   "track": "step1",
+   "system": "microbiology",
+   "discipline": "microbiology",
+   "tags": [
+    "infection-syndromes-host",
+    "infection-control"
+   ],
+   "front": "Which isolation precautions fit tuberculosis, influenza and C. difficile?",
+   "back": "**Airborne** (N95 respirator, negative-pressure room): **TB**, measles, varicella. **Droplet** (surgical mask): **influenza**, meningococcus. **Contact** (gown, gloves): ***C. difficile***, MRSA, VRE. For *C. difficile*, wash hands with **soap and water**; alcohol does not kill spores.",
+   "back_pt": "**Aerossóis** (respirador N95/PFF2, quarto com pressão negativa): **TB**, sarampo, varicela. **Gotículas** (máscara cirúrgica): **influenza**, meningococo. **Contato** (avental, luvas): ***C. difficile***, MRSA, VRE. Para *C. difficile*, lavar as mãos com **água e sabão**; o álcool não mata esporos."
+  }
+ ],
+ "questions": [
+  {
+   "slug": "q-infection-syndromes-host-asplenia-dog-bite",
+   "track": "step1",
+   "system": "microbiology",
+   "discipline": "microbiology",
+   "tags": [
+    "infection-syndromes-host",
+    "asplenia",
+    "zoonoses"
+   ],
+   "stem": "A 45-year-old man had his spleen removed after a car accident 6 years ago. Two days ago his own dog bit his hand. The wound was small and looked minor. He now has fever, confusion and a spreading purple rash. Temperature is 39.4°C, blood pressure is 82/46 mm Hg, and pulse is 128/min. There is purpura on the arms and legs and oozing from IV sites. Platelets are 38,000/µL and the INR is 2.4. Blood cultures grow thin, spindle-shaped gram-negative rods that need several days to grow. Which organism is most likely?",
+   "choices": [
+    "Pasteurella multocida",
+    "Streptococcus pneumoniae",
+    "Capnocytophaga canimorsus",
+    "Neisseria meningitidis",
+    "Bartonella henselae"
+   ],
+   "correct": 2,
+   "explanation": "A **dog bite** in an **asplenic** patient followed by fulminant sepsis with **DIC** and purpura points to ***Capnocytophaga canimorsus***, a slow-growing, spindle-shaped gram-negative rod from dog mouths. *Pasteurella* is the tempting choice after a bite, but it usually causes rapid cellulitis at the wound within about a day and appears as small coccobacilli. *N. meningitidis* also causes purpura and DIC, but it is a gram-negative diplococcus.",
+   "explanation_pt": "Uma **mordedura de cão** em paciente **asplênico**, seguida de sepse fulminante com **CIVD** e púrpura, aponta para ***Capnocytophaga canimorsus***, bastonete gram-negativo fusiforme e de crescimento lento da boca do cão. *Pasteurella* é a opção tentadora após uma mordedura, mas costuma causar celulite rápida no local em cerca de um dia e aparece como cocobacilos pequenos. *N. meningitidis* também causa púrpura e CIVD, mas é um diplococo gram-negativo."
+  },
+  {
+   "slug": "q-infection-syndromes-host-aids-mac",
+   "track": "step1",
+   "system": "microbiology",
+   "discipline": "microbiology",
+   "tags": [
+    "infection-syndromes-host",
+    "hiv",
+    "mycobacteria"
+   ],
+   "stem": "A 38-year-old man with HIV stopped antiretroviral therapy 2 years ago. He has had 6 weeks of fever, night sweats, watery diarrhea and a 9-kg weight loss. Temperature is 38.6°C. The liver and spleen are enlarged, and there are no focal lung findings. Hemoglobin is 8.9 g/dL and alkaline phosphatase is high. CD4 count is 22/µL. Chest x-ray is normal. He has no cough, and three sputum smears show no acid-fast bacilli. Mycobacterial blood cultures grow acid-fast bacilli after 10 days. Which organism is most likely?",
+   "choices": [
+    "Mycobacterium tuberculosis",
+    "Histoplasma capsulatum",
+    "Cytomegalovirus",
+    "Nocardia asteroides",
+    "Mycobacterium avium complex"
+   ],
+   "correct": 4,
+   "explanation": "Fever, weight loss, diarrhea, **hepatosplenomegaly**, anemia and a high alkaline phosphatase with a **CD4 count below 50/µL** and **acid-fast bacilli** in blood are classic for disseminated ***Mycobacterium avium* complex**. *M. tuberculosis* is the tempting choice: it occurs at any CD4 count and can also disseminate in advanced AIDS, but it usually shows lung disease, whereas acid-fast bacteremia with diarrhea, hepatosplenomegaly and a high alkaline phosphatase at a CD4 count below 50/µL is the classic picture of MAC. *Histoplasma* can look similar clinically but is a yeast, not an acid-fast bacillus.",
+   "explanation_pt": "Febre, perda de peso, diarreia, **hepatoesplenomegalia**, anemia e fosfatase alcalina elevada, com **CD4 abaixo de 50/µL** e **bacilos álcool-ácido resistentes** no sangue, são clássicos do **complexo *Mycobacterium avium*** (MAC) disseminado. *M. tuberculosis* é a opção tentadora: ocorre com qualquer contagem de CD4 e também pode se disseminar na aids avançada, mas em geral mostra doença pulmonar, enquanto bacteremia por bacilos álcool-ácido resistentes com diarreia, hepatoesplenomegalia e fosfatase alcalina elevada, com CD4 abaixo de 50/µL, é o quadro clássico do MAC. *Histoplasma* pode ter quadro parecido, mas é uma levedura, não um bacilo álcool-ácido resistente."
+  },
+  {
+   "slug": "q-infection-syndromes-host-neutropenic-aspergillus",
+   "track": "step1",
+   "system": "microbiology",
+   "discipline": "microbiology",
+   "tags": [
+    "infection-syndromes-host",
+    "neutropenia",
+    "fungi"
+   ],
+   "stem": "A 56-year-old woman is receiving induction chemotherapy for acute myeloid leukemia. Her absolute neutrophil count has been below 100/µL for 16 days. Her fever has not improved after 5 days of broad-spectrum antibacterial drugs. She now has pleuritic chest pain and has coughed up a small amount of blood. CT of the chest shows a nodule surrounded by a rim of ground-glass opacity (*halo sign*). Lung biopsy shows thin hyphae with regular septa that branch at acute angles and invade blood vessels. Which organism is most likely?",
+   "choices": [
+    "Aspergillus fumigatus",
+    "Rhizopus species",
+    "Candida albicans",
+    "Pseudomonas aeruginosa",
+    "Cryptococcus neoformans"
+   ],
+   "correct": 0,
+   "explanation": "**Prolonged neutropenia**, fever despite antibacterial drugs, hemoptysis and a **halo sign** suggest **invasive aspergillosis**; ***Aspergillus*** has thin, **septate hyphae with acute-angle branching** and invades vessels. *Rhizopus* (mucormycosis) is the tempting choice because it is also angioinvasive in neutropenia, but its hyphae are broad, ribbon-like, with few septa and wide-angle branching. *Candida* forms yeasts and pseudohyphae, and *Pseudomonas* is a bacterium.",
+   "explanation_pt": "**Neutropenia prolongada**, febre apesar de antibacterianos, hemoptise e **sinal do halo** sugerem **aspergilose invasiva**; o ***Aspergillus*** tem hifas finas e **septadas, com ramificação em ângulo agudo**, e invade vasos. *Rhizopus* (mucormicose) é a opção tentadora por também ser angioinvasivo na neutropenia, mas suas hifas são largas, em fita, com poucos septos e ramificação em ângulo amplo. *Candida* forma leveduras e pseudo-hifas, e *Pseudomonas* é uma bactéria."
+  },
+  {
+   "slug": "q-infection-syndromes-host-cirrhosis-oysters",
+   "track": "step1",
+   "system": "microbiology",
+   "discipline": "microbiology",
+   "tags": [
+    "infection-syndromes-host",
+    "liver-disease",
+    "food-exposure"
+   ],
+   "stem": "A 61-year-old man with alcohol-related cirrhosis ate raw oysters at a restaurant on the Gulf of Mexico coast. Thirty-six hours later he has fever, chills and severe pain in both legs. Temperature is 39.2°C, blood pressure is 84/50 mm Hg, and pulse is 122/min. Both lower legs are swollen, with large, tense bullae filled with dark, bloody fluid. Blood cultures grow curved, oxidase-positive gram-negative rods. Which organism is most likely?",
+   "choices": [
+    "Vibrio cholerae",
+    "Vibrio parahaemolyticus",
+    "Aeromonas hydrophila",
+    "Vibrio vulnificus",
+    "Streptococcus pyogenes"
+   ],
+   "correct": 3,
+   "explanation": "Raw oysters, **chronic liver disease**, septic shock and **hemorrhagic bullae** point to ***Vibrio vulnificus***; liver disease and **iron overload** (e.g., hemochromatosis) raise the risk of severe disease. *V. parahaemolyticus* is the tempting choice because it also comes from raw seafood, but it usually causes self-limited diarrhea, not bloodstream infection with bullae. *S. pyogenes* can cause necrotizing skin infection, but it is a gram-positive coccus. *Aeromonas* can cause similar bullae in cirrhosis, but it comes from fresh water and is a straight rod.",
+   "explanation_pt": "Ostras cruas, **doença hepática crônica**, choque séptico e **bolhas hemorrágicas** apontam para ***Vibrio vulnificus***; a doença hepática e a **sobrecarga de ferro** (ex.: hemocromatose) aumentam o risco de doença grave. *V. parahaemolyticus* é a opção tentadora por também vir de frutos do mar crus, mas em geral causa diarreia autolimitada, e não infecção da corrente sanguínea com bolhas. *S. pyogenes* pode causar infecção necrosante de pele, mas é um coco gram-positivo. *Aeromonas* pode causar bolhas semelhantes na cirrose, mas vem de água doce e é um bastonete reto."
+  }
+ ],
+ "notes": [
+  {
+   "slug": "note-infection-syndromes-host-overview",
+   "track": "step1",
+   "system": "microbiology",
+   "discipline": "microbiology",
+   "tags": [
+    "infection-syndromes-host",
+    "overview"
+   ],
+   "title": "Infection by host and setting: a cross-cutting map",
+   "body_md": "## Host clues\n\n- **Neonate**: **group B strep**, *E. coli*, *Listeria* (sepsis, meningitis).\n- **Asplenia** (including sickle cell): encapsulated bacteria; dog bite → *Capnocytophaga*. **C5-C9 deficiency**: *Neisseria*. **Chronic granulomatous disease**: catalase-positive organisms (see immunodeficiency).\n- **Neutropenia**: *Pseudomonas*, then *Aspergillus* and *Candida*.\n- **HIV**: *Pneumocystis* (CD4 <200), *Toxoplasma* (<100), MAC and CMV (<50).\n- **Transplant**: **CMV**; **BK virus** in the kidney graft.\n- **Diabetes**: **mucormycosis** in ketoacidosis; foot ulcers → polymicrobial **osteomyelitis**.\n- **Alcohol use**: *Klebsiella* aspiration pneumonia. **Cirrhosis or iron overload**: *Vibrio vulnificus*.\n- **Cystic fibrosis**: *S. aureus*, then *Pseudomonas*; *Burkholderia*.\n- **Burns**: *Pseudomonas*. **IV drug use**: *S. aureus* tricuspid endocarditis, *Candida* (see cardiology).\n\n## Exposure clues\n\n- Fresh water with rat urine: *Leptospira*. Fish tank: *Mycobacterium marinum*. Rose thorns: *Sporothrix*.\n- Ticks: *Borrelia burgdorferi*, *Rickettsia rickettsii*, *Ehrlichia*, *Anaplasma*, *Babesia*.\n- Animals: *Pasteurella*, *Bartonella*, *Francisella*, *Brucella*, *Coxiella*.\n\n## Hospital\n\n- Central line, urinary catheter and ventilator each have typical organisms; *C. difficile* follows antibiotics.\n- **Hand hygiene** before and after every patient contact; **contact precautions** for MRSA, VRE and *C. difficile*.\n\n## TORCH in brief\n\n- **Toxoplasma**: chorioretinitis, hydrocephalus, scattered brain calcifications.\n- **Rubella**: cataracts, deafness, PDA, *blueberry muffin* rash.\n- **CMV**: periventricular calcifications, microcephaly, deafness; may also give a *blueberry muffin* rash.\n- **HSV**: vesicles, encephalitis; usually acquired at delivery.\n- **Syphilis**: rhinitis and rash early; notched teeth and saddle nose late.\n\n## Workup and pointers\n\n- Take **Gram stain and cultures** before antibiotics when possible; **PCR** helps for slow-growing or hard-to-culture organisms (e.g., HSV in CSF).\n- **Fever of unknown origin**: prolonged fever without a cause after a basic workup; think infection (TB, endocarditis, abscess), cancer (lymphoma) and autoimmune disease.\n- Sepsis and septic shock: see the hemodynamics block. Meningitis by age: see the nervous system.",
+   "body_pt_md": "## Pistas do hospedeiro\n\n- **Recém-nascido**: **estreptococo do grupo B**, *E. coli*, *Listeria* (sepse, meningite).\n- **Asplenia** (incluindo anemia falciforme): bactérias encapsuladas; mordedura de cão → *Capnocytophaga*. **Deficiência de C5-C9**: *Neisseria*. **Doença granulomatosa crônica**: organismos catalase-positivos (ver imunodeficiências).\n- **Neutropenia**: *Pseudomonas*, depois *Aspergillus* e *Candida*.\n- **HIV**: *Pneumocystis* (CD4 <200), *Toxoplasma* (<100), MAC e CMV (<50).\n- **Transplante**: **CMV**; **vírus BK** no enxerto renal.\n- **Diabetes**: **mucormicose** na cetoacidose; úlceras do pé → **osteomielite** polimicrobiana.\n- **Uso de álcool**: pneumonia aspirativa por *Klebsiella*. **Cirrose ou sobrecarga de ferro**: *Vibrio vulnificus*.\n- **Fibrose cística**: *S. aureus*, depois *Pseudomonas*; *Burkholderia*.\n- **Queimaduras**: *Pseudomonas*. **Uso de drogas injetáveis**: endocardite tricúspide por *S. aureus*, *Candida* (ver cardiologia).\n\n## Pistas de exposição\n\n- Água doce com urina de rato: *Leptospira*. Aquário: *Mycobacterium marinum*. Espinhos de roseira: *Sporothrix*.\n- Carrapatos: *Borrelia burgdorferi*, *Rickettsia rickettsii*, *Ehrlichia*, *Anaplasma*, *Babesia*.\n- Animais: *Pasteurella*, *Bartonella*, *Francisella*, *Brucella*, *Coxiella*.\n\n## Hospital\n\n- Cateter venoso central, sonda vesical e ventilação mecânica têm organismos típicos; o *C. difficile* surge após antibióticos.\n- **Higiene das mãos** antes e depois de todo contato com o paciente; **precauções de contato** para MRSA, VRE e *C. difficile*.\n\n## TORCH em resumo\n\n- **Toxoplasma**: coriorretinite, hidrocefalia, calcificações cerebrais difusas.\n- **Rubéola**: catarata, surdez, PCA, exantema em *blueberry muffin*.\n- **CMV**: calcificações periventriculares, microcefalia, surdez; também pode dar exantema em *blueberry muffin*.\n- **HSV**: vesículas, encefalite; geralmente adquirido no parto.\n- **Sífilis**: rinite e exantema no início; dentes de Hutchinson (incisivos entalhados) e nariz em sela mais tarde.\n\n## Investigação e outros blocos\n\n- Colher material para **Gram e culturas** antes dos antibióticos quando possível; a **PCR** ajuda em organismos de crescimento lento ou difíceis de cultivar (ex.: HSV no LCR).\n- **Febre de origem indeterminada**: febre prolongada sem causa após investigação básica; pensar em infecção (TB, endocardite, abscesso), câncer (linfoma) e doença autoimune.\n- Sepse e choque séptico: ver o bloco de hemodinâmica. Meningite por idade: ver sistema nervoso."
+  }
+ ]
+}

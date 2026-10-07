@@ -1,0 +1,219 @@
+{
+  "cards": [
+    {
+      "slug": "card-neurophysiology-astrocytes-microglia",
+      "track": "step1",
+      "system": "nervous",
+      "discipline": "physiology",
+      "tags": [
+        "neurophysiology",
+        "glia"
+      ],
+      "front": "What are the main roles and origins of astrocytes and microglia?",
+      "back": "**Astrocytes** (neuroectoderm; marker **GFAP**) support the **blood-brain barrier** with their foot processes, buffer extracellular **K+**, and form the **glial scar** after injury. **Microglia** (**mesoderm**, macrophage lineage): the resident phagocytes of the CNS.",
+      "back_pt": "**Astrócitos** (neuroectoderma; marcador **GFAP**): sustentam a **barreira hematoencefálica** com seus pés vasculares, tamponam o **K+** extracelular e formam a **cicatriz glial** após lesão. **Micróglia** (**mesoderma**, linhagem dos macrófagos): os fagócitos residentes do SNC."
+    },
+    {
+      "slug": "card-neurophysiology-myelinating-cells",
+      "track": "step1",
+      "system": "nervous",
+      "discipline": "physiology",
+      "tags": [
+        "neurophysiology",
+        "glia",
+        "myelin"
+      ],
+      "front": "How do oligodendrocytes and Schwann cells differ?",
+      "back": "**Oligodendrocytes** (neuroectoderm) myelinate **many CNS axons** each; they are injured in **multiple sclerosis**. **Schwann cells** (**neural crest**) myelinate **one internode of one PNS axon** each, help axons regenerate, and are injured in **Guillain-Barré syndrome**.",
+      "back_pt": "**Oligodendrócitos** (neuroectoderma) mielinizam **vários axônios do SNC** cada um; são lesados na **esclerose múltipla**. **Células de Schwann** (**crista neural**) mielinizam **um internódulo de um axônio do SNP** cada uma, ajudam o axônio a regenerar e são lesadas na **síndrome de Guillain-Barré**."
+    },
+    {
+      "slug": "card-neurophysiology-blood-brain-barrier",
+      "track": "step1",
+      "system": "nervous",
+      "discipline": "physiology",
+      "tags": [
+        "neurophysiology",
+        "blood-brain-barrier"
+      ],
+      "front": "What forms the blood-brain barrier, and where is it absent?",
+      "back": "**Tight junctions** between non-fenestrated capillary endothelial cells, a basement membrane, and **astrocyte foot processes**. Lipid-soluble molecules diffuse across; glucose and amino acids need carriers. It is absent in **circumventricular organs** (e.g., **area postrema**, **OVLT**), which sample the blood.",
+      "back_pt": "**Junções de oclusão** entre células endoteliais de capilares não fenestrados, membrana basal e **pés vasculares dos astrócitos**. Moléculas lipossolúveis difundem; glicose e aminoácidos precisam de transportadores. Ela não existe nos **órgãos circunventriculares** (ex.: **área postrema**, **OVLT**), que monitoram o sangue."
+    },
+    {
+      "slug": "card-neurophysiology-action-potential",
+      "track": "step1",
+      "system": "nervous",
+      "discipline": "physiology",
+      "tags": [
+        "neurophysiology",
+        "action-potential",
+        "refractory-period"
+      ],
+      "front": "Which ion channel changes create the neuronal action potential and its refractory periods?",
+      "back": "Rest (about −70 mV): **K+ leak**. Depolarization: voltage-gated **Na+ channels open**. Repolarization: Na+ channels **inactivate** and **K+ channels open**. **Absolute refractory**: Na+ channels inactivated. **Relative refractory**: ongoing K+ efflux **hyperpolarizes** the cell, so a stronger stimulus is needed.",
+      "back_pt": "Repouso (cerca de −70 mV): **vazamento de K+**. Despolarização: os **canais de Na+** voltagem-dependentes **abrem**. Repolarização: os canais de Na+ **inativam** e os **canais de K+ abrem**. **Refratário absoluto**: canais de Na+ inativados. **Refratário relativo**: o efluxo contínuo de K+ **hiperpolariza** a célula, então é preciso um estímulo mais forte."
+    },
+    {
+      "slug": "card-neurophysiology-conduction-velocity",
+      "track": "step1",
+      "system": "nervous",
+      "discipline": "physiology",
+      "tags": [
+        "neurophysiology",
+        "conduction-velocity",
+        "myelin"
+      ],
+      "front": "Which two axon features increase nerve conduction velocity?",
+      "back": "**Myelin** (raises membrane resistance and lowers capacitance) and a **large axon diameter** (lowers internal resistance). In myelinated axons, Na+ channels cluster at the **nodes of Ranvier**, so the impulse jumps from node to node (**saltatory conduction**).",
+      "back_pt": "**Mielina** (aumenta a resistência da membrana e reduz a capacitância) e **grande diâmetro do axônio** (reduz a resistência interna). Nos axônios mielinizados, os canais de Na+ se concentram nos **nódulos de Ranvier**, e o impulso salta de nódulo em nódulo (**condução saltatória**)."
+    },
+    {
+      "slug": "card-neurophysiology-neuromuscular-junction",
+      "track": "step1",
+      "system": "nervous",
+      "discipline": "physiology",
+      "tags": [
+        "neurophysiology",
+        "neuromuscular-junction",
+        "acetylcholine"
+      ],
+      "front": "What are the steps of transmission at the neuromuscular junction?",
+      "back": "The action potential opens voltage-gated **Ca2+ channels**; Ca2+ entry triggers **SNARE**-mediated vesicle fusion. **ACh** binds **nicotinic receptors** (ligand-gated cation channels) and causes an **end-plate potential**. **Acetylcholinesterase** in the cleft ends the signal.",
+      "back_pt": "O potencial de ação abre **canais de Ca2+** voltagem-dependentes; a entrada de Ca2+ desencadeia a fusão de vesículas mediada por **SNARE**. A **ACh** se liga a **receptores nicotínicos** (canais catiônicos ativados por ligante) e gera o **potencial de placa motora**. A **acetilcolinesterase** na fenda encerra o sinal."
+    },
+    {
+      "slug": "card-neurophysiology-neurodegenerative-transmitters",
+      "track": "step1",
+      "system": "nervous",
+      "discipline": "pathology",
+      "tags": [
+        "neurophysiology",
+        "neurotransmitters",
+        "neurodegeneration"
+      ],
+      "front": "Which neurotransmitter changes occur in Alzheimer, Parkinson and Huntington disease?",
+      "back": "**Alzheimer**: ↓ **ACh** (loss of the nucleus basalis of Meynert). **Parkinson**: ↓ **dopamine** (substantia nigra), with a relative ↑ ACh. **Huntington**: ↓ **GABA**, ↓ ACh and ↑ dopamine (caudate atrophy).",
+      "back_pt": "**Alzheimer**: ↓ **ACh** (perda do núcleo basal de Meynert). **Parkinson**: ↓ **dopamina** (substância negra), com ↑ relativo de ACh. **Huntington**: ↓ **GABA**, ↓ ACh e ↑ dopamina (atrofia do núcleo caudado)."
+    },
+    {
+      "slug": "card-neurophysiology-catecholamine-synthesis",
+      "track": "step1",
+      "system": "nervous",
+      "discipline": "physiology",
+      "tags": [
+        "neurophysiology",
+        "neurotransmitters",
+        "catecholamines"
+      ],
+      "front": "What is the catecholamine synthesis pathway, and which step is rate-limiting?",
+      "back": "Tyrosine → **L-DOPA** (**tyrosine hydroxylase**, rate-limiting) → **dopamine** (DOPA decarboxylase, vitamin B6) → **norepinephrine** (dopamine β-hydroxylase, vitamin C) → **epinephrine** (**PNMT**, induced by cortisol in the adrenal medulla).",
+      "back_pt": "Tirosina → **L-DOPA** (**tirosina hidroxilase**, etapa limitante) → **dopamina** (DOPA descarboxilase, vitamina B6) → **noradrenalina** (dopamina β-hidroxilase, vitamina C) → **adrenalina** (**PNMT**, induzida pelo cortisol na medula adrenal)."
+    }
+  ],
+  "questions": [
+    {
+      "slug": "q-neurophysiology-hiv-microglia",
+      "track": "step1",
+      "system": "nervous",
+      "discipline": "pathology",
+      "tags": [
+        "neurophysiology",
+        "glia",
+        "hiv"
+      ],
+      "stem": "A 42-year-old man with untreated HIV infection has 8 months of worsening forgetfulness, apathy and slow movements. His CD4 count is 90/mm3. MRI shows diffuse brain atrophy and symmetric white matter changes. He later dies of pneumonia. Brain autopsy shows small nodules of reactive cells and multinucleated giant cells around vessels in the white matter. Which cell type is the main HIV-infected cell in the brain and forms these giant cells?",
+      "choices": [
+        "Astrocytes",
+        "Oligodendrocytes",
+        "Microglia",
+        "Ependymal cells",
+        "Schwann cells"
+      ],
+      "correct": 2,
+      "explanation": "This is **HIV-associated dementia**. HIV mainly infects **microglia** (and macrophages), which carry CD4 and chemokine co-receptors; infected microglia form **microglial nodules** and fuse into **multinucleated giant cells**. Microglia are **mesoderm-derived** phagocytes of the macrophage lineage. Oligodendrocytes are the tempting answer because the white matter is involved, but the classic virus that infects oligodendrocytes is **JC virus** in PML, which causes asymmetric demyelinating lesions **without diffuse atrophy** and a faster course.",
+      "explanation_pt": "Trata-se de **demência associada ao HIV**. O HIV infecta principalmente a **micróglia** (e os macrófagos), que expressa CD4 e correceptores de quimiocinas; a micróglia infectada forma **nódulos microgliais** e se funde em **células gigantes multinucleadas**. A micróglia é um fagócito **derivado do mesoderma**, da linhagem dos macrófagos. Os oligodendrócitos são a resposta tentadora porque a substância branca está acometida, mas o vírus clássico que infecta oligodendrócitos é o **vírus JC** na LEMP, que causa lesões desmielinizantes assimétricas, **sem atrofia difusa** e com evolução mais rápida."
+    },
+    {
+      "slug": "q-neurophysiology-demyelination-conduction",
+      "track": "step1",
+      "system": "nervous",
+      "discipline": "physiology",
+      "tags": [
+        "neurophysiology",
+        "conduction-velocity",
+        "demyelination"
+      ],
+      "stem": "A 58-year-old woman has 9 days of weakness that started in both legs and now affects her arms. Three weeks ago she had a flu-like illness. She has mild tingling in her hands and feet. Strength is reduced symmetrically, and deep tendon reflexes are absent in all four limbs. Cerebrospinal fluid shows a high protein with a normal white cell count. Which finding on nerve conduction studies is most expected?",
+      "choices": [
+        "Decremental muscle response to repetitive nerve stimulation",
+        "Normal conduction velocity with reduced response amplitudes",
+        "Increased conduction velocity with a shortened refractory period",
+        "Incremental muscle response after brief exercise",
+        "Slowed conduction velocity with conduction block"
+      ],
+      "correct": 4,
+      "explanation": "This is **Guillain-Barré syndrome**; its most common form is demyelinating (AIDP), with immune damage to **Schwann cell myelin**. Myelin raises membrane resistance and lowers capacitance, so current jumps from node to node. Without it, current leaks across the internodal membrane, which **slows conduction** or stops it (**conduction block**). Normal velocity with reduced amplitudes is the pattern of **axonal** loss, because velocity depends mainly on myelin while amplitude reflects the number of working axons.",
+      "explanation_pt": "Trata-se de **síndrome de Guillain-Barré**; a forma mais comum é a desmielinizante (PDIA), com lesão imune da **mielina das células de Schwann**. A mielina aumenta a resistência da membrana e reduz a capacitância, e assim a corrente salta de nódulo em nódulo. Sem ela, a corrente vaza pela membrana internodal, o que **retarda a condução** ou a interrompe (**bloqueio de condução**). Velocidade normal com amplitudes reduzidas é o padrão de perda **axonal**, porque a velocidade depende principalmente da mielina, enquanto a amplitude reflete o número de axônios funcionantes."
+    },
+    {
+      "slug": "q-neurophysiology-huntington-transmitters",
+      "track": "step1",
+      "system": "nervous",
+      "discipline": "pathology",
+      "tags": [
+        "neurophysiology",
+        "neurotransmitters",
+        "huntington-disease"
+      ],
+      "stem": "A 47-year-old man is brought by his wife because of 2 years of clumsiness, frequent falls and restless, jerky, irregular movements of his hands and face. He has become impulsive and has lost his job. His mother had a similar illness and was placed in a care home in her 50s. MRI shows atrophy of the caudate nuclei. Which pattern of neurotransmitter change in the striatum best fits his disease?",
+      "choices": [
+        "Decreased dopamine with a relative increase in acetylcholine",
+        "Decreased GABA and acetylcholine with increased dopamine",
+        "Decreased acetylcholine alone from loss of the nucleus basalis of Meynert",
+        "Decreased serotonin and norepinephrine with normal GABA",
+        "Increased GABA with decreased glutamate"
+      ],
+      "correct": 1,
+      "explanation": "Chorea, psychiatric symptoms, autosomal dominant inheritance and **caudate atrophy** point to **Huntington disease**. Loss of striatal neurons, mainly the GABAergic medium spiny neurons, gives **↓ GABA** and **↓ ACh**, with a relative **↑ dopamine** effect that drives chorea. Glutamate **NMDA receptor** overactivity (**excitotoxicity**) is thought to contribute to the neuron loss. The most tempting choice, low dopamine with relatively high ACh, is the pattern of **Parkinson disease**, which causes rigidity and bradykinesia, not chorea.",
+      "explanation_pt": "Coreia, sintomas psiquiátricos, herança autossômica dominante e **atrofia do núcleo caudado** indicam **doença de Huntington**. A perda de neurônios do estriado, principalmente os neurônios espinhosos médios GABAérgicos, causa **↓ GABA** e **↓ ACh**, com um efeito relativo de **↑ dopamina** que gera a coreia. A hiperatividade dos **receptores NMDA** pelo glutamato (**excitotoxicidade**) parece contribuir para a perda neuronal. A opção mais tentadora, dopamina baixa com ACh relativamente alta, é o padrão da **doença de Parkinson**, que causa rigidez e bradicinesia, e não coreia."
+    },
+    {
+      "slug": "q-neurophysiology-patellar-reflex",
+      "track": "step1",
+      "system": "nervous",
+      "discipline": "physiology",
+      "tags": [
+        "neurophysiology",
+        "reflexes",
+        "muscle-spindle"
+      ],
+      "stem": "A 28-year-old woman has a routine neurologic examination. When the physician taps her patellar tendon with a reflex hammer, her quadriceps contracts quickly and her knee extends. The reflex is brisk and symmetric. Which sensory receptor and afferent fiber start this reflex?",
+      "choices": [
+        "Golgi tendon organ; group Ib afferent",
+        "Pacinian corpuscle; A-beta afferent",
+        "Free nerve ending; group C afferent",
+        "Muscle spindle; group Ia afferent",
+        "Meissner corpuscle; A-beta afferent"
+      ],
+      "correct": 3,
+      "explanation": "The tap briefly stretches the quadriceps. **Muscle spindles** sense the stretch and send signals through **group Ia** fibers, which synapse directly on alpha motor neurons of the same muscle: a **monosynaptic stretch (myotatic) reflex**. The Golgi tendon organ is the tempting answer because the tendon is tapped, but it senses **tension** during contraction and, through **Ib** fibers and an inhibitory interneuron, makes the muscle **relax** (inverse myotatic reflex).",
+      "explanation_pt": "A percussão estira rapidamente o quadríceps. Os **fusos musculares** detectam o estiramento e enviam sinais pelas fibras do **grupo Ia**, que fazem sinapse direta com os motoneurônios alfa do mesmo músculo: um **reflexo miotático (de estiramento) monossináptico**. O órgão tendinoso de Golgi é a resposta tentadora porque o tendão é percutido, mas ele detecta a **tensão** durante a contração e, por meio das fibras **Ib** e de um interneurônio inibitório, faz o músculo **relaxar** (reflexo miotático inverso)."
+    }
+  ],
+  "notes": [
+    {
+      "slug": "note-neurophysiology-overview",
+      "track": "step1",
+      "system": "nervous",
+      "discipline": "physiology",
+      "tags": [
+        "neurophysiology",
+        "overview"
+      ],
+      "title": "Neurophysiology: glia, signals, synapses and reflexes",
+      "body_md": "## Glia\n\n- **Astrocytes**: BBB support, K+ buffering, glial scar (**GFAP**).\n- **Microglia**: mesoderm-derived CNS macrophages.\n- **Oligodendrocytes** (CNS) and **Schwann cells** (PNS) make myelin.\n- **Ependymal cells**: ciliated cells lining the ventricles; specialized ependyma in the **choroid plexus** makes CSF.\n\n## Action potential\n\n- The resting potential depends mostly on **K+ leak**; the **Na+/K+-ATPase** keeps the gradients.\n- Na+ channels open, then inactivate (absolute refractory period). K+ efflux repolarizes and briefly hyperpolarizes (relative refractory period).\n- **Myelin** and a **large diameter** speed conduction; demyelination slows or blocks it.\n\n## Synapses and receptors\n\n- Ca2+ entry triggers vesicle release through **SNARE** proteins.\n- **Ionotropic** receptors are ion channels and act fast (nicotinic, GABA-A, NMDA). **Metabotropic** receptors are G protein-coupled and slower (muscarinic, GABA-B, adrenergic, dopamine).\n- In ischemia, **glutamate** overstimulates **NMDA receptors**; Ca2+ floods in and kills neurons (**excitotoxicity**).\n\n## Synthesis and breakdown\n\n- **MAO** and **COMT** degrade catecholamines: dopamine → **HVA**; norepinephrine and epinephrine → metanephrines and **VMA**.\n- **Serotonin** is made from **tryptophan** and broken down by MAO to **5-HIAA**.\n\n## Psychiatric disease\n\n- **Depression**: ↓ serotonin, norepinephrine and dopamine.\n- **Anxiety**: ↑ norepinephrine, ↓ GABA and serotonin.\n- **Schizophrenia**: ↑ dopamine (see the psychiatry blocks).\n\n## Sensation and reflexes\n\n- **Rapidly adapting** receptors (Meissner, Pacinian) signal change; **slowly adapting** receptors (Merkel, Ruffini) signal steady pressure or stretch.\n- **Two-point discrimination** is finest where receptors are dense and receptive fields are small (fingertips, lips).\n- **Muscle spindle** (Ia) senses stretch → **stretch reflex** (contraction).\n- **Golgi tendon organ** (Ib) senses tension → relaxation (**inverse myotatic reflex**).\n\n## Skeletal muscle coupling\n\n- The action potential travels down **T tubules**. The **dihydropyridine receptor** is mechanically linked to **RyR1**, which releases Ca2+ from the sarcoplasmic reticulum. No Ca2+ entry is needed, unlike **calcium-induced calcium release** in cardiac muscle.",
+      "body_pt_md": "## Glia\n\n- **Astrócitos**: sustentação da BHE, tamponamento de K+, cicatriz glial (**GFAP**).\n- **Micróglia**: macrófagos do SNC derivados do mesoderma.\n- **Oligodendrócitos** (SNC) e **células de Schwann** (SNP) produzem mielina.\n- **Células ependimárias**: células ciliadas que revestem os ventrículos; o epêndima especializado do **plexo coroide** produz o LCR.\n\n## Potencial de ação\n\n- O potencial de repouso depende principalmente do **vazamento de K+**; a **Na+/K+-ATPase** mantém os gradientes.\n- Os canais de Na+ abrem e depois inativam (período refratário absoluto). O efluxo de K+ repolariza e hiperpolariza brevemente (período refratário relativo).\n- **Mielina** e **grande diâmetro** aceleram a condução; a desmielinização a retarda ou bloqueia.\n\n## Sinapses e receptores\n\n- A entrada de Ca2+ desencadeia a liberação das vesículas por meio das proteínas **SNARE**.\n- Receptores **ionotrópicos** são canais iônicos e agem rápido (nicotínico, GABA-A, NMDA). Receptores **metabotrópicos** são acoplados à proteína G e mais lentos (muscarínico, GABA-B, adrenérgico, dopaminérgico).\n- Na isquemia, o **glutamato** hiperestimula os **receptores NMDA**; o Ca2+ entra em excesso e mata os neurônios (**excitotoxicidade**).\n\n## Síntese e degradação\n\n- **MAO** e **COMT** degradam as catecolaminas: dopamina → **HVA**; noradrenalina e adrenalina → metanefrinas e **VMA**.\n- A **serotonina** é produzida a partir do **triptofano** e degradada pela MAO em **5-HIAA**.\n\n## Doenças psiquiátricas\n\n- **Depressão**: ↓ serotonina, noradrenalina e dopamina.\n- **Ansiedade**: ↑ noradrenalina, ↓ GABA e serotonina.\n- **Esquizofrenia**: ↑ dopamina (ver os blocos de psiquiatria).\n\n## Sensibilidade e reflexos\n\n- Receptores de **adaptação rápida** (Meissner, Pacini) sinalizam mudanças; receptores de **adaptação lenta** (Merkel, Ruffini) sinalizam pressão ou estiramento constantes.\n- A **discriminação de dois pontos** é mais fina onde os receptores são densos e os campos receptivos são pequenos (polpas digitais, lábios).\n- **Fuso muscular** (Ia) detecta estiramento → **reflexo miotático** (contração).\n- **Órgão tendinoso de Golgi** (Ib) detecta tensão → relaxamento (**reflexo miotático inverso**).\n\n## Acoplamento no músculo esquelético\n\n- O potencial de ação percorre os **túbulos T**. O **receptor de di-hidropiridina** está ligado mecanicamente ao **RyR1**, que libera Ca2+ do retículo sarcoplasmático. Não é necessária entrada de Ca2+, diferente da **liberação de cálcio induzida por cálcio** no músculo cardíaco."
+    }
+  ]
+}

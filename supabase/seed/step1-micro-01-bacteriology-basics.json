@@ -1,0 +1,218 @@
+{
+  "cards": [
+    {
+      "slug": "card-bacteriology-basics-cell-envelope",
+      "track": "step1",
+      "system": "microbiology",
+      "discipline": "microbiology",
+      "tags": [
+        "bacteriology-basics",
+        "structure",
+        "gram-stain"
+      ],
+      "front": "How does the cell envelope of gram-positive bacteria differ from that of gram-negative bacteria?",
+      "back": "**Gram-positive**: a **thick peptidoglycan** layer with **teichoic acids** and no outer membrane; it keeps crystal violet (purple). **Gram-negative**: **thin peptidoglycan** in the periplasm plus an **outer membrane** with **LPS** and porins; it loses crystal violet and stains pink with safranin.",
+      "back_pt": "**Gram-positivas**: camada **espessa de peptidoglicano** com **ácidos teicoicos** e sem membrana externa; retêm o cristal violeta (roxo). **Gram-negativas**: **peptidoglicano fino** no periplasma mais uma **membrana externa** com **LPS** e porinas; perdem o cristal violeta e coram-se de rosa pela safranina."
+    },
+    {
+      "slug": "card-bacteriology-basics-poor-gram-stain",
+      "track": "step1",
+      "system": "microbiology",
+      "discipline": "microbiology",
+      "tags": [
+        "bacteriology-basics",
+        "stains"
+      ],
+      "front": "Which bacteria stain poorly with Gram stain, and how are they seen instead?",
+      "back": "**Mycobacteria**: waxy mycolic acids; **acid-fast** (Ziehl-Neelsen). ***Treponema***: too thin; **dark-field** microscopy. ***Mycoplasma***: no cell wall. ***Chlamydia***, ***Rickettsia***: intracellular; **Giemsa**. ***Legionella***: **silver stain**.",
+      "back_pt": "**Micobactérias**: ácidos micólicos cerosos; **álcool-ácido resistentes** (Ziehl-Neelsen). ***Treponema***: fino demais; microscopia de **campo escuro**. ***Mycoplasma***: sem parede celular. ***Chlamydia***, ***Rickettsia***: intracelulares; **Giemsa**. ***Legionella***: **impregnação pela prata**."
+    },
+    {
+      "slug": "card-bacteriology-basics-endospores",
+      "track": "step1",
+      "system": "microbiology",
+      "discipline": "microbiology",
+      "tags": [
+        "bacteriology-basics",
+        "spores",
+        "sterilization"
+      ],
+      "front": "What are bacterial endospores, and what reliably kills them?",
+      "back": "Dormant forms made by ***Bacillus*** and ***Clostridium*** when nutrients run out. A tough coat and a core rich in **calcium dipicolinate** let them survive boiling, drying and alcohol. **Autoclaving** (pressurized steam) kills them.",
+      "back_pt": "Formas dormentes produzidas por ***Bacillus*** e ***Clostridium*** quando faltam nutrientes. Uma capa resistente e um núcleo rico em **dipicolinato de cálcio** permitem que sobrevivam à fervura, ao ressecamento e ao álcool. A **autoclavação** (vapor sob pressão) os destrói."
+    },
+    {
+      "slug": "card-bacteriology-basics-obligate-anaerobes",
+      "track": "step1",
+      "system": "microbiology",
+      "discipline": "microbiology",
+      "tags": [
+        "bacteriology-basics",
+        "growth",
+        "anaerobes"
+      ],
+      "front": "Why can obligate anaerobes not live in air, and which genera should you know?",
+      "back": "They lack enough **catalase** and **superoxide dismutase** to remove toxic oxygen products (H2O2, superoxide). Key genera: ***Clostridium***, ***Bacteroides***, ***Fusobacterium***, ***Actinomyces***. They cause foul-smelling abscesses, and **aminoglycosides** fail because drug uptake needs oxygen.",
+      "back_pt": "Eles não têm **catalase** e **superóxido dismutase** suficientes para remover produtos tóxicos do oxigênio (H2O2, superóxido). Gêneros principais: ***Clostridium***, ***Bacteroides***, ***Fusobacterium***, ***Actinomyces***. Causam abscessos fétidos, e os **aminoglicosídeos** falham porque a captação do fármaco depende de oxigênio."
+    },
+    {
+      "slug": "card-bacteriology-basics-gene-transfer",
+      "track": "step1",
+      "system": "microbiology",
+      "discipline": "microbiology",
+      "tags": [
+        "bacteriology-basics",
+        "genetics"
+      ],
+      "front": "What are the three ways bacteria take up DNA from other bacteria?",
+      "back": "**Transformation**: uptake of free (naked) DNA from the environment. **Conjugation**: direct transfer through a **sex pilus**, coded by the **F factor** or other plasmids. **Transduction**: DNA carried into the cell by a **bacteriophage**.",
+      "back_pt": "**Transformação**: captação de DNA livre (nu) do ambiente. **Conjugação**: transferência direta por um **pilus sexual**, codificado pelo **fator F** ou por outros plasmídeos. **Transdução**: DNA levado para dentro da célula por um **bacteriófago**."
+    },
+    {
+      "slug": "card-bacteriology-basics-phage-toxins",
+      "track": "step1",
+      "system": "microbiology",
+      "discipline": "microbiology",
+      "tags": [
+        "bacteriology-basics",
+        "genetics",
+        "toxins"
+      ],
+      "front": "Which bacterial toxins are coded by genes from a lysogenic bacteriophage?",
+      "back": "In **lysogenic conversion**, a prophage adds toxin genes: **Shiga-like toxin** (EHEC), **botulinum** toxin, **cholera** toxin, **diphtheria** toxin and **erythrogenic (pyrogenic) toxin** of *S. pyogenes*. Strains without the phage do not make the toxin.",
+      "back_pt": "Na **conversão lisogênica**, um prófago acrescenta genes de toxina: **toxina Shiga-like** (EHEC), toxina **botulínica**, toxina **colérica**, toxina **diftérica** e **toxina eritrogênica (pirogênica)** do *S. pyogenes*. Cepas sem o fago não produzem a toxina."
+    },
+    {
+      "slug": "card-bacteriology-basics-exotoxin-vs-endotoxin",
+      "track": "step1",
+      "system": "microbiology",
+      "discipline": "microbiology",
+      "tags": [
+        "bacteriology-basics",
+        "toxins"
+      ],
+      "front": "How do exotoxins differ from endotoxin?",
+      "back": "**Exotoxins**: secreted **proteins** from gram-positive and gram-negative bacteria; very potent; most are heat-labile; can be made into **toxoid** vaccines. **Endotoxin**: **LPS** of the gram-negative outer membrane (toxic part: **lipid A**); heat-stable; released on lysis; no toxoid.",
+      "back_pt": "**Exotoxinas**: **proteínas** secretadas por bactérias gram-positivas e gram-negativas; muito potentes; a maioria é termolábil; podem virar vacinas de **toxoide**. **Endotoxina**: **LPS** da membrana externa das gram-negativas (parte tóxica: **lipídio A**); termoestável; liberada na lise; sem toxoide."
+    },
+    {
+      "slug": "card-bacteriology-basics-superantigens",
+      "track": "step1",
+      "system": "microbiology",
+      "discipline": "microbiology",
+      "tags": [
+        "bacteriology-basics",
+        "toxins",
+        "superantigens"
+      ],
+      "front": "How do superantigens such as TSST-1 cause shock?",
+      "back": "They bind **MHC class II** and the **T-cell receptor Vβ** region outside the peptide groove. Many T cells activate at once and release **IL-2, IFN-γ and TNF**. Examples: **TSST-1** (*S. aureus*), **pyrogenic exotoxin A** (*S. pyogenes*).",
+      "back_pt": "Ligam-se ao **MHC classe II** e à região **Vβ do receptor de linfócito T (TCR)** fora do sulco de peptídeo. Muitos linfócitos T são ativados de uma vez e liberam **IL-2, IFN-γ e TNF**. Exemplos: **TSST-1** (*S. aureus*), **exotoxina pirogênica A** (*S. pyogenes*)."
+    }
+  ],
+  "questions": [
+    {
+      "slug": "q-bacteriology-basics-spore-resistance",
+      "track": "step1",
+      "system": "microbiology",
+      "discipline": "microbiology",
+      "tags": [
+        "bacteriology-basics",
+        "spores",
+        "sterilization"
+      ],
+      "stem": "A 72-year-old woman in a hospital ward develops fever, abdominal cramps and profuse watery diarrhea 6 days after starting clindamycin. Staff clean their hands with alcohol-based gel and wipe the bed rails with alcohol. Over the next week, two more patients on the same ward develop the same illness. Stool testing shows toxin from an anaerobic gram-positive rod. Which feature of this organism best explains why it survived the cleaning?",
+      "choices": [
+        "A spore core rich in calcium dipicolinate",
+        "A polysaccharide capsule that blocks phagocytosis",
+        "Mycolic acids in a waxy cell wall",
+        "Lipopolysaccharide in an outer membrane",
+        "Teichoic acids in a thick peptidoglycan layer"
+      ],
+      "correct": 0,
+      "explanation": "This is ***Clostridioides difficile*** colitis after clindamycin. The organism forms **endospores**: a tough coat and a dehydrated core rich in **calcium dipicolinate** let them survive alcohol, drying and boiling, so they spread on hands and surfaces. **Soap-and-water hand washing** and **sporicidal (bleach-based)** cleaning remove them, and autoclaving kills them. A thick peptidoglycan with teichoic acids is present in all gram-positive bacteria, but alcohol still kills those cells when they are not spores.",
+      "explanation_pt": "Trata-se de colite por ***Clostridioides difficile*** após clindamicina. O organismo forma **endósporos**: uma capa resistente e um núcleo desidratado rico em **dipicolinato de cálcio** permitem que sobrevivam ao álcool, ao ressecamento e à fervura, e por isso se espalham por mãos e superfícies. A **lavagem das mãos com água e sabão** e a limpeza com **agentes esporicidas (à base de hipoclorito)** os removem, e a autoclavação os destrói. Peptidoglicano espesso com ácidos teicoicos existe em todas as gram-positivas, mas o álcool mata essas células quando não estão na forma de esporo."
+    },
+    {
+      "slug": "q-bacteriology-basics-mrsa-pbp",
+      "track": "step1",
+      "system": "microbiology",
+      "discipline": "microbiology",
+      "tags": [
+        "bacteriology-basics",
+        "antibiotic-resistance",
+        "staphylococcus"
+      ],
+      "stem": "A 19-year-old college wrestler has a painful, red, fluctuant lump on his thigh. The abscess is drained. Gram stain of the pus shows gram-positive cocci in clusters. The isolate is catalase-positive and coagulase-positive. It grows in the presence of oxacillin, and adding a beta-lactamase inhibitor does not restore susceptibility. Which mechanism best explains this resistance?",
+      "choices": [
+        "Production of a beta-lactamase that breaks the beta-lactam ring",
+        "An efflux pump that exports the drug out of the cell",
+        "Replacement of D-Ala-D-Ala with D-Ala-D-Lac in cell wall precursors",
+        "Loss of outer membrane porins that let the drug enter",
+        "A penicillin-binding protein with low affinity for beta-lactams"
+      ],
+      "correct": 4,
+      "explanation": "This is **MRSA**. The ***mecA*** gene codes for **PBP2a**, a transpeptidase that beta-lactams bind poorly, so cell wall synthesis continues. A beta-lactamase is the most tempting choice, but oxacillin resists staphylococcal penicillinase, and an inhibitor did not help. D-Ala-D-Lac is the vancomycin resistance mechanism, and porin loss needs an outer membrane, which gram-positive bacteria lack.",
+      "explanation_pt": "Trata-se de **MRSA**. O gene ***mecA*** codifica a **PBP2a**, uma transpeptidase à qual os betalactâmicos se ligam mal, e a síntese da parede continua. A betalactamase é a opção mais tentadora, mas a oxacilina resiste à penicilinase estafilocócica, e o inibidor não ajudou. D-Ala-D-Lac é o mecanismo de resistência à vancomicina, e a perda de porinas exige membrana externa, que as gram-positivas não têm."
+    },
+    {
+      "slug": "q-bacteriology-basics-conjugation",
+      "track": "step1",
+      "system": "microbiology",
+      "discipline": "microbiology",
+      "tags": [
+        "bacteriology-basics",
+        "genetics",
+        "antibiotic-resistance"
+      ],
+      "stem": "A 68-year-old man in the intensive care unit develops a urinary tract infection with carbapenem-resistant Escherichia coli. Two weeks earlier, a patient in the next bed had carbapenem-resistant Klebsiella pneumoniae. Both isolates carry the same carbapenemase gene on the same plasmid. In the laboratory, the gene passes from the Klebsiella isolate to a susceptible E. coli strain when the two are mixed in broth. A filter between the two strains blocks the transfer, and adding DNase to the medium does not. Which process explains the spread of resistance?",
+      "choices": [
+        "Transformation",
+        "Conjugation",
+        "Generalized transduction",
+        "Specialized transduction",
+        "Transposition"
+      ],
+      "correct": 1,
+      "explanation": "Transfer that needs **cell-to-cell contact** and resists **DNase** is **conjugation**: a sex pilus joins the cells, and a plasmid copy passes from donor to recipient, even between species. Transduction also resists DNase because the DNA is inside a phage, but phages pass through the filter, so contact would not be needed. Transformation uses free DNA and is blocked by DNase. Transposition moves genes within one cell, not between cells.",
+      "explanation_pt": "Uma transferência que exige **contato entre as células** e resiste à **DNase** é **conjugação**: um pilus sexual une as células, e uma cópia do plasmídeo passa do doador para o receptor, mesmo entre espécies. A transdução também resiste à DNase porque o DNA está dentro de um fago, mas os fagos atravessam o filtro, então o contato não seria necessário. A transformação usa DNA livre e é bloqueada pela DNase. A transposição move genes dentro de uma mesma célula, não entre células."
+    },
+    {
+      "slug": "q-bacteriology-basics-lecithinase",
+      "track": "step1",
+      "system": "microbiology",
+      "discipline": "microbiology",
+      "tags": [
+        "bacteriology-basics",
+        "toxins",
+        "clostridium"
+      ],
+      "stem": "A 24-year-old man has an open fracture of the tibia after a motorcycle crash on a farm road; the wound was contaminated with soil. Eighteen hours later he has severe pain, swelling, bronze skin discoloration and crepitus over the leg. Temperature is 38.9°C (102°F), pulse is 124/min, and blood pressure is 92/58 mm Hg. Gram stain of the wound fluid shows large gram-positive rods with blunt ends and very few neutrophils. Colonies on blood agar show a double zone of hemolysis, and an opaque zone forms around colonies on egg yolk agar. Which toxin activity causes most of the tissue destruction?",
+      "choices": [
+        "Cleavage of SNARE proteins at the neuromuscular junction",
+        "Binding of MHC class II and T-cell receptors outside the peptide groove",
+        "Cleavage of IgA in mucosal secretions",
+        "Phospholipase C activity that splits lecithin in cell membranes",
+        "ADP-ribosylation of elongation factor 2, stopping protein synthesis"
+      ],
+      "correct": 3,
+      "explanation": "This is **gas gangrene** (clostridial myonecrosis) from ***Clostridium perfringens***. Its **alpha toxin** is a **lecithinase** (phospholipase C): it destroys the membranes of muscle cells, red cells and leukocytes, which explains the few neutrophils and the opaque zone on egg yolk agar. *Clostridium tetani* also enters soil-contaminated wounds, but its toxin cleaves SNARE proteins and causes spastic paralysis, not muscle necrosis. Superantigens cause toxic shock without this tissue gas.",
+      "explanation_pt": "Trata-se de **gangrena gasosa** (mionecrose clostridiana) por ***Clostridium perfringens***. Sua **toxina alfa** é uma **lecitinase** (fosfolipase C): destrói as membranas de células musculares, hemácias e leucócitos, o que explica os poucos neutrófilos e a zona opaca no ágar gema de ovo. O *Clostridium tetani* também entra em feridas contaminadas com terra, mas sua toxina cliva proteínas SNARE e causa paralisia espástica, não necrose muscular. Os superantígenos causam choque tóxico sem esse gás nos tecidos."
+    }
+  ],
+  "notes": [
+    {
+      "slug": "note-bacteriology-basics-overview",
+      "track": "step1",
+      "system": "microbiology",
+      "discipline": "microbiology",
+      "tags": [
+        "bacteriology-basics",
+        "overview"
+      ],
+      "title": "Bacteriology basics: structure, lab tests, genetics, toxins and resistance",
+      "body_md": "## Structure\n\n- **Peptidoglycan**: cross-linked sugar chains; the target of beta-lactams and vancomycin.\n- **Gram-positive**: thick peptidoglycan with **teichoic acids**.\n- **Gram-negative**: thin peptidoglycan, **outer membrane** with **LPS** (= **endotoxin**; toxic part lipid A) and porins.\n- **Capsule** (polysaccharide): blocks phagocytosis. **Pili**: adhesion; the sex pilus allows conjugation. **Flagella**: motility.\n- **Endospores** (*Bacillus*, *Clostridium*): survive boiling and alcohol; killed by **autoclaving**.\n\n## Stains when Gram fails\n\n- **Acid-fast**: mycobacteria; *Nocardia* is **weakly** acid-fast (and also gram-positive).\n- **Giemsa**: *Chlamydia*, *Rickettsia*, *Borrelia*.\n- **Silver**: *Legionella*. **India ink**: *Cryptococcus* capsule (a fungus).\n- *Mycoplasma* has no cell wall.\n\n## Growth and lab tests\n\n- **Obligate anaerobes** (*Clostridium*, *Bacteroides*) lack enough **catalase** and **superoxide dismutase** to handle oxygen.\n- **Catalase**: staphylococci (+) vs streptococci (-). **Coagulase**: *S. aureus* (+).\n- **Oxidase**: *Pseudomonas*, *Neisseria*, *Vibrio* (+).\n- Media: **MacConkey** (lactose fermenters turn pink), **Thayer-Martin** (*Neisseria*), **Löwenstein-Jensen** (*M. tuberculosis*), **charcoal yeast extract** (*Legionella*), **Bordet-Gengou** (*Bordetella*).\n\n## Genetics\n\n- **Transformation** (free DNA), **conjugation** (sex pilus, plasmids), **transduction** (phage).\n- **Transposons** jump between plasmid and chromosome and carry resistance genes.\n- **Lysogenic phages** code toxins: Shiga-like, botulinum, cholera, diphtheria, erythrogenic.\n\n## Toxins\n\n- **ADP-ribosylating AB toxins**: diphtheria (EF-2), cholera (Gs), pertussis (Gi).\n- **Superantigens** (TSST-1): polyclonal T-cell activation.\n- **Lecithinase** (*C. perfringens* alpha toxin): membrane damage.\n\n## Resistance mechanisms\n\n- **Beta-lactamases** break the beta-lactam ring.\n- **Altered target**: PBP2a in MRSA, D-Ala-D-Lac in VRE.\n- **Efflux pumps**, reduced porins, and **drug-modifying enzymes** (aminoglycosides).\n- **Biofilms** on catheters and prosthetic valves (*S. epidermidis*) shield bacteria from drugs and immunity.\n\n## Obligate intracellular bacteria\n\n- ***Rickettsia***, ***Chlamydia*** and ***Coxiella***: cannot make enough ATP of their own.",
+      "body_pt_md": "## Estrutura\n\n- **Peptidoglicano**: cadeias de açúcar com ligações cruzadas; alvo dos betalactâmicos e da vancomicina.\n- **Gram-positivas**: peptidoglicano espesso com **ácidos teicoicos**.\n- **Gram-negativas**: peptidoglicano fino, **membrana externa** com **LPS** (= **endotoxina**; parte tóxica: lipídio A) e porinas.\n- **Cápsula** (polissacarídeo): bloqueia a fagocitose. **Pili**: adesão; o pilus sexual permite a conjugação. **Flagelos**: motilidade.\n- **Endósporos** (*Bacillus*, *Clostridium*): resistem à fervura e ao álcool; destruídos pela **autoclavação**.\n\n## Colorações quando o Gram falha\n\n- **Álcool-ácido resistência**: micobactérias; *Nocardia* é **fracamente** álcool-ácido resistente (e também gram-positiva).\n- **Giemsa**: *Chlamydia*, *Rickettsia*, *Borrelia*.\n- **Prata**: *Legionella*. **Tinta nanquim**: cápsula do *Cryptococcus* (um fungo).\n- O *Mycoplasma* não tem parede celular.\n\n## Crescimento e testes laboratoriais\n\n- **Anaeróbios obrigatórios** (*Clostridium*, *Bacteroides*) não têm **catalase** e **superóxido dismutase** suficientes para lidar com o oxigênio.\n- **Catalase**: estafilococos (+) vs estreptococos (-). **Coagulase**: *S. aureus* (+).\n- **Oxidase**: *Pseudomonas*, *Neisseria*, *Vibrio* (+).\n- Meios: **MacConkey** (fermentadores de lactose ficam rosa), **Thayer-Martin** (*Neisseria*), **Löwenstein-Jensen** (*M. tuberculosis*), **ágar BCYE (carvão-extrato de levedura)** (*Legionella*), **Bordet-Gengou** (*Bordetella*).\n\n## Genética\n\n- **Transformação** (DNA livre), **conjugação** (pilus sexual, plasmídeos), **transdução** (fago).\n- **Transposons** saltam entre plasmídeo e cromossomo e carregam genes de resistência.\n- **Fagos lisogênicos** codificam toxinas: Shiga-like, botulínica, colérica, diftérica, eritrogênica.\n\n## Toxinas\n\n- **Toxinas AB que fazem ADP-ribosilação**: diftérica (EF-2), colérica (Gs), pertussis (Gi).\n- **Superantígenos** (TSST-1): ativação policlonal de linfócitos T.\n- **Lecitinase** (toxina alfa do *C. perfringens*): lesão de membranas.\n\n## Mecanismos de resistência\n\n- **Betalactamases** quebram o anel betalactâmico.\n- **Alvo alterado**: PBP2a no MRSA, D-Ala-D-Lac no VRE.\n- **Bombas de efluxo**, menos porinas e **enzimas que modificam o fármaco** (aminoglicosídeos).\n- **Biofilmes** em cateteres e próteses valvares (*S. epidermidis*) protegem as bactérias dos fármacos e da imunidade.\n\n## Bactérias intracelulares obrigatórias\n\n- ***Rickettsia***, ***Chlamydia*** e ***Coxiella***: não produzem ATP próprio suficiente."
+    }
+  ]
+}

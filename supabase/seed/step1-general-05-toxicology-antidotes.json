@@ -1,0 +1,215 @@
+{
+  "cards": [
+    {
+      "slug": "card-toxicology-antidotes-receptor-antidotes",
+      "track": "step1",
+      "system": "general-principles",
+      "discipline": "pharmacology",
+      "tags": [
+        "toxicology-antidotes",
+        "antidotes"
+      ],
+      "front": "Which antidotes reverse a poison at the receptor or signaling level?",
+      "back": "Opioids: **naloxone**. Benzodiazepines: **flumazenil**. Anticholinergics: **physostigmine**. Organophosphates: **atropine** plus **pralidoxime**. Beta-blockers: **glucagon**. Sulfonylureas: **octreotide** (it suppresses insulin release).",
+      "back_pt": "Opioides: **naloxona**. Benzodiazepínicos: **flumazenil**. Anticolinérgicos: **fisostigmina**. Organofosforados: **atropina** mais **pralidoxima**. Betabloqueadores: **glucagon**. Sulfonilureias: **octreotida** (suprime a liberação de insulina)."
+    },
+    {
+      "slug": "card-toxicology-antidotes-binders-chelators",
+      "track": "step1",
+      "system": "general-principles",
+      "discipline": "pharmacology",
+      "tags": [
+        "toxicology-antidotes",
+        "antidotes",
+        "heavy-metals"
+      ],
+      "front": "Which antidotes work by binding or chelating the poison?",
+      "back": "Iron: **deferoxamine**. Lead: **succimer**, or **dimercaprol** plus **calcium disodium EDTA** when severe. Arsenic and mercury: **dimercaprol** or succimer. Digoxin: **digoxin-specific Fab** fragments. Heparin: **protamine** (a positively charged protein that binds it).",
+      "back_pt": "Ferro: **desferroxamina**. Chumbo: **succímero**, ou **dimercaprol** mais **EDTA cálcico dissódico** nos casos graves. Arsênio e mercúrio: **dimercaprol** ou succímero. Digoxina: **fragmentos Fab antidigoxina**. Heparina: **protamina** (proteína de carga positiva que se liga a ela)."
+    },
+    {
+      "slug": "card-toxicology-antidotes-other-antidotes",
+      "track": "step1",
+      "system": "general-principles",
+      "discipline": "pharmacology",
+      "tags": [
+        "toxicology-antidotes",
+        "antidotes"
+      ],
+      "front": "Name the antidote: acetaminophen, methanol or ethylene glycol, TCA, warfarin, methemoglobinemia, carbon monoxide.",
+      "back": "Acetaminophen: **N-acetylcysteine**. Methanol or ethylene glycol: **fomepizole**. TCA: **sodium bicarbonate**. Warfarin: **vitamin K** plus **prothrombin complex concentrate** (PCC) if bleeding. Methemoglobinemia: **methylene blue**. Carbon monoxide: **100% oxygen**.",
+      "back_pt": "Paracetamol: **N-acetilcisteína**. Metanol ou etilenoglicol: **fomepizol**. ADT: **bicarbonato de sódio**. Varfarina: **vitamina K** mais **concentrado de complexo protrombínico** (CCP) se houver sangramento. Metemoglobinemia: **azul de metileno**. Monóxido de carbono: **oxigênio a 100%**."
+    },
+    {
+      "slug": "card-toxicology-antidotes-pralidoxime-aging",
+      "track": "step1",
+      "system": "general-principles",
+      "discipline": "pharmacology",
+      "tags": [
+        "toxicology-antidotes",
+        "organophosphates"
+      ],
+      "front": "In organophosphate poisoning, why must pralidoxime be given early?",
+      "back": "Organophosphates phosphorylate **acetylcholinesterase**. **Pralidoxime** removes the phosphate and reactivates the enzyme, but only before **aging**, when the bond becomes permanent. **Atropine** blocks only muscarinic effects, so it does not fix nicotinic **muscle weakness**.",
+      "back_pt": "Os organofosforados fosforilam a **acetilcolinesterase**. A **pralidoxima** remove o fosfato e reativa a enzima, mas só antes do **envelhecimento** (*aging*), quando a ligação se torna permanente. A **atropina** bloqueia apenas os efeitos muscarínicos e não corrige a **fraqueza muscular** nicotínica."
+    },
+    {
+      "slug": "card-toxicology-antidotes-flumazenil-seizures",
+      "track": "step1",
+      "system": "general-principles",
+      "discipline": "pharmacology",
+      "tags": [
+        "toxicology-antidotes",
+        "antidotes",
+        "benzodiazepines"
+      ],
+      "front": "Why can flumazenil be dangerous in an overdose of unknown drugs?",
+      "back": "In people who take **benzodiazepines** long term, it can cause acute withdrawal and **seizures**. In mixed overdoses, it removes the benzodiazepine's protection against seizures caused by drugs such as **TCAs**. Isolated benzodiazepine overdose usually needs only supportive care.",
+      "back_pt": "Em quem usa **benzodiazepínicos** há muito tempo, ele pode causar abstinência aguda e **convulsões**. Em intoxicações mistas, ele retira a proteção do benzodiazepínico contra convulsões causadas por fármacos como os **ADT**. A intoxicação isolada por benzodiazepínico geralmente precisa apenas de suporte."
+    },
+    {
+      "slug": "card-toxicology-antidotes-ss-nms-mh",
+      "track": "step1",
+      "system": "general-principles",
+      "discipline": "pharmacology",
+      "tags": [
+        "toxicology-antidotes",
+        "hyperthermia-syndromes"
+      ],
+      "front": "How do serotonin syndrome, NMS and malignant hyperthermia differ?",
+      "back": "**Serotonin syndrome**: serotonergic drugs, onset within hours, **clonus**, hyperreflexia, diarrhea; **cyproheptadine**. **NMS**: antipsychotics, onset over days, **lead-pipe rigidity**, slow reflexes; **dantrolene** or bromocriptine. **MH**: halogenated anesthetic or succinylcholine, **RYR1**; **dantrolene**.",
+      "back_pt": "**Síndrome serotoninérgica**: fármacos serotoninérgicos, início em horas, **clônus**, hiper-reflexia, diarreia; **ciproeptadina**. **SNM**: antipsicóticos, início em dias, **rigidez em cano de chumbo**, reflexos lentos; **dantroleno** ou bromocriptina. **HM**: anestésico halogenado ou succinilcolina, **RYR1**; **dantroleno**."
+    },
+    {
+      "slug": "card-toxicology-antidotes-acetaminophen-nomogram",
+      "track": "step1",
+      "system": "general-principles",
+      "discipline": "pharmacology",
+      "tags": [
+        "toxicology-antidotes",
+        "acetaminophen"
+      ],
+      "front": "What does the Rumack-Matthew nomogram show, and when can it be used?",
+      "back": "It plots the serum **acetaminophen level** against **hours since ingestion**, starting at **4 hours**. A level above the treatment line means give **N-acetylcysteine**. It only works for a **single acute ingestion** with a known time.",
+      "back_pt": "Ele relaciona o **nível sérico de paracetamol** com as **horas desde a ingestão**, a partir de **4 horas**. Um nível acima da linha de tratamento indica **N-acetilcisteína**. Só vale para uma **ingestão aguda única** com horário conhecido."
+    },
+    {
+      "slug": "card-toxicology-antidotes-salicylate-alkalinization",
+      "track": "step1",
+      "system": "general-principles",
+      "discipline": "pharmacology",
+      "tags": [
+        "toxicology-antidotes",
+        "salicylates"
+      ],
+      "front": "Why does sodium bicarbonate help in aspirin overdose?",
+      "back": "Salicylic acid is a **weak acid**. Alkaline urine keeps it **ionized**, so it cannot be reabsorbed and is **trapped in the urine**. Alkaline blood also keeps less of it in the **brain**.",
+      "back_pt": "O ácido salicílico é um **ácido fraco**. A urina alcalina o mantém **ionizado**, então ele não é reabsorvido e fica **aprisionado na urina**. O sangue alcalino também reduz a quantidade que entra no **cérebro**."
+    }
+  ],
+  "questions": [
+    {
+      "slug": "q-toxicology-antidotes-sulfonylurea-octreotide",
+      "track": "step1",
+      "system": "general-principles",
+      "discipline": "pharmacology",
+      "tags": [
+        "toxicology-antidotes",
+        "sulfonylureas",
+        "antidotes"
+      ],
+      "stem": "A 67-year-old woman with type 2 diabetes is brought to the emergency department 5 hours after she swallowed a full bottle of her glipizide tablets. She is confused and sweating. Pulse is 104/min and blood pressure is 138/82 mm Hg. Serum glucose is 34 mg/dL. She wakes up after an IV dextrose bolus, but over the next 3 hours her glucose falls below 50 mg/dL twice more despite a dextrose infusion. She is given octreotide, and her glucose then stays stable. What is the mechanism of this drug?",
+      "choices": [
+        "It closes ATP-sensitive potassium channels on beta cells",
+        "It activates somatostatin receptors on beta cells and inhibits insulin release",
+        "It activates Gs-coupled receptors in the liver and increases glycogenolysis",
+        "It increases the renal excretion of glipizide",
+        "It blocks insulin receptors on muscle and fat cells"
+      ],
+      "correct": 1,
+      "explanation": "**Sulfonylureas** close ATP-sensitive K+ channels on beta cells, so the cells keep releasing insulin, and each dose of dextrose triggers even more release. **Octreotide** is a **somatostatin analog**: it acts on somatostatin receptors on beta cells and stops insulin secretion. Closing K-ATP channels is the poison's own mechanism, not the antidote's. Glucagon (the Gs choice) raises glucose only briefly and can itself stimulate insulin release.",
+      "explanation_pt": "As **sulfonilureias** fecham os canais de K+ sensíveis ao ATP das células beta, que continuam liberando insulina, e cada dose de glicose estimula ainda mais liberação. A **octreotida** é um **análogo da somatostatina**: ela age nos receptores de somatostatina das células beta e interrompe a secreção de insulina. Fechar canais K-ATP é o mecanismo do próprio tóxico, não do antídoto. O glucagon (a opção Gs) eleva a glicose apenas por pouco tempo e pode ele mesmo estimular a liberação de insulina."
+    },
+    {
+      "slug": "q-toxicology-antidotes-lead-encephalopathy",
+      "track": "step1",
+      "system": "general-principles",
+      "discipline": "pharmacology",
+      "tags": [
+        "toxicology-antidotes",
+        "heavy-metals",
+        "lead"
+      ],
+      "stem": "A 3-year-old boy is brought to the emergency department after a generalized seizure. For 2 weeks he has vomited often, has been lethargic, and has walked unsteadily. His father works at a car battery recycling plant and comes home in his work clothes. Temperature is 37.0°C (98.6°F), pulse is 118/min, and blood pressure is 104/66 mm Hg. He is drowsy, and funduscopy shows papilledema. The blood lead level is very high. Which treatment is most appropriate?",
+      "choices": [
+        "Oral succimer alone",
+        "Deferoxamine",
+        "Intravenous hemin",
+        "Oral penicillamine",
+        "Dimercaprol followed by calcium disodium EDTA"
+      ],
+      "correct": 4,
+      "explanation": "Lead dust brought home from a battery plant, with vomiting, ataxia, a seizure and papilledema, points to **lead encephalopathy**. This severe form is treated with **dimercaprol** first and then **calcium disodium EDTA**; dimercaprol comes first because EDTA alone can shift lead into the brain. Oral succimer is tempting because it is the usual chelator in children, but it is used for milder poisoning without encephalopathy. Hemin treats acute intermittent porphyria, not lead.",
+      "explanation_pt": "Poeira de chumbo trazida de uma fábrica de baterias, com vômitos, ataxia, convulsão e papiledema, indica **encefalopatia por chumbo**. Essa forma grave é tratada com **dimercaprol** primeiro e depois **EDTA cálcico dissódico**; o dimercaprol vem antes porque o EDTA sozinho pode deslocar chumbo para o cérebro. O succímero oral é tentador por ser o quelante habitual em crianças, mas é usado na intoxicação mais leve, sem encefalopatia. A hemina trata a porfiria aguda intermitente, não o chumbo."
+    },
+    {
+      "slug": "q-toxicology-antidotes-iron-deferoxamine",
+      "track": "step1",
+      "system": "general-principles",
+      "discipline": "pharmacology",
+      "tags": [
+        "toxicology-antidotes",
+        "iron",
+        "heavy-metals"
+      ],
+      "stem": "A 2-year-old boy is brought to the emergency department 4 hours after he was found with his mother's open bottle of prenatal vitamins with iron. He has vomited several times, and the vomit contains blood. He has abdominal pain and bloody diarrhea. Pulse is 172/min, blood pressure is 68/40 mm Hg, capillary refill takes 4 seconds, and he breathes fast and deep. Serum bicarbonate is 13 mEq/L. An abdominal x-ray shows several radiopaque tablets in the stomach. Which antidote is most appropriate?",
+      "choices": [
+        "Deferoxamine",
+        "Succimer",
+        "Dimercaprol",
+        "N-acetylcysteine",
+        "Penicillamine"
+      ],
+      "correct": 0,
+      "explanation": "Bloody vomiting and diarrhea, shock, metabolic acidosis and **radiopaque pills** after a child swallows adult iron tablets suggest **iron poisoning**. Iron injures the gut lining directly and disrupts cell metabolism. **Deferoxamine** chelates free iron, and the complex is excreted in the urine. Succimer is tempting because it is an oral chelator used in children, but it is used for **lead**, not iron.",
+      "explanation_pt": "Vômitos e diarreia com sangue, choque, acidose metabólica e **comprimidos radiopacos** após uma criança ingerir comprimidos de ferro de adulto sugerem **intoxicação por ferro**. O ferro lesa diretamente a mucosa intestinal e altera o metabolismo celular. A **desferroxamina** quela o ferro livre, e o complexo é eliminado na urina. O succímero é tentador por ser um quelante oral usado em crianças, mas é usado para **chumbo**, não para ferro."
+    },
+    {
+      "slug": "q-toxicology-antidotes-beta-blocker-glucagon",
+      "track": "step1",
+      "system": "general-principles",
+      "discipline": "pharmacology",
+      "tags": [
+        "toxicology-antidotes",
+        "beta-blockers",
+        "glucagon"
+      ],
+      "stem": "A 58-year-old man with hypertension is brought to the emergency department after swallowing all of his metoprolol tablets. He is drowsy, and his skin is cool. Pulse is 36/min and regular, and blood pressure is 72/40 mm Hg. Serum glucose is 62 mg/dL. ECG shows sinus bradycardia with a prolonged PR interval. IV fluids and atropine do not help. He is given IV glucagon, and his heart rate and blood pressure improve. What is the mechanism of this antidote?",
+      "choices": [
+        "It displaces metoprolol from beta-1 receptors",
+        "It directly opens L-type calcium channels",
+        "It blocks muscarinic M2 receptors on the sinoatrial node",
+        "It activates its own Gs-coupled receptor on cardiac cells and raises cAMP",
+        "It inhibits the hepatic metabolism of metoprolol"
+      ],
+      "correct": 3,
+      "explanation": "In **beta-blocker overdose**, the beta receptors are occupied, so catecholamines cannot raise **cAMP** in the heart. **Glucagon** binds its own **Gs-coupled receptor** on cardiac myocytes, activates adenylyl cyclase, and raises cAMP, which increases heart rate and contractility. It does not compete for the beta receptor, so the idea that it displaces metoprolol is wrong. Blocking M2 receptors is how atropine works, and atropine already failed here.",
+      "explanation_pt": "Na **intoxicação por betabloqueador**, os receptores beta estão ocupados e as catecolaminas não conseguem aumentar o **AMPc** no coração. O **glucagon** se liga ao seu próprio **receptor acoplado à proteína Gs** nos miócitos cardíacos, ativa a adenilato ciclase e aumenta o AMPc, elevando a frequência cardíaca e a contratilidade. Ele não compete pelo receptor beta, então a ideia de que desloca o metoprolol está errada. Bloquear receptores M2 é o mecanismo da atropina, que já falhou aqui."
+    }
+  ],
+  "notes": [
+    {
+      "slug": "note-toxicology-antidotes-overview",
+      "track": "step1",
+      "system": "general-principles",
+      "discipline": "pharmacology",
+      "tags": [
+        "toxicology-antidotes",
+        "overview"
+      ],
+      "title": "Toxicology: toxidromes, antidotes and key poisonings",
+      "body_md": "## Toxidromes\n\n- **Cholinergic** (organophosphates): salivation, sweating, diarrhea, bronchorrhea, **miosis**, bradycardia, then muscle weakness.\n- **Anticholinergic**: hot, **dry** skin, mydriasis, urinary retention, delirium.\n- **Sympathomimetic** (cocaine, amphetamines): similar, but the skin is **sweaty**.\n- **Opioid**: coma, slow breathing, **pinpoint pupils**.\n- **Sedative-hypnotic**: sedation and slurred speech with normal or mildly low vital signs (barbiturates can stop breathing).\n- **Serotonin syndrome**: **clonus**, hyperreflexia, diarrhea.\n\n## Antidotes\n\n- Receptor level: **naloxone** (opioids), **flumazenil** (benzodiazepines), **physostigmine** (anticholinergics), **atropine** plus **pralidoxime** (organophosphates), **glucagon** (beta-blockers), **octreotide** (sulfonylureas).\n- Binders and chelators: **deferoxamine** (iron); **succimer**, or **dimercaprol** plus **EDTA** if severe (lead); dimercaprol or succimer (arsenic, mercury); **digoxin Fab**; **protamine** (heparin).\n- Others: **N-acetylcysteine** (acetaminophen), **fomepizole** (methanol, ethylene glycol), **sodium bicarbonate** (TCA), **vitamin K** plus **PCC** (warfarin), **methylene blue** (methemoglobin), **100% oxygen** (carbon monoxide), **hydroxocobalamin** or nitrites plus thiosulfate (cyanide).\n- **Flumazenil** can trigger seizures in long-term benzodiazepine users and in mixed overdoses.\n\n## Acetaminophen\n\n- First day: few symptoms. Days 2-3: rising transaminases. Days 3-4: peak liver injury, possible liver failure.\n- **Rumack-Matthew nomogram**: serum level against hours since one acute ingestion, from 4 hours on. Above the line, give N-acetylcysteine.\n\n## Salicylates\n\n- **Respiratory alkalosis** plus **anion-gap metabolic acidosis**; tinnitus, fever.\n- **Sodium bicarbonate** traps ionized salicylate in alkaline urine; dialysis if severe.\n\n## Toxic alcohols\n\n- High **osmolar gap** early, high **anion gap** later as acids form.\n- Methanol: vision loss. Ethylene glycol: **calcium oxalate** crystals, kidney injury. Isopropanol: osmolar gap and ketosis without acidosis.\n- Acid-base details: see the renal blocks.\n\n## Pointers\n\n- Carbon monoxide and cyanide: gas exchange and mitochondrial blocks.\n- Lead: heme block.\n- **Asbestos**, **silica**, **beryllium**: restrictive lung disease block.",
+      "body_pt_md": "## Síndromes tóxicas\n\n- **Colinérgica** (organofosforados): salivação, sudorese, diarreia, broncorreia, **miose**, bradicardia e depois fraqueza muscular.\n- **Anticolinérgica**: pele quente e **seca**, midríase, retenção urinária, delirium.\n- **Simpaticomimética** (cocaína, anfetaminas): semelhante, mas a pele fica **sudoreica**.\n- **Opioide**: coma, respiração lenta, **pupilas puntiformes**.\n- **Sedativo-hipnótica**: sedação e fala arrastada com sinais vitais normais ou pouco reduzidos (barbitúricos podem parar a respiração).\n- **Síndrome serotoninérgica**: **clônus**, hiper-reflexia, diarreia.\n\n## Antídotos\n\n- No receptor: **naloxona** (opioides), **flumazenil** (benzodiazepínicos), **fisostigmina** (anticolinérgicos), **atropina** mais **pralidoxima** (organofosforados), **glucagon** (betabloqueadores), **octreotida** (sulfonilureias).\n- Ligantes e quelantes: **desferroxamina** (ferro); **succímero**, ou **dimercaprol** mais **EDTA** nos casos graves (chumbo); dimercaprol ou succímero (arsênio, mercúrio); **Fab antidigoxina**; **protamina** (heparina).\n- Outros: **N-acetilcisteína** (paracetamol), **fomepizol** (metanol, etilenoglicol), **bicarbonato de sódio** (ADT), **vitamina K** mais **CCP** (varfarina), **azul de metileno** (metemoglobina), **oxigênio a 100%** (monóxido de carbono), **hidroxocobalamina** ou nitritos mais tiossulfato (cianeto).\n- O **flumazenil** pode desencadear convulsões em usuários crônicos de benzodiazepínicos e em intoxicações mistas.\n\n## Paracetamol\n\n- Primeiro dia: poucos sintomas. Dias 2-3: transaminases em alta. Dias 3-4: pico da lesão hepática, possível insuficiência hepática.\n- **Nomograma de Rumack-Matthew**: nível sérico versus horas desde uma ingestão aguda única, a partir de 4 horas. Acima da linha, dar N-acetilcisteína.\n\n## Salicilatos\n\n- **Alcalose respiratória** mais **acidose metabólica com ânion gap elevado**; zumbido, febre.\n- O **bicarbonato de sódio** aprisiona o salicilato ionizado na urina alcalina; diálise nos casos graves.\n\n## Álcoois tóxicos\n\n- **Gap osmolar** alto no início, **ânion gap** alto depois, à medida que os ácidos se formam.\n- Metanol: perda visual. Etilenoglicol: cristais de **oxalato de cálcio**, lesão renal. Isopropanol: gap osmolar e cetose sem acidose.\n- Detalhes de ácido-base: ver os blocos renais.\n\n## Referências cruzadas\n\n- Monóxido de carbono e cianeto: blocos de trocas gasosas e mitocôndria.\n- Chumbo: bloco do heme.\n- **Amianto (asbesto)**, **sílica**, **berílio**: bloco de doença pulmonar restritiva."
+    }
+  ]
+}

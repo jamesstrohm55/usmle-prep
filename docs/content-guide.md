@@ -10,7 +10,7 @@ Content lives in `supabase/seed/*.json`, one file per topic block, validated by 
 
 Every item has: `slug` (globally unique across ALL seed files), `track` (`"step1"`), `system`, `discipline`, `tags`.
 
-- `system`: `"cardiovascular"` for this slice.
+- `system`: the organ system or discipline area (e.g. `"cardiovascular"`, `"renal"`, `"microbiology"`).
 - `discipline` is one of: `anatomy`, `embryology`, `physiology`, `pathology`, `pharmacology`, `microbiology`.
 - `tags`: first tag is the block slug (e.g. `"heart-failure"`), then 1-3 subtopic tags.
 - Slugs: `card-<block>-<topic>`, `q-<block>-<topic>`, `note-<block>-<topic>`; lowercase, hyphens only.

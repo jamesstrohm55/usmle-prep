@@ -1,0 +1,221 @@
+{
+  "cards": [
+    {
+      "slug": "card-antimicrobial-pharmacology-beta-lactam-resistance",
+      "track": "step1",
+      "system": "microbiology",
+      "discipline": "pharmacology",
+      "tags": [
+        "antimicrobial-pharmacology",
+        "cell-wall",
+        "resistance"
+      ],
+      "front": "How do beta-lactams kill bacteria, and what are the two main ways bacteria resist them?",
+      "back": "Beta-lactams bind **penicillin-binding proteins (PBPs)**, the transpeptidases that cross-link peptidoglycan. Resistance: **beta-lactamases** cut the beta-lactam ring (blocked by **clavulanate**, **sulbactam**, **tazobactam**), or **altered PBPs** bind the drug poorly (e.g., **PBP2a** in MRSA).",
+      "back_pt": "Os betalactâmicos se ligam às **proteínas ligadoras de penicilina (PBPs)**, as transpeptidases que fazem as ligações cruzadas do peptidoglicano. Resistência: **betalactamases** clivam o anel betalactâmico (bloqueadas por **clavulanato**, **sulbactam**, **tazobactam**) ou **PBPs alteradas** se ligam mal ao fármaco (ex.: **PBP2a** no MRSA)."
+    },
+    {
+      "slug": "card-antimicrobial-pharmacology-vancomycin",
+      "track": "step1",
+      "system": "microbiology",
+      "discipline": "pharmacology",
+      "tags": [
+        "antimicrobial-pharmacology",
+        "cell-wall",
+        "vancomycin"
+      ],
+      "front": "How does vancomycin work, how does VRE resist it, and what causes vancomycin flushing?",
+      "back": "Vancomycin binds the **D-Ala-D-Ala** end of cell-wall precursors and blocks their polymerization. **VRE** changes this end to **D-Ala-D-Lac**. Rapid infusion releases **histamine** directly from mast cells (not IgE): upper-body flushing (**red man syndrome**).",
+      "back_pt": "A vancomicina se liga à extremidade **D-Ala-D-Ala** dos precursores da parede celular e bloqueia sua polimerização. O **VRE** (enterococo resistente à vancomicina) troca essa extremidade por **D-Ala-D-Lac**. A infusão rápida libera **histamina** diretamente dos mastócitos (sem IgE): rubor na parte superior do corpo (**síndrome do homem vermelho**)."
+    },
+    {
+      "slug": "card-antimicrobial-pharmacology-aminoglycoside-uptake",
+      "track": "step1",
+      "system": "microbiology",
+      "discipline": "pharmacology",
+      "tags": [
+        "antimicrobial-pharmacology",
+        "protein-synthesis",
+        "aminoglycosides"
+      ],
+      "front": "Why do aminoglycosides not work against anaerobes, and why are they paired with cell-wall drugs?",
+      "back": "Aminoglycosides (which bind the **30S** subunit) enter bacteria by an **oxygen-dependent** transport, so anaerobes do not take them up. A **cell-wall inhibitor** (beta-lactam or vancomycin) increases their entry: **synergy**, e.g., in enterococcal endocarditis.",
+      "back_pt": "Os aminoglicosídeos (que se ligam à subunidade **30S**) entram na bactéria por um transporte **dependente de oxigênio**, por isso os anaeróbios não os captam. Um **inibidor da parede celular** (betalactâmico ou vancomicina) aumenta sua entrada: **sinergismo**, ex.: na endocardite por enterococo."
+    },
+    {
+      "slug": "card-antimicrobial-pharmacology-tetracyclines",
+      "track": "step1",
+      "system": "microbiology",
+      "discipline": "pharmacology",
+      "tags": [
+        "antimicrobial-pharmacology",
+        "protein-synthesis",
+        "tetracyclines"
+      ],
+      "front": "Which three classic problems limit the use of tetracyclines?",
+      "back": "**Chelation**: calcium, magnesium, iron and antacids block absorption. **Teeth and bone**: the drug deposits in growing teeth and bone, so it is generally avoided in children under 8 and in pregnancy. **Photosensitivity**: an exaggerated sunburn-like rash.",
+      "back_pt": "**Quelação**: cálcio, magnésio, ferro e antiácidos bloqueiam a absorção. **Dentes e ossos**: o fármaco se deposita em dentes e ossos em crescimento, por isso geralmente é evitado em menores de 8 anos e na gestação. **Fotossensibilidade**: erupção exagerada, semelhante a queimadura solar."
+    },
+    {
+      "slug": "card-antimicrobial-pharmacology-linezolid",
+      "track": "step1",
+      "system": "microbiology",
+      "discipline": "pharmacology",
+      "tags": [
+        "antimicrobial-pharmacology",
+        "protein-synthesis",
+        "linezolid"
+      ],
+      "front": "What are the main adverse effects of linezolid?",
+      "back": "Linezolid binds the **50S** subunit and blocks the initiation complex. It is a weak **MAO inhibitor**, so it can cause **serotonin syndrome** with SSRIs. Longer courses cause **myelosuppression** (especially **thrombocytopenia**) and **peripheral and optic neuropathy**.",
+      "back_pt": "A linezolida se liga à subunidade **50S** e bloqueia o complexo de iniciação. É um **inibidor fraco da MAO**, por isso pode causar **síndrome serotoninérgica** com ISRS. Tratamentos prolongados causam **mielossupressão** (sobretudo **trombocitopenia**) e **neuropatia periférica e óptica**."
+    },
+    {
+      "slug": "card-antimicrobial-pharmacology-tb-drug-toxicities",
+      "track": "step1",
+      "system": "microbiology",
+      "discipline": "pharmacology",
+      "tags": [
+        "antimicrobial-pharmacology",
+        "antimycobacterial",
+        "adverse-effects"
+      ],
+      "front": "What is the classic adverse effect of each first-line TB drug?",
+      "back": "**Isoniazid**: peripheral neuropathy (prevented with **vitamin B6**) and hepatitis. **Rifampin**: **orange** urine and tears; strong **CYP450 inducer**. **Pyrazinamide**: **hyperuricemia** (gout) and hepatitis. **Ethambutol**: **optic neuritis** with loss of red-green color vision.",
+      "back_pt": "**Isoniazida**: neuropatia periférica (prevenida com **vitamina B6**) e hepatite. **Rifampicina**: urina e lágrimas **alaranjadas**; potente **indutor do CYP450**. **Pirazinamida**: **hiperuricemia** (gota) e hepatite. **Etambutol**: **neurite óptica** com perda da visão de cores vermelho-verde."
+    },
+    {
+      "slug": "card-antimicrobial-pharmacology-antifungal-targets",
+      "track": "step1",
+      "system": "microbiology",
+      "discipline": "pharmacology",
+      "tags": [
+        "antimicrobial-pharmacology",
+        "antifungals",
+        "mechanism"
+      ],
+      "front": "Where do amphotericin B, azoles and echinocandins act?",
+      "back": "**Amphotericin B** binds **ergosterol** and forms pores in the fungal membrane. **Azoles** block fungal **14α-demethylase**, so ergosterol is not made; they also inhibit human **CYP450** enzymes. **Echinocandins** (caspofungin) block **β-1,3-glucan** synthesis in the cell wall.",
+      "back_pt": "A **anfotericina B** se liga ao **ergosterol** e forma poros na membrana fúngica. Os **azólicos** bloqueiam a **14α-desmetilase** fúngica, e o ergosterol não é produzido; também inibem enzimas **CYP450** humanas. As **equinocandinas** (caspofungina) bloqueiam a síntese de **β-1,3-glucana** da parede celular."
+    },
+    {
+      "slug": "card-antimicrobial-pharmacology-acyclovir-foscarnet",
+      "track": "step1",
+      "system": "microbiology",
+      "discipline": "pharmacology",
+      "tags": [
+        "antimicrobial-pharmacology",
+        "antivirals",
+        "resistance"
+      ],
+      "front": "Why does acyclovir act mainly in herpes-infected cells, and what is used when HSV becomes resistant?",
+      "back": "**Viral thymidine kinase** adds the first phosphate to acyclovir; host kinases finish the activation, and the drug blocks viral DNA polymerase. Resistance usually means a **thymidine kinase mutation**. **Foscarnet** needs no activation; it causes **nephrotoxicity** and low **calcium** and **magnesium**.",
+      "back_pt": "A **timidina quinase viral** adiciona o primeiro fosfato ao aciclovir; quinases do hospedeiro completam a ativação, e o fármaco bloqueia a DNA polimerase viral. A resistência geralmente significa **mutação da timidina quinase**. O **foscarnete** não precisa de ativação; causa **nefrotoxicidade** e **cálcio** e **magnésio** baixos."
+    }
+  ],
+  "questions": [
+    {
+      "slug": "q-antimicrobial-pharmacology-metronidazole-alcohol",
+      "track": "step1",
+      "system": "microbiology",
+      "discipline": "pharmacology",
+      "tags": [
+        "antimicrobial-pharmacology",
+        "metronidazole",
+        "adverse-effects"
+      ],
+      "stem": "A 29-year-old woman has a thin, gray vaginal discharge with a fishy odor. Microscopy shows clue cells, and she starts an oral antibiotic. Two days later she drinks wine at a party. Within 30 minutes she has facial flushing, a throbbing headache, nausea, vomiting and palpitations. Pulse is 118/min and blood pressure is 102/64 mm Hg. She has no hives or wheezing. Which mechanism best explains her reaction?",
+      "choices": [
+        "Inhibition of alcohol dehydrogenase",
+        "IgE-mediated mast cell degranulation",
+        "Inhibition of aldehyde dehydrogenase with acetaldehyde buildup",
+        "Inhibition of monoamine oxidase with tyramine buildup",
+        "Induction of CYP2E1 with faster ethanol oxidation"
+      ],
+      "correct": 2,
+      "explanation": "Bacterial vaginosis is treated with **metronidazole**, which causes a **disulfiram-like reaction** with alcohol. **Acetaldehyde** is thought to build up because **aldehyde dehydrogenase** is inhibited, causing flushing, headache, vomiting and tachycardia. Blocking alcohol dehydrogenase (the action of fomepizole) would do the opposite: less acetaldehyde would be made. An IgE reaction would not depend on alcohol and would usually bring hives or wheezing.",
+      "explanation_pt": "A vaginose bacteriana é tratada com **metronidazol**, que causa **reação semelhante à do dissulfiram** com álcool. Acredita-se que o **acetaldeído** se acumule porque a **aldeído desidrogenase** é inibida, causando rubor, cefaleia, vômitos e taquicardia. Bloquear a álcool desidrogenase (ação do fomepizol) teria o efeito oposto: menos acetaldeído seria formado. Uma reação IgE não dependeria do álcool e geralmente traria urticária ou sibilância."
+    },
+    {
+      "slug": "q-antimicrobial-pharmacology-fluoroquinolone-tendon",
+      "track": "step1",
+      "system": "microbiology",
+      "discipline": "pharmacology",
+      "tags": [
+        "antimicrobial-pharmacology",
+        "fluoroquinolones",
+        "adverse-effects"
+      ],
+      "stem": "A 74-year-old man with COPD is taking oral prednisone for an exacerbation. He is also given levofloxacin for a suspected bacterial infection. Five days later, while climbing stairs, he feels a sudden snap at the back of his left ankle. He cannot rise onto his toes on that side, and squeezing the left calf does not cause plantar flexion of the foot. What is the antibacterial mechanism of the drug that most likely caused this injury?",
+      "choices": [
+        "Inhibition of DNA gyrase and topoisomerase IV",
+        "Binding to penicillin-binding proteins",
+        "Binding to the 30S subunit with misreading of mRNA",
+        "Blocking of translocation at the 50S subunit",
+        "Inhibition of dihydropteroate synthase"
+      ],
+      "correct": 0,
+      "explanation": "This is an **Achilles tendon rupture** caused by **levofloxacin**, a **fluoroquinolone**. Fluoroquinolones block **DNA gyrase** (topoisomerase II) and **topoisomerase IV**, so supercoiling ahead of the replication fork is not relieved and new DNA copies cannot be separated. **Older age** and **corticosteroids** raise the risk of tendon injury. Macrolides, also used in COPD exacerbations, block translocation at the 50S subunit and are linked to QT prolongation, not tendon rupture.",
+      "explanation_pt": "Trata-se de **ruptura do tendão do calcâneo** (tendão de Aquiles) causada pela **levofloxacina**, uma **fluoroquinolona**. As fluoroquinolonas bloqueiam a **DNA girase** (topoisomerase II) e a **topoisomerase IV**; assim, o superenrolamento à frente da forquilha de replicação não é aliviado e as novas cópias de DNA não podem ser separadas. **Idade avançada** e **corticosteroides** aumentam o risco de lesão tendínea. Os macrolídeos, também usados na exacerbação da DPOC, bloqueiam a translocação na subunidade 50S e se associam a prolongamento do QT, não a ruptura de tendão."
+    },
+    {
+      "slug": "q-antimicrobial-pharmacology-gray-baby",
+      "track": "step1",
+      "system": "microbiology",
+      "discipline": "pharmacology",
+      "tags": [
+        "antimicrobial-pharmacology",
+        "chloramphenicol",
+        "neonates"
+      ],
+      "stem": "A 6-day-old boy born at 33 weeks' gestation is in the neonatal unit. He is treated with an antibiotic for bacterial meningitis. After 3 days of treatment, he feeds poorly, vomits and becomes limp. His skin is ashen gray, he is cyanotic, and his abdomen is distended. Blood pressure is 48/24 mm Hg, and blood gas shows metabolic acidosis. Which factor best explains why this drug caused toxicity in this patient?",
+      "choices": [
+        "Displacement of bilirubin from albumin",
+        "Immature blood-brain barrier",
+        "High proportion of fetal hemoglobin",
+        "Low gastric acid production",
+        "Deficient hepatic glucuronidation of the drug"
+      ],
+      "correct": 4,
+      "explanation": "This is **gray baby syndrome** from **chloramphenicol**. Newborns, especially preterm ones, have low **UDP-glucuronosyltransferase** activity and weak renal excretion, so the drug accumulates. It disturbs mitochondrial function in heart and muscle, causing shock, cyanosis and acidosis. Displacement of bilirubin from albumin (by sulfonamides) causes **kernicterus**, a different neonatal drug toxicity with jaundice and neurologic signs.",
+      "explanation_pt": "Trata-se da **síndrome do bebê cinzento** pelo **cloranfenicol**. Recém-nascidos, sobretudo prematuros, têm baixa atividade da **UDP-glicuronosiltransferase** e excreção renal reduzida, e o fármaco se acumula. Ele altera a função mitocondrial do coração e dos músculos, causando choque, cianose e acidose. O deslocamento da bilirrubina da albumina (pelas sulfonamidas) causa **kernicterus**, outra toxicidade neonatal, com icterícia e sinais neurológicos."
+    },
+    {
+      "slug": "q-antimicrobial-pharmacology-ganciclovir-marrow",
+      "track": "step1",
+      "system": "microbiology",
+      "discipline": "pharmacology",
+      "tags": [
+        "antimicrobial-pharmacology",
+        "antivirals",
+        "cmv"
+      ],
+      "stem": "A 38-year-old man with HIV has blurred vision and floaters in his right eye. He stopped his antiretroviral drugs 1 year ago and takes no medications. His CD4 count is 30/μL. Funduscopy shows fluffy yellow-white retinal lesions with hemorrhages along the vessels. Blood counts, creatinine and electrolytes are normal. An intravenous antiviral is started for the eye disease. Ten days later, his absolute neutrophil count is 600/μL and platelets are 62,000/μL. Creatinine, calcium and magnesium are still normal. Which drug was most likely started?",
+      "choices": [
+        "Foscarnet",
+        "Ganciclovir",
+        "Acyclovir",
+        "Oseltamivir",
+        "Cidofovir"
+      ],
+      "correct": 1,
+      "explanation": "Fluffy retinal lesions with hemorrhages and a very low CD4 count mean **CMV retinitis**. **Ganciclovir** is first phosphorylated by a CMV kinase (UL97), and its main toxicity is **bone marrow suppression** (neutropenia, thrombocytopenia). **Foscarnet** and **cidofovir** are mainly **nephrotoxic**, and foscarnet also lowers calcium and magnesium; cidofovir can lower neutrophils, but normal creatinine and electrolytes argue against both. Acyclovir is not reliably active against CMV.",
+      "explanation_pt": "Lesões retinianas branco-amareladas com hemorragias ao longo dos vasos e CD4 muito baixo indicam **retinite por CMV**. O **ganciclovir** é fosforilado primeiro por uma quinase do CMV (UL97), e sua principal toxicidade é a **supressão medular** (neutropenia, trombocitopenia). O **foscarnete** e o **cidofovir** são principalmente **nefrotóxicos**, e o foscarnete também reduz cálcio e magnésio; o cidofovir pode reduzir neutrófilos, mas creatinina e eletrólitos normais falam contra ambos. O aciclovir não é confiavelmente ativo contra o CMV."
+    }
+  ],
+  "notes": [
+    {
+      "slug": "note-antimicrobial-pharmacology-overview",
+      "track": "step1",
+      "system": "microbiology",
+      "discipline": "pharmacology",
+      "tags": [
+        "antimicrobial-pharmacology",
+        "overview"
+      ],
+      "title": "Antimicrobial pharmacology: targets, gaps and key toxicities",
+      "body_md": "## Cell-wall drugs\n\n- **Penicillins** and **cephalosporins** bind **PBPs**. Resistance: beta-lactamases or altered PBPs (MRSA).\n- **Penicillin allergy** is often **type I** (IgE): hives, anaphylaxis. Cross-reactivity with cephalosporins is low; **aztreonam** is usually safe.\n- **Cephalosporins** miss **Listeria**, **atypicals**, **MRSA** (except **ceftaroline**) and **enterococci**.\n- **Carbapenems**: very broad spectrum; **seizures** (imipenem).\n- **Vancomycin**: infusion flushing and **nephrotoxicity**.\n\n## Protein synthesis\n\n- **30S**: **aminoglycosides** (kidney and ear toxicity, no anaerobes); **tetracyclines** (chelation, teeth, photosensitivity).\n- **50S**: **macrolides** (QT prolongation; erythromycin and clarithromycin inhibit **CYP3A4**); **clindamycin** (*C. difficile*); **chloramphenicol** (**aplastic anemia**, gray baby); **linezolid** (serotonin syndrome, low platelets).\n\n## Folate and DNA\n\n- **TMP-SMX** blocks two steps of folate synthesis. Trimethoprim blocks **ENaC** (**hyperkalemia**); sulfonamides cause hemolysis in **G6PD deficiency** and **kernicterus** in newborns.\n- **Fluoroquinolones**: **tendon rupture**, QT prolongation; generally avoided in children (cartilage).\n- **Metronidazole**: anaerobes and protozoa; **disulfiram-like** reaction.\n- **Nitrofurantoin**: lower urinary tract only.\n\n## Mycobacteria\n\n- Isoniazid, rifampin, pyrazinamide, ethambutol together. **Dapsone**: hemolysis and **methemoglobinemia**.\n\n## Fungi\n\n- **Amphotericin B**: fever and chills (premedicate) and nephrotoxicity. **Azoles**: CYP inhibition, hepatotoxicity. **Nystatin**: topical only. **Flucytosine**: marrow suppression.\n\n## Viruses\n\n- **Acyclovir** (HSV, VZV), **ganciclovir** (CMV; marrow), **foscarnet**, **oseltamivir** (neuraminidase).\n- HIV: **NRTIs** (tenofovir: kidney; zidovudine: anemia; abacavir: hypersensitivity with **HLA-B 57:01**), **NNRTIs** (efavirenz: vivid dreams), **protease inhibitors** (ritonavir inhibits CYP3A4; hyperglycemia, lipodystrophy), **integrase inhibitors**, **enfuvirtide** (fusion), **maraviroc** (CCR5).\n\n## Parasites\n\n- **Chloroquine**; **primaquine** kills liver hypnozoites (*P. vivax*, *P. ovale*) and needs a G6PD test; **artemisinins** for *P. falciparum*.\n- **Ivermectin** (strongyloides, scabies), **albendazole** (tubulin), **praziquantel** (flukes, tapeworms).\n\n## Principles\n\n- **Combination therapy** prevents resistance (TB, HIV) and can give **synergy**.",
+      "body_pt_md": "## Fármacos da parede celular\n\n- **Penicilinas** e **cefalosporinas** se ligam às **PBPs**. Resistência: betalactamases ou PBPs alteradas (MRSA).\n- A **alergia à penicilina** geralmente é do **tipo I** (IgE): urticária, anafilaxia. A reação cruzada com cefalosporinas é baixa; o **aztreonam** geralmente é seguro.\n- As **cefalosporinas** não cobrem **Listeria**, **atípicos**, **MRSA** (exceto a **ceftarolina**) nem **enterococos**.\n- **Carbapenêmicos**: espectro muito amplo; **convulsões** (imipenem).\n- **Vancomicina**: rubor na infusão e **nefrotoxicidade**.\n\n## Síntese proteica\n\n- **30S**: **aminoglicosídeos** (toxicidade renal e auditiva, sem ação em anaeróbios); **tetraciclinas** (quelação, dentes, fotossensibilidade).\n- **50S**: **macrolídeos** (prolongamento do QT; eritromicina e claritromicina inibem o **CYP3A4**); **clindamicina** (*C. difficile*); **cloranfenicol** (**anemia aplásica**, bebê cinzento); **linezolida** (síndrome serotoninérgica, plaquetas baixas).\n\n## Folato e DNA\n\n- **SMX-TMP** bloqueia duas etapas da síntese de folato. A trimetoprima bloqueia o **ENaC** (**hipercalemia**); as sulfonamidas causam hemólise na **deficiência de G6PD** e **kernicterus** no recém-nascido.\n- **Fluoroquinolonas**: **ruptura de tendão**, prolongamento do QT; geralmente evitadas em crianças (cartilagem).\n- **Metronidazol**: anaeróbios e protozoários; reação **semelhante à do dissulfiram**.\n- **Nitrofurantoína**: apenas trato urinário inferior.\n\n## Micobactérias\n\n- Isoniazida, rifampicina, pirazinamida e etambutol em conjunto. **Dapsona**: hemólise e **meta-hemoglobinemia**.\n\n## Fungos\n\n- **Anfotericina B**: febre e calafrios (pré-medicar) e nefrotoxicidade. **Azólicos**: inibição do CYP, hepatotoxicidade. **Nistatina**: apenas tópica. **Flucitosina**: supressão medular.\n\n## Vírus\n\n- **Aciclovir** (HSV, VZV), **ganciclovir** (CMV; medula), **foscarnete**, **oseltamivir** (neuraminidase).\n- HIV: **ITRN** (tenofovir: rim; zidovudina: anemia; abacavir: hipersensibilidade com **HLA-B 57:01**), **ITRNN** (efavirenz: sonhos vívidos), **inibidores de protease** (o ritonavir inibe o CYP3A4; hiperglicemia, lipodistrofia), **inibidores de integrase**, **enfuvirtida** (fusão), **maraviroque** (CCR5).\n\n## Parasitos\n\n- **Cloroquina**; a **primaquina** elimina os hipnozoítos hepáticos (*P. vivax*, *P. ovale*) e exige teste de G6PD; **artemisininas** para *P. falciparum*.\n- **Ivermectina** (estrongiloidíase, escabiose), **albendazol** (tubulina), **praziquantel** (trematódeos, tênias).\n\n## Princípios\n\n- A **terapia combinada** evita resistência (TB, HIV) e pode gerar **sinergismo**."
+    }
+  ]
+}

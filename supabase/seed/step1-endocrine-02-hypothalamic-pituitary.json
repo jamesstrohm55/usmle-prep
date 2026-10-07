@@ -1,0 +1,222 @@
+{
+  "cards": [
+    {
+      "slug": "card-hypothalamic-pituitary-releasing-hormones",
+      "track": "step1",
+      "system": "endocrine",
+      "discipline": "physiology",
+      "tags": [
+        "hypothalamic-pituitary",
+        "axes"
+      ],
+      "front": "Which hypothalamic hormone controls each anterior pituitary hormone?",
+      "back": "**TRH** → TSH (and prolactin). **CRH** → ACTH. **GnRH** → FSH and LH. **GHRH** → GH. **Somatostatin** inhibits GH and TSH. **Dopamine** inhibits prolactin. They reach the anterior pituitary through the **hypophyseal portal veins**.",
+      "back_pt": "**TRH** → TSH (e prolactina). **CRH** → ACTH. **GnRH** → FSH e LH. **GHRH** → GH. A **somatostatina** inibe GH e TSH. A **dopamina** inibe a prolactina. Eles chegam à adeno-hipófise pelas **veias porta-hipofisárias**."
+    },
+    {
+      "slug": "card-hypothalamic-pituitary-posterior-pituitary-adh",
+      "track": "step1",
+      "system": "endocrine",
+      "discipline": "physiology",
+      "tags": [
+        "hypothalamic-pituitary",
+        "posterior-pituitary",
+        "adh"
+      ],
+      "front": "Where are ADH and oxytocin made, and what do the two ADH receptors do?",
+      "back": "Both are made in the **supraoptic** and **paraventricular nuclei** of the hypothalamus (ADH mainly supraoptic, oxytocin mainly paraventricular). They are stored in and released from the **posterior pituitary**. ADH acts on **V1** receptors (**vasoconstriction**) and **V2** receptors (**water reabsorption** in the collecting duct).",
+      "back_pt": "Ambos são produzidos nos **núcleos supraóptico** e **paraventricular** do hipotálamo (o ADH principalmente no supraóptico, a ocitocina principalmente no paraventricular). São armazenados e liberados na **neuro-hipófise**. O ADH age em receptores **V1** (**vasoconstrição**) e **V2** (**reabsorção de água** no ducto coletor)."
+    },
+    {
+      "slug": "card-hypothalamic-pituitary-oxytocin",
+      "track": "step1",
+      "system": "endocrine",
+      "discipline": "physiology",
+      "tags": [
+        "hypothalamic-pituitary",
+        "posterior-pituitary",
+        "oxytocin"
+      ],
+      "front": "What does oxytocin do, and what kind of feedback controls it during labor?",
+      "back": "**Oxytocin** contracts the **uterus** and the **myoepithelial cells** of the breast (**milk letdown** when the baby suckles). In labor, cervical stretch releases oxytocin, which causes stronger contractions and more stretch: a classic **positive feedback** loop.",
+      "back_pt": "A **ocitocina** contrai o **útero** e as **células mioepiteliais** da mama (**ejeção do leite** quando o bebê suga). No trabalho de parto, a distensão do colo uterino libera ocitocina, que gera contrações mais fortes e mais distensão: um exemplo clássico de **feedback positivo**."
+    },
+    {
+      "slug": "card-hypothalamic-pituitary-prolactin-dopamine",
+      "track": "step1",
+      "system": "endocrine",
+      "discipline": "physiology",
+      "tags": [
+        "hypothalamic-pituitary",
+        "prolactin",
+        "drug-effects"
+      ],
+      "front": "Why do antipsychotics, metoclopramide and compression of the pituitary stalk raise prolactin?",
+      "back": "Hypothalamic **dopamine** tonically inhibits prolactin through **D2 receptors** on lactotrophs. **D2 blockers** (antipsychotics, metoclopramide) or a compressed **pituitary stalk** remove this brake, so prolactin rises.",
+      "back_pt": "A **dopamina** hipotalâmica inibe de forma tônica a prolactina por meio de **receptores D2** nos lactotrofos. **Bloqueadores D2** (antipsicóticos, metoclopramida) ou a compressão da **haste hipofisária** retiram esse freio, e a prolactina sobe."
+    },
+    {
+      "slug": "card-hypothalamic-pituitary-prolactinoma-treatment",
+      "track": "step1",
+      "system": "endocrine",
+      "discipline": "pharmacology",
+      "tags": [
+        "hypothalamic-pituitary",
+        "prolactin",
+        "prolactinoma"
+      ],
+      "front": "What is the first-line treatment for most prolactinomas, and how does it work?",
+      "back": "**Dopamine agonists** (**cabergoline**, bromocriptine). They stimulate D2 receptors on the tumor cells. This lowers prolactin and usually **shrinks the tumor**, even a macroadenoma. Surgery is mainly for patients who do not tolerate or respond to these drugs.",
+      "back_pt": "**Agonistas dopaminérgicos** (**cabergolina**, bromocriptina). Eles estimulam os receptores D2 das células tumorais. Isso reduz a prolactina e geralmente **reduz o tumor**, mesmo um macroadenoma. A cirurgia fica principalmente para quem não tolera ou não responde a esses fármacos."
+    },
+    {
+      "slug": "card-hypothalamic-pituitary-acromegaly-features",
+      "track": "step1",
+      "system": "endocrine",
+      "discipline": "pathology",
+      "tags": [
+        "hypothalamic-pituitary",
+        "growth-hormone",
+        "acromegaly"
+      ],
+      "front": "What are the classic findings of acromegaly in an adult?",
+      "back": "**Coarse facial features**, a large jaw with spaced teeth, **enlarged hands and feet**, a large tongue, sweating, **insulin resistance**, and **cardiomyopathy** (a major cause of death). The risk of **colon polyps** and colon cancer is also higher.",
+      "back_pt": "**Feições faciais grosseiras**, mandíbula grande com dentes espaçados, **mãos e pés aumentados**, língua grande, sudorese, **resistência à insulina** e **cardiomiopatia** (importante causa de morte). O risco de **pólipos de cólon** e câncer de cólon também é maior."
+    },
+    {
+      "slug": "card-hypothalamic-pituitary-pituitary-apoplexy",
+      "track": "step1",
+      "system": "endocrine",
+      "discipline": "pathology",
+      "tags": [
+        "hypothalamic-pituitary",
+        "hypopituitarism",
+        "apoplexy"
+      ],
+      "front": "What is pituitary apoplexy, and why is it an emergency?",
+      "back": "Sudden **hemorrhage or infarction** of the pituitary, usually into an existing adenoma. It causes a **sudden severe headache**, visual loss and eye movement palsies (cavernous sinus nerves). Acute **ACTH deficiency** can cause shock, so it needs urgent **glucocorticoids**.",
+      "back_pt": "**Hemorragia ou infarto** súbito da hipófise, geralmente dentro de um adenoma já existente. Causa **cefaleia súbita e intensa**, perda visual e paralisias oculomotoras (nervos do seio cavernoso). A **deficiência aguda de ACTH** pode causar choque, por isso exige **glicocorticoide** com urgência."
+    },
+    {
+      "slug": "card-hypothalamic-pituitary-craniopharyngioma",
+      "track": "step1",
+      "system": "endocrine",
+      "discipline": "pathology",
+      "tags": [
+        "hypothalamic-pituitary",
+        "mass-effect",
+        "craniopharyngioma"
+      ],
+      "front": "A child has a calcified, cystic suprasellar mass (craniopharyngioma). Which structures can it compress, and what does each cause?",
+      "back": "**Optic chiasm** → **bitemporal hemianopia**. **Anterior pituitary** → **growth failure** (GH loss) and delayed puberty. **Hypothalamus or stalk** → **central DI**, obesity, and mildly high prolactin. It arises from **Rathke pouch** remnants.",
+      "back_pt": "**Quiasma óptico** → **hemianopsia bitemporal**. **Adeno-hipófise** → **déficit de crescimento** (perda de GH) e puberdade atrasada. **Hipotálamo ou haste** → **DI central**, obesidade e prolactina levemente alta. Origina-se de restos da **bolsa de Rathke**."
+    }
+  ],
+  "questions": [
+    {
+      "slug": "q-hypothalamic-pituitary-prolactinoma",
+      "track": "step1",
+      "system": "endocrine",
+      "discipline": "pharmacology",
+      "tags": [
+        "hypothalamic-pituitary",
+        "prolactin",
+        "prolactinoma"
+      ],
+      "stem": "A 28-year-old woman has had no menstrual periods for 7 months. She notices a milky discharge from both nipples. She takes no medications. A urine pregnancy test is negative. TSH and free T4 are normal. Serum prolactin is markedly elevated. MRI shows an 8-mm mass in the sella turcica. Visual fields are normal. Which drug is the most appropriate treatment?",
+      "choices": [
+        "Octreotide",
+        "Levothyroxine",
+        "Cabergoline",
+        "Metoclopramide",
+        "Pegvisomant"
+      ],
+      "correct": 2,
+      "explanation": "This is a **prolactinoma**. High prolactin suppresses **GnRH**, which causes amenorrhea, and it also causes **galactorrhea**. A **dopamine agonist** such as cabergoline lowers prolactin and shrinks the tumor. Octreotide, a somatostatin analog, is used for **acromegaly**, not prolactinoma. Metoclopramide blocks D2 receptors and would raise prolactin further.",
+      "explanation_pt": "Trata-se de um **prolactinoma**. A prolactina alta suprime o **GnRH**, o que causa amenorreia, e também causa **galactorreia**. Um **agonista dopaminérgico** como a cabergolina reduz a prolactina e o tumor. A octreotida, um análogo da somatostatina, é usada na **acromegalia**, não no prolactinoma. A metoclopramida bloqueia receptores D2 e aumentaria ainda mais a prolactina."
+    },
+    {
+      "slug": "q-hypothalamic-pituitary-acromegaly-diagnosis",
+      "track": "step1",
+      "system": "endocrine",
+      "discipline": "physiology",
+      "tags": [
+        "hypothalamic-pituitary",
+        "growth-hormone",
+        "acromegaly",
+        "diagnosis"
+      ],
+      "stem": "A 47-year-old man says his wedding ring no longer fits and his shoe size has increased. His wife says his face has changed over the past few years. He sweats a lot and snores loudly. Blood pressure is 152/94 mm Hg. Exam shows a large jaw, widely spaced teeth, a large tongue and thick, doughy hands. Fasting glucose is 128 mg/dL. Serum IGF-1 is elevated. Which test is most appropriate to confirm the diagnosis?",
+      "choices": [
+        "A single random serum GH level",
+        "Overnight dexamethasone suppression test",
+        "Insulin tolerance test with GH measurement",
+        "Serum prolactin level",
+        "Oral glucose tolerance test with GH measurement"
+      ],
+      "correct": 4,
+      "explanation": "The findings and high **IGF-1** suggest **acromegaly**. In healthy people, an **oral glucose load suppresses GH**. In acromegaly, GH stays high. A single random GH level is tempting, but GH is released in **pulses**, so one value can be high or normal by chance. An insulin tolerance test stimulates GH and is used to look for **GH deficiency**, not excess.",
+      "explanation_pt": "Os achados e o **IGF-1** alto sugerem **acromegalia**. Em pessoas saudáveis, uma **sobrecarga oral de glicose suprime o GH**. Na acromegalia, o GH continua alto. Uma dosagem aleatória de GH é tentadora, mas o GH é secretado em **pulsos**, e um valor isolado pode estar alto ou normal por acaso. O teste de tolerância à insulina estimula o GH e serve para investigar **deficiência de GH**, não excesso."
+    },
+    {
+      "slug": "q-hypothalamic-pituitary-sheehan-syndrome",
+      "track": "step1",
+      "system": "endocrine",
+      "discipline": "pathology",
+      "tags": [
+        "hypothalamic-pituitary",
+        "hypopituitarism",
+        "sheehan-syndrome"
+      ],
+      "stem": "A 32-year-old woman comes to the clinic 4 months after delivering her second child. The delivery was complicated by severe postpartum hemorrhage, and she needed several units of blood. She has not been able to breastfeed because no milk came in. She feels tired and dizzy when she stands up. Her periods have not returned. Blood pressure is 96/60 mm Hg. Morning cortisol and ACTH are both low. Free T4 is low and TSH is not elevated. Which is the most likely cause of her condition?",
+      "choices": [
+        "Lymphocytic hypophysitis",
+        "Ischemic necrosis of the pituitary gland",
+        "Postpartum thyroiditis",
+        "Primary adrenal insufficiency",
+        "Prolactin-secreting pituitary adenoma"
+      ],
+      "correct": 1,
+      "explanation": "This is **Sheehan syndrome**. The pituitary enlarges during pregnancy, and severe blood loss with hypotension causes **ischemic necrosis**. **Failure to lactate** is often the first sign, followed by loss of ACTH, TSH and gonadotropins. Lymphocytic hypophysitis also occurs around pregnancy, but it is autoimmune, often causes headache and a sellar mass, and does not need a hemorrhage. Primary adrenal insufficiency would have a **high ACTH**.",
+      "explanation_pt": "Trata-se da **síndrome de Sheehan**. A hipófise aumenta na gestação, e a perda sanguínea grave com hipotensão causa **necrose isquêmica**. A **falha da lactação** costuma ser o primeiro sinal, seguida da perda de ACTH, TSH e gonadotrofinas. A hipofisite linfocítica também ocorre perto da gestação, mas é autoimune, costuma causar cefaleia e massa selar e não depende de hemorragia. A insuficiência adrenal primária teria **ACTH alto**."
+    },
+    {
+      "slug": "q-hypothalamic-pituitary-visual-field-chiasm",
+      "track": "step1",
+      "system": "endocrine",
+      "discipline": "anatomy",
+      "tags": [
+        "hypothalamic-pituitary",
+        "mass-effect",
+        "visual-fields"
+      ],
+      "stem": "A 55-year-old man has had headaches for several months. He has had several minor car accidents because he did not see vehicles coming from either side. Perimetry shows that the temporal visual field is missing in both eyes. MRI shows a large pituitary mass that extends upward out of the sella. Which nerve fibers are most likely compressed?",
+      "choices": [
+        "Uncrossed fibers from the temporal halves of both retinas",
+        "All fibers of the right optic nerve",
+        "Fibers of the left optic tract",
+        "Crossing fibers from the nasal halves of both retinas",
+        "Inferior fibers of Meyer loop in the temporal lobe"
+      ],
+      "correct": 3,
+      "explanation": "This is **bitemporal hemianopia**. A pituitary mass grows up into the **optic chiasm**, where fibers from the **nasal retina** cross. The nasal retina sees the **temporal** visual field, so both temporal fields are lost. Uncrossed temporal retinal fibers are tempting because of the name, but they carry the nasal fields. An optic tract lesion causes a homonymous hemianopia.",
+      "explanation_pt": "Trata-se de **hemianopsia bitemporal**. Uma massa hipofisária cresce para cima e comprime o **quiasma óptico**, onde cruzam as fibras da **retina nasal**. A retina nasal enxerga o campo visual **temporal**, então os dois campos temporais são perdidos. As fibras não cruzadas da retina temporal são tentadoras pelo nome, mas levam os campos nasais. Uma lesão do trato óptico causa hemianopsia homônima."
+    }
+  ],
+  "notes": [
+    {
+      "slug": "note-hypothalamic-pituitary-axes-and-disorders",
+      "track": "step1",
+      "system": "endocrine",
+      "discipline": "physiology",
+      "tags": [
+        "hypothalamic-pituitary",
+        "axes",
+        "pituitary-disease"
+      ],
+      "title": "Hypothalamic-pituitary axes and pituitary disease",
+      "body_md": "## Hypothalamic-pituitary axes\n\n- Hypothalamic hormones reach the **anterior pituitary** through the **portal veins**: TRH, CRH, GnRH and GHRH stimulate; **somatostatin** (GH) and **dopamine** (prolactin) inhibit.\n- The **posterior pituitary** is neural tissue. It stores **ADH** and **oxytocin** made in the **supraoptic** (mainly ADH) and **paraventricular** (mainly oxytocin) **nuclei**.\n- Target hormones (cortisol, T4, sex steroids, IGF-1) give **negative feedback**. Oxytocin in labor is a **positive feedback** loop.\n\n## Prolactin\n\n- **Dopamine** keeps prolactin low. Raised by **D2 blockers** (antipsychotics, metoclopramide), **stalk compression**, **primary hypothyroidism** (high TRH) and pregnancy.\n- **Prolactinoma**: the most common functioning pituitary adenoma. Women: **galactorrhea** and **amenorrhea** (GnRH suppression). Men: low libido and erectile dysfunction, often with a larger tumor.\n- First-line treatment: **dopamine agonists** (cabergoline, bromocriptine).\n\n## Growth hormone\n\n- GH acts largely through liver **IGF-1**. Somatostatin and high glucose suppress GH.\n- **GH excess** from a pituitary adenoma: **gigantism** before the growth plates close; **acromegaly** after.\n- Acromegaly: coarse features, large hands and feet, insulin resistance, **cardiomyopathy**, **colon polyps**.\n- Diagnosis: screen with **IGF-1**; confirm when GH **does not fall** after oral glucose.\n- **GH deficiency**: short stature in children; more body fat and less muscle in adults.\n\n## Hypopituitarism and mass effect\n\n- **Sheehan syndrome**: postpartum hemorrhage infarcts the enlarged pituitary; **failure to lactate** comes first.\n- **Pituitary apoplexy**: sudden bleeding into an adenoma; headache, visual loss, shock from ACTH loss.\n- **Empty sella**: CSF fills the sella and flattens the gland; often found by chance.\n- Compressing adenomas usually reduce **GH and gonadotropins** first and ACTH late; prolactin often **rises** (stalk effect).\n- A mass rising from the sella presses the **optic chiasm** → **bitemporal hemianopia**. In children, think of **craniopharyngioma** (calcified, cystic, Rathke pouch).",
+      "body_pt_md": "## Eixos hipotálamo-hipofisários\n\n- Os hormônios hipotalâmicos chegam à **adeno-hipófise** pelas **veias porta**: TRH, CRH, GnRH e GHRH estimulam; a **somatostatina** (GH) e a **dopamina** (prolactina) inibem.\n- A **neuro-hipófise** é tecido neural. Armazena o **ADH** e a **ocitocina** produzidos nos **núcleos supraóptico** (principalmente ADH) e **paraventricular** (principalmente ocitocina).\n- Os hormônios-alvo (cortisol, T4, esteroides sexuais, IGF-1) fazem **feedback negativo**. A ocitocina no parto é um ciclo de **feedback positivo**.\n\n## Prolactina\n\n- A **dopamina** mantém a prolactina baixa. Ela sobe com **bloqueadores D2** (antipsicóticos, metoclopramida), **compressão da haste**, **hipotireoidismo primário** (TRH alto) e gestação.\n- **Prolactinoma**: o adenoma hipofisário funcionante mais comum. Mulheres: **galactorreia** e **amenorreia** (supressão do GnRH). Homens: libido baixa e disfunção erétil, muitas vezes com tumor maior.\n- Tratamento de primeira linha: **agonistas dopaminérgicos** (cabergolina, bromocriptina).\n\n## Hormônio do crescimento\n\n- O GH age em grande parte pelo **IGF-1** hepático. A somatostatina e a glicose alta suprimem o GH.\n- **Excesso de GH** por adenoma hipofisário: **gigantismo** antes do fechamento das epífises; **acromegalia** depois.\n- Acromegalia: feições grosseiras, mãos e pés grandes, resistência à insulina, **cardiomiopatia**, **pólipos de cólon**.\n- Diagnóstico: rastrear com **IGF-1**; confirmar quando o GH **não cai** após glicose oral.\n- **Deficiência de GH**: baixa estatura na criança; mais gordura e menos músculo no adulto.\n\n## Hipopituitarismo e efeito de massa\n\n- **Síndrome de Sheehan**: a hemorragia pós-parto causa infarto da hipófise aumentada; a **falha da lactação** vem primeiro.\n- **Apoplexia hipofisária**: sangramento súbito em um adenoma; cefaleia, perda visual, choque pela falta de ACTH.\n- **Sela vazia**: o LCR ocupa a sela e achata a glândula; muitas vezes é achado incidental.\n- Adenomas compressivos geralmente reduzem primeiro **GH e gonadotrofinas**, e o ACTH por último; a prolactina muitas vezes **sobe** (efeito haste).\n- Uma massa que sobe da sela comprime o **quiasma óptico** → **hemianopsia bitemporal**. Na criança, pense em **craniofaringioma** (calcificado, cístico, bolsa de Rathke)."
+    }
+  ]
+}

@@ -30,8 +30,8 @@
       "back_pt": "O CFTR é um **canal de cloreto** regulado por ATP. Nos **ductos sudoríparos** ele reabsorve cloreto, então sua perda eleva o **cloreto no suor**. Nas **vias aéreas** ele secreta cloreto; sem ele, a **absorção de sódio** aumenta, a água acompanha o sal para fora da luz da via aérea e o muco fica espesso." },
     { "slug": "card-obstructive-lung-disease-bronchiectasis-causes", "track": "step1", "system": "respiratory", "discipline": "pathology", "tags": ["obstructive-lung-disease", "bronchiectasis"],
       "front": "What is bronchiectasis, and what are its classic causes?",
-      "back": "Permanent **dilation of bronchi** after chronic infection and inflammation destroy the wall. Classic causes: **cystic fibrosis**, **Kartagener syndrome** (primary ciliary dyskinesia), **ABPA** (allergic bronchopulmonary aspergillosis), **tuberculosis** and airway obstruction (tumor or foreign body).",
-      "back_pt": "**Dilatação permanente dos brônquios** após infecção e inflamação crônicas destruírem a parede. Causas clássicas: **fibrose cística**, **síndrome de Kartagener** (discinesia ciliar primária), **ABPA** (aspergilose broncopulmonar alérgica), **tuberculose** e obstrução da via aérea (tumor ou corpo estranho)." }
+      "back": "Permanent **dilation of bronchi** after chronic infection and inflammation destroy the wall. Classic causes: **cystic fibrosis**, **primary ciliary dyskinesia** (including **Kartagener syndrome**), **ABPA** (allergic bronchopulmonary aspergillosis), **tuberculosis** and airway obstruction (tumor or foreign body).",
+      "back_pt": "**Dilatação permanente dos brônquios** após infecção e inflamação crônicas destruírem a parede. Causas clássicas: **fibrose cística**, **discinesia ciliar primária** (incluindo a **síndrome de Kartagener**), **ABPA** (aspergilose broncopulmonar alérgica), **tuberculose** e obstrução da via aérea (tumor ou corpo estranho)." }
   ],
   "questions": [
     { "slug": "q-obstructive-lung-disease-panacinar-a1at", "track": "step1", "system": "respiratory", "discipline": "pathology", "tags": ["obstructive-lung-disease", "emphysema", "alpha-1-antitrypsin"],

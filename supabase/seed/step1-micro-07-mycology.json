@@ -1,0 +1,217 @@
+{
+  "cards": [
+    {
+      "slug": "card-mycology-thermal-dimorphism",
+      "track": "step1",
+      "system": "microbiology",
+      "discipline": "microbiology",
+      "tags": [
+        "mycology",
+        "dimorphic-fungi"
+      ],
+      "front": "What does \"thermal dimorphism\" mean for the systemic fungi?",
+      "back": "They grow as a **mold** at environmental temperature (about 25 °C) and as a **yeast** at body temperature (37 °C). People inhale the mold's **conidia** (spores). Exception: *Coccidioides* forms **spherules**, not yeasts, in tissue.",
+      "back_pt": "Crescem como **fungo filamentoso (bolor)** na temperatura ambiente (cerca de 25 °C) e como **levedura** na temperatura corporal (37 °C). A pessoa inala os **conídios** (esporos) da forma filamentosa. Exceção: *Coccidioides* forma **esférulas**, e não leveduras, no tecido."
+    },
+    {
+      "slug": "card-mycology-membrane-cell-wall",
+      "track": "step1",
+      "system": "microbiology",
+      "discipline": "microbiology",
+      "tags": [
+        "mycology",
+        "fungal-structure"
+      ],
+      "front": "How do the fungal cell membrane and cell wall differ from human cells?",
+      "back": "The fungal membrane uses **ergosterol** instead of cholesterol. The cell wall (human cells have none) contains **chitin** and **β-glucan**. Both are drug targets (see antimicrobials). *Pneumocystis* **lacks ergosterol** (its membrane uses cholesterol), so amphotericin B and azoles fail.",
+      "back_pt": "A membrana fúngica usa **ergosterol** em vez de colesterol. A parede celular (que as células humanas não têm) contém **quitina** e **β-glucana**. Ambos são alvos de fármacos (ver antimicrobianos). O *Pneumocystis* **não tem ergosterol** (sua membrana usa colesterol), por isso a anfotericina B e os azólicos falham."
+    },
+    {
+      "slug": "card-mycology-lab-diagnosis",
+      "track": "step1",
+      "system": "microbiology",
+      "discipline": "microbiology",
+      "tags": [
+        "mycology",
+        "lab-diagnosis"
+      ],
+      "front": "Which simple lab tools help identify fungi?",
+      "back": "**KOH prep**: dissolves keratin to show hyphae or yeasts in skin, hair and nails. **Calcofluor white**: binds chitin and fluoresces. **India ink**: outlines the *Cryptococcus* capsule. **Silver stain (GMS)**: fungi in tissue, including *Pneumocystis*. **Sabouraud agar**: fungal culture.",
+      "back_pt": "**Exame direto com KOH**: dissolve a queratina e mostra hifas ou leveduras em pele, pelos e unhas. **Calcoflúor branco**: liga-se à quitina e fluoresce. **Tinta da China (nanquim)**: delineia a cápsula do *Cryptococcus*. **Coloração pela prata (Grocott, GMS)**: fungos no tecido, incluindo *Pneumocystis*. **Ágar Sabouraud**: cultura de fungos."
+    },
+    {
+      "slug": "card-mycology-paracoccidioides",
+      "track": "step1",
+      "system": "microbiology",
+      "discipline": "microbiology",
+      "tags": [
+        "mycology",
+        "dimorphic-fungi",
+        "paracoccidioides"
+      ],
+      "front": "What does Paracoccidioides look like in tissue, and who gets the disease?",
+      "back": "A large yeast with **many buds around one mother cell**, like a *ship's wheel* (*captain's wheel*). It occurs in **Latin America**, mainly Brazil; rural workers inhale it from soil. Disease is much more common in **men**: estrogen blocks the mold-to-yeast change.",
+      "back_pt": "Levedura grande com **múltiplos brotamentos ao redor de uma célula-mãe**, como uma *roda de leme* (*ship's wheel*, *captain's wheel*). Ocorre na **América Latina**, principalmente no Brasil; trabalhadores rurais inalam o fungo do solo. A doença é muito mais comum em **homens**: o estrogênio bloqueia a transformação da forma filamentosa em levedura."
+    },
+    {
+      "slug": "card-mycology-candida-identification",
+      "track": "step1",
+      "system": "microbiology",
+      "discipline": "microbiology",
+      "tags": [
+        "mycology",
+        "candida"
+      ],
+      "front": "Which lab features identify Candida albicans?",
+      "back": "Oval **budding yeasts** plus **pseudohyphae** (chains of long buds) in tissue. In serum at 37 °C, *C. albicans* forms **germ tubes**, a fast test that separates it from most other *Candida* species. It is normal flora of the mouth, gut and vagina.",
+      "back_pt": "**Leveduras ovais em brotamento** e **pseudo-hifas** (cadeias de brotos alongados) no tecido. No soro a 37 °C, *C. albicans* forma **tubos germinativos**, um teste rápido que a separa da maioria das outras espécies de *Candida*. Faz parte da microbiota normal da boca, do intestino e da vagina."
+    },
+    {
+      "slug": "card-mycology-cryptococcus-capsule",
+      "track": "step1",
+      "system": "microbiology",
+      "discipline": "microbiology",
+      "tags": [
+        "mycology",
+        "cryptococcus"
+      ],
+      "front": "Which features of Cryptococcus neoformans help diagnose it?",
+      "back": "A yeast with a thick **polysaccharide capsule** and **narrow-based budding**. The capsule is a clear halo with **India ink** and stains red with **mucicarmine**. The CSF **cryptococcal antigen** test detects capsule material. Source: soil and **pigeon droppings**.",
+      "back_pt": "Levedura com espessa **cápsula polissacarídica** e **brotamento de base estreita**. A cápsula aparece como halo claro com **tinta da China** e cora em vermelho pelo **mucicarmim**. O teste de **antígeno criptocócico** no LCR detecta material da cápsula. Fonte: solo e **fezes de pombos**."
+    },
+    {
+      "slug": "card-mycology-aspergillus-vs-mucorales",
+      "track": "step1",
+      "system": "microbiology",
+      "discipline": "microbiology",
+      "tags": [
+        "mycology",
+        "aspergillus",
+        "mucormycosis"
+      ],
+      "front": "How do Aspergillus and Mucorales hyphae differ under the microscope?",
+      "back": "***Aspergillus***: thin **septate** hyphae that branch at **acute angles** (about 45°). **Mucorales** (*Rhizopus*, *Mucor*): **broad, ribbon-like**, mostly **nonseptate** hyphae that branch at **wide or right angles**. Both invade **blood vessels** and cause infarction and necrosis.",
+      "back_pt": "***Aspergillus***: hifas finas e **septadas**, com ramificação em **ângulo agudo** (cerca de 45°). **Mucorales** (*Rhizopus*, *Mucor*): hifas **largas, em fita**, quase sempre **não septadas** (asseptadas), com ramificação em **ângulo amplo ou reto**. Ambos invadem **vasos sanguíneos** e causam infarto e necrose."
+    },
+    {
+      "slug": "card-mycology-sporothrix",
+      "track": "step1",
+      "system": "microbiology",
+      "discipline": "microbiology",
+      "tags": [
+        "mycology",
+        "sporothrix",
+        "cutaneous-fungi"
+      ],
+      "front": "How does Sporothrix infection start and spread?",
+      "back": "Thorns, wood or soil (*rose gardener's disease*) inoculate the fungus into the skin. A papule or ulcer forms, then a line of **nodules** appears **along the lymphatic vessels** of the limb. Tissue shows **cigar-shaped yeasts**. In Brazil, **cats** often transmit it (*S. brasiliensis*).",
+      "back_pt": "Espinhos, madeira ou solo (*doença do jardineiro*) inoculam o fungo na pele. Forma-se uma pápula ou úlcera e depois surge uma fileira de **nódulos ao longo dos vasos linfáticos** do membro. O tecido mostra **leveduras em forma de charuto**. No Brasil, a transmissão por **gatos** é frequente (*S. brasiliensis*)."
+    }
+  ],
+  "questions": [
+    {
+      "slug": "q-mycology-paracoccidioides-oral-ulcers",
+      "track": "step1",
+      "system": "microbiology",
+      "discipline": "microbiology",
+      "tags": [
+        "mycology",
+        "paracoccidioides",
+        "dimorphic-fungi"
+      ],
+      "stem": "A 52-year-old man from a rural coffee-growing region of Brazil has had cough, weight loss and painful mouth sores for 4 months. He has smoked for 30 years. Exam shows shallow ulcers on the gums and palate with fine red dots on a granular base, and firm, enlarged cervical lymph nodes. Chest x-ray shows bilateral interstitial infiltrates. Three sputum acid-fast smears are negative. A biopsy of a mouth ulcer is stained with silver. Which finding is most likely?",
+      "choices": [
+        "Thick-walled yeasts, each with a single broad-based bud",
+        "Small oval yeasts packed inside macrophages",
+        "Large round yeasts with many small buds around the edge",
+        "Large spherules filled with endospores",
+        "Encapsulated yeasts with a single narrow-based bud"
+      ],
+      "correct": 2,
+      "explanation": "Chronic lung disease with **oral mucosal ulcers** (fine red dots on a granular base, *moriform stomatitis*) and cervical nodes in a rural man from Brazil suggests **paracoccidioidomycosis**. In tissue, *Paracoccidioides* is a large yeast with **many buds around one mother cell** (*ship's wheel*). *Blastomyces* also causes chronic lung and skin disease, but it is a North American fungus with a **single broad-based bud**. *Histoplasma* can also cause oral ulcers, but it appears as small yeasts inside macrophages.",
+      "explanation_pt": "Doença pulmonar crônica com **úlceras na mucosa oral** (pontilhado hemorrágico sobre base granulosa, *estomatite moriforme*) e linfonodos cervicais em homem de zona rural do Brasil sugere **paracoccidioidomicose**. No tecido, *Paracoccidioides* é uma levedura grande com **múltiplos brotamentos ao redor de uma célula-mãe** (*roda de leme*). *Blastomyces* também causa doença pulmonar e cutânea crônica, mas é um fungo da América do Norte com **brotamento único de base larga**. *Histoplasma* também pode causar úlceras orais, mas aparece como pequenas leveduras dentro de macrófagos."
+    },
+    {
+      "slug": "q-mycology-mucormycosis-dka",
+      "track": "step1",
+      "system": "microbiology",
+      "discipline": "microbiology",
+      "tags": [
+        "mycology",
+        "mucormycosis",
+        "diabetes"
+      ],
+      "stem": "A 47-year-old woman with type 1 diabetes is admitted with diabetic ketoacidosis. Two days later she has fever, severe left facial pain, swelling around the left eye and bloody nasal discharge. Exam shows a black, necrotic area on the hard palate and on the left nasal turbinate. A biopsy of the turbinate is taken. Which finding is most likely?",
+      "choices": [
+        "Thin septate hyphae that branch at acute angles",
+        "Broad, ribbon-like hyphae with few septa that branch at wide angles",
+        "Oval budding yeasts with pseudohyphae",
+        "Encapsulated yeasts with a single narrow-based bud",
+        "Spherules filled with endospores"
+      ],
+      "correct": 1,
+      "explanation": "Black necrotic eschars on the palate and nasal turbinate during **diabetic ketoacidosis** mean **rhinocerebral mucormycosis**. Acidosis increases free iron, which helps **Mucorales** such as *Rhizopus* grow; they invade vessels and cause **necrosis**. Their hyphae are **broad, ribbon-like**, with few or no septa, and branch at **wide (near right) angles**. *Aspergillus* also invades vessels, but its hyphae are thin, **septate** and branch at **acute angles**, and it mainly affects patients with prolonged neutropenia.",
+      "explanation_pt": "Escaras necróticas negras no palato e na concha nasal durante a **cetoacidose diabética** indicam **mucormicose rinocerebral**. A acidose aumenta o ferro livre, o que favorece o crescimento de **Mucorales** como *Rhizopus*; eles invadem vasos e causam **necrose**. As hifas são **largas, em fita**, com poucos ou nenhum septo, e se ramificam em **ângulo amplo (quase reto)**. *Aspergillus* também invade vasos, mas suas hifas são finas, **septadas** e se ramificam em **ângulo agudo**, e ele acomete principalmente pacientes com neutropenia prolongada."
+    },
+    {
+      "slug": "q-mycology-cryptococcus-csf",
+      "track": "step1",
+      "system": "microbiology",
+      "discipline": "microbiology",
+      "tags": [
+        "mycology",
+        "cryptococcus",
+        "meningitis",
+        "hiv"
+      ],
+      "stem": "A 34-year-old man with HIV infection has had headache, fever and nausea for 3 weeks. He stopped antiretroviral therapy a year ago and feeds pigeons in a city park every day. His CD4 count is 40/mm³. He is mildly confused but has no focal deficits. Lumbar puncture shows a high opening pressure, a few lymphocytes, low glucose and high protein. Which finding in the cerebrospinal fluid is most likely?",
+      "choices": [
+        "Gram-positive rods",
+        "Acid-fast rods on Ziehl-Neelsen stain",
+        "Septate hyphae that branch at acute angles",
+        "Spherules filled with endospores",
+        "Yeasts surrounded by a clear halo on India ink"
+      ],
+      "correct": 4,
+      "explanation": "Subacute meningitis with high opening pressure in advanced AIDS, plus pigeon exposure, points to ***Cryptococcus neoformans***. Its thick **polysaccharide capsule** looks like a clear halo with **India ink**; the CSF **cryptococcal antigen** test is more sensitive. Tuberculous meningitis can give a similar CSF profile, but acid-fast bacilli are rarely seen on a CSF smear; the high opening pressure with very few cells, the pigeon exposure and a CD4 count below 100/mm³ favor *Cryptococcus*.",
+      "explanation_pt": "Meningite subaguda com pressão de abertura alta em AIDS avançada, com exposição a pombos, indica ***Cryptococcus neoformans***. A espessa **cápsula polissacarídica** aparece como halo claro com **tinta da China**; o teste de **antígeno criptocócico** no LCR é mais sensível. A meningite tuberculosa pode dar um LCR semelhante, mas bacilos álcool-ácido resistentes raramente são vistos no esfregaço do LCR; a pressão de abertura alta com pouquíssimas células, a exposição a pombos e o CD4 abaixo de 100/mm³ favorecem *Cryptococcus*."
+    },
+    {
+      "slug": "q-mycology-sporothrix-rose-thorn",
+      "track": "step1",
+      "system": "microbiology",
+      "discipline": "microbiology",
+      "tags": [
+        "mycology",
+        "sporothrix",
+        "cutaneous-fungi"
+      ],
+      "stem": "A 45-year-old man who grows roses pricked his right index finger on a thorn 3 weeks ago. A painless red papule formed at the site and then ulcerated. Over the next 2 weeks, a line of firm nodules appeared on the back of his hand and forearm, following the lymphatic vessels. He has no fever and no cough. Fluid from a nodule grows a mold at 25 °C and a yeast at 37 °C. Which organism is most likely?",
+      "choices": [
+        "Mycobacterium marinum",
+        "Nocardia brasiliensis",
+        "Blastomyces dermatitidis",
+        "Sporothrix schenckii",
+        "Bartonella henselae"
+      ],
+      "correct": 3,
+      "explanation": "A **rose thorn** wound followed by a chain of nodules along the **lymphatics** (*sporotrichoid* spread) is **sporotrichosis**. *Sporothrix* is **thermally dimorphic**: a mold at 25 °C and a **cigar-shaped yeast** at 37 °C. *Mycobacterium marinum* causes the same lymphatic pattern after fish-tank or water exposure, but it is an acid-fast rod, not a fungus. *Blastomyces* is also dimorphic, but its skin lesions usually follow lung infection, not a thorn wound.",
+      "explanation_pt": "Ferimento por **espinho de rosa** seguido de uma cadeia de nódulos ao longo dos **linfáticos** (disseminação *esporotricoide*) é **esporotricose**. *Sporothrix* é **termicamente dimórfico**: bolor a 25 °C e **levedura em forma de charuto** a 37 °C. *Mycobacterium marinum* causa o mesmo padrão linfático após contato com aquário ou água, mas é um bacilo álcool-ácido resistente, não um fungo. *Blastomyces* também é dimórfico, mas suas lesões de pele em geral seguem a infecção pulmonar, e não um ferimento por espinho."
+    }
+  ],
+  "notes": [
+    {
+      "slug": "note-mycology-overview",
+      "track": "step1",
+      "system": "microbiology",
+      "discipline": "microbiology",
+      "tags": [
+        "mycology",
+        "overview"
+      ],
+      "title": "Mycology: forms, stains and key fungi",
+      "body_md": "## Fungal basics\n\n- **Yeasts** are single cells that bud. **Molds** grow as **hyphae**, septate or nonseptate.\n- **Dimorphic** fungi: mold at 25 °C, yeast at 37 °C (*mold in the cold, yeast in the heat*).\n- Membrane sterol: **ergosterol**. Cell wall: **chitin** and **β-glucan**. Antifungal drugs: see the antimicrobials block.\n- Lab: **KOH** prep, **calcofluor white**, **India ink**, **mucicarmine**, **silver stain (GMS)**, culture on **Sabouraud agar**.\n\n## Systemic dimorphic fungi\n\n- ***Histoplasma***, ***Blastomyces***, ***Coccidioides***: geography and lung disease are in the respiratory block.\n- ***Paracoccidioides***: Latin America, mainly Brazil; *ship's wheel* yeast; lungs plus **oral ulcers**; mostly men.\n\n## Opportunistic fungi\n\n- ***Candida***: yeast plus pseudohyphae; *C. albicans* is **germ tube** positive. Weak **T-cell** immunity: thrush, esophagitis, **chronic mucocutaneous candidiasis**. **Neutropenia** or central lines: **candidemia**. Antibiotics, diabetes: vulvovaginitis.\n- ***Aspergillus***: septate hyphae, acute-angle branching. **Invasive** disease in neutropenia; **aspergilloma** in an old cavity; **ABPA** in asthma and cystic fibrosis (see respiratory).\n- ***Cryptococcus***: capsule (India ink, mucicarmine, antigen test); pigeon droppings; **meningitis in AIDS**.\n- **Mucorales** (*Rhizopus*, *Mucor*): broad nonseptate hyphae, right-angle branching; **rhinocerebral** infection in **diabetic ketoacidosis** and neutropenia.\n- ***Pneumocystis jirovecii***: a fungus not grown in routine culture; **silver stain** shows cysts; diffuse **ground-glass** opacities in AIDS with a low CD4 count.\n\n## Skin and subcutaneous fungi\n\n- **Dermatophytes** (*Trichophyton*, *Microsporum*, *Epidermophyton*): live on **keratin**; tinea of skin, hair and nails; KOH shows hyphae.\n- ***Malassezia***: **tinea (pityriasis) versicolor**; light or dark patches, worse in heat and humidity; KOH shows *spaghetti and meatballs* (short hyphae and yeasts).\n- ***Sporothrix***: thorn or cat-scratch inoculation; nodules along lymphatics; cigar-shaped yeast.\n\n## Mycotoxin\n\n- **Aflatoxin** from *Aspergillus flavus* in badly stored grains and peanuts: **hepatocellular carcinoma** (see neoplasia).\n",
+      "body_pt_md": "## Noções básicas\n\n- **Leveduras** são células únicas que brotam. **Bolores** (fungos filamentosos) crescem como **hifas**, septadas ou não septadas.\n- Fungos **dimórficos**: bolor a 25 °C, levedura a 37 °C (*mold in the cold, yeast in the heat*).\n- Esterol da membrana: **ergosterol**. Parede celular: **quitina** e **β-glucana**. Antifúngicos: ver o bloco de antimicrobianos.\n- Laboratório: exame direto com **KOH**, **calcoflúor branco**, **tinta da China**, **mucicarmim**, **coloração pela prata (GMS)**, cultura em **ágar Sabouraud**.\n\n## Fungos dimórficos sistêmicos\n\n- ***Histoplasma***, ***Blastomyces***, ***Coccidioides***: geografia e doença pulmonar estão no bloco respiratório.\n- ***Paracoccidioides***: América Latina, principalmente Brasil; levedura em *roda de leme*; pulmões e **úlceras orais**; predomina em homens.\n\n## Fungos oportunistas\n\n- ***Candida***: levedura e pseudo-hifas; *C. albicans* forma **tubo germinativo**. Deficiência de **linfócitos T**: candidíase oral (sapinho), esofagite, **candidíase mucocutânea crônica**. **Neutropenia** ou cateter venoso central: **candidemia**. Antibióticos, diabetes: vulvovaginite.\n- ***Aspergillus***: hifas septadas, ramificação em ângulo agudo. Doença **invasiva** na neutropenia; **aspergiloma** em cavidade antiga; **ABPA** (aspergilose broncopulmonar alérgica) na asma e na fibrose cística (ver respiratório).\n- ***Cryptococcus***: cápsula (tinta da China, mucicarmim, teste de antígeno); fezes de pombos; **meningite na AIDS**.\n- **Mucorales** (*Rhizopus*, *Mucor*): hifas largas não septadas, ramificação em ângulo reto; infecção **rinocerebral** na **cetoacidose diabética** e na neutropenia.\n- ***Pneumocystis jirovecii***: fungo que não cresce em cultura de rotina; a **coloração pela prata** mostra cistos; opacidades difusas em **vidro fosco** na AIDS com CD4 baixo.\n\n## Fungos da pele e do subcutâneo\n\n- **Dermatófitos** (*Trichophyton*, *Microsporum*, *Epidermophyton*): vivem na **queratina**; tinhas da pele, do couro cabeludo e das unhas; o KOH mostra hifas.\n- ***Malassezia***: **pitiríase versicolor**; manchas claras ou escuras, piores no calor e na umidade; o KOH mostra *spaghetti and meatballs* (hifas curtas e leveduras).\n- ***Sporothrix***: inoculação por espinho ou arranhadura de gato; nódulos ao longo dos linfáticos; levedura em forma de charuto.\n\n## Micotoxina\n\n- **Aflatoxina** do *Aspergillus flavus* em grãos e amendoim mal armazenados: **carcinoma hepatocelular** (ver neoplasia).\n"
+    }
+  ]
+}

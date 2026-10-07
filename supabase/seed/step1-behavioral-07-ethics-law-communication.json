@@ -1,0 +1,215 @@
+{
+  "cards": [
+    {
+      "slug": "card-ethics-law-communication-consent-exceptions",
+      "track": "step1",
+      "system": "behavioral-science",
+      "discipline": "pathology",
+      "tags": [
+        "ethics-law-communication",
+        "informed-consent"
+      ],
+      "front": "When can a physician treat a patient without first obtaining informed consent?",
+      "back": "In an **emergency** when the patient cannot consent (**implied consent**), when the patient **waives** the right to be informed, and, rarely, under **therapeutic privilege** (the disclosure itself would cause serious harm). A patient without capacity needs a **surrogate's** consent.",
+      "back_pt": "Em uma **emergência** quando o paciente não pode consentir (**consentimento presumido**), quando o paciente **renuncia** ao direito de ser informado e, raramente, por **privilégio terapêutico** (a própria revelação causaria dano grave). Um paciente sem capacidade precisa do consentimento de um **representante**."
+    },
+    {
+      "slug": "card-ethics-law-communication-capacity",
+      "track": "step1",
+      "system": "behavioral-science",
+      "discipline": "pathology",
+      "tags": [
+        "ethics-law-communication",
+        "capacity"
+      ],
+      "front": "Which abilities show that a patient has decision-making capacity?",
+      "back": "The patient can **communicate a choice**, **understand** the information, **appreciate** how it applies to their own situation, and **reason** about the options. Capacity is a clinical judgment any physician can make; **competence** is a legal decision made by a court.",
+      "back_pt": "O paciente consegue **comunicar uma escolha**, **compreender** a informação, **apreciar** como ela se aplica à sua própria situação e **raciocinar** sobre as opções. A capacidade é um julgamento clínico que qualquer médico pode fazer; a **competência** é uma decisão legal tomada por um juiz."
+    },
+    {
+      "slug": "card-ethics-law-communication-minors",
+      "track": "step1",
+      "system": "behavioral-science",
+      "discipline": "pathology",
+      "tags": [
+        "ethics-law-communication",
+        "minors"
+      ],
+      "front": "When can a minor consent to medical care without a parent?",
+      "back": "**Emancipated minors** (e.g., married, in the military, or financially self-supporting) consent like adults. Every state lets minors consent to **STI care**; most also allow **contraception**, **prenatal care** and **substance use treatment** without a parent. **Abortion** rules vary by state.",
+      "back_pt": "**Menores emancipados** (ex.: casados, no serviço militar ou financeiramente independentes) consentem como adultos. Todos os estados permitem que menores consintam com **tratamento de IST**; a maioria também permite **contracepção**, **pré-natal** e **tratamento de uso de substâncias** sem os pais. As regras sobre **aborto** variam por estado."
+    },
+    {
+      "slug": "card-ethics-law-communication-confidentiality-exceptions",
+      "track": "step1",
+      "system": "behavioral-science",
+      "discipline": "pathology",
+      "tags": [
+        "ethics-law-communication",
+        "confidentiality"
+      ],
+      "front": "When may a physician break patient confidentiality?",
+      "back": "A serious threat to an **identifiable person** (**Tarasoff** duty to protect), **reportable infectious diseases**, suspected **child or elder abuse**, **gunshot wounds** (stab wounds in many states), and imminent risk of suicide. Share only the minimum information needed.",
+      "back_pt": "Ameaça grave a uma **pessoa identificável** (dever de proteger, caso **Tarasoff**), **doenças infecciosas de notificação compulsória**, suspeita de **maus-tratos a criança ou idoso**, **ferimentos por arma de fogo** (por arma branca em muitos estados) e risco iminente de suicídio. Compartilhar apenas a informação mínima necessária."
+    },
+    {
+      "slug": "card-ethics-law-communication-surrogate",
+      "track": "step1",
+      "system": "behavioral-science",
+      "discipline": "pathology",
+      "tags": [
+        "ethics-law-communication",
+        "surrogate",
+        "advance-directives"
+      ],
+      "front": "Who decides for a patient who lacks capacity, and on what basis?",
+      "back": "First the patient's own **advance directive** or chosen **health care proxy** (durable power of attorney). If none, a family surrogate in a state-set order, usually spouse, adult children, parents, siblings. Surrogates use **substituted judgment** (what the patient would want); if unknown, **best interest**.",
+      "back_pt": "Primeiro, as **diretivas antecipadas** do próprio paciente ou o **procurador para cuidados de saúde** que ele escolheu (procuração duradoura). Na falta deles, um familiar em ordem definida pela lei estadual, geralmente cônjuge, filhos adultos, pais, irmãos. O representante usa o **julgamento substituto** (o que o paciente desejaria); se isso for desconhecido, o **melhor interesse**."
+    },
+    {
+      "slug": "card-ethics-law-communication-error-disclosure",
+      "track": "step1",
+      "system": "behavioral-science",
+      "discipline": "pathology",
+      "tags": [
+        "ethics-law-communication",
+        "medical-errors"
+      ],
+      "front": "How should a physician handle a medical error that reached the patient?",
+      "back": "**Disclose it** to the patient promptly and honestly, **apologize**, explain what will be done, and **report** it through the hospital's safety system. Disclose it even when the patient was not harmed.",
+      "back_pt": "**Revelar o erro** ao paciente prontamente e com honestidade, **pedir desculpas**, explicar o que será feito e **notificar** pelo sistema de segurança do hospital. Revelar mesmo quando o paciente não sofreu dano."
+    },
+    {
+      "slug": "card-ethics-law-communication-safety-events",
+      "track": "step1",
+      "system": "behavioral-science",
+      "discipline": "pathology",
+      "tags": [
+        "ethics-law-communication",
+        "patient-safety"
+      ],
+      "front": "What is the difference between a near miss, an adverse event and a sentinel event?",
+      "back": "**Near miss**: an error stopped before it reached the patient. **Adverse event**: harm caused by medical care, preventable or not. **Sentinel event**: an unexpected event causing death or severe harm; it calls for a **root cause analysis**.",
+      "back_pt": "**Quase erro** (*near miss*): erro interceptado antes de atingir o paciente. **Evento adverso**: dano causado pelo cuidado médico, evitável ou não. **Evento sentinela**: evento inesperado que causa morte ou dano grave; exige uma **análise de causa raiz**."
+    },
+    {
+      "slug": "card-ethics-law-communication-spikes",
+      "track": "step1",
+      "system": "behavioral-science",
+      "discipline": "pathology",
+      "tags": [
+        "ethics-law-communication",
+        "communication",
+        "bad-news"
+      ],
+      "front": "What are the steps of the SPIKES approach to breaking bad news?",
+      "back": "**S**etting: private, seated. **P**erception: what does the patient already know? **I**nvitation: how much do they want to know? **K**nowledge: warn first, then speak clearly. **E**motions: respond with empathy. **S**trategy and summary: agree on next steps.",
+      "back_pt": "**S**etting (ambiente): privado, sentado. **P**erception (percepção): o que o paciente já sabe? **I**nvitation (convite): quanto ele quer saber? **K**nowledge (conhecimento): avisar antes, depois falar com clareza. **E**motions (emoções): responder com empatia. **S**trategy and summary (estratégia e resumo): combinar os próximos passos."
+    }
+  ],
+  "questions": [
+    {
+      "slug": "q-ethics-law-communication-duty-to-protect",
+      "track": "step1",
+      "system": "behavioral-science",
+      "discipline": "pathology",
+      "tags": [
+        "ethics-law-communication",
+        "confidentiality",
+        "tarasoff"
+      ],
+      "stem": "A 32-year-old man sees a psychiatrist for anger problems after he lost his job. During a session, he says he has bought a gun. He plans to shoot his former supervisor, whom he names, this weekend. He refuses to talk about the plan any further and leaves the office. What is the most appropriate next step?",
+      "choices": [
+        "Keep the information confidential because it was shared in therapy",
+        "Ask the patient to sign a contract promising not to harm anyone",
+        "Warn the former supervisor and notify the police",
+        "Discuss the case at the next hospital ethics committee meeting",
+        "Schedule more frequent therapy sessions to explore his anger"
+      ],
+      "correct": 2,
+      "explanation": "A serious, specific threat against an **identifiable person** creates a **duty to protect** (the **Tarasoff** principle), which overrides confidentiality. The physician must act now, for example by warning the intended victim and notifying law enforcement. Confidentiality is important but not absolute, so keeping the threat secret is wrong. A no-harm contract or more sessions does not protect the supervisor, and waiting for an ethics meeting loses time.",
+      "explanation_pt": "Uma ameaça grave e específica contra uma **pessoa identificável** cria um **dever de proteger** (princípio **Tarasoff**), que se sobrepõe ao sigilo. O médico deve agir agora, por exemplo avisando a possível vítima e notificando a polícia. O sigilo é importante, mas não é absoluto, por isso manter a ameaça em segredo é errado. Um contrato de não agressão ou mais sessões não protegem o ex-chefe, e esperar uma reunião do comitê de ética perde tempo."
+    },
+    {
+      "slug": "q-ethics-law-communication-transfusion-refusal",
+      "track": "step1",
+      "system": "behavioral-science",
+      "discipline": "pathology",
+      "tags": [
+        "ethics-law-communication",
+        "autonomy",
+        "refusal-of-care"
+      ],
+      "stem": "A 45-year-old man is admitted with melena. He is alert and oriented. Pulse is 118/min and blood pressure is 102/64 mm Hg. Hemoglobin is 6.5 g/dL. Endoscopy is planned. He is a Jehovah's Witness and says he will not accept a blood transfusion, even if he could die without one. He correctly explains the risks of his choice, and he has held this view for many years. His wife asks the team to transfuse him anyway. What is the most appropriate next step?",
+      "choices": [
+        "Respect his refusal and treat him with alternatives to blood",
+        "Transfuse him because his life is in danger",
+        "Transfuse him because his wife has given consent",
+        "Request a court order to allow the transfusion",
+        "Request a psychiatric evaluation before accepting his refusal"
+      ],
+      "correct": 0,
+      "explanation": "An adult with **decision-making capacity** may refuse any treatment, even life-saving treatment (**autonomy**). He understands the risks, applies them to his own situation and gives consistent reasons, so he has capacity. The tempting answer is to transfuse because his life is at risk, but beneficence does not override a capable adult's informed refusal. His wife is not a surrogate while he can decide for himself, and a psychiatric evaluation or court order is not needed.",
+      "explanation_pt": "Um adulto com **capacidade de decisão** pode recusar qualquer tratamento, mesmo um que salve sua vida (**autonomia**). Ele entende os riscos, aplica-os à própria situação e apresenta razões coerentes, portanto tem capacidade. A resposta tentadora é transfundir porque a vida dele está em risco, mas a beneficência não se sobrepõe à recusa informada de um adulto capaz. A esposa não é representante enquanto ele pode decidir por si, e não é necessária avaliação psiquiátrica nem ordem judicial."
+    },
+    {
+      "slug": "q-ethics-law-communication-minor-sti-care",
+      "track": "step1",
+      "system": "behavioral-science",
+      "discipline": "pathology",
+      "tags": [
+        "ethics-law-communication",
+        "minors",
+        "confidentiality"
+      ],
+      "stem": "A 16-year-old girl comes to the clinic alone with 5 days of vaginal discharge and pain on urination. She has one sexual partner, a 17-year-old classmate, and the relationship is consensual. She asks the physician not to tell her parents about the visit. Pelvic exam shows mucopurulent discharge from the cervix. What is the most appropriate next step?",
+      "choices": [
+        "Call her parents to obtain consent before testing",
+        "Refuse care until a parent comes to the clinic",
+        "Tell her that her parents must be informed because she is under 18",
+        "Report the sexual activity to child protective services",
+        "Test and treat her confidentially"
+      ],
+      "correct": 4,
+      "explanation": "In the US, minors can consent on their own to **diagnosis and treatment of STIs**, and this care is **confidential**. The physician should test and treat her and encourage, but not force, communication with her parents. Calling her parents would break her confidentiality and may stop her from seeking care. Consensual sex with a partner of similar age is not, by itself, abuse to report.",
+      "explanation_pt": "Nos EUA, menores podem consentir sozinhos com o **diagnóstico e tratamento de IST**, e esse atendimento é **sigiloso**. O médico deve testá-la e tratá-la e incentivar, sem obrigar, a conversa com os pais. Ligar para os pais quebraria o sigilo e pode fazê-la deixar de procurar atendimento. Relação consensual com parceiro de idade semelhante não é, por si só, abuso a ser notificado."
+    },
+    {
+      "slug": "q-ethics-law-communication-error-no-harm",
+      "track": "step1",
+      "system": "behavioral-science",
+      "discipline": "pathology",
+      "tags": [
+        "ethics-law-communication",
+        "medical-errors",
+        "disclosure"
+      ],
+      "stem": "A 68-year-old man is in the hospital with pneumonia. A resident discovers that the patient was given one dose of enoxaparin that was meant for the patient in the next bed. The patient has no bleeding, and his hemoglobin and platelet count are normal. The attending physician tells the resident that the patient does not need to know because no harm occurred. What is the most appropriate next step for the resident?",
+      "choices": [
+        "Follow the attending's decision because the attending is responsible for the patient",
+        "Make sure the patient is told about the error, with an apology",
+        "Tell the patient only if he asks about his medications",
+        "Document the event in the chart without informing the patient",
+        "Inform only the patient's family so the patient is not worried"
+      ],
+      "correct": 1,
+      "explanation": "Errors that reach the patient should be **disclosed honestly**, with an **apology**, even when no harm results. Disclosure respects **autonomy** and builds trust; the error should also be reported through the hospital's safety system. The tempting answer is to follow the attending, but a supervisor's instruction does not remove the duty to be honest with the patient; ideally the resident and attending disclose it together. Telling only the family breaks confidentiality and still leaves the patient uninformed.",
+      "explanation_pt": "Erros que atingem o paciente devem ser **revelados com honestidade**, com **pedido de desculpas**, mesmo quando não há dano. A revelação respeita a **autonomia** e gera confiança; o erro também deve ser notificado pelo sistema de segurança do hospital. A resposta tentadora é seguir o preceptor, mas a ordem de um superior não elimina o dever de ser honesto com o paciente; o ideal é que residente e preceptor façam a revelação juntos. Contar apenas à família quebra o sigilo e ainda deixa o paciente sem informação."
+    }
+  ],
+  "notes": [
+    {
+      "slug": "note-ethics-law-communication-overview",
+      "track": "step1",
+      "system": "behavioral-science",
+      "discipline": "pathology",
+      "tags": [
+        "ethics-law-communication",
+        "overview"
+      ],
+      "title": "Ethics, law and communication: US exam logic",
+      "body_md": "## Four principles\n\n- **Autonomy**: a capable adult decides, even against advice.\n- **Beneficence**: act in the patient's best interest.\n- **Nonmaleficence**: avoid harm.\n- **Justice**: treat patients fairly and distribute resources fairly.\n- On the exam, autonomy of a capable adult usually wins.\n\n## Consent and capacity\n\n- Informed consent covers the diagnosis, the procedure, its risks and benefits, the alternatives, and the option of no treatment.\n- Capacity is decided per decision by the treating physician (no psychiatrist needed). A refusal alone does not prove lack of capacity.\n- A **Jehovah's Witness** adult may refuse blood. In an emergency, a child is transfused even if the parents refuse.\n\n## End of life\n\n- **Advance directives**: a **living will** (written wishes) and a **health care proxy** (a chosen decision-maker).\n- A **DNR order** means no CPR; all other care continues.\n- **Withdrawing** and **withholding** a treatment are ethically the same.\n- **Brain death** is legal death: irreversible loss of all brain and brainstem function.\n\n## Confidentiality\n\n- **HIPAA** protects health information. Patients may see their records; share only what each person needs.\n- Exceptions protect others: threats to an identifiable person, reportable diseases, abuse.\n\n## Communication\n\n- Use a **professional interpreter**, not a family member.\n- Open questions, empathy and silence help. Explore the patient's beliefs with respect (**cultural humility**).\n- **Motivational interviewing** meets the patient at their **stage of change** (precontemplation, contemplation, preparation, action, maintenance, and possible relapse).\n\n## Professionalism\n\n- Avoid **conflicts of interest**: decline gifts that could change your decisions.\n- An **impaired colleague** (alcohol, drugs) must be reported: to the hospital or a physician health program, and to the state medical board if needed.\n\n## Patient safety\n\n- **Swiss cheese model**: harm happens when holes in several layers of defense line up.\n- **Root cause analysis** looks for system failures, not a person to blame.\n- Prefer system fixes: checklists, standard protocols, forcing functions.",
+      "body_pt_md": "## Quatro princípios\n\n- **Autonomia**: um adulto capaz decide, mesmo contra a orientação médica.\n- **Beneficência**: agir no melhor interesse do paciente.\n- **Não maleficência**: evitar dano.\n- **Justiça**: tratar os pacientes com equidade e distribuir os recursos de forma justa.\n- Na prova, a autonomia de um adulto capaz geralmente prevalece.\n\n## Consentimento e capacidade\n\n- O consentimento informado inclui o diagnóstico, o procedimento, seus riscos e benefícios, as alternativas e a opção de não tratar.\n- A capacidade é avaliada para cada decisão pelo médico assistente (sem necessidade de psiquiatra). Uma recusa, por si só, não prova falta de capacidade.\n- Um adulto **Testemunha de Jeová** pode recusar sangue. Em uma emergência, a criança recebe transfusão mesmo se os pais recusarem.\n\n## Fim de vida\n\n- **Diretivas antecipadas**: o **testamento vital** (desejos por escrito) e o **procurador para cuidados de saúde** (pessoa escolhida para decidir).\n- Uma **ordem de não reanimar (ONR)** significa não fazer RCP; todo o restante do cuidado continua.\n- **Retirar** e **não iniciar** um tratamento são eticamente equivalentes.\n- **Morte encefálica** é morte legal: perda irreversível de todas as funções do encéfalo e do tronco encefálico.\n\n## Sigilo\n\n- A **HIPAA** protege as informações de saúde. O paciente pode ver seu prontuário; compartilhar apenas o que cada pessoa precisa.\n- As exceções protegem terceiros: ameaças a pessoa identificável, doenças de notificação compulsória, maus-tratos.\n\n## Comunicação\n\n- Usar um **intérprete profissional**, não um familiar.\n- Perguntas abertas, empatia e silêncio ajudam. Explorar as crenças do paciente com respeito (**humildade cultural**).\n- A **entrevista motivacional** parte do **estágio de mudança** do paciente (pré-contemplação, contemplação, preparação, ação, manutenção e possível recaída).\n\n## Profissionalismo\n\n- Evitar **conflitos de interesse**: recusar presentes que possam alterar suas decisões.\n- Um **colega com comprometimento** (álcool, drogas) deve ser notificado: ao hospital ou a um programa de saúde do médico e, se necessário, ao conselho de medicina estadual.\n\n## Segurança do paciente\n\n- **Modelo do queijo suíço**: o dano ocorre quando os furos de várias camadas de defesa se alinham.\n- A **análise de causa raiz** busca falhas do sistema, não um culpado.\n- Preferir correções no sistema: checklists, protocolos padronizados, barreiras que impedem o erro (*forcing functions*)."
+    }
+  ]
+}

@@ -1,0 +1,214 @@
+{
+  "cards": [
+    {
+      "slug": "card-diabetes-mellitus-beta-cell-glucose-sensing",
+      "track": "step1",
+      "system": "endocrine",
+      "discipline": "physiology",
+      "tags": [
+        "diabetes-mellitus",
+        "insulin-secretion"
+      ],
+      "front": "How does a beta cell turn a rise in blood glucose into insulin release?",
+      "back": "Glucose enters through **GLUT2** and is phosphorylated by **glucokinase**. Its metabolism raises **ATP**, which closes **ATP-sensitive K+ channels**. The cell **depolarizes**, **voltage-gated Ca2+ channels** open, and Ca2+ influx triggers **insulin exocytosis**.",
+      "back_pt": "A glicose entra pelo **GLUT2** e é fosforilada pela **glicoquinase**. Seu metabolismo aumenta o **ATP**, que fecha os **canais de K+ sensíveis ao ATP**. A célula **despolariza**, os **canais de Ca2+ dependentes de voltagem** se abrem e o influxo de Ca2+ desencadeia a **exocitose de insulina**."
+    },
+    {
+      "slug": "card-diabetes-mellitus-insulin-receptor-glut4",
+      "track": "step1",
+      "system": "endocrine",
+      "discipline": "physiology",
+      "tags": [
+        "diabetes-mellitus",
+        "insulin-action"
+      ],
+      "front": "How does insulin increase glucose uptake, and which tissues depend on it?",
+      "back": "Insulin binds a **receptor tyrosine kinase**. Its signaling moves **GLUT4** transporters to the cell membrane. This insulin-dependent uptake occurs in **skeletal muscle** and **adipose tissue**. Brain, RBCs, liver and beta cells take up glucose without insulin.",
+      "back_pt": "A insulina se liga a um **receptor tirosina-quinase**. Sua sinalização leva transportadores **GLUT4** para a membrana celular. Essa captação dependente de insulina ocorre no **músculo esquelético** e no **tecido adiposo**. Cérebro, hemácias, fígado e células beta captam glicose sem insulina."
+    },
+    {
+      "slug": "card-diabetes-mellitus-type-1-pathogenesis",
+      "track": "step1",
+      "system": "endocrine",
+      "discipline": "pathology",
+      "tags": [
+        "diabetes-mellitus",
+        "type-1"
+      ],
+      "front": "What causes type 1 diabetes?",
+      "back": "**T-cell-mediated autoimmune destruction** of beta cells, linked to **HLA-DR3** and **HLA-DR4**. Islets show **insulitis** (lymphocytic infiltrate). **Islet autoantibodies** (anti-GAD65, anti-insulin, anti-IA-2) appear years before hyperglycemia; they are markers, while T cells do the damage.",
+      "back_pt": "**Destruição autoimune das células beta mediada por linfócitos T**, associada a **HLA-DR3** e **HLA-DR4**. As ilhotas mostram **insulite** (infiltrado linfocitário). **Autoanticorpos anti-ilhota** (anti-GAD65, anti-insulina, anti-IA-2) surgem anos antes da hiperglicemia; são marcadores, e o dano é feito pelas células T."
+    },
+    {
+      "slug": "card-diabetes-mellitus-type-2-pathogenesis",
+      "track": "step1",
+      "system": "endocrine",
+      "discipline": "pathology",
+      "tags": [
+        "diabetes-mellitus",
+        "type-2"
+      ],
+      "front": "Which two defects cause type 2 diabetes, and what is seen in its islets?",
+      "back": "**Insulin resistance** (closely linked to **central obesity**) plus progressive **beta-cell failure**. Hyperglycemia appears when insulin output can no longer compensate. Islets show **amyloid** made of **amylin (IAPP)**. Twin studies show a stronger genetic influence than in type 1.",
+      "back_pt": "**Resistência à insulina** (muito ligada à **obesidade central**) mais **falência progressiva das células beta**. A hiperglicemia aparece quando a secreção de insulina não consegue mais compensar. As ilhotas mostram **amiloide** formado por **amilina (IAPP)**. Estudos com gêmeos mostram influência genética maior que no tipo 1."
+    },
+    {
+      "slug": "card-diabetes-mellitus-dka-ketogenesis",
+      "track": "step1",
+      "system": "endocrine",
+      "discipline": "pathology",
+      "tags": [
+        "diabetes-mellitus",
+        "dka"
+      ],
+      "front": "How does insulin deficiency lead to the acidosis and the breathing pattern of DKA?",
+      "back": "Low insulin with high **glucagon** drives **lipolysis**. The liver turns the free fatty acids into **ketone bodies** (acetoacetate, **β-hydroxybutyrate**). The result is a **high anion gap metabolic acidosis**, deep rapid **Kussmaul breathing**, and **fruity breath** from acetone.",
+      "back_pt": "Insulina baixa com **glucagon** alto estimula a **lipólise**. O fígado converte os ácidos graxos livres em **corpos cetônicos** (acetoacetato, **β-hidroxibutirato**). O resultado é **acidose metabólica com ânion gap elevado**, respiração profunda e rápida de **Kussmaul** e **hálito cetônico** (frutado) pela acetona."
+    },
+    {
+      "slug": "card-diabetes-mellitus-hhs",
+      "track": "step1",
+      "system": "endocrine",
+      "discipline": "pathology",
+      "tags": [
+        "diabetes-mellitus",
+        "hhs"
+      ],
+      "front": "Why is ketosis minimal in hyperosmolar hyperglycemic state (HHS)?",
+      "back": "HHS usually occurs in **type 2 diabetes**. **Residual insulin** is enough to block **lipolysis and ketogenesis** but not to control glucose. Glucose rises very high, **osmotic diuresis** causes **severe dehydration** and **hyperosmolality**, and confusion or coma follows.",
+      "back_pt": "O EHH costuma ocorrer no **diabetes tipo 2**. A **insulina residual** basta para bloquear a **lipólise e a cetogênese**, mas não para controlar a glicemia. A glicose sobe muito, a **diurese osmótica** causa **desidratação grave** e **hiperosmolalidade**, e surgem confusão mental ou coma."
+    },
+    {
+      "slug": "card-diabetes-mellitus-retinopathy",
+      "track": "step1",
+      "system": "endocrine",
+      "discipline": "pathology",
+      "tags": [
+        "diabetes-mellitus",
+        "chronic-complications",
+        "retinopathy"
+      ],
+      "front": "How does nonproliferative diabetic retinopathy differ from proliferative retinopathy?",
+      "back": "**Nonproliferative**: weak, leaky capillaries cause **microaneurysms**, **dot-blot hemorrhages**, **hard exudates** and **macular edema**. **Proliferative**: retinal **ischemia** releases **VEGF**, so fragile **new vessels** grow. They bleed into the vitreous and can cause **tractional retinal detachment**.",
+      "back_pt": "**Não proliferativa**: capilares frágeis e permeáveis causam **microaneurismas**, **hemorragias puntiformes e em borrão** (*dot-blot*), **exsudatos duros** e **edema macular**. **Proliferativa**: a **isquemia** retiniana libera **VEGF**, e crescem **neovasos** frágeis. Eles sangram no vítreo e podem causar **descolamento tracional de retina**."
+    },
+    {
+      "slug": "card-diabetes-mellitus-maternal-diabetes-neonate",
+      "track": "step1",
+      "system": "endocrine",
+      "discipline": "pathology",
+      "tags": [
+        "diabetes-mellitus",
+        "gestational-diabetes"
+      ],
+      "front": "Why are infants of mothers with poorly controlled diabetes large at birth and hypoglycemic after delivery?",
+      "back": "Maternal **glucose crosses the placenta**, but insulin does not. Fetal **beta-cell hyperplasia** produces **hyperinsulinemia**, and insulin is anabolic, causing **macrosomia**. At birth, the glucose supply stops while insulin stays high, causing **neonatal hypoglycemia**.",
+      "back_pt": "A **glicose materna atravessa a placenta**, mas a insulina não. A **hiperplasia das células beta** fetais produz **hiperinsulinemia**, e a insulina é anabólica, causando **macrossomia**. Ao nascer, o aporte de glicose cessa enquanto a insulina segue alta, causando **hipoglicemia neonatal**."
+    }
+  ],
+  "questions": [
+    {
+      "slug": "q-diabetes-mellitus-dka-potassium",
+      "track": "step1",
+      "system": "endocrine",
+      "discipline": "pathology",
+      "tags": [
+        "diabetes-mellitus",
+        "dka",
+        "potassium"
+      ],
+      "stem": "A 19-year-old woman with type 1 diabetes has had 2 days of vomiting and abdominal pain. She stopped her insulin because she was not eating. She is drowsy, her breathing is deep and rapid, and her breath has a fruity smell. Blood pressure is 98/60 mm Hg and pulse is 118/min. Her mucous membranes are dry. Serum studies show glucose 520 mg/dL, Na+ 131 mEq/L, K+ 5.8 mEq/L, Cl- 95 mEq/L and HCO3- 8 mEq/L. Arterial pH is 7.20. Urine ketones are strongly positive. Which statement best describes her potassium balance?",
+      "choices": [
+        "Total body potassium is high because her kidneys cannot excrete potassium",
+        "Total body potassium is normal, and serum potassium reflects it accurately",
+        "Total body potassium is low, and serum potassium will fall when insulin is given",
+        "Total body potassium is high because of potassium release from injured muscle",
+        "Total body potassium is normal, and the high serum level comes from low aldosterone"
+      ],
+      "correct": 2,
+      "explanation": "This is **DKA**: the anion gap is 131 − (95 + 8) = **28 mEq/L**. **Insulin deficiency** and **hyperosmolality** (more than the acidosis itself) shift K+ out of cells, so serum K+ is high. Meanwhile, **osmotic diuresis** and vomiting have depleted **total body K+**. Insulin drives K+ back into cells, so serum K+ can drop quickly during treatment. The first choice is tempting, but her kidneys are losing potassium, not retaining it.",
+      "explanation_pt": "Trata-se de **CAD**: o ânion gap é 131 − (95 + 8) = **28 mEq/L**. A **deficiência de insulina** e a **hiperosmolalidade** (mais do que a própria acidose) deslocam o K+ para fora das células, e por isso o K+ sérico está alto. Ao mesmo tempo, a **diurese osmótica** e os vômitos depletaram o **K+ corporal total**. A insulina leva o K+ de volta para dentro das células, então o K+ sérico pode cair rapidamente durante o tratamento. A primeira alternativa é tentadora, mas os rins dela estão perdendo potássio, e não o retendo."
+    },
+    {
+      "slug": "q-diabetes-mellitus-type-2-islet-amyloid",
+      "track": "step1",
+      "system": "endocrine",
+      "discipline": "pathology",
+      "tags": [
+        "diabetes-mellitus",
+        "type-2",
+        "pathogenesis"
+      ],
+      "stem": "A 56-year-old man has had fatigue, thirst and frequent urination for 3 months. His BMI is 34 kg/m2, and he has dark, velvety skin on the back of his neck. His father and brother have diabetes. Fasting plasma glucose is 182 mg/dL on two separate days. Urine ketones are negative, and islet autoantibodies are not detected. If his pancreatic islets were examined, which finding would be most likely?",
+      "choices": [
+        "Amyloid deposits derived from amylin",
+        "Lymphocytic infiltration of the islets",
+        "Beta-cell hyperplasia with enlarged islets",
+        "Iron deposits in islet and acinar cells",
+        "Loss of acinar tissue with fibrosis and calcification"
+      ],
+      "correct": 0,
+      "explanation": "Obesity, **acanthosis nigricans** (a sign of insulin resistance), a strong family history and no ketosis or autoantibodies point to **type 2 diabetes**. Its islets typically contain **amyloid** formed from **amylin (IAPP)**, which is co-secreted with insulin and adds to beta-cell loss. **Insulitis** (lymphocytic infiltration) is the most tempting choice, but it is the lesion of autoimmune **type 1** diabetes. Beta-cell hyperplasia is the lesion of infants of diabetic mothers, iron suggests hemochromatosis, and fibrosis with calcification suggests chronic pancreatitis.",
+      "explanation_pt": "Obesidade, **acantose nigricans** (sinal de resistência à insulina), forte história familiar e ausência de cetose e de autoanticorpos indicam **diabetes tipo 2**. Suas ilhotas costumam conter **amiloide** formado por **amilina (IAPP)**, que é cossecretada com a insulina e contribui para a perda de células beta. A **insulite** (infiltrado linfocitário) é a alternativa mais tentadora, mas é a lesão do **diabetes tipo 1** autoimune. A hiperplasia de células beta é a lesão do filho de mãe diabética, ferro sugere hemocromatose, e fibrose com calcificação sugere pancreatite crônica."
+    },
+    {
+      "slug": "q-diabetes-mellitus-c-peptide-factitious",
+      "track": "step1",
+      "system": "endocrine",
+      "discipline": "pathology",
+      "tags": [
+        "diabetes-mellitus",
+        "hypoglycemia",
+        "c-peptide"
+      ],
+      "stem": "A 31-year-old woman who works as a nurse is brought to the emergency department after she was found confused at work. Fingerstick glucose is 36 mg/dL, and she recovers quickly with IV dextrose. She has had two similar episodes in the past month. She does not have diabetes, but her mother has type 2 diabetes treated with insulin. Blood drawn before the dextrose shows a very high insulin level, a low C-peptide and a low proinsulin. A sulfonylurea screen is negative. What is the most likely cause of her hypoglycemia?",
+      "choices": [
+        "Insulinoma",
+        "Sulfonylurea ingestion",
+        "Primary adrenal insufficiency",
+        "Surreptitious insulin injection",
+        "Alcohol-induced hypoglycemia"
+      ],
+      "correct": 3,
+      "explanation": "Beta cells cleave **proinsulin** into insulin and **C-peptide** in equal amounts, so C-peptide marks **endogenous** insulin. Injected insulin contains no C-peptide and suppresses the beta cells, giving **high insulin with low C-peptide and proinsulin**. **Insulinoma** is the most tempting choice, but it raises insulin, C-peptide and proinsulin together. Sulfonylureas give the same pattern as insulinoma, and the negative drug screen excludes them.",
+      "explanation_pt": "As células beta clivam a **pró-insulina** em insulina e **peptídeo C** em quantidades iguais, então o peptídeo C marca a insulina **endógena**. A insulina injetada não contém peptídeo C e suprime as células beta, resultando em **insulina alta com peptídeo C e pró-insulina baixos**. O **insulinoma** é a alternativa mais tentadora, mas eleva insulina, peptídeo C e pró-insulina juntos. As sulfonilureias dão o mesmo padrão do insulinoma, e a pesquisa negativa do fármaco as exclui."
+    },
+    {
+      "slug": "q-diabetes-mellitus-sorbitol-aldose-reductase",
+      "track": "step1",
+      "system": "endocrine",
+      "discipline": "pathology",
+      "tags": [
+        "diabetes-mellitus",
+        "chronic-complications",
+        "polyol-pathway"
+      ],
+      "stem": "A 63-year-old man has had type 2 diabetes for 15 years, with poor control. He has blurred vision in both eyes and burning pain with numbness in both feet. Slit-lamp examination shows bilateral lens opacities. Vibration and pinprick sensation are reduced in a stocking distribution, and ankle reflexes are absent. Increased flow of glucose through a pathway started by which enzyme best explains both his lens and nerve findings?",
+      "choices": [
+        "Sorbitol dehydrogenase",
+        "Aldose reductase",
+        "Glucokinase",
+        "Galactokinase",
+        "Glucose-6-phosphatase"
+      ],
+      "correct": 1,
+      "explanation": "The lens, Schwann cells and retina take up glucose without insulin. With high glucose, **aldose reductase** reduces it to **sorbitol**, using NADPH. These cells have little **sorbitol dehydrogenase**, so sorbitol is trapped and pulls in water, causing **osmotic damage** (**cataracts**, **neuropathy**). Sorbitol dehydrogenase is the most tempting choice, but it removes sorbitol by converting it to fructose; its low activity allows the build-up rather than causing it.",
+      "explanation_pt": "O cristalino, as células de Schwann e a retina captam glicose sem insulina. Com glicose alta, a **aldose redutase** a reduz a **sorbitol**, usando NADPH. Essas células têm pouca **sorbitol desidrogenase**, então o sorbitol fica retido e atrai água, causando **lesão osmótica** (**catarata**, **neuropatia**). A sorbitol desidrogenase é a alternativa mais tentadora, mas ela remove o sorbitol, convertendo-o em frutose; sua baixa atividade permite o acúmulo, mas não o causa."
+    }
+  ],
+  "notes": [
+    {
+      "slug": "note-diabetes-mellitus-overview",
+      "track": "step1",
+      "system": "endocrine",
+      "discipline": "pathology",
+      "tags": [
+        "diabetes-mellitus",
+        "overview"
+      ],
+      "title": "Diabetes mellitus: physiology, types, emergencies and complications",
+      "body_md": "## Insulin and glucagon\n\n- Beta cells sense glucose through **GLUT2**, **glucokinase**, a rise in ATP and closure of **K-ATP channels**; Ca2+ influx releases insulin.\n- **Proinsulin** is cut into insulin and **C-peptide** in equal amounts.\n- **Insulin** (receptor tyrosine kinase): **GLUT4** uptake in muscle and fat; builds glycogen, fat and protein; moves K+ into cells.\n- **Glucagon** (Gs-cAMP, mainly liver): **glycogenolysis**, **gluconeogenesis**, **ketogenesis**.\n\n## Diagnosis\n\n- Fasting glucose **≥126 mg/dL**, **HbA1c ≥6.5%**, 2-hour OGTT glucose **≥200 mg/dL**, or random glucose **≥200 mg/dL** with classic symptoms. Without symptoms, a repeat test confirms.\n- **HbA1c** is glycated hemoglobin and reflects about 3 months. It is falsely low when RBC survival is short (hemolysis, blood loss) and unreliable in some **hemoglobinopathies**.\n\n## Types\n\n- **Type 1**: T-cell autoimmunity, **HLA-DR3/DR4**, autoantibodies, **insulitis**; absolute insulin deficiency; prone to **DKA**.\n- **Type 2**: **insulin resistance** plus **beta-cell failure**; obesity; islet **amyloid (IAPP)**; strong family history; prone to **HHS**.\n- **MODY**: autosomal dominant single-gene beta-cell defects; *GCK* (glucokinase) mutations cause mild, stable fasting hyperglycemia.\n\n## Emergencies\n\n- **DKA**: hyperglycemia, ketones, **high anion gap acidosis**, **Kussmaul breathing**, fruity breath, abdominal pain. Serum K+ is often high, but **total body K+ is low**. Triggers: infection, missed insulin, myocardial infarction.\n- **HHS**: extreme hyperglycemia, high osmolality, severe dehydration, confusion; little or no ketosis.\n\n## Chronic complications\n\n- **Nonenzymatic glycation** forms advanced glycation end products: thick basement membranes, **hyaline arteriolosclerosis**.\n- **Aldose reductase** makes sorbitol in lens, nerves and retina: **cataracts**, **neuropathy**.\n- **Retinopathy**: nonproliferative, then proliferative (**VEGF**, new vessels).\n- **Nephropathy**: see the glomerular disease block.\n- **Macrovascular**: coronary, cerebral and peripheral atherosclerosis. Also **gastroparesis** and more **infections**.\n\n## Hypoglycemia\n\n- High insulin, **low C-peptide**: injected insulin.\n- High insulin, **C-peptide and proinsulin**: insulinoma or **sulfonylurea** (a drug screen separates them).\n\n## Pregnancy\n\n- Maternal hyperglycemia causes fetal hyperinsulinemia: **macrosomia**, then **neonatal hypoglycemia**.",
+      "body_pt_md": "## Insulina e glucagon\n\n- As células beta detectam a glicose via **GLUT2**, **glicoquinase**, aumento do ATP e fechamento dos **canais K-ATP**; o influxo de Ca2+ libera insulina.\n- A **pró-insulina** é clivada em insulina e **peptídeo C** em quantidades iguais.\n- **Insulina** (receptor tirosina-quinase): captação via **GLUT4** no músculo e no tecido adiposo; síntese de glicogênio, gordura e proteína; leva K+ para dentro das células.\n- **Glucagon** (Gs-AMPc, principalmente fígado): **glicogenólise**, **gliconeogênese**, **cetogênese**.\n\n## Diagnóstico\n\n- Glicemia de jejum **≥126 mg/dL**, **HbA1c ≥6,5%**, glicemia de 2 horas no TOTG **≥200 mg/dL** ou glicemia casual **≥200 mg/dL** com sintomas clássicos. Sem sintomas, um novo teste confirma.\n- A **HbA1c** é a hemoglobina glicada e reflete cerca de 3 meses. Fica falsamente baixa quando a sobrevida das hemácias é curta (hemólise, perda sanguínea) e não é confiável em algumas **hemoglobinopatias**.\n\n## Tipos\n\n- **Tipo 1**: autoimunidade de células T, **HLA-DR3/DR4**, autoanticorpos, **insulite**; deficiência absoluta de insulina; propenso à **CAD**.\n- **Tipo 2**: **resistência à insulina** mais **falência das células beta**; obesidade; **amiloide (IAPP)** nas ilhotas; forte história familiar; propenso ao **EHH**.\n- **MODY**: defeitos monogênicos das células beta, autossômicos dominantes; mutações do *GCK* (glicoquinase) causam hiperglicemia de jejum leve e estável.\n\n## Emergências\n\n- **CAD**: hiperglicemia, cetonas, **acidose com ânion gap elevado**, **respiração de Kussmaul**, hálito cetônico, dor abdominal. O K+ sérico costuma estar alto, mas o **K+ corporal total está baixo**. Desencadeantes: infecção, omissão de insulina, infarto do miocárdio.\n- **EHH**: hiperglicemia extrema, osmolalidade alta, desidratação grave, confusão mental; pouca ou nenhuma cetose.\n\n## Complicações crônicas\n\n- A **glicação não enzimática** forma produtos finais de glicação avançada: membranas basais espessas, **arteriolosclerose hialina**.\n- A **aldose redutase** produz sorbitol no cristalino, nos nervos e na retina: **catarata**, **neuropatia**.\n- **Retinopatia**: não proliferativa e, depois, proliferativa (**VEGF**, neovasos).\n- **Nefropatia**: ver o bloco de doenças glomerulares.\n- **Macrovasculares**: aterosclerose coronariana, cerebral e periférica. Também **gastroparesia** e mais **infecções**.\n\n## Hipoglicemia\n\n- Insulina alta, **peptídeo C baixo**: insulina injetada.\n- Insulina, **peptídeo C e pró-insulina** altos: insulinoma ou **sulfonilureia** (a pesquisa do fármaco os diferencia).\n\n## Gestação\n\n- A hiperglicemia materna causa hiperinsulinemia fetal: **macrossomia** e, depois, **hipoglicemia neonatal**."
+    }
+  ]
+}

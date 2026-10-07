@@ -1,0 +1,221 @@
+{
+ "cards": [
+  {
+   "slug": "card-vitamins-nutrition-thiamine-enzymes",
+   "track": "step1",
+   "system": "biochemistry-genetics",
+   "discipline": "physiology",
+   "tags": [
+    "vitamins-nutrition",
+    "b-vitamins",
+    "thiamine"
+   ],
+   "front": "Which enzymes use thiamine pyrophosphate (from vitamin B1) as a cofactor?",
+   "back": "**Pyruvate dehydrogenase**, **α-ketoglutarate dehydrogenase**, **branched-chain α-ketoacid dehydrogenase** and **transketolase**. Without thiamine, tissues that depend on glucose oxidation (brain, heart) lose ATP: **Wernicke encephalopathy** and **beriberi**.",
+   "back_pt": "**Piruvato desidrogenase**, **α-cetoglutarato desidrogenase**, **desidrogenase de α-cetoácidos de cadeia ramificada** e **transcetolase**. Sem tiamina, os tecidos que dependem da oxidação de glicose (cérebro, coração) perdem ATP: **encefalopatia de Wernicke** e **beribéri**."
+  },
+  {
+   "slug": "card-vitamins-nutrition-niacin-pellagra",
+   "track": "step1",
+   "system": "biochemistry-genetics",
+   "discipline": "pathology",
+   "tags": [
+    "vitamins-nutrition",
+    "b-vitamins",
+    "niacin"
+   ],
+   "front": "What are the features of pellagra, and what can cause it besides a poor diet?",
+   "back": "Niacin (B3) deficiency: **diarrhea**, **dermatitis** of sun-exposed skin (*Casal necklace*) and **dementia**. Other causes: **Hartnup disease** (poor tryptophan absorption), **carcinoid syndrome** (tryptophan used for serotonin) and **isoniazid** (B6 loss; B6 is needed to make niacin from tryptophan).",
+   "back_pt": "Deficiência de niacina (B3): **diarreia**, **dermatite** em áreas expostas ao sol (*colar de Casal*) e **demência**. Outras causas: **doença de Hartnup** (má absorção de triptofano), **síndrome carcinoide** (triptofano desviado para serotonina) e **isoniazida** (perda de B6, necessária para produzir niacina a partir do triptofano)."
+  },
+  {
+   "slug": "card-vitamins-nutrition-vitamin-c-mechanism",
+   "track": "step1",
+   "system": "biochemistry-genetics",
+   "discipline": "physiology",
+   "tags": [
+    "vitamins-nutrition",
+    "vitamin-c",
+    "collagen",
+    "iron"
+   ],
+   "front": "What does vitamin C do in collagen synthesis and in iron absorption?",
+   "back": "It keeps the iron of **prolyl and lysyl hydroxylases** in the reduced (**Fe2+**) state, so procollagen can be hydroxylated and form a stable triple helix. In the gut, it reduces dietary **Fe3+ to Fe2+**, the form that enterocytes absorb.",
+   "back_pt": "Mantém o ferro das **prolil e lisil hidroxilases** no estado reduzido (**Fe2+**), permitindo a hidroxilação do pró-colágeno e a formação de uma tripla hélice estável. No intestino, reduz o **Fe3+ da dieta a Fe2+**, a forma que os enterócitos absorvem."
+  },
+  {
+   "slug": "card-vitamins-nutrition-vitamin-e-deficiency",
+   "track": "step1",
+   "system": "biochemistry-genetics",
+   "discipline": "pathology",
+   "tags": [
+    "vitamins-nutrition",
+    "fat-soluble-vitamins",
+    "vitamin-e"
+   ],
+   "front": "How does vitamin E deficiency present, and how is it told apart from B12 deficiency?",
+   "back": "Vitamin E is a membrane **antioxidant**. Deficiency (usually fat malabsorption) causes **hemolytic anemia**, **posterior column and spinocerebellar** degeneration, and retinopathy. Unlike B12 deficiency, there is **no megaloblastic anemia** and **methylmalonic acid is normal**.",
+   "back_pt": "A vitamina E é um **antioxidante** de membranas. A deficiência (geralmente por má absorção de gordura) causa **anemia hemolítica**, degeneração das **colunas dorsais e espinocerebelar** e retinopatia. Ao contrário da deficiência de B12, **não há anemia megaloblástica** e o **ácido metilmalônico é normal**."
+  },
+  {
+   "slug": "card-vitamins-nutrition-zinc-deficiency",
+   "track": "step1",
+   "system": "biochemistry-genetics",
+   "discipline": "pathology",
+   "tags": [
+    "vitamins-nutrition",
+    "minerals",
+    "zinc"
+   ],
+   "front": "What are the signs of zinc deficiency?",
+   "back": "**Dermatitis around the mouth and anus and on the hands and feet**, alopecia, diarrhea, poor wound healing, loss of taste and smell, and **hypogonadism**. The inherited form, **acrodermatitis enteropathica**, comes from defective intestinal zinc uptake.",
+   "back_pt": "**Dermatite ao redor da boca e do ânus e nas mãos e pés**, alopecia, diarreia, má cicatrização, perda do paladar e do olfato e **hipogonadismo**. A forma hereditária, **acrodermatite enteropática**, decorre de defeito na captação intestinal de zinco."
+  },
+  {
+   "slug": "card-vitamins-nutrition-kwashiorkor-marasmus",
+   "track": "step1",
+   "system": "biochemistry-genetics",
+   "discipline": "pathology",
+   "tags": [
+    "vitamins-nutrition",
+    "malnutrition"
+   ],
+   "front": "How does kwashiorkor differ from marasmus?",
+   "back": "**Kwashiorkor**: too little protein with some calories; **edema** (low albumin), **fatty liver** (too little apolipoprotein to export lipid), skin lesions and a swollen belly. **Marasmus**: too few total calories; severe **muscle and fat wasting**, **no edema**.",
+   "back_pt": "**Kwashiorkor**: pouca proteína com alguma ingestão calórica; **edema** (albumina baixa), **esteatose hepática** (pouca apolipoproteína para exportar lipídio), lesões de pele e abdome distendido. **Marasmo**: calorias totais insuficientes; **perda grave de massa muscular e de gordura**, **sem edema**."
+  },
+  {
+   "slug": "card-vitamins-nutrition-ethanol-nadh",
+   "track": "step1",
+   "system": "biochemistry-genetics",
+   "discipline": "physiology",
+   "tags": [
+    "vitamins-nutrition",
+    "ethanol-metabolism"
+   ],
+   "front": "Why does ethanol metabolism cause fasting hypoglycemia and fatty liver?",
+   "back": "**Alcohol dehydrogenase** and **aldehyde dehydrogenase** both make **NADH**. A high NADH/NAD+ ratio turns pyruvate into lactate and oxaloacetate into malate, so **gluconeogenesis fails**. It also blocks fatty acid oxidation and favors **triglyceride** synthesis in the liver.",
+   "back_pt": "A **álcool desidrogenase** e a **aldeído desidrogenase** produzem **NADH**. Uma razão NADH/NAD+ alta converte piruvato em lactato e oxaloacetato em malato, e a **gliconeogênese falha**. Também bloqueia a oxidação de ácidos graxos e favorece a síntese de **triglicerídeos** no fígado."
+  },
+  {
+   "slug": "card-vitamins-nutrition-starvation-fuels",
+   "track": "step1",
+   "system": "biochemistry-genetics",
+   "discipline": "physiology",
+   "tags": [
+    "vitamins-nutrition",
+    "fed-fasting-metabolism"
+   ],
+   "front": "During fasting and starvation, how do the sources of fuel change over time?",
+   "back": "First, **liver glycogen** keeps blood glucose up; it is largely used up within about a day. **Gluconeogenesis** (from amino acids, lactate, glycerol) starts within hours and then becomes the main source. In prolonged starvation the brain uses **ketone bodies**, which spares muscle protein.",
+   "back_pt": "Primeiro, o **glicogênio hepático** mantém a glicemia; ele se esgota em grande parte em cerca de um dia. A **gliconeogênese** (a partir de aminoácidos, lactato e glicerol) começa em poucas horas e depois se torna a principal fonte. No jejum prolongado, o cérebro usa **corpos cetônicos**, o que poupa a proteína muscular."
+  }
+ ],
+ "questions": [
+  {
+   "slug": "q-vitamins-nutrition-hartnup-niacin",
+   "track": "step1",
+   "system": "biochemistry-genetics",
+   "discipline": "pathology",
+   "tags": [
+    "vitamins-nutrition",
+    "b-vitamins",
+    "niacin",
+    "hartnup"
+   ],
+   "stem": "A 9-year-old boy has repeated episodes of a red, scaly rash on his face, neck and forearms. The rash gets worse after time in the sun. During these episodes he also walks unsteadily. His parents are first cousins, and his diet is normal. Urinalysis shows large amounts of neutral amino acids, including tryptophan. Supplementation with which vitamin is most likely to improve his rash?",
+   "choices": [
+    "Thiamine (B1)",
+    "Riboflavin (B2)",
+    "Niacin (B3)",
+    "Pyridoxine (B6)",
+    "Biotin (B7)"
+   ],
+   "correct": 2,
+   "explanation": "This is **Hartnup disease**: an autosomal recessive defect of a **neutral amino acid transporter** in the gut and kidney. Tryptophan is lost, so the body makes less **niacin**, and a **pellagra**-like photosensitive rash appears; treatment is nicotinamide (a form of niacin) and a high-protein diet. Pyridoxine is the tempting choice because B6 helps convert tryptophan to niacin, but here the cofactor is normal and the substrate (tryptophan) is missing.",
+   "explanation_pt": "Trata-se da **doença de Hartnup**: defeito autossômico recessivo de um **transportador de aminoácidos neutros** no intestino e no rim. O triptofano é perdido, o corpo produz menos **niacina** e surge uma erupção fotossensível semelhante à **pelagra**; o tratamento é nicotinamida (uma forma de niacina) e dieta rica em proteínas. A piridoxina é a opção tentadora porque a B6 ajuda a converter triptofano em niacina, mas aqui o cofator está normal e o que falta é o substrato (triptofano)."
+  },
+  {
+   "slug": "q-vitamins-nutrition-biotin-raw-egg",
+   "track": "step1",
+   "system": "biochemistry-genetics",
+   "discipline": "physiology",
+   "tags": [
+    "vitamins-nutrition",
+    "b-vitamins",
+    "biotin"
+   ],
+   "stem": "A 24-year-old man who does bodybuilding has 2 months of hair loss, a red scaly rash around his eyes, nose and mouth, low mood and tiredness. For the past 6 months he has eaten many raw egg whites every day as a protein source. He takes no medications. Which enzyme most likely has reduced activity?",
+   "choices": [
+    "Pyruvate carboxylase",
+    "Pyruvate dehydrogenase",
+    "Transketolase",
+    "Methylmalonyl-CoA mutase",
+    "Glycogen phosphorylase"
+   ],
+   "correct": 0,
+   "explanation": "Raw egg white contains **avidin**, which binds **biotin** and blocks its absorption. Biotin is the cofactor for **carboxylases** such as **pyruvate carboxylase**, acetyl-CoA carboxylase and propionyl-CoA carboxylase. Pyruvate dehydrogenase is the tempting choice, but it needs thiamine, lipoic acid, CoA, FAD and NAD+, not biotin. Methylmalonyl-CoA mutase needs vitamin B12.",
+   "explanation_pt": "A clara de ovo crua contém **avidina**, que se liga à **biotina** e impede sua absorção. A biotina é o cofator das **carboxilases**, como a **piruvato carboxilase**, a acetil-CoA carboxilase e a propionil-CoA carboxilase. A piruvato desidrogenase é a opção tentadora, mas usa tiamina, ácido lipoico, CoA, FAD e NAD+, e não biotina. A metilmalonil-CoA mutase depende da vitamina B12."
+  },
+  {
+   "slug": "q-vitamins-nutrition-wet-beriberi-transketolase",
+   "track": "step1",
+   "system": "biochemistry-genetics",
+   "discipline": "pathology",
+   "tags": [
+    "vitamins-nutrition",
+    "b-vitamins",
+    "thiamine",
+    "beriberi"
+   ],
+   "stem": "A 48-year-old man with long-term heavy alcohol use has 3 weeks of increasing leg swelling and shortness of breath. He eats very little. Pulse is 118/min and blood pressure is 128/50 mm Hg. His hands and feet are warm. He has jugular venous distension, crackles at both lung bases and pitting edema. Vibration sense and ankle reflexes are reduced in both legs. Echocardiography shows dilated ventricles and a high cardiac output. Measuring the activity of which red blood cell enzyme would best confirm the underlying deficiency?",
+   "choices": [
+    "Glutathione reductase",
+    "Glucose-6-phosphate dehydrogenase",
+    "Aspartate aminotransferase",
+    "Transketolase",
+    "Pyruvate kinase"
+   ],
+   "correct": 3,
+   "explanation": "High-output heart failure with peripheral neuropathy in a malnourished drinker is **wet beriberi** from **thiamine** deficiency. **Transketolase** uses thiamine pyrophosphate, so low red blood cell transketolase activity, which rises when thiamine pyrophosphate is added, confirms the deficiency. G6PD is the tempting choice because it is also in the pentose phosphate pathway, but it uses NADP+, not thiamine. Glutathione reductase activity tests riboflavin, and aspartate aminotransferase activity tests B6.",
+   "explanation_pt": "Insuficiência cardíaca de alto débito com neuropatia periférica em um etilista desnutrido é **beribéri úmido** por deficiência de **tiamina**. A **transcetolase** usa pirofosfato de tiamina, então a atividade baixa da transcetolase eritrocitária, que aumenta quando se adiciona pirofosfato de tiamina, confirma a deficiência. A G6PD é a opção tentadora porque também faz parte da via das pentoses-fosfato, mas usa NADP+, e não tiamina. A atividade da glutationa redutase avalia a riboflavina, e a da aspartato aminotransferase avalia a B6."
+  },
+  {
+   "slug": "q-vitamins-nutrition-acrodermatitis-zinc",
+   "track": "step1",
+   "system": "biochemistry-genetics",
+   "discipline": "pathology",
+   "tags": [
+    "vitamins-nutrition",
+    "minerals",
+    "zinc"
+   ],
+   "stem": "A 7-month-old girl has 4 weeks of a red, scaly, crusted rash around her mouth and anus and on her hands and feet. The rash began soon after she stopped breastfeeding. She also has diarrhea, patchy hair loss and irritability. Serum alkaline phosphatase is low. A deficiency of which nutrient most likely explains these findings?",
+   "choices": [
+    "Biotin",
+    "Zinc",
+    "Niacin (B3)",
+    "Riboflavin (B2)",
+    "Copper"
+   ],
+   "correct": 1,
+   "explanation": "A rash around the body openings and on the hands and feet, with diarrhea and hair loss starting after weaning, is typical of **acrodermatitis enteropathica**: an autosomal recessive defect in intestinal **zinc** uptake. Breast milk makes zinc easier to absorb, so signs appear when it stops, and the low **alkaline phosphatase** (a zinc-dependent enzyme) supports the diagnosis. **Biotin** deficiency is the most tempting choice because it also causes a rash around the mouth and hair loss, but the rash is mainly on the face and it does not lower alkaline phosphatase. Niacin deficiency affects sun-exposed skin, and copper deficiency causes kinky hair and neurologic problems rather than this rash.",
+   "explanation_pt": "Erupção ao redor dos orifícios do corpo e nas mãos e pés, com diarreia e queda de cabelo iniciadas após o desmame, é típica da **acrodermatite enteropática**: defeito autossômico recessivo na captação intestinal de **zinco**. O leite materno facilita a absorção do zinco, por isso os sinais surgem quando ele é suspenso, e a **fosfatase alcalina** baixa (uma enzima dependente de zinco) apoia o diagnóstico. A deficiência de **biotina** é a opção tentadora porque também causa erupção ao redor da boca e queda de cabelo, mas a erupção é sobretudo facial e não reduz a fosfatase alcalina. A deficiência de niacina afeta a pele exposta ao sol, e a de cobre causa cabelo quebradiço e encaracolado e alterações neurológicas, e não essa erupção."
+  }
+ ],
+ "notes": [
+  {
+   "slug": "note-vitamins-nutrition-overview",
+   "track": "step1",
+   "system": "biochemistry-genetics",
+   "discipline": "physiology",
+   "tags": [
+    "vitamins-nutrition",
+    "overview"
+   ],
+   "title": "Vitamins, minerals and fuel metabolism: high-yield map",
+   "body_md": "## Fat-soluble vitamins (A, D, E, K)\n\n- Need normal fat absorption; malabsorption and cholestasis lower all four.\n- **A**: night blindness and dry eyes when low; too much causes intracranial hypertension and liver injury, and retinoids are **teratogenic** (see the skin block).\n- **D**: see the parathyroid and calcium block.\n- **E**: hemolysis and posterior column and spinocerebellar damage; normal methylmalonic acid.\n- **K**: newborns are born low, so they get vitamin K at birth (see the hemostasis block).\n\n## Water-soluble vitamins\n\n- **B1** (thiamine): dehydrogenases and transketolase; **Wernicke**, beriberi. Give thiamine before glucose.\n- **B2** (riboflavin): FAD/FMN; cheilitis, angular stomatitis.\n- **B3** (niacin): NAD+; **pellagra** (diarrhea, dermatitis, dementia).\n- **B5** (pantothenate): part of **CoA**.\n- **B6** (pyridoxine): transamination, ALA synthase; lost with **isoniazid**.\n- **B7** (biotin): **carboxylases**; blocked by **avidin** in raw egg white.\n- **B9** and **B12**: both needed to remethylate homocysteine; only B12 converts methylmalonyl-CoA to succinyl-CoA (see the anemia block).\n- **C**: collagen **hydroxylation**, iron absorption; **scurvy**.\n\n## Minerals\n\n- **Zinc**: periorificial and acral rash, poor healing, hypogonadism; **acrodermatitis enteropathica**.\n- **Copper**: needed by lysyl oxidase; Wilson disease is copper excess (see the liver block).\n- **Selenium**: glutathione peroxidase; deficiency can cause cardiomyopathy.\n- Iodine and iron: see the thyroid and heme blocks.\n\n## Malnutrition\n\n- **Kwashiorkor**: protein lack; edema, fatty liver.\n- **Marasmus**: calorie lack; wasting, no edema.\n\n## Fed, fasting, starvation\n\n- **Fed**: insulin; glycogen and fat storage.\n- **Fasting**: glycogenolysis first, then **gluconeogenesis**.\n- **Starvation**: the brain shifts to **ketone bodies**, sparing protein.\n\n## Ethanol\n\n- Alcohol dehydrogenase, then aldehyde dehydrogenase (blocked by **disulfiram**).\n- Excess **NADH**: hypoglycemia, lactic acidosis, fatty liver, ketoacidosis.",
+   "body_pt_md": "## Vitaminas lipossolúveis (A, D, E, K)\n\n- Dependem da absorção normal de gordura; má absorção e colestase reduzem as quatro.\n- **A**: cegueira noturna e olhos secos na deficiência; o excesso causa hipertensão intracraniana e lesão hepática, e os retinoides são **teratogênicos** (ver o bloco de pele).\n- **D**: ver o bloco de paratireoide e cálcio.\n- **E**: hemólise e lesão das colunas dorsais e espinocerebelar; ácido metilmalônico normal.\n- **K**: o recém-nascido nasce com níveis baixos, por isso recebe vitamina K ao nascer (ver o bloco de hemostasia).\n\n## Vitaminas hidrossolúveis\n\n- **B1** (tiamina): desidrogenases e transcetolase; **Wernicke**, beribéri. Dar tiamina antes da glicose.\n- **B2** (riboflavina): FAD/FMN; queilite, estomatite angular.\n- **B3** (niacina): NAD+; **pelagra** (diarreia, dermatite, demência).\n- **B5** (pantotenato): parte da **CoA**.\n- **B6** (piridoxina): transaminação, ALA sintase; perdida com **isoniazida**.\n- **B7** (biotina): **carboxilases**; bloqueada pela **avidina** da clara de ovo crua.\n- **B9** e **B12**: ambas necessárias para remetilar a homocisteína; só a B12 converte metilmalonil-CoA em succinil-CoA (ver o bloco de anemias).\n- **C**: **hidroxilação** do colágeno, absorção de ferro; **escorbuto**.\n\n## Minerais\n\n- **Zinco**: erupção periorificial e acral, má cicatrização, hipogonadismo; **acrodermatite enteropática**.\n- **Cobre**: necessário para a lisil oxidase; a doença de Wilson é excesso de cobre (ver o bloco de fígado).\n- **Selênio**: glutationa peroxidase; a deficiência pode causar cardiomiopatia.\n- Iodo e ferro: ver os blocos de tireoide e de heme.\n\n## Desnutrição\n\n- **Kwashiorkor**: falta de proteína; edema, esteatose hepática.\n- **Marasmo**: falta de calorias; perda de massa muscular e de gordura, sem edema.\n\n## Estado alimentado, jejum, inanição\n\n- **Alimentado**: insulina; armazenamento de glicogênio e gordura.\n- **Jejum**: primeiro glicogenólise, depois **gliconeogênese**.\n- **Inanição**: o cérebro passa a usar **corpos cetônicos**, poupando proteína.\n\n## Etanol\n\n- Álcool desidrogenase, depois aldeído desidrogenase (bloqueada pelo **dissulfiram**).\n- Excesso de **NADH**: hipoglicemia, acidose lática, esteatose hepática, cetoacidose."
+  }
+ ]
+}

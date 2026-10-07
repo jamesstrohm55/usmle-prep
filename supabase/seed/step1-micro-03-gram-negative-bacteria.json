@@ -1,0 +1,221 @@
+{
+  "cards": [
+    {
+      "slug": "card-gram-negative-bacteria-haemophilus-growth",
+      "track": "step1",
+      "system": "microbiology",
+      "discipline": "microbiology",
+      "tags": [
+        "gram-negative-bacteria",
+        "haemophilus",
+        "lab-diagnosis"
+      ],
+      "front": "Which growth factors does Haemophilus influenzae need, and how does the lab supply them?",
+      "back": "**Factor X** (hemin) and **factor V** (NAD+). **Chocolate agar** (heated, lysed blood) provides both. On sheep blood agar it grows only as **satellite colonies** next to *S. aureus*, which releases NAD+ and lyses red cells.",
+      "back_pt": "**Fator X** (hemina) e **fator V** (NAD+). O **ágar chocolate** (sangue aquecido e lisado) fornece os dois. No ágar sangue de carneiro, ele só cresce como **colônias satélites** junto a *S. aureus*, que libera NAD+ e lisa as hemácias."
+    },
+    {
+      "slug": "card-gram-negative-bacteria-meningococcal-los",
+      "track": "step1",
+      "system": "microbiology",
+      "discipline": "microbiology",
+      "tags": [
+        "gram-negative-bacteria",
+        "neisseria",
+        "virulence"
+      ],
+      "front": "Which component of Neisseria meningitidis drives the shock and purpura of meningococcemia?",
+      "back": "**Lipooligosaccharide (LOS)**, its endotoxin. The bacterium sheds it in outer-membrane **blebs**, so blood levels get very high. The cytokine storm causes **septic shock**, **DIC** and purpura. The **polysaccharide capsule** helps it survive in the blood.",
+      "back_pt": "O **lipo-oligossacarídeo (LOS)**, sua endotoxina. A bactéria o libera em **vesículas** da membrana externa, e os níveis no sangue ficam muito altos. A tempestade de citocinas causa **choque séptico**, **CIVD** e púrpura. A **cápsula polissacarídica** ajuda a bactéria a sobreviver no sangue."
+    },
+    {
+      "slug": "card-gram-negative-bacteria-pseudomonas-lab",
+      "track": "step1",
+      "system": "microbiology",
+      "discipline": "microbiology",
+      "tags": [
+        "gram-negative-bacteria",
+        "pseudomonas",
+        "lab-diagnosis"
+      ],
+      "front": "Which laboratory features identify Pseudomonas aeruginosa?",
+      "back": "**Aerobic** gram-negative rod, **oxidase positive**, **does not ferment lactose** (colorless colonies on MacConkey). Makes the blue pigment **pyocyanin** (colonies look blue-green) and smells sweet, like **grapes**. Mucoid strains in **cystic fibrosis** make an **alginate** biofilm.",
+      "back_pt": "Bastonete gram-negativo **aeróbio**, **oxidase positivo**, **não fermenta lactose** (colônias incolores no MacConkey). Produz o pigmento azul **piocianina** (colônias azul-esverdeadas) e tem odor adocicado, de **uva**. Cepas mucoides na **fibrose cística** formam biofilme de **alginato**."
+    },
+    {
+      "slug": "card-gram-negative-bacteria-pseudomonas-exotoxin-a",
+      "track": "step1",
+      "system": "microbiology",
+      "discipline": "microbiology",
+      "tags": [
+        "gram-negative-bacteria",
+        "pseudomonas",
+        "toxins"
+      ],
+      "front": "How does Pseudomonas exotoxin A kill host cells?",
+      "back": "It **ADP-ribosylates elongation factor 2 (EF-2)** and stops **protein synthesis**. This is the same mechanism as **diphtheria toxin**. It contributes to tissue necrosis, for example in burn wounds and **ecthyma gangrenosum**.",
+      "back_pt": "Ela faz **ADP-ribosilação do fator de alongamento 2 (EF-2)** e interrompe a **síntese proteica**. É o mesmo mecanismo da **toxina diftérica**. Contribui para a necrose tecidual, por exemplo em queimaduras e no **ectima gangrenoso**."
+    },
+    {
+      "slug": "card-gram-negative-bacteria-pertussis-toxin",
+      "track": "step1",
+      "system": "microbiology",
+      "discipline": "microbiology",
+      "tags": [
+        "gram-negative-bacteria",
+        "bordetella",
+        "toxins"
+      ],
+      "front": "How does pertussis toxin act, and which blood finding does it cause?",
+      "back": "It **ADP-ribosylates Gi**, so Gi can no longer inhibit adenylyl cyclase and **cAMP rises**. It also keeps lymphocytes from leaving the blood, causing marked **lymphocytosis**. *Bordetella pertussis* is a small gram-negative coccobacillus.",
+      "back_pt": "Ela faz **ADP-ribosilação da Gi**, que deixa de inibir a adenilato ciclase, e o **AMPc sobe**. Também impede que os linfócitos saiam do sangue, causando **linfocitose** acentuada. *Bordetella pertussis* é um cocobacilo gram-negativo pequeno."
+    },
+    {
+      "slug": "card-gram-negative-bacteria-intracellular-zoonoses",
+      "track": "step1",
+      "system": "microbiology",
+      "discipline": "microbiology",
+      "tags": [
+        "gram-negative-bacteria",
+        "zoonoses",
+        "immunity"
+      ],
+      "front": "Which gram-negative zoonotic bacteria survive inside macrophages, and which immune response controls them?",
+      "back": "***Brucella***, ***Francisella tularensis*** and ***Yersinia pestis*** are **facultative intracellular** bacteria that can live inside macrophages. Control needs **cell-mediated immunity** (Th1 cells, **IFN-γ**). *Brucella* and *Francisella* can form **granulomas** in lymph nodes, liver and spleen.",
+      "back_pt": "***Brucella***, ***Francisella tularensis*** e ***Yersinia pestis*** são bactérias **intracelulares facultativas** que conseguem viver dentro de macrófagos. O controle depende da **imunidade celular** (linfócitos Th1, **IFN-γ**). *Brucella* e *Francisella* podem formar **granulomas** em linfonodos, fígado e baço."
+    },
+    {
+      "slug": "card-gram-negative-bacteria-macconkey-lactose",
+      "track": "step1",
+      "system": "microbiology",
+      "discipline": "microbiology",
+      "tags": [
+        "gram-negative-bacteria",
+        "enterobacterales",
+        "lab-diagnosis"
+      ],
+      "front": "Which gram-negative rods ferment lactose and form pink colonies on MacConkey agar?",
+      "back": "**Lactose fermenters** (pink): ***E. coli***, ***Klebsiella***, ***Enterobacter*** and *Citrobacter* (often slow). **Non-fermenters** (colorless): ***Salmonella***, ***Shigella***, ***Proteus*** and ***Pseudomonas***; only *Pseudomonas* among these is oxidase positive.",
+      "back_pt": "**Fermentadores de lactose** (rosa): ***E. coli***, ***Klebsiella***, ***Enterobacter*** e *Citrobacter* (muitas vezes lento). **Não fermentadores** (incolores): ***Salmonella***, ***Shigella***, ***Proteus*** e ***Pseudomonas***; entre estes, só *Pseudomonas* é oxidase positiva."
+    },
+    {
+      "slug": "card-gram-negative-bacteria-e-coli-virulence",
+      "track": "step1",
+      "system": "microbiology",
+      "discipline": "microbiology",
+      "tags": [
+        "gram-negative-bacteria",
+        "e-coli",
+        "virulence"
+      ],
+      "front": "Which E. coli virulence factors explain pyelonephritis and neonatal meningitis?",
+      "back": "**P fimbriae** (P pili) let uropathogenic *E. coli* attach to uroepithelium and climb to the kidney (**pyelonephritis**). The **K1 capsule** resists phagocytosis and complement, causing **neonatal meningitis** and sepsis.",
+      "back_pt": "As **fímbrias P** (pili P) permitem que a *E. coli* uropatogênica se fixe ao uroepitélio e suba até o rim (**pielonefrite**). A **cápsula K1** resiste à fagocitose e ao complemento, causando **meningite neonatal** e sepse."
+    }
+  ],
+  "questions": [
+    {
+      "slug": "q-gram-negative-bacteria-ecthyma-pseudomonas",
+      "track": "step1",
+      "system": "microbiology",
+      "discipline": "microbiology",
+      "tags": [
+        "gram-negative-bacteria",
+        "pseudomonas",
+        "lab-diagnosis"
+      ],
+      "stem": "A 58-year-old man is receiving induction chemotherapy for acute myeloid leukemia. His absolute neutrophil count is 200/mm3. He develops a fever of 39.4°C (102.9°F). Two days later, a painless red spot on his thigh becomes a round ulcer with a black, necrotic center and a red rim. Blood cultures grow an aerobic gram-negative rod that is oxidase positive and forms colorless colonies on MacConkey agar. Which additional feature is most likely in this organism?",
+      "choices": [
+        "Growth only on buffered charcoal yeast extract agar",
+        "Requirement for factors X and V",
+        "Blue-green pigment and a grape-like odor",
+        "H2S production on triple sugar iron agar",
+        "Urease activity with swarming motility"
+      ],
+      "correct": 2,
+      "explanation": "The black necrotic skin ulcer in a neutropenic patient is **ecthyma gangrenosum**, and an oxidase-positive, non-lactose-fermenting aerobic rod is ***Pseudomonas aeruginosa***. It makes the pigment **pyocyanin** (blue-green colonies) and has a sweet, **grape-like** odor; its exotoxin A adds to the tissue necrosis. *Proteus* also does not ferment lactose and shows urease and swarming, but it is **oxidase negative**, like *Salmonella* (H2S positive).",
+      "explanation_pt": "A úlcera cutânea necrótica e preta em um paciente neutropênico é o **ectima gangrenoso**, e um bastonete aeróbio oxidase positivo e não fermentador de lactose é ***Pseudomonas aeruginosa***. Ela produz o pigmento **piocianina** (colônias azul-esverdeadas) e tem odor adocicado, **de uva**; sua exotoxina A contribui para a necrose tecidual. *Proteus* também não fermenta lactose e mostra urease e crescimento em véu, mas é **oxidase negativo**, assim como *Salmonella* (H2S positiva)."
+    },
+    {
+      "slug": "q-gram-negative-bacteria-hib-capsule",
+      "track": "step1",
+      "system": "microbiology",
+      "discipline": "microbiology",
+      "tags": [
+        "gram-negative-bacteria",
+        "haemophilus",
+        "vaccines"
+      ],
+      "stem": "A 20-month-old boy is brought to the emergency department with fever, irritability and vomiting for one day. His parents declined all childhood vaccines. Temperature is 39.6°C (103.3°F). He is drowsy and has neck stiffness. CSF shows many neutrophils, low glucose and small gram-negative coccobacilli. The organism grows on chocolate agar. On sheep blood agar, it grows only around a streak of Staphylococcus aureus. Which bacterial component is the target of the vaccine that would most likely have prevented this infection?",
+      "choices": [
+        "Lipooligosaccharide in the outer membrane",
+        "IgA1 protease",
+        "Type IV pili",
+        "Polyribosylribitol phosphate capsule",
+        "Outer membrane porin proteins"
+      ],
+      "correct": 3,
+      "explanation": "Growth that needs **factors X and V** (chocolate agar, satellite growth near *S. aureus*) identifies ***Haemophilus influenzae***; invasive disease such as meningitis in an unvaccinated toddler is classic for **type b**. The **Hib vaccine** contains the type b capsule, **polyribosylribitol phosphate (PRP)**, conjugated to a carrier protein so that young children make a T-cell-dependent IgG response. IgA1 protease is a real virulence factor that helps the organism colonize mucosa, but it is not the vaccine antigen. LOS is not a target of the Hib vaccine either.",
+      "explanation_pt": "Crescimento que exige os **fatores X e V** (ágar chocolate, colônias satélites junto a *S. aureus*) identifica ***Haemophilus influenzae***; doença invasiva como meningite em uma criança pequena não vacinada é típica do **tipo b**. A **vacina Hib** contém a cápsula do tipo b, o **polirribosilribitol fosfato (PRP)**, conjugada a uma proteína carreadora para que crianças pequenas produzam resposta IgG dependente de linfócitos T. A protease de IgA1 é um fator de virulência real que ajuda a colonizar a mucosa, mas não é o antígeno da vacina. O LOS também não é alvo da vacina Hib."
+    },
+    {
+      "slug": "q-gram-negative-bacteria-pertussis-lymphocytosis",
+      "track": "step1",
+      "system": "microbiology",
+      "discipline": "microbiology",
+      "tags": [
+        "gram-negative-bacteria",
+        "bordetella",
+        "toxins"
+      ],
+      "stem": "A 3-month-old girl is brought to the clinic because of coughing spells for 10 days. Each spell is a rapid series of coughs that ends with a loud, high-pitched breath in. She often vomits after a spell. Before this, she had a runny nose for a week. She is afebrile between spells, and her lungs are clear. Leukocyte count is 34,000/mm3 with 75% lymphocytes. A nasopharyngeal swab PCR confirms infection with a small gram-negative coccobacillus. How does the main toxin of this organism act?",
+      "choices": [
+        "It activates guanylate cyclase and raises cGMP",
+        "It binds MHC class II and the T-cell receptor outside the peptide groove",
+        "It cleaves SNARE proteins in inhibitory interneurons",
+        "It ADP-ribosylates elongation factor 2",
+        "It ADP-ribosylates the Gi alpha subunit, so cAMP rises"
+      ],
+      "correct": 4,
+      "explanation": "Paroxysmal cough with an inspiratory **whoop**, post-cough vomiting and marked **lymphocytosis** after a catarrhal phase is **pertussis** (*Bordetella pertussis*). **Pertussis toxin** ADP-ribosylates **Gi**, so Gi cannot inhibit adenylyl cyclase and cAMP rises; it also blocks lymphocyte exit from the blood. ADP-ribosylation of EF-2 is the action of diphtheria toxin and *Pseudomonas* exotoxin A, which stop protein synthesis and do not cause lymphocytosis.",
+      "explanation_pt": "Tosse paroxística com **guincho** inspiratório, vômitos após a tosse e **linfocitose** acentuada depois de uma fase catarral é **coqueluche** (*Bordetella pertussis*). A **toxina pertussis** faz ADP-ribosilação da **Gi**, que deixa de inibir a adenilato ciclase, e o AMPc sobe; ela também impede a saída dos linfócitos do sangue. A ADP-ribosilação do EF-2 é a ação da toxina diftérica e da exotoxina A de *Pseudomonas*, que interrompem a síntese proteica e não causam linfocitose."
+    },
+    {
+      "slug": "q-gram-negative-bacteria-tularemia",
+      "track": "step1",
+      "system": "microbiology",
+      "discipline": "microbiology",
+      "tags": [
+        "gram-negative-bacteria",
+        "zoonoses",
+        "francisella"
+      ],
+      "stem": "A 45-year-old man from Arkansas has had fever, chills and headache for 4 days. One week ago he went hunting and skinned several wild rabbits without gloves. Temperature is 39.2°C (102.6°F). There is a painful ulcer with a raised edge on his right index finger and large, tender lymph nodes in the right axilla. Gram stain of a node aspirate shows very small, faintly staining gram-negative coccobacilli. The organism does not grow on routine media and needs cysteine-enriched media. Which organism is the most likely cause?",
+      "choices": [
+        "Pasteurella multocida",
+        "Francisella tularensis",
+        "Bartonella henselae",
+        "Yersinia pestis",
+        "Brucella abortus"
+      ],
+      "correct": 1,
+      "explanation": "An ulcer at the site of contact with **rabbit** tissue, with tender regional lymph nodes, is **ulceroglandular tularemia**, caused by ***Francisella tularensis***, a tiny gram-negative coccobacillus that needs **cysteine** to grow. *Yersinia pestis* also causes painful buboes and can be caught from infected animals, but it is usually spread by **flea bites**, rarely leaves an ulcer, and grows on routine media. *Pasteurella* causes cellulitis within a day of a cat or dog bite or scratch and also grows easily on routine agar.",
+      "explanation_pt": "Uma úlcera no local de contato com tecido de **coelho**, com linfonodos regionais dolorosos, é a **tularemia ulceroglandular**, causada por ***Francisella tularensis***, um cocobacilo gram-negativo muito pequeno que precisa de **cisteína** para crescer. *Yersinia pestis* também causa bubões dolorosos e pode ser adquirida de animais infectados, mas em geral é transmitida por **picadas de pulgas**, raramente deixa úlcera e cresce em meios de rotina. *Pasteurella* causa celulite em até um dia após mordida ou arranhadura de gato ou cão e também cresce facilmente em ágar de rotina."
+    }
+  ],
+  "notes": [
+    {
+      "slug": "note-gram-negative-bacteria-overview",
+      "track": "step1",
+      "system": "microbiology",
+      "discipline": "microbiology",
+      "tags": [
+        "gram-negative-bacteria",
+        "overview"
+      ],
+      "title": "Gram-negative bacteria: organism clues and virulence",
+      "body_md": "## Cocci\n\n- ***N. meningitidis***: polysaccharide **capsule**, ferments maltose; **LOS** endotoxin causes shock, DIC and **Waterhouse-Friderichsen** (adrenal hemorrhage). **C5-C9 deficiency** predisposes to recurrent infection. Close contacts get **chemoprophylaxis**.\n- ***N. gonorrhoeae***: no capsule; **pilus antigenic variation**, so no vaccine. Disseminated disease: tenosynovitis, skin pustules, septic arthritis.\n- ***Moraxella catarrhalis***: otitis media, sinusitis, COPD flares.\n\n## Coccobacilli\n\n- ***H. influenzae***: needs **X and V** factors. Type b (**PRP capsule**) causes invasive disease; the conjugate vaccine made it rare. Nontypeable strains cause otitis and sinusitis.\n- ***Bordetella pertussis***: toxin inactivates **Gi**; **lymphocytosis**.\n- **Zoonoses**: *Pasteurella* (bites), *Bartonella* (cats), *Brucella* (dairy), *Francisella* (rabbits, ticks), *Yersinia pestis* (fleas).\n\n## Enteric rods\n\n- ***E. coli***: P fimbriae (pyelonephritis), K1 capsule (neonatal meningitis); diarrheal types are in GI infections.\n- ***Klebsiella***: thick capsule, *currant jelly* sputum (see respiratory infections).\n- ***Proteus***: **urease**, swarming motility; struvite stones (see renal).\n- ***Serratia*** (red pigment) and ***Enterobacter***: hospital infections.\n- ***Salmonella***: H2S positive; osteomyelitis in **sickle cell** disease. ***Shigella***: no H2S, tiny infective dose.\n- *Vibrio*, *Campylobacter* and ***H. pylori*** (urease) are covered in GI.\n\n## Non-fermenters and others\n\n- ***Pseudomonas***: oxidase positive, **pyocyanin**, grape odor; **exotoxin A** blocks EF-2. Burns, cystic fibrosis, **ecthyma gangrenosum** in neutropenia, hot tub folliculitis.\n- ***Acinetobacter baumannii***: ventilator and ICU infections, often **multidrug resistant**.\n- ***Legionella***: water aerosols; **buffered charcoal yeast extract** agar.\n\n## Anaerobes\n\n- ***Bacteroides fragilis***: main anaerobe of the colon; its capsule promotes **abscesses** after bowel perforation, usually polymicrobial.",
+      "body_pt_md": "## Cocos\n\n- ***N. meningitidis***: **cápsula** polissacarídica, fermenta maltose; a endotoxina **LOS** causa choque, CIVD e **Waterhouse-Friderichsen** (hemorragia adrenal). A **deficiência de C5-C9** predispõe a infecções de repetição. Os contatos próximos recebem **quimioprofilaxia**.\n- ***N. gonorrhoeae***: sem cápsula; **variação antigênica dos pili**, por isso não há vacina. Doença disseminada: tenossinovite, pústulas cutâneas, artrite séptica.\n- ***Moraxella catarrhalis***: otite média, sinusite, exacerbações da DPOC.\n\n## Cocobacilos\n\n- ***H. influenzae***: precisa dos fatores **X e V**. O tipo b (**cápsula de PRP**) causa doença invasiva; a vacina conjugada a tornou rara. Cepas não tipáveis causam otite e sinusite.\n- ***Bordetella pertussis***: a toxina inativa a **Gi**; **linfocitose**.\n- **Zoonoses**: *Pasteurella* (mordidas), *Bartonella* (gatos), *Brucella* (laticínios), *Francisella* (coelhos, carrapatos), *Yersinia pestis* (pulgas).\n\n## Bastonetes entéricos\n\n- ***E. coli***: fímbrias P (pielonefrite), cápsula K1 (meningite neonatal); os tipos diarreicos estão em infecções do TGI.\n- ***Klebsiella***: cápsula espessa, escarro em *geleia de groselha* (*currant jelly*) (ver infecções respiratórias).\n- ***Proteus***: **urease**, crescimento em véu (*swarming*); cálculos de estruvita (ver renal).\n- ***Serratia*** (pigmento vermelho) e ***Enterobacter***: infecções hospitalares.\n- ***Salmonella***: H2S positiva; osteomielite na **doença falciforme**. ***Shigella***: sem H2S, dose infectante muito baixa.\n- *Vibrio*, *Campylobacter* e ***H. pylori*** (urease) estão no bloco de TGI.\n\n## Não fermentadores e outros\n\n- ***Pseudomonas***: oxidase positiva, **piocianina**, odor de uva; a **exotoxina A** bloqueia o EF-2. Queimaduras, fibrose cística, **ectima gangrenoso** na neutropenia, foliculite de banheira de hidromassagem.\n- ***Acinetobacter baumannii***: infecções em ventilação mecânica e UTI, muitas vezes **multirresistente**.\n- ***Legionella***: aerossóis de água; ágar **BCYE** (extrato de levedura tamponado com carvão).\n\n## Anaeróbios\n\n- ***Bacteroides fragilis***: principal anaeróbio do cólon; sua cápsula favorece **abscessos** após perfuração intestinal, em geral polimicrobianos."
+    }
+  ]
+}

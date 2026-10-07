@@ -1,0 +1,219 @@
+{
+  "cards": [
+    {
+      "slug": "card-heme-onc-pharmacology-heparin-lmwh",
+      "track": "step1",
+      "system": "hematology-oncology",
+      "discipline": "pharmacology",
+      "tags": [
+        "heme-onc-pharmacology",
+        "anticoagulants",
+        "heparin"
+      ],
+      "front": "How does heparin work, how is it monitored and reversed, and how does low-molecular-weight heparin differ?",
+      "back": "**Heparin** activates **antithrombin**, which inactivates **thrombin** and **factor Xa**. Fast onset; follow the **aPTT**; reverse with **protamine**. **LMWH** (enoxaparin) acts mainly on **Xa**, is cleared by the **kidneys**, and causes **HIT** less often.",
+      "back_pt": "A **heparina** ativa a **antitrombina**, que inativa a **trombina** e o **fator Xa**. Início rápido; acompanhar pelo **TTPa**; reverter com **protamina**. A **HBPM** (enoxaparina) age principalmente no **Xa**, tem eliminação **renal** e causa **TIH** com menos frequência."
+    },
+    {
+      "slug": "card-heme-onc-pharmacology-warfarin-mechanism",
+      "track": "step1",
+      "system": "hematology-oncology",
+      "discipline": "pharmacology",
+      "tags": [
+        "heme-onc-pharmacology",
+        "anticoagulants",
+        "warfarin"
+      ],
+      "front": "How does warfarin work, and which test monitors it?",
+      "back": "Warfarin blocks **vitamin K epoxide reductase**, so the liver cannot **gamma-carboxylate** factors **II, VII, IX, X** and **proteins C and S**. Monitor with **PT/INR**. It is **teratogenic** and is metabolized by **CYP2C9**, so many drugs change its effect.",
+      "back_pt": "A varfarina bloqueia a **epóxido redutase da vitamina K**, e o fígado não consegue fazer a **gama-carboxilação** dos fatores **II, VII, IX, X** e das **proteínas C e S**. Monitorar com **TP/INR**. É **teratogênica** e metabolizada pelo **CYP2C9**, por isso muitos fármacos alteram seu efeito."
+    },
+    {
+      "slug": "card-heme-onc-pharmacology-warfarin-interactions",
+      "track": "step1",
+      "system": "hematology-oncology",
+      "discipline": "pharmacology",
+      "tags": [
+        "heme-onc-pharmacology",
+        "warfarin",
+        "drug-interactions"
+      ],
+      "front": "Which drugs raise the INR of a patient on warfarin, and which lower it?",
+      "back": "Warfarin is cleared mainly by **CYP2C9**. **Inhibitors** such as **fluconazole**, **amiodarone** and **metronidazole** raise the INR and the bleeding risk. **Inducers** such as **rifampin**, **carbamazepine** and **phenytoin** lower the INR and the risk of clots goes up.",
+      "back_pt": "A varfarina é eliminada principalmente pelo **CYP2C9**. **Inibidores** como **fluconazol**, **amiodarona** e **metronidazol** elevam o INR e o risco de sangramento. **Indutores** como **rifampicina**, **carbamazepina** e **fenitoína** reduzem o INR e aumentam o risco de trombose."
+    },
+    {
+      "slug": "card-heme-onc-pharmacology-doac-reversal",
+      "track": "step1",
+      "system": "hematology-oncology",
+      "discipline": "pharmacology",
+      "tags": [
+        "heme-onc-pharmacology",
+        "anticoagulants",
+        "reversal"
+      ],
+      "front": "What do the direct oral anticoagulants inhibit, and what reverses each group?",
+      "back": "**Dabigatran**: direct **thrombin** inhibitor; reversed by **idarucizumab** (an antibody fragment). **Rivaroxaban** and **apixaban**: direct **factor Xa** inhibitors; reversed by **andexanet alfa** (a decoy Xa). **Argatroban** and **bivalirudin** are IV direct thrombin inhibitors.",
+      "back_pt": "**Dabigatrana**: inibidor direto da **trombina**; revertida pelo **idarucizumabe** (fragmento de anticorpo). **Rivaroxabana** e **apixabana**: inibidores diretos do **fator Xa**; revertidas pelo **andexanete alfa** (um Xa \"isca\"). **Argatrobana** e **bivalirudina** são inibidores diretos da trombina **de uso IV**."
+    },
+    {
+      "slug": "card-heme-onc-pharmacology-thrombolytics",
+      "track": "step1",
+      "system": "hematology-oncology",
+      "discipline": "pharmacology",
+      "tags": [
+        "heme-onc-pharmacology",
+        "thrombolytics"
+      ],
+      "front": "How do thrombolytics such as alteplase work, and what reverses their bleeding?",
+      "back": "**Alteplase** (tPA) and **streptokinase** convert **plasminogen to plasmin**, which breaks down **fibrin** in the clot. The main risk is **bleeding**, including intracranial. **Aminocaproic acid** and **tranexamic acid** are lysine analogs: they stop plasminogen from binding fibrin and being activated, so they help control this bleeding.",
+      "back_pt": "A **alteplase** (tPA) e a **estreptoquinase** convertem **plasminogênio em plasmina**, que degrada a **fibrina** do coágulo. O principal risco é **sangramento**, inclusive intracraniano. O **ácido aminocaproico** e o **ácido tranexâmico** são análogos da lisina: impedem que o plasminogênio se ligue à fibrina e seja ativado, e assim ajudam a controlar esse sangramento."
+    },
+    {
+      "slug": "card-heme-onc-pharmacology-antiplatelet-classes",
+      "track": "step1",
+      "system": "hematology-oncology",
+      "discipline": "pharmacology",
+      "tags": [
+        "heme-onc-pharmacology",
+        "antiplatelets"
+      ],
+      "front": "Besides aspirin and clopidogrel, which antiplatelet drug classes should you know, and what does each block?",
+      "back": "**Prasugrel**, **ticagrelor**: **P2Y12** ADP receptor blockers. **Cilostazol**, **dipyridamole**: **phosphodiesterase** inhibitors that raise platelet cAMP (cilostazol also treats claudication). **Abciximab**, **eptifibatide**: block **GP IIb/IIIa**, the receptor that lets fibrinogen link platelets together (the final step of aggregation).",
+      "back_pt": "**Prasugrel**, **ticagrelor**: bloqueiam o receptor de ADP **P2Y12**. **Cilostazol**, **dipiridamol**: inibidores da **fosfodiesterase** que aumentam o AMPc plaquetário (o cilostazol também trata a claudicação). **Abciximabe**, **eptifibatida**: bloqueiam a **GP IIb/IIIa**, o receptor pelo qual o fibrinogênio une as plaquetas (etapa final da agregação)."
+    },
+    {
+      "slug": "card-heme-onc-pharmacology-chemo-organ-toxicity",
+      "track": "step1",
+      "system": "hematology-oncology",
+      "discipline": "pharmacology",
+      "tags": [
+        "heme-onc-pharmacology",
+        "chemotherapy",
+        "adverse-effects"
+      ],
+      "front": "Which organ toxicity is classic for doxorubicin, bleomycin, cisplatin, vincristine and cyclophosphamide?",
+      "back": "**Doxorubicin**: dilated **cardiomyopathy** (dexrazoxane protects). **Bleomycin**: **pulmonary fibrosis**. **Cisplatin**: **nephrotoxicity** and **ototoxicity**. **Vincristine**: **peripheral neuropathy**. **Cyclophosphamide**: **hemorrhagic cystitis** (mesna protects).",
+      "back_pt": "**Doxorrubicina**: **cardiomiopatia** dilatada (o dexrazoxano protege). **Bleomicina**: **fibrose pulmonar**. **Cisplatina**: **nefrotoxicidade** e **ototoxicidade**. **Vincristina**: **neuropatia periférica**. **Ciclofosfamida**: **cistite hemorrágica** (a mesna protege)."
+    },
+    {
+      "slug": "card-heme-onc-pharmacology-targeted-therapy",
+      "track": "step1",
+      "system": "hematology-oncology",
+      "discipline": "pharmacology",
+      "tags": [
+        "heme-onc-pharmacology",
+        "targeted-therapy"
+      ],
+      "front": "What is the target of imatinib, rituximab, trastuzumab, bevacizumab and cetuximab?",
+      "back": "**Imatinib**: **BCR-ABL** tyrosine kinase (CML; also c-KIT in GIST). **Rituximab**: **CD20** on B cells. **Trastuzumab**: **HER2** (reversible cardiotoxicity). **Bevacizumab**: **VEGF** (hypertension, bleeding, poor wound healing). **Cetuximab**: **EGFR**.",
+      "back_pt": "**Imatinibe**: tirosina-quinase **BCR-ABL** (LMC; também c-KIT no GIST). **Rituximabe**: **CD20** dos linfócitos B. **Trastuzumabe**: **HER2** (cardiotoxicidade reversível). **Bevacizumabe**: **VEGF** (hipertensão, sangramento, má cicatrização). **Cetuximabe**: **EGFR**."
+    }
+  ],
+  "questions": [
+    {
+      "slug": "q-heme-onc-pharmacology-warfarin-reversal",
+      "track": "step1",
+      "system": "hematology-oncology",
+      "discipline": "pharmacology",
+      "tags": [
+        "heme-onc-pharmacology",
+        "warfarin",
+        "reversal"
+      ],
+      "stem": "A 74-year-old man with atrial fibrillation has taken warfarin for 3 years with a stable INR. One week ago he started trimethoprim-sulfamethoxazole for a urinary tract infection. Today he is brought to the emergency department with sudden headache and confusion. Blood pressure is 172/94 mm Hg. CT of the head shows an acute intracerebral hemorrhage. The INR is 8.2, and the platelet count is normal. Which treatment reverses his anticoagulation most rapidly?",
+      "choices": [
+        "Protamine sulfate",
+        "Idarucizumab",
+        "Prothrombin complex concentrate with intravenous vitamin K",
+        "Andexanet alfa",
+        "Oral vitamin K alone"
+      ],
+      "correct": 2,
+      "explanation": "Trimethoprim-sulfamethoxazole inhibits **CYP2C9**, slows warfarin metabolism and raises the INR. In life-threatening bleeding, **prothrombin complex concentrate** (or, more slowly, fresh frozen plasma) replaces factors II, VII, IX and X at once, and **IV vitamin K** keeps the reversal going. Vitamin K alone is too slow, because the liver needs many hours to make new factors. Protamine reverses heparin, idarucizumab reverses dabigatran, and andexanet reverses factor Xa inhibitors.",
+      "explanation_pt": "O sulfametoxazol-trimetoprima inibe o **CYP2C9**, retarda o metabolismo da varfarina e eleva o INR. No sangramento com risco de vida, o **concentrado de complexo protrombínico** (ou, mais lentamente, plasma fresco congelado) repõe de imediato os fatores II, VII, IX e X, e a **vitamina K IV** mantém a reversão. A vitamina K isolada é lenta demais, pois o fígado precisa de muitas horas para produzir novos fatores. A protamina reverte a heparina, o idarucizumabe reverte a dabigatrana e o andexanete reverte os inibidores do fator Xa."
+    },
+    {
+      "slug": "q-heme-onc-pharmacology-hit-treatment",
+      "track": "step1",
+      "system": "hematology-oncology",
+      "discipline": "pharmacology",
+      "tags": [
+        "heme-onc-pharmacology",
+        "heparin",
+        "adverse-effects"
+      ],
+      "stem": "A 67-year-old woman has coronary artery bypass surgery and receives unfractionated heparin afterward. Her platelet count before surgery was 260,000/mm3. On day 7 it is 90,000/mm3. She now has a painful, swollen left calf, and ultrasound shows a deep vein thrombosis. PT and fibrinogen are normal, and the blood smear shows no schistocytes. Which drug is the most appropriate next step in her management, after all heparin is stopped?",
+      "choices": [
+        "Argatroban",
+        "Enoxaparin",
+        "Warfarin alone",
+        "Platelet transfusion",
+        "Protamine sulfate"
+      ],
+      "correct": 0,
+      "explanation": "This is **heparin-induced thrombocytopenia**: IgG against heparin-platelet factor 4 complexes activates platelets and causes thrombosis. All heparin must stop, and a **non-heparin anticoagulant** such as the direct thrombin inhibitor **argatroban** is started. Enoxaparin is the most tempting wrong answer, but low-molecular-weight heparin cross-reacts with the same antibodies. Warfarin alone, started while protein C is low, can cause limb gangrene or skin necrosis, and platelet transfusion can add fuel to the thrombosis.",
+      "explanation_pt": "Trata-se de **trombocitopenia induzida por heparina**: IgG contra complexos heparina-fator plaquetário 4 ativa as plaquetas e causa trombose. Toda heparina deve ser suspensa, e inicia-se um **anticoagulante não heparínico**, como o inibidor direto da trombina **argatrobana**. A enoxaparina é a alternativa errada mais tentadora, mas a heparina de baixo peso molecular tem reação cruzada com os mesmos anticorpos. A varfarina isolada, iniciada com a proteína C baixa, pode causar gangrena de membros ou necrose cutânea, e a transfusão de plaquetas pode piorar a trombose."
+    },
+    {
+      "slug": "q-heme-onc-pharmacology-methotrexate-rescue",
+      "track": "step1",
+      "system": "hematology-oncology",
+      "discipline": "pharmacology",
+      "tags": [
+        "heme-onc-pharmacology",
+        "chemotherapy",
+        "antimetabolites"
+      ],
+      "stem": "A 16-year-old boy with osteosarcoma of the distal femur receives an intravenous infusion of methotrexate. The next day, his oncologist starts a second drug to protect his bone marrow and oral mucosa. Which drug was given?",
+      "choices": [
+        "Folic acid",
+        "Leucovorin (folinic acid)",
+        "Mesna",
+        "Dexrazoxane",
+        "Amifostine"
+      ],
+      "correct": 1,
+      "explanation": "Methotrexate inhibits **dihydrofolate reductase**, so cells cannot make tetrahydrofolate for purine and thymidine synthesis. **Leucovorin** is already a reduced folate, so it bypasses the block and rescues normal cells from **myelosuppression** and **mucositis**. Folic acid is the most tempting wrong answer, but it must be reduced by dihydrofolate reductase, the same enzyme methotrexate blocks. Mesna protects the bladder, dexrazoxane the heart, and amifostine the kidneys.",
+      "explanation_pt": "O metotrexato inibe a **di-hidrofolato redutase**, e as células não conseguem produzir tetra-hidrofolato para a síntese de purinas e timidina. A **leucovorina** já é um folato reduzido, por isso contorna o bloqueio e resgata as células normais da **mielossupressão** e da **mucosite**. O ácido fólico é a alternativa errada mais tentadora, mas precisa ser reduzido pela di-hidrofolato redutase, a mesma enzima bloqueada pelo metotrexato. A mesna protege a bexiga, o dexrazoxano o coração e a amifostina os rins."
+    },
+    {
+      "slug": "q-heme-onc-pharmacology-tumor-lysis",
+      "track": "step1",
+      "system": "hematology-oncology",
+      "discipline": "pharmacology",
+      "tags": [
+        "heme-onc-pharmacology",
+        "tumor-lysis",
+        "supportive-care"
+      ],
+      "stem": "A 9-year-old boy has a rapidly growing abdominal mass, and biopsy shows Burkitt lymphoma. Before chemotherapy starts, serum uric acid is 12.5 mg/dL, potassium is 5.4 mEq/L, and creatinine is 1.3 mg/dL (it was 0.5 mg/dL last month). He has no history of G6PD deficiency. The team wants a drug that lowers the existing uric acid quickly by turning it into a more soluble compound. Which drug fits?",
+      "choices": [
+        "Allopurinol",
+        "Probenecid",
+        "Colchicine",
+        "Rasburicase",
+        "Febuxostat"
+      ],
+      "correct": 3,
+      "explanation": "**Rasburicase** is a recombinant **urate oxidase**: it converts uric acid into **allantoin**, which dissolves easily in urine, so it lowers uric acid that is already present. **Allopurinol** and febuxostat inhibit **xanthine oxidase** and prevent new uric acid formation, but they do not remove uric acid already made. Rasburicase must be avoided in **G6PD deficiency**, because it makes hydrogen peroxide that causes hemolysis. Probenecid increases uric acid in the urine and could worsen kidney injury.",
+      "explanation_pt": "A **rasburicase** é uma **urato oxidase** recombinante: converte o ácido úrico em **alantoína**, que se dissolve facilmente na urina, e assim reduz o ácido úrico já existente. O **alopurinol** e o febuxostate inibem a **xantina oxidase** e impedem a formação de novo ácido úrico, mas não removem o que já foi produzido. A rasburicase deve ser evitada na **deficiência de G6PD**, pois gera peróxido de hidrogênio, que causa hemólise. A probenecida aumenta o ácido úrico na urina e poderia piorar a lesão renal."
+    }
+  ],
+  "notes": [
+    {
+      "slug": "note-heme-onc-pharmacology-cancer-drugs",
+      "track": "step1",
+      "system": "hematology-oncology",
+      "discipline": "pharmacology",
+      "tags": [
+        "heme-onc-pharmacology",
+        "chemotherapy",
+        "overview"
+      ],
+      "title": "Cancer drugs: mechanisms, signature toxicities and protective agents",
+      "body_md": "## Antimetabolites (S phase)\n\n- **Methotrexate**: inhibits **dihydrofolate reductase**. Myelosuppression, **mucositis**, liver and lung toxicity. **Leucovorin** rescues normal cells.\n- **5-Fluorouracil**: inhibits **thymidylate synthase**. Leucovorin **increases** its effect.\n- **6-Mercaptopurine**: purine analog broken down by **xanthine oxidase**, so allopurinol raises its toxicity.\n- **Cytarabine**: pyrimidine analog; **cerebellar** toxicity.\n- **Hydroxyurea**: inhibits **ribonucleotide reductase**; raises **HbF** in sickle cell disease.\n\n## Alkylating and platinum agents\n\n- **Cyclophosphamide** and **ifosfamide**: **hemorrhagic cystitis** from acrolein; **mesna** protects the bladder.\n- **Nitrosoureas**: cross the **blood-brain barrier** (brain tumors).\n- **Cisplatin**: kidney and ear injury, strong nausea and vomiting. **Hydration** and **amifostine** help protect the kidneys.\n\n## Other cytotoxic drugs\n\n- **Doxorubicin**: dilated **cardiomyopathy**; **dexrazoxane** protects.\n- **Bleomycin**: **pulmonary fibrosis**.\n- **Vincristine**: blocks microtubule assembly; **neuropathy**. **Vinblastine**: more **myelosuppression**.\n- **Paclitaxel**: **stabilizes** microtubules; neuropathy.\n- **Etoposide** (topoisomerase II) and **irinotecan** (topoisomerase I; severe **diarrhea**).\n\n## Targeted and immune therapy\n\n- **Imatinib**: BCR-ABL inhibitor; fluid retention.\n- **Rituximab**: anti-CD20; can reactivate **hepatitis B**.\n- **Trastuzumab**: anti-HER2; reversible heart dysfunction.\n- **Pembrolizumab**, **nivolumab** (PD-1) and **ipilimumab** (CTLA-4): block signals that switch T cells off; **immune-related adverse effects** such as colitis, hepatitis, thyroiditis and pneumonitis.\n- **Venetoclax**: blocks **BCL-2**, restoring apoptosis.\n- **All-trans retinoic acid** (tretinoin): lets **APL** blasts mature.\n\n## Supportive care\n\n- **Filgrastim** (G-CSF) and **sargramostim** (GM-CSF): shorten **neutropenia**.\n- **Epoetin**: treats anemia.\n- **Ondansetron** (5-HT3 blocker): prevents chemotherapy nausea and vomiting.\n- **Tumor lysis**: hydration, **allopurinol** (blocks new uric acid) or **rasburicase** (breaks down uric acid; avoid in G6PD deficiency).",
+      "body_pt_md": "## Antimetabólitos (fase S)\n\n- **Metotrexato**: inibe a **di-hidrofolato redutase**. Mielossupressão, **mucosite**, toxicidade hepática e pulmonar. A **leucovorina** resgata as células normais.\n- **5-Fluoruracila**: inibe a **timidilato sintase**. A leucovorina **aumenta** seu efeito.\n- **6-Mercaptopurina**: análogo de purina degradado pela **xantina oxidase**, por isso o alopurinol aumenta sua toxicidade.\n- **Citarabina**: análogo de pirimidina; toxicidade **cerebelar**.\n- **Hidroxiureia**: inibe a **ribonucleotídeo redutase**; aumenta a **HbF** na doença falciforme.\n\n## Agentes alquilantes e derivados de platina\n\n- **Ciclofosfamida** e **ifosfamida**: **cistite hemorrágica** pela acroleína; a **mesna** protege a bexiga.\n- **Nitrosoureias**: atravessam a **barreira hematoencefálica** (tumores cerebrais).\n- **Cisplatina**: lesão renal e auditiva, náuseas e vômitos intensos. **Hidratação** e **amifostina** ajudam a proteger os rins.\n\n## Outros citotóxicos\n\n- **Doxorrubicina**: **cardiomiopatia** dilatada; o **dexrazoxano** protege.\n- **Bleomicina**: **fibrose pulmonar**.\n- **Vincristina**: bloqueia a montagem dos microtúbulos; **neuropatia**. **Vimblastina**: mais **mielossupressão**.\n- **Paclitaxel**: **estabiliza** os microtúbulos; neuropatia.\n- **Etoposídeo** (topoisomerase II) e **irinotecano** (topoisomerase I; **diarreia** intensa).\n\n## Terapia-alvo e imunoterapia\n\n- **Imatinibe**: inibidor de BCR-ABL; retenção de líquido.\n- **Rituximabe**: anti-CD20; pode reativar a **hepatite B**.\n- **Trastuzumabe**: anti-HER2; disfunção cardíaca reversível.\n- **Pembrolizumabe**, **nivolumabe** (PD-1) e **ipilimumabe** (CTLA-4): bloqueiam sinais que desligam os linfócitos T; **eventos adversos imunomediados** como colite, hepatite, tireoidite e pneumonite.\n- **Venetoclax**: bloqueia o **BCL-2**, restaurando a apoptose.\n- **Ácido all-trans-retinoico** (tretinoína): permite a maturação dos blastos da **LPA**.\n\n## Suporte\n\n- **Filgrastim** (G-CSF) e **sargramostim** (GM-CSF): encurtam a **neutropenia**.\n- **Alfaepoetina**: trata a anemia.\n- **Ondansetrona** (bloqueador 5-HT3): previne náuseas e vômitos da quimioterapia.\n- **Lise tumoral**: hidratação, **alopurinol** (bloqueia a formação de ácido úrico) ou **rasburicase** (degrada o ácido úrico; evitar na deficiência de G6PD)."
+    }
+  ]
+}

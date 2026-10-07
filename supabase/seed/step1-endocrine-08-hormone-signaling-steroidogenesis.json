@@ -1,0 +1,219 @@
+{
+  "cards": [
+    {
+      "slug": "card-hormone-signaling-gs-camp",
+      "track": "step1",
+      "system": "endocrine",
+      "discipline": "physiology",
+      "tags": [
+        "hormone-signaling",
+        "second-messengers",
+        "camp"
+      ],
+      "front": "Which hormones act through a Gs protein, adenylyl cyclase and cAMP?",
+      "back": "Pituitary **ACTH, TSH, FSH, LH** and **MSH**, and placental **hCG**. Hypothalamic **CRH** and **GHRH**. Calcium hormones **PTH** and **calcitonin**. **Glucagon**. **ADH at V2** receptors. **Beta-1 and beta-2** adrenergic receptors. cAMP activates **protein kinase A**.",
+      "back_pt": "**ACTH, TSH, FSH, LH** e **MSH** hipofisários, e **hCG** placentário. **CRH** e **GHRH** hipotalâmicos. Hormônios do cálcio **PTH** e **calcitonina**. **Glucagon**. **ADH nos receptores V2**. Receptores adrenérgicos **beta-1 e beta-2**. O AMPc ativa a **proteína quinase A**."
+    },
+    {
+      "slug": "card-hormone-signaling-gq-ip3",
+      "track": "step1",
+      "system": "endocrine",
+      "discipline": "physiology",
+      "tags": [
+        "hormone-signaling",
+        "second-messengers",
+        "ip3-dag"
+      ],
+      "front": "Which hormones act through a Gq protein, phospholipase C, IP3 and DAG?",
+      "back": "Hypothalamic **GnRH** and **TRH**. **Oxytocin** and **ADH at V1** receptors. **Angiotensin II**. **Gastrin**. **Alpha-1** adrenergic and **histamine H1** receptors. IP3 releases **calcium** from the endoplasmic reticulum; DAG activates **protein kinase C**.",
+      "back_pt": "**GnRH** e **TRH** hipotalâmicos. **Ocitocina** e **ADH nos receptores V1**. **Angiotensina II**. **Gastrina**. Receptores **alfa-1** adrenérgicos e **H1** da histamina. O IP3 libera **cálcio** do retículo endoplasmático; o DAG ativa a **proteína quinase C**."
+    },
+    {
+      "slug": "card-hormone-signaling-tyrosine-kinase-vs-jak",
+      "track": "step1",
+      "system": "endocrine",
+      "discipline": "physiology",
+      "tags": [
+        "hormone-signaling",
+        "tyrosine-kinase",
+        "jak-stat"
+      ],
+      "front": "Which hormones use a receptor with its own tyrosine kinase, and which use a receptor that recruits JAK?",
+      "back": "**Intrinsic tyrosine kinase**: **insulin**, **IGF-1** and growth factors (**EGF, PDGF, FGF**). **No kinase of its own, recruits JAK (JAK/STAT)**: **GH**, **prolactin**, **erythropoietin**, **thrombopoietin** and many cytokines.",
+      "back_pt": "**Tirosina-quinase intrínseca**: **insulina**, **IGF-1** e fatores de crescimento (**EGF, PDGF, FGF**). **Sem quinase própria, recruta JAK (JAK/STAT)**: **GH**, **prolactina**, **eritropoetina**, **trombopoetina** e muitas citocinas."
+    },
+    {
+      "slug": "card-hormone-signaling-intracellular-receptors",
+      "track": "step1",
+      "system": "endocrine",
+      "discipline": "physiology",
+      "tags": [
+        "hormone-signaling",
+        "nuclear-receptors"
+      ],
+      "front": "Which hormones bind receptors inside the cell, and how do they act?",
+      "back": "Lipid-soluble hormones: **steroids** (cortisol, aldosterone, estrogen, progesterone, testosterone), **thyroid hormone (T3)** and **calcitriol**. The hormone-receptor complex binds **response elements on DNA** and changes **gene transcription**, so effects start slowly (hours).",
+      "back_pt": "Hormônios lipossolúveis: **esteroides** (cortisol, aldosterona, estrogênio, progesterona, testosterona), **hormônio tireoidiano (T3)** e **calcitriol**. O complexo hormônio-receptor liga-se a **elementos de resposta no DNA** e altera a **transcrição gênica**, por isso o efeito começa devagar (horas)."
+    },
+    {
+      "slug": "card-hormone-signaling-desmolase",
+      "track": "step1",
+      "system": "endocrine",
+      "discipline": "physiology",
+      "tags": [
+        "hormone-signaling",
+        "steroidogenesis"
+      ],
+      "front": "What is the first and rate-limiting step of steroid hormone synthesis?",
+      "back": "**StAR** protein moves cholesterol from the outer to the **inner mitochondrial membrane**. There, **desmolase** (cholesterol side-chain cleavage enzyme) makes **pregnenolone**. **ACTH** stimulates this step in the adrenal cortex; **LH** stimulates it in the gonads.",
+      "back_pt": "A proteína **StAR** leva o colesterol da membrana mitocondrial externa para a **membrana mitocondrial interna**. Ali, a **desmolase** (enzima de clivagem da cadeia lateral do colesterol) forma **pregnenolona**. O **ACTH** estimula essa etapa no córtex adrenal; o **LH** a estimula nas gônadas."
+    },
+    {
+      "slug": "card-hormone-signaling-corticoid-pathway",
+      "track": "step1",
+      "system": "endocrine",
+      "discipline": "physiology",
+      "tags": [
+        "hormone-signaling",
+        "steroidogenesis",
+        "adrenal-cortex"
+      ],
+      "front": "Map the adrenal pathways from pregnenolone to aldosterone and to cortisol.",
+      "back": "Pregnenolone → (**3β-HSD**) progesterone. **Aldosterone**: progesterone → (**21-hydroxylase**) 11-deoxycorticosterone → (**11β-hydroxylase**) corticosterone → (**aldosterone synthase**, zona glomerulosa) aldosterone. **Cortisol**: **17α-hydroxylase** first → 17-OH-progesterone → (21-hydroxylase) 11-deoxycortisol → (11β-hydroxylase) cortisol.",
+      "back_pt": "Pregnenolona → (**3β-HSD**) progesterona. **Aldosterona**: progesterona → (**21-hidroxilase**) 11-desoxicorticosterona → (**11β-hidroxilase**) corticosterona → (**aldosterona sintase**, zona glomerulosa) aldosterona. **Cortisol**: primeiro a **17α-hidroxilase** → 17-OH-progesterona → (21-hidroxilase) 11-desoxicortisol → (11β-hidroxilase) cortisol."
+    },
+    {
+      "slug": "card-hormone-signaling-sex-steroid-pathway",
+      "track": "step1",
+      "system": "endocrine",
+      "discipline": "physiology",
+      "tags": [
+        "hormone-signaling",
+        "steroidogenesis",
+        "aromatase"
+      ],
+      "front": "Map the sex-steroid branch of steroid synthesis.",
+      "back": "**17,20-lyase** (same enzyme as 17α-hydroxylase) makes **DHEA** and **androstenedione**. Androstenedione → **testosterone**. **5α-reductase**: testosterone → **DHT**. **Aromatase**: testosterone → **estradiol** and androstenedione → **estrone** (ovarian granulosa cells, adipose tissue, placenta).",
+      "back_pt": "A **17,20-liase** (mesma enzima da 17α-hidroxilase) forma **DHEA** e **androstenediona**. Androstenediona → **testosterona**. **5α-redutase**: testosterona → **DHT**. **Aromatase**: testosterona → **estradiol** e androstenediona → **estrona** (células da granulosa ovariana, tecido adiposo, placenta)."
+    },
+    {
+      "slug": "card-hormone-signaling-peptide-vs-steroid-transport",
+      "track": "step1",
+      "system": "endocrine",
+      "discipline": "physiology",
+      "tags": [
+        "hormone-signaling",
+        "binding-proteins",
+        "transport"
+      ],
+      "front": "How do peptide hormones and steroid hormones differ in blood transport and half-life?",
+      "back": "**Peptides** are water-soluble: they circulate mostly **free** and have **short half-lives** (minutes). **Steroids** and **thyroid hormone** travel mostly **bound** to carrier proteins (**CBG**, **SHBG**, **TBG**, albumin), so they last longer. Only the **free fraction** is active.",
+      "back_pt": "Os **peptídeos** são hidrossolúveis: circulam em sua maioria **livres** e têm **meia-vida curta** (minutos). Os **esteroides** e o **hormônio tireoidiano** circulam em grande parte **ligados** a proteínas carreadoras (**CBG**, **SHBG**, **TBG**, albumina), por isso duram mais. Só a **fração livre** é ativa."
+    }
+  ],
+  "questions": [
+    {
+      "slug": "q-hormone-signaling-desmopressin-v2",
+      "track": "step1",
+      "system": "endocrine",
+      "discipline": "pharmacology",
+      "tags": [
+        "hormone-signaling",
+        "second-messengers",
+        "adh"
+      ],
+      "stem": "A 34-year-old woman had transsphenoidal surgery for a pituitary adenoma 2 days ago. She now passes large volumes of dilute urine and is very thirsty. Serum sodium is 149 mEq/L, and urine osmolality is 110 mOsm/kg. After a dose of desmopressin, her urine output falls and urine osmolality rises to 520 mOsm/kg. Which intracellular pathway in the collecting duct cells mediates this response?",
+      "choices": [
+        "Gq protein, phospholipase C, IP3 and calcium",
+        "Receptor guanylyl cyclase and cGMP",
+        "Gs protein, adenylyl cyclase, cAMP and protein kinase A",
+        "Janus kinase (JAK) and STAT transcription factors",
+        "Intracellular receptor binding to DNA response elements"
+      ],
+      "correct": 2,
+      "explanation": "This is **central diabetes insipidus** after pituitary surgery. Desmopressin acts on **V2 receptors** of collecting duct principal cells, which are coupled to **Gs**. cAMP activates **protein kinase A**, and aquaporin-2 channels move into the apical membrane, so water is reabsorbed. **V1 receptors** on vascular smooth muscle use **Gq**/IP3, but they mediate vasoconstriction, not water reabsorption.",
+      "explanation_pt": "Trata-se de **diabetes insípido central** após cirurgia hipofisária. A desmopressina atua nos **receptores V2** das células principais do ducto coletor, acoplados à **proteína Gs**. O AMPc ativa a **proteína quinase A**, e canais de aquaporina-2 são inseridos na membrana apical, permitindo a reabsorção de água. Os **receptores V1** do músculo liso vascular usam **Gq**/IP3, mas medeiam vasoconstrição, não reabsorção de água."
+    },
+    {
+      "slug": "q-hormone-signaling-ocp-total-cortisol",
+      "track": "step1",
+      "system": "endocrine",
+      "discipline": "physiology",
+      "tags": [
+        "hormone-signaling",
+        "binding-proteins",
+        "cortisol"
+      ],
+      "stem": "A 29-year-old woman is evaluated for fatigue. An 8 AM serum cortisol level is elevated. She has taken a combined oral contraceptive for 2 years. She has no weight gain, purple striae, easy bruising or muscle weakness. Blood pressure is 118/74 mm Hg, and fasting glucose is normal. A 24-hour urine free cortisol, a late-night salivary cortisol and the plasma ACTH level are all normal. Which mechanism best explains her elevated serum cortisol?",
+      "choices": [
+        "ACTH secretion by a pituitary adenoma",
+        "Autonomous cortisol secretion by an adrenal adenoma",
+        "ACTH secretion by a small cell lung carcinoma",
+        "Chronic stress activating the hypothalamic-pituitary-adrenal axis",
+        "Increased hepatic synthesis of cortisol-binding globulin"
+      ],
+      "correct": 4,
+      "explanation": "**Estrogen** makes the liver produce more **cortisol-binding globulin (CBG, transcortin)**. More cortisol is bound, so **total serum cortisol rises**, but **free cortisol** stays normal: urine free cortisol and late-night salivary cortisol are normal, and she has no signs of Cushing syndrome. A pituitary ACTH adenoma (Cushing disease) is the most tempting choice, but it raises free cortisol, so urine free cortisol and late-night salivary cortisol would be high and clinical signs would usually be present.",
+      "explanation_pt": "O **estrogênio** faz o fígado produzir mais **globulina ligadora de cortisol (CBG, transcortina)**. Mais cortisol fica ligado, então o **cortisol sérico total sobe**, mas o **cortisol livre** fica normal: o cortisol livre urinário e o cortisol salivar noturno são normais, e ela não tem sinais de síndrome de Cushing. O adenoma hipofisário secretor de ACTH (doença de Cushing) é a alternativa mais tentadora, mas eleva o cortisol livre; assim, o cortisol livre urinário e o cortisol salivar noturno estariam altos, e geralmente haveria sinais clínicos."
+    },
+    {
+      "slug": "q-hormone-signaling-abiraterone-cyp17",
+      "track": "step1",
+      "system": "endocrine",
+      "discipline": "pharmacology",
+      "tags": [
+        "hormone-signaling",
+        "steroidogenesis",
+        "17-alpha-hydroxylase"
+      ],
+      "stem": "A 71-year-old man with metastatic prostate cancer started abiraterone, an inhibitor of 17α-hydroxylase and 17,20-lyase, 6 weeks ago. He stopped the prednisone prescribed with it because it caused insomnia. Today his blood pressure is 164/98 mm Hg (previously 128/80 mm Hg). He has mild ankle edema. Serum potassium is 3.1 mEq/L. Which set of hormone changes best explains his findings?",
+      "choices": [
+        "Decreased ACTH, decreased 11-deoxycorticosterone, increased cortisol",
+        "Increased ACTH, increased 11-deoxycorticosterone, decreased cortisol",
+        "Increased ACTH, decreased 11-deoxycorticosterone, decreased cortisol",
+        "Decreased ACTH, increased 11-deoxycorticosterone, increased cortisol",
+        "Normal ACTH, normal 11-deoxycorticosterone, decreased testosterone only"
+      ],
+      "correct": 1,
+      "explanation": "Blocking **17α-hydroxylase** stops the cortisol and androgen branches. **Cortisol falls**, so **ACTH rises**, and pregnenolone is pushed into the only open branch: **11-deoxycorticosterone** and corticosterone accumulate. 11-deoxycorticosterone is a **mineralocorticoid**, so it causes hypertension, edema and **hypokalemia**; prednisone is given to suppress ACTH. A **21-hydroxylase** block also raises ACTH and lowers cortisol, but it lowers 11-deoxycorticosterone and causes salt loss, not hypertension.",
+      "explanation_pt": "O bloqueio da **17α-hidroxilase** interrompe os ramos do cortisol e dos andrógenos. O **cortisol cai**, então o **ACTH sobe**, e a pregnenolona é desviada para o único ramo aberto: acumulam-se **11-desoxicorticosterona** e corticosterona. A 11-desoxicorticosterona é um **mineralocorticoide**, por isso causa hipertensão, edema e **hipocalemia**; a prednisona é usada para suprimir o ACTH. O bloqueio da **21-hidroxilase** também eleva o ACTH e reduz o cortisol, mas reduz a 11-desoxicorticosterona e causa perda de sal, e não hipertensão."
+    },
+    {
+      "slug": "q-hormone-signaling-acromegaly-gh-receptor",
+      "track": "step1",
+      "system": "endocrine",
+      "discipline": "physiology",
+      "tags": [
+        "hormone-signaling",
+        "jak-stat",
+        "growth-hormone"
+      ],
+      "stem": "A 45-year-old man has noticed over several years that his rings and shoes no longer fit. He has a large jaw, wide spaces between his lower teeth, coarse facial features, and large, sweaty hands. Serum IGF-1 is elevated. MRI shows a 1.6-cm pituitary mass. The hormone made by this tumor acts on hepatocytes to stimulate IGF-1 production. Which type of receptor does this hormone bind on hepatocytes?",
+      "choices": [
+        "Receptor with intrinsic tyrosine kinase activity",
+        "Receptor coupled to a Gs protein",
+        "Receptor coupled to a Gq protein",
+        "Cytokine-type receptor that recruits JAK kinases",
+        "Intracellular receptor that binds DNA"
+      ],
+      "correct": 3,
+      "explanation": "This is **acromegaly** from a **GH-secreting pituitary adenoma**. The **GH receptor** has no kinase activity of its own; it belongs to the **cytokine receptor** family and signals through **JAK/STAT**, which drives hepatic **IGF-1** production. The most tempting wrong answer is the intrinsic tyrosine kinase receptor: that is the receptor for **IGF-1** (and insulin), which mediates many growth effects of GH, but not for GH itself.",
+      "explanation_pt": "Trata-se de **acromegalia** por **adenoma hipofisário secretor de GH**. O **receptor de GH** não tem atividade quinase própria; pertence à família dos **receptores de citocinas** e sinaliza via **JAK/STAT**, estimulando a produção hepática de **IGF-1**. A alternativa mais tentadora é o receptor com tirosina-quinase intrínseca: é o receptor do **IGF-1** (e da insulina), que medeia muitos efeitos de crescimento do GH, mas não o do próprio GH."
+    }
+  ],
+  "notes": [
+    {
+      "slug": "note-hormone-signaling-overview",
+      "track": "step1",
+      "system": "endocrine",
+      "discipline": "physiology",
+      "tags": [
+        "hormone-signaling",
+        "overview"
+      ],
+      "title": "Hormone signaling, steroid synthesis, transport and appetite",
+      "body_md": "## Receptor types\n\n- **Gs → cAMP → PKA**: ACTH, TSH, FSH, LH, hCG, MSH, CRH, GHRH, PTH, calcitonin, glucagon, ADH (V2), beta-1 and beta-2.\n- **Gq → IP3/DAG → calcium and PKC**: GnRH, TRH, oxytocin, ADH (V1), angiotensin II, gastrin, alpha-1, H1.\n- **Intrinsic tyrosine kinase**: insulin, IGF-1, EGF, PDGF, FGF.\n- **JAK/STAT** (cytokine receptors): GH, prolactin, erythropoietin, thrombopoietin.\n- **cGMP**: **ANP/BNP** (membrane guanylyl cyclase) and **nitric oxide** (soluble guanylyl cyclase).\n- **Intracellular receptors**: steroids, T3 and calcitriol change gene transcription.\n\n## Steroid synthesis\n\n- **StAR** brings cholesterol into the mitochondria; **desmolase** turns it into **pregnenolone**. This is the rate-limiting step.\n- Without **17α-hydroxylase**: mineralocorticoids (the only branch in the zona glomerulosa).\n- With 17α-hydroxylase: cortisol (**21-** then **11β-hydroxylase**) or androgens (**17,20-lyase**).\n- **Aromatase** turns androgens into estrogens; **5α-reductase** turns testosterone into DHT.\n\n## Transport\n\n- **Peptides** dissolve in plasma, act on membrane receptors and have short half-lives.\n- **Steroids** and **thyroid hormone** travel mostly bound (**TBG**, **SHBG**, **CBG**, albumin), so they last longer.\n- Only the **free** hormone is active.\n- **Estrogen** (pregnancy, oral contraceptives) raises binding proteins: total levels rise, free levels stay normal.\n\n## Feedback\n\n- **Long loop**: the target hormone (cortisol, T4) inhibits the hypothalamus and pituitary.\n- **Short loop**: a pituitary hormone inhibits its own releasing hormone.\n- **Positive feedback**: high, sustained estradiol before ovulation triggers the **LH surge**.\n- **IGF-1** from the liver carries out most growth effects of GH and feeds back to reduce GH.\n\n## Appetite\n\n- **Leptin** from fat cells signals satiety; **ghrelin** from the stomach signals hunger.\n- **Lateral hypothalamus**: hunger center; damage causes anorexia.\n- **Ventromedial hypothalamus**: satiety center; damage causes overeating and obesity.",
+      "body_pt_md": "## Tipos de receptor\n\n- **Gs → AMPc → PKA**: ACTH, TSH, FSH, LH, hCG, MSH, CRH, GHRH, PTH, calcitonina, glucagon, ADH (V2), beta-1 e beta-2.\n- **Gq → IP3/DAG → cálcio e PKC**: GnRH, TRH, ocitocina, ADH (V1), angiotensina II, gastrina, alfa-1, H1.\n- **Tirosina-quinase intrínseca**: insulina, IGF-1, EGF, PDGF, FGF.\n- **JAK/STAT** (receptores de citocinas): GH, prolactina, eritropoetina, trombopoetina.\n- **GMPc**: **ANP/BNP** (guanilato ciclase de membrana) e **óxido nítrico** (guanilato ciclase solúvel).\n- **Receptores intracelulares**: esteroides, T3 e calcitriol alteram a transcrição gênica.\n\n## Síntese de esteroides\n\n- A **StAR** leva o colesterol para a mitocôndria; a **desmolase** o transforma em **pregnenolona**. Essa é a etapa limitante.\n- Sem **17α-hidroxilase**: mineralocorticoides (o único ramo na zona glomerulosa).\n- Com 17α-hidroxilase: cortisol (**21-** e depois **11β-hidroxilase**) ou andrógenos (**17,20-liase**).\n- A **aromatase** transforma andrógenos em estrogênios; a **5α-redutase** transforma testosterona em DHT.\n\n## Transporte\n\n- **Peptídeos** se dissolvem no plasma, agem em receptores de membrana e têm meia-vida curta.\n- **Esteroides** e **hormônio tireoidiano** circulam em grande parte ligados (**TBG**, **SHBG**, **CBG**, albumina), por isso duram mais.\n- Só o hormônio **livre** é ativo.\n- O **estrogênio** (gestação, anticoncepcionais orais) aumenta as proteínas ligadoras: os níveis totais sobem, e os livres ficam normais.\n\n## *Feedback*\n\n- **Alça longa**: o hormônio-alvo (cortisol, T4) inibe o hipotálamo e a hipófise.\n- **Alça curta**: um hormônio hipofisário inibe o seu próprio hormônio liberador.\n- ***Feedback* positivo**: estradiol alto e sustentado antes da ovulação desencadeia o **pico de LH**.\n- O **IGF-1** hepático executa a maior parte dos efeitos de crescimento do GH e inibe a secreção de GH.\n\n## Apetite\n\n- A **leptina** dos adipócitos sinaliza saciedade; a **grelina** do estômago sinaliza fome.\n- **Hipotálamo lateral**: centro da fome; lesão causa anorexia.\n- **Hipotálamo ventromedial**: centro da saciedade; lesão causa hiperfagia e obesidade."
+    }
+  ]
+}
