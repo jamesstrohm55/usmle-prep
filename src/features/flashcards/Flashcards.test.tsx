@@ -33,3 +33,31 @@ test('a failed save keeps the card on screen, toasts, and retry succeeds', async
   await waitFor(() => expect(screen.getByText('Q2')).toBeTruthy());
   expect(save).toHaveBeenCalledTimes(2);
 });
+
+test('double-click on a grade saves once and advances one card', async () => {
+  let release!: () => void;
+  const save = vi.fn(() => new Promise<void>((r) => { release = r; }));
+  wrap(<Flashcards load={async () => ({ cards: [card('c1', 'Q1'), card('c2', 'Q2'), card('c3', 'Q3')], states: new Map() })} save={save} />);
+  fireEvent.click(await screen.findByText('Show answer'));
+  const good = screen.getByText('Good');
+  fireEvent.click(good);
+  fireEvent.click(good);
+  release();
+  await waitFor(() => expect(screen.getByText('Q2')).toBeTruthy());
+  expect(save).toHaveBeenCalledTimes(1);
+});
+
+test('a stale Retry is a no-op once the card has moved on', async () => {
+  const save = vi.fn().mockRejectedValueOnce(new Error('offline')).mockResolvedValue(undefined);
+  wrap(<Flashcards load={async () => ({ cards: [card('c1', 'Q1'), card('c2', 'Q2'), card('c3', 'Q3')], states: new Map() })} save={save} />);
+  fireEvent.click(await screen.findByText('Show answer'));
+  fireEvent.click(screen.getByText('Good'));
+  await screen.findByRole('alert');
+  fireEvent.click(screen.getByText('Easy'));
+  await waitFor(() => expect(screen.getByText('Q2')).toBeTruthy());
+  const retry = screen.queryByText('Retry');
+  if (retry) fireEvent.click(retry);
+  await new Promise((r) => setTimeout(r, 20));
+  expect(save).toHaveBeenCalledTimes(2);
+  expect(screen.getByText('Q2')).toBeTruthy();
+});

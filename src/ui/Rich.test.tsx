@@ -20,3 +20,9 @@ test('plain text unchanged', () => {
   expect(container.textContent).toBe('just text');
   expect(container.querySelector('strong,em')).toBeNull();
 });
+
+test.each(['** foo', '*5 mg', '**', '*', 'a * b'])('unbalanced %j keeps every character', (t) => {
+  const { container } = render(<p><Rich text={t} /></p>);
+  expect(container.textContent).toBe(t);
+  expect(container.querySelector('strong,em')).toBeNull();
+});

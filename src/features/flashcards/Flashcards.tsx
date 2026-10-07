@@ -20,6 +20,8 @@ export function Flashcards({ load = loadData, save = saveReview }: { load?: type
   const [queue, setQueue] = useState<string[]>([]);
   const [revealed, setRevealed] = useState(false);
   const [showPt, setShowPt] = useState(false);
+  const [saving, setSaving] = useState(false);
+  const busy = useRef(false);
   const shownAt = useRef(Date.now());
   // Load once on mount; a ref keeps an inline `load` prop from re-fetching and resetting the queue each render.
   const loadRef = useRef(load);
@@ -35,16 +37,26 @@ export function Flashcards({ load = loadData, save = saveReview }: { load?: type
   const byId = useMemo(() => new Map((data?.cards ?? []).map((c) => [c.id, c])), [data]);
   const current = queue[0] ? byId.get(queue[0]) : undefined;
 
+  const headId = useRef<string | undefined>(undefined);
+  headId.current = current?.id;
+
   async function rate(rating: (typeof GRADES)[number][1]) {
-    if (!current || !data) return;
+    if (!current || !data || busy.current) return;
+    busy.current = true;
+    setSaving(true);
+    const id = current.id;
     const now = new Date();
     const prev = data.states.get(current.id);
     const { card } = rateCard(prev ? fromRow(prev) : newCard(now), rating, now);
     try {
       await save(current.id, toRow(card), rating, now.getTime() - shownAt.current);
     } catch (e) {
-      toast.show(`Could not save your rating: ${(e as Error).message}`, () => rate(rating));
+      // retry is a no-op if the card has since moved on (stale closure would re-save and skip a card)
+      toast.show(`Could not save your rating: ${(e as Error).message}`, () => { if (headId.current === id) rate(rating); });
       return;
+    } finally {
+      busy.current = false;
+      setSaving(false);
     }
     data.states.set(current.id, toRow(card));
     setQueue((q) => q.slice(1));
@@ -70,7 +82,7 @@ export function Flashcards({ load = loadData, save = saveReview }: { load?: type
         <>
           <p><Rich text={current.back} /></p>
           {current.back_pt && (showPt ? <p lang="pt-BR"><Rich text={current.back_pt} /></p> : <button onClick={() => setShowPt(true)}>Ver em português</button>)}
-          <div>{GRADES.map(([label, r]) => <button key={label} onClick={() => rate(r)}>{label}</button>)}</div>
+          <div>{GRADES.map(([label, r]) => <button key={label} disabled={saving} onClick={() => rate(r)}>{label}</button>)}</div>
           <p>
             <button onClick={() => flag('flagged', 'Flagged for review.')}>Flag as wrong</button>{' '}
             <button onClick={() => flag('verified', 'Marked verified.')}>Mark verified</button>
