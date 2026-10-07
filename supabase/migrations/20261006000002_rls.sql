@@ -24,9 +24,18 @@ begin
     execute format($f$create policy %1$s_delete on %1$s for delete
       using ((owner_id = auth.uid()) or (owner_id is null and is_admin()))$f$, t);
   end loop;
-  foreach t in array array['card_state', 'review_log', 'attempts'] loop
-    execute format($f$create policy %1$s_own on %1$s for all
-      using (user_id = auth.uid()) with check (user_id = auth.uid())$f$, t);
+end $$;
+
+create policy card_state_own on card_state for all
+  using (user_id = auth.uid()) with check (user_id = auth.uid());
+
+-- Append-only for students: they can read and insert their logs, never edit or delete.
+do $$
+declare t text;
+begin
+  foreach t in array array['review_log', 'attempts'] loop
+    execute format($f$create policy %1$s_select on %1$s for select using (user_id = auth.uid())$f$, t);
+    execute format($f$create policy %1$s_insert on %1$s for insert with check (user_id = auth.uid())$f$, t);
   end loop;
 end $$;
 

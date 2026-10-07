@@ -7,8 +7,10 @@ export function Login() {
 
   async function submit(e: React.FormEvent) {
     e.preventDefault();
-    const { error } = await supabase.auth.signInWithOtp({ email, options: { emailRedirectTo: window.location.href.split('#')[0] } });
-    setMsg(error ? error.message : 'Check your email for the sign-in link.');
+    const { error } = await supabase.auth.signInWithOtp({ email, options: { shouldCreateUser: false, emailRedirectTo: window.location.href.split('#')[0] } });
+    setMsg(!error ? 'Check your email for the sign-in link.'
+      : /signups? not allowed/i.test(error.message) || (error as { code?: string }).code === 'otp_disabled'
+        ? "This email isn't registered. Ask James to add you." : error.message);
   }
 
   return (

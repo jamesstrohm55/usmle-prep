@@ -135,7 +135,7 @@ create table item_reviews (
 -- Search across all three content tables (RLS applies: security invoker) -----
 create function search_content(q text)
 returns table (kind text, id uuid, title text, track track, system text)
-language sql stable security invoker as $$
+language sql stable security invoker set search_path = public as $$
   select 'card', id, front, track, system from cards where fts @@ websearch_to_tsquery('english', q)
   union all
   select 'question', id, left(stem, 120), track, system from questions where fts @@ websearch_to_tsquery('english', q)

@@ -34,13 +34,6 @@ describe.skipIf(!process.env.LOCAL_API_URL)('RLS (needs local Supabase)', () => 
     curatedCardId = data.id;
   });
 
-  test('logged-out client reads nothing', async () => {
-    for (const t of ['cards', 'questions', 'notes', 'card_state', 'attempts', 'item_reviews']) {
-      const { data } = await anon.from(t).select('*');
-      expect(data ?? []).toEqual([]);
-    }
-  });
-
   test('student reads curated content', async () => {
     const { data } = await vanessa.client.from('cards').select('id').eq('id', curatedCardId);
     expect(data).toHaveLength(1);
@@ -85,14 +78,82 @@ describe.skipIf(!process.env.LOCAL_API_URL)('RLS (needs local Supabase)', () => 
   test('admin can write curated content; student flags are visible to admin only', async () => {
     const { error } = await boss.client.from('cards').insert({ ...baseCard, slug: `adm-${run}` });
     expect(error).toBeNull();
-    await vanessa.client.from('item_reviews').insert({ item_kind: 'card', item_id: curatedCardId, status: 'flagged', note: 'wrong' });
+    const flag = await vanessa.client.from('item_reviews').insert({ item_kind: 'card', item_id: curatedCardId, status: 'flagged', note: 'wrong' });
+    expect(flag.error).toBeNull();
     expect((await boss.client.from('item_reviews').select('*').eq('status', 'flagged')).data!.length).toBeGreaterThan(0);
     expect((await other.client.from('item_reviews').select('*')).data).toEqual([]);
   });
 
   test('search_content returns visible rows only', async () => {
-    await admin.from('cards').insert({ ...baseCard, slug: `s-${run}`, front: 'zebrafish-mitral', back: 'x' });
-    expect((await vanessa.client.rpc('search_content', { q: 'zebrafish' })).data).toHaveLength(1);
-    expect((await anon.rpc('search_content', { q: 'zebrafish' })).data ?? []).toEqual([]);
+    const term = `zebrafish${run}`;
+    const ins = await admin.from('cards').insert({ ...baseCard, slug: `s-${run}`, front: `${term}-mitral`, back: 'x' });
+    expect(ins.error).toBeNull();
+    expect((await vanessa.client.rpc('search_content', { q: term })).data).toHaveLength(1);
+    expect((await anon.rpc('search_content', { q: term })).data ?? []).toEqual([]);
+  });
+
+  test('student cannot promote herself to admin', async () => {
+    const r = await vanessa.client.from('profiles').update({ role: 'admin' }).eq('id', vanessa.id).select();
+    expect(r.data ?? []).toEqual([]);
+    const { data } = await admin.from('profiles').select('role').eq('id', vanessa.id).single();
+    expect(data!.role).toBe('student');
+  });
+
+  test('student cannot orphan her card to curated (owner_id null)', async () => {
+    const { data: mine } = await vanessa.client.from('cards').insert({ ...baseCard, slug: `orph-${run}`, owner_id: vanessa.id }).select('id').single();
+    const r = await vanessa.client.from('cards').update({ owner_id: null }).eq('id', mine!.id);
+    expect(r.error?.code).toBe('42501');
+    const { data } = await admin.from('cards').select('owner_id').eq('id', mine!.id).single();
+    expect(data!.owner_id).toBe(vanessa.id);
+  });
+
+  test("student cannot update or delete another student's private card", async () => {
+    const { data: theirs } = await other.client.from('cards').insert({ ...baseCard, slug: `theirs-${run}`, owner_id: other.id, front: 'orig' }).select('id').single();
+    await vanessa.client.from('cards').update({ front: 'hacked' }).eq('id', theirs!.id);
+    await vanessa.client.from('cards').delete().eq('id', theirs!.id);
+    const { data } = await admin.from('cards').select('front').eq('id', theirs!.id).single();
+    expect(data!.front).toBe('orig');
+  });
+
+  test('anon cannot insert cards or card_state', async () => {
+    const c = await anon.from('cards').insert({ ...baseCard, slug: `anon-${run}` });
+    expect(c.error?.code).toBe('42501');
+    const s = await anon.from('card_state').insert({
+      card_id: curatedCardId, due: new Date().toISOString(), stability: 1, difficulty: 5,
+      elapsed_days: 0, scheduled_days: 1, learning_steps: 0, reps: 1, lapses: 0, state: 1,
+    });
+    expect(s.error).not.toBeNull();
+  });
+
+  test('review_log and attempts are append-only for students', async () => {
+    const { data: q } = await admin.from('questions').insert({
+      track: 'step1', system: 'cardio', discipline: 'path', slug: `q-${run}`, stem: 's', choices: ['a', 'b'], correct: 0, explanation: 'e',
+    }).select('id').single();
+    const log = await vanessa.client.from('review_log').insert({ card_id: curatedCardId, rating: 3, duration_ms: 100 });
+    expect(log.error).toBeNull();
+    const att = await vanessa.client.from('attempts').insert({ question_id: q!.id, chosen: 0, correct: true, duration_ms: 100, mode: 'tutor', session_id: crypto.randomUUID() });
+    expect(att.error).toBeNull();
+    expect((await vanessa.client.from('review_log').select('*')).data!.length).toBeGreaterThan(0);
+    expect((await vanessa.client.from('attempts').select('*')).data!.length).toBeGreaterThan(0);
+
+    await vanessa.client.from('review_log').update({ rating: 1 }).eq('card_id', curatedCardId);
+    await vanessa.client.from('review_log').delete().eq('card_id', curatedCardId);
+    await vanessa.client.from('attempts').update({ correct: false }).eq('question_id', q!.id);
+    await vanessa.client.from('attempts').delete().eq('question_id', q!.id);
+    const rl = await admin.from('review_log').select('rating').eq('user_id', vanessa.id);
+    expect(rl.data!.map((r) => r.rating)).toEqual([3]);
+    const at = await admin.from('attempts').select('correct').eq('user_id', vanessa.id);
+    expect(at.data!.map((r) => r.correct)).toEqual([true]);
+  });
+
+  test('logged-out client reads nothing, even when per-user rows exist', async () => {
+    // Runs after the tests above, so card_state, review_log, attempts, item_reviews all hold rows for vanessa.
+    for (const t of ['card_state', 'review_log', 'attempts', 'item_reviews']) {
+      expect((await admin.from(t).select('*').eq('user_id', vanessa.id)).data!.length).toBeGreaterThan(0);
+    }
+    for (const t of ['cards', 'questions', 'notes', 'profiles', 'card_state', 'review_log', 'attempts', 'item_reviews']) {
+      const { data, error } = await anon.from(t).select('*');
+      expect(error?.code === '42501' || (data ?? []).length === 0, `${t} leaked rows`).toBe(true);
+    }
   });
 });
