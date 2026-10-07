@@ -1,0 +1,235 @@
+{
+  "cards": [
+    {
+      "slug": "card-img-cardiology-afib",
+      "track": "step1",
+      "system": "cardiovascular",
+      "discipline": "pathology",
+      "tags": ["images-cardiology", "ecg", "arrhythmias"],
+      "front": "Identify the rhythm shown in this ECG. What are its key features?",
+      "back": "**Atrial fibrillation**: **irregularly irregular** R-R intervals, **no distinct P waves** before the QRS complexes, and narrow QRS complexes. Main risk: thrombus in the left atrial appendage and stroke.",
+      "back_pt": "**Fibrilação atrial (FA)**: intervalos R-R **irregularmente irregulares**, **ausência de ondas P nítidas** antes dos complexos QRS e QRS estreito. Principal risco: trombo no apêndice atrial esquerdo e AVC.",
+      "image_url": "images/cardiology/afib-1.jpg",
+      "image_credit": "Ewingdo, CC BY-SA 4.0, https://commons.wikimedia.org/wiki/File:ECG_Atrial_Fibrillation_90_bpm.jpg"
+    },
+    {
+      "slug": "card-img-cardiology-atrial-flutter",
+      "track": "step1",
+      "system": "cardiovascular",
+      "discipline": "pathology",
+      "tags": ["images-cardiology", "ecg", "arrhythmias"],
+      "front": "Identify the rhythm shown in this ECG. Look at leads II, III, aVF and V1. What are its key features?",
+      "back": "**Atrial flutter**: regular **sawtooth flutter waves** at about 300/min, best seen in II, III, aVF and V1. The AV node blocks some waves (e.g. 2:1, 3:1, 4:1), so the ventricular rate is slower. Cause: re-entry circuit in the right atrium.",
+      "back_pt": "**Flutter atrial**: **ondas F em dente de serra** (*sawtooth*) regulares, a cerca de 300/min, mais visíveis em DII, DIII, aVF e V1. O nó AV bloqueia parte das ondas (p. ex. 2:1, 3:1, 4:1), então a frequência ventricular é menor. Causa: circuito de reentrada no átrio direito.",
+      "image_url": "images/cardiology/atrial-flutter-1.jpg",
+      "image_credit": "James Heilman, MD, CC BY-SA 3.0, https://commons.wikimedia.org/wiki/File:AtrialFlutter12.JPG"
+    },
+    {
+      "slug": "card-img-cardiology-vfib",
+      "track": "step1",
+      "system": "cardiovascular",
+      "discipline": "pathology",
+      "tags": ["images-cardiology", "ecg", "arrhythmias"],
+      "front": "This ECG was recorded in a patient who suddenly collapsed. Identify the rhythm. What are its key features?",
+      "back": "**Ventricular fibrillation**: chaotic, irregular waves of changing size and shape with **no identifiable QRS complexes**, P waves or T waves. There is no cardiac output (no pulse). It needs immediate **defibrillation**.",
+      "back_pt": "**Fibrilação ventricular (FV)**: ondas caóticas e irregulares, de tamanho e forma variáveis, **sem complexos QRS identificáveis**, ondas P ou ondas T. Não há débito cardíaco (sem pulso). Exige **desfibrilação** imediata.",
+      "image_url": "images/cardiology/vfib-1.jpg",
+      "image_credit": "Jer5150 (tracing courtesy of Jason E. Roediger), CC BY-SA 3.0, https://commons.wikimedia.org/wiki/File:Ventricular_fibrillation.png"
+    },
+    {
+      "slug": "card-img-cardiology-complete-heart-block",
+      "track": "step1",
+      "system": "cardiovascular",
+      "discipline": "pathology",
+      "tags": ["images-cardiology", "ecg", "arrhythmias", "av-block"],
+      "front": "Look at the long rhythm strip at the bottom of this ECG. Compare the P waves with the QRS complexes. Identify the rhythm.",
+      "back": "**Third-degree (complete) AV block**: P waves come at their own regular rate, QRS complexes come at a slower rate, and the PR interval keeps changing: **no relation between P waves and QRS** (AV dissociation). Usually treated with a pacemaker.",
+      "back_pt": "**Bloqueio AV de terceiro grau (BAV total)**: as ondas P seguem um ritmo regular próprio, os complexos QRS surgem em frequência menor e o intervalo PR varia sempre: **não há relação entre ondas P e QRS** (dissociação AV). Em geral tratado com marca-passo.",
+      "image_url": "images/cardiology/complete-heart-block-1.jpg",
+      "image_credit": "James Heilman, MD, CC BY-SA 3.0, https://commons.wikimedia.org/wiki/File:CompleteHeartBlock.jpg"
+    },
+    {
+      "slug": "card-img-cardiology-wpw-delta-wave",
+      "track": "step1",
+      "system": "cardiovascular",
+      "discipline": "pathology",
+      "tags": ["images-cardiology", "ecg", "arrhythmias", "pre-excitation"],
+      "front": "The arrow points to a key feature of this single ECG beat. Name the feature and the condition it suggests.",
+      "back": "**Delta wave**: a slurred, slow upstroke at the start of the QRS, with a **short PR interval** and a wide QRS. It shows **ventricular pre-excitation** through an accessory pathway (bundle of Kent), as in **Wolff-Parkinson-White** syndrome.",
+      "back_pt": "**Onda delta**: início lento e empastado do QRS, com **intervalo PR curto** e QRS alargado. Indica **pré-excitação ventricular** por uma via acessória (feixe de Kent), como na síndrome de **Wolff-Parkinson-White**.",
+      "image_url": "images/cardiology/wpw-1.jpg",
+      "image_credit": "James Heilman, MD, CC BY-SA 3.0, https://commons.wikimedia.org/wiki/File:DeltaWave09.JPG"
+    },
+    {
+      "slug": "card-img-cardiology-pericarditis",
+      "track": "step1",
+      "system": "cardiovascular",
+      "discipline": "pathology",
+      "tags": ["images-cardiology", "ecg", "pericardium"],
+      "front": "This ECG is from a young man with sharp chest pain that is worse when he lies down. What is the pattern, and what are its key features?",
+      "back": "**Acute pericarditis**: **diffuse concave ST elevation** in many leads that does not match one coronary territory, ST depression in aVR, and often **PR depression**. There are no pathologic Q waves.",
+      "back_pt": "**Pericardite aguda**: **supradesnivelamento difuso e côncavo do ST** em várias derivações, sem respeitar um território coronariano, infradesnivelamento do ST em aVR e, muitas vezes, **infradesnivelamento do PR**. Não há ondas Q patológicas.",
+      "image_url": "images/cardiology/pericarditis-1.jpg",
+      "image_credit": "James Heilman, MD, CC BY-SA 3.0, https://commons.wikimedia.org/wiki/File:PericarditisECG.JPG"
+    },
+    {
+      "slug": "card-img-cardiology-heart-failure-cxr",
+      "track": "step1",
+      "system": "cardiovascular",
+      "discipline": "pathology",
+      "tags": ["images-cardiology", "chest-x-ray", "heart-failure"],
+      "front": "This chest x-ray is from an 83-year-old man with labored breathing. He had heart surgery in the past. What are the main findings, and what do they indicate?",
+      "back": "**Congestive heart failure** with interstitial edema: **cardiomegaly**, **Kerley B lines** (short horizontal lines at the lung periphery from fluid in the interlobular septa), prominent pulmonary vessels and a small pleural effusion. Sternotomy wires show the prior surgery.",
+      "back_pt": "**Insuficiência cardíaca congestiva** com edema intersticial: **cardiomegalia**, **linhas B de Kerley** (linhas horizontais curtas na periferia pulmonar por líquido nos septos interlobulares), vasos pulmonares proeminentes e pequeno derrame pleural. Os fios de esternotomia indicam a cirurgia prévia.",
+      "image_url": "images/cardiology/heart-failure-cxr-1.jpg",
+      "image_credit": "Mikael Häggström, CC0, https://commons.wikimedia.org/wiki/File:Chest_radiograph_of_a_lung_with_Kerley_B_lines.jpg"
+    },
+    {
+      "slug": "card-img-cardiology-tetralogy-cxr",
+      "track": "step1",
+      "system": "cardiovascular",
+      "discipline": "pathology",
+      "tags": ["images-cardiology", "chest-x-ray", "congenital-heart-disease"],
+      "front": "Describe the shape of the heart on this chest x-ray. Which congenital heart defect does it suggest?",
+      "back": "**Boot-shaped heart** (*coeur en sabot*): the apex is lifted up by **right ventricular hypertrophy** and the left heart border is concave where the small pulmonary artery should be. Classic for **tetralogy of Fallot**.",
+      "back_pt": "**Coração em bota** (*boot-shaped heart*, *coeur en sabot*): o ápice fica elevado pela **hipertrofia do ventrículo direito** e a borda cardíaca esquerda é côncava no local da artéria pulmonar pequena. Clássico da **tetralogia de Fallot**.",
+      "image_url": "images/cardiology/tetralogy-cxr-1.jpg",
+      "image_credit": "Medicalpal, CC BY-SA 4.0, https://commons.wikimedia.org/wiki/File:Boot-shaped_heart.jpg"
+    },
+    {
+      "slug": "card-img-cardiology-aschoff-body",
+      "track": "step1",
+      "system": "cardiovascular",
+      "discipline": "pathology",
+      "tags": ["images-cardiology", "histology", "rheumatic-fever"],
+      "front": "Identify the lesion in the center of this H&E section of myocardium. Which disease does it indicate?",
+      "back": "**Aschoff body**: a focal inflammatory lesion in the myocardial interstitium with **Anitschkow cells** (activated macrophages with 'caterpillar' chromatin) and sometimes multinucleated giant cells. It is characteristic of **acute rheumatic fever** (rheumatic carditis).",
+      "back_pt": "**Corpúsculo de Aschoff**: lesão inflamatória focal no interstício do miocárdio, com **células de Anitschkow** (macrófagos ativados com cromatina em 'lagarta', *caterpillar cells*) e às vezes células gigantes multinucleadas. É característico da **febre reumática aguda** (cardite reumática).",
+      "image_url": "images/cardiology/aschoff-1.jpg",
+      "image_credit": "Ed Uthman, MD, CC BY-SA 2.0, https://commons.wikimedia.org/wiki/File:Aschoff_Body_in_Rheumatic_Myocarditis.jpg"
+    }
+  ],
+  "questions": [
+    {
+      "slug": "q-img-cardiology-vtach",
+      "track": "step1",
+      "system": "cardiovascular",
+      "discipline": "pathology",
+      "tags": ["images-cardiology", "ecg", "arrhythmias"],
+      "stem": "A 66-year-old man comes to the emergency department with palpitations and light-headedness that started 1 hour ago. He had a large anterior myocardial infarction 2 years ago. Blood pressure is 104/68 mm Hg. His ECG is shown. Which mechanism most likely causes this rhythm?",
+      "choices": [
+        "Re-entry within the AV node",
+        "Triggered activity from early afterdepolarizations during a long QT interval",
+        "Re-entry around scar tissue in the ventricular myocardium",
+        "Rapid conduction of atrial flutter waves to the ventricles",
+        "Re-entry through an accessory pathway, conducting down the AV node and back up the pathway"
+      ],
+      "correct": 2,
+      "explanation": "The ECG shows a fast, regular, **wide-complex tachycardia** with identical QRS complexes: **monomorphic ventricular tachycardia**. After a myocardial infarction, the **scar** creates zones of slow conduction, and **re-entry around the scar** is the usual mechanism. Early afterdepolarizations with a long QT cause **polymorphic** VT (torsades de pointes), where the QRS shape keeps changing. AV nodal re-entry and orthodromic re-entry through an accessory pathway usually give narrow complexes. Atrial flutter with 2:1 conduction usually gives a ventricular rate near 150/min, and with a prior infarct a wide regular tachycardia should be treated as VT.",
+      "explanation_pt": "O ECG mostra uma **taquicardia regular de QRS largo**, com complexos idênticos: **taquicardia ventricular (TV) monomórfica**. Após um infarto, a **cicatriz** cria áreas de condução lenta, e a **reentrada ao redor da cicatriz** é o mecanismo habitual. Pós-despolarizações precoces com QT longo causam TV **polimórfica** (torsades de pointes), em que a forma do QRS muda o tempo todo. A reentrada nodal AV e a reentrada ortodrômica por via acessória costumam gerar complexos estreitos. O flutter atrial com condução 2:1 costuma dar frequência ventricular perto de 150/min, e com infarto prévio uma taquicardia regular de QRS largo deve ser tratada como TV.",
+      "image_url": "images/cardiology/vtach-1.jpg",
+      "image_credit": "Karthik Sheka, MD (Ksheka at English Wikipedia), CC BY-SA 2.5, https://commons.wikimedia.org/wiki/File:Electrocardiogram_of_Ventricular_Tachycardia.png"
+    },
+    {
+      "slug": "q-img-cardiology-inferior-rv-stemi",
+      "track": "step1",
+      "system": "cardiovascular",
+      "discipline": "pathology",
+      "tags": ["images-cardiology", "ecg", "ischemic-heart-disease"],
+      "stem": "A 63-year-old man has had crushing chest pain for 1 hour. His ECG, including right-sided leads, is shown. Blood pressure is 112/70 mm Hg. He is given sublingual nitroglycerin, and 5 minutes later his blood pressure is 76/48 mm Hg. The jugular veins are distended, and the lungs are clear. Which best explains the fall in blood pressure?",
+      "choices": [
+        "The infarct involves the right ventricle, so cardiac output depends on preload, which the nitrate lowered",
+        "Rupture of the ventricular free wall with cardiac tamponade",
+        "Rupture of a papillary muscle with acute mitral regurgitation",
+        "Severe left ventricular failure with acute pulmonary edema",
+        "An allergic reaction to nitroglycerin"
+      ],
+      "correct": 0,
+      "explanation": "The ECG shows ST elevation in **II, III and aVF** with reciprocal ST depression in I and aVL, and ST elevation in the **right-sided lead V4R**: an inferior STEMI with **right ventricular infarction**. A weak right ventricle needs high filling pressure to push blood to the lungs. Nitrates dilate veins and **lower preload**, so output falls sharply. Distended neck veins with **clear lungs** fit this picture. Free wall rupture can also cause distended neck veins and shock, but it usually happens days after the infarct, not minutes after a nitrate. Papillary muscle rupture and left ventricular failure cause pulmonary edema, but the lungs are clear.",
+      "explanation_pt": "O ECG mostra supradesnivelamento do ST em **DII, DIII e aVF**, com infradesnivelamento recíproco em DI e aVL, e supradesnivelamento na **derivação direita V4R**: IAMCSST inferior com **infarto do ventrículo direito**. O ventrículo direito fraco precisa de alta pressão de enchimento para enviar sangue aos pulmões. Os nitratos dilatam as veias e **reduzem a pré-carga**, e o débito cai de forma intensa. Estase jugular com **pulmões limpos** combina com esse quadro. A ruptura da parede livre também causa estase jugular e choque, mas costuma ocorrer dias após o infarto, não minutos após um nitrato. A ruptura de músculo papilar e a falência do ventrículo esquerdo causam edema pulmonar, mas os pulmões estão limpos.",
+      "image_url": "images/cardiology/inferior-stemi-1.jpg",
+      "image_credit": "James Heilman, MD, CC BY-SA 3.0, https://commons.wikimedia.org/wiki/File:IandRStemi.JPG"
+    },
+    {
+      "slug": "q-img-cardiology-anterior-stemi",
+      "track": "step1",
+      "system": "cardiovascular",
+      "discipline": "pathology",
+      "tags": ["images-cardiology", "ecg", "ischemic-heart-disease"],
+      "stem": "A 57-year-old woman with diabetes and hypertension has had severe pressure in her chest for 45 minutes. She is sweating and nauseated. Her ECG is shown. Occlusion of which artery most likely explains these findings?",
+      "choices": [
+        "Right coronary artery",
+        "Left circumflex artery",
+        "Posterior descending artery",
+        "Left anterior descending artery",
+        "Acute marginal artery"
+      ],
+      "correct": 3,
+      "explanation": "The ECG shows **ST elevation in V2-V6 and lead I**, with no ST elevation in the inferior leads: an **anterolateral STEMI**. The anterior wall and the anterior septum are supplied by the **left anterior descending artery** (V1-V4), and its diagonal branches also reach the lateral wall. The left circumflex artery mainly causes lateral changes (I, aVL, V5-V6) without the large V2-V4 elevation seen here. The right coronary artery and its posterior descending branch cause inferior (II, III, aVF) changes.",
+      "explanation_pt": "O ECG mostra **supradesnivelamento do ST em V2-V6 e em DI**, sem supradesnivelamento nas derivações inferiores: **IAMCSST anterolateral**. A parede anterior e o septo anterior são irrigados pela **artéria descendente anterior** (V1-V4), e seus ramos diagonais também alcançam a parede lateral. A artéria circunflexa causa principalmente alterações laterais (DI, aVL, V5-V6), sem o grande supradesnivelamento em V2-V4 visto aqui. A coronária direita e seu ramo descendente posterior causam alterações inferiores (DII, DIII, aVF).",
+      "image_url": "images/cardiology/anterior-stemi-1.jpg",
+      "image_credit": "James Heilman, MD, CC BY-SA 3.0, https://commons.wikimedia.org/wiki/File:AnteriorLateralMI.jpg"
+    },
+    {
+      "slug": "q-img-cardiology-torsades-treatment",
+      "track": "step1",
+      "system": "cardiovascular",
+      "discipline": "pharmacology",
+      "tags": ["images-cardiology", "ecg", "arrhythmias", "antiarrhythmics"],
+      "stem": "A 74-year-old woman is in the hospital after hip surgery. She receives intravenous haloperidol for delirium. She has had diarrhea for 3 days, and her serum magnesium is low. She has several short episodes of dizziness. Telemetry during one episode is shown. Between episodes, she is awake and her blood pressure is 108/66 mm Hg. Which drug is the best first treatment?",
+      "choices": [
+        "Intravenous amiodarone",
+        "Intravenous adenosine",
+        "Intravenous procainamide",
+        "Oral metoprolol",
+        "Intravenous magnesium sulfate"
+      ],
+      "correct": 4,
+      "explanation": "The strip shows a **polymorphic ventricular tachycardia** whose QRS complexes change in size and seem to twist around the baseline: **torsades de pointes**. Here it comes from an **acquired long QT** (haloperidol plus low magnesium). The first drug is **intravenous magnesium sulfate**, which suppresses the early afterdepolarizations that trigger it. Amiodarone and procainamide are tempting because they treat many ventricular arrhythmias, but both **prolong the QT** and can make torsades worse. Adenosine works on the AV node and does not stop a ventricular rhythm. Oral metoprolol is too slow and does not fix the long QT.",
+      "explanation_pt": "O traçado mostra uma **taquicardia ventricular polimórfica** cujos complexos QRS mudam de amplitude e parecem girar em torno da linha de base: **torsades de pointes**. Aqui ela vem de um **QT longo adquirido** (haloperidol e magnésio baixo). O primeiro fármaco é o **sulfato de magnésio intravenoso**, que suprime as pós-despolarizações precoces que a desencadeiam. A amiodarona e a procainamida são tentadoras porque tratam muitas arritmias ventriculares, mas ambas **prolongam o QT** e podem piorar a torsades. A adenosina age no nó AV e não interrompe um ritmo ventricular. O metoprolol oral age devagar demais e não corrige o QT longo.",
+      "image_url": "images/cardiology/torsades-1.jpg",
+      "image_credit": "Panthro at English Wikipedia, Public domain, https://commons.wikimedia.org/wiki/File:Tosadesdepointes.jpg"
+    },
+    {
+      "slug": "q-img-cardiology-hyperkalemia-calcium",
+      "track": "step1",
+      "system": "cardiovascular",
+      "discipline": "pharmacology",
+      "tags": ["images-cardiology", "ecg", "electrolytes"],
+      "stem": "A 52-year-old man with end-stage kidney disease on hemodialysis missed his last two dialysis sessions. He now has generalized muscle weakness. Blood pressure is 150/92 mm Hg and pulse is 80/min. His ECG is shown. Which treatment should be given first to protect his heart from an arrhythmia?",
+      "choices": [
+        "Intravenous insulin with glucose",
+        "Intravenous calcium gluconate",
+        "Oral sodium polystyrene sulfonate",
+        "Intravenous furosemide",
+        "Inhaled albuterol"
+      ],
+      "correct": 1,
+      "explanation": "The ECG shows **tall, narrow, peaked T waves**, most clearly in the precordial leads, in a patient who missed dialysis: **hyperkalemia**. The first step is **intravenous calcium gluconate**: it stabilizes the cardiac cell membrane within minutes but does not lower potassium. Insulin with glucose is the most tempting answer; it does lower serum potassium by shifting it into cells, but it is given right after calcium, which is the drug that directly protects the myocardium. Resins and loop diuretics act slowly, and furosemide works poorly without kidney function. Albuterol also shifts potassium into cells, but it does not protect the heart membrane.",
+      "explanation_pt": "O ECG mostra **ondas T altas, estreitas e apiculadas**, mais claras nas derivações precordiais, em um paciente que faltou à diálise: **hipercalemia**. O primeiro passo é o **gluconato de cálcio intravenoso**: estabiliza a membrana das células cardíacas em minutos, mas não reduz o potássio. Insulina com glicose é a resposta mais tentadora; ela reduz o potássio sérico ao deslocá-lo para dentro das células, mas é dada logo após o cálcio, que é o fármaco que protege diretamente o miocárdio. Resinas e diuréticos de alça agem devagar, e a furosemida funciona mal sem função renal. O salbutamol também desloca o potássio para dentro das células, mas não protege a membrana cardíaca.",
+      "image_url": "images/cardiology/hyperkalemia-1.jpg",
+      "image_credit": "Dr. Michael-Joseph F. Agbayani and Dr. Eddieson Gonzales, CC BY 4.0, https://commons.wikimedia.org/wiki/File:Hyperkalemia_ECG.jpg"
+    },
+    {
+      "slug": "q-img-cardiology-amyloid-protein",
+      "track": "step1",
+      "system": "cardiovascular",
+      "discipline": "pathology",
+      "tags": ["images-cardiology", "histology", "cardiomyopathy"],
+      "stem": "An 84-year-old man has had worsening shortness of breath and leg swelling for a year. Echocardiography shows thick ventricular walls with a normal ejection fraction, but his ECG shows low QRS voltage. Serum and urine studies show no monoclonal protein. An endomyocardial biopsy is stained with Congo red and is shown. Which protein most likely forms these deposits?",
+      "choices": [
+        "Immunoglobulin light chains",
+        "Serum amyloid A",
+        "Beta-2 microglobulin",
+        "Wild-type transthyretin",
+        "Amyloid beta"
+      ],
+      "correct": 3,
+      "explanation": "Congo red stains the material between the muscle fibers **salmon-pink to red**; under polarized light it would show **apple-green birefringence**. This is **cardiac amyloidosis**, a restrictive cardiomyopathy: thick walls on echo but **low QRS voltage** on ECG. In a very old patient with **no monoclonal protein**, the most likely type is **senile (wild-type) transthyretin** amyloid. Immunoglobulin light chains (AL) are the most tempting answer, but AL amyloid comes from a plasma cell disorder, which the normal protein studies make unlikely. Serum amyloid A follows chronic inflammation, and beta-2 microglobulin deposits occur with long-term dialysis.",
+      "explanation_pt": "O vermelho Congo cora o material entre as fibras musculares em **rosa-salmão a vermelho**; sob luz polarizada, mostraria **birrefringência verde-maçã**. Trata-se de **amiloidose cardíaca**, uma cardiomiopatia restritiva: paredes espessas no ecocardiograma, mas **baixa voltagem do QRS** no ECG. Em um paciente muito idoso e **sem proteína monoclonal**, o tipo mais provável é a amiloidose por **transtirretina selvagem (senil)**. As cadeias leves de imunoglobulina (AL) são a resposta mais tentadora, mas a amiloidose AL vem de uma discrasia de plasmócitos, que os exames de proteína normais tornam improvável. A amiloide A sérica surge após inflamação crônica, e os depósitos de beta-2 microglobulina ocorrem com diálise prolongada.",
+      "image_url": "images/cardiology/amyloid-1.jpg",
+      "image_credit": "Nephron, CC BY-SA 3.0, https://commons.wikimedia.org/wiki/File:Cardiac_amyloidosis_intermed_mag.jpg"
+    }
+  ],
+  "notes": []
+}
