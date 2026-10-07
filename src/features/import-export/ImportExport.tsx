@@ -37,13 +37,13 @@ export function ImportExport() {
   async function doCards(file: File) {
     const { rows, rejected } = parseCardsCsv(await file.text());
     const owner = await userId();
-    await runImport('cards', rejected.map((x) => `line ${x.line}: ${x.reason}`), rows.length, (r) => importCards(supabase, owner, rows, r));
+    await runImport('cards', rejected.map((x) => `row ${x.row}: ${x.reason}`), rows.length, (r) => importCards(supabase, owner, rows, r));
   }
 
   async function doQuestions(file: File) {
     const { rows, rejected } = parseQuestionsJson(await file.text());
     const owner = await userId();
-    await runImport('questions', rejected.map((x) => `item ${x.index}: ${x.reason}`), rows.length, (r) => importQuestions(supabase, owner, rows, r));
+    await runImport('questions', rejected.map((x) => (x.index ? `item ${x.index}: ${x.reason}` : x.reason)), rows.length, (r) => importQuestions(supabase, owner, rows, r));
   }
 
   async function exportAll() {
