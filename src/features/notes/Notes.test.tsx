@@ -14,8 +14,12 @@ test('lists notes and expands a body on tap', async () => {
   expect(await screen.findByText(/title-1/)).toBeTruthy();
   expect(screen.getByText(/title-2/)).toBeTruthy();
   expect(screen.queryByText('body-1')).toBeNull();
-  fireEvent.click(screen.getByText(/title-1/));
+  const toggle = screen.getByRole('button', { name: /title-1/ });
+  expect(toggle.getAttribute('aria-expanded')).toBe('false');
+  fireEvent.click(toggle);
   expect(screen.getByText('body-1')).toBeTruthy();
+  expect(toggle.getAttribute('aria-expanded')).toBe('true');
+  expect(toggle.closest('h3')).toBeTruthy();
 });
 
 test('pt-BR toggle only when body_pt_md exists; English first', async () => {

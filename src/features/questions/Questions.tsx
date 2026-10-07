@@ -1,7 +1,7 @@
-import { useEffect, useRef, useState } from 'react';
+import { useCallback, useEffect, useRef, useState } from 'react';
 import { fetchQuestions, saveAttempts, setItemStatus, type AttemptInsert } from '../../db/queries';
 import type { Question } from '../../db/models';
-import { gradeAnswer, canShowExplanation, timedLimitMs, type Answer, type Mode } from '../../engine/mcq';
+import { gradeAnswer, canShowExplanation, timedLimitMs, pickBlock, type Answer, type Mode } from '../../engine/mcq';
 import { useToast } from '../../ui/Toast';
 import { Rich } from '../../ui/Rich';
 
@@ -17,6 +17,8 @@ function uuid() {
 // Everything a save needs, captured at finish time so a late Retry never reads another session's state.
 type Pending = { rows: AttemptInsert[]; done: boolean; inFlight: boolean };
 
+const BLOCK = 40;
+
 // Total = session length: unanswered (e.g. timer expiry) count as missed.
 export function sessionSummary(session: Question[], answers: Answer[]) {
   const correctIds = new Set(answers.filter((a) => a.correct).map((a) => a.questionId));
@@ -28,6 +30,7 @@ export function sessionSummary(session: Question[], answers: Answer[]) {
 export function Questions({ load = fetchQuestions, save = saveAttempts }: { load?: typeof fetchQuestions; save?: typeof saveAttempts }) {
   const toast = useToast();
   const [bank, setBank] = useState<Question[] | null>(null);
+  const [loadError, setLoadError] = useState<string | null>(null);
   const [mode, setMode] = useState<Mode | null>(null);
   const [session, setSession] = useState<Question[]>([]);
   const [idx, setIdx] = useState(0);
@@ -43,7 +46,11 @@ export function Questions({ load = fetchQuestions, save = saveAttempts }: { load
   const deadlineRef = useRef(0);
   const modeRef = useRef<Mode | null>(null);
 
-  useEffect(() => { load().then(setBank).catch((e) => toast.show(`Could not load questions: ${e.message}`)); }, [load]);
+  const refresh = useCallback(() => {
+    setLoadError(null);
+    load().then(setBank).catch((e) => setLoadError(e.message));
+  }, [load]);
+  useEffect(refresh, [refresh]);
 
   useEffect(() => {
     if (mode !== 'timed' || finished) return;
@@ -65,8 +72,13 @@ export function Questions({ load = fetchQuestions, save = saveAttempts }: { load
     try { await save(p.rows); p.done = true; } catch (e) { toast.show(`Could not save results: ${(e as Error).message}`, () => persist(p)); } finally { p.inFlight = false; }
   }
 
-  function setStatus(id: string, status: 'flagged' | 'verified', ok: string) {
-    setItemStatus('question', id, status).then(() => toast.show(ok)).catch((e) => toast.show(`Could not update question: ${(e as Error).message}`, () => setStatus(id, status, ok)));
+  function setStatus(id: string, status: 'flagged' | 'verified', ok: string, note?: string) {
+    setItemStatus('question', id, status, note).then(() => toast.show(ok)).catch((e) => toast.show(`Could not update question: ${(e as Error).message}`, () => setStatus(id, status, ok, note)));
+  }
+  function flag(id: string) {
+    const note = window.prompt('What is wrong? (optional)');
+    if (note === null) return; // cancelled: do not flag
+    setStatus(id, 'flagged', 'Flagged for review.', note.trim() || undefined);
   }
 
   function finish() {
@@ -81,14 +93,16 @@ export function Questions({ load = fetchQuestions, save = saveAttempts }: { load
     });
   }
 
+  if (loadError) return <p>Could not load questions: {loadError} <button onClick={refresh}>Retry</button></p>;
   if (!bank) return <p>Loading…</p>;
   if (!bank.length) return <p>No questions yet.</p>;
 
+  const blockSize = Math.min(BLOCK, bank.length);
   if (!mode) return (
     <div className="card">
       <p>{bank.length} questions available.</p>
-      <button onClick={() => start('tutor', bank)}>Start tutor session</button>{' '}
-      <button onClick={() => start('timed', bank)}>Start timed session</button>
+      <button onClick={() => start('tutor', pickBlock(bank, BLOCK))}>Start tutor session ({blockSize} questions)</button>{' '}
+      <button onClick={() => start('timed', pickBlock(bank, BLOCK))}>Start timed session ({blockSize} questions, {Math.round(timedLimitMs(blockSize) / 60000)} min)</button>
     </div>
   );
 
@@ -121,7 +135,8 @@ export function Questions({ load = fetchQuestions, save = saveAttempts }: { load
       <p>{q.stem}</p>
       {q.image_url && <figure><img src={q.image_url} alt="" style={{ maxWidth: '100%' }} /><figcaption>{q.image_credit}</figcaption></figure>}
       {q.choices.map((c, i) => (
-        <div key={i}><button onClick={() => choose(i)} disabled={!!answered && mode === 'tutor'}>{c}</button>
+        <div key={i}><button onClick={() => choose(i)} disabled={!!answered && mode === 'tutor'} aria-pressed={mode === 'timed' ? answered?.chosen === i : undefined}
+          style={mode === 'timed' && answered?.chosen === i ? { fontWeight: 'bold', outline: '2px solid currentColor' } : undefined}>{c}</button>
           {answered && mode === 'tutor' && (i === q.correct ? ' ✓' : answered.chosen === i ? ' ✗' : '')}</div>
       ))}
       {answered && canShowExplanation(mode, finished, true) && (
@@ -129,7 +144,7 @@ export function Questions({ load = fetchQuestions, save = saveAttempts }: { load
           <p><Rich text={q.explanation} /></p>
           {q.explanation_pt && (showPt ? <p lang="pt-BR"><Rich text={q.explanation_pt} /></p> : <button onClick={() => setShowPt(true)}>Ver em português</button>)}
           <p>
-            <button onClick={() => setStatus(q.id, 'flagged', 'Flagged for review.')}>Flag as wrong</button>{' '}
+            <button onClick={() => flag(q.id)}>Flag as wrong</button>{' '}
             <button onClick={() => setStatus(q.id, 'verified', 'Marked verified.')}>Mark verified</button>
           </p>
         </>

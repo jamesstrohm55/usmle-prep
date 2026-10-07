@@ -24,8 +24,11 @@ export function Notes({ load = fetchNotes }: { load?: typeof fetchNotes }) {
     <div>
       {notes.map((n) => (
         <div className="card" key={n.id}>
-          <h3 onClick={() => { setOpen(open === n.id ? null : n.id); setPt(false); }} style={{ cursor: 'pointer' }}>
-            {n.title} <small>({n.system})</small>
+          <h3>
+            <button aria-expanded={open === n.id} onClick={() => { setOpen(open === n.id ? null : n.id); setPt(false); }}
+              style={{ font: 'inherit', background: 'none', border: 0, padding: 0, cursor: 'pointer', textAlign: 'left' }}>
+              {n.title} <small>({n.system})</small>
+            </button>
           </h3>
           {open === n.id && (
             <>

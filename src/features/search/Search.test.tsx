@@ -59,3 +59,46 @@ test('failed search toasts, offers Retry for the original term, and shows no "No
   expect(load).toHaveBeenCalledTimes(2);
   expect(load).toHaveBeenLastCalledWith('beck');
 });
+
+const opened = async (kind: 'card' | 'question' | 'note', row: Record<string, unknown>, lookup = vi.fn().mockResolvedValue(row)) => {
+  wrap(<Search load={async () => [{ kind, id: 'x1', title: 'The hit', track: 'step1', system: 'cardio' }]} lookup={lookup} />);
+  go('hit');
+  fireEvent.click(await screen.findByRole('button', { name: /The hit/ }));
+  return lookup;
+};
+
+test('opening a card hit shows the back with pt-BR on demand', async () => {
+  const lookup = await opened('card', { back: 'the **back**', back_pt: 'o verso' });
+  expect(await screen.findByText('back')).toBeTruthy();
+  expect(lookup).toHaveBeenCalledWith('card', 'x1');
+  expect(screen.queryByText('o verso')).toBeNull();
+  fireEvent.click(screen.getByText('Ver em português'));
+  expect(screen.getByText('o verso')).toBeTruthy();
+});
+
+test('opening a question hit shows stem, choices, correct answer and explanation', async () => {
+  await opened('question', { stem: 'Which?', choices: ['aa', 'bb'], correct: 1, explanation: 'because', explanation_pt: null });
+  expect(await screen.findByText('Which?')).toBeTruthy();
+  expect(screen.getByText(/bb ✓/)).toBeTruthy();
+  expect(screen.getByText('aa')).toBeTruthy();
+  expect(screen.getByText('because')).toBeTruthy();
+  expect(screen.queryByText('Ver em português')).toBeNull();
+});
+
+test('opening a note hit shows the body; the toggle has aria-expanded and collapses', async () => {
+  await opened('note', { body_md: 'note body', body_pt_md: null });
+  expect(await screen.findByText('note body')).toBeTruthy();
+  const b = screen.getByRole('button', { name: /The hit/ });
+  expect(b.getAttribute('aria-expanded')).toBe('true');
+  fireEvent.click(b);
+  expect(b.getAttribute('aria-expanded')).toBe('false');
+  expect(screen.queryByText('note body')).toBeNull();
+});
+
+test('row not found and load errors are handled; Retry works', async () => {
+  const lookup = vi.fn().mockRejectedValueOnce(new Error('boom')).mockResolvedValueOnce(undefined);
+  await opened('card', {}, lookup);
+  expect(await screen.findByText(/Could not open: boom/)).toBeTruthy();
+  fireEvent.click(screen.getByText('Retry'));
+  expect(await screen.findByText(/no longer available/)).toBeTruthy();
+});

@@ -19,12 +19,17 @@ test('Again on a mature card increments lapses', () => {
   expect(lapsed.lapses).toBe(c.lapses + 1);
 });
 
-test('row round trip preserves dates and numbers', () => {
-  const c = rateCard(newCard(t0), Rating.Easy, t0).card;
+test('row round trip preserves every field (lapsed card with learning steps)', () => {
+  let c = rateCard(newCard(t0), Rating.Good, t0).card;
+  c = rateCard(c, Rating.Again, c.due).card;
+  expect(c.lapses + c.reps).toBeGreaterThan(0);
   const back = fromRow(toRow(c));
-  expect(back.due.getTime()).toBe(c.due.getTime());
-  expect(back.stability).toBe(c.stability);
-  expect(back.last_review?.getTime()).toBe(c.last_review?.getTime());
+  expect(back).toEqual(c);
+  expect(toRow(back)).toEqual(toRow(c));
+});
+
+test('toRow of a new card has null last_review', () => {
+  expect(toRow(newCard(t0)).last_review).toBeNull();
 });
 
 test('new card round trips with null last_review', () => {

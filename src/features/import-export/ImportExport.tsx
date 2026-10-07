@@ -51,7 +51,7 @@ export function ImportExport() {
       const out = await buildBackup(fetchTable);
       const url = URL.createObjectURL(new Blob([JSON.stringify(out, null, 2)], { type: 'application/json' }));
       Object.assign(document.createElement('a'), { href: url, download: `usmle-prep-backup-${Date.now()}.json` }).click();
-      URL.revokeObjectURL(url);
+      setTimeout(() => URL.revokeObjectURL(url), 0); // revoking synchronously can cancel the download on older Safari
     } catch (e) {
       toast.show(`Export failed: ${errMsg(e)}`, () => void exportAll());
     }

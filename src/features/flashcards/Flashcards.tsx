@@ -1,4 +1,4 @@
-import { useEffect, useMemo, useRef, useState } from 'react';
+import { useCallback, useEffect, useMemo, useRef, useState } from 'react';
 import { fetchCards, fetchCardStates, saveReview, setItemStatus } from '../../db/queries';
 import type { Card } from '../../db/models';
 import { buildQueue } from '../../engine/queue';
@@ -10,6 +10,7 @@ type States = Map<string, CardStateRow>;
 const loadData = async () => ({ cards: await fetchCards(), states: (await fetchCardStates()) as States });
 
 const NEW_PER_SESSION = 20;
+const REQUEUE_WITHIN_MS = 20 * 60_000; // learning-step cards come back this session, like Anki
 const GRADES = [
   ['Again', Rating.Again], ['Hard', Rating.Hard], ['Good', Rating.Good], ['Easy', Rating.Easy],
 ] as const;
@@ -17,6 +18,7 @@ const GRADES = [
 export function Flashcards({ load = loadData, save = saveReview }: { load?: typeof loadData; save?: typeof saveReview }) {
   const toast = useToast();
   const [data, setData] = useState<{ cards: Card[]; states: States } | null>(null);
+  const [loadError, setLoadError] = useState<string | null>(null);
   const [queue, setQueue] = useState<string[]>([]);
   const [revealed, setRevealed] = useState(false);
   const [showPt, setShowPt] = useState(false);
@@ -26,13 +28,15 @@ export function Flashcards({ load = loadData, save = saveReview }: { load?: type
   // Load once on mount; a ref keeps an inline `load` prop from re-fetching and resetting the queue each render.
   const loadRef = useRef(load);
 
-  useEffect(() => {
+  const refresh = useCallback(() => {
+    setLoadError(null);
     loadRef.current().then((d) => {
       setData(d);
       const states = new Map([...d.states].map(([id, r]) => [id, { due: new Date(r.due) }]));
       setQueue(buildQueue(d.cards.map((c) => c.id), states, new Date(), NEW_PER_SESSION));
-    }).catch((e) => toast.show(`Could not load cards: ${e.message}`));
-  }, [toast.show]); // show is stable (useCallback); the context object changes with every toast
+    }).catch((e) => setLoadError(e.message));
+  }, []);
+  useEffect(refresh, [refresh]);
 
   const byId = useMemo(() => new Map((data?.cards ?? []).map((c) => [c.id, c])), [data]);
   const current = queue[0] ? byId.get(queue[0]) : undefined;
@@ -59,15 +63,23 @@ export function Flashcards({ load = loadData, save = saveReview }: { load?: type
       setSaving(false);
     }
     data.states.set(current.id, toRow(card));
-    setQueue((q) => q.slice(1));
+    // Due again within minutes (Again/Hard/learning steps): send it to the back of this session's queue.
+    const soon = card.due.getTime() - now.getTime() <= REQUEUE_WITHIN_MS;
+    setQueue((q) => (soon ? [...q.slice(1), id] : q.slice(1)));
     setRevealed(false);
     setShowPt(false);
     shownAt.current = Date.now();
   }
 
-  const flag = (status: 'flagged' | 'verified', ok: string) =>
-    setItemStatus('card', current!.id, status).then(() => toast.show(ok), (e) => toast.show(`Could not update status: ${e.message}`));
+  const flag = (status: 'flagged' | 'verified', ok: string, note?: string) =>
+    setItemStatus('card', current!.id, status, note).then(() => toast.show(ok), (e) => toast.show(`Could not update status: ${e.message}`));
+  function flagWrong() {
+    const note = window.prompt('What is wrong? (optional)');
+    if (note === null) return; // cancelled: do not flag
+    flag('flagged', 'Flagged for review.', note.trim() || undefined);
+  }
 
+  if (loadError) return <p>Could not load cards: {loadError} <button onClick={refresh}>Retry</button></p>;
   if (!data) return <p>Loading…</p>;
   if (!current) return <p>Nothing due. Come back later, or add cards on the Import tab.</p>;
 
@@ -84,7 +96,7 @@ export function Flashcards({ load = loadData, save = saveReview }: { load?: type
           {current.back_pt && (showPt ? <p lang="pt-BR"><Rich text={current.back_pt} /></p> : <button onClick={() => setShowPt(true)}>Ver em português</button>)}
           <div>{GRADES.map(([label, r]) => <button key={label} disabled={saving} onClick={() => rate(r)}>{label}</button>)}</div>
           <p>
-            <button onClick={() => flag('flagged', 'Flagged for review.')}>Flag as wrong</button>{' '}
+            <button onClick={flagWrong}>Flag as wrong</button>{' '}
             <button onClick={() => flag('verified', 'Marked verified.')}>Mark verified</button>
           </p>
         </>
