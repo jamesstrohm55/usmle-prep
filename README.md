@@ -64,10 +64,17 @@ order by ir.item_kind, title;
 
 ## Promote an admin
 
-Admins can write curated content and read everyone's flags.
+Admins can write curated content and read everyone's flags. This upsert also works if the profile row is missing:
 
 ```sql
-update profiles set role = 'admin' where id = (select id from auth.users where email = '<email>');
+insert into profiles (id, role) select id, 'admin' from auth.users where email = '<email>'
+on conflict (id) do update set role = 'admin';
+```
+
+Profiles are created by the `on_auth_user_created` trigger, which only fires for users created after the migrations are applied. If anyone was created earlier, backfill:
+
+```sql
+insert into profiles (id) select id from auth.users on conflict do nothing;
 ```
 
 ## Known limits (Phase 1)
@@ -78,9 +85,9 @@ update profiles set role = 'admin' where id = (select id from auth.users where e
 
 ## Go-live checklist
 
-1. Supabase hosted Auth: configure custom SMTP (the built-in mailer only delivers to team members and is rate-limited), create the two users (dashboard, Add user), then turn off "Allow new users to sign up".
-2. Hosted Auth URL configuration: Site URL and redirect allow-list `https://jamesstrohm55.github.io/usmle-prep/`.
-3. `supabase link --project-ref mrpdbyjvnkklykpbumph`, `supabase db push`, `npm run seed`.
+1. Push the schema first (so the profile trigger exists before any user is created): `supabase link --project-ref mrpdbyjvnkklykpbumph`, `supabase db push`, `npm run seed`.
+2. Supabase hosted Auth: configure custom SMTP (the built-in mailer only delivers to team members and is rate-limited), create the two users (dashboard, Add user), then turn off "Allow new users to sign up". If any user was created before step 1, run the profiles backfill above.
+3. Hosted Auth URL configuration: Site URL and redirect allow-list `https://jamesstrohm55.github.io/usmle-prep/`.
 4. Promote the admin (SQL above).
 5. GitHub: make the repo public (Pages on the free plan), set Pages source to GitHub Actions, add repo Variables `VITE_SUPABASE_URL` and `VITE_SUPABASE_PUBLISHABLE_KEY`. The deploy workflow fails early if either is empty.
 6. Smoke test: sign in; an authenticated select returns the seeded rows (this also verifies the Data API grants on the hosted project); a flashcard review persists across a refresh.

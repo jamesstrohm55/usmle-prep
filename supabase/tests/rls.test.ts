@@ -119,10 +119,10 @@ describe.skipIf(!process.env.LOCAL_API_URL)('RLS (needs local Supabase)', () => 
     const c = await anon.from('cards').insert({ ...baseCard, slug: `anon-${run}` });
     expect(c.error?.code).toBe('42501');
     const s = await anon.from('card_state').insert({
-      card_id: curatedCardId, due: new Date().toISOString(), stability: 1, difficulty: 5,
+      user_id: vanessa.id, card_id: curatedCardId, due: new Date().toISOString(), stability: 1, difficulty: 5,
       elapsed_days: 0, scheduled_days: 1, learning_steps: 0, reps: 1, lapses: 0, state: 1,
     });
-    expect(s.error).not.toBeNull();
+    expect(s.error?.code).toBe('42501');
   });
 
   test('review_log and attempts are append-only for students', async () => {
