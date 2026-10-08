@@ -1,0 +1,184 @@
+{
+  "cards": [],
+  "questions": [
+    {
+      "slug": "q-adaptive-immunity-qx-mhc-ii-deficiency-positive-selection",
+      "track": "step1",
+      "system": "immunology",
+      "discipline": "pathology",
+      "tags": [
+        "adaptive-immunity",
+        "mhc",
+        "thymus",
+        "positive-selection"
+      ],
+      "stem": "A 9-month-old girl has had chronic watery diarrhea, poor weight gain and two pneumonias. Her parents are first cousins. Lymphocyte studies show: CD3+ T cells 1,780/mm3, CD4+ T cells 150/mm3 (very low), CD8+ T cells 1,600/mm3 (normal), CD19+ B cells normal in number. Serum IgG and IgA are low. HLA-DR is not detected on her B cells or monocytes. Which mechanism best explains her low CD4+ T-cell count?",
+      "choices": [
+        "Failure of negative selection of self-reactive thymocytes in the thymic medulla",
+        "Absent thymic epithelium from abnormal development of the third and fourth pharyngeal pouches",
+        "Failure of positive selection of thymocytes on thymic cortical epithelial cells",
+        "Failure of V(D)J recombination of the T-cell receptor genes",
+        "Loss of IL-2 receptor signaling through the common gamma chain"
+      ],
+      "correct": 2,
+      "explanation": "She cannot express **MHC class II** (no HLA-DR on her antigen-presenting cells; **bare lymphocyte syndrome**). In the thymic cortex, a thymocyte becomes **CD4+** only if its TCR binds self-MHC II on cortical epithelial cells; without MHC II, **positive selection** of CD4+ cells fails, while CD8+ cells (selected on MHC I) develop normally. A pharyngeal pouch defect (DiGeorge) is tempting, but it lowers both CD4+ and CD8+ cells and would not remove HLA-DR from B cells. V(D)J and common gamma chain defects also lower all T cells.",
+      "explanation_pt": "Ela não consegue expressar o **MHC classe II** (sem HLA-DR nas células apresentadoras de antígeno; **síndrome do linfócito nu**). No córtex do timo, um timócito só se torna **CD4+** se o seu TCR se ligar ao MHC II próprio nas células epiteliais corticais; sem MHC II, a **seleção positiva** das células CD4+ falha, enquanto as células CD8+ (selecionadas no MHC I) se desenvolvem normalmente. Um defeito das bolsas faríngeas (DiGeorge) é tentador, mas reduz tanto as células CD4+ quanto as CD8+ e não removeria o HLA-DR dos linfócitos B. Defeitos de V(D)J e da cadeia gama comum também reduzem todos os linfócitos T."
+    },
+    {
+      "slug": "q-adaptive-immunity-qx-hla-dm-clip",
+      "track": "step1",
+      "system": "immunology",
+      "discipline": "physiology",
+      "tags": [
+        "adaptive-immunity",
+        "mhc",
+        "antigen-presentation"
+      ],
+      "stem": "A researcher studies a human B-cell line with an inactivating mutation in HLA-DM. Total MHC class II on the cell surface is close to normal. When the cells are given purified ovalbumin, they cannot stimulate ovalbumin-specific CD4+ T cells. Normal B cells treated the same way stimulate these T cells well. What most likely occupies the peptide groove of most MHC class II molecules on the mutant cells?",
+      "choices": [
+        "A fragment of the invariant chain (CLIP)",
+        "Peptides from cytosolic proteins carried into the ER by TAP",
+        "β2-microglobulin",
+        "Ovalbumin peptides trimmed by the proteasome",
+        "Ovalbumin peptides produced by cathepsins in endosomes"
+      ],
+      "correct": 0,
+      "explanation": "In the ER, new MHC II binds the **invariant chain**, which blocks the groove and sends the molecule to endosomes. There the invariant chain is cut down to **CLIP**, and **HLA-DM** removes CLIP so that peptides from endocytosed protein can bind. Without HLA-DM, MHC II reaches the surface still holding CLIP, so ovalbumin peptides are not shown, even though they are produced normally in the endosomes. TAP-delivered cytosolic peptides are the tempting answer, but TAP feeds **MHC I** in the ER, where the invariant chain keeps those peptides out of MHC II.",
+      "explanation_pt": "No retículo endoplasmático (RE), o MHC II recém-formado liga-se à **cadeia invariante**, que bloqueia a fenda e envia a molécula aos endossomos. Ali a cadeia invariante é clivada até o **CLIP**, e o **HLA-DM** remove o CLIP para que peptídeos de proteínas endocitadas possam se ligar. Sem HLA-DM, o MHC II chega à superfície ainda com o CLIP, então os peptídeos de ovalbumina não são apresentados, embora sejam produzidos normalmente nos endossomos. Os peptídeos citosólicos levados pelo TAP são a resposta tentadora, mas o TAP abastece o **MHC I** no RE, onde a cadeia invariante impede que esses peptídeos entrem no MHC II."
+    },
+    {
+      "slug": "q-adaptive-immunity-qx-cross-presentation",
+      "track": "step1",
+      "system": "immunology",
+      "discipline": "physiology",
+      "tags": [
+        "adaptive-immunity",
+        "mhc",
+        "dendritic-cells",
+        "cd8-t-cells"
+      ],
+      "stem": "In an animal study, a virus can infect only skin keratinocytes. It cannot infect dendritic cells or any other immune cell. Keratinocytes stay in the skin and do not express B7 (CD80/86). Five days after infection, naive CD8+ T cells specific for a viral peptide are activated in the draining lymph node. Which process best explains how these CD8+ T cells were activated?",
+      "choices": [
+        "Infected keratinocytes traveled to the lymph node and showed viral peptide on MHC class I",
+        "CD8+ T cells recognized viral peptide shown on MHC class II by B cells",
+        "Dendritic cells were infected by the virus and loaded peptides from newly made viral proteins onto MHC class I",
+        "Dendritic cells loaded viral peptide from engulfed infected cells onto MHC class II for CD8+ T cells",
+        "Dendritic cells loaded viral peptide from engulfed infected cells onto MHC class I"
+      ],
+      "correct": 4,
+      "explanation": "Some dendritic cells can take up proteins from other infected or dying cells and load the peptides onto **MHC I** instead of only MHC II. This **cross-presentation**, with **B7** costimulation from the dendritic cell, primes naive CD8+ T cells against viruses that never infect antigen-presenting cells. Presentation by the keratinocytes themselves is the tempting answer, but they stay in the skin and lack B7, so they could not activate naive T cells. The CD8 molecule binds MHC I, not MHC II, and a T-cell receptor needs peptide bound to MHC.",
+      "explanation_pt": "Algumas células dendríticas conseguem captar proteínas de outras células infectadas ou mortas e carregar os peptídeos no **MHC I**, e não apenas no MHC II. Essa **apresentação cruzada**, com a coestimulação por **B7** da célula dendrítica, ativa linfócitos T CD8+ virgens contra vírus que nunca infectam células apresentadoras de antígeno. A apresentação pelos próprios queratinócitos é a resposta tentadora, mas eles ficam na pele e não têm B7, então não poderiam ativar linfócitos T virgens. A molécula CD8 liga-se ao MHC I, não ao MHC II, e o receptor de linfócitos T precisa de peptídeo ligado ao MHC."
+    },
+    {
+      "slug": "q-adaptive-immunity-qx-ipex-foxp3",
+      "track": "step1",
+      "system": "immunology",
+      "discipline": "pathology",
+      "tags": [
+        "adaptive-immunity",
+        "treg",
+        "peripheral-tolerance"
+      ],
+      "stem": "A 3-month-old boy has had severe watery diarrhea since age 3 weeks and is losing weight. He has a scaly, itchy rash on his face and trunk. His mother's brother died in infancy with diarrhea and diabetes. Laboratory studies show: glucose 410 mg/dL, platelets 310,000/mm3 with normal size, eosinophils 12% of leukocytes and high serum IgE. Antibodies against enterocytes and against pancreatic islet cells are present. A mutation in the gene for which protein is most likely?",
+      "choices": [
+        "Autoimmune regulator (AIRE)",
+        "Forkhead box P3 (FOXP3)",
+        "CD40 ligand",
+        "Wiskott-Aldrich syndrome protein (WASP)",
+        "Bruton tyrosine kinase (BTK)"
+      ],
+      "correct": 1,
+      "explanation": "Autoimmune enteropathy, eczema-like dermatitis and type 1 diabetes in an infant boy, with an affected maternal uncle, is **IPEX** syndrome. Loss of **FOXP3** removes functional **regulatory T cells**, so peripheral tolerance fails and many organs are attacked. Wiskott-Aldrich syndrome is tempting (X-linked, eczema, high IgE), but its key sign is **low platelet count with small platelets**, and this boy's platelets are normal. AIRE defects (APS-1) are autosomal recessive and cause candidiasis, hypoparathyroidism and adrenal failure, usually later in childhood.",
+      "explanation_pt": "Enteropatia autoimune, dermatite semelhante a eczema e diabetes tipo 1 em um lactente do sexo masculino, com um tio materno afetado, é a síndrome **IPEX**. A perda do **FOXP3** elimina os **linfócitos T reguladores** funcionais, então a tolerância periférica falha e muitos órgãos são atacados. A síndrome de Wiskott-Aldrich é tentadora (ligada ao X, eczema, IgE alta), mas o seu sinal-chave é a **plaquetopenia com plaquetas pequenas**, e as plaquetas deste menino são normais. Os defeitos do AIRE (SPA-1) são autossômicos recessivos e causam candidíase, hipoparatireoidismo e insuficiência adrenal, em geral mais tarde na infância."
+    },
+    {
+      "slug": "q-adaptive-immunity-qx-alps-fas",
+      "track": "step1",
+      "system": "immunology",
+      "discipline": "pathology",
+      "tags": [
+        "adaptive-immunity",
+        "peripheral-tolerance",
+        "apoptosis"
+      ],
+      "stem": "A 6-year-old girl has had large, painless lymph nodes in her neck and axillae and an enlarged spleen for 2 years. She has had no unusual infections. This week she became pale and tired. Laboratory studies show: hemoglobin 8.1 g/dL, reticulocytes 9%, direct antiglobulin (Coombs) test positive, platelets 62,000/mm3. Her blood has a markedly increased number of T cells that express the αβ T-cell receptor but neither CD4 nor CD8. A lymph node biopsy shows reactive, polyclonal lymphocytes with no malignancy. A defect in which process best explains her disease?",
+      "choices": [
+        "Clonal B-cell growth driven by a BCL2 gene translocation",
+        "Perforin-dependent killing by cytotoxic T cells and NK cells",
+        "Deletion of self-reactive thymocytes that depends on AIRE",
+        "Fas-mediated apoptosis of repeatedly activated lymphocytes",
+        "B-cell proliferation driven by Epstein-Barr virus"
+      ],
+      "correct": 3,
+      "explanation": "Chronic non-malignant lymphadenopathy, splenomegaly, autoimmune cytopenias and many **double-negative (CD4− CD8−) αβ T cells** point to **autoimmune lymphoproliferative syndrome (ALPS)**, most often from a **FAS** mutation. Repeatedly activated lymphocytes normally die by **Fas–Fas ligand** apoptosis (activation-induced cell death); when this fails, activated and self-reactive lymphocytes build up. A lymphoma is tempting with this much lymph node growth, but the biopsy is polyclonal and reactive. AIRE loss gives candidiasis and endocrine failure, and perforin defects cause hemophagocytic lymphohistiocytosis with fever, not double-negative T cells.",
+      "explanation_pt": "Linfadenopatia crônica não maligna, esplenomegalia, citopenias autoimunes e muitos **linfócitos T αβ duplo-negativos (CD4− CD8−)** indicam a **síndrome linfoproliferativa autoimune (ALPS)**, mais frequentemente por mutação do **FAS**. Linfócitos ativados repetidamente normalmente morrem por apoptose via **Fas–ligante de Fas** (morte celular induzida por ativação); quando isso falha, linfócitos ativados e autorreativos se acumulam. Um linfoma é tentador com tanto crescimento linfonodal, mas a biópsia é policlonal e reativa. A perda do AIRE causa candidíase e insuficiência endócrina, e defeitos de perforina causam linfo-histiocitose hemofagocítica com febre, não linfócitos T duplo-negativos."
+    },
+    {
+      "slug": "q-adaptive-immunity-qx-affinity-maturation-booster",
+      "track": "step1",
+      "system": "immunology",
+      "discipline": "physiology",
+      "tags": [
+        "adaptive-immunity",
+        "b-cells",
+        "affinity-maturation"
+      ],
+      "stem": "A 20-year-old nursing student receives a three-dose hepatitis B vaccine series. Her serum is tested 2 weeks after the first dose and again 2 weeks after the third dose. After the first dose, IgG anti-HBs is low and its avidity index is 22%. After the third dose, IgG anti-HBs is much higher and its avidity index is 88%. (The avidity index is the percentage of antibody that stays bound to the antigen after a wash that breaks weak bonds.) Which process best explains the rise in avidity?",
+      "choices": [
+        "Somatic hypermutation with selection of B cells in germinal centers",
+        "Class switch recombination from the IgM to the IgG constant region",
+        "V(D)J recombination by RAG1 and RAG2 in newly formed bone marrow B cells",
+        "Alternative RNA splicing that lets one B cell make both IgM and IgD",
+        "Coating of the antigen with complement fragment C3d"
+      ],
+      "correct": 0,
+      "explanation": "After each exposure, germinal center B cells undergo **somatic hypermutation** of their variable-region genes by **AID**. B cells whose new receptors bind antigen more strongly win the competition for antigen and T-cell help and survive; this is **affinity maturation**, and it explains the stronger binding after boosters. Class switching is tempting, but it changes only the **constant region**: both measurements here are already IgG, and switching does not change the antigen-binding site. V(D)J recombination happens before antigen contact and creates diversity, not higher affinity.",
+      "explanation_pt": "Após cada exposição, os linfócitos B do centro germinativo sofrem **hipermutação somática** dos genes da região variável pela **AID**. Os linfócitos B cujos novos receptores se ligam mais fortemente ao antígeno vencem a competição por antígeno e pela ajuda dos linfócitos T e sobrevivem; isso é a **maturação de afinidade**, e explica a ligação mais forte após os reforços. A troca de classe é tentadora, mas muda apenas a **região constante**: as duas medidas aqui já são de IgG, e a troca não altera o sítio de ligação ao antígeno. A recombinação V(D)J ocorre antes do contato com o antígeno e cria diversidade, não maior afinidade."
+    },
+    {
+      "slug": "q-adaptive-immunity-qx-th17-differentiation",
+      "track": "step1",
+      "system": "immunology",
+      "discipline": "physiology",
+      "tags": [
+        "adaptive-immunity",
+        "t-helper-cells",
+        "cytokines"
+      ],
+      "stem": "A researcher isolates naive CD4+ T cells from the spleens of healthy mice. She activates them through the T-cell receptor and CD28 in three culture wells, each with different added cytokines. Well 1 gets IL-12 and the cells make mostly IFN-γ. Well 2 gets IL-4 and the cells make mostly IL-4. Well 3 gets TGF-β plus IL-6. Which cytokine will the cells in well 3 mainly secrete, and what is its main effect?",
+      "choices": [
+        "IFN-γ, which activates macrophages",
+        "IL-5, which recruits and activates eosinophils",
+        "IL-10, which suppresses other T cells",
+        "IL-2, which drives T-cell proliferation",
+        "IL-17, which recruits neutrophils"
+      ],
+      "correct": 4,
+      "explanation": "**TGF-β plus IL-6** drives naive CD4+ T cells to become **Th17** cells, and IL-23 later keeps them active. Th17 cells release **IL-17**, which makes local cells recruit **neutrophils** against extracellular bacteria and fungi. IL-10 is the tempting answer: TGF-β **alone** pushes naive cells toward **FOXP3+ regulatory T cells**, but adding IL-6 blocks that path and favors Th17. IFN-γ is the Th1 product of well 1, and IL-5 is a Th2 product.",
+      "explanation_pt": "**TGF-β mais IL-6** leva os linfócitos T CD4+ virgens a se tornarem células **Th17**, e a IL-23 depois as mantém ativas. As células Th17 liberam **IL-17**, que faz as células locais recrutarem **neutrófilos** contra bactérias extracelulares e fungos. A IL-10 é a resposta tentadora: o TGF-β **sozinho** leva as células virgens a se tornarem **linfócitos T reguladores FOXP3+**, mas a adição de IL-6 bloqueia esse caminho e favorece o Th17. O IFN-γ é o produto Th1 do poço 1, e a IL-5 é um produto Th2."
+    },
+    {
+      "slug": "q-adaptive-immunity-qx-hla-sibling-match",
+      "track": "step1",
+      "system": "immunology",
+      "discipline": "physiology",
+      "tags": [
+        "adaptive-immunity",
+        "mhc",
+        "hla-inheritance"
+      ],
+      "stem": "A 34-year-old man with acute myeloid leukemia needs a hematopoietic stem cell transplant. He has two full siblings with the same two parents. No one in the family is an identical twin. The HLA genes are close together on chromosome 6 and are inherited as one block (haplotype) from each parent; assume no recombination and that the four parental haplotypes are all different. What is the probability that at least one of his two siblings is HLA-identical to him?",
+      "choices": [
+        "25%",
+        "44%",
+        "50%",
+        "56%",
+        "75%"
+      ],
+      "correct": 1,
+      "explanation": "Each child gets one of two **haplotypes** from each parent, so any one sibling matches the patient with probability 1/2 × 1/2 = **1/4**. The chance that a sibling does not match is 3/4, so the chance that neither of two siblings matches is 3/4 × 3/4 = 9/16 (about 56%). The chance that at least one matches is 1 − 9/16 = **7/16, about 44%**. Simply adding 25% + 25% to get 50% is the tempting error, because it counts the case where both siblings match twice.",
+      "explanation_pt": "Cada filho recebe um de dois **haplótipos** de cada genitor, então cada irmão é compatível com o paciente com probabilidade 1/2 × 1/2 = **1/4**. A chance de um irmão não ser compatível é 3/4, então a chance de nenhum dos dois irmãos ser compatível é 3/4 × 3/4 = 9/16 (cerca de 56%). A chance de pelo menos um ser compatível é 1 − 9/16 = **7/16, cerca de 44%**. Somar 25% + 25% para chegar a 50% é o erro tentador, porque conta duas vezes o caso em que os dois irmãos são compatíveis."
+    }
+  ],
+  "notes": []
+}

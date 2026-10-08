@@ -1,0 +1,182 @@
+{
+  "cards": [],
+  "questions": [
+    {
+      "slug": "q-autonomic-pharmacology-qx-ganglionic-blockade-tone",
+      "track": "step1",
+      "system": "general-principles",
+      "discipline": "pharmacology",
+      "tags": [
+        "autonomic-pharmacology",
+        "ganglionic-blockers",
+        "autonomic-tone"
+      ],
+      "stem": "A 45-year-old man takes part in a physiology study while lying supine. At baseline his blood pressure is 124/80 mm Hg and pulse is 64/min. He then receives an IV infusion of hexamethonium. Twenty minutes later his blood pressure is 96/62 mm Hg, pulse is 92/min, his mouth is dry and his pupils are 6 mm. Which mechanism best explains the change in his pulse?",
+      "choices": [
+        "Baroreceptor reflex that raises sympathetic outflow to the heart",
+        "Loss of the dominant vagal tone at the sinoatrial node",
+        "Direct stimulation of beta-1 receptors on sinoatrial node cells",
+        "Epinephrine released from the adrenal medulla into the blood",
+        "Blockade of presynaptic alpha-2 receptors on cardiac nerve endings"
+      ],
+      "correct": 1,
+      "explanation": "**Hexamethonium** blocks **Nn** receptors in all autonomic ganglia, so each organ loses its **dominant tone**. At rest the **sinoatrial node** is mainly under **vagal (parasympathetic)** control, so the pulse rises toward the intrinsic rate; arterioles are mainly under sympathetic control, so they dilate and blood pressure falls. A baroreceptor reflex seems likely after the fall in pressure, but its sympathetic output also passes through the blocked ganglia, and so does the nerve to the adrenal medulla.",
+      "explanation_pt": "O **hexametônio** bloqueia os receptores **Nn** de todos os gânglios autonômicos, e cada órgão perde o seu **tônus predominante**. Em repouso, o **nó sinoatrial** está sob controle principalmente **vagal (parassimpático)**, e o pulso sobe em direção à frequência intrínseca; as arteríolas estão sob controle principalmente simpático, então se dilatam e a pressão cai. Um reflexo barorreceptor parece provável após a queda da pressão, mas a sua via simpática também passa pelos gânglios bloqueados, assim como o nervo para a medula adrenal."
+    },
+    {
+      "slug": "q-autonomic-pharmacology-qx-norepinephrine-atropine",
+      "track": "step1",
+      "system": "general-principles",
+      "discipline": "pharmacology",
+      "tags": [
+        "autonomic-pharmacology",
+        "adrenergic-agonists",
+        "hemodynamics"
+      ],
+      "stem": "In a pharmacology study, a healthy 30-year-old woman receives an IV infusion of drug X. Baseline: blood pressure 120/78 mm Hg, pulse 72/min. During drug X: blood pressure 164/104 mm Hg, pulse 56/min. On another day she first receives atropine (blood pressure 122/78 mm Hg, pulse 98/min) and then the same infusion of drug X. This time her blood pressure is 170/106 mm Hg and pulse is 114/min. Which drug is X?",
+      "choices": [
+        "Phenylephrine",
+        "Isoproterenol",
+        "Angiotensin II",
+        "Norepinephrine",
+        "Epinephrine"
+      ],
+      "correct": 3,
+      "explanation": "Drug X raises both systolic and **diastolic** pressure (**alpha-1**), and the pulse falls through a vagal **reflex**. When atropine blocks that reflex, the pulse rises above the atropine baseline, so drug X must also stimulate cardiac **beta-1** receptors: this fits **norepinephrine**. Phenylephrine and angiotensin II give the same first result, but neither acts on beta-1 receptors, so after atropine the pulse would stay near 98/min. Isoproterenol and epinephrine (at usual infusion rates) stimulate beta-2 receptors, lower diastolic pressure and speed the heart even without atropine.",
+      "explanation_pt": "O fármaco X eleva a pressão sistólica e a **diastólica** (**alfa-1**), e o pulso cai por um **reflexo** vagal. Quando a atropina bloqueia esse reflexo, o pulso sobe acima do valor basal com atropina, então o fármaco X também estimula receptores **beta-1** cardíacos: isso corresponde à **norepinefrina**. A fenilefrina e a angiotensina II dariam o mesmo primeiro resultado, mas nenhuma age em receptores beta-1, e após a atropina o pulso ficaria perto de 98/min. O isoproterenol e a epinefrina (nas taxas de infusão habituais) estimulam receptores beta-2, reduzem a pressão diastólica e aceleram o coração mesmo sem atropina."
+    },
+    {
+      "slug": "q-autonomic-pharmacology-qx-organophosphate-nicotinic-weakness",
+      "track": "step1",
+      "system": "general-principles",
+      "discipline": "pharmacology",
+      "tags": [
+        "autonomic-pharmacology",
+        "cholinesterase-inhibitors",
+        "toxicity"
+      ],
+      "stem": "A 38-year-old farm worker sprayed an insecticide on crops without gloves or a mask. Three hours later he has vomiting, diarrhea, drooling, tearing and wheezing with copious airway secretions. Pulse is 46/min, pupils are 1 mm, and there is twitching of many muscle groups. He receives repeated IV doses of atropine. One hour later his airway secretions are dry, his lungs are clear and his pulse is 104/min, but the muscle twitching continues and his breathing muscles become so weak that he needs intubation. Which mechanism best explains why atropine did not help his weakness?",
+      "choices": [
+        "Atropine is unable to cross the blood-brain barrier to the respiratory center",
+        "The insecticide directly blocks voltage-gated sodium channels in muscle",
+        "Atropine depletes acetylcholine stores in motor nerve endings",
+        "Muscarinic receptors on skeletal muscle need a higher dose of atropine",
+        "Excess acetylcholine acting on muscle nicotinic receptors"
+      ],
+      "correct": 4,
+      "explanation": "**Organophosphates** inhibit acetylcholinesterase, so acetylcholine builds up at **muscarinic** and **nicotinic** synapses. **Atropine** blocks only muscarinic receptors: it dries secretions and corrects bradycardia, but the **Nm** receptors at the neuromuscular junction stay overstimulated, causing **fasciculations** and then depolarizing **weakness**. Skeletal muscle has no muscarinic receptors to block, so more atropine would not help; restoring the enzyme with **pralidoxime** addresses this effect. Atropine is a tertiary amine and does enter the brain.",
+      "explanation_pt": "Os **organofosforados** inibem a acetilcolinesterase, e a acetilcolina se acumula em sinapses **muscarínicas** e **nicotínicas**. A **atropina** bloqueia apenas os receptores muscarínicos: seca as secreções e corrige a bradicardia, mas os receptores **Nm** da junção neuromuscular continuam hiperestimulados, causando **fasciculações** e depois **fraqueza** por despolarização. O músculo esquelético não tem receptores muscarínicos, então mais atropina não ajudaria; a reativação da enzima com **pralidoxima** atua sobre esse efeito. A atropina é uma amina terciária e entra no cérebro."
+    },
+    {
+      "slug": "q-autonomic-pharmacology-qx-glycopyrrolate-quaternary",
+      "track": "step1",
+      "system": "general-principles",
+      "discipline": "pharmacology",
+      "tags": [
+        "autonomic-pharmacology",
+        "muscarinic-antagonists",
+        "neuromuscular-reversal"
+      ],
+      "stem": "An 82-year-old woman has surgery for a hip fracture under general anesthesia with rocuronium. After her last operation, she had severe confusion for 2 days, attributed to one of the drugs given at the end of surgery. At the end of today's surgery, neostigmine is given to reverse the muscle relaxant, together with glycopyrrolate instead of atropine. Which property of glycopyrrolate best explains this choice?",
+      "choices": [
+        "It selectively blocks M2 receptors on the heart",
+        "It is rapidly broken down by plasma cholinesterase",
+        "It is a quaternary amine that stays out of the brain",
+        "It also blocks nicotinic receptors in autonomic ganglia",
+        "It is a tertiary amine with a very short half-life"
+      ],
+      "correct": 2,
+      "explanation": "**Neostigmine** raises acetylcholine at muscarinic sites as well as at the neuromuscular junction, so a muscarinic antagonist is given with it to prevent **bradycardia** and secretions. **Glycopyrrolate** has a permanent positive charge (**quaternary amine**), so it does not cross the **blood-brain barrier** and does not cause the central delirium that atropine or scopolamine can cause in older adults. It is not M2-selective: it blocks muscarinic receptors in general, which is why it also dries secretions. A tertiary amine such as atropine is exactly the kind that enters the brain.",
+      "explanation_pt": "A **neostigmina** aumenta a acetilcolina nos receptores muscarínicos e também na junção neuromuscular, por isso um antagonista muscarínico é dado junto para evitar **bradicardia** e secreções. O **glicopirrolato** tem carga positiva permanente (**amina quaternária**), não atravessa a **barreira hematoencefálica** e não causa o delirium central que a atropina ou a escopolamina podem causar em idosos. Ele não é seletivo para M2: bloqueia os receptores muscarínicos em geral, e por isso também seca as secreções. Uma amina terciária como a atropina é justamente o tipo que entra no cérebro."
+    },
+    {
+      "slug": "q-autonomic-pharmacology-qx-anticholinergic-physostigmine",
+      "track": "step1",
+      "system": "general-principles",
+      "discipline": "pharmacology",
+      "tags": [
+        "autonomic-pharmacology",
+        "cholinesterase-inhibitors",
+        "toxicity"
+      ],
+      "stem": "A 19-year-old man is brought to the emergency department 3 hours after he ate seeds from a wild plant to get high. He is agitated, talks to people who are not there and picks at the air. Temperature is 39.1 °C, pulse is 126/min and blood pressure is 144/86 mm Hg. His pupils are 8 mm and react poorly to light. His skin is red, hot and dry, bowel sounds are absent and his bladder is palpable. ECG shows sinus tachycardia with a normal QRS duration. Which drug most directly reverses both his peripheral and his central findings?",
+      "choices": [
+        "Physostigmine",
+        "Neostigmine",
+        "Pyridostigmine",
+        "Bethanechol",
+        "Flumazenil"
+      ],
+      "correct": 0,
+      "explanation": "Hot, dry, flushed skin, delirium, mydriasis, ileus and urinary retention form the **anticholinergic toxidrome** (here from jimson weed seeds, which contain atropine and scopolamine). **Physostigmine** inhibits acetylcholinesterase and is a **tertiary amine**, so it raises acetylcholine both in the body and in the **brain**, and it can clear the delirium. Neostigmine and pyridostigmine are **quaternary** and do not enter the brain, so the delirium would stay; bethanechol is a direct agonist that acts only peripherally.",
+      "explanation_pt": "Pele quente, seca e vermelha, delirium, midríase, íleo e retenção urinária formam a **síndrome anticolinérgica** (aqui pelas sementes de estramônio, *jimson weed*, que contêm atropina e escopolamina). A **fisostigmina** inibe a acetilcolinesterase e é uma **amina terciária**, então aumenta a acetilcolina no corpo e no **cérebro**, e pode reverter o delirium. A neostigmina e a piridostigmina são **quaternárias** e não entram no cérebro, então o delirium persistiria; o betanecol é um agonista direto que age apenas na periferia."
+    },
+    {
+      "slug": "q-autonomic-pharmacology-qx-beta-blocker-hypoglycemia-sweating",
+      "track": "step1",
+      "system": "general-principles",
+      "discipline": "pharmacology",
+      "tags": [
+        "autonomic-pharmacology",
+        "beta-blockers",
+        "sympathetic-cholinergic"
+      ],
+      "stem": "A 58-year-old man with type 2 diabetes treated with insulin started propranolol for essential tremor 3 weeks ago. Last night he woke up soaked in sweat and felt confused; his fingerstick glucose was 46 mg/dL. With earlier low glucose episodes he always felt shaky and noticed a pounding heartbeat, but this time he had neither. Which mechanism best explains why he still sweated?",
+      "choices": [
+        "Propranolol spares beta-1 receptors, which control sweat glands",
+        "Cortisol released during hypoglycemia acts directly on sweat glands",
+        "Glucagon released during hypoglycemia stimulates sweat glands",
+        "Alpha-1 receptors on sweat glands remain free to respond during beta blockade",
+        "Sympathetic acetylcholine acting on muscarinic receptors of sweat glands"
+      ],
+      "correct": 4,
+      "explanation": "Most hypoglycemia warning signs need **beta receptors**: palpitations come from beta-1 and tremor mainly from beta-2, so a **nonselective beta-blocker** such as propranolol hides them. **Sweating** is different: **eccrine** sweat glands get **sympathetic** fibers that release **acetylcholine** onto **muscarinic** receptors, so beta blockade does not affect it. Alpha-1 receptors are not the main drive of this sweating, and propranolol blocks beta-1 as well as beta-2.",
+      "explanation_pt": "A maioria dos sinais de alerta da hipoglicemia depende de **receptores beta**: as palpitações vêm do beta-1 e o tremor principalmente do beta-2, então um **betabloqueador não seletivo** como o propranolol os encobre. A **sudorese** é diferente: as glândulas sudoríparas **écrinas** recebem fibras **simpáticas** que liberam **acetilcolina** em receptores **muscarínicos**, e o bloqueio beta não a afeta. Os receptores alfa-1 não são o principal estímulo dessa sudorese, e o propranolol bloqueia tanto o beta-1 quanto o beta-2."
+    },
+    {
+      "slug": "q-autonomic-pharmacology-qx-mirabegron-beta3",
+      "track": "step1",
+      "system": "general-principles",
+      "discipline": "pharmacology",
+      "tags": [
+        "autonomic-pharmacology",
+        "adrenergic-agonists",
+        "bladder"
+      ],
+      "stem": "A 76-year-old woman has urge incontinence from detrusor overactivity. Oxybutynin reduced her symptoms but caused dry mouth, constipation and memory problems, so it is stopped. She starts a once-daily oral drug from another class that relaxes the detrusor during bladder filling through a different receptor than oxybutynin. Which mechanism best describes the new drug?",
+      "choices": [
+        "Activation of beta-3 receptors, raising cAMP in detrusor muscle",
+        "Blockade of alpha-1A receptors in the bladder neck",
+        "Inhibition of phosphodiesterase-5, raising cGMP in detrusor muscle",
+        "Activation of central alpha-2 receptors, lowering sympathetic outflow",
+        "Blockade of nicotinic receptors in pelvic parasympathetic ganglia"
+      ],
+      "correct": 0,
+      "explanation": "**Mirabegron** stimulates **beta-3** receptors on the detrusor; through **Gs** and more **cAMP**, the muscle relaxes and the bladder holds more urine, without anticholinergic effects. It can raise blood pressure slightly. Alpha-1A blockers such as tamsulosin relax the bladder neck and prostate to help emptying in outlet obstruction; they do not treat detrusor overactivity. Ganglionic blockade would affect the whole autonomic system and is not used for this.",
+      "explanation_pt": "A **mirabegrona** estimula receptores **beta-3** do detrusor; via **Gs** e aumento do **AMPc**, o músculo relaxa e a bexiga armazena mais urina, sem efeitos anticolinérgicos. Ela pode elevar levemente a pressão arterial. Os bloqueadores alfa-1A, como a tansulosina, relaxam o colo vesical e a próstata para facilitar o esvaziamento na obstrução de saída; não tratam a hiperatividade do detrusor. O bloqueio ganglionar afetaria todo o sistema autônomo e não é usado para isso."
+    },
+    {
+      "slug": "q-autonomic-pharmacology-qx-pilocarpine-gq-signaling",
+      "track": "step1",
+      "system": "general-principles",
+      "discipline": "pharmacology",
+      "tags": [
+        "autonomic-pharmacology",
+        "cholinergic-agonists",
+        "signaling"
+      ],
+      "stem": "A 52-year-old woman with Sjögren syndrome has a very dry mouth that makes it hard to eat bread. She starts oral pilocarpine. Within an hour of each tablet her mouth feels moist, and she also notices more sweating and a runny nose. Which intracellular event in her salivary acinar cells most directly follows binding of the drug to its receptor?",
+      "choices": [
+        "Gs activation of adenylyl cyclase with a rise in cAMP",
+        "Gi inhibition of adenylyl cyclase with a fall in cAMP",
+        "Opening of a ligand-gated cation channel in the membrane",
+        "Gq activation of phospholipase C, forming IP3 and DAG",
+        "Activation of guanylyl cyclase with a rise in cGMP"
+      ],
+      "correct": 3,
+      "explanation": "**Pilocarpine** is a direct **muscarinic agonist**. Salivary glands use **M3** receptors, which couple to **Gq**: phospholipase C splits PIP2 into **IP3** and **DAG**, IP3 releases **Ca2+** from the endoplasmic reticulum, and the cells secrete fluid. Gs and cAMP are used by beta receptors (which add protein-rich saliva), not by M3. A ligand-gated channel describes nicotinic receptors, and a fall in cAMP through Gi describes M2 receptors in the heart.",
+      "explanation_pt": "A **pilocarpina** é um **agonista muscarínico** direto. As glândulas salivares usam receptores **M3**, acoplados à **Gq**: a fosfolipase C cliva o PIP2 em **IP3** e **DAG**, o IP3 libera **Ca2+** do retículo endoplasmático, e as células secretam líquido. A via Gs e AMPc é usada por receptores beta (que acrescentam saliva rica em proteínas), não pelo M3. Um canal ativado por ligante descreve os receptores nicotínicos, e a queda do AMPc via Gi descreve os receptores M2 do coração."
+    }
+  ],
+  "notes": []
+}

@@ -1,0 +1,185 @@
+{
+  "cards": [],
+  "questions": [
+    {
+      "slug": "q-immunopharmacology-vaccines-qx-belatacept-costimulation",
+      "track": "step1",
+      "system": "immunology",
+      "discipline": "pharmacology",
+      "tags": [
+        "immunopharmacology-vaccines",
+        "transplant",
+        "biologics"
+      ],
+      "stem": "A 44-year-old woman receives a kidney transplant. To avoid the kidney toxicity of long-term tacrolimus, her maintenance regimen includes a fusion protein given by intravenous infusion once a month. The protein is made of the extracellular part of an inhibitory T-cell receptor joined to the Fc portion of human IgG1. Before starting it, her physician confirms that she has antibodies to Epstein-Barr virus, because seronegative patients have a higher risk of post-transplant lymphoproliferative disorder with this drug. This drug prevents rejection mainly by blocking which interaction?",
+      "choices": [
+        "CD80/CD86 on antigen-presenting cells with CD28 on T cells",
+        "PD-L1 on donor cells with PD-1 on activated T cells",
+        "CD40 on B cells with CD40 ligand on helper T cells",
+        "IL-2 with CD25, the alpha chain of the IL-2 receptor",
+        "ICAM-1 on endothelial cells with LFA-1 on circulating T cells"
+      ],
+      "correct": 0,
+      "explanation": "The drug is **belatacept**, a **CTLA-4-Ig** fusion protein. Like CTLA-4, it binds **CD80/CD86 (B7)** on antigen-presenting cells, so naive T cells that see donor antigen do not get the **CD28 costimulatory signal** and become anergic instead of activated. The tempting answer is **PD-1/PD-L1**, because both are inhibitory pathways, but blocking PD-1 signaling would *release* T cells (this is how checkpoint inhibitors work) and would promote rejection. Blocking CD25 is the action of basiliximab.",
+      "explanation_pt": "O fármaco é o **belatacepte**, uma proteína de fusão **CTLA-4-Ig**. Assim como o CTLA-4, ele se liga ao **CD80/CD86 (B7)** das células apresentadoras de antígeno; os linfócitos T virgens que reconhecem o antígeno do doador não recebem o **sinal coestimulatório do CD28** e ficam anérgicos em vez de ativados. A alternativa tentadora é **PD-1/PD-L1**, por ser também uma via inibitória, mas bloquear a sinalização do PD-1 *liberaria* os linfócitos T (é assim que agem os inibidores de checkpoint) e favoreceria a rejeição. O bloqueio do CD25 é a ação do basiliximabe."
+    },
+    {
+      "slug": "q-immunopharmacology-vaccines-qx-sirolimus-switch",
+      "track": "step1",
+      "system": "immunology",
+      "discipline": "pharmacology",
+      "tags": [
+        "immunopharmacology-vaccines",
+        "transplant",
+        "mtor"
+      ],
+      "stem": "A 55-year-old man had a kidney transplant 2 years ago. He took tacrolimus, mycophenolate and prednisone, but a graft biopsy showed arteriolar hyalinosis and interstitial fibrosis without rejection, so tacrolimus was replaced by another drug. Four months later, the incision from a recent hernia repair has opened and is healing slowly, and he has painful mouth ulcers. Before the switch, serum creatinine was 2.0 mg/dL, LDL cholesterol 105 mg/dL, triglycerides 140 mg/dL and platelets 240,000/mm³; now they are 1.5 mg/dL, 170 mg/dL, 360 mg/dL and 135,000/mm³. Which mechanism best describes the new drug?",
+      "choices": [
+        "Inhibition of calcineurin, which keeps NFAT out of the nucleus",
+        "Inhibition of mTOR, which blocks proliferation driven by IL-2",
+        "Inhibition of IMP dehydrogenase, which depletes guanine nucleotides",
+        "Blockade of CD80/CD86, which removes the CD28 costimulatory signal",
+        "Binding to CD25, which keeps IL-2 from reaching its receptor"
+      ],
+      "correct": 1,
+      "explanation": "The new drug is **sirolimus** (or everolimus): the graft function improved because it is **less nephrotoxic**, but it caused **hyperlipidemia**, **thrombocytopenia**, mouth ulcers and **poor wound healing**. It binds FKBP12 and inhibits **mTOR**, so T cells cannot **respond** to IL-2 and stay in G1. The tempting answer is **calcineurin inhibition**, since sirolimus binds the same FKBP12 as tacrolimus, but the sirolimus-FKBP12 complex inhibits mTOR, not calcineurin; calcineurin inhibition by tacrolimus is what caused his kidney injury.",
+      "explanation_pt": "O novo fármaco é o **sirolimo** (ou everolimo): a função do enxerto melhorou porque ele é **menos nefrotóxico**, mas causou **hiperlipidemia**, **trombocitopenia**, úlceras orais e **cicatrização deficiente**. Ele se liga à FKBP12 e inibe a **mTOR**, e o linfócito T não consegue **responder** à IL-2, ficando parado em G1. A alternativa tentadora é a **inibição da calcineurina**, pois o sirolimo se liga à mesma FKBP12 que o tacrolimo, mas o complexo sirolimo-FKBP12 inibe a mTOR, e não a calcineurina; a inibição da calcineurina pelo tacrolimo foi justamente a causa da lesão renal."
+    },
+    {
+      "slug": "q-immunopharmacology-vaccines-qx-tacrolimus-voriconazole",
+      "track": "step1",
+      "system": "immunology",
+      "discipline": "pharmacology",
+      "tags": [
+        "immunopharmacology-vaccines",
+        "transplant",
+        "drug-interactions",
+        "calcineurin-inhibitors"
+      ],
+      "stem": "A 61-year-old woman had a heart transplant 8 months ago and takes tacrolimus, mycophenolate and prednisone. She develops invasive aspergillosis of the lung and starts oral voriconazole; her other drugs are not changed. Ten days later she has a fine hand tremor and headache. Before voriconazole, serum creatinine was 1.0 mg/dL, potassium 4.4 mEq/L and glucose 110 mg/dL, and her tacrolimus blood level was in the target range. Now creatinine is 1.9 mg/dL, potassium 5.8 mEq/L, glucose 196 mg/dL, and the tacrolimus level is far above the target range. Which mechanism best explains these changes?",
+      "choices": [
+        "Direct toxic injury of renal tubular cells by voriconazole",
+        "Displacement of tacrolimus from plasma albumin by voriconazole",
+        "Inhibition of CYP3A4, which slows the breakdown of tacrolimus",
+        "Induction of CYP3A4, which forms a toxic tacrolimus metabolite",
+        "Inhibition of renal tubular secretion, which slows tacrolimus excretion"
+      ],
+      "correct": 2,
+      "explanation": "Azole antifungals, voriconazole in particular, strongly **inhibit CYP3A4**, the enzyme that metabolizes tacrolimus in the liver and gut wall, so tacrolimus levels rise. The result is **calcineurin inhibitor toxicity**: **nephrotoxicity**, **hyperkalemia**, **tremor** and **hyperglycemia**. The tempting answer is direct kidney injury by the antifungal, but that is typical of **amphotericin B**, and it would not explain the high tacrolimus level, tremor and high glucose. Tacrolimus is cleared mainly by hepatic metabolism, not by renal secretion.",
+      "explanation_pt": "Os antifúngicos azólicos, em especial o voriconazol, **inibem fortemente a CYP3A4**, enzima que metaboliza o tacrolimo no fígado e na parede intestinal; por isso, os níveis de tacrolimo sobem. O resultado é **toxicidade do inibidor da calcineurina**: **nefrotoxicidade**, **hipercalemia**, **tremor** e **hiperglicemia**. A alternativa tentadora é a lesão renal direta pelo antifúngico, mas isso é típico da **anfotericina B** e não explicaria o nível alto de tacrolimo, o tremor e a glicemia elevada. O tacrolimo é eliminado sobretudo por metabolismo hepático, e não por secreção renal."
+    },
+    {
+      "slug": "q-immunopharmacology-vaccines-qx-mycophenolate-tpmt",
+      "track": "step1",
+      "system": "immunology",
+      "discipline": "pharmacology",
+      "tags": [
+        "immunopharmacology-vaccines",
+        "transplant",
+        "mycophenolate",
+        "pharmacogenetics"
+      ],
+      "stem": "A 38-year-old woman had a kidney transplant 1 month ago. Her regimen is tacrolimus, prednisone and azathioprine. She now has fever and painful mouth sores. Laboratory studies show leukocytes 1,100/mm³, hemoglobin 8.9 g/dL and platelets 38,000/mm³. Testing shows very low activity of thiopurine methyltransferase (TPMT). Azathioprine is stopped, and after her counts recover she starts mycophenolate mofetil instead. Which action best explains how the new drug suppresses lymphocyte proliferation?",
+      "choices": [
+        "Formation of thioguanine nucleotides that are built into DNA",
+        "Inhibition of dihydroorotate dehydrogenase, which depletes pyrimidines",
+        "Inhibition of ribonucleotide reductase, which depletes deoxyribonucleotides",
+        "Inhibition of IMP dehydrogenase, which depletes guanine nucleotides",
+        "Inhibition of xanthine oxidase, which slows the breakdown of purines"
+      ],
+      "correct": 3,
+      "explanation": "**Mycophenolate** inhibits **IMP dehydrogenase**, the enzyme that turns IMP into the precursor of GMP, so cells run short of **guanine nucleotides**. Lymphocytes depend mostly on this **de novo** purine pathway, while many other cells can recycle purines through the salvage pathway, so the effect is fairly selective. The tempting answer, **thioguanine nucleotides** built into DNA, is how **azathioprine** works; with low **TPMT** activity those nucleotides accumulated and caused her marrow suppression, and mycophenolate does not depend on TPMT. Dihydroorotate dehydrogenase is the target of leflunomide.",
+      "explanation_pt": "O **micofenolato** inibe a **IMP desidrogenase**, enzima que converte o IMP no precursor do GMP; assim, as células ficam com falta de **nucleotídeos de guanina**. Os linfócitos dependem sobretudo dessa via **de novo** de síntese de purinas, enquanto muitas outras células conseguem reaproveitar purinas pela via de salvamento; por isso, o efeito é relativamente seletivo. A alternativa tentadora, **nucleotídeos de tioguanina** incorporados ao DNA, é o mecanismo da **azatioprina**; com baixa atividade da **TPMT**, esses nucleotídeos se acumularam e causaram a supressão medular, e o micofenolato não depende da TPMT. A di-hidro-orotato desidrogenase é o alvo da leflunomida."
+    },
+    {
+      "slug": "q-immunopharmacology-vaccines-qx-tetanus-toxoid-after-disease",
+      "track": "step1",
+      "system": "immunology",
+      "discipline": "pharmacology",
+      "tags": [
+        "immunopharmacology-vaccines",
+        "vaccine-types",
+        "toxoid"
+      ],
+      "stem": "A 58-year-old farmer cannot remember his last tetanus vaccine. Ten days after stepping on a rusty nail he developed jaw stiffness and then painful generalized muscle spasms. He was treated in the intensive care unit with human tetanus immune globulin, metronidazole, wound debridement and sedation, and he recovered slowly over 4 weeks. Before discharge, his physician starts a full series of tetanus toxoid vaccine. The patient asks why he needs it, since he has already had the disease. Which statement best explains why he still needs the vaccine?",
+      "choices": [
+        "Tetanus toxin destroys the B cells that would make antitoxin antibodies",
+        "Antibodies made during the illness target the bacterium and not its toxin",
+        "The immune globulin he received will suppress his own antibodies for life",
+        "Clostridium tetani makes a new toxin variant with each new infection",
+        "The amount of toxin that causes disease is too small to induce immunity"
+      ],
+      "correct": 4,
+      "explanation": "Tetanospasmin is so potent that a **disease-causing amount** is far too small to trigger a protective antibody response, so recovery from tetanus leaves **no immunity**. A **toxoid** is toxin made harmless but still immunogenic; given in larger amounts and repeated doses, it induces **antitoxin IgG** that neutralizes the toxin before it reaches nerves. The tempting answer is that the immune globulin blocks his own response, but passive antibody lasts only weeks to months, and toxoid works when it is given at the same time at a different site.",
+      "explanation_pt": "A tetanospasmina é tão potente que a **quantidade capaz de causar doença** é pequena demais para desencadear uma resposta protetora de anticorpos; por isso, a recuperação do tétano **não deixa imunidade**. O **toxoide** é a toxina tornada inofensiva, mas ainda imunogênica; em maior quantidade e em doses repetidas, induz **IgG antitoxina**, que neutraliza a toxina antes que ela alcance os nervos. A alternativa tentadora é que a imunoglobulina bloqueie a resposta do próprio paciente, mas o anticorpo passivo dura apenas semanas a meses, e o toxoide funciona mesmo quando aplicado ao mesmo tempo, em outro local."
+    },
+    {
+      "slug": "q-immunopharmacology-vaccines-qx-rabies-immune-globulin",
+      "track": "step1",
+      "system": "immunology",
+      "discipline": "pharmacology",
+      "tags": [
+        "immunopharmacology-vaccines",
+        "passive-immunization",
+        "immune-globulin"
+      ],
+      "stem": "A 27-year-old woman who has never received a rabies vaccine is bitten on the calf by a stray dog that runs away and cannot be found. The wound is washed thoroughly with soap and water. She receives the first dose of rabies vaccine in the deltoid muscle, and human rabies immune globulin is infiltrated into and around the wound. Which statement best describes the protection given by the immune globulin?",
+      "choices": [
+        "It induces memory B cells that give lifelong protection against rabies",
+        "It activates CD8+ T cells that kill infected neurons near the wound",
+        "It gives instant neutralizing antibody that fades in weeks to months",
+        "It neutralizes virus that has already entered the peripheral nerve",
+        "It acts as an adjuvant that speeds her immune response to the vaccine"
+      ],
+      "correct": 2,
+      "explanation": "Rabies immune globulin is **passive immunization**: preformed antibodies neutralize virus at the wound **at once**, covering the 1 to 2 weeks before the vaccine makes her own antibodies. Because the antibodies are borrowed, they are catabolized over weeks to months and leave **no memory**; lasting protection comes from the **vaccine**, which is injected at a different site so the immune globulin does not neutralize it. The tempting answer is that the antibody clears virus already in the nerve, but antibodies cannot reach virus traveling inside axons, which is why post-exposure prophylaxis should start as soon as possible after the bite.",
+      "explanation_pt": "A imunoglobulina antirrábica é **imunização passiva**: anticorpos pré-formados neutralizam o vírus na ferida **imediatamente** e cobrem as 1 a 2 semanas até a vacina induzir os anticorpos da própria paciente. Como são anticorpos emprestados, são degradados ao longo de semanas a meses e **não geram memória**; a proteção duradoura vem da **vacina**, aplicada em outro local para que a imunoglobulina não a neutralize. A alternativa tentadora é que o anticorpo elimine o vírus que já está no nervo, mas os anticorpos não alcançam o vírus que trafega dentro dos axônios; por isso, a profilaxia pós-exposição deve começar o mais cedo possível após a mordedura."
+    },
+    {
+      "slug": "q-immunopharmacology-vaccines-qx-rotavirus-intussusception",
+      "track": "step1",
+      "system": "immunology",
+      "discipline": "pharmacology",
+      "tags": [
+        "immunopharmacology-vaccines",
+        "vaccine-types",
+        "adverse-effects"
+      ],
+      "stem": "A 9-week-old girl is brought to the emergency department because of episodes of inconsolable crying every 15 to 20 minutes, during which she pulls her legs up to her abdomen. Between episodes she is quiet and pale. She has vomited twice, and her last stool contained blood and mucus and looked like red jelly. A sausage-shaped mass is felt in the right upper abdomen, and ultrasound shows a target-like lesion. Six days ago she received her first routine vaccines, including two given by mouth. Which vaccine is most likely linked to her condition?",
+      "choices": [
+        "Live attenuated rotavirus vaccine",
+        "Live attenuated oral polio vaccine",
+        "Haemophilus influenzae type b conjugate vaccine",
+        "Pneumococcal conjugate vaccine",
+        "Diphtheria and tetanus toxoids with acellular pertussis vaccine"
+      ],
+      "correct": 0,
+      "explanation": "Colicky pain, **currant jelly stool**, a sausage-shaped mass and a target sign on ultrasound indicate **intussusception**. The oral **rotavirus vaccine** is a live attenuated virus that replicates in the small bowel and carries a small risk of intussusception, mostly in the first week after the **first dose**. The tempting answer is the **oral polio vaccine**, which is also live and given by mouth, but its rare serious complication is vaccine-associated **paralytic polio**, not intussusception. The conjugate and toxoid vaccines are not linked to it.",
+      "explanation_pt": "Dor em cólica, **fezes em geleia de groselha**, massa em forma de salsicha e o sinal do alvo na ultrassonografia indicam **intussuscepção** (invaginação intestinal). A **vacina oral contra rotavírus** é um vírus vivo atenuado que se replica no intestino delgado e traz pequeno risco de intussuscepção, sobretudo na primeira semana após a **primeira dose**. A alternativa tentadora é a **vacina oral contra poliomielite**, também viva e por via oral, mas sua complicação grave e rara é a **poliomielite paralítica** associada à vacina, e não a intussuscepção. As vacinas conjugadas e de toxoide não estão associadas a esse quadro."
+    },
+    {
+      "slug": "q-immunopharmacology-vaccines-qx-aldesleukin-capillary-leak",
+      "track": "step1",
+      "system": "immunology",
+      "discipline": "pharmacology",
+      "tags": [
+        "immunopharmacology-vaccines",
+        "biologics",
+        "cytokines",
+        "adverse-effects"
+      ],
+      "stem": "A 49-year-old man with metastatic renal cell carcinoma is admitted to the intensive care unit for high-dose treatment with a recombinant human protein, given as an intravenous bolus every 8 hours. On day 1 his weight is 82 kg, blood pressure 124/76 mm Hg, pulse 88/min, serum creatinine 1.0 mg/dL and albumin 4.1 g/dL. On day 4 his weight is 89 kg, blood pressure 84/52 mm Hg, pulse 118/min, creatinine 2.2 mg/dL and albumin 3.0 g/dL, and urine output is very low. He has pitting edema of both legs and crackles at both lung bases. Which drug is he most likely receiving?",
+      "choices": [
+        "Interferon-α",
+        "Aldesleukin",
+        "Ipilimumab",
+        "Interferon-γ",
+        "Pembrolizumab"
+      ],
+      "correct": 1,
+      "explanation": "**Aldesleukin** is recombinant **IL-2**, used at high dose for metastatic **renal cell carcinoma** and melanoma. Its hallmark toxicity is **capillary leak syndrome**: fluid and albumin move out of the vessels, causing weight gain, edema, pulmonary congestion, **hypotension** and **prerenal kidney injury**, as in this patient (7 kg gained, albumin down by 1.1 g/dL). The tempting answer is **interferon-α**, another cytokine used in these cancers, but its typical problems are a flu-like illness, depression and cytopenias. Ipilimumab and pembrolizumab are checkpoint antibodies given every few weeks whose toxicities are immune-mediated organ inflammation.",
+      "explanation_pt": "A **aldesleucina** é a **IL-2** recombinante, usada em altas doses no **carcinoma de células renais** e no melanoma metastáticos. Sua toxicidade característica é a **síndrome do extravasamento capilar**: líquido e albumina saem dos vasos e causam ganho de peso, edema, congestão pulmonar, **hipotensão** e **lesão renal pré-renal**, como neste paciente (ganho de 7 kg e queda de 1,1 g/dL na albumina). A alternativa tentadora é a **alfainterferona**, outra citocina usada nesses cânceres, mas seus problemas típicos são quadro gripal, depressão e citopenias. Ipilimumabe e pembrolizumabe são anticorpos inibidores de checkpoint, aplicados a cada poucas semanas, cujas toxicidades são inflamações imunomediadas de órgãos."
+    }
+  ],
+  "notes": []
+}

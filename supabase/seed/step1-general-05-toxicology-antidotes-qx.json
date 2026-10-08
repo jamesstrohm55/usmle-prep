@@ -1,0 +1,181 @@
+{
+  "cards": [],
+  "questions": [
+    {
+      "slug": "q-toxicology-antidotes-qx-nac-glutathione",
+      "track": "step1",
+      "system": "general-principles",
+      "discipline": "pharmacology",
+      "tags": [
+        "toxicology-antidotes",
+        "acetaminophen",
+        "antidotes"
+      ],
+      "stem": "A 19-year-old woman is brought to the emergency department 8 hours after she swallowed a large number of acetaminophen tablets following an argument with her partner. She has nausea but no other symptoms. Pulse is 96/min and blood pressure is 118/74 mm Hg. Laboratory studies show: serum acetaminophen level well above the treatment line on the nomogram, AST 42 U/L, ALT 38 U/L, INR 1.1, and glucose 92 mg/dL. Intravenous N-acetylcysteine is started. Which action of this drug best explains how it prevents liver injury?",
+      "choices": [
+        "It inhibits CYP2E1, so less acetaminophen is oxidized to a toxic product",
+        "It increases glucuronidation of acetaminophen by liver enzymes",
+        "It restores glutathione, which binds the toxic metabolite NAPQI",
+        "It binds acetaminophen in the plasma so the kidneys can excrete it",
+        "It blocks the uptake of acetaminophen into hepatocytes"
+      ],
+      "correct": 2,
+      "explanation": "In overdose, **glucuronidation** and **sulfation** become saturated, so more acetaminophen is oxidized by CYP2E1 to **NAPQI**. NAPQI is harmless while **glutathione** binds it, but once glutathione runs out it injures zone 3 hepatocytes. **N-acetylcysteine** supplies cysteine to rebuild glutathione, which is why it works best before transaminases rise; her normal AST, ALT and INR fit the early, quiet phase. It does not inhibit CYP2E1, so the CYP2E1 choice describes a different strategy, not how this antidote works.",
+      "explanation_pt": "Na superdosagem, a **glicuronidação** e a **sulfatação** ficam saturadas, e mais paracetamol é oxidado pela CYP2E1 a **NAPQI**. O NAPQI é inofensivo enquanto a **glutationa** se liga a ele, mas quando a glutationa se esgota ele lesa os hepatócitos da zona 3. A **N-acetilcisteína** fornece cisteína para refazer a glutationa, por isso funciona melhor antes de as transaminases subirem; AST, ALT e INR normais combinam com a fase inicial e silenciosa. Ela não inibe a CYP2E1, então essa opção descreve outra estratégia, não o mecanismo deste antídoto."
+    },
+    {
+      "slug": "q-toxicology-antidotes-qx-pralidoxime-aging",
+      "track": "step1",
+      "system": "general-principles",
+      "discipline": "pharmacology",
+      "tags": [
+        "toxicology-antidotes",
+        "organophosphates",
+        "antidotes"
+      ],
+      "stem": "A 55-year-old man drank an organophosphate insecticide in a suicide attempt. At a small rural clinic he received only atropine and oxygen. He is transferred to a city hospital 3 days later. He is on a ventilator because his breathing muscles are weak. His pupils are 2 mm and his pulse is 92/min. Red blood cell acetylcholinesterase activity is very low. Pralidoxime is started, but after several hours the enzyme activity and his muscle strength do not improve. Which mechanism best explains why pralidoxime failed?",
+      "choices": [
+        "Pralidoxime cannot reach the neuromuscular junction",
+        "Acetylcholine receptors on skeletal muscle have been permanently desensitized",
+        "The insecticide has already been fully cleared from the body",
+        "Atropine given earlier blocks the action of pralidoxime",
+        "The bound enzyme has lost an alkyl group and can no longer be freed"
+      ],
+      "correct": 4,
+      "explanation": "Organophosphates attach a phosphate group to **acetylcholinesterase**, and **pralidoxime** works by pulling that group off the enzyme. Over hours to days the bound phosphate loses an alkyl group, a process called **aging**, and the enzyme is then permanently inactive, so the body must make new enzyme. This is why pralidoxime must be given early and why it failed after 3 days of delay. Clearance of the insecticide is tempting, but his enzyme activity is still very low, and atropine acts on muscarinic receptors without blocking pralidoxime.",
+      "explanation_pt": "Os organofosforados ligam um grupo fosfato à **acetilcolinesterase**, e a **pralidoxima** age retirando esse grupo da enzima. Em horas a dias, o fosfato ligado perde um grupo alquila, processo chamado **envelhecimento** (*aging*), e a enzima fica permanentemente inativa, de modo que o corpo precisa produzir enzima nova. Por isso a pralidoxima deve ser dada cedo, e falhou após 3 dias de atraso. A eliminação do inseticida é tentadora, mas a atividade da enzima continua muito baixa, e a atropina age nos receptores muscarínicos sem bloquear a pralidoxima."
+    },
+    {
+      "slug": "q-toxicology-antidotes-qx-cyanide-hydroxocobalamin",
+      "track": "step1",
+      "system": "general-principles",
+      "discipline": "pharmacology",
+      "tags": [
+        "toxicology-antidotes",
+        "cyanide",
+        "antidotes"
+      ],
+      "stem": "A 34-year-old man is pulled from a burning apartment where furniture and plastics were on fire. He is confused and then has a seizure. Pulse is 124/min, blood pressure is 84/50 mm Hg, and respirations are 30/min. There is soot in his nose. On 100% oxygen by mask, results are: arterial pH 7.23, PaCO2 22 mm Hg, PaO2 210 mm Hg, HCO3- 9 mEq/L, lactate 14 mmol/L (normal less than 2), carboxyhemoglobin 9%, and central venous O2 saturation 90% (normal about 70%). He is given intravenous hydroxocobalamin. How does this drug work?",
+      "choices": [
+        "It oxidizes hemoglobin to methemoglobin, which draws cyanide away from the cells",
+        "It binds cyanide directly, forming a compound that the kidneys excrete",
+        "It donates sulfur so that rhodanese can convert cyanide to thiocyanate",
+        "It reduces the ferric iron of cytochrome oxidase back to the ferrous form",
+        "It speeds the release of carbon monoxide from hemoglobin in the lungs"
+      ],
+      "correct": 1,
+      "explanation": "Burning plastics release **cyanide**, which blocks **cytochrome c oxidase**; cells cannot use O2, so venous blood stays highly saturated and **lactate** rises sharply. A carboxyhemoglobin of 9% is too low to explain this degree of lactic acidosis. The cobalt in **hydroxocobalamin** binds cyanide to form **cyanocobalamin**, which is excreted in the urine. Nitrites (the methemoglobin choice) also treat cyanide, but they further cut O2 delivery in a fire victim who already has carboxyhemoglobin, and thiosulfate (the rhodanese choice) is a different antidote with a different mechanism.",
+      "explanation_pt": "A queima de plásticos libera **cianeto**, que bloqueia a **citocromo c oxidase**; as células não conseguem usar O2, o sangue venoso fica muito saturado e o **lactato** dispara. Uma carboxi-hemoglobina de 9% é baixa demais para explicar essa acidose láctica. O cobalto da **hidroxocobalamina** se liga ao cianeto e forma **cianocobalamina**, eliminada na urina. Os nitritos (a opção da metemoglobina) também tratam o cianeto, mas reduzem ainda mais a oferta de O2 em uma vítima de incêndio que já tem carboxi-hemoglobina, e o tiossulfato (a opção da rodanase) é outro antídoto, com outro mecanismo."
+    },
+    {
+      "slug": "q-toxicology-antidotes-qx-carbon-monoxide-globus-pallidus",
+      "track": "step1",
+      "system": "general-principles",
+      "discipline": "pharmacology",
+      "tags": [
+        "toxicology-antidotes",
+        "carbon-monoxide"
+      ],
+      "stem": "A 52-year-old woman is found unconscious in her home in winter next to a faulty gas heater. Her carboxyhemoglobin is 38%. She is treated with oxygen and is back to normal 2 days later. Three weeks after the exposure, her family brings her back because she has become apathetic and forgetful, walks with small shuffling steps, and has stiff limbs. Brain MRI shows symmetric lesions on both sides. Which structures are most likely affected?",
+      "choices": [
+        "Caudate nuclei",
+        "Mammillary bodies",
+        "Subthalamic nuclei",
+        "Globus pallidus",
+        "Dentate nuclei of the cerebellum"
+      ],
+      "correct": 3,
+      "explanation": "Weeks after recovery from **carbon monoxide** poisoning, some patients develop **delayed neuropsychiatric sequelae**: apathy, memory loss and parkinsonism. The classic imaging finding is **bilateral globus pallidus** necrosis, a region very sensitive to CO-related hypoxic injury. The caudate nuclei are tempting because they are also basal ganglia, but caudate atrophy is the picture of Huntington disease, with chorea. Mammillary body lesions point to thiamine deficiency, not CO.",
+      "explanation_pt": "Semanas após a recuperação de uma intoxicação por **monóxido de carbono**, alguns pacientes desenvolvem **sequelas neuropsiquiátricas tardias**: apatia, perda de memória e parkinsonismo. O achado de imagem clássico é a necrose **bilateral do globo pálido**, região muito sensível à lesão hipóxica ligada ao CO. Os núcleos caudados são tentadores por também fazerem parte dos núcleos da base, mas a atrofia do caudado é o quadro da doença de Huntington, com coreia. Lesões dos corpos mamilares indicam deficiência de tiamina, não CO."
+    },
+    {
+      "slug": "q-toxicology-antidotes-qx-arsenate-glycolysis",
+      "track": "step1",
+      "system": "general-principles",
+      "discipline": "pharmacology",
+      "tags": [
+        "toxicology-antidotes",
+        "arsenic",
+        "heavy-metals"
+      ],
+      "stem": "A researcher incubates red blood cells with glucose in a buffer in which arsenate replaces inorganic phosphate. Glucose uptake and lactate production continue at a normal rate, but the net ATP yield from glycolysis falls to zero. Which event best explains this result?",
+      "choices": [
+        "An unstable arsenate compound replaces 1,3-bisphosphoglycerate and breaks down on its own",
+        "Arsenate inhibits hexokinase, so glucose cannot be trapped and phosphorylated inside the red cells",
+        "Arsenate binds lipoic acid and blocks the pyruvate dehydrogenase complex",
+        "Arsenate inhibits pyruvate kinase, so phosphoenolpyruvate builds up and cannot become pyruvate",
+        "Arsenate uncouples oxidative phosphorylation by carrying protons across the inner mitochondrial membrane"
+      ],
+      "correct": 0,
+      "explanation": "**Arsenate** looks like phosphate, so glyceraldehyde-3-phosphate dehydrogenase makes **1-arseno-3-phosphoglycerate** instead of 1,3-bisphosphoglycerate. This product breaks down by itself, so the **phosphoglycerate kinase** step is skipped and its 2 ATP are lost; the 2 ATP from pyruvate kinase only replace the 2 ATP spent early, so the net yield is zero. Binding **lipoic acid** is the tempting choice, but that is how trivalent arsenite acts, and red cells have **no mitochondria**. Ongoing glucose use and lactate output rule out a block at hexokinase or pyruvate kinase.",
+      "explanation_pt": "O **arsenato** se parece com o fosfato, então a gliceraldeído-3-fosfato desidrogenase forma **1-arseno-3-fosfoglicerato** em vez de 1,3-bisfosfoglicerato. Esse produto se decompõe sozinho, a etapa da **fosfoglicerato quinase** é pulada e seus 2 ATP são perdidos; os 2 ATP da piruvato quinase apenas repõem os 2 ATP gastos no início, e o saldo é zero. Ligar-se ao **ácido lipoico** é a opção tentadora, mas esse é o mecanismo do arsenito trivalente, e as hemácias **não têm mitocôndrias**. O consumo de glicose e a produção de lactato mantidos excluem bloqueio na hexoquinase ou na piruvato quinase."
+    },
+    {
+      "slug": "q-toxicology-antidotes-qx-methanol-formic-acid",
+      "track": "step1",
+      "system": "general-principles",
+      "discipline": "pharmacology",
+      "tags": [
+        "toxicology-antidotes",
+        "toxic-alcohols",
+        "methanol"
+      ],
+      "stem": "A 48-year-old man with alcohol use disorder is brought to the emergency department 24 hours after he drank windshield washer fluid when he ran out of liquor. He says his vision is blurred, as if he were in a snowstorm. Funduscopy shows swollen, hyperemic optic discs. Laboratory studies show: sodium 140 mEq/L, chloride 100 mEq/L, bicarbonate 8 mEq/L, glucose 90 mg/dL, BUN 14 mg/dL, creatinine 0.9 mg/dL, measured serum osmolality 330 mOsm/kg, and no ethanol in the blood. Urinalysis shows no crystals. Which substance is most directly responsible for his eye findings?",
+      "choices": [
+        "Oxalic acid",
+        "Acetone",
+        "Formic acid",
+        "Glycolic acid",
+        "Acetaldehyde"
+      ],
+      "correct": 2,
+      "explanation": "Windshield washer fluid contains **methanol**. Calculated osmolality is 2(140) + 90/18 + 14/2.8 = 290, so the **osmolar gap** is 40, and the anion gap is 140 - (100 + 8) = 32. Alcohol dehydrogenase and aldehyde dehydrogenase turn methanol into **formic acid**, which poisons mitochondria in the **optic nerve** and retina; fomepizole blocks the first step. Oxalic acid is tempting, but it comes from **ethylene glycol** and causes calcium oxalate crystals and kidney injury, which he does not have, and acetone comes from isopropanol, which causes no acidosis.",
+      "explanation_pt": "O fluido do limpador de para-brisa contém **metanol**. A osmolalidade calculada é 2(140) + 90/18 + 14/2,8 = 290, então o **gap osmolar** é 40, e o ânion gap é 140 - (100 + 8) = 32. A álcool desidrogenase e a aldeído desidrogenase transformam o metanol em **ácido fórmico**, que intoxica as mitocôndrias do **nervo óptico** e da retina; o fomepizol bloqueia a primeira etapa. O ácido oxálico é tentador, mas vem do **etilenoglicol** e causa cristais de oxalato de cálcio e lesão renal, que ele não tem, e a acetona vem do isopropanol, que não causa acidose."
+    },
+    {
+      "slug": "q-toxicology-antidotes-qx-verapamil-hyperglycemia",
+      "track": "step1",
+      "system": "general-principles",
+      "discipline": "pharmacology",
+      "tags": [
+        "toxicology-antidotes",
+        "calcium-channel-blockers",
+        "antidotes"
+      ],
+      "stem": "A 60-year-old woman who takes verapamil for high blood pressure is brought to the emergency department 3 hours after she swallowed all of her pills. She has no history of diabetes, and her hemoglobin A1c is 5.4%. She is drowsy. Pulse is 40/min and blood pressure is 76/42 mm Hg. ECG shows sinus bradycardia with a prolonged PR interval. Serum glucose is 260 mg/dL. Which mechanism best explains her high glucose level?",
+      "choices": [
+        "Blocked L-type calcium channels in beta cells reduce insulin release",
+        "The drug acts as an agonist at beta-2 receptors on liver cells, raising glycogen breakdown",
+        "The drug directly stimulates glucagon release from alpha cells",
+        "The drug blocks insulin receptors on muscle and fat cells",
+        "The drug directly stimulates cortisol release from the adrenal cortex"
+      ],
+      "correct": 0,
+      "explanation": "Pancreatic **beta cells** release insulin only when calcium enters through **L-type calcium channels** after the cell depolarizes. In a **verapamil** overdose these channels are blocked, so insulin release falls and blood glucose rises, often in proportion to how severe the poisoning is. This helps tell calcium channel blocker overdose from **beta-blocker** overdose, which also causes bradycardia and hypotension but usually gives a normal or low glucose. It is also why **high-dose insulin** is used as a treatment for calcium channel blocker poisoning.",
+      "explanation_pt": "As **células beta** do pâncreas só liberam insulina quando o cálcio entra pelos **canais de cálcio tipo L** após a despolarização da célula. Na superdosagem de **verapamil** esses canais ficam bloqueados, a liberação de insulina cai e a glicemia sobe, muitas vezes em proporção à gravidade da intoxicação. Isso ajuda a diferenciar a intoxicação por bloqueador dos canais de cálcio da intoxicação por **betabloqueador**, que também causa bradicardia e hipotensão, mas costuma ter glicemia normal ou baixa. É também por isso que a **insulina em alta dose** é usada no tratamento da intoxicação por bloqueadores dos canais de cálcio."
+    },
+    {
+      "slug": "q-toxicology-antidotes-qx-isoniazid-pyridoxine-seizures",
+      "track": "step1",
+      "system": "general-principles",
+      "discipline": "pharmacology",
+      "tags": [
+        "toxicology-antidotes",
+        "isoniazid",
+        "antidotes"
+      ],
+      "stem": "A 16-year-old girl who takes isoniazid is brought to the emergency department 1 hour after she swallowed her whole supply of the drug. She has repeated generalized seizures that do not stop after two doses of intravenous lorazepam. Laboratory studies show: sodium 138 mEq/L, chloride 102 mEq/L, bicarbonate 12 mEq/L, glucose 104 mg/dL, and lactate 9 mmol/L (normal less than 2). Which mechanism best explains her seizures?",
+      "choices": [
+        "Direct blockade of GABA-A receptor chloride channels by the drug",
+        "Depletion of pyridoxal phosphate, which lowers GABA synthesis",
+        "Inhibition of cytochrome P450, which raises levels of her other drugs",
+        "Direct activation of NMDA glutamate receptors by the drug",
+        "Low serum sodium from inappropriate ADH secretion"
+      ],
+      "correct": 1,
+      "explanation": "**Isoniazid** binds **vitamin B6** (forming hydrazones) and blocks its activation, so **pyridoxal phosphate** falls. **Glutamate decarboxylase**, which makes GABA from glutamate, needs pyridoxal phosphate, so GABA falls and seizures start. Benzodiazepines only boost the effect of GABA at GABA-A receptors, so they fail when little GABA is made; **intravenous pyridoxine** is the antidote. Direct GABA-A blockade is tempting, but the drug lowers GABA itself; the anion gap of 138 - (102 + 12) = 24 comes from lactate made during the seizures, and her sodium is normal.",
+      "explanation_pt": "A **isoniazida** se liga à vitamina B6 (formando hidrazonas) e bloqueia sua ativação, e o **fosfato de piridoxal** cai. A **glutamato descarboxilase**, que produz GABA a partir do glutamato, precisa de fosfato de piridoxal; o GABA cai e surgem convulsões. Os benzodiazepínicos apenas potencializam o efeito do GABA nos receptores GABA-A, por isso falham quando pouco GABA é produzido; a **piridoxina intravenosa** é o antídoto. O bloqueio direto do GABA-A é tentador, mas o fármaco reduz o próprio GABA; o ânion gap de 138 - (102 + 12) = 24 vem do lactato produzido nas convulsões, e o sódio dela é normal."
+    }
+  ],
+  "notes": []
+}

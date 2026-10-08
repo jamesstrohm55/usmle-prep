@@ -1,0 +1,183 @@
+{
+  "cards": [],
+  "questions": [
+    {
+      "slug": "q-innate-immunity-complement-qx-c3-deficiency-assays",
+      "track": "step1",
+      "system": "immunology",
+      "discipline": "pathology",
+      "tags": [
+        "innate-immunity-complement",
+        "complement-deficiency",
+        "complement-assays"
+      ],
+      "stem": "A 6-year-old boy has had four episodes of pneumonia, many ear infections and chronic sinusitis since infancy. Last year he had *Haemophilus influenzae* bacteremia. He has never had meningitis. Laboratory results: serum IgG, IgA and IgM normal; antibody response to tetanus vaccine normal; neutrophil oxidative burst test normal; C4 normal; CH50 (classical pathway activity) undetectable; AH50 (alternative pathway activity) undetectable. A deficiency of which protein is most likely?",
+      "choices": [
+        "C2",
+        "C3",
+        "Factor B",
+        "C6",
+        "Mannose-binding lectin"
+      ],
+      "correct": 1,
+      "explanation": "Both the classical and the alternative pathways need **C3**, so only a C3 (or terminal) defect makes **both CH50 and AH50** undetectable. Without **C3b** opsonization, children get severe recurrent **pyogenic infections** with encapsulated bacteria such as pneumonia, otitis and sinusitis. A **C6** deficiency also makes both assays undetectable, but it presents with recurrent *Neisseria* infection, not pneumonia and ear infections. C2 deficiency lowers only CH50, and factor B deficiency lowers only AH50.",
+      "explanation_pt": "As vias clássica e alternativa dependem do **C3**, por isso apenas um defeito de C3 (ou do complemento terminal) torna **CH50 e AH50** indetectáveis. Sem a opsonização pelo **C3b**, as crianças têm **infecções piogênicas** graves e recorrentes por bactérias encapsuladas, como pneumonia, otite e sinusite. A deficiência de **C6** também torna os dois ensaios indetectáveis, mas se manifesta com infecções recorrentes por *Neisseria*, e não com pneumonias e otites. A deficiência de C2 reduz apenas o CH50, e a de fator B reduz apenas o AH50."
+    },
+    {
+      "slug": "q-innate-immunity-complement-qx-c1q-lupus-mechanism",
+      "track": "step1",
+      "system": "immunology",
+      "discipline": "pathology",
+      "tags": [
+        "innate-immunity-complement",
+        "complement-deficiency",
+        "lupus"
+      ],
+      "stem": "A 15-year-old girl has a photosensitive facial rash, painful swelling of both wrists and oral ulcers. Her symptoms began at age 9. Her older brother had similar symptoms and kidney disease in childhood. Antinuclear antibodies are positive. CH50 is undetectable, serum C3 and C4 are normal, and C1q cannot be detected in her serum. Which mechanism best explains why this complement defect leads to her disease?",
+      "choices": [
+        "Failure to lyse autoreactive B cells with the membrane attack complex",
+        "Uncontrolled C1 activity that generates excess bradykinin",
+        "Absence of decay-accelerating factor on host cells",
+        "Loss of anaphylatoxin signals that recruit regulatory T cells",
+        "Poor clearance of immune complexes and apoptotic cells"
+      ],
+      "correct": 4,
+      "explanation": "**C1q** and the early classical pathway coat **apoptotic cells** and **immune complexes** so phagocytes can remove them. When C1q is missing, nuclear debris persists and acts as autoantigen, and immune complexes deposit in tissues, which causes **lupus-like disease** at a young age. A failure of the **membrane attack complex** (C5-C9 deficiency) causes recurrent *Neisseria* infection, not autoimmunity. Excess bradykinin from uncontrolled C1 activity describes C1 inhibitor deficiency (hereditary angioedema).",
+      "explanation_pt": "O **C1q** e a via clássica inicial recobrem **células apoptóticas** e **imunocomplexos** para que os fagócitos os removam. Sem C1q, os restos nucleares persistem e funcionam como autoantígenos, e os imunocomplexos se depositam nos tecidos, causando **doença semelhante ao lúpus** em idade precoce. A falha do **complexo de ataque à membrana** (deficiência de C5-C9) causa infecções recorrentes por *Neisseria*, e não autoimunidade. O excesso de bradicinina por atividade descontrolada do C1 descreve a deficiência do inibidor de C1 (angioedema hereditário)."
+    },
+    {
+      "slug": "q-innate-immunity-complement-qx-gout-inflammasome-caspase",
+      "track": "step1",
+      "system": "immunology",
+      "discipline": "pathology",
+      "tags": [
+        "innate-immunity-complement",
+        "pattern-recognition",
+        "inflammasome",
+        "cytokines"
+      ],
+      "stem": "A 58-year-old man wakes up with severe pain, redness and swelling of the right first metatarsophalangeal joint. Joint fluid shows many neutrophils and needle-shaped, negatively birefringent crystals. Synovial macrophages take up the crystals. This activates a cytoplasmic protein complex, and the cells then release large amounts of an active cytokine that recruits neutrophils and causes fever. Which enzyme converts the inactive precursor into this active cytokine?",
+      "choices": [
+        "Caspase-3",
+        "Cyclooxygenase-2",
+        "Caspase-1",
+        "Xanthine oxidase",
+        "Myeloperoxidase"
+      ],
+      "correct": 2,
+      "explanation": "Urate crystals activate the **NLRP3 inflammasome**, which turns on **caspase-1**. Caspase-1 cleaves **pro-IL-1β** into active **IL-1β**, the main driver of the gouty attack, and can trigger inflammatory cell death (**pyroptosis**). **Caspase-3** is an executioner caspase of **apoptosis**, a quiet form of cell death that does not release IL-1β. Xanthine oxidase makes uric acid but does not activate cytokines.",
+      "explanation_pt": "Os cristais de urato ativam o **inflamassoma NLRP3**, que ativa a **caspase-1**. A caspase-1 cliva a **pró-IL-1β** em **IL-1β** ativa, a principal causa da crise gotosa, e pode desencadear morte celular inflamatória (**piroptose**). A **caspase-3** é uma caspase executora da **apoptose**, uma morte celular silenciosa que não libera IL-1β. A xantina oxidase produz ácido úrico, mas não ativa citocinas."
+    },
+    {
+      "slug": "q-innate-immunity-complement-qx-interferon-antiviral-state",
+      "track": "step1",
+      "system": "immunology",
+      "discipline": "pathology",
+      "tags": [
+        "innate-immunity-complement",
+        "interferons",
+        "antiviral"
+      ],
+      "stem": "A researcher infects a culture of human airway epithelial cells with influenza virus. After 24 hours, she removes the culture medium and filters it so that it contains no cells and no virus. She adds this medium to a new culture that contains only epithelial cells. The new cells now resist infection by several unrelated viruses. The protection is lost if the medium is first mixed with an antibody that blocks the receptor for interferon-α and interferon-β. Which mechanism most directly protects the treated cells?",
+      "choices": [
+        "Protein kinase R blocking viral protein translation",
+        "Neutralizing antibodies that block viral attachment",
+        "Increased MHC class II expression on epithelial cells",
+        "Membrane attack complex formation on the viral envelope",
+        "Perforin release by activated NK cells"
+      ],
+      "correct": 0,
+      "explanation": "Infected cells release **type I interferons**, which signal neighboring cells to enter an **antiviral state**. These cells make **protein kinase R**, which phosphorylates eIF2α and stops translation once viral double-stranded RNA appears, and **RNase L**, which degrades RNA; the effect is not specific to one virus. **NK cells** are also activated by type I interferons, but this culture contains only epithelial cells, so no killer cells are present. Neutralizing antibodies would be specific to one virus and need B cells.",
+      "explanation_pt": "As células infectadas liberam **interferons do tipo I**, que induzem as células vizinhas a entrar em **estado antiviral**. Essas células produzem a **proteína quinase R**, que fosforila o eIF2α e interrompe a tradução quando surge RNA viral de fita dupla, e a **RNase L**, que degrada o RNA; o efeito não é específico para um único vírus. As **células NK** também são ativadas pelos interferons do tipo I, mas essa cultura contém apenas células epiteliais, então não há células citotóxicas. Anticorpos neutralizantes seriam específicos para um único vírus e dependeriam de linfócitos B."
+    },
+    {
+      "slug": "q-innate-immunity-complement-qx-negative-acute-phase-albumin",
+      "track": "step1",
+      "system": "immunology",
+      "discipline": "pathology",
+      "tags": [
+        "innate-immunity-complement",
+        "acute-phase-reactants",
+        "cytokines"
+      ],
+      "stem": "A 72-year-old woman has had stiffness and aching of both shoulders and hips for 2 months, worse in the morning. She has lost 3 kg. She eats regular meals with meat and dairy every day. Laboratory results: ESR 92 mm/h; C-reactive protein 64 mg/L (normal < 5); ferritin high; albumin 2.9 g/dL (normal 3.5-5.5); AST, ALT and bilirubin normal; INR 1.0; urinalysis negative for protein. Stool studies are normal. Which mechanism best explains her low serum albumin?",
+      "choices": [
+        "Loss of albumin through damaged glomeruli",
+        "Low dietary protein intake",
+        "Loss of functioning hepatocyte mass from cirrhosis",
+        "Cytokine-driven fall in hepatic albumin synthesis",
+        "Protein loss through the intestinal mucosa"
+      ],
+      "correct": 3,
+      "explanation": "In chronic inflammation, **IL-6** makes hepatocytes increase **positive acute-phase proteins** (CRP, ferritin, fibrinogen, which raises the ESR) and decrease **negative acute-phase proteins** such as **albumin** and transferrin. Liver failure is the most tempting answer, but her normal **INR** and bilirubin show that the liver's synthetic function is intact. A urinalysis without protein, normal stool studies and a normal diet argue against renal loss, gut loss and malnutrition.",
+      "explanation_pt": "Na inflamação crônica, a **IL-6** faz os hepatócitos aumentarem os **reagentes de fase aguda positivos** (PCR, ferritina e fibrinogênio, que eleva a VHS) e reduzirem os **reagentes de fase aguda negativos**, como **albumina** e transferrina. Insuficiência hepática é a resposta mais tentadora, mas o **INR** e a bilirrubina normais mostram que a função de síntese do fígado está preservada. Urina sem proteína, exames de fezes normais e dieta adequada falam contra perda renal, perda intestinal e desnutrição."
+    },
+    {
+      "slug": "q-innate-immunity-complement-qx-nod2-crohn-ligand",
+      "track": "step1",
+      "system": "immunology",
+      "discipline": "pathology",
+      "tags": [
+        "innate-immunity-complement",
+        "pattern-recognition",
+        "nod2"
+      ],
+      "stem": "A 19-year-old man has had crampy abdominal pain, diarrhea and weight loss for 6 months. He has a perianal fistula. Colonoscopy shows patchy ulcers in the terminal ileum and colon with normal mucosa between them. Biopsies show noncaseating granulomas. Genetic testing finds a variant in *NOD2* that reduces the function of its protein. In healthy intestinal cells, this protein senses which microbial molecule?",
+      "choices": [
+        "Muramyl dipeptide from bacterial peptidoglycan",
+        "Lipopolysaccharide from gram-negative outer membranes",
+        "Unmethylated CpG motifs in bacterial DNA",
+        "Double-stranded viral RNA",
+        "Flagellin from motile bacteria"
+      ],
+      "correct": 0,
+      "explanation": "This is **Crohn disease**. **NOD2** is a **cytoplasmic** pattern-recognition receptor that detects **muramyl dipeptide**, a fragment of bacterial **peptidoglycan**. Weak NOD2 signaling impairs epithelial defense and the handling of gut bacteria, which favors chronic granulomatous inflammation. **Lipopolysaccharide** is the most tempting choice, but it is sensed by **TLR4** on the cell surface, not by NOD2; CpG DNA is sensed by TLR9, double-stranded RNA by TLR3 and flagellin by TLR5.",
+      "explanation_pt": "Trata-se de **doença de Crohn**. O **NOD2** é um receptor de reconhecimento de padrões **citoplasmático** que detecta o **muramil dipeptídeo**, um fragmento do **peptidoglicano** bacteriano. A sinalização fraca do NOD2 prejudica a defesa epitelial e o controle das bactérias intestinais, o que favorece inflamação granulomatosa crônica. O **lipopolissacarídeo** é a opção mais tentadora, mas é reconhecido pelo **TLR4** na superfície celular, e não pelo NOD2; o DNA CpG é reconhecido pelo TLR9, o RNA de fita dupla pelo TLR3 e a flagelina pelo TLR5."
+    },
+    {
+      "slug": "q-innate-immunity-complement-qx-nk-adcc-cd16",
+      "track": "step1",
+      "system": "immunology",
+      "discipline": "pathology",
+      "tags": [
+        "innate-immunity-complement",
+        "nk-cells",
+        "adcc"
+      ],
+      "stem": "A 66-year-old man with a B-cell lymphoma is treated with an IgG1 monoclonal antibody against CD20. In the laboratory, his lymphoma cells are coated with the antibody and mixed with his own blood lymphocytes. The serum in the mixture was heated first to inactivate complement. The coated tumor cells are killed by large granular lymphocytes that are CD3-negative and CD56-positive. The killing does not require MHC molecules. Which molecule on these killer cells binds the therapeutic antibody?",
+      "choices": [
+        "CD56 (neural cell adhesion molecule)",
+        "Killer-cell immunoglobulin-like receptor (KIR)",
+        "CD16 (FcγRIII)",
+        "CD3-T-cell receptor complex",
+        "CD21 (complement receptor 2)"
+      ],
+      "correct": 2,
+      "explanation": "The killer cells are **NK cells**, and the process is **antibody-dependent cell-mediated cytotoxicity (ADCC)**. NK cells bind the **Fc portion of IgG** through **CD16 (FcγRIII)** and then release perforin and granzymes into the coated cell. **CD56** is a useful marker of NK cells, but it is an adhesion molecule and does not bind antibody. **KIRs** recognize self MHC class I and send inhibitory signals, and CD21 binds complement fragments, which were inactivated here.",
+      "explanation_pt": "As células citotóxicas são **células NK**, e o processo é a **citotoxicidade celular dependente de anticorpos (ADCC)**. As células NK se ligam à **porção Fc da IgG** pelo **CD16 (FcγRIII)** e então liberam perforina e granzimas na célula recoberta. O **CD56** é um marcador útil de células NK, mas é uma molécula de adesão e não se liga a anticorpos. Os **KIRs** reconhecem o MHC de classe I próprio e enviam sinais inibitórios, e o CD21 se liga a fragmentos do complemento, que foram inativados aqui."
+    },
+    {
+      "slug": "q-innate-immunity-complement-qx-factor-h-ahus",
+      "track": "step1",
+      "system": "immunology",
+      "discipline": "pathology",
+      "tags": [
+        "innate-immunity-complement",
+        "complement-regulation",
+        "atypical-hus"
+      ],
+      "stem": "A 4-year-old boy has become pale and tired over 3 days, and he is passing little urine. He has had no diarrhea. His father had kidney failure of unknown cause as a young adult. Laboratory results: hemoglobin 7.8 g/dL; platelets 45,000/mm³; schistocytes on the blood smear; LDH high; haptoglobin low; creatinine 2.1 mg/dL; direct Coombs test negative; stool negative for Shiga toxin; ADAMTS13 activity normal; C3 low; C4 normal. A loss-of-function variant in the gene for which protein is most likely?",
+      "choices": [
+        "ADAMTS13",
+        "Factor H",
+        "CD59 (protectin)",
+        "C1 inhibitor",
+        "Glucose-6-phosphate dehydrogenase"
+      ],
+      "correct": 1,
+      "explanation": "Hemolysis with schistocytes, low platelets and kidney injury without diarrhea, plus a **low C3 with normal C4**, suggest **atypical hemolytic uremic syndrome**. **Factor H** normally stops the **alternative pathway** C3 convertase on host cells; without it, complement attacks the glomerular **endothelium** and forms microthrombi. **ADAMTS13** deficiency causes thrombotic thrombocytopenic purpura, but his ADAMTS13 activity is normal. CD59 loss causes paroxysmal nocturnal hemoglobinuria, a hemolysis without schistocytes or the glomerular microthrombi of a thrombotic microangiopathy.",
+      "explanation_pt": "Hemólise com esquizócitos, plaquetopenia e lesão renal sem diarreia, junto com **C3 baixo e C4 normal**, sugerem **síndrome hemolítico-urêmica atípica**. O **fator H** normalmente interrompe a C3 convertase da **via alternativa** nas células do hospedeiro; sem ele, o complemento ataca o **endotélio** glomerular e forma microtrombos. A deficiência de **ADAMTS13** causa púrpura trombocitopênica trombótica, mas a atividade de ADAMTS13 dele é normal. A perda de CD59 causa hemoglobinúria paroxística noturna, uma hemólise sem esquizócitos e sem os microtrombos glomerulares de uma microangiopatia trombótica."
+    }
+  ],
+  "notes": []
+}

@@ -1,0 +1,179 @@
+{
+  "cards": [],
+  "questions": [
+    {
+      "slug": "q-hemodynamics-shock-qx-fat-embolism",
+      "track": "step1",
+      "system": "general-principles",
+      "discipline": "pathology",
+      "tags": [
+        "hemodynamics-shock",
+        "embolism"
+      ],
+      "stem": "A 23-year-old man is admitted after a motorcycle crash with closed fractures of the left femur and tibia. The leg is splinted, and surgery is planned. Thirty-six hours later he becomes confused and short of breath. Temperature is 38.3°C (100.9°F), pulse is 124/min, respirations are 30/min, and oxygen saturation is 85% on room air. Small red-brown spots that do not blanch are seen in both axillae and on the conjunctivae. His platelet count has fallen from 240,000/mm3 to 110,000/mm3, and a chest x-ray shows patchy opacities in both lungs. He dies 2 days later despite intensive care. Which finding in small vessels of the lungs and brain is most likely at autopsy?",
+      "choices": [
+        "Layered thrombi of platelets, fibrin and red cells",
+        "Needle-shaped empty clefts inside small arteries",
+        "Squamous cells and mucin inside small arteries",
+        "Droplets that take up oil red O in capillaries",
+        "Fibrinoid necrosis of the walls of small arterioles"
+      ],
+      "correct": 3,
+      "explanation": "Breathing trouble, confusion and **petechiae** 1 to 3 days after a **long-bone fracture** define **fat embolism syndrome**. Globules of **marrow fat** block small vessels of the lungs and brain, and the free fatty acids released from them injure the endothelium; routine processing dissolves fat, so it is shown with **oil red O** (or osmium) on frozen sections. Immobilization also makes **venous thromboemboli** tempting, but a leg clot lodges in the pulmonary arteries and would not explain the brain signs or the petechial rash. Needle-shaped clefts are cholesterol emboli, and squamous cells with mucin are amniotic fluid emboli.",
+      "explanation_pt": "Desconforto respiratório, confusão e **petéquias** 1 a 3 dias após uma **fratura de osso longo** definem a **síndrome da embolia gordurosa**. Glóbulos de **gordura da medula óssea** obstruem pequenos vasos dos pulmões e do cérebro, e os ácidos graxos livres liberados por eles lesam o endotélio; o processamento de rotina dissolve a gordura, por isso ela é demonstrada com **oil red O** (ou ósmio) em cortes congelados. A imobilização torna tentador o **tromboembolismo venoso**, mas um coágulo da perna se aloja nas artérias pulmonares e não explicaria os sinais neurológicos nem as petéquias. Fendas em forma de agulha indicam êmbolos de colesterol, e células escamosas com muco indicam embolia de líquido amniótico."
+    },
+    {
+      "slug": "q-hemodynamics-shock-qx-antemortem-thrombus",
+      "track": "step1",
+      "system": "general-principles",
+      "discipline": "pathology",
+      "tags": [
+        "hemodynamics-shock",
+        "thrombosis",
+        "embolism"
+      ],
+      "stem": "A 68-year-old woman dies suddenly on the fifth day after a hip replacement. At autopsy, a long, coiled, dark red mass lies in the main pulmonary artery and extends into both of its branches. The pathologist needs to decide whether this mass formed in the living patient and traveled to the lungs or is a clot that formed in the vessel after death. Which finding best shows that the mass formed before death?",
+      "choices": [
+        "A yellow upper layer lying over a dark red lower layer",
+        "Pale gray layers alternating with dark red layers",
+        "A soft, moist and gelatinous consistency",
+        "A smooth surface that forms a cast of the vessel branches",
+        "No attachment of the mass to the arterial wall"
+      ],
+      "correct": 1,
+      "explanation": "Alternating pale layers of **platelets and fibrin** and dark layers of **red cells** are **lines of Zahn**; they form only in **flowing blood**, so they prove the thrombus formed before death (here in a leg vein, then embolized). A yellow 'chicken fat' layer over dark red 'currant jelly' forms when red cells settle by gravity in still blood after death, and a soft, gelatinous cast of the vessel is also typical of a **postmortem clot**. Lack of attachment to the pulmonary artery wall does not help, because an **embolus** is also free in the lumen; it was attached only where it formed.",
+      "explanation_pt": "Camadas claras de **plaquetas e fibrina** alternadas com camadas escuras de **hemácias** são as **linhas de Zahn**; elas só se formam em **sangue em movimento**, por isso provam que o trombo se formou antes da morte (aqui numa veia da perna, depois embolizado). Uma camada amarela em 'gordura de galinha' sobre um vermelho escuro em 'geleia de groselha' surge quando as hemácias sedimentam por gravidade no sangue parado após a morte, e um molde mole e gelatinoso do vaso também é típico do **coágulo post mortem**. A falta de aderência à parede da artéria pulmonar não ajuda, porque um **êmbolo** também fica solto na luz; ele só estava aderido onde se formou."
+    },
+    {
+      "slug": "q-hemodynamics-shock-qx-lung-red-infarct",
+      "track": "step1",
+      "system": "general-principles",
+      "discipline": "pathology",
+      "tags": [
+        "hemodynamics-shock",
+        "infarction",
+        "embolism"
+      ],
+      "stem": "A 59-year-old man with pancreatic cancer has sudden right-sided chest pain that is worse when he breathes in, and he coughs up blood-streaked sputum. CT angiography shows a filling defect in a segmental branch of the right lower lobe pulmonary artery and a wedge-shaped opacity whose base lies on the pleura. Two days later he dies from a larger embolus. At autopsy, the wedge-shaped area is firm, dark red and filled with blood. Which feature best explains why this infarct is red rather than pale?",
+      "choices": [
+        "Blockage of the pulmonary veins that drain the segment",
+        "Arterial supply that ends without any collateral flow",
+        "Liquefactive necrosis of the alveolar walls",
+        "Breakdown of the red cells trapped inside the embolus",
+        "Inflow from bronchial arteries into the dead tissue"
+      ],
+      "correct": 4,
+      "explanation": "The lung has a **dual blood supply**. When a pulmonary artery branch is blocked, the **bronchial arteries** (systemic) keep pushing blood into the loose, necrotic tissue, so the infarct is **hemorrhagic (red)**. Venous blockage is another cause of red infarcts (for example testicular torsion), but an embolus blocks an artery, not the pulmonary veins. **End-arterial** supply without collaterals produces **pale** infarcts in solid organs such as the kidney, spleen and heart, and liquefactive necrosis is typical of the brain.",
+      "explanation_pt": "O pulmão tem **dupla irrigação**. Quando um ramo da artéria pulmonar é obstruído, as **artérias brônquicas** (sistêmicas) continuam levando sangue para o tecido frouxo e necrótico, e o infarto fica **hemorrágico (vermelho)**. A obstrução venosa é outra causa de infarto vermelho (por exemplo, na torção testicular), mas um êmbolo obstrui uma artéria, não as veias pulmonares. A irrigação **terminal**, sem colaterais, gera infartos **brancos (anêmicos)** em órgãos sólidos como rim, baço e coração, e a necrose liquefativa é típica do cérebro."
+    },
+    {
+      "slug": "q-hemodynamics-shock-qx-neurogenic-mechanism",
+      "track": "step1",
+      "system": "general-principles",
+      "discipline": "pathology",
+      "tags": [
+        "hemodynamics-shock",
+        "shock"
+      ],
+      "stem": "A 19-year-old man dives into the shallow end of a pool and cannot move his arms or legs afterward. In the emergency department, blood pressure is 76/40 mm Hg and pulse is 46/min. The skin of his arms and legs is warm, dry and pink. Chest and abdominal CT show no bleeding, and ultrasound shows no fluid in the abdomen or around the heart. Hemoglobin is 14.6 g/dL. CT of the neck shows a fracture of C5 with compression of the spinal cord. Which mechanism best explains his blood pressure and heart rate?",
+      "choices": [
+        "Blood loss into the tissues around the spinal fracture",
+        "Bilateral adrenal hemorrhage with loss of cortisol",
+        "Loss of sympathetic outflow with unopposed vagal input",
+        "Mast cell release of histamine that dilates small arterioles",
+        "Compression of the heart by fluid in the pericardium"
+      ],
+      "correct": 2,
+      "explanation": "A **cervical cord injury** cuts the descending pathways to the thoracolumbar **sympathetic** neurons. Arterioles and veins dilate (**low SVR**, warm pink skin, pooling of venous blood), and the heart, still under **vagal** control, slows down: this is **neurogenic shock**. Bleeding is the most tempting choice in trauma, but **hypovolemic shock** produces **tachycardia** with cold, clammy skin, and his imaging shows no source of bleeding. Adrenal crisis, anaphylaxis and tamponade also cause hypotension with a fast heart rate.",
+      "explanation_pt": "Uma **lesão medular cervical** interrompe as vias descendentes para os neurônios **simpáticos** toracolombares. Arteríolas e veias se dilatam (**RVS baixa**, pele quente e rosada, acúmulo de sangue no leito venoso), e o coração, ainda sob controle **vagal**, desacelera: é o **choque neurogênico**. O sangramento é a opção mais tentadora no trauma, mas o **choque hipovolêmico** causa **taquicardia** com pele fria e úmida, e os exames de imagem não mostram foco de sangramento. Crise adrenal, anafilaxia e tamponamento também causam hipotensão, mas com frequência cardíaca alta."
+    },
+    {
+      "slug": "q-hemodynamics-shock-qx-lactic-acidosis",
+      "track": "step1",
+      "system": "general-principles",
+      "discipline": "pathology",
+      "tags": [
+        "hemodynamics-shock",
+        "shock",
+        "acid-base"
+      ],
+      "stem": "A 66-year-old man is brought to the emergency department 3 hours after the start of crushing chest pain. He is pale, cold and sweaty. Blood pressure is 74/50 mm Hg, pulse is 118/min, and he has passed very little urine. The ECG shows ST elevation in leads V1 to V5. Laboratory results: sodium 138 mEq/L, chloride 101 mEq/L, bicarbonate 13 mEq/L, glucose 156 mg/dL, creatinine 1.3 mg/dL, serum ketones negative, and lactate 8.4 mmol/L (normal below 2). Arterial blood gas shows pH 7.29 and PaCO2 28 mm Hg. Which process is the main source of his acid-base disturbance?",
+      "choices": [
+        "Anaerobic glycolysis, with pyruvate converted to lactate",
+        "Oxidation of fatty acids to ketone bodies in the liver",
+        "Loss of bicarbonate in the urine from tubular injury",
+        "Retention of carbon dioxide from poor ventilation",
+        "Retention of acid because glomerular filtration has fallen"
+      ],
+      "correct": 0,
+      "explanation": "This is **cardiogenic shock** from an anterior STEMI. The anion gap is 138 − (101 + 13) = **24**, a high anion gap metabolic acidosis, and the PaCO2 of 28 fits the expected respiratory compensation (1.5 × 13 + 8 = 27.5 ± 2). Poorly perfused tissues lack oxygen for oxidative phosphorylation, so cells rely on **anaerobic glycolysis** and **lactate dehydrogenase** converts pyruvate to **lactate** to regenerate NAD+, which marks the **progressive stage** of shock. Low urine output and a creatinine of 1.3 mg/dL are tempting, but acid retention from kidney failure needs a much larger fall in filtration and cannot account for a lactate of 8.4; ketones are negative, and a low PaCO2 rules out CO2 retention.",
+      "explanation_pt": "Trata-se de **choque cardiogênico** por IAM com supra de ST anterior. O ânion gap é 138 − (101 + 13) = **24**, uma acidose metabólica com ânion gap elevado, e a PaCO2 de 28 corresponde à compensação respiratória esperada (1,5 × 13 + 8 = 27,5 ± 2). Tecidos mal perfundidos não têm oxigênio para a fosforilação oxidativa, então as células dependem da **glicólise anaeróbia** e a **lactato desidrogenase** converte piruvato em **lactato** para regenerar NAD+, o que marca o **estágio progressivo** do choque. A diurese baixa e a creatinina de 1,3 mg/dL são tentadoras, mas a retenção de ácido por insuficiência renal exige uma queda muito maior da filtração e não explica um lactato de 8,4; as cetonas são negativas, e a PaCO2 baixa exclui retenção de CO2."
+    },
+    {
+      "slug": "q-hemodynamics-shock-qx-dic-tissue-factor",
+      "track": "step1",
+      "system": "general-principles",
+      "discipline": "pathology",
+      "tags": [
+        "hemodynamics-shock",
+        "dic",
+        "sepsis"
+      ],
+      "stem": "A 71-year-old man has emergency surgery for a perforated sigmoid colon with stool spilled into the abdomen. Afterward he is treated in the intensive care unit for septic shock, and blood cultures grow Escherichia coli. Twelve hours after surgery, blood oozes from the wound edges and needle sites, and blood appears in his urinary catheter. Laboratory results: platelet count 51,000/mm3 (230,000/mm3 before surgery); prothrombin time 22 seconds (normal 11-13.5); aPTT 57 seconds (normal 25-35); fibrinogen 90 mg/dL (normal 200-400); D-dimer markedly increased. A blood smear shows a few schistocytes. Which event most directly started his clotting disorder?",
+      "choices": [
+        "Autoantibodies against a protease that cleaves von Willebrand factor",
+        "IgG antibodies against heparin bound to platelet factor 4",
+        "Failure of the liver to make enough clotting factors",
+        "Tissue factor expressed by activated monocytes and endothelium",
+        "Lack of vitamin K-dependent carboxylation of clotting factors"
+      ],
+      "correct": 3,
+      "explanation": "Low platelets, long PT and aPTT, low **fibrinogen** and high **D-dimer** in sepsis mean **disseminated intravascular coagulation**. Endotoxin and cytokines such as TNF and IL-1 make monocytes and endothelial cells express **tissue factor**, which starts the extrinsic pathway throughout the circulation; clotting factors and platelets are **consumed**, and the fibrin that forms is broken down into D-dimer. **Liver failure** from shock is tempting because it also lengthens the PT, but it would not explain a sudden fall in platelets with a very high D-dimer. TTP (anti-ADAMTS13 antibodies) and HIT leave the PT and fibrinogen normal.",
+      "explanation_pt": "Plaquetas baixas, TP e TTPa prolongados, **fibrinogênio** baixo e **D-dímero** alto na sepse indicam **coagulação intravascular disseminada (CIVD)**. A endotoxina e citocinas como TNF e IL-1 fazem monócitos e células endoteliais expressarem **fator tecidual**, que dispara a via extrínseca em toda a circulação; fatores de coagulação e plaquetas são **consumidos**, e a fibrina formada é degradada em D-dímero. A **insuficiência hepática** pelo choque é tentadora porque também prolonga o TP, mas não explicaria a queda súbita das plaquetas com D-dímero muito alto. A PTT (anticorpos anti-ADAMTS13) e a TIH mantêm TP e fibrinogênio normais."
+    },
+    {
+      "slug": "q-hemodynamics-shock-qx-acute-hemorrhage-hematocrit",
+      "track": "step1",
+      "system": "general-principles",
+      "discipline": "pathology",
+      "tags": [
+        "hemodynamics-shock",
+        "shock",
+        "hemodynamics"
+      ],
+      "stem": "A 31-year-old man is brought to the emergency department 30 minutes after a stab wound to the thigh; witnesses say he bled heavily at the scene. He has not yet received intravenous fluids. Blood pressure is 92/60 mm Hg, pulse is 128/min, and respirations are 24/min. His skin is cool and pale. Hemoglobin is 14.1 g/dL and hematocrit is 42%; at a checkup last year they were 14.8 g/dL and 44%. Which best explains why his hematocrit is nearly normal?",
+      "choices": [
+        "Whole blood was lost, and fluid has not yet moved in to dilute it",
+        "Contraction of the spleen that released a large store of red cells",
+        "Erythropoietin from the kidney has already raised red cell output",
+        "Fluid moved out of the vessels into the injured tissues",
+        "Aldosterone has already restored the plasma volume"
+      ],
+      "correct": 0,
+      "explanation": "In acute hemorrhage, red cells and plasma are lost **together, in the same proportion**, so the **hematocrit stays near normal** at first even when blood volume is clearly low; the tachycardia, low blood pressure and cool skin show the loss. Over hours, fluid moves from the interstitium into the capillaries (and IV fluids are given), which **dilutes** the remaining red cells and makes the hematocrit fall. A rise in **erythropoietin** is tempting, but new red cells need several days to appear (reticulocytosis peaks after about a week). Fluid leaving the vessels would concentrate the blood rather than explain the loss, the human spleen holds too few red cells to matter, and restored plasma volume would lower, not preserve, the hematocrit.",
+      "explanation_pt": "Na hemorragia aguda, hemácias e plasma são perdidos **juntos, na mesma proporção**, então o **hematócrito permanece quase normal** no início, mesmo com volemia claramente baixa; a taquicardia, a pressão baixa e a pele fria mostram a perda. Ao longo de horas, líquido passa do interstício para os capilares (e se infundem soluções intravenosas), o que **dilui** as hemácias restantes e faz o hematócrito cair. O aumento da **eritropoetina** é tentador, mas novas hemácias levam vários dias para aparecer (a reticulocitose tem pico após cerca de uma semana). A saída de líquido dos vasos concentraria o sangue em vez de explicar a perda, o baço humano armazena poucas hemácias para fazer diferença, e um volume plasmático restaurado reduziria, e não preservaria, o hematócrito."
+    },
+    {
+      "slug": "q-hemodynamics-shock-qx-lymphedema-mechanism",
+      "track": "step1",
+      "system": "general-principles",
+      "discipline": "pathology",
+      "tags": [
+        "hemodynamics-shock",
+        "edema"
+      ],
+      "stem": "A 58-year-old woman had a right mastectomy with removal of the axillary lymph nodes, followed by radiotherapy to the axilla, for breast cancer 1 year ago. Over the past 8 months her right arm has slowly become swollen and heavy. The skin of the forearm is thick and firm, and firm pressure leaves almost no pit. There is no redness, warmth or fever, and the skin of the breast and chest wall looks normal. Duplex ultrasound shows normal flow in the axillary and subclavian veins. Serum albumin is 4.1 g/dL. Which mechanism best explains the swelling?",
+      "choices": [
+        "Higher capillary hydrostatic pressure from venous obstruction",
+        "Lower plasma oncotic pressure from protein loss",
+        "Poor drainage of filtered fluid and protein from the tissue",
+        "Higher capillary permeability from active inflammation",
+        "Arteriolar dilation that raises capillary pressure"
+      ],
+      "correct": 2,
+      "explanation": "Removing axillary nodes and irradiating the axilla damages the **lymphatic drainage** of the arm. Lymphatics normally return the fluid and the small amount of **protein** that leaks out of capillaries, so when they fail, **protein-rich** fluid builds up; over months it causes fibrosis and thick skin, and the edema becomes **non-pitting**: this is **lymphedema**. **Axillary or subclavian vein thrombosis** is the most tempting alternative after this treatment, but the duplex scan is normal and venous edema pits easily. Her normal albumin rules out low oncotic pressure, and the absence of redness and warmth argues against inflammation.",
+      "explanation_pt": "A retirada dos linfonodos axilares e a radioterapia da axila lesam a **drenagem linfática** do braço. Os linfáticos normalmente devolvem o líquido e a pequena quantidade de **proteína** que extravasa dos capilares; quando falham, acumula-se líquido **rico em proteínas**, que ao longo de meses causa fibrose e espessamento da pele, e o edema deixa de formar cacifo: é o **linfedema**. A **trombose da veia axilar ou subclávia** é a alternativa mais tentadora após esse tratamento, mas o Doppler é normal e o edema venoso forma cacifo com facilidade. A albumina normal exclui pressão oncótica baixa, e a ausência de vermelhidão e calor afasta inflamação."
+    }
+  ],
+  "notes": []
+}

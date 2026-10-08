@@ -1,0 +1,183 @@
+{
+  "cards": [],
+  "questions": [
+    {
+      "slug": "q-hypersensitivity-transplant-qx-acute-cellular-rejection-kidney",
+      "track": "step1",
+      "system": "immunology",
+      "discipline": "pathology",
+      "tags": [
+        "hypersensitivity-transplant",
+        "transplant",
+        "rejection"
+      ],
+      "stem": "A 39-year-old woman received a kidney from a deceased donor 7 weeks ago. The donor was ABO compatible, and the crossmatch was negative. She takes tacrolimus, mycophenolate and prednisone. For 4 days she has passed less urine than usual, and the graft is mildly tender. Her serum creatinine was 1.1 mg/dL at 1 week, 1.2 mg/dL at 5 weeks and is 2.4 mg/dL today. Her tacrolimus blood level is within the target range. Ultrasound shows normal blood flow and no hydronephrosis. A biopsy shows many lymphocytes in the interstitium, and lymphocytes invade the walls of the tubules. Which mechanism best explains the graft injury?",
+      "choices": [
+        "Preformed recipient antibodies against donor ABO antigens",
+        "Donor lymphocytes in the kidney attacking recipient tissue",
+        "Recipient T cells recognizing donor MHC molecules",
+        "Afferent arteriole constriction caused by tacrolimus",
+        "Immune complexes from a recurrent glomerulonephritis"
+      ],
+      "correct": 2,
+      "explanation": "A rise in creatinine **weeks** after transplant, with lymphocytes in the interstitium that invade tubules (**tubulitis**), is **acute cellular rejection**: recipient **T cells** react against donor **MHC**. Tacrolimus toxicity is tempting because it also raises creatinine, but the drug level is in range, and toxicity does not produce a dense lymphocytic tubulitis. Preformed antibodies act within minutes (hyperacute rejection), and donor lymphocytes attacking the host describe graft-versus-host disease.",
+      "explanation_pt": "Uma elevação da creatinina **semanas** após o transplante, com linfócitos no interstício que invadem os túbulos (**tubulite**), é **rejeição celular aguda**: os **linfócitos T** do receptor reagem contra o **MHC** do doador. A toxicidade do tacrolimo é tentadora porque também eleva a creatinina, mas o nível do fármaco está na faixa-alvo, e a toxicidade não produz tubulite linfocitária densa. Anticorpos pré-formados agem em minutos (rejeição hiperaguda), e linfócitos do doador atacando o hospedeiro descrevem a doença do enxerto contra o hospedeiro."
+    },
+    {
+      "slug": "q-hypersensitivity-transplant-qx-cardiac-allograft-vasculopathy",
+      "track": "step1",
+      "system": "immunology",
+      "discipline": "pathology",
+      "tags": [
+        "hypersensitivity-transplant",
+        "transplant",
+        "rejection",
+        "chronic-rejection"
+      ],
+      "stem": "A 54-year-old man had a heart transplant 6 years ago. He now has 3 months of fatigue and shortness of breath when he climbs stairs. He has never had chest pain. Echocardiography shows that his ejection fraction has fallen since last year. Coronary angiography shows diffuse narrowing along the whole length of the epicardial arteries and their small branches, with no single focal plaque. Which finding is most likely on histology of these coronary arteries?",
+      "choices": [
+        "Eccentric plaque with a lipid core and a thin fibrous cap",
+        "Granulomas with giant cells in the inner part of the media",
+        "Fibrinoid necrosis of the vessel wall with many neutrophils",
+        "Layers of smooth muscle forming an onion-skin pattern in arterioles",
+        "Concentric intimal thickening by smooth muscle cells and matrix"
+      ],
+      "correct": 4,
+      "explanation": "Diffuse, concentric narrowing of graft coronary arteries **years** after transplant is **cardiac allograft vasculopathy**, the form of **chronic rejection** in the heart. Immune injury to donor endothelium drives smooth muscle cells to fill the **intima** along the whole artery. Ordinary atherosclerosis is the tempting answer, but it makes focal, **eccentric** lipid plaques. The patient has no angina because the transplanted heart is **denervated**, so ischemia often shows up as heart failure instead.",
+      "explanation_pt": "Estreitamento difuso e concêntrico das coronárias do enxerto **anos** após o transplante é **vasculopatia do enxerto cardíaco**, a forma de **rejeição crônica** no coração. A lesão imune do endotélio do doador faz com que células musculares lisas preencham a **íntima** ao longo de toda a artéria. A aterosclerose comum é a resposta tentadora, mas ela forma placas lipídicas focais e **excêntricas**. O paciente não tem angina porque o coração transplantado é **desnervado**, e por isso a isquemia costuma se manifestar como insuficiência cardíaca."
+    },
+    {
+      "slug": "q-hypersensitivity-transplant-qx-gvhd-stem-cell-t-cells",
+      "track": "step1",
+      "system": "immunology",
+      "discipline": "pathology",
+      "tags": [
+        "hypersensitivity-transplant",
+        "transplant",
+        "gvhd"
+      ],
+      "stem": "A 31-year-old man with acute myeloid leukemia receives an allogeneic hematopoietic stem cell transplant from an HLA-matched unrelated donor. His blood counts recover. On day 24 he has an itchy red rash that started on his palms, soles and ears, watery diarrhea 6 times a day and yellow eyes. Labs: total bilirubin 4.8 mg/dL (normal 0.3-1.2), ALT 85 U/L (normal under 40), alkaline phosphatase 410 U/L (normal 40-130) and white cells 4,200/mm3. A skin biopsy shows dying keratinocytes in the basal layer next to lymphocytes. Removing which cells from the graft before infusion would have most reduced the risk of this complication?",
+      "choices": [
+        "Mature donor T lymphocytes",
+        "Donor CD34+ stem cells",
+        "Donor B lymphocytes",
+        "Donor natural killer cells",
+        "Donor red blood cells"
+      ],
+      "correct": 0,
+      "explanation": "Skin rash starting on palms and soles, diarrhea and cholestatic liver injury after an allogeneic transplant is **acute graft-versus-host disease**: mature **donor T cells** recognize host antigens as foreign (minor histocompatibility antigens, even when HLA is matched). **T-cell depletion** of the graft lowers this risk, but it also weakens the useful **graft-versus-tumor** effect and raises the risk of graft failure. Removing B cells is tempting because antibodies seem a likely cause, but the attack on skin, gut and liver is driven by T cells. Removing CD34+ cells would remove the cells that rebuild the marrow.",
+      "explanation_pt": "Exantema que começa em palmas e plantas, diarreia e lesão hepática colestática após transplante alogênico caracterizam a **doença do enxerto contra o hospedeiro (DECH) aguda**: **linfócitos T** maduros do doador reconhecem antígenos do hospedeiro como estranhos (antígenos de histocompatibilidade menor, mesmo com HLA compatível). A **depleção de linfócitos T** do enxerto reduz esse risco, mas também enfraquece o efeito útil **enxerto contra tumor** e aumenta o risco de falha do enxerto. Remover linfócitos B é tentador porque anticorpos parecem uma causa provável, mas o ataque à pele, ao intestino e ao fígado é conduzido por linfócitos T. Remover as células CD34+ eliminaria as células que reconstituem a medula."
+    },
+    {
+      "slug": "q-hypersensitivity-transplant-qx-arthus-td-booster",
+      "track": "step1",
+      "system": "immunology",
+      "discipline": "pathology",
+      "tags": [
+        "hypersensitivity-transplant",
+        "type-iii",
+        "arthus"
+      ],
+      "stem": "A 46-year-old man cuts his hand on a rusty fence. In the emergency department he receives a tetanus-diphtheria (Td) booster in his left arm. He forgot to mention that he had received another Td booster 14 months earlier. Eight hours later the injection site is red, swollen, very painful and firm, and the center becomes dark purple. He has no hives, wheezing or fever. A skin biopsy shows small vessel walls with fibrinoid necrosis and many neutrophils, and immunofluorescence shows IgG and C3 in the vessel walls. Which mechanism best explains this reaction?",
+      "choices": [
+        "Cross-linking of IgE on dermal mast cells",
+        "Immune complexes formed locally in vessel walls",
+        "Th1 cells and macrophages responding to the toxoid",
+        "Bacteria introduced into the skin by the needle",
+        "Systemic deposition of circulating immune complexes"
+      ],
+      "correct": 1,
+      "explanation": "This is an **Arthus reaction**, a **local type III** reaction. He already has high levels of IgG against the toxoid, so the injected antigen meets antibody in the skin, and the **complexes** form in small vessel walls, activate **complement** and attract **neutrophils** within hours. A type IV reaction is tempting because it is also local, but it peaks at 48-72 hours with lymphocytes and macrophages, not neutrophils and complement after 8 hours. Serum sickness is also type III, but it is systemic and appears about 1-2 weeks after exposure.",
+      "explanation_pt": "Trata-se de uma **reação de Arthus**, uma reação do **tipo III local**. Ele já tem níveis altos de IgG contra o toxoide, por isso o antígeno injetado encontra anticorpos na pele, e os **imunocomplexos** se formam nas paredes de pequenos vasos, ativam o **complemento** e atraem **neutrófilos** em poucas horas. Uma reação do tipo IV é tentadora porque também é local, mas atinge o pico em 48-72 horas, com linfócitos e macrófagos, e não com neutrófilos e complemento após 8 horas. A doença do soro também é do tipo III, mas é sistêmica e surge cerca de 1-2 semanas após a exposição."
+    },
+    {
+      "slug": "q-hypersensitivity-transplant-qx-corneal-graft-privilege",
+      "track": "step1",
+      "system": "immunology",
+      "discipline": "pathology",
+      "tags": [
+        "hypersensitivity-transplant",
+        "transplant",
+        "immune-privilege"
+      ],
+      "stem": "A 63-year-old woman has a cloudy cornea from a degenerative disease of the corneal endothelium. She receives a corneal transplant from a deceased donor. Donor and recipient are not HLA matched, and she uses only corticosteroid eye drops afterward. Five years later the graft is still clear. Her brother received a kidney transplant and needs lifelong systemic immunosuppressive drugs. Which feature of the normal cornea best explains why her graft was not rejected?",
+      "choices": [
+        "Corneal cells carry no MHC class I molecules",
+        "The recipient thymus deletes T cells that react to donor cells",
+        "Tear IgA neutralizes donor antigens on the graft",
+        "The cornea has no blood vessels or lymphatic vessels",
+        "Corneal grafts are matched for ABO antigens before surgery"
+      ],
+      "correct": 3,
+      "explanation": "The cornea is an **immune-privileged** tissue. Because it has **no blood or lymphatic vessels**, donor antigens reach the recipient's lymph nodes poorly, and the recipient's T cells reach the graft poorly; local suppressive signals in the eye also help. The idea that corneal cells lack MHC class I is tempting, but they do express it, and a cornea that has grown new vessels after inflammation is rejected much more often. Corneal grafts are not routinely ABO matched.",
+      "explanation_pt": "A córnea é um tecido com **privilégio imunológico**. Como ela **não tem vasos sanguíneos nem linfáticos**, os antígenos do doador chegam mal aos linfonodos do receptor, e os linfócitos T do receptor chegam mal ao enxerto; sinais supressores locais no olho também ajudam. A ideia de que as células da córnea não têm MHC de classe I é tentadora, mas elas o expressam, e uma córnea que desenvolveu novos vasos após inflamação é rejeitada com muito mais frequência. Em transplantes de córnea, a compatibilidade ABO não é verificada de rotina."
+    },
+    {
+      "slug": "q-hypersensitivity-transplant-qx-bee-sting-sensitization",
+      "track": "step1",
+      "system": "immunology",
+      "discipline": "pathology",
+      "tags": [
+        "hypersensitivity-transplant",
+        "type-i",
+        "anaphylaxis"
+      ],
+      "stem": "A 9-year-old boy was stung by a bee for the first time last summer. He had only local pain and redness that went away in a day. Today he is stung again. Within 10 minutes he has hives over his body, swollen lips and wheezing. Vital signs: blood pressure 78/44 mm Hg, pulse 136/min, respiratory rate 30/min and oxygen saturation 91% on room air. Which event after the first sting best explains why the second sting caused this reaction?",
+      "choices": [
+        "Venom-specific IgE was made and bound to receptors on mast cells",
+        "Memory Th1 cells were formed that recruit macrophages to the skin",
+        "IgG against venom formed complexes that deposited in small vessels",
+        "Venom-specific IgM coated his red blood cells and fixed complement",
+        "Venom toxins lowered his C1 inhibitor and raised bradykinin levels"
+      ],
+      "correct": 0,
+      "explanation": "This is **anaphylaxis**, a **type I** reaction, and the first sting caused **sensitization**: Th2 cells (IL-4) drove B cells to make venom-specific **IgE**, which bound **FcεRI** on mast cells and basophils. At the second sting, venom **cross-links** this IgE, and the cells release histamine and other mediators within minutes. Memory Th1 cells (type IV) are tempting because they also explain a stronger second response, but they need 48-72 hours. Low C1 inhibitor causes swelling without hives and is not caused by a sting.",
+      "explanation_pt": "Trata-se de **anafilaxia**, uma reação do **tipo I**, e a primeira picada causou **sensibilização**: células Th2 (IL-4) levaram os linfócitos B a produzir **IgE** específica para o veneno, que se ligou ao **FcεRI** de mastócitos e basófilos. Na segunda picada, o veneno faz **ligação cruzada** dessa IgE, e as células liberam histamina e outros mediadores em minutos. Linfócitos Th1 de memória (tipo IV) são tentadores porque também explicam uma segunda resposta mais forte, mas precisam de 48-72 horas. O inibidor de C1 baixo causa edema sem urticária e não é causado por uma picada."
+    },
+    {
+      "slug": "q-hypersensitivity-transplant-qx-noncytotoxic-type-ii",
+      "track": "step1",
+      "system": "immunology",
+      "discipline": "pathology",
+      "tags": [
+        "hypersensitivity-transplant",
+        "type-ii",
+        "autoantibodies"
+      ],
+      "stem": "A 33-year-old woman has 3 months of drooping eyelids and double vision that get worse during the day. Holding her arms up for 1 minute makes them weak. Weakness improves after rest. Her pupils and sensation are normal. Serum antibodies against the acetylcholine receptor are positive. In this disease, the antibodies impair receptor function at the neuromuscular junction, but the muscle cells themselves are not destroyed. Which other disorder belongs to the same subgroup of hypersensitivity reaction?",
+      "choices": [
+        "Goodpasture syndrome",
+        "Graves disease",
+        "Warm autoimmune hemolytic anemia",
+        "Poststreptococcal glomerulonephritis",
+        "Type 1 diabetes mellitus"
+      ],
+      "correct": 1,
+      "explanation": "**Myasthenia gravis** is **type II** hypersensitivity in which the antibody **changes receptor function** instead of killing the cell. **Graves disease** belongs to the same subgroup: IgG **stimulates** the TSH receptor instead of blocking a receptor. Goodpasture syndrome is the tempting choice because it is also type II, but there the antibodies fix complement and attract neutrophils that **destroy** the basement membrane. Poststreptococcal glomerulonephritis is type III, and type 1 diabetes is mainly T-cell mediated (type IV).",
+      "explanation_pt": "A **miastenia gravis** é uma hipersensibilidade do **tipo II** na qual o anticorpo **altera a função do receptor** em vez de matar a célula. A **doença de Graves** pertence ao mesmo subgrupo: a IgG **estimula** o receptor de TSH, em vez de bloquear um receptor. A síndrome de Goodpasture é a escolha tentadora porque também é do tipo II, mas nela os anticorpos fixam complemento e atraem neutrófilos que **destroem** a membrana basal. A glomerulonefrite pós-estreptocócica é do tipo III, e o diabetes tipo 1 é mediado principalmente por linfócitos T (tipo IV)."
+    },
+    {
+      "slug": "q-hypersensitivity-transplant-qx-isograft-identical-twin",
+      "track": "step1",
+      "system": "immunology",
+      "discipline": "pathology",
+      "tags": [
+        "hypersensitivity-transplant",
+        "transplant",
+        "graft-types"
+      ],
+      "stem": "A 29-year-old man has end-stage kidney disease caused by reflux nephropathy that began in childhood. His identical twin brother offers to donate a kidney. DNA testing confirms that they are monozygotic twins. The transplant is done without complications. Which immunologic outcome is most expected for this graft?",
+      "choices": [
+        "Hyperacute rejection unless a crossmatch is done first",
+        "Acute T-cell rejection unless he takes a calcineurin inhibitor",
+        "Graft-versus-host disease from lymphocytes in the donor kidney",
+        "No rejection, because donor and recipient share all HLA antigens",
+        "Chronic rejection caused by differences in minor histocompatibility antigens"
+      ],
+      "correct": 3,
+      "explanation": "A graft from an **identical twin** is an **isograft** (syngeneic). The twins have the same genes, so they share all **HLA** and minor histocompatibility antigens, and there is no foreign antigen to reject; such grafts generally do not need drugs to prevent rejection. Acute T-cell rejection is tempting because nearly all kidney grafts need lifelong immunosuppression, but that applies to **allografts** from genetically different donors. Graft-versus-host disease needs a large load of donor T cells in the graft and host antigens (HLA or minor) that the donor lacks; identical twins differ in neither.",
+      "explanation_pt": "Um enxerto de **gêmeo idêntico** é um **isoenxerto** (singênico). Os gêmeos têm os mesmos genes, por isso compartilham todos os antígenos **HLA** e de histocompatibilidade menor, e não há antígeno estranho a ser rejeitado; esses enxertos em geral não precisam de fármacos para prevenir rejeição. A rejeição aguda por linfócitos T é tentadora porque quase todos os enxertos renais precisam de imunossupressão por toda a vida, mas isso se aplica aos **aloenxertos** de doadores geneticamente diferentes. A doença do enxerto contra o hospedeiro exige grande carga de linfócitos T do doador no enxerto e antígenos do hospedeiro (HLA ou de histocompatibilidade menor) ausentes no doador; gêmeos idênticos não diferem em nenhum deles."
+    }
+  ],
+  "notes": []
+}

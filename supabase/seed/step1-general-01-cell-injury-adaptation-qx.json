@@ -1,0 +1,181 @@
+{
+  "cards": [],
+  "questions": [
+    {
+      "slug": "q-cell-injury-adaptation-qx-ischemic-cell-swelling",
+      "track": "step1",
+      "system": "general-principles",
+      "discipline": "pathology",
+      "tags": [
+        "cell-injury-adaptation",
+        "reversible-injury",
+        "hypoxia"
+      ],
+      "stem": "In an experiment, the renal artery of a rat is clamped for 20 minutes. A biopsy is taken at the end of the clamping, before blood flow returns. Proximal tubule cells are swollen, with pale, clear cytoplasm and small blebs on the surface. The nuclei look normal, and the plasma membranes are continuous. When flow is restored in other animals after the same time, these cells return to normal. Which event is the most direct cause of the swelling?",
+      "choices": [
+        "Influx of calcium that activates membrane phospholipases",
+        "Low ATP that stops the Na+/K+-ATPase pump",
+        "Hydroxyl radicals that oxidize lipids in the plasma membrane",
+        "Caspase activation that cuts proteins of the cytoskeleton",
+        "Release of lysosomal enzymes into the cytoplasm"
+      ],
+      "correct": 1,
+      "explanation": "Without oxygen, oxidative phosphorylation stops and **ATP** falls. The **Na+/K+-ATPase** fails, sodium stays in the cell, and water follows: this is **cellular swelling (hydropic change)**, the earliest sign of **reversible injury**. Free radicals are tempting, but most of them form when oxygen **returns** (reperfusion), and here the biopsy was taken before flow was restored. Calcium-activated phospholipases and lysosomal rupture damage membranes and mark **irreversible** injury, which does not fit intact membranes and full recovery.",
+      "explanation_pt": "Sem oxigênio, a fosforilação oxidativa para e o **ATP** cai. A **Na+/K+-ATPase** falha, o sódio fica dentro da célula e a água o acompanha: é a **tumefação celular (degeneração hidrópica)**, o sinal mais precoce de **lesão reversível**. Os radicais livres são tentadores, mas a maioria se forma quando o oxigênio **retorna** (reperfusão), e aqui a biópsia foi feita antes de o fluxo ser restaurado. As fosfolipases ativadas por cálcio e a ruptura de lisossomos lesam membranas e marcam lesão **irreversível**, o que não combina com membranas íntegras e recuperação completa."
+    },
+    {
+      "slug": "q-cell-injury-adaptation-qx-apoptosis-phosphatidylserine",
+      "track": "step1",
+      "system": "general-principles",
+      "discipline": "pathology",
+      "tags": [
+        "cell-injury-adaptation",
+        "apoptosis"
+      ],
+      "stem": "A 9-year-old boy with acute lymphoblastic leukemia starts induction therapy that includes prednisone. Two days later, a bone marrow sample shows many single lymphoblasts that have shrunk. Their cytoplasm is dense and eosinophilic, and their chromatin is condensed into dark fragments. Their plasma membranes are intact. Macrophages contain fragments of these cells, and there are no neutrophils around them. Which change on the surface of the shrunken cells mainly signals macrophages to engulf them?",
+      "choices": [
+        "Loss of MHC class I molecules",
+        "A coat of IgG antibodies",
+        "More CD47 on the cell membrane",
+        "Phosphatidylserine moved to the outer leaflet",
+        "Insertion of the C5b-9 membrane attack complex"
+      ],
+      "correct": 3,
+      "explanation": "Glucocorticoids trigger **apoptosis** of lymphocytes and lymphoblasts. In apoptosis, **phosphatidylserine** flips from the inner to the **outer leaflet** of the membrane and acts as an \"eat me\" signal, so macrophages remove the cells quickly **without inflammation**. A coat of IgG is tempting because it is a strong opsonin, but there is no antibody-mediated process here, and apoptotic cells are recognized mainly by phosphatidylserine, not by antibodies. CD47 is a \"don't eat me\" signal, so more CD47 would protect cells from engulfment.",
+      "explanation_pt": "Os glicocorticoides desencadeiam **apoptose** de linfócitos e linfoblastos. Na apoptose, a **fosfatidilserina** passa do folheto interno para o **folheto externo** da membrana e funciona como sinal de \"coma-me\" (*eat me*), de modo que os macrófagos removem as células rapidamente **sem inflamação**. O revestimento por IgG é tentador por ser uma opsonina potente, mas aqui não há processo mediado por anticorpos, e as células apoptóticas são reconhecidas principalmente pela fosfatidilserina, não por anticorpos. O CD47 é um sinal de \"não me coma\" (*don't eat me*), então mais CD47 protegeria as células da fagocitose."
+    },
+    {
+      "slug": "q-cell-injury-adaptation-qx-disuse-atrophy-proteasome",
+      "track": "step1",
+      "system": "general-principles",
+      "discipline": "pathology",
+      "tags": [
+        "cell-injury-adaptation",
+        "adaptations",
+        "atrophy"
+      ],
+      "stem": "A 34-year-old man had his right leg in a cast for 8 weeks after a tibial fracture. When the cast is removed, his right calf is 3 cm smaller in circumference than the left. A research biopsy of the calf muscle shows that each fiber has a smaller diameter than before. No fibers are missing, and there is no inflammation, necrosis or fat replacement. Nerve conduction studies are normal. Which process is mainly responsible for the smaller fibers?",
+      "choices": [
+        "Ubiquitin-proteasome breakdown of muscle proteins",
+        "Caspase-mediated apoptosis of whole muscle fibers",
+        "Replacement of the muscle fibers by mature adipose tissue",
+        "Loss of nerve supply to the motor units",
+        "Coagulative necrosis from reduced blood flow"
+      ],
+      "correct": 0,
+      "explanation": "Lack of use causes **disuse atrophy**: each cell becomes **smaller** by breaking down its own proteins. Proteins are tagged with **ubiquitin** and destroyed in the **proteasome**, and **autophagy** removes larger parts of the cell. Apoptosis is tempting, but it would **reduce the number** of fibers, and here no fibers are missing. Normal nerve studies and the absence of necrosis and fat replacement argue against denervation, ischemia and fatty replacement.",
+      "explanation_pt": "A falta de uso causa **atrofia por desuso**: cada célula fica **menor** ao degradar suas próprias proteínas. As proteínas são marcadas com **ubiquitina** e destruídas no **proteassomo**, e a **autofagia** remove partes maiores da célula. A apoptose é tentadora, mas **reduziria o número** de fibras, e aqui não há perda de fibras. A eletroneuromiografia normal e a ausência de necrose e de substituição gordurosa falam contra desnervação, isquemia e substituição adiposa."
+    },
+    {
+      "slug": "q-cell-injury-adaptation-qx-dialysis-amyloid",
+      "track": "step1",
+      "system": "general-principles",
+      "discipline": "pathology",
+      "tags": [
+        "cell-injury-adaptation",
+        "amyloid",
+        "chronic-kidney-disease"
+      ],
+      "stem": "A 62-year-old man has been on hemodialysis for 14 years for end-stage kidney disease. He has numbness of the thumb and index finger at night and pain in both shoulders. Wrist x-rays show small cysts in the carpal bones. Laboratory results: hemoglobin 10.8 g/dL, serum calcium 9.2 mg/dL, serum albumin 3.9 g/dL, no monoclonal protein on serum electrophoresis, and a normal serum free light chain ratio. During carpal tunnel surgery, tissue from the synovium is taken. With Congo red stain it shows apple-green birefringence under polarized light. Which protein most likely forms these deposits?",
+      "choices": [
+        "Immunoglobulin light chain",
+        "Serum amyloid A",
+        "Wild-type transthyretin",
+        "Calcitonin",
+        "β2-microglobulin"
+      ],
+      "correct": 4,
+      "explanation": "**β2-microglobulin** is the light chain of MHC class I molecules and is normally cleared by the kidneys. Standard dialysis removes it poorly, so after many years it builds up and forms **dialysis-related amyloid** in joints, tendons and bone, causing **carpal tunnel syndrome**, shoulder pain and **bone cysts**. Light-chain (AL) amyloid is tempting, but there is no monoclonal protein and the free light chain ratio is normal. Wild-type transthyretin also causes carpal tunnel syndrome, but usually in men over 70, and it does not explain the bone cysts or the link with long-term dialysis.",
+      "explanation_pt": "A **β2-microglobulina** é a cadeia leve das moléculas MHC de classe I e normalmente é eliminada pelos rins. A diálise convencional a remove mal, então após muitos anos ela se acumula e forma o **amiloide associado à diálise** em articulações, tendões e ossos, causando **síndrome do túnel do carpo**, dor nos ombros e **cistos ósseos**. A amiloidose de cadeia leve (AL) é tentadora, mas não há proteína monoclonal e a relação de cadeias leves livres é normal. A transtirretina tipo selvagem também causa síndrome do túnel do carpo, mas geralmente em homens com mais de 70 anos, e não explica os cistos ósseos nem a relação com a diálise de longa duração."
+    },
+    {
+      "slug": "q-cell-injury-adaptation-qx-dystrophic-calcification-granuloma",
+      "track": "step1",
+      "system": "general-principles",
+      "discipline": "pathology",
+      "tags": [
+        "cell-injury-adaptation",
+        "calcification",
+        "necrosis"
+      ],
+      "stem": "A 38-year-old woman moved from the Philippines 10 years ago. She has a chest x-ray before starting a job at a hospital. It shows a small calcified nodule in the lower part of the right lung and a calcified right hilar lymph node. She feels well and has no cough or fever. An interferon-gamma release assay is positive. Laboratory results: serum calcium 9.3 mg/dL (normal 8.5-10.5), phosphate 3.4 mg/dL (normal 2.5-4.5), PTH 38 pg/mL (normal 10-65), and 1,25-dihydroxyvitamin D in the normal range. Which process best explains the calcium deposits in these lesions?",
+      "choices": [
+        "Metastatic calcification of normal lung tissue",
+        "Hypercalcemia from calcitriol made by granuloma macrophages",
+        "Dystrophic calcification of old caseous necrosis",
+        "Bone formation by osteoblasts inside the granuloma",
+        "Psammoma bodies in a papillary lung adenocarcinoma"
+      ],
+      "correct": 2,
+      "explanation": "These are healed lesions of **primary tuberculosis** (a calcified lung focus and hilar node). Calcium salts deposit in **dead tissue**, here old **caseous necrosis**, while serum calcium and phosphate are normal: this is **dystrophic calcification**. Calcitriol made by granuloma macrophages is tempting because it can raise calcium in active granulomatous disease, but her calcium and 1,25-dihydroxyvitamin D are normal. **Metastatic calcification** needs high calcium or phosphate and occurs in normal tissue.",
+      "explanation_pt": "São lesões cicatrizadas de **tuberculose primária** (um foco pulmonar calcificado e um linfonodo hilar). Sais de cálcio se depositam em **tecido morto**, aqui a antiga **necrose caseosa**, com cálcio e fosfato séricos normais: é a **calcificação distrófica**. O calcitriol produzido pelos macrófagos do granuloma é tentador, porque pode elevar o cálcio na doença granulomatosa ativa, mas o cálcio e a 1,25-di-hidroxivitamina D dela estão normais. A **calcificação metastática** exige cálcio ou fosfato elevados e ocorre em tecido normal."
+    },
+    {
+      "slug": "q-cell-injury-adaptation-qx-radiation-hydroxyl-radicals",
+      "track": "step1",
+      "system": "general-principles",
+      "discipline": "pathology",
+      "tags": [
+        "cell-injury-adaptation",
+        "free-radicals",
+        "radiation"
+      ],
+      "stem": "A 57-year-old woman receives external beam radiotherapy with x-rays for cervical cancer. Her oncologist explains that tumor cells with a good oxygen supply are killed more easily than hypoxic tumor cells in the center of a large mass. Most of the DNA damage that kills the tumor cells comes from which mechanism?",
+      "choices": [
+        "Direct heating that denatures nuclear proteins",
+        "Superoxide made by NADPH oxidase in neutrophils",
+        "Hydroxyl radicals formed when radiation splits water",
+        "Pyrimidine dimers like those made by ultraviolet light",
+        "Alkylation that crosslinks the two DNA strands"
+      ],
+      "correct": 2,
+      "explanation": "Cells are mostly water, and x-rays split water molecules (**radiolysis**) into **hydroxyl radicals**, which then break DNA strands; this **indirect** effect causes most of the damage. Oxygen makes the damage permanent, so **hypoxic** tumor cells resist radiation. Pyrimidine dimers are tempting because they are also radiation damage, but they come from **ultraviolet light**, not x-rays. NADPH oxidase in neutrophils makes superoxide to kill microbes and is not the main source of injury in radiotherapy.",
+      "explanation_pt": "As células são compostas principalmente de água, e os raios X quebram as moléculas de água (**radiólise**) em **radicais hidroxila**, que então rompem as fitas de DNA; esse efeito **indireto** causa a maior parte do dano. O oxigênio torna o dano permanente, por isso células tumorais **hipóxicas** resistem à radioterapia. Os dímeros de pirimidina são tentadores por também serem dano por radiação, mas vêm da **luz ultravioleta**, não dos raios X. A NADPH oxidase dos neutrófilos produz superóxido para matar micróbios e não é a principal fonte de lesão na radioterapia."
+    },
+    {
+      "slug": "q-cell-injury-adaptation-qx-brown-atrophy-lipofuscin",
+      "track": "step1",
+      "system": "general-principles",
+      "discipline": "pathology",
+      "tags": [
+        "cell-injury-adaptation",
+        "pigments",
+        "aging"
+      ],
+      "stem": "An 89-year-old woman dies of pneumonia. At autopsy, her heart is small and dark brown. On microscopy, the myocytes are small. Many contain fine yellow-brown granules collected at both ends of the nucleus. A Prussian blue stain of the granules is negative. Electron microscopy shows that the granules lie inside membrane-bound bodies that come from lysosomes. Which substance forms these granules?",
+      "choices": [
+        "Hemosiderin",
+        "Lipofuscin",
+        "Melanin",
+        "Bilirubin",
+        "Anthracotic carbon"
+      ],
+      "correct": 1,
+      "explanation": "**Lipofuscin** is a \"wear-and-tear\" pigment made of **peroxidized lipids** and proteins from old membranes. It stays inside lysosomal residual bodies and collects with **aging** in long-lived cells such as cardiac myocytes, often near the nucleus; a small brown heart is called **brown atrophy**. Hemosiderin is the tempting choice because it is also golden-brown, but it contains iron and stains **blue** with Prussian blue. The granules here are Prussian blue negative.",
+      "explanation_pt": "A **lipofuscina** é um pigmento \"de desgaste\" (*wear-and-tear*) formado por **lipídios peroxidados** e proteínas de membranas antigas. Ela fica dentro de corpos residuais lisossômicos e se acumula com o **envelhecimento** em células de vida longa, como os cardiomiócitos, muitas vezes perto do núcleo; um coração pequeno e marrom é chamado de **atrofia parda**. A hemossiderina é a alternativa tentadora por também ser castanho-dourada, mas contém ferro e cora em **azul** pela coloração de Perls (azul da Prússia). Os grânulos aqui são negativos no azul da Prússia."
+    },
+    {
+      "slug": "q-cell-injury-adaptation-qx-wet-gangrene",
+      "track": "step1",
+      "system": "general-principles",
+      "discipline": "pathology",
+      "tags": [
+        "cell-injury-adaptation",
+        "necrosis",
+        "gangrene"
+      ],
+      "stem": "A 68-year-old man with diabetes and severe peripheral artery disease has two black, dry, shrunken toes on his left foot. There is a clear line between dead and living tissue, and there is no pus. Two weeks later, the foot becomes swollen, red and moist. The dead tissue is soft, with pus and a foul smell. His temperature is 38.6°C (101.5°F). There is no crepitus, and an x-ray shows no gas in the soft tissue. Which change in the dead tissue best explains the new findings?",
+      "choices": [
+        "Caseous necrosis from a granulomatous infection",
+        "Fibrinoid necrosis of small artery walls",
+        "Enzymatic fat necrosis of the subcutaneous fat",
+        "Liquefaction by bacterial and neutrophil enzymes",
+        "Gas production by Clostridium perfringens in the tissue"
+      ],
+      "correct": 3,
+      "explanation": "The first picture is **dry gangrene**: ischemic **coagulative necrosis** of a limb. When bacteria infect the dead tissue, enzymes from the bacteria and from neutrophils digest it, adding **liquefactive necrosis**: this is **wet gangrene**, which is soft, moist and foul-smelling. **Gas gangrene** from *Clostridium perfringens* is tempting, but it causes crepitus and gas in the tissue, which are absent here. Caseous and fibrinoid necrosis do not fit an infected ischemic foot.",
+      "explanation_pt": "O quadro inicial é de **gangrena seca**: **necrose de coagulação** isquêmica de um membro. Quando bactérias infectam o tecido morto, enzimas das bactérias e dos neutrófilos o digerem, somando **necrose de liquefação**: é a **gangrena úmida**, com tecido amolecido, exsudativo e fétido. A **gangrena gasosa** por *Clostridium perfringens* é tentadora, mas causa crepitação e gás no tecido, ausentes aqui. As necroses caseosa e fibrinoide não combinam com um pé isquêmico infectado."
+    }
+  ],
+  "notes": []
+}

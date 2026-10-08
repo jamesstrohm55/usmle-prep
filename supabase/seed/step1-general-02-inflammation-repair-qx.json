@@ -1,0 +1,150 @@
+{
+  "cards": [],
+  "questions": [
+    {
+      "slug": "q-inflammation-repair-qx-exudate-venule-permeability",
+      "track": "step1",
+      "system": "general-principles",
+      "discipline": "pathology",
+      "tags": ["inflammation-repair", "acute-inflammation", "edema"],
+      "stem": "A 58-year-old man has 5 days of fever, productive cough and right-sided chest pain that is worse when he breathes in. Temperature is 38.8°C (101.8°F). Chest x-ray shows right lower lobe consolidation and a moderate pleural effusion. Thoracentesis yields cloudy yellow fluid. Pleural fluid: protein 4.4 g/dL, LDH 380 U/L, many neutrophils, negative Gram stain. Serum: protein 7.0 g/dL, LDH 210 U/L. Which mechanism best explains the formation of this pleural fluid?",
+      "choices": [
+        "Higher hydrostatic pressure in pleural capillaries",
+        "Lower plasma oncotic pressure from reduced albumin synthesis",
+        "Blocked lymphatic drainage of the parietal pleura",
+        "Wider gaps between endothelial cells of postcapillary venules",
+        "More negative pleural pressure from a collapsed lower lung lobe"
+      ],
+      "correct": 3,
+      "explanation": "The fluid-to-serum protein ratio (4.4/7.0 ≈ 0.63) and LDH ratio (380/210 ≈ 1.8) are both high, so this is an **exudate**. Next to the pneumonia, histamine, bradykinin, leukotrienes and cytokines make endothelial cells of **postcapillary venules** contract and separate, so protein and neutrophils leak out. Higher hydrostatic pressure (heart failure) and low oncotic pressure push fluid across intact vessels and give a **transudate**, poor in protein and LDH. Lymphatic blockade, usually from tumor, does not explain a neutrophil-rich effusion beside an acute pneumonia.",
+      "explanation_pt": "As razões proteína líquido/soro (4,4/7,0 ≈ 0,63) e LDH líquido/soro (380/210 ≈ 1,8) estão ambas altas, então trata-se de um **exsudato**. Adjacente à pneumonia, histamina, bradicinina, leucotrienos e citocinas fazem as células endoteliais das **vênulas pós-capilares** se contraírem e se afastarem, e proteínas e neutrófilos extravasam. O aumento da pressão hidrostática (insuficiência cardíaca) e a baixa pressão oncótica empurram líquido através de vasos íntegros e geram um **transudato**, pobre em proteína e LDH. A obstrução linfática, em geral por tumor, não explica um derrame rico em neutrófilos ao lado de uma pneumonia aguda."
+    },
+    {
+      "slug": "q-inflammation-repair-qx-peritoneal-adhesions-organization",
+      "track": "step1",
+      "system": "general-principles",
+      "discipline": "pathology",
+      "tags": ["inflammation-repair", "outcomes", "fibrosis"],
+      "stem": "A 47-year-old woman had a perforated appendix 3 years ago, with pus and fibrin coating many loops of bowel. She was treated with surgery and antibiotics and recovered. Now she has 1 day of crampy abdominal pain, vomiting and a distended abdomen. She has no hernia. At surgery, thick fibrous bands join several loops of small bowel to each other and to the abdominal wall, and one band kinks the ileum. Which process best explains how these bands formed?",
+      "choices": [
+        "Organization of fibrin-rich exudate by granulation tissue",
+        "Fibrinolysis and macrophage clearance of the whole exudate",
+        "A collection of pus walled off by a fibrous capsule",
+        "An abnormal epithelium-lined tract between two loops",
+        "Deposition of calcium salts in areas of fat necrosis"
+      ],
+      "correct": 0,
+      "explanation": "When a fibrin-rich exudate is too large to be cleared, new capillaries and fibroblasts grow into it (**organization**) and turn it into fibrous tissue. In the peritoneum this produces **adhesions**, a common cause of small bowel obstruction after surgery or peritonitis. Clearance of the exudate by fibrinolysis and macrophages is **resolution**, which leaves normal tissue and no bands. An abscess is a walled-off pocket of pus and a fistula is a tract between epithelial surfaces; neither ties bowel loops together with fibrous bands.",
+      "explanation_pt": "Quando um exsudato rico em fibrina é grande demais para ser removido, novos capilares e fibroblastos crescem para dentro dele (**organização**) e o transformam em tecido fibroso. No peritônio isso produz **aderências**, causa comum de obstrução do intestino delgado após cirurgia ou peritonite. A remoção do exsudato por fibrinólise e macrófagos é a **resolução**, que deixa tecido normal e nenhuma brida. Um abscesso é uma coleção de pus delimitada e uma fístula é um trajeto entre superfícies epiteliais; nenhum dos dois une alças intestinais por bridas fibrosas."
+    },
+    {
+      "slug": "q-inflammation-repair-qx-foreign-body-granuloma",
+      "track": "step1",
+      "system": "general-principles",
+      "discipline": "pathology",
+      "tags": ["inflammation-repair", "chronic-inflammation", "granuloma"],
+      "stem": "A 33-year-old man has 1 year of slowly worsening shortness of breath on exertion. For several years he has crushed oral opioid tablets, dissolved them in water and injected them into his veins. He works as a cook. He has no fever or weight loss. Chest CT shows many tiny nodules in both lungs and no enlarged hilar lymph nodes. Lung biopsy shows noncaseating granulomas around small arteries and in the interstitium. Their multinucleated giant cells contain needle-shaped crystals that shine brightly under polarized light. Acid-fast and fungal stains are negative. What is the most likely cause of the granulomas?",
+      "choices": [
+        "Mycobacterium tuberculosis",
+        "Histoplasma capsulatum",
+        "Sarcoidosis",
+        "Beryllium",
+        "Talc particles"
+      ],
+      "correct": 4,
+      "explanation": "Oral tablets contain insoluble fillers such as **talc**. When crushed tablets are injected, the particles lodge in small pulmonary vessels and cause **foreign-body granulomas**: macrophages and giant cells surround material they cannot digest, and the particles are **birefringent** under polarized light. Sarcoidosis also forms noncaseating granulomas, but it typically enlarges hilar lymph nodes, follows lymphatic routes and has no source of injected particles. Tuberculosis and histoplasmosis usually form caseating granulomas, and beryllium disease needs occupational exposure to the metal, which he does not have.",
+      "explanation_pt": "Os comprimidos orais contêm excipientes insolúveis, como o **talco**. Quando comprimidos triturados são injetados, as partículas se alojam em pequenos vasos pulmonares e causam **granulomas de corpo estranho**: macrófagos e células gigantes cercam um material que não conseguem digerir, e as partículas são **birrefringentes** à luz polarizada. A sarcoidose também forma granulomas não caseosos, mas costuma aumentar os linfonodos hilares, segue as vias linfáticas e não tem fonte de partículas injetadas. A tuberculose e a histoplasmose costumam formar granulomas caseosos, e a beriliose exige exposição ocupacional ao metal, que ele não tem."
+    },
+    {
+      "slug": "q-inflammation-repair-qx-esr-fibrinogen",
+      "track": "step1",
+      "system": "general-principles",
+      "discipline": "pathology",
+      "tags": ["inflammation-repair", "systemic-effects", "acute-phase-proteins"],
+      "stem": "A 68-year-old man with type 2 diabetes has 4 weeks of worsening low back pain and night sweats. Temperature is 38.2°C (100.8°F). There is tenderness over the L3 vertebra, and MRI shows vertebral osteomyelitis. Labs: hemoglobin 12.1 g/dL, leukocytes 13,200/mm³, erythrocyte sedimentation rate (ESR) 95 mm/h (normal < 20), C-reactive protein 12 mg/dL (normal < 0.8), fibrinogen 640 mg/dL (normal 200-400). Which change best explains why his red cells settle so quickly in the ESR tube?",
+      "choices": [
+        "C-reactive protein coating red cell membranes and adding weight",
+        "Fibrinogen reducing red cell surface charge, allowing rouleaux",
+        "A larger red cell mass that thickens the blood and speeds settling",
+        "Spherocytes formed after complement damages the red cell membranes",
+        "Interleukin-6 binding directly to receptors on the red cells"
+      ],
+      "correct": 1,
+      "explanation": "IL-6 makes the liver produce more **fibrinogen**. Fibrinogen and other large plasma proteins neutralize the negative surface charge that normally keeps red cells apart, so the cells stack into **rouleaux**, which settle faster and raise the **ESR**. **CRP** rises in parallel and is a useful marker of inflammation, but it does not make red cells stack; it also rises and falls faster than the ESR. A larger red cell mass (polycythemia) and spherocytes actually lower the ESR.",
+      "explanation_pt": "A IL-6 faz o fígado produzir mais **fibrinogênio**. O fibrinogênio e outras proteínas plasmáticas grandes neutralizam a carga negativa da superfície que normalmente mantém as hemácias afastadas, e as células se empilham em **rouleaux**, que sedimentam mais rápido e elevam a **VHS** (velocidade de hemossedimentação). A **PCR** sobe em paralelo e é um bom marcador de inflamação, mas não faz as hemácias se empilharem; ela também sobe e cai mais rápido que a VHS. O aumento da massa eritrocitária (policitemia) e os esferócitos, na verdade, reduzem a VHS."
+    },
+    {
+      "slug": "q-inflammation-repair-qx-scar-tensile-strength",
+      "track": "step1",
+      "system": "general-principles",
+      "discipline": "pathology",
+      "tags": ["inflammation-repair", "repair", "collagen"],
+      "stem": "A 39-year-old woman has an uncomplicated midline laparotomy. The wound is closed with sutures, which are removed on day 8. She asks when she can return to heavy lifting. Her surgeon explains that the scar is still weak at this point. Over the next 3 months it becomes much stronger, but it never regains the full strength of unwounded skin. Which process best explains the gain in strength between week 1 and month 3?",
+      "choices": [
+        "Contraction of the wound edges by actin-rich myofibroblasts",
+        "Regrowth of epidermis across the surface of the incision",
+        "Collagen cross-linking with a shift from type III to type I",
+        "Ingrowth of new capillaries into the granulation tissue",
+        "Deposition of a provisional fibrin and fibronectin matrix in the gap"
+      ],
+      "correct": 2,
+      "explanation": "The strength of a scar comes from its collagen. During **remodeling**, collagen fibers are cross-linked by lysyl oxidase and the **type III** collagen of early granulation tissue is replaced by stronger **type I** collagen in organized bundles, so the scar reaches most, but not all, of the strength of normal skin over the following months. Myofibroblast contraction shrinks open wounds that heal by secondary intention, but it does not make a closed incision stronger. The epidermis covers a sutured incision within the first days, and new capillaries and a fibrin matrix belong to the early, weak phases.",
+      "explanation_pt": "A resistência de uma cicatriz vem do seu colágeno. No **remodelamento**, as fibras de colágeno formam ligações cruzadas catalisadas pela lisil oxidase e o colágeno **tipo III** do tecido de granulação inicial é substituído pelo colágeno **tipo I**, mais resistente e organizado em feixes; assim, a cicatriz atinge a maior parte (mas não a totalidade) da resistência da pele normal nos meses seguintes. A contração por miofibroblastos reduz feridas abertas que cicatrizam por segunda intenção, mas não torna mais resistente uma incisão fechada. A epiderme recobre uma incisão suturada nos primeiros dias, e os novos capilares e a matriz de fibrina pertencem às fases iniciais, ainda frágeis."
+    },
+    {
+      "slug": "q-inflammation-repair-qx-glucocorticoid-phospholipase-a2",
+      "track": "step1",
+      "system": "general-principles",
+      "discipline": "pathology",
+      "tags": ["inflammation-repair", "mediators", "arachidonic-acid"],
+      "stem": "A 44-year-old woman with rheumatoid arthritis has a flare with swollen, warm wrists and knuckles despite taking naproxen. She is given a short course of oral prednisone and improves within days. Unlike naproxen, prednisone lowers the production of both prostaglandins and leukotrienes in the inflamed synovium. Inhibition of which step best explains this broader effect?",
+      "choices": [
+        "Conversion of arachidonic acid to prostaglandin H2 by cyclooxygenase-2",
+        "Conversion of arachidonic acid to leukotriene A4 by 5-lipoxygenase",
+        "Conversion of prostaglandin H2 to thromboxane A2 by thromboxane synthase",
+        "Conversion of leukotriene A4 to leukotriene B4 by LTA4 hydrolase",
+        "Release of arachidonic acid from membrane lipids by phospholipase A2"
+      ],
+      "correct": 4,
+      "explanation": "Glucocorticoids induce **annexin A1 (lipocortin-1)**, which inhibits **phospholipase A2**, so less **arachidonic acid** is released from membrane phospholipids. With less substrate, both the **cyclooxygenase** pathway (prostaglandins, thromboxane) and the **lipoxygenase** pathway (leukotrienes) are less active. Glucocorticoids also reduce COX-2 expression, but blocking COX alone, as NSAIDs do, lowers prostaglandins and leaves leukotriene synthesis intact. Blocking 5-lipoxygenase does the reverse.",
+      "explanation_pt": "Os glicocorticoides induzem a **anexina A1 (lipocortina-1)**, que inibe a **fosfolipase A2**, e assim menos **ácido araquidônico** é liberado dos fosfolipídios de membrana. Com menos substrato, tanto a via da **ciclo-oxigenase** (prostaglandinas, tromboxano) quanto a da **lipoxigenase** (leucotrienos) têm sua atividade reduzida. Os glicocorticoides também reduzem a expressão da COX-2, mas bloquear apenas a COX, como fazem os AINEs, reduz as prostaglandinas e preserva a síntese de leucotrienos. Bloquear a 5-lipoxigenase faz o inverso."
+    },
+    {
+      "slug": "q-inflammation-repair-qx-hepatic-stellate-fibrosis",
+      "track": "step1",
+      "system": "general-principles",
+      "discipline": "pathology",
+      "tags": ["inflammation-repair", "fibrosis", "liver"],
+      "stem": "A 54-year-old man has drunk heavily every day for 20 years. He has spider angiomas on his chest and a firm, nodular liver edge. A liver biopsy stained for collagen shows fibrous bands that link portal tracts to central veins and surround nodules of hepatocytes. Collagen is also laid down in the narrow space between the hepatocytes and the sinusoidal endothelium. Which cell type produced most of this collagen?",
+      "choices": [
+        "Kupffer cells",
+        "Hepatic stellate cells",
+        "Hepatocytes",
+        "Cholangiocytes",
+        "Sinusoidal endothelial cells"
+      ],
+      "correct": 1,
+      "explanation": "**Hepatic stellate (Ito) cells** sit in the **space of Disse** and normally store vitamin A. Chronic injury activates them, largely through **TGF-β**, into **myofibroblasts** that lay down type I and type III collagen; they are the main source of fibrosis in cirrhosis. **Kupffer cells** are liver macrophages that release TGF-β and other cytokines that activate stellate cells, but they do not make the collagen themselves. Hepatocytes and cholangiocytes are epithelial cells, and sinusoidal endothelium is not the main collagen source.",
+      "explanation_pt": "As **células estreladas hepáticas (células de Ito)** ficam no **espaço de Disse** e normalmente armazenam vitamina A. A lesão crônica as ativa, principalmente por meio do **TGF-β**, e elas se transformam em **miofibroblastos** que depositam colágeno tipos I e III; são a principal fonte da fibrose na cirrose. As **células de Kupffer** são os macrófagos do fígado e liberam TGF-β e outras citocinas que ativam as células estreladas, mas não produzem o colágeno. Hepatócitos e colangiócitos são células epiteliais, e o endotélio sinusoidal não é a principal fonte de colágeno."
+    },
+    {
+      "slug": "q-inflammation-repair-qx-anti-vegf-angiogenesis",
+      "track": "step1",
+      "system": "general-principles",
+      "discipline": "pathology",
+      "tags": ["inflammation-repair", "repair", "growth-factors", "impaired-healing"],
+      "stem": "A 61-year-old man with metastatic colon cancer receives chemotherapy plus bevacizumab. Two weeks after his last antibody infusion, he has an emergency laparotomy for a bowel obstruction. Ten days later the incision comes apart. The wound base is pale and bleeds very little when it is touched. Which step of repair did this drug most directly impair?",
+      "choices": [
+        "Sprouting of new capillaries from existing vessels",
+        "Recruitment of fibroblasts by platelet-derived growth factor",
+        "Hydroxylation of proline residues in procollagen",
+        "Migration of neutrophils into the wound in the first days",
+        "Contraction of the wound edges by myofibroblasts"
+      ],
+      "correct": 0,
+      "explanation": "**VEGF** is the main driver of **angiogenesis**: it makes endothelial cells of existing vessels proliferate, migrate and sprout new capillaries. These capillaries form the vascular part of **granulation tissue** and bring oxygen and nutrients to fibroblasts, so anti-VEGF antibodies such as **bevacizumab** impair healing and can cause wound dehiscence. Fibroblast recruitment depends mainly on **PDGF** and TGF-β, which the antibody does not block, although fibroblasts work poorly in a poorly perfused wound. Proline hydroxylation needs vitamin C and is not a VEGF-dependent step.",
+      "explanation_pt": "O **VEGF** é o principal estímulo da **angiogênese**: faz as células endoteliais de vasos preexistentes proliferarem, migrarem e formarem brotos de novos capilares. Esses capilares formam a parte vascular do **tecido de granulação** e levam oxigênio e nutrientes aos fibroblastos; por isso, anticorpos anti-VEGF como o **bevacizumabe** prejudicam a cicatrização e podem causar deiscência da ferida. O recrutamento de fibroblastos depende principalmente do **PDGF** e do TGF-β, que o anticorpo não bloqueia, embora os fibroblastos funcionem mal em uma ferida mal perfundida. A hidroxilação da prolina depende de vitamina C e não é uma etapa dependente de VEGF."
+    }
+  ],
+  "notes": []
+}

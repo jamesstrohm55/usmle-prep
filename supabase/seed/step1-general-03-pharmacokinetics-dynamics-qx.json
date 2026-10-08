@@ -1,0 +1,183 @@
+{
+  "cards": [],
+  "questions": [
+    {
+      "slug": "q-pharmacokinetics-dynamics-qx-oral-bioavailability-auc",
+      "track": "step1",
+      "system": "general-principles",
+      "discipline": "pharmacology",
+      "tags": [
+        "pharmacokinetics-dynamics",
+        "absorption",
+        "bioavailability"
+      ],
+      "stem": "In a phase 1 study, healthy volunteers receive a new drug twice, one week apart. First they get 100 mg as an intravenous bolus. Later they get 400 mg by mouth. The drug follows first-order kinetics, and its clearance is the same in both studies. The area under the plasma concentration-time curve (AUC) is 50 mg·h/L after the intravenous dose and 40 mg·h/L after the oral dose. What is the oral bioavailability of this drug?",
+      "choices": [
+        "10%",
+        "20%",
+        "40%",
+        "80%",
+        "100%"
+      ],
+      "correct": 1,
+      "explanation": "**Bioavailability (F)** compares the AUC per unit dose: F = (AUC oral / dose oral) / (AUC IV / dose IV) = (40 / 400) / (50 / 100) = 0.1 / 0.5 = **20%**. The tempting answer is **80%**, which comes from dividing the two AUCs (40 / 50) and forgetting that the oral dose was four times larger. A low F like this often reflects **first-pass metabolism** in the gut wall and liver.",
+      "explanation_pt": "A **biodisponibilidade (F)** compara a ASC (área sob a curva) por unidade de dose: F = (ASC oral / dose oral) / (ASC IV / dose IV) = (40 / 400) / (50 / 100) = 0,1 / 0,5 = **20%**. A resposta tentadora é **80%**, que vem da divisão direta das duas ASC (40 / 50), esquecendo que a dose oral foi quatro vezes maior. Uma F baixa como esta muitas vezes reflete o **metabolismo de primeira passagem** na parede intestinal e no fígado."
+    },
+    {
+      "slug": "q-pharmacokinetics-dynamics-qx-large-vd-dialysis",
+      "track": "step1",
+      "system": "general-principles",
+      "discipline": "pharmacology",
+      "tags": [
+        "pharmacokinetics-dynamics",
+        "distribution",
+        "volume-of-distribution"
+      ],
+      "stem": "A 45-year-old man who weighs 70 kg takes part in a study of a new drug. He receives a single intravenous bolus of 1,000 mg. The plasma concentration, extrapolated back to time zero, is 2 mg/L. Months later, another patient takes a large overdose of the same drug, and the team asks whether hemodialysis would help. Which conclusion is best supported by these data?",
+      "choices": [
+        "The drug stays mainly in the plasma, so hemodialysis would remove much of it",
+        "The drug is limited to the extracellular fluid, so hemodialysis would remove much of it",
+        "The drug is held mostly in tissues, so hemodialysis would remove little",
+        "The drug spreads evenly in total body water, so hemodialysis would remove much of it",
+        "The drug's large volume of distribution will give it a short half-life"
+      ],
+      "correct": 2,
+      "explanation": "**Vd = dose / C0 = 1,000 mg / 2 mg/L = 500 L**, far more than his total body water (about 42 L). A Vd this large means most of the drug sits **in tissues** (fat, muscle), with little in the plasma, so **hemodialysis**, which only clears the blood, removes very little. The plasma-bound answer fits drugs with a **low Vd**, close to plasma volume or total body water. A large Vd also makes the half-life **longer** (t1/2 = 0.7 × Vd / CL), not shorter.",
+      "explanation_pt": "**Vd = dose / C0 = 1.000 mg / 2 mg/L = 500 L**, muito acima da água corporal total dele (cerca de 42 L). Um Vd tão grande significa que a maior parte do fármaco fica **nos tecidos** (gordura, músculo), com pouco no plasma, então a **hemodiálise**, que só depura o sangue, remove muito pouco. A alternativa do fármaco restrito ao plasma serve para fármacos com **Vd baixo**, próximo do volume plasmático ou da água corporal total. Um Vd grande também torna a meia-vida **mais longa** (t1/2 = 0,7 × Vd / CL), e não mais curta."
+    },
+    {
+      "slug": "q-pharmacokinetics-dynamics-qx-hypoalbuminemia-free-phenytoin",
+      "track": "step1",
+      "system": "general-principles",
+      "discipline": "pharmacology",
+      "tags": [
+        "pharmacokinetics-dynamics",
+        "distribution",
+        "protein-binding"
+      ],
+      "stem": "A 34-year-old woman with epilepsy has taken phenytoin for years with good seizure control. Three months ago she developed nephrotic syndrome. She now has blurred vision, unsteady gait and horizontal nystagmus. Six weeks ago her total phenytoin level was below the target range, so her physician increased the dose. Laboratory results: serum albumin 1.8 g/dL (normal 3.5-5.5), serum creatinine 0.8 mg/dL (normal 0.6-1.1), urine protein heavy, and total serum phenytoin concentration within the laboratory's usual target range. Which best explains her symptoms?",
+      "choices": [
+        "A higher unbound fraction of phenytoin in her plasma",
+        "Saturation of phenytoin metabolism at a high total level",
+        "Induction of the liver enzymes that metabolize phenytoin",
+        "Loss of albumin-bound phenytoin in her urine",
+        "Less conversion of phenytoin to an inactive metabolite in the kidney"
+      ],
+      "correct": 0,
+      "explanation": "Phenytoin is highly **bound to albumin**, and only the **unbound (free)** drug acts on the brain. With very **low albumin**, a larger fraction is free, so a **total level in the usual range hides a high free level**, which is why raising the dose to \"correct\" a low total level is dangerous; measuring the free phenytoin level confirms this. Saturation of its **zero-order** metabolism is the tempting choice, but that would push the **total** level above the target range. Enzyme induction or urinary loss would lower drug exposure, not cause toxicity.",
+      "explanation_pt": "A fenitoína é muito **ligada à albumina**, e só o fármaco **livre (não ligado)** age no cérebro. Com a **albumina muito baixa**, uma fração maior fica livre, então um **nível total na faixa habitual esconde um nível livre alto**, por isso aumentar a dose para \"corrigir\" um nível total baixo é perigoso; a dosagem da fenitoína livre confirma isso. A saturação do seu metabolismo de **ordem zero** é a alternativa tentadora, mas ela elevaria o nível **total** acima da faixa-alvo. A indução enzimática ou a perda urinária reduziriam a exposição ao fármaco, e não causariam toxicidade."
+    },
+    {
+      "slug": "q-pharmacokinetics-dynamics-qx-time-to-fall-after-stopping",
+      "track": "step1",
+      "system": "general-principles",
+      "discipline": "pharmacology",
+      "tags": [
+        "pharmacokinetics-dynamics",
+        "half-life",
+        "elimination"
+      ],
+      "stem": "A 50-year-old man in the intensive care unit is on a continuous intravenous infusion of a drug that follows first-order kinetics. He develops signs of toxicity, and the infusion is stopped. In this patient the drug's volume of distribution is 80 L and its clearance is 7 L/h. His plasma level when the infusion stops is 32 mg/L. The team wants to know when the level will fall to 4 mg/L. About how long will this take?",
+      "choices": [
+        "About 4 hours",
+        "About 8 hours",
+        "About 16 hours",
+        "About 24 hours",
+        "About 32 hours"
+      ],
+      "correct": 3,
+      "explanation": "**t1/2 = 0.7 × Vd / CL = 0.7 × 80 / 7 = 8 hours**. In first-order elimination the level halves every half-life: 32 → 16 → 8 → 4 mg/L, which is **3 half-lives**, about **24 hours**. The tempting answer is 32 hours, from the **4-5 half-lives** rule; that rule describes how long it takes to reach steady state, or to clear almost all of the drug, not a fall to one-eighth of the starting level.",
+      "explanation_pt": "**t1/2 = 0,7 × Vd / CL = 0,7 × 80 / 7 = 8 horas**. Na eliminação de primeira ordem, o nível cai pela metade a cada meia-vida: 32 → 16 → 8 → 4 mg/L, ou seja, **3 meias-vidas**, cerca de **24 horas**. A resposta tentadora é 32 horas, pela regra das **4-5 meias-vidas**; essa regra descreve o tempo para atingir o estado de equilíbrio, ou para eliminar quase todo o fármaco, e não a queda para um oitavo do nível inicial."
+    },
+    {
+      "slug": "q-pharmacokinetics-dynamics-qx-therapeutic-index-comparison",
+      "track": "step1",
+      "system": "general-principles",
+      "discipline": "pharmacology",
+      "tags": [
+        "pharmacokinetics-dynamics",
+        "pharmacodynamics",
+        "therapeutic-index"
+      ],
+      "stem": "A company compares five new analgesics in animal studies. For each drug it reports the median effective dose (ED50) and the median toxic dose (TD50). Drug A: ED50 1 mg/kg, TD50 4 mg/kg. Drug B: ED50 5 mg/kg, TD50 100 mg/kg. Drug C: ED50 10 mg/kg, TD50 300 mg/kg. Drug D: ED50 100 mg/kg, TD50 2,500 mg/kg. Drug E: ED50 20 mg/kg, TD50 800 mg/kg. Which drug has the widest margin of safety between its effective and toxic doses?",
+      "choices": [
+        "Drug A",
+        "Drug B",
+        "Drug C",
+        "Drug D",
+        "Drug E"
+      ],
+      "correct": 4,
+      "explanation": "The **therapeutic index (TI) = TD50 / ED50**: A = 4, B = 20, C = 30, D = 25 and **E = 40**, so drug E has the widest safety margin. Drug D is the tempting choice because it has the **highest toxic dose**, but it also needs a high dose to work, so its ratio is lower. Drug A is the **most potent** (lowest ED50), yet it has the **lowest TI**: potency and safety are different properties.",
+      "explanation_pt": "O **índice terapêutico (IT) = DT50 / DE50**: A = 4, B = 20, C = 30, D = 25 e **E = 40**, então o fármaco E tem a maior margem de segurança. O fármaco D é a alternativa tentadora porque tem a **maior dose tóxica**, mas também precisa de dose alta para funcionar, então sua razão é menor. O fármaco A é o **mais potente** (menor DE50), mas tem o **menor IT**: potência e segurança são propriedades diferentes."
+    },
+    {
+      "slug": "q-pharmacokinetics-dynamics-qx-spare-receptors-irreversible-antagonist",
+      "track": "step1",
+      "system": "general-principles",
+      "discipline": "pharmacology",
+      "tags": [
+        "pharmacokinetics-dynamics",
+        "pharmacodynamics",
+        "receptor-theory"
+      ],
+      "stem": "A researcher studies a full agonist on an isolated smooth muscle strip. She pretreats the tissue with a low concentration of an antagonist that binds the receptor covalently. Binding studies show that about half of the receptors are now permanently blocked. The agonist dose-response curve shifts to the right, but very high agonist doses still produce the same maximal contraction. When a higher antagonist concentration blocks about 95% of the receptors, the maximal contraction falls. Which best explains the unchanged maximum at the low antagonist concentration?",
+      "choices": [
+        "The agonist is a partial agonist at this receptor",
+        "The tissue has more receptors than it needs for a full response",
+        "High agonist doses displace the antagonist from the receptor",
+        "The antagonist acts on a different receptor that relaxes the muscle",
+        "The blocked receptors are rapidly replaced by new receptors"
+      ],
+      "correct": 1,
+      "explanation": "The tissue has **spare receptors** (a **receptor reserve**): a full agonist can give the maximal response while occupying only part of the receptors. Losing half of them shifts the curve to the right, but the maximum falls only when too few receptors remain. Displacement by high agonist doses is the tempting answer, but a **covalent (irreversible)** antagonist cannot be outcompeted; that explanation fits a **competitive antagonist**. A partial agonist could not reach the full maximum even before the antagonist was added.",
+      "explanation_pt": "O tecido tem **receptores de reserva** (**reserva de receptores**, *spare receptors*): um agonista pleno consegue a resposta máxima ocupando apenas parte dos receptores. Perder metade deles desloca a curva para a direita, mas o máximo só cai quando restam poucos receptores. O deslocamento por doses altas do agonista é a resposta tentadora, mas um antagonista **covalente (irreversível)** não pode ser deslocado; essa explicação serve para um **antagonista competitivo**. Um agonista parcial não atingiria o máximo pleno nem antes da adição do antagonista."
+    },
+    {
+      "slug": "q-pharmacokinetics-dynamics-qx-potency-vs-efficacy-curves",
+      "track": "step1",
+      "system": "general-principles",
+      "discipline": "pharmacology",
+      "tags": [
+        "pharmacokinetics-dynamics",
+        "pharmacodynamics",
+        "potency-efficacy"
+      ],
+      "stem": "Two drugs that act on the same receptor are tested in an isolated tissue. Drug P has an EC50 of 2 nM and a maximal response equal to 50% of the tissue's maximum. Drug Q has an EC50 of 200 nM and a maximal response equal to 100% of the tissue's maximum. Neither drug changes the baseline response at very low doses. Which statement best compares the two drugs?",
+      "choices": [
+        "P is more potent, and Q is more efficacious",
+        "P is more potent and also more efficacious",
+        "Q is more potent, and P is more efficacious",
+        "Q is more potent and also more efficacious",
+        "Both have equal efficacy because both reach a plateau"
+      ],
+      "correct": 0,
+      "explanation": "**Potency** reflects the EC50: P needs a 100-fold lower concentration for its half-maximal effect, so P is **more potent**. **Efficacy** is the **maximal effect**: Q reaches 100% and P only 50%, so Q is **more efficacious**, and P behaves as a **partial agonist**. The tempting error is to treat the more potent drug as the better one overall; a left shift says nothing about the height of the curve.",
+      "explanation_pt": "A **potência** reflete a EC50: P precisa de uma concentração 100 vezes menor para atingir metade do seu próprio efeito máximo, então P é **mais potente**. A **eficácia** é o **efeito máximo**: Q chega a 100% e P apenas a 50%, então Q é **mais eficaz**, e P se comporta como **agonista parcial**. O erro tentador é considerar o fármaco mais potente como o melhor em tudo; um desvio para a esquerda não diz nada sobre a altura da curva."
+    },
+    {
+      "slug": "q-pharmacokinetics-dynamics-qx-clarithromycin-simvastatin",
+      "track": "step1",
+      "system": "general-principles",
+      "discipline": "pharmacology",
+      "tags": [
+        "pharmacokinetics-dynamics",
+        "metabolism",
+        "cyp450",
+        "drug-interactions"
+      ],
+      "stem": "A 66-year-old man has taken simvastatin for many years without problems. Five days ago he started clarithromycin for community-acquired pneumonia. Today he cannot climb stairs because his thighs ache and feel weak, and his urine is the color of cola. Laboratory results: creatine kinase 9,500 U/L (normal 30-200), potassium 5.4 mEq/L, and serum creatinine 1.7 mg/dL (1.0 mg/dL last year). Which mechanism best explains his condition?",
+      "choices": [
+        "Induction of CYP3A4, which forms a muscle-toxic statin metabolite",
+        "A direct toxic effect of clarithromycin on skeletal muscle",
+        "Displacement of simvastatin from plasma albumin by clarithromycin",
+        "Kidney injury from clarithromycin that reduces statin excretion",
+        "Inhibition of CYP3A4, which raises simvastatin levels"
+      ],
+      "correct": 4,
+      "explanation": "He has **statin-induced rhabdomyolysis**: very high CK, cola-colored urine from **myoglobinuria**, hyperkalemia and acute kidney injury. **Clarithromycin** is a strong **CYP3A4 inhibitor**, and simvastatin depends on CYP3A4 for its breakdown, so its level rises sharply. Albumin displacement is the tempting choice, but it only briefly raises the free level of a drug and is not the mechanism here. Macrolides **inhibit**, not induce, CYP3A4.",
+      "explanation_pt": "Ele tem **rabdomiólise induzida por estatina**: CK muito alta, urina cor de coca-cola por **mioglobinúria**, hipercalemia e lesão renal aguda. A **claritromicina** é um potente **inibidor da CYP3A4**, e a sinvastatina depende da CYP3A4 para ser degradada, então o seu nível sobe muito. O deslocamento da albumina é a alternativa tentadora, mas ele só eleva brevemente o nível livre de um fármaco e não é o mecanismo aqui. Os macrolídeos **inibem**, e não induzem, a CYP3A4."
+    }
+  ],
+  "notes": []
+}
