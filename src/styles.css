@@ -287,8 +287,10 @@ p[role='status']:empty { margin: 0; }
 @media (prefers-reduced-motion: reduce) {
   * { transition: none !important; }
   .tile:hover { transform: none; }
-  .tile, main > .card, .note, .hits > li { animation: none; }
+  /* Reduced motion keeps a plain, short fade (no blur or movement) so screens still feel alive. */
+  .tile, main > .card, .note, .hits > li { animation-name: fade-only; animation-duration: .25s; }
 }
+@keyframes fade-only { from { opacity: 0; } to { opacity: 1; } }
 
 /* Loader: two cubes chasing each other around a square. */
 .loading { display: flex; justify-content: center; align-items: center; padding: 56px 0; margin-top: 0; margin-bottom: 0; }
@@ -310,7 +312,8 @@ p[role='status']:empty { margin: 0; }
   75% { transform: translate(0, var(--t)); }
   100% { transform: translate(0, 0); }
 }
-@media (prefers-reduced-motion: reduce) { .loader::before, .loader::after { animation: none; } }
+/* Reduced motion: the loader stays (it signals that work is in progress) but moves slowly. */
+@media (prefers-reduced-motion: reduce) { .loader::before, .loader::after { animation-duration: 5s; } }
 
 /* Menu language switch: top right of the content area. */
 .content { min-width: 0; display: flex; flex-direction: column; }
