@@ -1,0 +1,115 @@
+{
+  "cards": [
+    {
+      "slug": "card-img-nervous-meningioma",
+      "track": "step1",
+      "system": "nervous",
+      "discipline": "pathology",
+      "tags": ["images-nervous", "histology", "cns-tumors"],
+      "front": "This H&E section comes from a well-circumscribed mass removed from a 55-year-old woman with new seizures. Look at the swirled clusters of cells and the small, dark, round layered body on the left. Name the tumor and that body.",
+      "back": "**Meningioma**: meningothelial cells arranged in **whorls**, with a layered, calcified **psammoma body**. It arises from **arachnoid cap cells**, is extra-axial (attached to the dura, often with a *dural tail* on MRI), is more common in women and is usually benign.",
+      "back_pt": "**Meningioma**: células meningoteliais dispostas em **redemoinhos** (*whorls*), com um **corpo psamomatoso** calcificado e lamelar. Origina-se das **células da aracnoide** (*arachnoid cap cells*), é extra-axial (aderido à dura-máter, muitas vezes com *cauda dural* na RM), é mais comum em mulheres e em geral é benigno.",
+      "image_url": "images/nervous/meningioma-1.jpg",
+      "image_credit": "Mikael Häggström, M.D., CC0, https://commons.wikimedia.org/wiki/File:Histopathology_of_meningioma.jpg"
+    },
+    {
+      "slug": "card-img-nervous-hydrocephalus",
+      "track": "step1",
+      "system": "nervous",
+      "discipline": "pathology",
+      "tags": ["images-nervous", "head-ct", "dementia"],
+      "front": "This noncontrast head CT is from a 74-year-old man with a slow, magnetic gait, urinary incontinence and memory loss over 1 year. Look at the dark structures in the center of the brain. What is the finding, and what is the most likely diagnosis?",
+      "back": "**Hydrocephalus**: both lateral ventricles are markedly enlarged, out of proportion to the sulci (so this is not just atrophy). With gait disturbance, urinary incontinence and dementia, this fits **normal pressure hydrocephalus**, a communicating type that may improve with CSF removal or a **ventriculoperitoneal shunt**.",
+      "back_pt": "**Hidrocefalia**: os dois ventrículos laterais estão muito aumentados, de modo desproporcional aos sulcos (portanto não é só atrofia). Com distúrbio da marcha, incontinência urinária e demência, o quadro é de **hidrocefalia de pressão normal**, um tipo comunicante que pode melhorar com a retirada de LCR ou com **derivação ventriculoperitoneal**.",
+      "image_url": "images/nervous/hydrocephalus-1.jpg",
+      "image_credit": "Lucien Monfils, CC BY-SA 3.0, https://commons.wikimedia.org/wiki/File:Hydrocephalus_(cropped).jpg"
+    },
+    {
+      "slug": "card-img-nervous-chiari-malformation",
+      "track": "step1",
+      "system": "nervous",
+      "discipline": "pathology",
+      "tags": ["images-nervous", "brain-mri", "cns-malformations"],
+      "front": "This sagittal T2-weighted MRI is from a 13-year-old girl with headaches at the back of the head that get worse when she coughs. Look at the lower cerebellum and the foramen magnum. What is the finding, and which spinal cord lesion is often associated?",
+      "back": "**Chiari I malformation**: the **cerebellar tonsils** are pointed (peg-like) and extend **below the foramen magnum**; the brainstem stays in place. It is often silent or causes occipital headache worse with coughing or straining. It is associated with **syringomyelia** (cape-like loss of pain and temperature sensation).",
+      "back_pt": "**Malformação de Chiari tipo I**: as **tonsilas cerebelares** estão afiladas (em cavilha) e descem **abaixo do forame magno**; o tronco encefálico fica na posição normal. Muitas vezes é assintomática ou causa cefaleia occipital que piora com tosse ou esforço. Associa-se à **siringomielia** (perda da sensibilidade dolorosa e térmica em capa).",
+      "image_url": "images/nervous/chiari-malformation-1.jpg",
+      "image_credit": "Hellerhoff, CC BY-SA 3.0, https://commons.wikimedia.org/wiki/File:Chiari-1-Malformation_13W_-_MR_T2_sagittal_-_001.jpg"
+    },
+    {
+      "slug": "card-img-nervous-medulloblastoma",
+      "track": "step1",
+      "system": "nervous",
+      "discipline": "pathology",
+      "tags": ["images-nervous", "histology", "cns-tumors"],
+      "front": "This H&E section comes from a midline cerebellar mass in a 6-year-old boy with morning vomiting and an unsteady gait. Look at the crowded dark cells and the pink, fibrillary centers they surround. Name the tumor and these structures.",
+      "back": "**Medulloblastoma**: sheets of **small round blue cells** forming **Homer Wright rosettes** (tumor cells around a pink, fibrillary center with no lumen). It is a malignant embryonal tumor of the cerebellum in children; it can compress the fourth ventricle (hydrocephalus) and spread through the CSF (*drop metastases*).",
+      "back_pt": "**Meduloblastoma**: lençóis de **pequenas células redondas e azuis** formando **rosetas de Homer Wright** (células tumorais ao redor de um centro rosado e fibrilar, sem luz). É um tumor embrionário maligno do cerebelo em crianças; pode comprimir o quarto ventrículo (hidrocefalia) e disseminar-se pelo LCR (metástases em gota, *drop metastases*).",
+      "image_url": "images/nervous/medulloblastoma-1.jpg",
+      "image_credit": "Jensflorian, CC BY-SA 3.0, https://commons.wikimedia.org/wiki/File:Medulloblastoma_with_rosettes.jpg"
+    }
+  ],
+  "questions": [
+    {
+      "slug": "q-img-nervous-multiple-sclerosis",
+      "track": "step1",
+      "system": "nervous",
+      "discipline": "pathology",
+      "tags": ["images-nervous", "brain-mri", "demyelinating-disease"],
+      "stem": "A 28-year-old woman had blurred vision and pain when moving her right eye 1 year ago; it improved over several weeks. Now she has numbness and tingling in both legs. Her axial T2-weighted brain MRI is shown. Which finding in her cerebrospinal fluid is most likely?",
+      "choices": [
+        "High protein with a normal cell count (albuminocytologic dissociation)",
+        "Oligoclonal IgG bands that are not present in the serum",
+        "Elevated 14-3-3 protein",
+        "Many neutrophils with a low glucose level",
+        "Yellow color of the fluid (xanthochromia)"
+      ],
+      "correct": 1,
+      "explanation": "The MRI shows several small, oval, bright (T2 hyperintense) lesions scattered in the cerebral white matter of both hemispheres. With a past episode of optic neuritis and a new spinal cord-type symptom, this is **multiple sclerosis**: demyelinating lesions separated in space and time. Its CSF typically shows **oligoclonal IgG bands** made inside the CNS, so they are absent from the serum. The most tempting wrong answer is albuminocytologic dissociation: it belongs to Guillain-Barré syndrome, a disease of peripheral nerves with ascending weakness and lost reflexes and no brain white matter lesions. Elevated 14-3-3 protein suggests Creutzfeldt-Jakob disease. Neutrophils with low glucose suggest bacterial meningitis. Xanthochromia suggests subarachnoid hemorrhage.",
+      "explanation_pt": "A RM mostra várias lesões pequenas, ovais e brilhantes (hiperintensas em T2) espalhadas na substância branca cerebral dos dois hemisférios. Com um episódio prévio de neurite óptica e um novo sintoma de tipo medular, o diagnóstico é **esclerose múltipla**: lesões desmielinizantes separadas no espaço e no tempo. O LCR mostra tipicamente **bandas oligoclonais de IgG** produzidas dentro do SNC, por isso ausentes no soro. A alternativa errada mais tentadora é a dissociação albuminocitológica: ela é da síndrome de Guillain-Barré, uma doença dos nervos periféricos com fraqueza ascendente e perda dos reflexos, sem lesões na substância branca do encéfalo. Proteína 14-3-3 elevada sugere doença de Creutzfeldt-Jakob. Neutrófilos com glicose baixa sugerem meningite bacteriana. Xantocromia sugere hemorragia subaracnóidea.",
+      "image_url": "images/nervous/multiple-sclerosis-1.jpg",
+      "image_credit": "James Heilman, MD, CC BY-SA 4.0, https://commons.wikimedia.org/wiki/File:MSMRI.png"
+    },
+    {
+      "slug": "q-img-nervous-mca-infarct",
+      "track": "step1",
+      "system": "nervous",
+      "discipline": "pathology",
+      "tags": ["images-nervous", "head-ct", "stroke"],
+      "stem": "A 71-year-old man with atrial fibrillation who stopped taking his anticoagulant is found at home with weakness of the left face and left arm. A noncontrast head CT done 2 days later is shown (R marks the patient's right side). Which additional finding is most likely on his examination?",
+      "choices": [
+        "Expressive (Broca) aphasia",
+        "Right homonymous hemianopia",
+        "Right-sided Horner syndrome with loss of pain and temperature on the left side of the body",
+        "Neglect of the left side of space",
+        "Pure motor weakness with no cortical signs"
+      ],
+      "correct": 3,
+      "explanation": "The CT shows a large area of low density in the **right** hemisphere, with loss of the gray-white boundary, effaced sulci and a compressed right lateral ventricle. Two days after a sudden deficit, this is an **ischemic infarct in the right middle cerebral artery territory**, likely embolic from atrial fibrillation (the Commons description also notes posterior cerebral artery territory involvement). A lesion of the **non-dominant** (usually right) parietal lobe causes **hemineglect** of the left side. The most tempting wrong answer is Broca aphasia: language is in the dominant (usually left) hemisphere, so a left MCA stroke would cause it. A right homonymous hemianopia needs a left-sided lesion. Horner syndrome with crossed pain and temperature loss is the lateral medullary (PICA or vertebral artery) syndrome. Pure motor weakness is a small lacunar infarct, not a large cortical one.",
+      "explanation_pt": "A TC mostra uma grande área hipodensa no hemisfério **direito**, com perda da diferenciação entre substância cinzenta e branca, apagamento dos sulcos e compressão do ventrículo lateral direito. Dois dias após um déficit súbito, isso é um **infarto isquêmico no território da artéria cerebral média direita**, provavelmente embólico pela fibrilação atrial (a descrição no Commons também cita acometimento do território da artéria cerebral posterior). Uma lesão do lobo parietal **não dominante** (em geral o direito) causa **heminegligência** do lado esquerdo. A alternativa errada mais tentadora é a afasia de Broca: a linguagem fica no hemisfério dominante (em geral o esquerdo), por isso ela ocorre num AVC da ACM esquerda. Uma hemianopsia homônima direita exige lesão à esquerda. Síndrome de Horner com perda cruzada da sensibilidade dolorosa e térmica é a síndrome bulbar lateral (artéria cerebelar posteroinferior ou vertebral). Fraqueza motora pura é um pequeno infarto lacunar, e não um grande infarto cortical.",
+      "image_url": "images/nervous/mca-infarct-1.jpg",
+      "image_credit": "Cerevisae, CC BY-SA 4.0, https://commons.wikimedia.org/wiki/File:Right_MCA_and_PCA_territories_infarct.jpg"
+    },
+    {
+      "slug": "q-img-nervous-brain-abscess",
+      "track": "step1",
+      "system": "nervous",
+      "discipline": "pathology",
+      "tags": ["images-nervous", "brain-mri", "cns-infections"],
+      "stem": "A 9-year-old boy with uncorrected tetralogy of Fallot has had headache, low-grade fever and vomiting for 10 days. Today he has a seizure. His contrast-enhanced T1-weighted brain MRI is shown. Which mechanism most likely led to this lesion?",
+      "choices": [
+        "Bacteria in venous blood reaching the brain through a right-to-left shunt",
+        "Reactivation of a latent parasite because of a low CD4 T-cell count",
+        "Spread of tumor cells from a primary lung cancer",
+        "Infection of oligodendrocytes by a polyomavirus",
+        "Rupture of an artery weakened by infection (mycotic aneurysm)"
+      ],
+      "correct": 0,
+      "explanation": "The MRI shows a round lesion in the posterior left hemisphere with a **thin, smooth rim of enhancement**, a dark fluid center and surrounding edema. With fever, headache and a seizure in a child with cyanotic heart disease, this is a **brain abscess**. In a **right-to-left shunt**, venous blood skips the lung capillaries, which normally filter out bacteria, so organisms reach the brain directly. The most tempting wrong answer is reactivated *Toxoplasma*: it also gives ring-enhancing lesions, but in people with AIDS and low CD4 counts, often multiple and in the basal ganglia. Lung cancer metastases occur in adults. Polyomavirus (JC virus) causes progressive multifocal leukoencephalopathy, with white matter lesions that usually do not enhance. A ruptured mycotic aneurysm causes a bleed, not a fluid-filled ring.",
+      "explanation_pt": "A RM mostra uma lesão arredondada na parte posterior do hemisfério esquerdo com **anel de realce fino e liso**, centro líquido escuro e edema ao redor. Com febre, cefaleia e crise convulsiva numa criança com cardiopatia cianótica, o diagnóstico é **abscesso cerebral**. Num **shunt da direita para a esquerda**, o sangue venoso não passa pelos capilares pulmonares, que normalmente filtram as bactérias, e os microrganismos chegam direto ao encéfalo. A alternativa errada mais tentadora é a reativação do *Toxoplasma*: também causa lesões com realce em anel, mas em pessoas com aids e CD4 baixo, muitas vezes múltiplas e nos núcleos da base. Metástases de câncer de pulmão ocorrem em adultos. O poliomavírus (vírus JC) causa leucoencefalopatia multifocal progressiva, com lesões na substância branca que em geral não realçam. A ruptura de um aneurisma micótico causa sangramento, e não um anel com conteúdo líquido.",
+      "image_url": "images/nervous/brain-abscess-1.jpg",
+      "image_credit": "Hellerhoff, CC BY-SA 3.0, https://commons.wikimedia.org/wiki/File:Brain_abscess_-_MRI_T1_KM_axial.jpg"
+    }
+  ],
+  "notes": []
+}

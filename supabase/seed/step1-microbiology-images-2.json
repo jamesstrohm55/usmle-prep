@@ -1,0 +1,167 @@
+{
+  "cards": [
+    {
+      "slug": "card-img-microbiology-aspergillus",
+      "track": "step1",
+      "system": "microbiology",
+      "discipline": "microbiology",
+      "tags": ["images-microbiology", "mycology", "opportunistic-fungi"],
+      "front": "This silver-stained section comes from a brain lesion in a man with leukemia and long-lasting neutropenia. Describe the black fungal elements and name the organism.",
+      "back": "***Aspergillus***: **thin, septate hyphae** with **acute-angle (about 45°) branching**. They **invade blood vessels**, causing thrombosis and infarction. The main risk factor for invasive disease is **neutropenia**. Drug of choice: **voriconazole**.",
+      "back_pt": "***Aspergillus***: **hifas finas e septadas** com **ramificação em ângulo agudo (cerca de 45°)**. Elas **invadem vasos sanguíneos**, causando trombose e infarto. O principal fator de risco para doença invasiva é a **neutropenia**. Fármaco de escolha: **voriconazol**.",
+      "image_url": "images/microbiology/aspergillus-1.jpg",
+      "image_credit": "Jensflorian, CC BY-SA 3.0, https://commons.wikimedia.org/wiki/File:Aspergillosis_grocott_angionvasion.jpg"
+    },
+    {
+      "slug": "card-img-microbiology-trichomonas",
+      "track": "step1",
+      "system": "microbiology",
+      "discipline": "microbiology",
+      "tags": ["images-microbiology", "parasitology", "sti"],
+      "front": "This stained smear comes from the vaginal discharge of a woman with itching and a frothy, yellow-green discharge. Identify the organism and its key features.",
+      "back": "***Trichomonas vaginalis***: pear-shaped **flagellated protozoan** with anterior flagella and an axostyle. In a fresh wet mount it is **motile**. Vaginal pH is **above 4.5**. Treat the patient **and sexual partners** with **metronidazole**.",
+      "back_pt": "***Trichomonas vaginalis***: **protozoário flagelado** em forma de pera, com flagelos anteriores e axóstilo. No exame a fresco ele é **móvel**. O pH vaginal fica **acima de 4,5**. Trate a paciente **e as parcerias sexuais** com **metronidazol**.",
+      "image_url": "images/microbiology/trichomonas-1.jpg",
+      "image_credit": "Dr Graham Beards, CC BY-SA 4.0, https://commons.wikimedia.org/wiki/File:Trichomonas_vaginalis_May-Grünwald-Giemsa_staining.jpg"
+    },
+    {
+      "slug": "card-img-microbiology-treponema",
+      "track": "step1",
+      "system": "microbiology",
+      "discipline": "microbiology",
+      "tags": ["images-microbiology", "spirochetes", "sti"],
+      "front": "These organisms were seen, bright against a dark background, in fluid from a painless, clean-based genital ulcer. Identify the organism. Why is a Gram stain not useful?",
+      "back": "***Treponema pallidum*** (syphilis): thin, **tightly coiled spirochetes**, seen by **dark-field** (or fluorescent antibody) microscopy. They are **too thin to see on Gram stain** and do not grow in routine culture. A painless chancre = **primary syphilis**. Treatment: **penicillin G**.",
+      "back_pt": "***Treponema pallidum*** (sífilis): **espiroquetas** finas e **bem espiraladas**, vistas por microscopia de **campo escuro** (ou imunofluorescência). São **finas demais para o Gram** e não crescem em cultura de rotina. Cancro indolor = **sífilis primária**. Tratamento: **penicilina G**.",
+      "image_url": "images/microbiology/treponema-1.jpg",
+      "image_credit": "CDC/C.W. Hubbard, Public domain, https://commons.wikimedia.org/wiki/File:Treponema_pallidum_cropped.png"
+    },
+    {
+      "slug": "card-img-microbiology-schistosoma-mansoni",
+      "track": "step1",
+      "system": "microbiology",
+      "discipline": "microbiology",
+      "tags": ["images-microbiology", "parasitology", "helminths"],
+      "front": "This egg was found in the stool of a man from rural Brazil who has an enlarged spleen and esophageal varices. Identify the parasite and the key feature of its egg.",
+      "back": "***Schistosoma mansoni***: large oval egg with a **lateral spine**. Adult worms live in the **mesenteric veins**. Eggs trapped in the liver cause **periportal (*pipe-stem*) fibrosis** and **presinusoidal portal hypertension** (splenomegaly, varices). Treatment: **praziquantel**.",
+      "back_pt": "***Schistosoma mansoni***: ovo grande e oval com **espículo lateral**. Os vermes adultos vivem nas **veias mesentéricas**. Os ovos retidos no fígado causam **fibrose periportal (*pipe-stem fibrosis*)** e **hipertensão portal pré-sinusoidal** (esplenomegalia, varizes). Tratamento: **praziquantel**.",
+      "image_url": "images/microbiology/schistosoma-mansoni-1.jpg",
+      "image_credit": "CDC, Public domain, https://commons.wikimedia.org/wiki/File:Schistosoma_mansoni_egg_4841_lores.jpg"
+    },
+    {
+      "slug": "card-img-microbiology-candida",
+      "track": "step1",
+      "system": "microbiology",
+      "discipline": "microbiology",
+      "tags": ["images-microbiology", "mycology", "opportunistic-fungi"],
+      "front": "This unstained wet mount comes from white patches inside the mouth of a man with HIV. The patches scrape off easily. Describe the fungal forms and name the organism.",
+      "back": "***Candida albicans***: **budding yeasts** together with **pseudohyphae** (chains of long buds). At 37 °C in serum it forms **germ tubes**. Oral thrush points to weak **T-cell immunity**. Treatment: **fluconazole** or **nystatin**.",
+      "back_pt": "***Candida albicans***: **leveduras em brotamento** junto com **pseudo-hifas** (cadeias de brotos alongados). A 37 °C em soro forma **tubos germinativos**. A candidíase oral indica **imunidade celular (linfócitos T)** fraca. Tratamento: **fluconazol** ou **nistatina**.",
+      "image_url": "images/microbiology/candida-1.jpg",
+      "image_credit": "Microrao, CC BY-SA 4.0, https://commons.wikimedia.org/wiki/File:Candida_with_pseudohyphae.jpg"
+    }
+  ],
+  "questions": [
+    {
+      "slug": "q-img-microbiology-babesia",
+      "track": "step1",
+      "system": "microbiology",
+      "discipline": "microbiology",
+      "tags": ["images-microbiology", "parasitology", "vector-borne"],
+      "stem": "A 67-year-old man from Massachusetts has had fever, chills and dark urine for 5 days. His spleen was removed after a car crash 10 years ago. He often hikes in the woods near his home and has never left the United States. Hemoglobin is low and LDH is high. A Wright-stained blood smear is shown. Which vector most likely transmitted this infection?",
+      "choices": [
+        "Female Anopheles mosquito",
+        "Aedes mosquito",
+        "Sandfly",
+        "Ixodes (deer) tick",
+        "Reduviid (kissing) bug"
+      ],
+      "correct": 3,
+      "explanation": "The smear shows small **ring forms inside red cells** and merozoites arranged as a **tetrad (*Maltese cross*)**, with no pigment: ***Babesia microti***. It is spread by the **Ixodes tick**, the same tick that carries Lyme disease in the northeastern US. **Asplenia** raises the risk of severe hemolysis. The most tempting wrong answer is the **Anopheles mosquito**: *Plasmodium* rings look similar, but malaria needs travel to an endemic area, and *Plasmodium* does not form tetrads. Aedes carries dengue, the sandfly carries *Leishmania*, and the reduviid bug carries *Trypanosoma cruzi*.",
+      "explanation_pt": "O esfregaço mostra pequenas **formas em anel dentro das hemácias** e merozoítos dispostos em **tétrade (*cruz de Malta*)**, sem pigmento: ***Babesia microti***. Ela é transmitida pelo **carrapato Ixodes**, o mesmo que transmite a doença de Lyme no nordeste dos EUA. A **asplenia** aumenta o risco de hemólise grave. A alternativa errada mais tentadora é o **mosquito Anopheles**: os anéis de *Plasmodium* são parecidos, mas a malária exige viagem para área endêmica, e o *Plasmodium* não forma tétrades. O Aedes transmite dengue, o flebotomíneo transmite *Leishmania* e o barbeiro (triatomíneo) transmite *Trypanosoma cruzi*.",
+      "image_url": "images/microbiology/babesia-1.jpg",
+      "image_credit": "Mikael Häggström, M.D., CC0, https://commons.wikimedia.org/wiki/File:Blood_smear_of_Babesia_microti,_original.png"
+    },
+    {
+      "slug": "q-img-microbiology-entamoeba",
+      "track": "step1",
+      "system": "microbiology",
+      "discipline": "microbiology",
+      "tags": ["images-microbiology", "parasitology", "diarrhea"],
+      "stem": "A 34-year-old man has had bloody diarrhea with mucus and crampy lower abdominal pain for 3 weeks. He returned 1 month ago from a year of volunteer work in rural India. A trichrome-stained stool sample is shown. Which finding is most likely on a colon biopsy?",
+      "choices": [
+        "Flask-shaped ulcers that undermine the mucosa",
+        "Noncaseating granulomas with skip lesions",
+        "Yellow-white pseudomembranes made of fibrin and neutrophils",
+        "Crypt abscesses with continuous disease starting at the rectum",
+        "Pear-shaped organisms on the surface of intact mucosa"
+      ],
+      "correct": 0,
+      "explanation": "The image shows a trophozoite with a single nucleus and several **ingested red blood cells** (erythrophagocytosis): ***Entamoeba histolytica***. The trophozoites invade the colon wall and make **flask-shaped ulcers**. They can reach the liver through the portal vein and cause an **amebic liver abscess**. Treatment is **metronidazole**, followed by a luminal agent such as **paromomycin**. The most tempting wrong answer is **crypt abscesses** of ulcerative colitis, which also causes bloody diarrhea, but the travel history and the organism in the stool point to amebiasis. Granulomas fit Crohn disease, pseudomembranes fit *C. difficile*, and pear-shaped surface organisms fit *Giardia*, which causes non-bloody diarrhea.",
+      "explanation_pt": "A imagem mostra um trofozoíto com um único núcleo e várias **hemácias fagocitadas** (eritrofagocitose): ***Entamoeba histolytica***. Os trofozoítos invadem a parede do cólon e formam **úlceras em forma de frasco (em botão de camisa)**. Podem chegar ao fígado pela veia porta e causar **abscesso hepático amebiano**. O tratamento é **metronidazol**, seguido de um agente luminal como a **paromomicina**. A alternativa errada mais tentadora são os **abscessos de cripta** da retocolite ulcerativa, que também causa diarreia com sangue, mas a história de viagem e o organismo nas fezes apontam para amebíase. Granulomas sugerem doença de Crohn, pseudomembranas sugerem *C. difficile*, e organismos em forma de pera na superfície sugerem *Giardia*, que causa diarreia sem sangue.",
+      "image_url": "images/microbiology/entamoeba-1.jpg",
+      "image_credit": "CDC/ Dr. Mae Melvin; Dr. Greene, CC0, https://commons.wikimedia.org/wiki/File:Micrograph_of_Entamoeba_histolytica.jpg"
+    },
+    {
+      "slug": "q-img-microbiology-trypanosoma",
+      "track": "step1",
+      "system": "microbiology",
+      "discipline": "microbiology",
+      "tags": ["images-microbiology", "parasitology", "vector-borne"],
+      "stem": "A 9-year-old boy who lives in a mud-walled house in rural Bolivia has had fever for 1 week and painless swelling of one eyelid. A Giemsa-stained blood smear is shown (six fields). Without treatment, which long-term problem is this child most at risk for?",
+      "choices": [
+        "Hepatosplenomegaly with fever and pancytopenia",
+        "Progressive daytime sleepiness and confusion",
+        "Lymphedema of the legs and scrotum",
+        "Squamous cell carcinoma of the bladder",
+        "Dilated cardiomyopathy and megaesophagus or megacolon"
+      ],
+      "correct": 4,
+      "explanation": "The smear shows **C-shaped trypomastigotes** with a flagellum and an undulating membrane between red cells: ***Trypanosoma cruzi*** (Chagas disease), spread by the **reduviid (kissing) bug**, which lives in cracks of mud walls. Eyelid swelling at the entry site is the **Romaña sign**. Years later, chronic disease damages the heart and the gut nerves, causing **dilated cardiomyopathy**, **megaesophagus** and **megacolon**. Treatment: **benznidazole** or nifurtimox. The most tempting wrong answer is **daytime sleepiness**: *T. brucei* looks similar on a smear, but it causes African sleeping sickness and is spread by the tsetse fly in Africa. Pancytopenia with a large spleen fits visceral leishmaniasis, lymphedema fits filariasis, and bladder cancer fits *Schistosoma haematobium*.",
+      "explanation_pt": "O esfregaço mostra **tripomastigotas em forma de C** com flagelo e membrana ondulante entre as hemácias: ***Trypanosoma cruzi*** (doença de Chagas), transmitido pelo **barbeiro (triatomíneo)**, que vive nas frestas das paredes de barro. O edema palpebral na porta de entrada é o **sinal de Romaña**. Anos depois, a doença crônica lesa o coração e os nervos do tubo digestivo, causando **cardiomiopatia dilatada**, **megaesôfago** e **megacólon**. Tratamento: **benznidazol** ou nifurtimox. A alternativa errada mais tentadora é a **sonolência diurna**: o *T. brucei* é parecido no esfregaço, mas causa a doença do sono africana e é transmitido pela mosca tsé-tsé na África. Pancitopenia com baço grande sugere leishmaniose visceral, linfedema sugere filariose e câncer de bexiga sugere *Schistosoma haematobium*.",
+      "image_url": "images/microbiology/trypanosoma-1.jpg",
+      "image_credit": "Dr Graham Beards, CC BY-SA 4.0, https://commons.wikimedia.org/wiki/File:Trypanosoma_cruzi_in_a_blood_smear.jpg"
+    },
+    {
+      "slug": "q-img-microbiology-coccidioides",
+      "track": "step1",
+      "system": "microbiology",
+      "discipline": "microbiology",
+      "tags": ["images-microbiology", "mycology", "dimorphic-fungi"],
+      "stem": "A 38-year-old construction worker in Arizona has had cough, fever and chest pain for 3 weeks. He also has painful red nodules on both shins. Chest x-ray shows a right lower lobe infiltrate with hilar lymphadenopathy. He does not improve, and a lung biopsy is shown (H&E). Which organism is most likely?",
+      "choices": [
+        "Histoplasma capsulatum",
+        "Blastomyces dermatitidis",
+        "Coccidioides immitis",
+        "Cryptococcus neoformans",
+        "Paracoccidioides brasiliensis"
+      ],
+      "correct": 2,
+      "explanation": "The biopsy shows a **large spherule filled with endospores**, surrounded by neutrophils: ***Coccidioides immitis***. It lives in the **soil of the southwestern US**; digging and dust release **arthroconidia** that are inhaled. Painful shin nodules are **erythema nodosum**, common in this infection. The most tempting wrong answer is ***Histoplasma***, which can cause a similar lung illness, but it appears as **tiny yeasts inside macrophages**, not a large spherule. *Blastomyces* shows broad-based budding, *Cryptococcus* is a capsulated yeast, and *Paracoccidioides* shows a yeast with many buds (*captain's wheel*).",
+      "explanation_pt": "A biópsia mostra uma **esférula grande cheia de endósporos**, cercada por neutrófilos: ***Coccidioides immitis***. Ele vive no **solo do sudoeste dos EUA**; escavações e poeira liberam **artroconídios** que são inalados. Os nódulos dolorosos nas pernas são **eritema nodoso**, comum nessa infecção. A alternativa errada mais tentadora é o ***Histoplasma***, que pode causar quadro pulmonar parecido, mas aparece como **leveduras minúsculas dentro de macrófagos**, e não como esférula grande. *Blastomyces* mostra brotamento de base larga, *Cryptococcus* é uma levedura capsulada e *Paracoccidioides* mostra levedura com vários brotos (*roda de leme*).",
+      "image_url": "images/microbiology/coccidioides-1.jpg",
+      "image_credit": "CDC/Dr. Lucille K. Georg, Public domain, https://commons.wikimedia.org/wiki/File:Mature_spherule_with_endospores_of_Coccidioides_immitis_PHIL_480_lores.jpg"
+    },
+    {
+      "slug": "q-img-microbiology-mucor",
+      "track": "step1",
+      "system": "microbiology",
+      "discipline": "microbiology",
+      "tags": ["images-microbiology", "mycology", "opportunistic-fungi"],
+      "stem": "A 52-year-old woman with poorly controlled type 1 diabetes is admitted with diabetic ketoacidosis. She has facial pain, a swollen left eye and black, dead tissue on the nasal turbinate. A biopsy of the black tissue is shown (H&E). Along with urgent surgical removal of dead tissue, which drug is the best initial treatment?",
+      "choices": [
+        "Voriconazole",
+        "Amphotericin B",
+        "Caspofungin",
+        "Fluconazole",
+        "Flucytosine"
+      ],
+      "correct": 1,
+      "explanation": "The biopsy shows **broad, ribbon-like hyphae** with **few or no septa** and **wide-angle (up to 90°) branching** inside a blood vessel: **mucormycosis** (*Mucor*, *Rhizopus*). Ketoacidosis favors fungal growth, and the fungus invades vessels and spreads from the sinuses to the orbit and brain. Treatment is **surgical debridement plus amphotericin B**. The most tempting wrong answer is **voriconazole**: it is the drug of choice for *Aspergillus* (thin septate hyphae with acute-angle branching), but the Mucorales are resistant to it. Caspofungin and fluconazole do not work well against these molds, and flucytosine is not used alone.",
+      "explanation_pt": "A biópsia mostra **hifas largas, em forma de fita**, com **poucos ou nenhum septo** e **ramificação em ângulo amplo (até 90°)** dentro de um vaso sanguíneo: **mucormicose** (*Mucor*, *Rhizopus*). A cetoacidose favorece o crescimento do fungo, que invade vasos e se espalha dos seios da face para a órbita e o cérebro. O tratamento é **desbridamento cirúrgico mais anfotericina B**. A alternativa errada mais tentadora é o **voriconazol**: é o fármaco de escolha para *Aspergillus* (hifas finas e septadas com ramificação em ângulo agudo), mas os Mucorales são resistentes a ele. Caspofungina e fluconazol não agem bem contra esses fungos filamentosos, e a flucitosina não é usada isoladamente.",
+      "image_url": "images/microbiology/mucor-1.jpg",
+      "image_credit": "Yale Rosen from USA, CC BY-SA 2.0, https://commons.wikimedia.org/wiki/File:Zygomycosis_Mucormycosis_(13430751363).jpg"
+    }
+  ],
+  "notes": []
+}
