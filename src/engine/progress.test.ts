@@ -1,4 +1,4 @@
-import { doneToday, parseSnapshot } from './progress';
+import { doneToday, parseSnapshot, sinceBase } from './progress';
 
 const NOW = new Date(2026, 9, 7, 12); // local
 const iso = (month: number, day: number, h: number, m: number) => new Date(2026, month, day, h, m).toISOString();
@@ -33,19 +33,31 @@ const tasks = [
   { kind: 'questions', system: 'renal', count: 10, minutes: 15 },
 ];
 
-test('parseSnapshot returns the saved plan when minutes match', () => {
-  expect(parseSnapshot(JSON.stringify({ minutes: 60, tasks }), 60)).toEqual({ minutes: 60, tasks });
+const base = { cards: 3, questions: { renal: 2 } };
+const snap = (o: Record<string, unknown> = {}) => JSON.stringify({ minutes: 60, tasks, base, hasCompletedRun: true, ...o });
+
+test('parseSnapshot returns the saved plan with its baseline when minutes and diagnostic state match', () => {
+  expect(parseSnapshot(snap(), 60, true)).toEqual({ minutes: 60, tasks, base, hasCompletedRun: true });
 });
 
-test('parseSnapshot rejects a different minutes value, missing, corrupt or malformed snapshots', () => {
-  expect(parseSnapshot(JSON.stringify({ minutes: 30, tasks }), 60)).toBeNull();
+test('parseSnapshot rejects other minutes, a changed diagnostic state, a bad baseline, missing, corrupt or malformed snapshots', () => {
+  expect(parseSnapshot(snap({ minutes: 30 }), 60, true)).toBeNull();
+  expect(parseSnapshot(snap({ hasCompletedRun: false }), 60, true)).toBeNull();
+  for (const b of [undefined, null, {}, { cards: -1, questions: {} }, { cards: 1.5, questions: {} }, { cards: 0 }, { cards: 0, questions: { renal: -1 } }, { cards: 0, questions: { renal: 'x' } }, { cards: 0, questions: [] }])
+    expect(parseSnapshot(snap({ base: b }), 60, true)).toBeNull();
   for (const raw of [
-    null, '', '{not json', 'null', '42', JSON.stringify({ minutes: 60 }), JSON.stringify({ minutes: 60, tasks: {} }),
-    JSON.stringify({ minutes: 60, tasks: [{ kind: 'cards', count: -1, minutes: 2 }] }),
-    JSON.stringify({ minutes: 60, tasks: [{ kind: 'questions', count: 3, minutes: 2 }] }),
-    JSON.stringify({ minutes: 60, tasks: [{ kind: 'note', minutes: 6 }] }),
-    JSON.stringify({ minutes: 60, tasks: [{ kind: 'video', minutes: 6 }] }),
-    JSON.stringify({ minutes: 60, tasks: [{ kind: 'cards', count: 2, minutes: 'x' }] }),
-    JSON.stringify({ minutes: 60, tasks: [null] }),
-  ]) expect(parseSnapshot(raw, 60)).toBeNull();
+    null, '', '{not json', 'null', '42', snap({ tasks: undefined }), snap({ tasks: {} }),
+    snap({ tasks: [{ kind: 'cards', count: -1, minutes: 2 }] }),
+    snap({ tasks: [{ kind: 'questions', count: 3, minutes: 2 }] }),
+    snap({ tasks: [{ kind: 'note', minutes: 6 }] }),
+    snap({ tasks: [{ kind: 'video', minutes: 6 }] }),
+    snap({ tasks: [{ kind: 'cards', count: 2, minutes: 'x' }] }),
+    snap({ tasks: [null] }),
+  ]) expect(parseSnapshot(raw, 60, true)).toBeNull();
+});
+
+test('sinceBase: progress since the plan was made, never negative', () => {
+  const now = { cards: 10, questions: { renal: 5, nervous: 1 } };
+  expect(sinceBase(now, { cards: 4, questions: { renal: 2 } })).toEqual({ cards: 6, questions: { renal: 3, nervous: 1 } });
+  expect(sinceBase({ cards: 1, questions: {} }, { cards: 4, questions: { renal: 2 } })).toEqual({ cards: 0, questions: {} });
 });
