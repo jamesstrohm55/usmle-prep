@@ -1,0 +1,343 @@
+{
+  "cards": [
+    {
+      "slug": "card-confidentiality-law-good-samaritan",
+      "track": "step1",
+      "system": "behavioral-science",
+      "discipline": "pathology",
+      "tags": [
+        "confidentiality-law",
+        "good-samaritan"
+      ],
+      "front": "What do Good Samaritan laws protect in the US?",
+      "back": "They protect a person who gives **voluntary emergency help** in good faith and **without payment**, outside the normal work setting (e.g., on an airplane), from liability for ordinary negligence. They do **not** cover **gross negligence** or intentional misconduct.",
+      "back_pt": "Protegem quem presta **socorro de emergência voluntário**, de boa-fé e **sem remuneração**, fora do ambiente habitual de trabalho (ex.: em um avião), contra responsabilização por negligência comum. **Não** cobrem **negligência grave** nem conduta intencional."
+    },
+    {
+      "slug": "card-confidentiality-law-psychotherapy-notes",
+      "track": "step1",
+      "system": "behavioral-science",
+      "discipline": "pathology",
+      "tags": [
+        "confidentiality-law",
+        "hipaa"
+      ],
+      "front": "Under HIPAA, how are a therapist's psychotherapy notes treated differently from the rest of the medical record?",
+      "back": "**Psychotherapy notes** (the therapist's private session notes, kept apart from the chart) need the patient's **specific written authorization** for most disclosures, even to other treating clinicians, and patients have **no automatic right** to see them.",
+      "back_pt": "As **notas de psicoterapia** (anotações pessoais do terapeuta sobre as sessões, guardadas fora do prontuário) exigem **autorização escrita específica** do paciente para a maioria das divulgações, mesmo para outros profissionais que tratam o paciente, e o paciente **não tem direito automático** de acessá-las."
+    },
+    {
+      "slug": "card-confidentiality-law-vegetative-vs-minimally-conscious",
+      "track": "step1",
+      "system": "behavioral-science",
+      "discipline": "pathology",
+      "tags": [
+        "confidentiality-law",
+        "disorders-of-consciousness"
+      ],
+      "front": "How does a vegetative state differ from a minimally conscious state?",
+      "back": "**Vegetative state**: eyes open and sleep-wake cycles return, but there is **no sign of awareness**. **Minimally conscious state**: small, **inconsistent but real signs of awareness**, such as following a command or tracking objects with the eyes. Neither is **brain death**.",
+      "back_pt": "**Estado vegetativo**: a abertura ocular e os ciclos sono-vigília retornam, mas **não há sinal de consciência**. **Estado minimamente consciente**: sinais de consciência **pequenos e inconstantes, porém reais**, como obedecer a um comando ou seguir objetos com o olhar. Nenhum dos dois é **morte encefálica**."
+    },
+    {
+      "slug": "card-confidentiality-law-assisted-suicide-vs-euthanasia",
+      "track": "step1",
+      "system": "behavioral-science",
+      "discipline": "pathology",
+      "tags": [
+        "confidentiality-law",
+        "end-of-life"
+      ],
+      "front": "What separates physician-assisted suicide from euthanasia in US law?",
+      "back": "In **physician-assisted suicide**, the physician prescribes a lethal drug and the **patient takes it himself or herself**; it is legal only in some states. In **euthanasia**, the **physician gives** the lethal drug; it is **illegal in every US state**.",
+      "back_pt": "No **suicídio assistido por médico**, o médico prescreve um medicamento letal e o **próprio paciente o toma**; é legal apenas em alguns estados. Na **eutanásia**, o **médico administra** o medicamento letal; é **ilegal em todos os estados** dos EUA."
+    },
+    {
+      "slug": "card-confidentiality-law-hospice-eligibility",
+      "track": "step1",
+      "system": "behavioral-science",
+      "discipline": "pathology",
+      "tags": [
+        "confidentiality-law",
+        "hospice"
+      ],
+      "front": "Which patients qualify for hospice care in the US?",
+      "back": "Patients with an expected **survival of 6 months or less** if the illness follows its usual course, who choose **comfort-focused care** instead of curative treatment for that illness. A patient who lives longer can stay in hospice after being recertified.",
+      "back_pt": "Pacientes com **sobrevida esperada de 6 meses ou menos** se a doença seguir seu curso habitual, que escolhem **cuidados voltados ao conforto** em vez de tratamento curativo dessa doença. Um paciente que vive mais pode continuar no *hospice* após recertificação."
+    }
+  ],
+  "questions": [
+    {
+      "slug": "q-confidentiality-law-seizure-driving",
+      "track": "step1",
+      "system": "behavioral-science",
+      "discipline": "pathology",
+      "tags": [
+        "confidentiality-law",
+        "impaired-driver",
+        "public-safety"
+      ],
+      "stem": "A 38-year-old man is seen in clinic 2 days after his first generalized tonic-clonic seizure, which happened at home. MRI of the brain and EEG are pending. The physician explains the risk of another seizure and tells him not to drive until he is cleared. In his state, physicians are allowed, but not required, to report drivers who are unsafe because of a medical condition. The man says he cannot lose his job and will drive his car to work every day, starting tomorrow. What is the most appropriate next step?",
+      "choices": [
+        "Keep his decision confidential and document the advice given",
+        "Call his employer to explain that he cannot drive safely",
+        "Ask his wife to hide his car keys",
+        "Report him to the state motor vehicle agency",
+        "Start an antiseizure drug and allow him to drive once it reaches a steady level"
+      ],
+      "correct": 3,
+      "explanation": "A patient who keeps driving after a seizure despite counseling puts **other people** at risk, so **public safety** outweighs confidentiality here. When counseling fails, the physician should tell him about the report and then report him to the state **motor vehicle agency**, following state law (some states require it; others, like his, allow it). Keeping the secret is tempting because the report is not mandatory in his state, but a permissive law still lets the physician act, and a known, ongoing danger to others justifies it. His employer and his wife are not the proper channel, and a new drug does not make him safe to drive right away.",
+      "explanation_pt": "Um paciente que continua dirigindo após uma crise convulsiva, apesar da orientação, coloca **outras pessoas** em risco, por isso a **segurança pública** se sobrepõe ao sigilo neste caso. Quando a orientação não funciona, o médico deve informá-lo e então comunicar o caso ao **órgão estadual de trânsito** (equivalente ao Detran), conforme a lei do estado (alguns estados exigem a notificação; outros, como o dele, a permitem). Manter o sigilo é tentador porque a notificação não é obrigatória no estado dele, mas uma lei permissiva ainda autoriza o médico a agir, e um perigo conhecido e contínuo para terceiros justifica isso. O empregador e a esposa não são o canal adequado, e um novo medicamento não o torna apto a dirigir de imediato."
+    },
+    {
+      "slug": "q-confidentiality-law-subpoena",
+      "track": "step1",
+      "system": "behavioral-science",
+      "discipline": "pathology",
+      "tags": [
+        "confidentiality-law",
+        "hipaa",
+        "subpoena"
+      ],
+      "stem": "A 52-year-old woman was treated by a family physician for a back injury after a car crash. Six months later, the physician's office receives a subpoena from the lawyer of the other driver, asking for her complete medical record. The subpoena is signed by the lawyer, not by a judge. The patient has not signed any authorization to release her records. No notice to the patient or protective order accompanies the request. What is the most appropriate next step?",
+      "choices": [
+        "Contact the patient and the practice's legal counsel before releasing any records",
+        "Send the complete record to the lawyer before the stated deadline",
+        "Send only the records about the back injury to the lawyer",
+        "Discard the subpoena because a lawyer's request has no legal force",
+        "Release the records because HIPAA allows any disclosure for a lawsuit"
+      ],
+      "correct": 0,
+      "explanation": "A lawyer's **subpoena** is not the same as a **court order** signed by a judge. Under **HIPAA**, records can be released in response to a subpoena only with the patient's **written authorization** or with proof that the patient was notified or a protective order was requested, so the physician should involve the patient and legal counsel first. Sending only the back-injury records is tempting because it looks like **minimum necessary**, but it still discloses information without a valid legal basis. The subpoena cannot simply be ignored either; it needs a formal legal response.",
+      "explanation_pt": "A **intimação** (*subpoena*) emitida por um advogado não é o mesmo que uma **ordem judicial** assinada por um juiz. Pela **HIPAA**, o prontuário só pode ser liberado em resposta a uma intimação com **autorização escrita** do paciente ou com comprovação de que o paciente foi avisado ou de que foi pedida uma ordem de proteção qualificada (*qualified protective order*), por isso o médico deve envolver primeiro a paciente e a assessoria jurídica. Enviar apenas os registros sobre a lesão nas costas é tentador porque parece respeitar o **mínimo necessário**, mas ainda divulga informações sem base legal válida. A intimação também não pode simplesmente ser ignorada; exige uma resposta jurídica formal."
+    },
+    {
+      "slug": "q-confidentiality-law-reportable-syphilis",
+      "track": "step1",
+      "system": "behavioral-science",
+      "discipline": "pathology",
+      "tags": [
+        "confidentiality-law",
+        "reportable-disease"
+      ],
+      "stem": "A 29-year-old man comes to the clinic with a rash on his palms and soles and painless swollen lymph nodes. Rapid plasma reagin and treponemal antibody tests are both positive. He is married and also has a male partner. He agrees to treatment but asks the physician not to tell anyone, including any government office, about the diagnosis. In addition to treating him, what is the most appropriate action?",
+      "choices": [
+        "Keep the diagnosis confidential as he requested",
+        "Call his wife to tell her she may be infected",
+        "Report the diagnosis only if he refuses treatment",
+        "Delay treatment until he agrees to tell his partners",
+        "Report the case to the public health department"
+      ],
+      "correct": 4,
+      "explanation": "**Syphilis** is a **reportable disease**, so the physician must report it to the **public health department** whether or not the patient agrees. Public health staff can then carry out **partner notification** without naming him. Calling his wife directly is tempting, but the usual path is to encourage him to tell his partners and let public health notify them; a call from the physician first is an unnecessary breach. Reporting does not depend on whether he accepts treatment, and treatment must never be held back to force disclosure.",
+      "explanation_pt": "A **sífilis** é uma **doença de notificação compulsória**, por isso o médico deve notificá-la ao **departamento de saúde pública**, com ou sem a concordância do paciente. A equipe de saúde pública pode então fazer a **notificação dos parceiros** sem identificá-lo. Ligar diretamente para a esposa é tentador, mas o caminho habitual é incentivá-lo a contar aos parceiros e deixar que a saúde pública os avise; uma ligação do médico logo de início é uma quebra de sigilo desnecessária. A notificação não depende de ele aceitar o tratamento, e o tratamento nunca deve ser adiado para forçar a revelação."
+    },
+    {
+      "slug": "q-confidentiality-law-intimate-partner-violence",
+      "track": "step1",
+      "system": "behavioral-science",
+      "discipline": "pathology",
+      "tags": [
+        "confidentiality-law",
+        "intimate-partner-violence"
+      ],
+      "stem": "A 34-year-old woman comes to the emergency department with a bruised cheek and a swollen wrist. X-ray shows no fracture. When asked alone, she says her husband hit her last night, and this has happened several times this year. She has decision-making capacity and does not want the police involved. State law does not require reporting of her injuries. She plans to go home tonight. She has no children, and there are no guns in the home. What is the most appropriate next step?",
+      "choices": [
+        "Report the assault to the police despite her wishes",
+        "Assess her safety and help her make a safety plan",
+        "Keep her in the hospital until she agrees to leave her husband",
+        "Call her husband to discuss her injuries with him",
+        "Recommend couples counseling with her husband"
+      ],
+      "correct": 1,
+      "explanation": "For a competent adult, **intimate partner violence** is generally **not** a mandatory report, so her wish not to involve the police should be respected. The physician should **document** the injuries, **assess her immediate danger**, and help her build a **safety plan** with shelter and hotline resources. Reporting to the police is tempting, but against her will it can increase her danger and break her trust; only some states have special reporting rules for certain injuries. Couples counseling is not advised while abuse is ongoing, and contacting the husband can put her at risk.",
+      "explanation_pt": "Em um adulto capaz, a **violência por parceiro íntimo** geralmente **não** é de notificação obrigatória, por isso o desejo dela de não envolver a polícia deve ser respeitado. O médico deve **documentar** as lesões, **avaliar o perigo imediato** e ajudá-la a montar um **plano de segurança**, com contatos de abrigos e linhas de apoio. Notificar a polícia é tentador, mas contra a vontade dela isso pode aumentar o perigo e quebrar a confiança; apenas alguns estados têm regras especiais de notificação para certas lesões. Terapia de casal não é indicada enquanto a violência continua, e contatar o marido pode colocá-la em risco."
+    },
+    {
+      "slug": "q-confidentiality-law-malpractice-causation",
+      "track": "step1",
+      "system": "behavioral-science",
+      "discipline": "pathology",
+      "tags": [
+        "confidentiality-law",
+        "malpractice"
+      ],
+      "stem": "A 45-year-old man goes to an urgent care clinic after twisting his ankle. He has tenderness over the lateral malleolus and cannot bear weight. Standard practice calls for an x-ray, but the physician diagnoses a sprain and orders no imaging. Two weeks later, the man breaks his wrist as a passenger in a car crash. In the emergency department, a nondisplaced ankle fracture is also found; it heals normally. He sues the urgent care physician for the wrist fracture. Which element of a malpractice claim is missing?",
+      "choices": [
+        "Direct causation",
+        "Damages",
+        "Dereliction of duty",
+        "Duty to the patient",
+        "Lack of informed consent"
+      ],
+      "correct": 0,
+      "explanation": "Malpractice needs all **four D's**: a **duty** to the patient, **dereliction** (care below the **standard of care**), **damages**, and **direct causation** linking the dereliction to the damages. Here the duty and the dereliction (no x-ray) are present, and the wrist fracture is a real injury, but the missed x-ray did not cause the car crash. Damages is tempting, but the wrist fracture is real harm; what is missing is a link between the missed x-ray and that harm. The missed ankle fracture healed normally, so it caused no damages either.",
+      "explanation_pt": "A ação por erro médico exige os **quatro D's** (em inglês): **dever** para com o paciente (*duty*), **descumprimento** do dever (*dereliction*, cuidado abaixo do **padrão de cuidado**), **dano** (*damages*) e **nexo causal direto** (*direct causation*) entre o descumprimento e o dano. Aqui existem o dever e o descumprimento (não pedir radiografia), e a fratura do punho é uma lesão real, mas a radiografia não realizada não causou o acidente de carro. É tentador escolher o dano, mas a fratura do punho é um dano real; o que falta é a ligação entre a radiografia não realizada e esse dano. A fratura do tornozelo consolidou normalmente, portanto também não causou dano."
+    },
+    {
+      "slug": "q-confidentiality-law-ending-the-relationship",
+      "track": "step1",
+      "system": "behavioral-science",
+      "discipline": "pathology",
+      "tags": [
+        "confidentiality-law",
+        "patient-abandonment"
+      ],
+      "stem": "A 61-year-old man with type 2 diabetes and heart failure has seen the same primary care physician for 4 years. Over the last year he has repeatedly shouted at staff, missed many visits, and rejected every treatment plan. After several documented discussions, the physician decides to end the relationship. The man uses insulin and diuretics and needs ongoing care. What is the most appropriate way to end the relationship?",
+      "choices": [
+        "Tell him at his next visit that he must leave the practice the same day",
+        "Stop booking his visits and have the front desk explain the reason by phone",
+        "Give written notice and keep providing care for a reasonable period while he finds a new physician",
+        "Ask the hospital ethics committee to approve the dismissal before acting",
+        "Move his care to a colleague in the same practice without discussing it with him"
+      ],
+      "correct": 2,
+      "explanation": "A physician may end a relationship for reasons such as ongoing disruptive behavior, but must avoid **patient abandonment**. This means **written notice**, a **reasonable time** to find another physician, continued care (including urgent care) during that time, and help with referral and the transfer of records. Ending care the same day is tempting after a long conflict, but for a man on insulin and diuretics a sudden gap in care can cause harm and counts as abandonment. No ethics committee approval is needed.",
+      "explanation_pt": "O médico pode encerrar a relação por motivos como comportamento inadequado persistente, mas deve evitar o **abandono do paciente**. Isso significa **aviso por escrito**, um **prazo razoável** para encontrar outro médico, manutenção do atendimento (inclusive de urgência) nesse período e ajuda com o encaminhamento e a transferência do prontuário. Encerrar o atendimento no mesmo dia é tentador após um longo conflito, mas para um homem em uso de insulina e diuréticos uma interrupção súbita do cuidado pode causar dano e configura abandono. Não é necessária aprovação do comitê de ética."
+    },
+    {
+      "slug": "q-confidentiality-law-former-patient-romance",
+      "track": "step1",
+      "system": "behavioral-science",
+      "discipline": "pathology",
+      "tags": [
+        "confidentiality-law",
+        "boundaries"
+      ],
+      "stem": "A 40-year-old psychiatrist treated a 33-year-old woman with weekly psychotherapy for depression for 2 years. Treatment ended successfully 18 months ago. They meet again by chance at a friend's party, and she asks him out to dinner. Both are single. What is the most appropriate response by the psychiatrist?",
+      "choices": [
+        "Accept, because more than a year has passed since treatment ended",
+        "Accept after he reviews her chart to make sure she is stable",
+        "Accept if another psychiatrist first evaluates her and agrees",
+        "Politely decline the invitation",
+        "Tell her he can accept once 2 years have passed since treatment ended"
+      ],
+      "correct": 3,
+      "explanation": "For **psychiatrists**, a romantic or sexual relationship with a **current or former patient** is unethical, with no waiting period, because the **transference** and power imbalance of psychotherapy persist after treatment ends. A waiting period is tempting because other specialties judge relationships with former patients case by case, but that does not apply to a former psychotherapy patient. Reading her chart for a personal reason would also be a privacy violation.",
+      "explanation_pt": "Para **psiquiatras**, uma relação amorosa ou sexual com **paciente atual ou antigo** é antiética, sem período de espera, porque a **transferência** e o desequilíbrio de poder da psicoterapia persistem após o fim do tratamento. Um período de espera é tentador porque outras especialidades avaliam relações com ex-pacientes caso a caso, mas isso não se aplica a uma ex-paciente de psicoterapia. Consultar o prontuário dela por motivo pessoal também seria uma violação de privacidade."
+    },
+    {
+      "slug": "q-confidentiality-law-dnr-in-the-or",
+      "track": "step1",
+      "system": "behavioral-science",
+      "discipline": "pathology",
+      "tags": [
+        "confidentiality-law",
+        "code-status",
+        "dnr"
+      ],
+      "stem": "An 84-year-old woman with advanced COPD has a do-not-resuscitate (DNR) order. She has decision-making capacity. She fractures her hip and agrees to surgical repair to control pain and allow her to sit in a chair. On the morning of surgery, the anesthesia resident says that DNR orders are automatically suspended in the operating room. What is the most appropriate next step?",
+      "choices": [
+        "Proceed with surgery and restore the DNR order after recovery",
+        "Cancel the surgery because anesthesia is not compatible with a DNR order",
+        "Ask her daughter to decide on her code status during surgery",
+        "Ask the hospital ethics committee to review the DNR order",
+        "Review with the patient how she wants the DNR order applied during surgery"
+      ],
+      "correct": 4,
+      "explanation": "A DNR order is **not automatically suspended** in the operating room. The team should do a **required reconsideration**: discuss with the patient which interventions she accepts during anesthesia (for example, intubation and drugs for low blood pressure, but not chest compressions) and document the plan. Automatic suspension is tempting because anesthesia often causes events that look like an arrest, but it ignores her **autonomy**. She has capacity, so her daughter is not the decision-maker, and an ethics consult is not needed before simply asking her.",
+      "explanation_pt": "Uma ordem de não reanimar (ONR) **não é suspensa automaticamente** no centro cirúrgico. A equipe deve fazer uma **reconsideração obrigatória**: discutir com a paciente quais intervenções ela aceita durante a anestesia (por exemplo, intubação e drogas para hipotensão, mas não compressões torácicas) e documentar o plano. A suspensão automática é tentadora porque a anestesia frequentemente causa eventos que parecem uma parada cardíaca, mas ignora a **autonomia** dela. Ela tem capacidade, então a filha não é quem decide, e não é preciso consultar o comitê de ética antes de simplesmente perguntar a ela."
+    },
+    {
+      "slug": "q-confidentiality-law-brain-death-confounders",
+      "track": "step1",
+      "system": "behavioral-science",
+      "discipline": "pathology",
+      "tags": [
+        "confidentiality-law",
+        "brain-death"
+      ],
+      "stem": "A 50-year-old man is in the intensive care unit 1 day after a prolonged cardiac arrest. He was treated with targeted temperature management and is being rewarmed; core temperature is now 33°C (91.4°F). He received a continuous midazolam infusion until 2 hours ago. He has no pupillary, corneal, or cough reflexes and does not breathe above the ventilator rate. CT of the head shows diffuse cerebral edema. The family asks whether he is brain dead. What is the most appropriate next step?",
+      "choices": [
+        "Restore normal temperature and let the sedative clear, then repeat the exam",
+        "Perform an apnea test now",
+        "Declare brain death based on the exam and CT findings",
+        "Obtain an EEG now to confirm brain death",
+        "Ask the family for consent before testing for brain death"
+      ],
+      "correct": 0,
+      "explanation": "Brain death can be declared only after **confounders** are excluded, such as **hypothermia**, **sedative drugs** and severe metabolic disturbances. This patient is still cold and recently received midazolam, and both can suppress brainstem reflexes and breathing, so the exam is not valid yet. An EEG is tempting as a quick confirmation, but **ancillary tests** do not replace correcting confounders, and sedatives also suppress the EEG. An apnea test or a declaration now would be premature.",
+      "explanation_pt": "A morte encefálica só pode ser declarada após excluir **fatores de confusão**, como **hipotermia**, **sedativos** e distúrbios metabólicos graves. Este paciente ainda está hipotérmico e recebeu midazolam recentemente, e ambos podem suprimir os reflexos do tronco encefálico e a respiração, portanto o exame ainda não é válido. Um EEG é tentador como confirmação rápida, mas os **exames complementares** não substituem a correção dos fatores de confusão, e os sedativos também suprimem o EEG. Um teste de apneia ou uma declaração agora seriam prematuros."
+    },
+    {
+      "slug": "q-confidentiality-law-organ-procurement-referral",
+      "track": "step1",
+      "system": "behavioral-science",
+      "discipline": "pathology",
+      "tags": [
+        "confidentiality-law",
+        "organ-donation"
+      ],
+      "stem": "A 27-year-old man has a severe brain injury after a motorcycle crash and is on a ventilator. He still has a cough reflex and breathes above the ventilator rate, so he does not meet brain death criteria. After a meeting with the team, his family decides to withdraw life support tomorrow. A resident who has a good relationship with the family wants to ask them about organ donation today. What is the most appropriate next step?",
+      "choices": [
+        "Have the resident raise donation with the family at the bedside today",
+        "Wait until after his death to ask the family about donation",
+        "Avoid the subject of donation because he is not brain dead",
+        "Ask the transplant surgeon to speak with the family",
+        "Notify the organ procurement organization"
+      ],
+      "correct": 4,
+      "explanation": "Hospitals must notify the **organ procurement organization (OPO)** about every death that is expected soon. Trained OPO staff decide whether donation is possible and then approach the family, and this request is kept separate from the decision to withdraw care. The resident asking is tempting because of the good rapport, but the treating team's role is to care for the patient, and keeping the two discussions apart avoids any impression that care was stopped for the sake of donation. He can still donate after **circulatory death** even though he is not brain dead, and the transplant team must stay out of his care and the declaration of death.",
+      "explanation_pt": "Os hospitais devem notificar a **organização de procura de órgãos (OPO)** sobre todo óbito esperado em breve. A equipe treinada da OPO avalia se a doação é possível e então aborda a família, e esse pedido é mantido separado da decisão de retirar o suporte. É tentador que o residente faça o pedido por causa do bom vínculo, mas o papel da equipe assistente é cuidar do paciente, e manter as duas conversas separadas evita qualquer impressão de que o suporte foi retirado em função da doação. Ele ainda pode doar após **morte circulatória**, mesmo sem morte encefálica, e a equipe de transplante deve ficar fora do cuidado dele e da declaração do óbito."
+    },
+    {
+      "slug": "q-confidentiality-law-double-effect",
+      "track": "step1",
+      "system": "behavioral-science",
+      "discipline": "pathology",
+      "tags": [
+        "confidentiality-law",
+        "palliative-care",
+        "double-effect"
+      ],
+      "stem": "A 72-year-old woman with metastatic lung cancer is in the hospital on comfort care only. She has a DNR order and has refused noninvasive ventilation. She has severe shortness of breath at rest despite her current dose of intravenous morphine. Her respiratory rate is 32/min, and she is alert and anxious. Her son fears that more morphine will make her die sooner. What is the most appropriate next step?",
+      "choices": [
+        "Keep the morphine dose the same to avoid hastening her death",
+        "Increase the morphine dose until her breathlessness is relieved",
+        "Start continuous deep sedation until death",
+        "Transfer her to the intensive care unit for noninvasive ventilation",
+        "Obtain an ethics consultation before changing any medication"
+      ],
+      "correct": 1,
+      "explanation": "When the goal is comfort, increasing the opioid until the symptom is relieved is appropriate even if it might shorten life; this is the principle of **double effect** (the intent is relief, not death). Opioids titrated to symptoms rarely hasten death in practice. Continuous deep **palliative sedation** is tempting, but it is a last resort for symptoms that stay **refractory** after standard treatment, and her morphine has not yet been adjusted. Noninvasive ventilation goes against her stated refusal.",
+      "explanation_pt": "Quando o objetivo é o conforto, aumentar o opioide até aliviar o sintoma é adequado, mesmo que possa encurtar a vida; este é o princípio do **duplo efeito** (a intenção é o alívio, não a morte). Na prática, opioides titulados pelos sintomas raramente antecipam a morte. A **sedação paliativa** profunda e contínua é tentadora, mas é o último recurso para sintomas que continuam **refratários** após o tratamento padrão, e a morfina dela ainda não foi ajustada. A ventilação não invasiva contraria a recusa expressa da paciente."
+    },
+    {
+      "slug": "q-confidentiality-law-past-crime-confession",
+      "track": "step1",
+      "system": "behavioral-science",
+      "discipline": "pathology",
+      "tags": [
+        "confidentiality-law",
+        "tarasoff",
+        "confidentiality"
+      ],
+      "stem": "A 46-year-old man is in therapy with a psychiatrist for depression and guilt. In a session, he says that 15 years ago he set fire to an empty warehouse to collect insurance money and was never caught. He has no current plans to harm anyone, no weapons, and no violent acts since then. He asks whether the psychiatrist will tell the police. What is the most appropriate response?",
+      "choices": [
+        "Report the crime to the police because a serious crime was committed",
+        "Warn the owner of the warehouse about the fire",
+        "Keep the information confidential and continue therapy",
+        "Tell him therapy will end unless he confesses to the police",
+        "Contact the insurance company that paid the claim"
+      ],
+      "correct": 2,
+      "explanation": "Confidentiality exceptions such as the **Tarasoff** duty exist to protect people from **future** harm. A confession of a **past crime**, with no ongoing threat to an identifiable person, does not justify a breach, so the psychiatrist should keep it confidential and continue treatment. Reporting to the police is tempting because the crime was serious, but physicians have no general duty to report past crimes, and doing so would destroy trust in therapy.",
+      "explanation_pt": "Exceções ao sigilo, como o dever **Tarasoff**, existem para proteger pessoas de dano **futuro**. A confissão de um **crime passado**, sem ameaça atual a uma pessoa identificável, não justifica a quebra do sigilo, por isso o psiquiatra deve mantê-lo e continuar o tratamento. Notificar a polícia é tentador porque o crime foi grave, mas o médico não tem dever geral de denunciar crimes passados, e fazê-lo destruiria a confiança na terapia."
+    }
+  ],
+  "notes": [
+    {
+      "slug": "note-confidentiality-law-overview",
+      "track": "step1",
+      "system": "behavioral-science",
+      "discipline": "pathology",
+      "tags": [
+        "confidentiality-law",
+        "overview"
+      ],
+      "title": "Confidentiality, malpractice and end of life: US exam logic",
+      "body_md": "## Confidentiality: when to break it\n\n- Breaches protect others from **future** harm: a serious threat to an **identifiable person** (**Tarasoff**), **reportable diseases**, suspected **child or elder abuse**, and a medically **unsafe driver** who keeps driving after counseling.\n- A **past crime** with no current threat stays confidential.\n- **Intimate partner violence** in a competent adult: document, assess safety, make a **safety plan**; report only where state law requires it.\n- **HIPAA** allows sharing for **treatment, payment and operations** without authorization; outside treatment, share only the **minimum necessary**. Opening the chart of a patient you are not caring for is a violation.\n- Family members (also by phone) get information only with a capable patient's permission.\n- A lawyer's **subpoena** is not a judge's **court order**: involve the patient and legal counsel.\n\n## Malpractice\n\n- All **four D's** are needed: **duty**, **dereliction** (below the **standard of care**), **damages**, **direct causation**.\n- **Res ipsa loquitur**: the negligence is obvious without an expert, e.g., a sponge left in the abdomen.\n\n## The relationship\n\n- To end it: **written notice**, a reasonable transition period, and help with transfer; otherwise it is **abandonment**.\n- No romantic relationship with a current patient; for psychiatrists, not with a former patient either.\n\n## End of life\n\n- **Brain death**: known cause, **confounders excluded** (hypothermia, sedatives, metabolic), no brainstem reflexes, positive apnea test. Spinal reflexes may persist.\n- Notify the **OPO** of every expected death; OPO staff approach the family, and the transplant team stays out of the declaration of death. **Donation after circulatory death** does not require brain death.\n- A **DNR** order is **reconsidered** with the patient before surgery, not automatically suspended.\n- **Double effect**: opioids titrated for symptoms are acceptable even if they might shorten life. **Palliative sedation** is for refractory symptoms.\n- **Good Samaritan** laws protect unpaid, good-faith emergency help.",
+      "body_pt_md": "## Sigilo: quando quebrá-lo\n\n- As quebras protegem terceiros de dano **futuro**: ameaça grave a uma **pessoa identificável** (**Tarasoff**), **doenças de notificação compulsória**, suspeita de **maus-tratos a criança ou idoso** e um **motorista inapto** por condição médica que continua dirigindo após orientação.\n- Um **crime passado** sem ameaça atual continua em sigilo.\n- **Violência por parceiro íntimo** em adulto capaz: documentar, avaliar a segurança, fazer um **plano de segurança**; notificar apenas onde a lei estadual exige.\n- A **HIPAA** permite compartilhar para **tratamento, pagamento e operações** sem autorização; fora do tratamento, compartilhar apenas o **mínimo necessário**. Abrir o prontuário de um paciente de quem você não cuida é uma violação.\n- Familiares (também por telefone) só recebem informações com a permissão do paciente capaz.\n- A **intimação** (*subpoena*) de um advogado não é uma **ordem judicial** de um juiz: envolver o paciente e a assessoria jurídica.\n\n## Erro médico (*malpractice*)\n\n- Os **quatro D's** são necessários: **dever** (*duty*), **descumprimento** (*dereliction*, abaixo do **padrão de cuidado**), **dano** (*damages*), **nexo causal direto** (*direct causation*).\n- ***Res ipsa loquitur***: a negligência é evidente sem perito, ex.: compressa esquecida no abdome.\n\n## A relação médico-paciente\n\n- Para encerrá-la: **aviso por escrito**, um período razoável de transição e ajuda na transferência; caso contrário, é **abandono**.\n- Nenhuma relação amorosa com paciente atual; para psiquiatras, também não com ex-paciente.\n\n## Fim de vida\n\n- **Morte encefálica**: causa conhecida, **fatores de confusão excluídos** (hipotermia, sedativos, distúrbios metabólicos), ausência de reflexos do tronco encefálico, teste de apneia positivo. Reflexos medulares podem persistir.\n- Notificar a **OPO** sobre todo óbito esperado; a equipe da OPO aborda a família, e a equipe de transplante fica fora da declaração do óbito. A **doação após morte circulatória** não exige morte encefálica.\n- Uma ordem de **não reanimar (ONR)** é **reconsiderada** com o paciente antes da cirurgia, não suspensa automaticamente.\n- **Duplo efeito**: opioides titulados pelos sintomas são aceitáveis, mesmo que possam encurtar a vida. A **sedação paliativa** é para sintomas refratários.\n- As leis do **Bom Samaritano** protegem o socorro voluntário de emergência, gratuito e de boa-fé."
+    }
+  ]
+}

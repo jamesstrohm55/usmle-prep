@@ -1,0 +1,355 @@
+{
+  "cards": [
+    {
+      "slug": "card-communication-safety-teach-back",
+      "track": "step1",
+      "system": "behavioral-science",
+      "discipline": "pathology",
+      "tags": [
+        "communication-safety",
+        "health-literacy",
+        "teach-back"
+      ],
+      "front": "What is the teach-back method, and why is it used with every patient?",
+      "back": "The patient explains or shows **in their own words** what they will do at home. It checks real understanding, unlike asking \"Do you understand?\". Use it with everyone, because **low health literacy** is common and usually hidden.",
+      "back_pt": "O paciente explica ou demonstra **com as próprias palavras** o que vai fazer em casa. Isso verifica a compreensão real, ao contrário de perguntar \"Você entendeu?\". Usar com todos, porque o **baixo letramento em saúde** é comum e geralmente oculto."
+    },
+    {
+      "slug": "card-communication-safety-ipass",
+      "track": "step1",
+      "system": "behavioral-science",
+      "discipline": "pathology",
+      "tags": [
+        "communication-safety",
+        "handoffs",
+        "patient-safety"
+      ],
+      "front": "What do the letters of the I-PASS handoff tool stand for?",
+      "back": "**I**llness severity (stable, watcher, unstable). **P**atient summary. **A**ction list (tasks, owner, timing). **S**ituation awareness and contingency planning (\"if X happens, do Y\"). **S**ynthesis by the receiver, who restates the plan in their own words.",
+      "back_pt": "**I**: gravidade (estável, em observação, instável). **P**: resumo do paciente. **A**: lista de ações (tarefa, responsável, prazo). **S**: consciência da situação e plano de contingência (\"se X acontecer, fazer Y\"). **S**: síntese pelo receptor, que repete o plano com as próprias palavras."
+    },
+    {
+      "slug": "card-communication-safety-pdsa",
+      "track": "step1",
+      "system": "behavioral-science",
+      "discipline": "pathology",
+      "tags": [
+        "communication-safety",
+        "quality-improvement",
+        "pdsa"
+      ],
+      "front": "What happens in each step of a PDSA cycle?",
+      "back": "**Plan**: choose one small change and predict its effect. **Do**: test it on a small scale and collect data. **Study**: compare the results with the prediction. **Act**: adopt, adapt or abandon the change, then start the next cycle.",
+      "back_pt": "**Plan** (planejar): escolher uma pequena mudança e prever seu efeito. **Do** (fazer): testar em pequena escala e coletar dados. **Study** (estudar): comparar os resultados com a previsão. **Act** (agir): adotar, adaptar ou abandonar a mudança e iniciar o próximo ciclo."
+    },
+    {
+      "slug": "card-communication-safety-payment-incentives",
+      "track": "step1",
+      "system": "behavioral-science",
+      "discipline": "pathology",
+      "tags": [
+        "communication-safety",
+        "health-systems",
+        "payment-models"
+      ],
+      "front": "How do fee-for-service and capitation change a physician's financial incentives?",
+      "back": "**Fee-for-service** pays for each visit, test or procedure, so it rewards **more services** (risk of overuse). **Capitation** pays a fixed amount per enrolled patient per month; the provider carries the financial risk, so it rewards **prevention** but risks **underuse**.",
+      "back_pt": "O **pagamento por serviço** (*fee-for-service*) paga cada consulta, exame ou procedimento, então recompensa **mais serviços** (risco de uso excessivo). A **capitação** paga um valor fixo por paciente inscrito por mês; o prestador assume o risco financeiro, então recompensa a **prevenção**, mas há risco de **subutilização**."
+    },
+    {
+      "slug": "card-communication-safety-medicare-medicaid",
+      "track": "step1",
+      "system": "behavioral-science",
+      "discipline": "pathology",
+      "tags": [
+        "communication-safety",
+        "health-systems",
+        "insurance"
+      ],
+      "front": "Who is covered by Medicare and who is covered by Medicaid?",
+      "back": "**Medicare** (federal): people **65 or older**, some younger people with long-term **disability**, and people with **end-stage renal disease**. Parts: A hospital, B outpatient, C private plans, D drugs. **Medicaid** (federal plus state): people with **low income**.",
+      "back_pt": "**Medicare** (federal): pessoas com **65 anos ou mais**, algumas pessoas mais jovens com **incapacidade** de longo prazo e pessoas com **doença renal crônica terminal**. Partes: A hospital, B ambulatório, C planos privados, D medicamentos. **Medicaid** (federal e estadual): pessoas de **baixa renda**."
+    }
+  ],
+  "questions": [
+    {
+      "slug": "q-communication-safety-asl-interpreter",
+      "track": "step1",
+      "system": "behavioral-science",
+      "discipline": "pathology",
+      "tags": [
+        "communication-safety",
+        "interpreters",
+        "hearing-impairment"
+      ],
+      "stem": "A 52-year-old woman who has been Deaf since birth comes to discuss an abnormal screening mammogram. Her first language is American Sign Language (ASL). A certified ASL interpreter is in the room. The physician needs to explain that a breast biopsy is recommended. What is the most appropriate way for the physician to communicate during this visit?",
+      "choices": [
+        "Face the interpreter and say, \"Please tell her that she needs a biopsy\"",
+        "Look at the patient and speak to her directly, as in \"You need a biopsy\"",
+        "Speak loudly and slowly so that she can read the physician's lips",
+        "Write the information on paper instead of using the interpreter",
+        "Ask the interpreter to leave out details that might frighten her"
+      ],
+      "correct": 1,
+      "explanation": "With any interpreter (spoken language or sign language), the physician should **look at the patient and speak to her directly in the first person**, in short segments; the interpreter is a channel, not the person in the conversation. The tempting answer is to talk to the interpreter in the third person (\"tell her...\"), but this excludes the patient and weakens the relationship. Lip-reading and written notes miss much of the content for a patient whose first language is ASL. An interpreter must interpret everything, without editing.",
+      "explanation_pt": "Com qualquer intérprete (de língua falada ou de sinais), o médico deve **olhar para a paciente e falar diretamente com ela, em primeira pessoa**, em trechos curtos; o intérprete é um canal, não o participante da conversa. A resposta tentadora é falar com o intérprete na terceira pessoa (\"diga a ela...\"), mas isso exclui a paciente e enfraquece a relação. A leitura labial e os bilhetes escritos perdem grande parte do conteúdo para uma paciente cuja primeira língua é a ASL. O intérprete deve interpretar tudo, sem editar."
+    },
+    {
+      "slug": "q-communication-safety-how-long-do-i-have",
+      "track": "step1",
+      "system": "behavioral-science",
+      "discipline": "pathology",
+      "tags": [
+        "communication-safety",
+        "prognosis",
+        "bad-news"
+      ],
+      "stem": "A 64-year-old man learned last week that his pancreatic cancer has spread to the liver. He has started chemotherapy. At a follow-up visit, he is calm and alert. He looks at the physician and asks, \"How long do I have?\" What is the most appropriate response?",
+      "choices": [
+        "Tell him that no one can predict survival for an individual patient",
+        "Tell him the median survival, in months, reported in published studies",
+        "Suggest that he discuss this question with his family first",
+        "Ask what he understands about his illness and why he is asking now",
+        "Ask his wife, in private, whether he can handle this information"
+      ],
+      "correct": 3,
+      "explanation": "A prognosis question should be answered honestly, but first the physician should learn **what the patient understands and why he is asking** (for example, he may want to plan a trip or finish legal matters). Then the physician gives a **range** (for example, \"months, not years\") and admits the uncertainty. The tempting answer, \"no one can predict\", is true but evasive: it avoids the question and leaves him without information to plan. A single median number sounds more precise than it is, and asking his wife first ignores the autonomy of a capable adult.",
+      "explanation_pt": "Uma pergunta sobre prognóstico deve ser respondida com honestidade, mas antes o médico deve saber **o que o paciente entende e por que está perguntando** (por exemplo, ele pode querer planejar uma viagem ou resolver questões legais). Depois, o médico dá uma **faixa de tempo** (por exemplo, \"meses, não anos\") e admite a incerteza. A resposta tentadora, \"ninguém pode prever\", é verdadeira, mas evasiva: foge da pergunta e o deixa sem informação para planejar. Um único número de mediana parece mais preciso do que é, e consultar a esposa antes ignora a autonomia de um adulto capaz."
+    },
+    {
+      "slug": "q-communication-safety-speak-up-time-out",
+      "track": "step1",
+      "system": "behavioral-science",
+      "discipline": "pathology",
+      "tags": [
+        "communication-safety",
+        "patient-safety",
+        "speaking-up"
+      ],
+      "stem": "A third-year medical student is in the operating room for a right inguinal hernia repair in a 58-year-old man. The consent form and the clinic notes both say right side. During skin preparation, the student sees that the surgical site mark is on the left groin. No time-out has been done, and the attending surgeon picks up the scalpel. What is the most appropriate action by the student?",
+      "choices": [
+        "Speak up now and ask for a time-out to confirm the correct side",
+        "Say nothing, because the attending is responsible for the operation",
+        "Ask the circulating nurse after the operation whether the side was right",
+        "File a report in the hospital safety system after the operation",
+        "Leave the room and call the chief of surgery to stop the case"
+      ],
+      "correct": 0,
+      "explanation": "Any team member, including a student, may **speak up** and stop a procedure when patient safety is at risk; the **time-out** before incision confirms the patient, the procedure and the **side**. Here the mark and the consent disagree, so the case must stop now, before a **wrong-site surgery** (a never event). The tempting answer is to call the chief of surgery, but going up the **chain of command** is the next step only if the team ignores the concern, and leaving the room delays the stop. Staying quiet or reporting afterward lets the harm happen.",
+      "explanation_pt": "Qualquer membro da equipe, inclusive um estudante, pode **se manifestar** e interromper um procedimento quando a segurança do paciente está em risco; o **time-out** antes da incisão confirma o paciente, o procedimento e o **lado**. Aqui a marcação e o consentimento não coincidem, então a cirurgia deve parar agora, antes de uma **cirurgia no local errado** (um *never event*). A resposta tentadora é chamar o chefe da cirurgia, mas subir na **cadeia de comando** é o passo seguinte apenas se a equipe ignorar a preocupação, e sair da sala atrasa a interrupção. Ficar calado ou notificar depois permite que o dano aconteça."
+    },
+    {
+      "slug": "q-communication-safety-demanding-mri",
+      "track": "step1",
+      "system": "behavioral-science",
+      "discipline": "pathology",
+      "tags": [
+        "communication-safety",
+        "difficult-encounters",
+        "low-back-pain"
+      ],
+      "stem": "A 41-year-old man has had low back pain for 8 days after moving furniture. He has no fever, weight loss, history of cancer, leg weakness, numbness or bladder problems. Neurologic exam is normal. He says, \"I want an MRI today. I pay for insurance and I know my rights.\" He raises his voice and crosses his arms. What is the most appropriate next step?",
+      "choices": [
+        "Order the MRI to keep a good relationship with the patient",
+        "Order a lumbar x-ray as a compromise",
+        "Explain that MRI is not indicated and end the visit",
+        "Refer him to an orthopedic surgeon to decide about imaging",
+        "Ask what worries him most about his back pain"
+      ],
+      "correct": 4,
+      "explanation": "Before agreeing or refusing, the physician should **explore the concern behind the request**; many patients fear cancer, a serious injury or losing their job. Once the worry is known, the physician can address it and explain why imaging does not help acute back pain without red flags. The tempting answer is to order the MRI to avoid conflict, but tests that are not indicated can lead to incidental findings and more procedures. An x-ray as a compromise has the same problem, and ending the visit or referring away avoids the conversation.",
+      "explanation_pt": "Antes de aceitar ou recusar, o médico deve **explorar a preocupação por trás do pedido**; muitos pacientes temem câncer, uma lesão grave ou perder o emprego. Conhecendo o medo, o médico pode abordá-lo e explicar por que a imagem não ajuda na lombalgia aguda sem sinais de alarme. A resposta tentadora é pedir a RM para evitar conflito, mas exames sem indicação podem gerar achados incidentais e mais procedimentos. Uma radiografia como meio-termo tem o mesmo problema, e encerrar a consulta ou encaminhar evita a conversa."
+    },
+    {
+      "slug": "q-communication-safety-sickle-pain-bias",
+      "track": "step1",
+      "system": "behavioral-science",
+      "discipline": "pathology",
+      "tags": [
+        "communication-safety",
+        "pain",
+        "bias"
+      ],
+      "stem": "A 24-year-old man with sickle cell disease comes to the emergency department with severe pain in his back and legs, like his usual pain crises. He rates the pain 9 out of 10. He asks for the specific intravenous opioid that helped him during past admissions. Temperature is 37.4°C (99.3°F), pulse is 108/min, and respirations are 18/min. A nurse tells the physician, \"He asks for drugs by name. He is probably a drug seeker.\" What is the most appropriate next step?",
+      "choices": [
+        "Give oral acetaminophen and reassess in a few hours",
+        "Order a urine drug screen before giving any opioid",
+        "Give an intravenous opioid promptly and reassess the pain often",
+        "Give intravenous normal saline alone to see whether the pain improves",
+        "Ask the hematology team to see him before any analgesic is given"
+      ],
+      "correct": 2,
+      "explanation": "A **vaso-occlusive crisis** causes severe pain that needs **prompt opioid analgesia**, with frequent reassessment. Patients with sickle cell disease often know which drug works for them; asking for it by name is **not evidence of drug seeking**, and this label is a known source of biased, delayed care. The tempting answer is a urine drug screen, but it does not measure pain and only delays treatment. Acetaminophen alone is too weak, and fluids alone do not treat severe pain.",
+      "explanation_pt": "Uma **crise vaso-oclusiva** causa dor intensa que exige **analgesia opioide imediata**, com reavaliação frequente. Pacientes com doença falciforme muitas vezes sabem qual medicamento funciona para eles; pedir pelo nome **não é evidência de busca por drogas**, e esse rótulo é uma causa conhecida de atendimento enviesado e atrasado. A resposta tentadora é o exame toxicológico de urina, mas ele não mede a dor e só atrasa o tratamento. O paracetamol isolado é fraco demais, e a hidratação isolada não trata dor intensa."
+    },
+    {
+      "slug": "q-communication-safety-transgender-screening",
+      "track": "step1",
+      "system": "behavioral-science",
+      "discipline": "pathology",
+      "tags": [
+        "communication-safety",
+        "lgbtq-health",
+        "preventive-care"
+      ],
+      "stem": "A 34-year-old transgender man comes for a routine visit. He has taken testosterone for 6 years and had chest surgery 3 years ago. He has not had a hysterectomy. He has never had cervical cancer screening. He says that pelvic exams make him very uncomfortable because they remind him of a body he does not identify with. What is the most appropriate next step?",
+      "choices": [
+        "Recommend cervical cancer screening and adapt the exam to reduce his distress",
+        "Tell him that screening is not needed because long-term testosterone protects the cervix against cancer",
+        "Postpone screening until he decides whether he wants a hysterectomy in the future",
+        "Order a pelvic ultrasound instead of a cervical sample, so that no speculum is needed",
+        "Refer him to a gynecologist without discussing the reason for screening"
+      ],
+      "correct": 0,
+      "explanation": "Screening follows the **organs that are present**, not the gender identity: a transgender man with a cervix needs **cervical cancer screening** like any person with a cervix. The physician should explain why and reduce distress, for example by using his own words for his body, explaining each step, and letting him control the pace. The tempting answer is that testosterone removes the need, but it does not protect against HPV-related cancer. Ultrasound does not detect cervical dysplasia, and postponing or referring without discussion leaves him unscreened.",
+      "explanation_pt": "O rastreamento segue os **órgãos presentes**, não a identidade de gênero: um homem trans com colo do útero precisa de **rastreamento de câncer do colo do útero** como qualquer pessoa com colo. O médico deve explicar o motivo e reduzir o sofrimento, por exemplo usando as palavras que ele usa para o próprio corpo, explicando cada etapa e deixando-o controlar o ritmo. A resposta tentadora é que a testosterona dispensa o exame, mas ela não protege contra câncer relacionado ao HPV. A ultrassonografia não detecta displasia cervical, e adiar ou encaminhar sem conversar o deixa sem rastreamento."
+    },
+    {
+      "slug": "q-communication-safety-five-as-tobacco",
+      "track": "step1",
+      "system": "behavioral-science",
+      "discipline": "pathology",
+      "tags": [
+        "communication-safety",
+        "tobacco",
+        "brief-intervention"
+      ],
+      "stem": "A 48-year-old man comes for a routine visit. He mentions a morning cough for the past year. When asked, he says he has smoked one pack of cigarettes a day for 25 years. The physician uses the 5 A's model for a brief tobacco intervention. What should the physician do next in this intervention?",
+      "choices": [
+        "Ask how ready he is to quit in the next month",
+        "Prescribe varenicline and set a quit date",
+        "Schedule a follow-up visit to review his smoking",
+        "Advise him clearly to quit and link the advice to his cough",
+        "Refer him to a pulmonologist to evaluate the cough"
+      ],
+      "correct": 3,
+      "explanation": "The 5 A's are, in order, **Ask** about tobacco use, **Advise** to quit, **Assess** readiness, **Assist** (counseling, medication, quit date) and **Arrange** follow-up. He has already been asked, so the next step is clear, strong, **personalized advice**; linking it to his cough makes it more powerful. The tempting answer is to assess readiness, but that comes after the advice. Medication and follow-up come later, and a referral does not replace the intervention.",
+      "explanation_pt": "Os 5 A's são, em ordem: **Ask** (perguntar sobre o tabagismo), **Advise** (aconselhar a parar), **Assess** (avaliar a prontidão), **Assist** (ajudar: aconselhamento, medicamento, data para parar) e **Arrange** (agendar o seguimento). A etapa Ask já foi feita, então o próximo passo é um **conselho claro, firme e personalizado**; ligá-lo à tosse o torna mais forte. A resposta tentadora é avaliar a prontidão, mas isso vem depois do conselho. Medicamento e seguimento vêm depois, e o encaminhamento não substitui a intervenção."
+    },
+    {
+      "slug": "q-communication-safety-ambivalence-reflection",
+      "track": "step1",
+      "system": "behavioral-science",
+      "discipline": "pathology",
+      "tags": [
+        "communication-safety",
+        "stages-of-change",
+        "motivational-interviewing"
+      ],
+      "stem": "A 45-year-old man has fatty liver disease and elevated liver enzymes. He drinks 4 to 5 beers every night. He says, \"I know the beer is hurting my liver, and I want to be around for my kids. But those beers are the only way I can relax after work.\" He has not made any plan to cut down. Which response by the physician best follows the principles of motivational interviewing?",
+      "choices": [
+        "\"If you keep drinking like this, you will develop cirrhosis.\"",
+        "\"Part of you wants to protect your health for your kids, and part of you values how the beer helps you relax.\"",
+        "\"Let's choose a date this week to stop drinking, and I will prescribe a medication to help.\"",
+        "\"Why haven't you stopped drinking if you know it is hurting you?\"",
+        "\"Here is a pamphlet about the effects of alcohol on the liver.\""
+      ],
+      "correct": 1,
+      "explanation": "He sees both sides but has no plan, so he is in the **contemplation** stage. The best match is a **double-sided reflection** that states both sides of his **ambivalence** without judgment; this helps him hear his own reasons to change. The tempting answer is to set a quit date with medication, but that fits the **preparation/action** stages and may cause resistance now. Warnings and \"why\" questions are confrontational, and a pamphlet mainly raises awareness, which fits precontemplation.",
+      "explanation_pt": "Ele vê os dois lados, mas não tem plano, então está no estágio de **contemplação**. A melhor resposta é uma **reflexão de dois lados**, que nomeia os dois lados da sua **ambivalência** sem julgamento; isso o ajuda a ouvir os próprios motivos para mudar. A resposta tentadora é marcar uma data para parar com medicamento, mas isso corresponde aos estágios de **preparação/ação** e pode gerar resistência agora. Ameaças e perguntas com \"por quê\" são confrontadoras, e um folheto serve principalmente para conscientizar, o que corresponde à pré-contemplação."
+    },
+    {
+      "slug": "q-communication-safety-fmea",
+      "track": "step1",
+      "system": "behavioral-science",
+      "discipline": "pathology",
+      "tags": [
+        "communication-safety",
+        "patient-safety",
+        "fmea"
+      ],
+      "stem": "A hospital will start using a new type of intravenous infusion pump in all intensive care units next month. No patient has used the pumps yet. The safety committee wants to list every step of the new process, predict how each step could fail, and rank the failures by how serious and how likely they are, so that it can fix the riskiest ones before the launch. Which method best matches this goal?",
+      "choices": [
+        "Root cause analysis",
+        "Morbidity and mortality conference",
+        "Plan-Do-Study-Act cycle",
+        "Retrospective chart review",
+        "Failure mode and effects analysis"
+      ],
+      "correct": 4,
+      "explanation": "**Failure mode and effects analysis (FMEA)** is **prospective**: it maps a process before it is used, predicts how each step could fail, and ranks those failures so the team can redesign the riskiest steps. The tempting answer is **root cause analysis**, but RCA is **retrospective**: it studies an adverse event that has already happened to find its system causes. A PDSA cycle tests a small change and measures the result, and chart review and M&M conferences also look back at past cases.",
+      "explanation_pt": "A **análise de modo e efeito de falha** (*FMEA*) é **prospectiva**: mapeia um processo antes do uso, prevê como cada etapa pode falhar e classifica essas falhas para que a equipe redesenhe as etapas de maior risco. A resposta tentadora é a **análise de causa raiz**, mas a ACR é **retrospectiva**: estuda um evento adverso que já ocorreu para encontrar suas causas no sistema. Um ciclo PDSA testa uma pequena mudança e mede o resultado, e a revisão de prontuários e as reuniões de morbimortalidade também olham para casos passados."
+    },
+    {
+      "slug": "q-communication-safety-just-culture",
+      "track": "step1",
+      "system": "behavioral-science",
+      "discipline": "pathology",
+      "tags": [
+        "communication-safety",
+        "just-culture",
+        "medication-errors"
+      ],
+      "stem": "A nurse with a good record gives a hospitalized patient hydralazine instead of the hydroxyzine that was ordered. The patient's blood pressure falls briefly and then recovers. A review finds that the two drugs have similar names, come in similar vials, and are stored in neighboring bins of the automated cabinet. The nurse followed the usual process and reported the error herself. According to a just culture approach, what is the most appropriate response?",
+      "choices": [
+        "Suspend the nurse until she completes a medication safety course",
+        "Report the nurse to the state board of nursing",
+        "Support the nurse and change how the two drugs are stored and labeled",
+        "Place a written warning in the nurse's personnel file",
+        "Require only this nurse to have a second nurse check her medications"
+      ],
+      "correct": 2,
+      "explanation": "In a **just culture**, the response depends on the behavior: an honest **human error** is met with support (consoling) and a **system fix**; **at-risk behavior** (an unsafe shortcut) is met with coaching; only **reckless behavior** (consciously ignoring a serious risk) leads to discipline. Here the nurse followed the process, and the cause was a **look-alike, sound-alike** drug pair stored side by side, so the fix is to separate and relabel the drugs. The tempting answer is retraining or suspension, but punishing honest errors makes staff hide them and leaves the trap in place for the next nurse.",
+      "explanation_pt": "Na **cultura justa**, a resposta depende do comportamento: um **erro humano** honesto recebe apoio (acolhimento) e uma **correção no sistema**; o **comportamento de risco** (um atalho inseguro) recebe orientação; apenas o **comportamento imprudente** (ignorar conscientemente um risco grave) leva a punição. Aqui a enfermeira seguiu o processo, e a causa foi um par de medicamentos **com nome e aparência semelhantes** armazenados lado a lado, então a correção é separar e reetiquetar os medicamentos. A resposta tentadora é exigir curso ou suspender, mas punir erros honestos faz a equipe escondê-los e deixa a armadilha para a próxima enfermeira."
+    },
+    {
+      "slug": "q-communication-safety-impaired-surgeon",
+      "track": "step1",
+      "system": "behavioral-science",
+      "discipline": "pathology",
+      "tags": [
+        "communication-safety",
+        "professionalism",
+        "impaired-physician"
+      ],
+      "stem": "A surgical resident is preparing a patient for an elective cholecystectomy. The attending surgeon arrives 30 minutes late. His speech is slurred, he smells of alcohol, and he drops his phone twice. He tells the resident to bring the patient into the operating room. What is the most appropriate next step for the resident?",
+      "choices": [
+        "Notify the chief of surgery or the supervisor on duty right away",
+        "Assist with the operation and speak privately with the attending afterward",
+        "Report the attending to the state medical board after the operation",
+        "Tell the patient that the attending is impaired and let the patient decide",
+        "Proceed, because a single episode does not prove impairment"
+      ],
+      "correct": 0,
+      "explanation": "The first duty is to **protect the patient now**: an attending who appears intoxicated must not operate, so the resident should **stop the case** and notify the person in charge (chief of surgery or supervisor on duty) immediately. The tempting answer is reporting to the state medical board, which may be needed later, but it does nothing to stop this operation. A private talk afterward or proceeding exposes the patient to harm, and asking the patient to decide shifts the team's responsibility onto the patient.",
+      "explanation_pt": "O primeiro dever é **proteger o paciente agora**: um cirurgião que parece intoxicado não pode operar, então o residente deve **interromper o caso** e avisar imediatamente o responsável (chefe da cirurgia ou supervisor de plantão). A resposta tentadora é notificar o conselho de medicina estadual, o que pode ser necessário depois, mas não impede esta cirurgia. Uma conversa particular depois ou seguir com a cirurgia expõem o paciente a dano, e pedir que o paciente decida transfere para o paciente a responsabilidade da equipe."
+    },
+    {
+      "slug": "q-communication-safety-ventilator-allocation",
+      "track": "step1",
+      "system": "behavioral-science",
+      "discipline": "pathology",
+      "tags": [
+        "communication-safety",
+        "resource-allocation",
+        "justice"
+      ],
+      "stem": "During a severe respiratory virus outbreak, a hospital has activated its crisis standards of care. One ventilator is left. Patient A is a 70-year-old woman who was healthy and now has respiratory failure without other organ failure. Patient B is a 38-year-old man with respiratory failure, septic shock, kidney failure and liver failure despite maximal treatment. Both patients want full treatment. Patient B is a well-known local physician. Which approach to allocating the ventilator is most appropriate?",
+      "choices": [
+        "Give it to patient B because he is younger",
+        "Give it to patient A because she is more likely to survive with ventilation",
+        "Give it to the patient who arrived at the hospital first",
+        "Give it to patient B because of his value to the community",
+        "Choose between the two patients by lottery"
+      ],
+      "correct": 1,
+      "explanation": "When resources are truly scarce, allocation should use **objective medical criteria**, mainly the **likelihood of benefit** (survival), applied the same way to everyone; this follows the principle of **justice**. Patient A has single-organ failure and a good chance of surviving, while patient B has multiorgan failure and a much lower chance. The tempting answer is to favor the younger patient, but age is at most a tiebreaker in some protocols, and here it would give the ventilator to the patient less likely to benefit. Social worth is never a valid criterion, and arrival order or a lottery ignores large differences in expected benefit.",
+      "explanation_pt": "Quando os recursos são realmente escassos, a alocação deve usar **critérios médicos objetivos**, principalmente a **probabilidade de benefício** (sobrevida), aplicados da mesma forma a todos; isso segue o princípio da **justiça**. A paciente A tem falência de um único órgão e boa chance de sobreviver, enquanto o paciente B tem falência de múltiplos órgãos e chance muito menor. A resposta tentadora é favorecer o paciente mais jovem, mas a idade é, no máximo, um critério de desempate em alguns protocolos, e aqui daria o ventilador a quem tem menor chance de benefício. O valor social nunca é um critério válido, e a ordem de chegada ou um sorteio ignoram grandes diferenças no benefício esperado."
+    }
+  ],
+  "notes": [
+    {
+      "slug": "note-communication-safety-overview",
+      "track": "step1",
+      "system": "behavioral-science",
+      "discipline": "pathology",
+      "tags": [
+        "communication-safety",
+        "overview"
+      ],
+      "title": "Communication, patient safety and health systems: US exam logic",
+      "body_md": "## Interview skills\n\n- Start with **open-ended questions**, then narrow. **Facilitation** (\"Go on\"), **silence**, **reflection** and **summarizing** keep the patient talking.\n- Name the emotion before giving facts: \"You seem frustrated.\" With an **angry patient**, acknowledge the feeling first; do not defend yourself.\n- A **demanding patient**: explore the fear behind the request before agreeing or refusing.\n- Use plain words and **teach-back**. Use a **professional interpreter** and speak to the patient, not the interpreter.\n- **Cultural humility**: ask what the illness means to the patient; do not assume from their group. Ask about partners and gender identity neutrally; screen the **organs present**.\n\n## Behavior change\n\n- Match the stage: **precontemplation** (raise awareness), **contemplation** (explore ambivalence), **preparation** (make a plan), **action**, **maintenance**; **relapse** is normal and is a chance to learn.\n- **Motivational interviewing**: empathy, open questions, reflections, support **self-efficacy**; avoid arguing.\n- Tobacco: **Ask, Advise, Assess, Assist, Arrange**.\n\n## Patient safety\n\n- **Swiss cheese model**: harm passes when holes in several defenses line up.\n- **RCA** looks back after an event; **FMEA** looks ahead before a new process.\n- **Never events** (for example, wrong-site surgery) should not occur at all.\n- Tools: checklists and time-outs, **I-PASS** handoffs, **medication reconciliation** at every transition, hand hygiene, bundles, fewer non-actionable alarms (**alarm fatigue**).\n- **Just culture**: console human error, coach at-risk behavior, discipline only reckless behavior.\n- Any team member may **speak up** and stop a procedure. If ignored, go up the **chain of command**.\n\n## Professionalism\n\n- Fatigue causes errors; duty-hour limits protect patients.\n- No friend requests or patient details on **social media**.\n- Decline gifts that could influence care.\n\n## Health systems\n\n- **Fee-for-service** rewards volume; **capitation** rewards prevention but risks underuse.\n- **ACOs** share savings if they meet quality targets.\n- In scarcity, allocate by **likelihood of benefit**, never by social worth.",
+      "body_pt_md": "## Habilidades de entrevista\n\n- Começar com **perguntas abertas** e depois afunilar. **Facilitação** (\"Continue\"), **silêncio**, **reflexão** e **resumo** mantêm o paciente falando.\n- Nomear a emoção antes de dar fatos: \"Você parece frustrado.\" Com um **paciente irritado**, reconhecer o sentimento primeiro; não se defender.\n- **Paciente exigente**: explorar o medo por trás do pedido antes de aceitar ou recusar.\n- Usar palavras simples e **teach-back**. Usar um **intérprete profissional** e falar com o paciente, não com o intérprete.\n- **Humildade cultural**: perguntar o que a doença significa para o paciente; não presumir pelo grupo dele. Perguntar sobre parceiros e identidade de gênero de forma neutra; rastrear os **órgãos presentes**.\n\n## Mudança de comportamento\n\n- Adequar ao estágio: **pré-contemplação** (conscientizar), **contemplação** (explorar a ambivalência), **preparação** (fazer um plano), **ação**, **manutenção**; a **recaída** é normal e serve de aprendizado.\n- **Entrevista motivacional**: empatia, perguntas abertas, reflexões, apoio à **autoeficácia**; evitar discutir.\n- Tabagismo: **Ask, Advise, Assess, Assist, Arrange**.\n\n## Segurança do paciente\n\n- **Modelo do queijo suíço**: o dano passa quando os furos de várias defesas se alinham.\n- A **ACR** olha para trás após um evento; a **FMEA** olha para frente, antes de um novo processo.\n- **Never events** (por exemplo, cirurgia no local errado) nunca deveriam ocorrer.\n- Ferramentas: checklists e *time-out*, passagem de plantão com **I-PASS**, **reconciliação medicamentosa** em cada transição, higiene das mãos, *bundles*, menos alarmes sem ação clínica (**fadiga de alarmes**).\n- **Cultura justa**: acolher o erro humano, orientar o comportamento de risco, punir só o comportamento imprudente.\n- Qualquer membro da equipe pode **se manifestar** e interromper um procedimento. Se for ignorado, subir na **cadeia de comando**.\n\n## Profissionalismo\n\n- O cansaço causa erros; os limites de carga horária protegem os pacientes.\n- Sem pedidos de amizade de pacientes nem detalhes de casos nas **redes sociais**.\n- Recusar presentes que possam influenciar o cuidado.\n\n## Sistemas de saúde\n\n- O **pagamento por serviço** recompensa volume; a **capitação** recompensa a prevenção, mas há risco de subutilização.\n- As **ACOs** dividem a economia se cumprirem metas de qualidade.\n- Na escassez, alocar pela **probabilidade de benefício**, nunca pelo valor social."
+    }
+  ]
+}

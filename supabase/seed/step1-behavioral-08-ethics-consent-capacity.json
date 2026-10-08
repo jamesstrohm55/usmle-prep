@@ -1,0 +1,361 @@
+{
+  "cards": [
+    {
+      "slug": "card-ethics-consent-capacity-who-obtains-consent",
+      "track": "step1",
+      "system": "behavioral-science",
+      "discipline": "pathology",
+      "tags": [
+        "ethics-consent-capacity",
+        "informed-consent"
+      ],
+      "front": "Who is responsible for obtaining informed consent for a procedure?",
+      "back": "The **physician who will perform the procedure** (or a qualified member of that team who knows it well). A nurse may **witness the signature**, but the signed form only documents the **discussion**; it does not replace it.",
+      "back_pt": "O **médico que vai realizar o procedimento** (ou um membro qualificado dessa equipe que o conheça bem). A enfermagem pode **testemunhar a assinatura**, mas o termo assinado apenas documenta a **conversa**; não a substitui."
+    },
+    {
+      "slug": "card-ethics-consent-capacity-polst",
+      "track": "step1",
+      "system": "behavioral-science",
+      "discipline": "pathology",
+      "tags": [
+        "ethics-consent-capacity",
+        "advance-directives",
+        "polst"
+      ],
+      "front": "How is a POLST form different from a living will?",
+      "back": "A **POLST** is a set of **signed medical orders** (e.g., CPR or not, intubation or not) for a seriously ill patient; it travels with the patient and **EMS must follow it**. A **living will** states wishes and needs interpretation.",
+      "back_pt": "O **POLST** é um conjunto de **ordens médicas assinadas** (ex.: RCP ou não, intubação ou não) para um paciente gravemente doente; acompanha o paciente e **o atendimento pré-hospitalar (como o SAMU) deve cumpri-lo**. O **testamento vital** expressa desejos e precisa ser interpretado."
+    },
+    {
+      "slug": "card-ethics-consent-capacity-belmont-principles",
+      "track": "step1",
+      "system": "behavioral-science",
+      "discipline": "pathology",
+      "tags": [
+        "ethics-consent-capacity",
+        "research-ethics",
+        "belmont"
+      ],
+      "front": "What are the three principles of the Belmont Report for human research?",
+      "back": "**Respect for persons**: informed, voluntary consent and extra protection for people with reduced autonomy. **Beneficence**: maximize benefits, minimize risks. **Justice**: fair selection of subjects, so burdens and benefits are shared fairly.",
+      "back_pt": "**Respeito às pessoas**: consentimento informado e voluntário e proteção extra para quem tem autonomia reduzida. **Beneficência**: maximizar benefícios e minimizar riscos. **Justiça**: seleção justa dos participantes, para dividir ônus e benefícios de forma equitativa."
+    },
+    {
+      "slug": "card-ethics-consent-capacity-dsmb",
+      "track": "step1",
+      "system": "behavioral-science",
+      "discipline": "pathology",
+      "tags": [
+        "ethics-consent-capacity",
+        "research-ethics",
+        "dsmb"
+      ],
+      "front": "What does a data and safety monitoring board (DSMB) do in a clinical trial?",
+      "back": "An **independent** group reviews **unblinded** interim data while the trial runs. It can recommend **stopping the trial early** for clear **harm**, clear **benefit**, or **futility** (no chance of showing a difference).",
+      "back_pt": "Um grupo **independente** (comitê de monitoramento de dados) revisa os dados interinos **sem cegamento** durante o estudo. Pode recomendar **interromper o estudo precocemente** por **dano** evidente, **benefício** evidente ou **futilidade** (sem chance de mostrar diferença)."
+    },
+    {
+      "slug": "card-ethics-consent-capacity-adolescent-confidentiality-limits",
+      "track": "step1",
+      "system": "behavioral-science",
+      "discipline": "pathology",
+      "tags": [
+        "ethics-consent-capacity",
+        "minors",
+        "confidentiality"
+      ],
+      "front": "When must a physician involve the parents despite an adolescent's request for confidentiality?",
+      "back": "When there is a **serious risk of harm**: **suicidal** intent, a threat to others, or **abuse**. Otherwise, care the teen can legally consent to stays **confidential**; encourage, but do not force, talking with the parents.",
+      "back_pt": "Quando há **risco grave de dano**: intenção **suicida**, ameaça a terceiros ou **abuso**. Fora isso, o atendimento que o adolescente pode consentir por lei permanece **sigiloso**; incentivar, sem obrigar, a conversa com os pais."
+    }
+  ],
+  "questions": [
+    {
+      "slug": "q-ethics-consent-capacity-interpreter",
+      "track": "step1",
+      "system": "behavioral-science",
+      "discipline": "pathology",
+      "tags": [
+        "ethics-consent-capacity",
+        "informed-consent",
+        "interpreter"
+      ],
+      "stem": "A 70-year-old man who speaks only Mandarin is scheduled for an elective knee replacement this morning. The consent form was signed yesterday after the surgeon explained the operation in English. The patient nodded and signed. Before surgery, the patient asks his English-speaking adult son what kind of anesthesia he will get, and the son offers to translate for the team. A telephone medical interpreter service is available. What is the most appropriate next step?",
+      "choices": [
+        "Proceed with surgery because the consent form is signed",
+        "Ask the son to translate a summary of the risks to his father",
+        "Give the patient a written consent form translated into Chinese",
+        "Repeat the consent discussion using a professional medical interpreter",
+        "Cancel the surgery until the patient can understand English"
+      ],
+      "correct": 3,
+      "explanation": "Consent is valid only if the patient **understands** the discussion, and a signed form after an English explanation does not show this. A **professional medical interpreter** should be used to repeat the discussion and answer his questions before surgery. The tempting answer is to let the son translate, but family members may filter or soften information and are not trained in medical interpreting. A translated form alone cannot answer questions, and canceling the surgery is not needed when an interpreter is available.",
+      "explanation_pt": "O consentimento só é válido se o paciente **compreende** a conversa, e um termo assinado após uma explicação em inglês não demonstra isso. Deve-se usar um **intérprete médico profissional** para repetir a conversa e responder às dúvidas antes da cirurgia. A resposta tentadora é deixar o filho traduzir, mas familiares podem filtrar ou suavizar a informação e não são treinados em interpretação médica. Um termo traduzido sozinho não responde perguntas, e cancelar a cirurgia não é necessário quando há intérprete disponível."
+    },
+    {
+      "slug": "q-ethics-consent-capacity-exam-under-anesthesia",
+      "track": "step1",
+      "system": "behavioral-science",
+      "discipline": "pathology",
+      "tags": [
+        "ethics-consent-capacity",
+        "informed-consent",
+        "sensitive-exams",
+        "trainees"
+      ],
+      "stem": "A 34-year-old woman is having an elective laparoscopic cholecystectomy. She signed consent for the gallbladder operation only. After she is under general anesthesia, the attending surgeon tells a medical student to perform a pelvic examination on her for teaching, because the student has not yet done one. The patient's husband is in the waiting room. What is the most appropriate action by the student?",
+      "choices": [
+        "Perform the examination because she consented to surgery in a teaching hospital",
+        "Perform the examination only with a female chaperone in the room",
+        "Decline, and explain that the patient has not consented to a pelvic examination",
+        "Ask the husband in the waiting room for permission to perform it",
+        "Perform the examination because she is asleep and cannot be distressed by it"
+      ],
+      "correct": 2,
+      "explanation": "Consent is **specific** to what the patient agreed to: consent for a cholecystectomy does not cover an unrelated, intimate examination done for teaching. A pelvic exam under anesthesia needs the patient's **explicit consent before surgery**, so the student should politely decline. The tempting answer is a chaperone, but a chaperone does not replace consent. Her husband cannot consent for her, because she is a capable adult who is only temporarily asleep and the exam is not needed for her care.",
+      "explanation_pt": "O consentimento é **específico** para aquilo com que o paciente concordou: consentir com uma colecistectomia não cobre um exame íntimo, sem relação com a cirurgia, feito para ensino. Um exame pélvico sob anestesia exige o **consentimento explícito da paciente antes da cirurgia**, por isso o estudante deve recusar educadamente. A resposta tentadora é a presença de acompanhante (*chaperone*), mas isso não substitui o consentimento. O marido não pode consentir por ela, pois ela é uma adulta capaz, apenas temporariamente anestesiada, e o exame não é necessário para o seu cuidado."
+    },
+    {
+      "slug": "q-ethics-consent-capacity-fluctuating-capacity",
+      "track": "step1",
+      "system": "behavioral-science",
+      "discipline": "pathology",
+      "tags": [
+        "ethics-consent-capacity",
+        "capacity",
+        "delirium",
+        "surrogate"
+      ],
+      "stem": "An 84-year-old woman is hospitalized with a urinary tract infection and delirium. Each morning she is drowsy and disoriented. Each afternoon she is alert, oriented, and talks about her care clearly. A chest CT done for a cough shows a lung nodule, and the team recommends a biopsy, which can safely wait several weeks. Her daughter is her named health care proxy. On a morning visit, the daughter asks to sign the consent for the biopsy now. What is the most appropriate next step?",
+      "choices": [
+        "Discuss the biopsy with the patient in the afternoon and assess her capacity then",
+        "Have the daughter sign the consent because she is the health care proxy",
+        "Request a psychiatric consultation to declare the patient incompetent",
+        "Petition the court to appoint a legal guardian",
+        "Perform the biopsy under implied consent while she is confused"
+      ],
+      "correct": 0,
+      "explanation": "Capacity is **decision-specific and can fluctuate**; in **delirium**, the physician should talk with the patient when she is lucid and assess her capacity at that time. Because the biopsy is not urgent, there is time to let her decide for herself. The tempting answer is the daughter, but a health care proxy speaks for the patient **only when the patient lacks capacity**. Competence is a legal finding made by a court, and implied consent applies only to emergencies.",
+      "explanation_pt": "A capacidade é **específica para cada decisão e pode flutuar**; no **delirium**, o médico deve conversar com a paciente quando ela está lúcida e avaliar a capacidade nesse momento. Como a biópsia não é urgente, há tempo para que ela mesma decida. A resposta tentadora é a filha, mas o procurador para cuidados de saúde só fala pela paciente **quando ela não tem capacidade**. A competência é uma decisão legal tomada por um juiz, e o consentimento presumido só se aplica a emergências."
+    },
+    {
+      "slug": "q-ethics-consent-capacity-psychiatric-illness-refusal",
+      "track": "step1",
+      "system": "behavioral-science",
+      "discipline": "pathology",
+      "tags": [
+        "ethics-consent-capacity",
+        "capacity",
+        "refusal-of-care",
+        "psychiatric-illness"
+      ],
+      "stem": "A 58-year-old man with schizophrenia and diabetes has wet gangrene of three toes. The surgeon recommends a below-knee amputation. He has a long-standing fixed belief that his neighbor reads his mail, but he takes his medication and has no delusions about his foot, his illness or his doctors. Over three days he refuses the amputation each time. He explains that the infection could spread and that he could die, and he says he would rather take that risk than lose his leg. He accepts antibiotics and wound care. What is the most appropriate next step?",
+      "choices": [
+        "Obtain a court order to perform the amputation",
+        "Ask his sister to consent because he has a psychotic disorder",
+        "Increase his antipsychotic dose and ask him again",
+        "Perform the amputation because his refusal is not in his best interest",
+        "Respect his refusal and continue antibiotics and wound care"
+      ],
+      "correct": 4,
+      "explanation": "A **psychiatric diagnosis does not mean incapacity**; capacity is judged for each decision. He understands the facts, applies them to himself, reasons consistently, and his delusion has nothing to do with this choice, so he can refuse the amputation and keep other treatment. The tempting answer is to treat the refusal as proof of his illness and ask his sister, but a surrogate decides only when the patient lacks capacity. A psychiatry consult helps when it is unclear whether the illness drives the decision, which is not the case here.",
+      "explanation_pt": "Um **diagnóstico psiquiátrico não significa incapacidade**; a capacidade é avaliada para cada decisão. Ele compreende os fatos, aplica-os a si mesmo, raciocina de forma coerente, e seu delírio não tem relação com essa escolha; portanto, pode recusar a amputação e manter o restante do tratamento. A resposta tentadora é tratar a recusa como prova da doença e pedir à irmã, mas o representante só decide quando o paciente não tem capacidade. A interconsulta com a psiquiatria ajuda quando não está claro se a doença está guiando a decisão, o que não é o caso aqui."
+    },
+    {
+      "slug": "q-ethics-consent-capacity-pregnant-refusal",
+      "track": "step1",
+      "system": "behavioral-science",
+      "discipline": "pathology",
+      "tags": [
+        "ethics-consent-capacity",
+        "refusal-of-care",
+        "pregnancy",
+        "autonomy"
+      ],
+      "stem": "A 29-year-old woman, gravida 1, is in labor at 40 weeks. The fetal heart rate tracing shows prolonged bradycardia, and the obstetrician recommends an emergency cesarean delivery. She is alert and calm. She says she understands that her baby could die or be injured, but she refuses surgery because of deeply held personal beliefs about birth. Her husband begs the team to operate. What is the most appropriate next step?",
+      "choices": [
+        "Perform the cesarean delivery because the fetus is in danger",
+        "Respect her refusal while continuing to counsel her and support the labor",
+        "Obtain an emergency court order for the cesarean delivery",
+        "Perform the cesarean delivery with the husband's consent",
+        "Request a psychiatric evaluation before accepting her refusal"
+      ],
+      "correct": 1,
+      "explanation": "A pregnant woman with **decision-making capacity** has the same right as any adult to **refuse treatment**, even when the refusal puts the fetus at risk. The team should keep explaining, offer every other option, and keep supporting the labor. The tempting answer is a court order, but US obstetric ethics guidance (ACOG) holds that forcing surgery on a capable pregnant patient is almost never justified. Her husband cannot consent for her, and a reasoned refusal is not a reason for a psychiatric evaluation.",
+      "explanation_pt": "Uma gestante com **capacidade de decisão** tem o mesmo direito de qualquer adulto de **recusar tratamento**, mesmo quando a recusa coloca o feto em risco. A equipe deve continuar explicando, oferecer todas as outras opções e seguir acompanhando o trabalho de parto. A resposta tentadora é a ordem judicial, mas a orientação ética da obstetrícia nos EUA (ACOG) considera que forçar uma cirurgia em uma gestante capaz quase nunca se justifica. O marido não pode consentir por ela, e uma recusa fundamentada não é motivo para avaliação psiquiátrica."
+    },
+    {
+      "slug": "q-ethics-consent-capacity-parental-refusal-chemotherapy",
+      "track": "step1",
+      "system": "behavioral-science",
+      "discipline": "pathology",
+      "tags": [
+        "ethics-consent-capacity",
+        "minors",
+        "parental-refusal",
+        "court-order"
+      ],
+      "stem": "A 6-year-old boy is diagnosed with acute lymphoblastic leukemia. He is clinically stable. With standard chemotherapy, his chance of cure is high; without it, he will die. Over several meetings, his parents show that they understand this, but they refuse chemotherapy and plan to use herbal remedies only. What is the most appropriate next step?",
+      "choices": [
+        "Respect the parents' decision because they understand the risks",
+        "Start chemotherapy now under the emergency exception",
+        "Ask the child whether he wants chemotherapy and follow his choice",
+        "Seek a court order to authorize the chemotherapy",
+        "Refer the family to the herbal practitioner and schedule follow-up"
+      ],
+      "correct": 3,
+      "explanation": "Parents may **not refuse life-saving, effective treatment** for their child; their authority is limited by the child's best interest. Because he is stable and this is **not an emergency**, the physician should seek legal authority, usually through a **court order** (often with child protective services). The tempting answer is to start chemotherapy now, but the emergency exception applies only when delay would cause immediate serious harm. A 6-year-old cannot make this decision, though his assent should still be sought.",
+      "explanation_pt": "Os pais **não podem recusar um tratamento eficaz que salva a vida** do filho; a autoridade deles é limitada pelo melhor interesse da criança. Como ele está estável e **não se trata de uma emergência**, o médico deve buscar respaldo legal, em geral por **ordem judicial** (muitas vezes com o serviço de proteção à criança, papel semelhante ao do Conselho Tutelar no Brasil). A resposta tentadora é iniciar a quimioterapia agora, mas a exceção de emergência só se aplica quando a demora causaria dano grave imediato. Uma criança de 6 anos não pode tomar essa decisão, embora seu assentimento ainda deva ser buscado."
+    },
+    {
+      "slug": "q-ethics-consent-capacity-minor-parent-consent",
+      "track": "step1",
+      "system": "behavioral-science",
+      "discipline": "pathology",
+      "tags": [
+        "ethics-consent-capacity",
+        "minors",
+        "informed-consent"
+      ],
+      "stem": "A 16-year-old girl brings her 2-week-old son to the emergency department because he has had a fever of 38.6°C (101.5°F) since this morning. The infant is feeding less but is awake. The physician recommends blood and urine cultures and a lumbar puncture. The girl's own mother is with her and says she should be the one to sign because her daughter is a minor. What is the most appropriate next step?",
+      "choices": [
+        "Obtain consent from the infant's 16-year-old mother",
+        "Obtain consent from the infant's grandmother",
+        "Perform the tests without consent under the emergency exception",
+        "Obtain a court order before performing the lumbar puncture",
+        "Contact child protective services to make the decision"
+      ],
+      "correct": 0,
+      "explanation": "In most US states, a **minor who is a parent can consent to medical care for her own child**. The 16-year-old mother is the infant's legal decision-maker, so the physician should explain the tests to her and obtain her consent. The tempting answer is the grandmother, but she has no legal authority over her grandson while his mother is present and willing to decide. A parent is available, so neither the emergency exception nor a court order is needed, and there is no sign of neglect to report.",
+      "explanation_pt": "Na maioria dos estados dos EUA, **uma menor que é mãe pode consentir com o atendimento médico do próprio filho**. A mãe de 16 anos é a responsável legal pelo bebê, por isso o médico deve explicar os exames a ela e obter seu consentimento. A resposta tentadora é a avó, mas ela não tem autoridade legal sobre o neto enquanto a mãe está presente e disposta a decidir. Há uma responsável disponível, então não é necessária a exceção de emergência nem ordem judicial, e não há sinal de negligência a notificar."
+    },
+    {
+      "slug": "q-ethics-consent-capacity-proxy-vs-living-will",
+      "track": "step1",
+      "system": "behavioral-science",
+      "discipline": "pathology",
+      "tags": [
+        "ethics-consent-capacity",
+        "advance-directives",
+        "surrogate",
+        "living-will"
+      ],
+      "stem": "A 76-year-old woman with metastatic pancreatic cancer is brought to the hospital unresponsive and in respiratory failure. Her living will, written two years after diagnosis, says that if she has a terminal illness she does not want intubation or CPR. Her son is her health care proxy. He has read the living will but demands that she be intubated because he is not ready to lose her. What is the most appropriate next step?",
+      "choices": [
+        "Intubate her because the health care proxy has requested it",
+        "Intubate her until the ethics committee can review the case",
+        "Follow the living will, provide comfort care, and support the son",
+        "Ask her other children to decide by majority vote",
+        "Obtain a court order before deciding whether to intubate"
+      ],
+      "correct": 2,
+      "explanation": "A health care proxy must decide by **substituted judgment**, meaning what the patient would want, not what the proxy wants. Her **living will** is clear, recent and fits this exact situation, so her own wishes guide care: no intubation, with **comfort-focused treatment** and empathic support for her son. The tempting answer is to intubate because the proxy asks, but a proxy cannot override the patient's clearly documented wishes. Intubating while waiting for a committee does exactly what she refused.",
+      "explanation_pt": "O procurador para cuidados de saúde deve decidir pelo **julgamento substituto**, isto é, pelo que a paciente desejaria, não pelo que ele deseja. O **testamento vital** dela é claro, recente e se aplica exatamente a esta situação; portanto, os desejos dela guiam o cuidado: sem intubação, com **cuidados de conforto** e apoio empático ao filho. A resposta tentadora é intubar porque o procurador pede, mas ele não pode se sobrepor aos desejos claramente documentados da paciente. Intubar enquanto se espera um comitê faz exatamente o que ela recusou."
+    },
+    {
+      "slug": "q-ethics-consent-capacity-unconscious-emergency",
+      "track": "step1",
+      "system": "behavioral-science",
+      "discipline": "pathology",
+      "tags": [
+        "ethics-consent-capacity",
+        "informed-consent",
+        "emergency-exception"
+      ],
+      "stem": "A 30-year-old man is brought to the emergency department after a motorcycle crash. He is unresponsive. Blood pressure is 74/40 mm Hg and pulse is 136/min despite intravenous fluids, and ultrasound shows a large amount of free fluid in the abdomen. He carries no identification or advance directive, and no family can be reached. The friend who came with him says, 'He hates hospitals. He would never want surgery.' The surgeon recommends emergency laparotomy. What is the most appropriate next step?",
+      "choices": [
+        "Withhold surgery because the friend reports his wishes",
+        "Continue fluids and wait until he wakes up to give consent",
+        "Obtain a court order before operating",
+        "Delay surgery until the police locate his family",
+        "Perform the emergency laparotomy"
+      ],
+      "correct": 4,
+      "explanation": "When a patient **cannot consent in an emergency** and no valid advance directive or surrogate is available, consent is **implied** and life-saving treatment should be given without delay. A vague comment from a friend about disliking hospitals is not a clear, informed refusal of this specific treatment. The tempting answer is to follow the friend's report, but that statement does not reliably show his wishes in this situation. Waiting for consent, family or a court would allow him to die from hemorrhage.",
+      "explanation_pt": "Quando um paciente **não pode consentir em uma emergência** e não há diretiva antecipada válida nem representante disponível, o consentimento é **presumido** e o tratamento que salva a vida deve ser feito sem demora. Um comentário vago de um amigo sobre não gostar de hospitais não é uma recusa clara e informada deste tratamento específico. A resposta tentadora é seguir o relato do amigo, mas essa frase não mostra de forma confiável a vontade dele nesta situação. Esperar consentimento, família ou juiz o deixaria morrer de hemorragia."
+    },
+    {
+      "slug": "q-ethics-consent-capacity-research-withdrawal",
+      "track": "step1",
+      "system": "behavioral-science",
+      "discipline": "pathology",
+      "tags": [
+        "ethics-consent-capacity",
+        "research-ethics",
+        "informed-consent"
+      ],
+      "stem": "A 45-year-old woman is enrolled in a randomized trial of a new drug for type 2 diabetes. Her own physician is the study investigator. After two months, she has persistent nausea and says she wants to leave the study. She is worried that her physician will stop seeing her and that she will have to return the study payments she has already received. Which response by the investigator is most appropriate?",
+      "choices": [
+        "She may leave only after the trial's safety board reviews her case",
+        "She may leave at any time, and her usual care will continue without penalty",
+        "She may leave, but she must return the payments she has received",
+        "She must complete the study because she signed the consent form",
+        "She must stay in the study until the nausea is formally assessed as drug-related"
+      ],
+      "correct": 1,
+      "explanation": "Participation in research is **voluntary**: a subject may **withdraw at any time, for any reason, without penalty**, and her usual medical care must not be affected. Payments already earned should not be taken back, because that would pressure her to stay. The tempting answer is that a signed consent form commits her to finish, but consent in research is an ongoing process that she can withdraw. Leaving does not need approval from a safety board or proof that the drug caused her symptoms.",
+      "explanation_pt": "A participação em pesquisa é **voluntária**: o participante pode **sair a qualquer momento, por qualquer motivo, sem penalidade**, e o seu cuidado médico habitual não pode ser afetado. Os pagamentos já recebidos não devem ser cobrados de volta, pois isso a pressionaria a ficar. A resposta tentadora é que o termo assinado a obriga a terminar, mas o consentimento em pesquisa é um processo contínuo, que ela pode retirar. Sair do estudo não exige aprovação de um comitê de segurança nem prova de que o medicamento causou os sintomas."
+    },
+    {
+      "slug": "q-ethics-consent-capacity-placebo-control",
+      "track": "step1",
+      "system": "behavioral-science",
+      "discipline": "pathology",
+      "tags": [
+        "ethics-consent-capacity",
+        "research-ethics",
+        "placebo",
+        "irb"
+      ],
+      "stem": "Researchers plan a 2-year trial of a new oral anticoagulant in patients with atrial fibrillation and a high risk of stroke. Half of the patients will receive the new drug and half will receive placebo. The consent form clearly explains that patients in the placebo group will receive no anticoagulant. Effective anticoagulants for this condition are already available. What should the institutional review board (IRB) require before it can approve this study?",
+      "choices": [
+        "Compare the new drug with an existing effective anticoagulant",
+        "No change, because subjects are told about the placebo group",
+        "Make the study double-blind",
+        "Enroll only patients who are paid for their participation",
+        "Increase the number of patients to improve statistical power"
+      ],
+      "correct": 0,
+      "explanation": "A **placebo control is not ethical** when a **proven effective treatment exists** and withholding it exposes subjects to serious harm, here disabling or fatal stroke. The new drug should be compared with standard therapy (an **active control**). The tempting answer is that informed consent is enough, but the IRB must also judge that the **risks are reasonable**; consent cannot make an unreasonable risk acceptable. Blinding, payment and sample size do not fix the problem of withholding effective treatment.",
+      "explanation_pt": "Um **controle com placebo não é ético** quando **existe tratamento comprovadamente eficaz** e retirá-lo expõe os participantes a dano grave, aqui AVC incapacitante ou fatal. O novo medicamento deve ser comparado ao tratamento padrão (**controle ativo**). A resposta tentadora é que o consentimento informado basta, mas o comitê de ética em pesquisa (IRB, equivalente ao CEP) também precisa julgar que os **riscos são razoáveis**; o consentimento não torna aceitável um risco excessivo. Cegamento, pagamento e tamanho da amostra não resolvem o problema de retirar um tratamento eficaz."
+    },
+    {
+      "slug": "q-ethics-consent-capacity-waiver-of-disclosure",
+      "track": "step1",
+      "system": "behavioral-science",
+      "discipline": "pathology",
+      "tags": [
+        "ethics-consent-capacity",
+        "informed-consent",
+        "waiver"
+      ],
+      "stem": "A 66-year-old man has stable angina that limits his daily walks. His cardiologist recommends coronary angiography with possible stent placement. The man is alert and has decision-making capacity, and his wife is with him. When the cardiologist starts to explain the risks, he interrupts: 'I trust you. Hearing about complications only makes me nervous. Please just tell me where to sign.' He clearly says that he wants the procedure. What is the most appropriate next step?",
+      "choices": [
+        "Describe all the major risks anyway before he signs",
+        "Postpone the procedure until he agrees to hear the risks",
+        "Explain the risks to his wife and have her sign the form",
+        "Withhold the risks under therapeutic privilege",
+        "Accept his waiver and document that he declined the details"
+      ],
+      "correct": 4,
+      "explanation": "A capable patient may **waive** his right to detailed information; waiver is a recognized exception to full disclosure. The physician should respect it, confirm that he still wants the procedure, offer the details at any time, and document his choice. The tempting answer is to describe every risk anyway, but forcing information on a patient who declined it does not respect his **autonomy**. Therapeutic privilege is the physician's decision, not the patient's, and his wife cannot consent while he can decide for himself.",
+      "explanation_pt": "Um paciente capaz pode **renunciar** ao direito de receber informações detalhadas; a renúncia é uma exceção reconhecida à informação completa. O médico deve respeitá-la, confirmar que ele ainda quer o procedimento, oferecer os detalhes a qualquer momento e documentar a escolha. A resposta tentadora é descrever todos os riscos mesmo assim, mas impor informação a um paciente que a recusou não respeita sua **autonomia**. O privilégio terapêutico é uma decisão do médico, não do paciente, e a esposa não pode consentir enquanto ele é capaz de decidir por si."
+    }
+  ],
+  "notes": [
+    {
+      "slug": "note-ethics-consent-capacity-overview",
+      "track": "step1",
+      "system": "behavioral-science",
+      "discipline": "pathology",
+      "tags": [
+        "ethics-consent-capacity",
+        "overview"
+      ],
+      "title": "Consent, capacity and research: harder cases",
+      "body_md": "## Valid consent\n\n- Elements: **capacity**, disclosure (diagnosis, procedure, risks, benefits, alternatives, including no treatment), understanding, and a **voluntary** choice.\n- The physician doing the procedure is responsible. A signed form only documents the discussion.\n- Consent is **specific**: consent for surgery does not cover an unrelated exam under anesthesia.\n- Exceptions: **emergency** (implied consent), **waiver**, and rare **therapeutic privilege**. A family's wish to hide a diagnosis is not one of them: ask the patient.\n\n## Capacity and refusal\n\n- Capacity is **decision-specific** and can **fluctuate**. In delirium, talk with the patient when lucid if the decision can wait.\n- A psychiatric diagnosis is not incapacity. Ask psychiatry when it is unclear whether the illness drives the choice.\n- A capable adult may refuse any treatment, even life-saving. A capable **pregnant** patient may refuse a cesarean.\n\n## Minors\n\n- Parents consent, except in emergencies and state exceptions (STI, contraception, prenatal care, substance use). **Emancipated** minors consent for themselves; a **minor parent** consents for her own child.\n- Parents cannot refuse life-saving care: treat now in an emergency; otherwise seek a **court order**.\n\n## Surrogates and directives\n\n- Order: the patient's own prior wishes, then the **health care proxy**, then family in the state's order.\n- **Substituted judgment** first, **best interest** if wishes are unknown. A proxy cannot override clear written wishes.\n- A **POLST** turns wishes into signed medical orders.\n\n## Research\n\n- **Nuremberg Code** (after Nazi experiments): voluntary consent. The US **Tuskegee** study withheld syphilis treatment from Black men for 40 years; this led to the **Belmont Report**.\n- An **IRB** reviews every study; extra protection for children, prisoners, pregnant women and people with impaired capacity.\n- Subjects may withdraw at any time without penalty.\n- No placebo when proven effective therapy exists and withholding it risks serious harm.\n- A **DSMB** can stop a trial early.",
+      "body_pt_md": "## Consentimento válido\n\n- Elementos: **capacidade**, informação (diagnóstico, procedimento, riscos, benefícios, alternativas, inclusive não tratar), compreensão e escolha **voluntária**.\n- O médico que realiza o procedimento é o responsável. O termo assinado apenas documenta a conversa.\n- O consentimento é **específico**: consentir com uma cirurgia não cobre um exame sob anestesia sem relação com ela.\n- Exceções: **emergência** (consentimento presumido), **renúncia** e o raro **privilégio terapêutico**. O desejo da família de esconder um diagnóstico não é uma delas: perguntar ao paciente.\n\n## Capacidade e recusa\n\n- A capacidade é **específica para cada decisão** e pode **flutuar**. No delirium, se a decisão puder esperar, conversar com o paciente quando lúcido.\n- Um diagnóstico psiquiátrico não é incapacidade. Chamar a psiquiatria se não estiver claro se a doença guia a escolha.\n- Um adulto capaz pode recusar qualquer tratamento, mesmo os que salvam a vida. Uma **gestante** capaz pode recusar uma cesárea.\n\n## Menores\n\n- Os pais consentem, exceto em emergências e nas exceções estaduais (IST, contracepção, pré-natal, uso de substâncias). **Menores emancipados** consentem por si; uma **mãe menor de idade** consente pelo próprio filho.\n- Os pais não podem recusar cuidado que salva a vida: em emergência, tratar já; fora dela, buscar **ordem judicial**.\n\n## Representantes e diretivas\n\n- Ordem: desejos prévios do paciente, depois o **procurador para cuidados de saúde**, depois a família, na ordem da lei estadual.\n- Primeiro o **julgamento substituto**; o **melhor interesse** se os desejos forem desconhecidos. O procurador não pode se sobrepor a desejos claros por escrito.\n- O **POLST** transforma desejos em ordens médicas assinadas.\n\n## Pesquisa\n\n- **Código de Nuremberg** (após os experimentos nazistas): consentimento voluntário. O estudo de **Tuskegee** (EUA) negou tratamento da sífilis a homens negros por 40 anos; isso levou ao **Relatório Belmont**.\n- Um **IRB** (comitê de ética em pesquisa, equivalente ao CEP) revisa cada estudo; proteção extra para crianças, presos, gestantes e pessoas com capacidade reduzida.\n- O participante pode sair a qualquer momento, sem penalidade.\n- Sem placebo quando existe tratamento comprovadamente eficaz e retirá-lo traz risco de dano grave.\n- Um **DSMB** pode interromper um estudo precocemente."
+    }
+  ]
+}
