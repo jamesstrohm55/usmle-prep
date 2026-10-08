@@ -5,15 +5,7 @@ import { gradeAnswer, canShowExplanation, timedLimitMs, pickBlock, type Answer, 
 import { useToast } from '../../ui/Toast';
 import { Rich } from '../../ui/Rich';
 import { ItemImage } from '../../ui/ItemImage';
-
-// crypto.randomUUID is missing on non-secure origins (http://LAN-IP); fall back to getRandomValues.
-function uuid() {
-  if (typeof crypto.randomUUID === 'function') return crypto.randomUUID();
-  const b = crypto.getRandomValues(new Uint8Array(16));
-  b[6] = (b[6] & 0x0f) | 0x40; b[8] = (b[8] & 0x3f) | 0x80;
-  const h = Array.from(b, (x) => x.toString(16).padStart(2, '0')).join('');
-  return `${h.slice(0, 8)}-${h.slice(8, 12)}-${h.slice(12, 16)}-${h.slice(16, 20)}-${h.slice(20)}`;
-}
+import { uuid } from '../../ui/uuid';
 
 // Everything a save needs, captured at finish time so a late Retry never reads another session's state.
 type Pending = { rows: AttemptInsert[]; done: boolean; inFlight: boolean };
