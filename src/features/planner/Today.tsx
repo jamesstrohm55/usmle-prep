@@ -83,8 +83,8 @@ export function Today({ load = loadToday, save = saveSettings, now = () => new D
     };
   }, [data, override, today]);
 
-  if (error) return <p>Could not load your plan: {error} <button onClick={refresh}>Retry</button></p>;
-  if (!data || !view) return <p>Loading…</p>;
+  if (error) return <p role="alert">Could not load your plan: {error} <button onClick={refresh}>Retry</button></p>;
+  if (!data || !view) return <p role="status">Loading…</p>;
 
   const onOverride = (v: string) => { setStored({ day: today, v }); writeOverride(`today-minutes:${today}`, v); };
   async function onSave(s: StudySettings) {
@@ -113,7 +113,7 @@ export function Today({ load = loadToday, save = saveSettings, now = () => new D
           <ol>{view.tasks.map((t, i) => <li key={i}>{renderTask(t)}</li>)}</ol>
         )}
         <p>{view.done} of {view.planned} min this week</p>
-        <progress max={view.planned || 1} value={Math.min(view.done, view.planned)} />
+        <progress aria-label="Minutes this week" max={view.planned || 1} value={Math.min(view.done, view.planned)} />
       </div>
       <details><summary>Plan settings</summary><Settings value={data.settings} onSave={onSave} /></details>
     </div>

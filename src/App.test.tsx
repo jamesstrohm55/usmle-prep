@@ -48,3 +48,9 @@ test('/cards renders Flashcards', async () => {
   render(<App />);
   await screen.findByText('CardsScreen');
 });
+
+test('the landing loading text is a status', () => {
+  fetchRuns.mockReturnValue(new Promise(() => {}));
+  render(<App />);
+  expect(screen.getByRole('status').textContent).toBe('Loading…');
+});

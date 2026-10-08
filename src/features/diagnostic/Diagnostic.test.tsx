@@ -302,3 +302,58 @@ test('Resume on a run with every answer saved marks it complete and shows result
   expect(await screen.findByText('12 of 12 correct')).toBeTruthy();
   expect(deps.setRunStatus).toHaveBeenCalledWith('run-1', 'completed');
 });
+
+test('a second diagnostic in the same visit does not repeat questions answered in the first', async () => {
+  const deps = setup({ runs: [mkRun('in_progress')] });
+  fireEvent.click(await screen.findByText('Resume'));
+  fireEvent.click(screen.getByText('B1'));
+  await screen.findByText('1 of 12 answered');
+  vi.spyOn(window, 'confirm').mockReturnValue(true);
+  fireEvent.click(screen.getByText('Pause'));
+  fireEvent.click(await screen.findByText('Back'));
+  fireEvent.click(screen.getByText('Start over'));
+  fireEvent.click(await screen.findByText('Start diagnostic'));
+  await screen.findByText(/^stem-/);
+  const seen = vi.mocked(diag.sampleDiagnostic).mock.calls.at(-1)![1];
+  expect([...seen]).toContain('c0');
+  expect(deps.createRun).toHaveBeenCalledTimes(1);
+});
+
+test('choices are disabled while a save is in flight', async () => {
+  const d = deferred();
+  setup({ runs: [mkRun('in_progress')] }, { saveAttempts: vi.fn(() => d.promise) });
+  fireEvent.click(await screen.findByText('Resume'));
+  fireEvent.click(screen.getByText('B1'));
+  expect((screen.getByText('A1') as HTMLButtonElement).disabled).toBe(true);
+  d.resolve();
+  await screen.findByText('1 of 12 answered');
+});
+
+test('starting while a run is in progress elsewhere (23505) shows a friendly message', async () => {
+  const createRun = vi.fn().mockRejectedValue(Object.assign(new Error('duplicate key value'), { code: '23505' }));
+  setup({}, { createRun });
+  fireEvent.click(await screen.findByText('Start diagnostic'));
+  expect(await screen.findByText(/already in progress on another device/)).toBeTruthy();
+  expect(screen.queryByText(/duplicate key/)).toBeNull();
+});
+
+test('focus moves to the question stem when the question changes', async () => {
+  setup({ runs: [mkRun('in_progress')] });
+  fireEvent.click(await screen.findByText('Resume'));
+  await waitFor(() => expect(document.activeElement).toBe(screen.getByText('stem-c0')));
+  fireEvent.click(screen.getByText('B1'));
+  await waitFor(() => expect(document.activeElement).toBe(screen.getByText('stem-c1')));
+});
+
+test('loading is announced as a status', () => {
+  setup();
+  expect(screen.getByRole('status')).toBeTruthy();
+});
+
+test('a status update that touches no rows does not break finishing', async () => {
+  setup({ runs: [mkRun('in_progress', ['c0'])] }, { fetchRunAttempts: vi.fn().mockResolvedValueOnce([]).mockResolvedValue(rows(['c0'])) });
+  fireEvent.click(await screen.findByText('Resume'));
+  fireEvent.click(screen.getByText('B1'));
+  fireEvent.click(await screen.findByText('See results'));
+  expect(await screen.findByText('1 of 1 correct')).toBeTruthy();
+});

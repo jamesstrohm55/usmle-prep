@@ -19,7 +19,7 @@ test('valid system and n pass the preset', async () => {
   expect(await screen.findByText(/Start planned set \(1 question in renal\)/)).toBeTruthy();
 });
 
-test.each(['?system=renal&n=abc', '?system=renal&n=0', '?system=renal&n=500', '?n=3', '?system=renal&n=2.5', '?system=renal'])('%s renders without a preset', async (qs) => {
+test.each(['?system=renal&n=abc', '?system=renal&n=0', '?n=3', '?system=renal&n=2.5', '?system=renal'])('%s renders without a preset', async (qs) => {
   at(`/questions${qs}`);
   expect(await screen.findByText(/Start tutor session/)).toBeTruthy();
   expect(screen.queryByText(/Start planned set/)).toBeNull();
@@ -29,4 +29,10 @@ test('URL-encoded system is decoded', async () => {
   bank[0].system = 'Heme/Onc';
   at('/questions?system=Heme%2FOnc&n=3');
   expect(await screen.findByText(/Start planned set \(1 question in Heme\/Onc\)/)).toBeTruthy();
+});
+
+test('n above 100 is clamped, not dropped', async () => {
+  bank[0].system = 'renal';
+  at('/questions?system=renal&n=500');
+  expect(await screen.findByText(/Start planned set \(1 question in renal\)/)).toBeTruthy();
 });

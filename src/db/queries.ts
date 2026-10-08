@@ -113,7 +113,7 @@ export async function createRun(question_ids: string[], seed: string): Promise<R
 }
 export async function setRunStatus(id: string, status: 'completed' | 'abandoned') {
   const patch = status === 'completed' ? { status, completed_at: new Date().toISOString() } : { status };
-  must(await supabase.from('diagnostic_runs').update(patch).eq('id', id).select());
+  must(await supabase.from('diagnostic_runs').update(patch).eq('id', id).eq('status', 'in_progress').select());
 }
 export async function fetchRunAttempts(runId: string) {
   return must(await supabase.from('attempts').select('question_id,chosen,correct').eq('session_id', runId).order('id')) as

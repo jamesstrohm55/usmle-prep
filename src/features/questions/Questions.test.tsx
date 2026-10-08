@@ -288,3 +288,13 @@ test('preset: planned button is disabled until history loads, then excludes seen
   fireEvent.click(btn);
   expect(screen.getByText('stem-r2')).toBeTruthy();
 });
+
+test('a save that fails with 23505 counts as saved: no toast, no retry', async () => {
+  const save = vi.fn().mockRejectedValue(Object.assign(new Error('duplicate key'), { code: '23505' }));
+  wrap(<Questions load={async () => [q('1')]} save={save} />);
+  fireEvent.click(await screen.findByText(/Start tutor session/));
+  fireEvent.click(screen.getByText('B1'));
+  fireEvent.click(screen.getByText('Finish'));
+  await waitFor(() => expect(save).toHaveBeenCalledTimes(1));
+  expect(screen.queryByRole('alert')).toBeNull();
+});

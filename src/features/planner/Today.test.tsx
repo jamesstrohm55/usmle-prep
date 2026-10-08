@@ -179,3 +179,9 @@ test('minutes set but nothing to do shows a message instead of an empty list', a
   expect(await screen.findByText(/Nothing to do today/)).toBeTruthy();
   expect(screen.queryAllByRole('listitem')).toHaveLength(0);
 });
+
+test('loading is a status and the weekly progress bar is labelled', async () => {
+  show(data());
+  expect(screen.getByRole('status')).toBeTruthy();
+  expect(await screen.findByLabelText('Minutes this week')).toBeTruthy();
+});

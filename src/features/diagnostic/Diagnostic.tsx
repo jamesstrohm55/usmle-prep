@@ -43,6 +43,8 @@ export function Diagnostic({ load = loadDiagnostic, deps = DEPS }: { load?: () =
   depsRef.current = deps;
   // Refs mirror state so a double click or a late Retry can't act on stale values.
   const answeredIds = useRef(new Set<string>());
+  const answeredThisVisit = useRef(new Set<string>()); // survives resetRun so a later draw skips them
+  const stemRef = useRef<HTMLParagraphElement>(null);
   const busy = useRef(false);
   const runId = useRef<string | null>(null); // a late save or Retry for another run must not land here
   const shownAt = useRef(Date.now());
@@ -55,6 +57,9 @@ export function Diagnostic({ load = loadDiagnostic, deps = DEPS }: { load?: () =
     toast.dismiss(); // a Retry from the previous run must not survive into this one
     setRun(r); setAnswered(rows); setSitting([]); setShowPt(false);
   };
+
+  const focusId = view === 'question' ? run?.question_ids.find((id) => !answeredIds.current.has(id)) : undefined;
+  useEffect(() => { stemRef.current?.focus(); }, [focusId, view]);
 
   const refresh = useCallback(() => {
     setError(null);
@@ -69,8 +74,8 @@ export function Diagnostic({ load = loadDiagnostic, deps = DEPS }: { load?: () =
   }, []);
   useEffect(refresh, [refresh]);
 
-  if (error) return <p>Could not load the diagnostic: {error} <button onClick={refresh}>Retry</button></p>;
-  if (!data) return <p>Loading…</p>;
+  if (error) return <p role="alert">Could not load the diagnostic: {error} <button onClick={refresh}>Retry</button></p>;
+  if (!data) return <p role="status">Loading…</p>;
 
   const byId = new Map(data.questions.map((q) => [q.id, q]));
   // A question deleted from the bank since the draw is dropped rather than blocking the run.
@@ -83,7 +88,7 @@ export function Diagnostic({ load = loadDiagnostic, deps = DEPS }: { load?: () =
     if (busy.current) return;
     busy.current = true;
     try {
-      const seen = new Set(latestPerQuestion(data!.attempts).keys());
+      const seen = new Set([...latestPerQuestion(data!.attempts).keys(), ...answeredThisVisit.current]);
       const seed = uuid();
       const ids = sampleDiagnostic(data!.questions, seen, seed);
       if (!ids.length) return;
@@ -91,7 +96,10 @@ export function Diagnostic({ load = loadDiagnostic, deps = DEPS }: { load?: () =
       if (!alive.current) return;
       resetRun(r, []); setView('question'); shownAt.current = Date.now();
     } catch (e) {
-      toast.show(`Could not start the diagnostic: ${(e as Error).message}`, start);
+      const msg = (e as { code?: string }).code === '23505'
+        ? 'A diagnostic is already in progress on another device. Reload to resume it.'
+        : `Could not start the diagnostic: ${(e as Error).message}`;
+      toast.show(msg, start);
     } finally { busy.current = false; }
   }
 
@@ -135,6 +143,7 @@ export function Diagnostic({ load = loadDiagnostic, deps = DEPS }: { load?: () =
     } finally { busy.current = false; if (alive.current) setSaving(false); }
     if (!alive.current || runId.current !== r.id || answeredIds.current.has(a.questionId)) return;
     answeredIds.current.add(a.questionId);
+    answeredThisVisit.current.add(a.questionId);
     toast.dismiss();
     setAnswered((xs) => [...xs, { question_id: a.questionId, chosen: a.chosen, correct: a.correct }]);
     setSitting((xs) => [...xs, a]);
@@ -153,9 +162,9 @@ export function Diagnostic({ load = loadDiagnostic, deps = DEPS }: { load?: () =
   if (view === 'question' && current) return (
     <div className="card">
       {progress}
-      <p>{current.stem}</p>
+      <p ref={stemRef} tabIndex={-1}>{current.stem}</p>
       <ItemImage src={current.image_url} credit={current.image_credit} />
-      {current.choices.map((c, i) => <div key={i}><button onClick={() => choose(current, i)}>{c}</button></div>)}
+      {current.choices.map((c, i) => <div key={i}><button disabled={saving} onClick={() => choose(current, i)}>{c}</button></div>)}
       <p><button disabled={saving} onClick={() => { setShowPt(false); setView('review'); }}>Pause</button></p>
     </div>
   );

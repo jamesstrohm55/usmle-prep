@@ -165,7 +165,7 @@ describe('diagnostic runs', () => {
     const [patch] = args('update') as [Record<string, unknown>];
     expect(patch.status).toBe('completed');
     expect(typeof patch.completed_at).toBe('string');
-    expect(args('eq')).toEqual(['id', 'r1']);
+    expect(all('eq')).toEqual([['id', 'r1'], ['status', 'in_progress']]);
   });
   it("setRunStatus('abandoned') does not send completed_at", async () => {
     await setRunStatus('r1', 'abandoned');

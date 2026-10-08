@@ -33,7 +33,7 @@ function Home() {
       .catch(() => live && setTo('/today')); // Today works without a diagnostic
     return () => { live = false; };
   }, []);
-  return to ? <Navigate to={to} replace /> : <p>Loading…</p>;
+  return to ? <Navigate to={to} replace /> : <p role="status">Loading…</p>;
 }
 
 export function App() {

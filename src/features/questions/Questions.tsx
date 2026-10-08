@@ -83,7 +83,11 @@ export function Questions({ load = fetchQuestions, save = saveAttempts, preset, 
   async function persist(p: Pending) {
     if (!alive.current || p.done || p.inFlight) return;
     p.inFlight = true;
-    try { await save(p.rows); p.done = true; } catch (e) { toast.show(`Could not save results: ${(e as Error).message}`, () => persist(p)); } finally { p.inFlight = false; }
+    try { await save(p.rows); p.done = true; } catch (e) {
+      // 23505 = unique (session_id, question_id): an earlier insert committed but its response was lost.
+      if ((e as { code?: string }).code === '23505') p.done = true;
+      else toast.show(`Could not save results: ${(e as Error).message}`, () => persist(p));
+    } finally { p.inFlight = false; }
   }
 
   function setStatus(id: string, status: 'flagged' | 'verified', ok: string, note?: string) {
@@ -175,6 +179,6 @@ export function QuestionsRoute() {
   const [p] = useSearchParams();
   const system = p.get('system') ?? '';
   const n = Number(p.get('n'));
-  const ok = system && Number.isInteger(n) && n >= 1 && n <= 100;
-  return <Questions preset={ok ? { system, n } : undefined} />;
+  const ok = system && Number.isInteger(n) && n >= 1;
+  return <Questions preset={ok ? { system, n: Math.min(100, n) } : undefined} />;
 }
