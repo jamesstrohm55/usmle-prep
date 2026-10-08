@@ -10,7 +10,8 @@ import { ItemImage } from '../../ui/ItemImage';
 import { uuid } from '../../ui/uuid';
 
 // One answer's row, built once when answered so a Retry re-sends it unchanged and never reads another session's state.
-type Pending = { row: AttemptInsert; done: boolean; inFlight: Promise<void> | null };
+// rejected = the server refused this row for good (integrity error): it is never re-sent and offers no Retry.
+type Pending = { row: AttemptInsert; done: boolean; inFlight: Promise<void> | null; rejected?: string };
 
 const BLOCK = 40;
 
@@ -91,19 +92,21 @@ export function Questions({ load = fetchQuestions, save = saveAttempts, preset, 
   // retryPs is what a failure's Retry re-sends (the outer list, also from the 23505 fallback).
   function send(ps: Pending[], failMsg: string, retryPs = ps): Promise<void> {
     if (!alive.current) return Promise.resolve();
-    const todo = ps.filter((p) => !p.done && !p.inFlight);
+    const todo = ps.filter((p) => !p.done && !p.inFlight && !p.rejected);
     if (!todo.length) return Promise.resolve();
     const run = save(todo.map((p) => p.row)).then(() => ({ ok: true as const }), (e: unknown) => ({ ok: false as const, e })).then((r): Promise<unknown> | void => {
       todo.forEach((p) => { p.inFlight = null; });
       if (r.ok) { todo.forEach((p) => { p.done = true; }); return; }
       const err = r.e as { code?: string; message?: string } | null | undefined;
-      // A multi-row insert is all-or-nothing. A server rejection (any error code: 23505 duplicate, 23503
-      // deleted question, ...) may be one bad row, so retry one row at a time and let the good rows land.
-      // Codeless network errors keep the batch: per-row sends while offline only multiply failures.
-      if (err?.code && todo.length > 1) return Promise.all(todo.map((p) => send([p], failMsg, retryPs)));
+      // A multi-row insert is all-or-nothing. An integrity or data rejection (SQLSTATE class 23 or 22: 23505 duplicate,
+      // 23503 deleted question, ...) may be one bad row, so retry one row at a time and let the good rows land.
+      // Other errors (network, auth/RLS, 5xx) would fail every row alike: per-row sends only multiply requests.
+      const integrity = !!err?.code && /^2[23]/.test(err.code); // 22 data exception (e.g. out-of-range duration) is also one bad row
+      if (integrity && todo.length > 1) return Promise.all(todo.map((p) => send([p], failMsg, retryPs)));
       // 23505 = unique (session_id, question_id): an earlier insert committed but its response was lost.
       if (err?.code === '23505') { todo[0].done = true; return; }
       const msg = err?.message || (err ? String(err) : 'unknown error');
+      if (integrity) { todo[0].rejected = msg; if (alive.current) toast.show(`${failMsg}: ${msg}`); return; }
       if (alive.current) toast.show(`${failMsg}: ${msg}`, () => send(retryPs, failMsg));
     }).then(() => {});
     todo.forEach((p) => { p.inFlight = run; });
@@ -126,7 +129,15 @@ export function Questions({ load = fetchQuestions, save = saveAttempts, preset, 
     setFinished(true);
     // Answers were saved as given; once in-flight saves settle, retry only the ones that failed.
     const ps = pendingRef.current;
-    Promise.all(ps.map((p) => p.inFlight)).then(() => send(ps, 'Could not save results'));
+    const report = () => {
+      const unsaved = ps.filter((p) => !p.done && !p.rejected).length;
+      const rejected = ps.filter((p) => p.rejected).length;
+      // One plain failure keeps its own toast (it names the reason); a summary only adds counts for several or rejected rows.
+      if (!alive.current || (!unsaved && !rejected) || (unsaved === 1 && !rejected)) return;
+      const parts = [unsaved && `${unsaved} not saved`, rejected && `${rejected} rejected by the server`].filter(Boolean).join(', ');
+      toast.show(`Could not save results: ${parts} (of ${ps.length})`, unsaved ? () => send(ps, 'Could not save results').then(report) : undefined);
+    };
+    Promise.all(ps.map((p) => p.inFlight)).then(() => send(ps, 'Could not save results')).then(report);
   }
 
   if (loadError) return <p>Could not load questions: {loadError} <button onClick={refresh}>Retry</button></p>;
