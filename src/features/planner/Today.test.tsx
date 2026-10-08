@@ -188,9 +188,9 @@ const today = (h: number, m = 0) => new Date(2026, 9, 7, h, m).toISOString();
 const ans = (q: string, when = today(10), ms = 90_000) => ({ question_id: q, correct: true, duration_ms: ms, answered_at: when });
 const rv = (c: string, when = today(10), ms = 20_000) => ({ card_id: c, duration_ms: ms, reviewed_at: when });
 const item = (re: RegExp) => screen.getAllByRole('listitem').find((li) => re.test(li.textContent ?? ''))!;
-const ZERO = { cards: 0, questions: {} };
 const seed = (minutes: number, tasks: unknown[], o: Record<string, unknown> = {}, key = PLAN_KEY) =>
-  localStorage.setItem(key, JSON.stringify({ minutes, tasks, base: ZERO, hasCompletedRun: true, ...o }));
+  localStorage.setItem(key, JSON.stringify({ minutes, tasks, since: 0, hasCompletedRun: true, ...o }));
+const stored = () => JSON.parse(localStorage.getItem(PLAN_KEY)!);
 const renal10 = [{ kind: 'questions', system: SYS, count: 10, minutes: 15 }];
 
 test('question task shows distinct questions answered since the plan in its system, readable by screen readers', async () => {
@@ -240,7 +240,50 @@ test('first open of the day after morning activity starts the plan at 0', async 
   show(data({ questions: qs(80), attempts: qs(10).map((q) => ans(q.id, today(8))) }));
   await screen.findByText(/Answer 40 /);
   expect(item(/Answer 40/).textContent).toMatch(/0\/40/);
-  expect(JSON.parse(localStorage.getItem(PLAN_KEY)!).base).toEqual({ cards: 0, questions: { [SYS]: 10 } });
+  expect(stored().since).toBe(NOW.getTime());
+});
+
+test('a card reviewed before the plan and again after it counts once and can complete the task', async () => {
+  const since = new Date(2026, 9, 7, 11).getTime();
+  seed(60, [{ kind: 'cards', count: 2, minutes: 1 }], { since });
+  show(data({ reviews: [rv(`${SYS}-c0`, today(9)), rv(`${SYS}-c0`, today(13)), rv(`${SYS}-c0`, today(14)), rv(`${SYS}-c1`, today(13))] }));
+  await screen.findByText(/Review 2 flashcards/);
+  const li = item(/Review 2/);
+  expect(li.textContent).toMatch(/2\/2/);
+  expect(li.className).toBe('done');
+});
+
+test('a question re-answered after the plan counts once', async () => {
+  const since = new Date(2026, 9, 7, 11).getTime();
+  seed(15, renal10, { since });
+  show(data({ questions: qs(40), attempts: [ans(`${SYS}-q0`, today(9)), ans(`${SYS}-q0`, today(13)), ans(`${SYS}-q0`, today(14)), ans(`${SYS}-q1`, today(10))], settings: wedSettings(15) }));
+  await screen.findByText(/Answer 10 /);
+  expect(item(/Answer 10/).textContent).toMatch(/1\/10/);
+});
+
+test('unknown run state (runs failed to load) keeps a completed-run snapshot and its progress', async () => {
+  seed(60, [{ kind: 'questions', system: SYS, count: 40, minutes: 60 }]);
+  show(data({ questions: qs(80), attempts: qs(30).map((q) => ans(q.id)), hasCompletedRun: null }));
+  await screen.findByText(/Answer 40 /);
+  expect(item(/Answer 40/).textContent).toMatch(/30\/40/);
+  expect(stored()).toMatchObject({ since: 0, hasCompletedRun: true });
+});
+
+test('with unknown run state, rebuilding for minutes or on request keeps the stored completed-run value', async () => {
+  seed(60, [{ kind: 'questions', system: SYS, count: 40, minutes: 60 }]);
+  show(data({ questions: qs(80), hasCompletedRun: null }));
+  await screen.findByText(/Answer 40 /);
+  fireEvent.change(screen.getByLabelText(/minutes today/i), { target: { value: '30' } });
+  expect(screen.getByText(/Answer 20 /)).toBeTruthy();
+  expect(stored()).toMatchObject({ minutes: 30, hasCompletedRun: true });
+  fireEvent.click(screen.getByRole('button', { name: 'Rebuild plan' }));
+  expect(stored()).toMatchObject({ minutes: 30, hasCompletedRun: true });
+});
+
+test('with unknown run state and nothing stored, a new plan is saved as not completed', async () => {
+  show(data({ questions: qs(40), hasCompletedRun: null }));
+  await screen.findByText(/Answer 40 /);
+  expect(stored().hasCompletedRun).toBe(false);
 });
 
 test('rebuilding after 100 cards reviewed shows 0/15, not done', async () => {
@@ -264,7 +307,7 @@ test('the day plan is saved and reused, and progress after it counts normally', 
   unmount();
   // Later: questions all answered, more content, due cards appear. The plan stays put, progress moves.
   const past = new Date(2026, 9, 1).toISOString();
-  show(data({ questions: qs(80), attempts: qs(40).map((q) => ans(q.id)), cards: cs(30), states: new Map(cs(30).map((c) => [c.id, { due: past }])) }));
+  show(data({ questions: qs(80), attempts: qs(40).map((q) => ans(q.id, today(13))), cards: cs(30), states: new Map(cs(30).map((c) => [c.id, { due: past }])) }));
   await screen.findByText(/Answer 40 /);
   expect(screen.queryByText(/Review \d+ flashcards/)).toBeNull();
   expect(item(/Answer 40/).textContent).toMatch(/40\/40/);

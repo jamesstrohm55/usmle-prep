@@ -10,7 +10,7 @@ import {
   buildPlan, daysLeft, DEFAULT_SEC_PER_CARD, DEFAULT_SEC_PER_QUESTION, lastStudyBySystem, latestPerQuestion, masteryBySystem,
   medianSeconds, minutesDoneThisWeek, pickNote, rankSystems, todayMinutes, type Task,
 } from '../../engine/planner';
-import { doneToday, parseSnapshot, sinceBase, type Snapshot } from '../../engine/progress';
+import { doneToday, parseSnapshot, type Snapshot } from '../../engine/progress';
 import { getLastUserId } from '../../db/lastUser';
 
 const dayKey = (d: Date) => `${d.getFullYear()}-${String(d.getMonth() + 1).padStart(2, '0')}-${String(d.getDate()).padStart(2, '0')}`;
@@ -31,6 +31,7 @@ const writeKey = (key: string, v: string) => {
 };
 // Empty, non-numeric or negative input means "use the weekday default".
 const parseOverride = (v: string): number | null => { const n = Number(v); return v.trim() !== '' && Number.isFinite(n) && n >= 0 ? Math.min(600, n) : null; };
+const storedRun = (raw: string): boolean => { try { return JSON.parse(raw)?.hasCompletedRun === true; } catch { return false; } };
 const lastDurations = (rows: { duration_ms: number }[]) => rows.slice(-200).map((r) => r.duration_ms);
 
 function daysLeftText(n: number | null) {
@@ -80,25 +81,27 @@ export function Today({ load = loadToday, save = saveSettings, now = () => new D
     const dueCards = cards.filter((c) => { const s = states.get(c.id); return s && new Date(s.due) <= at; }).length;
     const minutes = todayMinutes(settings.minutes_by_weekday, at, parseOverride(override));
     // The plan is fixed for the day so finished tasks stay listed; it is rebuilt only when today's minutes change or on request.
-    // Progress counts work done since the plan was made (`base`), so a mid-day rebuild starts at 0.
+    // Progress counts distinct items reviewed/answered since the plan was made (`since`), so a mid-day rebuild starts at 0.
     const planKey = `${user}:plan:${today}`;
-    const hasCompletedRun = !!data.hasCompletedRun;
-    const doneNow = doneToday(attempts, reviews, qSystem, at);
-    // After Rebuild, ignore the stored plan even if removing it failed.
+    // null = runs failed to load (offline): accept the stored plan and never overwrite its stored run state.
+    const run = data.hasCompletedRun;
+    const raw = readKey(planKey);
+    // After Rebuild, ignore the stored plan; it is overwritten (or removed when the new plan is empty).
     const forced = rebuilds !== handledRebuilds.current;
     handledRebuilds.current = rebuilds;
-    let plan: Snapshot | null = forced ? null : parseSnapshot(readKey(planKey), minutes, hasCompletedRun);
+    let plan: Snapshot | null = forced ? null : parseSnapshot(raw, minutes, run);
     if (!plan) {
       const tasks = buildPlan({
         minutes, dueCards, ranked, available,
         secPerCard: medianSeconds(lastDurations(reviews), DEFAULT_SEC_PER_CARD),
         secPerQuestion: medianSeconds(lastDurations(attempts), DEFAULT_SEC_PER_QUESTION),
       });
-      plan = { minutes, tasks, base: doneNow, hasCompletedRun };
+      plan = { minutes, tasks, since: at.getTime(), hasCompletedRun: run ?? storedRun(raw) };
       if (tasks.length) writeKey(planKey, JSON.stringify(plan));
+      else if (forced) writeKey(planKey, ''); // an empty rebuilt plan must not let the old one come back
     }
     return {
-      minutes, tasks: plan.tasks, latest, progress: sinceBase(doneNow, plan.base),
+      minutes, tasks: plan.tasks, latest, progress: doneToday(attempts, reviews, qSystem, at, plan.since),
       left: daysLeft(settings.target_date, at),
       done: minutesDoneThisWeek(attempts, reviews, at),
       planned: settings.minutes_by_weekday.reduce((a, b) => a + b, 0),
@@ -109,7 +112,7 @@ export function Today({ load = loadToday, save = saveSettings, now = () => new D
   if (!data || !view) return <p role="status">Loading…</p>;
 
   const onOverride = (v: string) => { setStored({ day: overrideKey, v }); writeKey(overrideKey, v); };
-  const onRebuild = () => { writeKey(`${user}:plan:${today}`, ''); setRebuilds((n) => n + 1); };
+  const onRebuild = () => setRebuilds((n) => n + 1);
   const noteKey = (system: string) => `${user}:note-done:${today}:${system}`;
   const isRead = (system: string) => noteRead[noteKey(system)] ?? readKey(noteKey(system)) === '1';
   const setRead = (system: string, read: boolean) => {
