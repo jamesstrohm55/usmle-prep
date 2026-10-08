@@ -44,6 +44,9 @@ export function Questions({ load = fetchQuestions, save = saveAttempts, preset, 
   const deadlineRef = useRef(0);
   const modeRef = useRef<Mode | null>(null);
   const pendingRef = useRef<Pending[]>([]); // this session's answer rows; start() swaps in a fresh array
+  const plannedRef = useRef(false); // current session came from the planned-set button
+  // Once used, the planned button's Resume numbers are stale for this visit, so it is hidden.
+  const [plannedUsed, setPlannedUsed] = useState(false);
 
   const refresh = useCallback(() => {
     setLoadError(null);
@@ -70,8 +73,10 @@ export function Questions({ load = fetchQuestions, save = saveAttempts, preset, 
     return () => clearInterval(t);
   }, [mode, finished]);
 
-  function start(m: Mode, pool: Question[]) {
+  function start(m: Mode, pool: Question[], planned = false) {
     if (!pool.length) return;
+    plannedRef.current = planned;
+    if (planned) setPlannedUsed(true);
     modeRef.current = m; answersRef.current = []; finishedRef.current = false; pendingRef.current = [];
     deadlineRef.current = Date.now() + timedLimitMs(pool.length);
     setMode(m); setSession(pool); setIdx(0); setAnswers([]); setFinished(false); setShowPt(false);
@@ -124,7 +129,17 @@ export function Questions({ load = fetchQuestions, save = saveAttempts, preset, 
     setFinished(true);
     // Answers were saved as given; once in-flight saves settle, retry only the ones that failed.
     const ps = pendingRef.current;
-    Promise.all(ps.map((p) => p.inFlight)).then(() => send(ps, 'Could not save results'));
+    const planned = plannedRef.current;
+    Promise.all(ps.map((p) => p.inFlight)).then(() => send(ps, 'Could not save results')).then(() => { if (planned) reloadHistory(); });
+  }
+
+  // After a planned set, re-read history so it reflects the answers just saved; a failure keeps the old one.
+  function reloadHistory() {
+    if (!alive.current) return;
+    setReady(false);
+    loadAttempts()
+      .then((a) => { if (alive.current) setLatest(latestPerQuestion(a)); }, () => {})
+      .finally(() => { if (alive.current) setReady(true); });
   }
 
   if (loadError) return <p>Could not load questions: {loadError} <button onClick={refresh}>Retry</button></p>;
@@ -140,7 +155,7 @@ export function Questions({ load = fetchQuestions, save = saveAttempts, preset, 
   if (!mode) return (
     <div className="card">
       <p>{bank.length} questions available.</p>
-      {preset && plannedCount > 0 && <p><button disabled={!ready} onClick={() => start('tutor', selectForTask(bank, latest, preset.system, preset.n))}>{plannedLabel}{!ready && ' (loading history…)'}</button></p>}
+      {preset && plannedCount > 0 && !plannedUsed && <p><button disabled={!ready} onClick={() => start('tutor', selectForTask(bank, latest, preset.system, preset.n), true)}>{plannedLabel}{!ready && ' (loading history…)'}</button></p>}
       <button onClick={() => start('tutor', pickBlock(bank, BLOCK))}>Start tutor session ({blockSize} questions)</button>{' '}
       <button onClick={() => start('timed', pickBlock(bank, BLOCK))}>Start timed session ({blockSize} questions, {Math.round(timedLimitMs(blockSize) / 60000)} min)</button>
     </div>
@@ -153,6 +168,7 @@ export function Questions({ load = fetchQuestions, save = saveAttempts, preset, 
         <h2>{s.correct} of {s.total} correct ({s.pct}%)</h2>
         {s.missed.length > 0 && <button onClick={() => start('tutor', s.missed)}>Review {s.missed.length} missed</button>}{' '}
         <button onClick={() => setMode(null)}>Done</button>
+        {preset && <>{' '}<a href="#/today">Back to Today</a></>}
       </div>
     );
   }
