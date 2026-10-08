@@ -89,6 +89,33 @@ test('a failed answer save toasts, Retry re-sends the identical row, and answeri
 
 test('a failed answer save does not block answering the next question; Finish batches only the unsaved rows', async () => {
   vi.spyOn(Math, 'random').mockReturnValue(0.999999);
+  const save = vi.fn()
+    .mockRejectedValueOnce(new Error('offline')) // answer 1
+    .mockResolvedValueOnce(undefined) // answer 2, carrying answer 1
+    .mockRejectedValueOnce(new Error('offline')) // answer 3
+    .mockResolvedValue(undefined); // Finish
+  wrap(<Questions load={async () => [q('1'), q('2'), q('3')]} save={save} />);
+  fireEvent.click(await screen.findByText(/Start tutor session/));
+  fireEvent.click(screen.getByText('B1'));
+  await screen.findByRole('alert');
+  fireEvent.click(screen.getByText('Next'));
+  fireEvent.click(screen.getByText('B1'));
+  await act(async () => {});
+  fireEvent.click(screen.getByText('Next'));
+  fireEvent.click(screen.getByText('A1'));
+  await act(async () => {});
+  expect(save).toHaveBeenCalledTimes(3);
+  const [[r1]] = save.mock.calls[0];
+  expect(save.mock.calls[1][0]).toEqual([r1, expect.objectContaining({ question_id: '2' })]);
+  expect(save.mock.calls[2][0]).toEqual([expect.objectContaining({ question_id: '3' })]);
+  await act(async () => { fireEvent.click(screen.getByText('Finish')); });
+  expect(screen.getByText(/2 of 3/)).toBeTruthy();
+  expect(save).toHaveBeenCalledTimes(4);
+  expect(save.mock.calls[3][0]).toEqual(save.mock.calls[2][0]); // only the still-unsaved row 3
+});
+
+test('a later answer carries an earlier failed row, and no row is saved twice', async () => {
+  vi.spyOn(Math, 'random').mockReturnValue(0.999999);
   const save = vi.fn().mockRejectedValueOnce(new Error('offline')).mockResolvedValue(undefined);
   wrap(<Questions load={async () => [q('1'), q('2'), q('3')]} save={save} />);
   fireEvent.click(await screen.findByText(/Start tutor session/));
@@ -96,13 +123,58 @@ test('a failed answer save does not block answering the next question; Finish ba
   await screen.findByRole('alert');
   fireEvent.click(screen.getByText('Next'));
   fireEvent.click(screen.getByText('B1'));
+  await act(async () => {});
+  expect(save.mock.calls[1][0]).toEqual([save.mock.calls[0][0][0], expect.objectContaining({ question_id: '2' })]);
   fireEvent.click(screen.getByText('Next'));
-  fireEvent.click(screen.getByText('A1'));
-  expect(save).toHaveBeenCalledTimes(3);
+  fireEvent.click(screen.getByText('B1'));
   await act(async () => { fireEvent.click(screen.getByText('Finish')); });
-  expect(screen.getByText(/2 of 3/)).toBeTruthy();
-  expect(save).toHaveBeenCalledTimes(4);
-  expect(save.mock.calls[3][0]).toEqual(save.mock.calls[0][0]);
+  expect(save).toHaveBeenCalledTimes(3);
+  const savedIds = save.mock.calls.slice(1).flatMap((c) => c[0].map((r: { question_id: string }) => r.question_id));
+  expect(savedIds).toEqual(['1', '2', '3']); // each successful call's rows: every answer exactly once
+});
+
+test('an answer still in flight is not carried by the next answer', async () => {
+  vi.spyOn(Math, 'random').mockReturnValue(0.999999);
+  const d = deferred();
+  const save = vi.fn().mockReturnValueOnce(d.promise).mockResolvedValue(undefined);
+  wrap(<Questions load={async () => [q('1'), q('2')]} save={save} />);
+  fireEvent.click(await screen.findByText(/Start tutor session/));
+  fireEvent.click(screen.getByText('B1'));
+  fireEvent.click(screen.getByText('Next'));
+  fireEvent.click(screen.getByText('B1'));
+  expect(save).toHaveBeenCalledTimes(2);
+  expect(save.mock.calls[1][0]).toEqual([expect.objectContaining({ question_id: '2' })]);
+  await act(async () => { d.resolve(); });
+  await act(async () => { fireEvent.click(screen.getByText('Finish')); });
+  expect(save).toHaveBeenCalledTimes(2);
+});
+
+test('leaving the screen dismisses a failed-answer toast, so no Retry that does nothing is left', async () => {
+  const save = vi.fn().mockRejectedValueOnce(new Error('offline')).mockResolvedValue(undefined);
+  const { rerender } = wrap(<Questions load={async () => [q('1'), q('2')]} save={save} />);
+  fireEvent.click(await screen.findByText(/Start tutor session/));
+  fireEvent.click(screen.getByText('B1'));
+  await screen.findByText(/Could not save your answer/);
+  rerender(<ToastProvider><p>elsewhere</p></ToastProvider>); // provider stays, Questions unmounts
+  expect(screen.queryByRole('alert')).toBeNull();
+  expect(screen.queryByText('Retry')).toBeNull();
+  await act(async () => {});
+  expect(save).toHaveBeenCalledTimes(1);
+});
+
+test('a rejection that is not an Error still toasts a readable message with Retry', async () => {
+  const save = vi.fn().mockRejectedValueOnce(undefined).mockRejectedValueOnce('boom').mockResolvedValue(undefined);
+  wrap(<Questions load={async () => [q('1')]} save={save} />);
+  fireEvent.click(await screen.findByText(/Start tutor session/));
+  fireEvent.click(screen.getByText('B1'));
+  expect((await screen.findByRole('alert')).textContent).toMatch('Could not save your answer: unknown error');
+  await act(async () => { fireEvent.click(screen.getByText('Retry')); });
+  expect((await screen.findByRole('alert')).textContent).toMatch('Could not save your answer: boom');
+  await act(async () => { fireEvent.click(screen.getByText('Retry')); });
+  expect(save).toHaveBeenCalledTimes(3);
+  expect(save.mock.calls[2][0]).toEqual(save.mock.calls[0][0]);
+  await act(async () => { fireEvent.click(screen.getByText('Finish')); });
+  expect(save).toHaveBeenCalledTimes(3); // row was saved by the third call, not mistaken as saved earlier
 });
 
 test('failed save of attempts toasts with retry and keeps the results visible', async () => {
@@ -341,7 +413,7 @@ test('timer expiry counts unanswered as missed, saves answered only, offers revi
 test('timer expiry, like Finish, sends only the answers whose save failed', async () => {
   vi.useFakeTimers({ shouldAdvanceTime: false });
   vi.spyOn(Math, 'random').mockReturnValue(0.999999);
-  const save = vi.fn().mockRejectedValueOnce(new Error('offline')).mockResolvedValue(undefined);
+  const save = vi.fn().mockResolvedValueOnce(undefined).mockRejectedValueOnce(new Error('offline')).mockResolvedValue(undefined);
   wrap(<Questions load={async () => [q('1'), q('2')]} save={save} />);
   await act(async () => { await vi.advanceTimersByTimeAsync(0); });
   fireEvent.click(screen.getByText(/Start timed session/));
@@ -349,11 +421,12 @@ test('timer expiry, like Finish, sends only the answers whose save failed', asyn
   await act(async () => { await vi.advanceTimersByTimeAsync(0); });
   fireEvent.click(screen.getByText('Next'));
   fireEvent.click(screen.getByText('A1'));
+  await act(async () => { await vi.advanceTimersByTimeAsync(0); });
   expect(save).toHaveBeenCalledTimes(2);
   await act(async () => { await vi.advanceTimersByTimeAsync(181_000); });
   expect(screen.getByText(/1 of 2/)).toBeTruthy();
   expect(save).toHaveBeenCalledTimes(3);
-  expect(save.mock.calls[2][0]).toEqual(save.mock.calls[0][0]);
+  expect(save.mock.calls[2][0]).toEqual(save.mock.calls[1][0]);
 });
 
 test('no missed button when everything is correct', async () => {
@@ -440,15 +513,42 @@ test('a 23505 on the Finish batch re-sends each row alone, since a multi-row ins
   wrap(<Questions load={async () => [q('1'), q('2')]} save={save} />);
   fireEvent.click(await screen.findByText(/Start tutor session/));
   fireEvent.click(screen.getByText('B1'));
+  await screen.findByRole('alert'); // answer 1 failed before answer 2 is given
   fireEvent.click(screen.getByText('Next'));
   fireEvent.click(screen.getByText('B1'));
   await screen.findByRole('alert');
   await act(async () => { fireEvent.click(screen.getByText('Finish')); });
   await waitFor(() => expect(save).toHaveBeenCalledTimes(5));
-  expect(save.mock.calls[2][0]).toHaveLength(2);
-  expect(save.mock.calls[3][0]).toEqual(save.mock.calls[0][0]);
-  expect(save.mock.calls[4][0]).toEqual(save.mock.calls[1][0]);
+  const [r1, r2] = save.mock.calls[1][0]; // answer 2 carried the failed answer 1
+  expect(save.mock.calls[0][0]).toEqual([r1]);
+  expect(save.mock.calls[2][0]).toEqual([r1, r2]);
+  expect(save.mock.calls[3][0]).toEqual([r1]);
+  expect(save.mock.calls[4][0]).toEqual([r2]);
   expect(screen.queryByText(/Could not save results/)).toBeNull();
+});
+
+test('a row that fails during the 23505 fallback offers a Retry of the whole unsaved list', async () => {
+  vi.spyOn(Math, 'random').mockReturnValue(0.999999);
+  const dup = Object.assign(new Error('duplicate key'), { code: '23505' });
+  const off = new Error('offline');
+  const save = vi.fn()
+    .mockRejectedValueOnce(off).mockRejectedValueOnce(off) // answers 1 and 2
+    .mockRejectedValueOnce(dup) // Finish batch
+    .mockRejectedValueOnce(off).mockRejectedValueOnce(off) // each row alone
+    .mockResolvedValue(undefined);
+  wrap(<Questions load={async () => [q('1'), q('2')]} save={save} />);
+  fireEvent.click(await screen.findByText(/Start tutor session/));
+  fireEvent.click(screen.getByText('B1'));
+  await screen.findByRole('alert');
+  fireEvent.click(screen.getByText('Next'));
+  fireEvent.click(screen.getByText('B1'));
+  await act(async () => {});
+  await act(async () => { fireEvent.click(screen.getByText('Finish')); });
+  await waitFor(() => expect(save).toHaveBeenCalledTimes(5));
+  await screen.findByText(/Could not save results/);
+  await act(async () => { fireEvent.click(screen.getByText('Retry')); });
+  expect(save).toHaveBeenCalledTimes(6);
+  expect(save.mock.calls[5][0]).toEqual(save.mock.calls[1][0]); // both rows, not just the last one to fail
 });
 
 test('a save that fails with 23505 counts as saved: no toast, no retry', async () => {

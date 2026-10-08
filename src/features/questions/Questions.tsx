@@ -79,26 +79,31 @@ export function Questions({ load = fetchQuestions, save = saveAttempts, preset, 
   }
 
   const alive = useRef(true);
-  useEffect(() => { alive.current = true; return () => { alive.current = false; }; }, []);
+  // Unmount dismisses the toast: its Retry could no longer send (see send), so it must not linger.
+  const { dismiss } = toast;
+  useEffect(() => { alive.current = true; return () => { alive.current = false; dismiss(); }; }, [dismiss]);
 
   // Inserts the rows of ps not yet saved or in flight, in one call. Touches no component state, so a
   // Retry for an old session cannot reach the current one. Nothing new is sent or offered after unmount:
   // a user switch remounts this screen, and a late Retry would write under the new user.
-  function send(ps: Pending[], failMsg: string): Promise<void> {
+  // retryPs is what a failure's Retry re-sends (the outer list, also from the 23505 fallback).
+  function send(ps: Pending[], failMsg: string, retryPs = ps): Promise<void> {
     if (!alive.current) return Promise.resolve();
     const todo = ps.filter((p) => !p.done && !p.inFlight);
     if (!todo.length) return Promise.resolve();
-    const run = save(todo.map((p) => p.row)).then(() => null, (e: unknown) => e).then((err): Promise<unknown> | void => {
+    const run = save(todo.map((p) => p.row)).then(() => ({ ok: true as const }), (e: unknown) => ({ ok: false as const, e })).then((r): Promise<unknown> | void => {
       todo.forEach((p) => { p.inFlight = null; });
-      if (!err) { todo.forEach((p) => { p.done = true; }); return; }
+      if (r.ok) { todo.forEach((p) => { p.done = true; }); return; }
+      const err = r.e as { code?: string; message?: string } | null | undefined;
       // 23505 = unique (session_id, question_id): an earlier insert committed but its response was lost.
       // A multi-row insert is all-or-nothing, so fall back to one row at a time to find which are missing.
-      if ((err as { code?: string }).code === '23505') {
+      if (err?.code === '23505') {
         if (todo.length === 1) todo[0].done = true;
-        else return Promise.all(todo.map((p) => send([p], failMsg)));
+        else return Promise.all(todo.map((p) => send([p], failMsg, retryPs)));
         return;
       }
-      if (alive.current) toast.show(`${failMsg}: ${(err as Error).message}`, () => send(ps, failMsg));
+      const msg = err?.message || (err ? String(err) : 'unknown error');
+      if (alive.current) toast.show(`${failMsg}: ${msg}`, () => send(retryPs, failMsg));
     }).then(() => {});
     todo.forEach((p) => { p.inFlight = run; });
     return run;
@@ -161,7 +166,7 @@ export function Questions({ load = fetchQuestions, save = saveAttempts, preset, 
     setAnswers(answersRef.current);
     const p: Pending = { row: { question_id: a.questionId, chosen: a.chosen, correct: a.correct, duration_ms: a.durationMs, mode: modeRef.current!, session_id: sessionId.current }, done: false, inFlight: null };
     pendingRef.current.push(p);
-    send([p], 'Could not save your answer');
+    send(pendingRef.current, 'Could not save your answer'); // also carries earlier rows whose save failed
   }
   function next() { setIdx((n) => Math.min(n + 1, session.length - 1)); setShowPt(false); shownAt.current = Date.now(); }
 
