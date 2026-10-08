@@ -1,0 +1,150 @@
+{
+  "cards": [],
+  "questions": [
+    {
+      "slug": "q-rna-viruses-hiv-qx-influenza-reassortment",
+      "track": "step1",
+      "system": "microbiology",
+      "discipline": "microbiology",
+      "tags": ["rna-viruses-hiv", "influenza", "antigenic-variation"],
+      "stem": "In the spring, a new influenza A strain spreads quickly around the world and causes severe illness in many young adults. Blood samples stored before the outbreak show that most people had little or no antibody against its hemagglutinin. Gene sequencing shows that its hemagglutinin gene matches strains that circulate in pigs, two of its polymerase genes match bird strains, and its remaining genes match human strains. Which process best explains how this new strain arose?",
+      "choices": [
+        "Point mutations in the hemagglutinin gene during spread among humans",
+        "Crossover between two genomes inside a single RNA molecule",
+        "Exchange of whole genome segments between strains in one cell",
+        "Packaging of one strain's genome inside another strain's proteins",
+        "A defective strain using proteins made by a coinfecting strain"
+      ],
+      "correct": 2,
+      "explanation": "The influenza genome has **eight separate RNA segments**. When two strains infect the same cell (pigs can be infected by human, swine and bird strains), whole segments can be swapped: **reassortment**. This produces **antigenic shift**, a hemagglutinin that the population has not seen, and can start a **pandemic**. **Antigenic drift** (point mutations) is the tempting choice, but it changes the existing hemagglutinin gradually and causes yearly epidemics; it cannot create a virus built from pig, bird and human genes.",
+      "explanation_pt": "O genoma do vírus influenza tem **oito segmentos de RNA separados**. Quando duas cepas infectam a mesma célula (o porco pode ser infectado por cepas humanas, suínas e aviárias), segmentos inteiros podem ser trocados: **rearranjo** (*reassortment*). Isso produz **mudança antigênica** (*antigenic shift*), uma hemaglutinina que a população nunca viu, e pode iniciar uma **pandemia**. A **deriva antigênica** (*antigenic drift*, mutações pontuais) é a alternativa tentadora, mas altera aos poucos a hemaglutinina existente e causa epidemias anuais; não consegue criar um vírus montado com genes suínos, aviários e humanos."
+    },
+    {
+      "slug": "q-rna-viruses-hiv-qx-rsv-fusion-protein",
+      "track": "step1",
+      "system": "microbiology",
+      "discipline": "microbiology",
+      "tags": ["rna-viruses-hiv", "rsv", "bronchiolitis"],
+      "stem": "A 3-month-old girl born at 35 weeks' gestation is brought to the emergency department in January. She had a runny nose for 3 days, and now she has cough, fast breathing and poor feeding. Her 4-year-old brother has a cold. Respiratory rate is 62/min and oxygen saturation is 92% on room air. She has nasal flaring, retractions between the ribs, and wheezes and fine crackles in both lungs. A nasal swab is positive for a virus that, when grown in cell culture, makes neighboring cells fuse into large multinucleated cells. Which viral protein is the target of the monoclonal antibodies used to protect high-risk infants against this virus?",
+      "choices": [
+        "F glycoprotein",
+        "G glycoprotein",
+        "Hemagglutinin-neuraminidase (HN) protein",
+        "Hemagglutinin (HA) protein",
+        "Matrix (M) protein"
+      ],
+      "correct": 0,
+      "explanation": "Winter **bronchiolitis** in an infant with wheezes and crackles is typical of **respiratory syncytial virus** (RSV). Its **F protein** fuses the viral envelope with the cell membrane and also fuses infected cells with their neighbors, forming **syncytia**. Protective monoclonal antibodies such as **palivizumab** bind the F protein. The **G protein** is the tempting choice because it is RSV's attachment protein, but it does not cause fusion and is not the antibody target; RSV has no hemagglutinin or neuraminidase activity, and the **HN** protein belongs to parainfluenza and mumps viruses.",
+      "explanation_pt": "**Bronquiolite** no inverno em lactente com sibilos e crepitações é típica do **vírus sincicial respiratório** (VSR). Sua **proteína F** funde o envelope viral com a membrana celular e também funde células infectadas com as vizinhas, formando **sincícios**. Anticorpos monoclonais protetores, como o **palivizumabe**, ligam-se à proteína F. A **proteína G** é a alternativa tentadora por ser a proteína de adesão do VSR, mas não causa fusão e não é o alvo dos anticorpos; o VSR não tem atividade de hemaglutinina nem de neuraminidase, e a proteína **HN** pertence aos vírus parainfluenza e da caxumba."
+    },
+    {
+      "slug": "q-rna-viruses-hiv-qx-measles-genome",
+      "track": "step1",
+      "system": "microbiology",
+      "discipline": "microbiology",
+      "tags": ["rna-viruses-hiv", "paramyxovirus", "measles"],
+      "stem": "A 3-year-old boy who has never been vaccinated has had fever, cough, runny nose and red, watery eyes for 3 days. He returned from a family trip abroad 12 days ago. Temperature is 39.8°C (103.6°F). Exam shows tiny blue-white spots on a red base on the inner cheeks opposite the molars. Today a red, blotchy rash began at the hairline and behind the ears and is spreading down to his trunk. Which description best fits the virus causing his illness?",
+      "choices": [
+        "Enveloped virus with a segmented, negative-sense RNA genome",
+        "Nonenveloped virus with a positive-sense single-stranded RNA genome",
+        "Enveloped virus with a positive-sense single-stranded RNA genome",
+        "Enveloped virus with a nonsegmented, negative-sense RNA genome",
+        "Enveloped virus with a linear double-stranded DNA genome"
+      ],
+      "correct": 3,
+      "explanation": "Fever with **cough, coryza and conjunctivitis**, then **Koplik spots** and a rash that spreads **from the head downward**, is **measles**. The measles virus is a **paramyxovirus**: enveloped, with **one nonsegmented, negative-sense** RNA strand, so it carries its own RNA-dependent RNA polymerase. **Rubella** is the tempting choice because its rash also starts on the face and spreads down, but rubella is a positive-sense RNA virus that causes a milder illness with nodes behind the ears and no Koplik spots. A segmented negative-sense genome fits influenza, and a double-stranded DNA genome fits HHV-6 (roseola).",
+      "explanation_pt": "Febre com **tosse, coriza e conjuntivite**, seguida de **manchas de Koplik** e de exantema que se espalha **da cabeça para baixo**, é **sarampo**. O vírus do sarampo é um **paramixovírus**: envelopado, com **uma única fita de RNA não segmentada e de sentido negativo**, por isso carrega sua própria RNA polimerase dependente de RNA. A **rubéola** é a alternativa tentadora porque seu exantema também começa na face e desce, mas o vírus da rubéola tem RNA de sentido positivo e causa doença mais leve, com linfonodos retroauriculares e sem manchas de Koplik. Genoma segmentado de sentido negativo corresponde ao influenza, e DNA de fita dupla corresponde ao HHV-6 (roséola)."
+    },
+    {
+      "slug": "q-rna-viruses-hiv-qx-rabies-receptor",
+      "track": "step1",
+      "system": "microbiology",
+      "discipline": "microbiology",
+      "tags": ["rna-viruses-hiv", "rabies", "pathogenesis"],
+      "stem": "A 34-year-old man is brought to the emergency department with 3 days of fever, anxiety and confusion. When a fan blows air on his face, he has painful spasms of the neck and throat muscles. He is drooling because swallowing triggers the same spasms. Seven weeks ago, a raccoon bit his left hand while he was camping. He washed the wound but did not see a doctor. Five days ago, he felt tingling and itching around the healed bite. Shortly after the bite, the virus causing his illness most likely bound to which host molecule at the bite site before entering nerve endings?",
+      "choices": [
+        "Angiotensin-converting enzyme 2 (ACE2)",
+        "Complement receptor 2 (CD21)",
+        "Intercellular adhesion molecule-1 (ICAM-1)",
+        "P blood group antigen",
+        "Nicotinic acetylcholine receptor"
+      ],
+      "correct": 4,
+      "explanation": "Fear of air and water with throat spasms after an animal bite is **rabies**. The rabies virus binds the **nicotinic acetylcholine receptor** on muscle at the neuromuscular junction, where it may first replicate; it then enters motor and sensory nerve endings and travels to the CNS by retrograde axonal transport. Tingling at the old bite site is a common early sign. **ICAM-1** is the tempting choice because it is a classic viral receptor, but it is used by most rhinoviruses; ACE2 is the receptor for SARS-CoV-2, CD21 for Epstein-Barr virus, and P antigen for parvovirus B19.",
+      "explanation_pt": "Medo de ar e de água com espasmos da garganta após mordida de animal é **raiva**. O vírus da raiva liga-se ao **receptor nicotínico de acetilcolina** do músculo na junção neuromuscular, onde pode replicar-se primeiro; depois entra nas terminações nervosas motoras e sensitivas e chega ao SNC por transporte axonal retrógrado. Formigamento no local da mordida antiga é um sinal precoce comum. A **ICAM-1** é a alternativa tentadora por ser um receptor viral clássico, mas é usada pela maioria dos rinovírus; a ECA2 é o receptor do SARS-CoV-2, o CD21 do vírus Epstein-Barr e o antígeno P do parvovírus B19."
+    },
+    {
+      "slug": "q-rna-viruses-hiv-qx-enterovirus-meningitis",
+      "track": "step1",
+      "system": "microbiology",
+      "discipline": "microbiology",
+      "tags": ["rna-viruses-hiv", "picornavirus", "aseptic-meningitis"],
+      "stem": "In August, a 7-year-old girl has had fever, headache, vomiting and discomfort with bright light for 1 day. Her vaccinations are up to date. Last week her 1-year-old brother had fever and small blisters in his mouth and on his palms and soles. Temperature is 38.5°C (101.3°F). She is alert and oriented, with neck stiffness, no rash and no focal neurologic deficits. Cerebrospinal fluid shows: opening pressure normal; leukocytes 140/mm³ (85% lymphocytes); protein 52 mg/dL (normal 15-45 mg/dL); glucose 62 mg/dL (serum glucose 98 mg/dL); Gram stain shows no organisms. Which virus is the most likely cause?",
+      "choices": [
+        "Herpes simplex virus type 2",
+        "Enterovirus",
+        "Mumps virus",
+        "West Nile virus",
+        "Lymphocytic choriomeningitis virus"
+      ],
+      "correct": 1,
+      "explanation": "A lymphocytic CSF with normal glucose (CSF-to-serum ratio about 0.63) and a negative Gram stain is **aseptic (viral) meningitis**, and **enteroviruses** (echoviruses, coxsackieviruses) are its most common cause, peaking in **summer and fall**. They are nonenveloped picornaviruses spread by the **fecal-oral** route, and her brother's hand-foot-and-mouth disease points to a shared enterovirus in the household. **HSV-2** is the tempting choice, but it causes meningitis mainly in sexually active adults, often with genital lesions or recurrent episodes. Mumps is unlikely in a vaccinated child, West Nile virus causes neuroinvasive disease mainly in older adults, and lymphocytic choriomeningitis virus needs contact with mice or hamsters.",
+      "explanation_pt": "LCR linfocítico com glicose normal (razão LCR/soro de cerca de 0,63) e bacterioscopia pelo Gram sem microrganismos indica **meningite asséptica (viral)**, e os **enterovírus** (ecovírus, coxsackievírus) são sua causa mais comum, com pico no **verão e outono**. São picornavírus não envelopados transmitidos pela via **fecal-oral**, e a doença mão-pé-boca do irmão sugere um enterovírus comum no domicílio. O **HSV-2** é a alternativa tentadora, mas causa meningite principalmente em adultos sexualmente ativos, muitas vezes com lesões genitais ou episódios recorrentes. A caxumba é improvável em criança vacinada, o vírus do Nilo Ocidental causa doença neuroinvasiva principalmente em idosos, e o vírus da coriomeningite linfocitária exige contato com camundongos ou hamsters."
+    },
+    {
+      "slug": "q-rna-viruses-hiv-qx-hcv-reinfection",
+      "track": "step1",
+      "system": "microbiology",
+      "discipline": "microbiology",
+      "tags": ["rna-viruses-hiv", "flavivirus", "hepatitis-c"],
+      "stem": "A 38-year-old man who injects drugs was treated for chronic hepatitis C 2 years ago, and his HCV RNA stayed undetectable after treatment. He has continued to share needles. Routine labs now show: ALT 96 U/L (normal under 40 U/L); anti-HCV antibody positive (also positive at his first diagnosis); HCV RNA 1,200,000 IU/mL. The virus is a different genotype from his first infection. Which feature of this virus best explains why his earlier immune response did not protect him?",
+      "choices": [
+        "Persistence of viral DNA as a closed circle in hepatocyte nuclei",
+        "Exchange of whole genome segments between two viral strains",
+        "Lifelong latent infection of sensory ganglion neurons",
+        "Error-prone RNA copying that keeps changing envelope proteins",
+        "Integration of a DNA copy of the genome into host chromosomes"
+      ],
+      "correct": 3,
+      "explanation": "**Hepatitis C virus** (a flavivirus) copies its positive-sense RNA with an RNA-dependent RNA polymerase that **does not proofread**. Mutations pile up, especially in the **hypervariable regions of the envelope glycoproteins**, so each patient carries many variants (*quasispecies*) and there are several genotypes. Antibodies made against one variant do not neutralize others, which allows **reinfection** after cure and has blocked vaccine development. A **closed circle of DNA in the nucleus** is the tempting choice, but that is how **hepatitis B** persists; HCV is an RNA virus with no DNA stage, so it cannot form circular DNA or integrate into chromosomes.",
+      "explanation_pt": "O **vírus da hepatite C** (um flavivírus) copia seu RNA de sentido positivo com uma RNA polimerase dependente de RNA que **não faz revisão** (*proofreading*). As mutações se acumulam, sobretudo nas **regiões hipervariáveis das glicoproteínas do envelope**, de modo que cada paciente carrega muitas variantes (*quasiespécies*) e existem vários genótipos. Anticorpos contra uma variante não neutralizam as outras, o que permite **reinfecção** após a cura e tem impedido o desenvolvimento de vacina. O **círculo de DNA no núcleo** é a alternativa tentadora, mas é assim que a **hepatite B** persiste; o HCV é um vírus de RNA sem fase de DNA, por isso não forma DNA circular nem se integra aos cromossomos."
+    },
+    {
+      "slug": "q-rna-viruses-hiv-qx-hev-pregnancy",
+      "track": "step1",
+      "system": "microbiology",
+      "discipline": "microbiology",
+      "tags": ["rna-viruses-hiv", "hepatitis-e", "pregnancy"],
+      "stem": "A 26-year-old woman at 30 weeks' gestation has had nausea, dark urine and yellow eyes for 5 days, and today she is confused. Five weeks ago she visited relatives in a rural area of South Asia after heavy monsoon floods, and several people in the village developed jaundice. She has never injected drugs and has had one sexual partner. Labs: ALT 2,450 U/L; AST 1,980 U/L; total bilirubin 11.2 mg/dL; INR 2.6; IgM anti-hepatitis A virus negative; hepatitis B surface antigen negative; IgM anti-hepatitis B core antibody negative; anti-hepatitis C virus antibody negative. Infection with which virus is the most likely cause?",
+      "choices": [
+        "Hepatitis A virus",
+        "Hepatitis B virus",
+        "Hepatitis C virus",
+        "Hepatitis D virus",
+        "Hepatitis E virus"
+      ],
+      "correct": 4,
+      "explanation": "**Hepatitis E virus** spreads by the **fecal-oral** route, often through contaminated water, and causes outbreaks in South Asia after flooding. It is usually self-limited, but in **pregnant women**, especially in the third trimester, it can cause **fulminant liver failure** (high INR, confusion) with high mortality. **Hepatitis A** is the tempting choice because it spreads the same way, but her IgM anti-HAV is negative, and hepatitis A is not especially severe in pregnancy. Hepatitis D needs hepatitis B surface antigen, which is negative, and hepatitis B spreads mainly by blood and sex and hepatitis C mainly by blood, not by water in village outbreaks.",
+      "explanation_pt": "O **vírus da hepatite E** é transmitido pela via **fecal-oral**, muitas vezes por água contaminada, e causa surtos no Sul da Ásia após enchentes. Em geral é autolimitado, mas em **gestantes**, sobretudo no terceiro trimestre, pode causar **insuficiência hepática fulminante** (INR alto, confusão) com alta mortalidade. A **hepatite A** é a alternativa tentadora porque tem a mesma via de transmissão, mas o IgM anti-HAV é negativo, e a hepatite A não é especialmente grave na gestação. A hepatite D exige o antígeno de superfície da hepatite B, que é negativo, e a hepatite B é transmitida principalmente por sangue e sexo, e a hepatite C principalmente por sangue, não pela água em surtos comunitários."
+    },
+    {
+      "slug": "q-rna-viruses-hiv-qx-hairy-leukoplakia",
+      "track": "step1",
+      "system": "microbiology",
+      "discipline": "microbiology",
+      "tags": ["rna-viruses-hiv", "hiv", "opportunistic-infections"],
+      "stem": "A 41-year-old man with HIV infection stopped antiretroviral therapy 1 year ago. For 2 months he has noticed painless white patches on the sides of his tongue. Exam shows white plaques with vertical folds and ridges on both lateral borders of the tongue; they cannot be scraped off with a tongue blade. Labs: CD4+ T-cell count 310/mm³ (normal 500-1,500/mm³); HIV-1 RNA 62,000 copies/mL. A biopsy shows a thickened epithelium with swollen, pale cells in the upper layers, no invasion of the deeper tissue, and no fungal forms on special stains. Which virus is responsible for these lesions?",
+      "choices": [
+        "Human papillomavirus",
+        "Epstein-Barr virus",
+        "Herpes simplex virus type 1",
+        "Human herpesvirus 8",
+        "Cytomegalovirus"
+      ],
+      "correct": 1,
+      "explanation": "White, corrugated plaques on the **lateral tongue** that **cannot be scraped off** are **oral hairy leukoplakia**, caused by **Epstein-Barr virus** replicating in the oral epithelium. It appears with moderate immune suppression, often while the CD4 count is still above 200/mm³, and it is not premalignant. **Human papillomavirus** is the tempting choice because the swollen, pale epithelial cells can look like koilocytes, but HPV in the mouth causes warts or papillomas, not bilateral ridged plaques on the tongue edges. Oral thrush (Candida) can be scraped off, and HHV-8 causes purple Kaposi sarcoma lesions.",
+      "explanation_pt": "Placas brancas e corrugadas na **borda lateral da língua** que **não saem à raspagem** são **leucoplasia pilosa oral**, causada pelo **vírus Epstein-Barr** em replicação no epitélio oral. Surge com imunossupressão moderada, muitas vezes ainda com CD4 acima de 200/mm³, e não é pré-maligna. O **papilomavírus humano** é a alternativa tentadora porque as células epiteliais pálidas e balonizadas podem lembrar coilócitos, mas o HPV na boca causa verrugas ou papilomas, não placas sulcadas bilaterais nas bordas da língua. A candidíase oral sai à raspagem, e o HHV-8 causa as lesões violáceas do sarcoma de Kaposi."
+    }
+  ],
+  "notes": []
+}

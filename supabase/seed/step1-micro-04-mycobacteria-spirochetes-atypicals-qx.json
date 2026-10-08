@@ -1,0 +1,150 @@
+{
+  "cards": [],
+  "questions": [
+    {
+      "slug": "q-mycobacteria-spirochetes-qx-tb-sulfatides",
+      "track": "step1",
+      "system": "microbiology",
+      "discipline": "microbiology",
+      "tags": ["mycobacteria-spirochetes", "tuberculosis", "virulence"],
+      "stem": "A 45-year-old man from the Philippines has had 3 months of cough, night sweats and weight loss. Sputum shows acid-fast bacilli, and culture grows Mycobacterium tuberculosis. In a research study, human alveolar macrophages are infected with his isolate. Electron microscopy shows intact bacilli inside phagosomes that never fuse with lysosomes. A mutant of the same strain that lacks one cell wall glycolipid is killed quickly, because its phagosomes fuse with lysosomes normally. Which component is most likely missing in the mutant?",
+      "choices": [
+        "Cord factor (trehalose dimycolate)",
+        "Sulfatides",
+        "Mycolic acids",
+        "Lipopolysaccharide",
+        "Teichoic acid"
+      ],
+      "correct": 1,
+      "explanation": "**Sulfatides** are sulfated glycolipids of the *M. tuberculosis* cell wall that **block fusion of the phagosome with the lysosome**, so the bacilli survive and grow inside macrophages. **Cord factor** is the tempting choice because it is also a virulence glycolipid, but its classic role is to activate macrophages to release **TNF-α** (driving granulomas) and to inhibit neutrophil migration. Mycolic acids make the wall waxy and acid-fast, and lipopolysaccharide and teichoic acid belong to gram-negative and gram-positive bacteria, not to mycobacteria.",
+      "explanation_pt": "Os **sulfatídeos** são glicolipídeos sulfatados da parede do *M. tuberculosis* que **bloqueiam a fusão do fagossomo com o lisossomo**, por isso os bacilos sobrevivem e se multiplicam dentro dos macrófagos. O **fator corda** é a opção tentadora porque também é um glicolipídeo de virulência, mas seu papel clássico é ativar os macrófagos a liberar **TNF-α** (o que promove granulomas) e inibir a migração de neutrófilos. Os ácidos micólicos tornam a parede cerosa e álcool-ácido resistente, e o lipopolissacarídeo e o ácido teicoico pertencem às bactérias gram-negativas e gram-positivas, não às micobactérias."
+    },
+    {
+      "slug": "q-mycobacteria-spirochetes-qx-relapsing-fever",
+      "track": "step1",
+      "system": "microbiology",
+      "discipline": "microbiology",
+      "tags": ["mycobacteria-spirochetes", "relapsing-fever", "antigenic-variation"],
+      "stem": "A 27-year-old man arrived from East Africa 4 weeks ago after several months in a crowded refugee camp. His clothes were full of body lice. He has had high fevers that come and go. His temperature log shows: days 1-5, 40.1°C (104.2°F); days 6-13, 37.0°C (98.6°F); days 14-18, 39.8°C (103.6°F); days 19-26, 36.9°C (98.4°F); days 27-28, 39.6°C (103.3°F). Each fever ends suddenly with heavy sweating. A Wright-Giemsa blood smear taken during fever shows long, loosely coiled spiral bacteria between the red cells. A smear taken between fevers shows none. Which feature of the organism best explains why his fevers keep coming back?",
+      "choices": [
+        "Formation of resistant spores in the liver",
+        "Synchronized rupture of the red cells it infects",
+        "Latency inside sensory nerve ganglia",
+        "Changes in its outer surface proteins",
+        "Survival inside macrophages that resist killing"
+      ],
+      "correct": 3,
+      "explanation": "Recurrent fevers after **body louse** exposure, with large **spirochetes on a stained blood smear** only during fever, point to **louse-borne relapsing fever** (*Borrelia recurrentis*). Each fever ends when antibodies clear most bacteria, but a few have switched their **outer surface proteins** (**antigenic variation**), so they grow again and cause the next episode. Synchronized rupture of red cells is tempting because it explains the periodic fevers of malaria, but *Plasmodium* lives inside red cells, while these spirochetes swim free between them.",
+      "explanation_pt": "Febres recorrentes após exposição ao **piolho do corpo**, com **espiroquetas grandes no esfregaço de sangue** corado apenas durante a febre, indicam **febre recorrente transmitida por piolho** (*Borrelia recurrentis*). Cada episódio termina quando os anticorpos eliminam a maioria das bactérias, mas algumas trocaram suas **proteínas de superfície externa** (**variação antigênica**), então voltam a crescer e causam o episódio seguinte. A ruptura sincronizada de hemácias é tentadora porque explica as febres periódicas da malária, mas o *Plasmodium* vive dentro das hemácias, enquanto essas espiroquetas ficam livres entre elas."
+    },
+    {
+      "slug": "q-mycobacteria-spirochetes-qx-ehrlichiosis-labs",
+      "track": "step1",
+      "system": "microbiology",
+      "discipline": "microbiology",
+      "tags": ["mycobacteria-spirochetes", "ehrlichia-anaplasma", "tick-borne"],
+      "stem": "A 61-year-old man from Missouri has had 5 days of fever, headache and muscle aches. Ten days ago he pulled a tick off his leg. The tick had a single white spot on its back. He has no rash. Temperature is 39.1°C (102.4°F). Labs show: leukocytes 2,300/mm3, platelets 58,000/mm3, AST 185 U/L, ALT 150 U/L and sodium 132 mEq/L. A blood smear shows small berry-like clusters of bacteria inside the cytoplasm of some mononuclear white cells. Which organism is most likely?",
+      "choices": [
+        "Ehrlichia chaffeensis",
+        "Anaplasma phagocytophilum",
+        "Rickettsia rickettsii",
+        "Babesia microti",
+        "Borrelia burgdorferi"
+      ],
+      "correct": 0,
+      "explanation": "Fever without rash, **leukopenia**, **thrombocytopenia** and high transaminases after a bite by the **lone star tick** (*Amblyomma americanum*, white spot on the back) in the south-central United States suggest **human monocytic ehrlichiosis**. *Ehrlichia chaffeensis* forms **morulae** inside **monocytes**. *Anaplasma phagocytophilum* causes the same lab picture, but it forms morulae in **neutrophils** and is carried by *Ixodes* ticks. *R. rickettsii* usually causes a rash, *Babesia* lives inside red cells, and *B. burgdorferi* does not form inclusions in white cells.",
+      "explanation_pt": "Febre sem exantema, **leucopenia**, **plaquetopenia** e transaminases elevadas após picada do **carrapato *lone star*** (*Amblyomma americanum*, mancha branca no dorso) na região centro-sul dos Estados Unidos sugerem **erliquiose monocítica humana**. A *Ehrlichia chaffeensis* forma **mórulas** dentro dos **monócitos**. O *Anaplasma phagocytophilum* causa o mesmo quadro laboratorial, mas forma mórulas nos **neutrófilos** e é transmitido por carrapatos *Ixodes*. A *R. rickettsii* em geral causa exantema, a *Babesia* vive dentro das hemácias e a *B. burgdorferi* não forma inclusões nos leucócitos."
+    },
+    {
+      "slug": "q-mycobacteria-spirochetes-qx-epidemic-typhus-transmission",
+      "track": "step1",
+      "system": "microbiology",
+      "discipline": "microbiology",
+      "tags": ["mycobacteria-spirochetes", "rickettsia", "transmission"],
+      "stem": "A 34-year-old man has lived for 3 months in a crowded camp for displaced people, where he has not been able to wash his clothes. He has had 9 days of high fever, severe headache and muscle aches. Five days ago a rash began on his trunk and in his armpits and then spread to his arms and legs. His face, palms and soles have no rash. He is now confused. Small insects are found in the seams of his clothes. Blood cultures show no growth. How did the organism most likely enter his body?",
+      "choices": [
+        "Bite of a tick that stayed attached for more than a day",
+        "Bite of a rat flea",
+        "Bite of a larval mite (chigger)",
+        "Inhalation of dust from animal birth products",
+        "Insect feces rubbed into skin broken by scratching"
+      ],
+      "correct": 4,
+      "explanation": "A rash that starts on the **trunk**, spreads outward and **spares the palms and soles**, in a crowded setting with poor hygiene and **body lice**, is **epidemic typhus** (*Rickettsia prowazekii*). The louse does not inject the organism with its bite: it **defecates while feeding**, and the person rubs the infected **louse feces** into the skin when scratching. A rat flea is tempting because **endemic (murine) typhus** (*R. typhi*) causes a similar but milder rash, but it is linked to rats and fleas, not body lice (and even then the organism enters with flea feces, not through the bite itself). A tick bite fits Rocky Mountain spotted fever, whose rash starts on the wrists and ankles.",
+      "explanation_pt": "Um exantema que começa no **tronco**, se espalha para fora e **poupa palmas e plantas**, em ambiente aglomerado com pouca higiene e **piolhos do corpo**, é **tifo epidêmico** (*Rickettsia prowazekii*). O piolho não injeta a bactéria pela picada: ele **defeca enquanto se alimenta**, e a pessoa esfrega as **fezes infectadas do piolho** na pele ao se coçar. A pulga de rato é tentadora porque o **tifo endêmico (murino)** (*R. typhi*) causa exantema semelhante, porém mais leve, mas se associa a ratos e pulgas, não a piolhos do corpo (e mesmo nesse caso a bactéria entra com as fezes da pulga, não pela picada em si). A picada de carrapato combina com a febre maculosa, cujo exantema começa em punhos e tornozelos."
+    },
+    {
+      "slug": "q-mycobacteria-spirochetes-qx-weil-disease-labs",
+      "track": "step1",
+      "system": "microbiology",
+      "discipline": "microbiology",
+      "tags": ["mycobacteria-spirochetes", "leptospirosis", "weil-disease"],
+      "stem": "A 32-year-old man in Brazil walked through flood water for several days while cleaning his house after heavy rains. Ten days later he developed high fever, headache and severe pain in both calves. Now, 6 days after the fever began, his skin and eyes are yellow and he is passing little urine. Both eyes are diffusely red, without discharge. His calves are very tender. Labs show: total bilirubin 14 mg/dL (mostly direct), ALT 110 U/L, creatinine 3.4 mg/dL, platelets 58,000/mm3 and creatine kinase 2,900 U/L. Which organism is most likely?",
+      "choices": [
+        "Yellow fever virus",
+        "Hepatitis A virus",
+        "Leptospira interrogans",
+        "Hantavirus",
+        "Plasmodium falciparum"
+      ],
+      "correct": 2,
+      "explanation": "Flood water exposure, **calf pain** with high creatine kinase, **conjunctival suffusion**, and then **jaundice**, **acute kidney injury** and low platelets are **Weil disease**, the severe form of **leptospirosis**. A typical clue is very high bilirubin with only a **mild rise in transaminases**. Yellow fever is the tempting choice because it also causes jaundice, kidney injury and bleeding, but it is spread by mosquitoes and causes very high transaminases from extensive liver cell necrosis. Hepatitis A does not cause kidney failure with muscle injury, hantavirus usually causes kidney failure or lung disease without deep jaundice, and severe *P. falciparum* malaria would show parasites inside red cells and does not explain calf pain and red eyes after flood water.",
+      "explanation_pt": "Exposição a água de enchente, **dor nas panturrilhas** com CK elevada, **sufusão conjuntival** e depois **icterícia**, **lesão renal aguda** e plaquetopenia caracterizam a **síndrome de Weil**, a forma grave da **leptospirose**. Uma pista típica é a bilirrubina muito alta com **elevação apenas discreta das transaminases**. A febre amarela é a opção tentadora porque também causa icterícia, lesão renal e sangramentos, mas é transmitida por mosquitos e causa transaminases muito elevadas, por necrose extensa dos hepatócitos. A hepatite A não causa insuficiência renal com lesão muscular, o hantavírus em geral causa insuficiência renal ou doença pulmonar sem icterícia intensa, e a malária grave por *P. falciparum* mostraria parasitas dentro das hemácias e não explica a dor nas panturrilhas e os olhos vermelhos após água de enchente."
+    },
+    {
+      "slug": "q-mycobacteria-spirochetes-qx-mycoplasma-sterols",
+      "track": "step1",
+      "system": "microbiology",
+      "discipline": "microbiology",
+      "tags": ["mycobacteria-spirochetes", "mycoplasma", "cell-structure"],
+      "stem": "A 19-year-old college student has had 2 weeks of dry cough, headache, sore throat and low-grade fever. He took amoxicillin for 5 days without improvement. Chest x-ray shows patchy interstitial infiltrates that look worse than his mild symptoms. A sputum Gram stain shows white cells but no organisms. After 2 weeks, the laboratory grows tiny colonies with a dense center on a special medium. The medium must contain serum, which supplies cholesterol. Why does the organism need this cholesterol?",
+      "choices": [
+        "It uses cholesterol as its main energy source",
+        "It puts sterols in its membrane for stability",
+        "It turns cholesterol into mycolic acids for its wall",
+        "It uses cholesterol to build its polysaccharide capsule",
+        "It needs cholesterol to cross-link its peptidoglycan"
+      ],
+      "correct": 1,
+      "explanation": "A young adult with mild, slow *walking pneumonia*, no response to amoxicillin and no organisms on Gram stain has ***Mycoplasma pneumoniae***. It has **no cell wall**, so its plasma membrane is the outer layer, and it adds **sterols** (cholesterol) taken from the host or the medium to make that membrane strong enough. Peptidoglycan cross-linking is the tempting choice because it is where amoxicillin acts, but *Mycoplasma* has no peptidoglycan at all, which is why beta-lactams fail. Mycolic acids belong to mycobacteria, and cholesterol is not used as a fuel or capsule material.",
+      "explanation_pt": "Um adulto jovem com pneumonia leve e arrastada (*walking pneumonia*), sem resposta à amoxicilina e sem microrganismos no Gram tem ***Mycoplasma pneumoniae***. Ele **não tem parede celular**, por isso sua membrana plasmática é a camada externa, e ele incorpora **esteróis** (colesterol) do hospedeiro ou do meio para dar resistência a essa membrana. O entrecruzamento do peptidoglicano é a opção tentadora porque é onde a amoxicilina age, mas o *Mycoplasma* não tem peptidoglicano, e por isso os betalactâmicos falham. Os ácidos micólicos pertencem às micobactérias, e o colesterol não é usado como fonte de energia nem para formar cápsula."
+    },
+    {
+      "slug": "q-mycobacteria-spirochetes-qx-psittacosis",
+      "track": "step1",
+      "system": "microbiology",
+      "discipline": "microbiology",
+      "tags": ["mycobacteria-spirochetes", "chlamydia", "atypical-pneumonia"],
+      "stem": "A 52-year-old woman works in a pet shop that sells parrots and parakeets. She has had 6 days of high fever, a severe headache, muscle aches and a dry cough. In the past month, several birds in the shop looked sick and two died. Temperature is 39.4°C (102.9°F), and pulse is 78/min. The spleen tip is palpable. Chest x-ray shows patchy infiltrates in both lower lobes. A sputum Gram stain shows no organisms. She has not traveled or visited caves. Which organism is most likely?",
+      "choices": [
+        "Histoplasma capsulatum",
+        "Cryptococcus neoformans",
+        "Chlamydia psittaci",
+        "Coxiella burnetii",
+        "Legionella pneumophila"
+      ],
+      "correct": 2,
+      "explanation": "Atypical pneumonia with **severe headache**, a pulse that is low for the fever and **splenomegaly** after contact with **sick pet birds** (parrots, parakeets) is **psittacosis**. ***Chlamydia psittaci*** is an obligate intracellular bacterium that people inhale with dried bird droppings, feathers or secretions. *Histoplasma* is tempting because it is also linked to birds, but it grows in soil enriched with bird or bat droppings (caves, old chicken coops), not in sick pet birds. *Cryptococcus* is linked to pigeon droppings and mostly causes meningitis in immunosuppressed people, *Coxiella* is acquired from farm animal birth products, and *Legionella* comes from contaminated water systems, not birds.",
+      "explanation_pt": "Pneumonia atípica com **cefaleia intensa**, pulso baixo para a febre e **esplenomegalia** após contato com **aves de estimação doentes** (papagaios, periquitos) é **psitacose**. A ***Chlamydia psittaci*** é uma bactéria intracelular obrigatória que a pessoa inala com fezes secas, penas ou secreções das aves. O *Histoplasma* é tentador porque também se associa a aves, mas cresce no solo enriquecido com fezes de aves ou morcegos (cavernas, galinheiros antigos), e não em aves de estimação doentes. O *Cryptococcus* se associa a fezes de pombos e causa sobretudo meningite em imunossuprimidos, a *Coxiella* é adquirida de produtos do parto de animais de criação, e a *Legionella* vem de sistemas de água contaminados, não de aves."
+    },
+    {
+      "slug": "q-mycobacteria-spirochetes-qx-marinum-culture-temperature",
+      "track": "step1",
+      "system": "microbiology",
+      "discipline": "microbiology",
+      "tags": ["mycobacteria-spirochetes", "nontuberculous-mycobacteria", "skin-infection"],
+      "stem": "A 40-year-old man works at a seafood market, where he cleans and cuts fresh fish every day. Eight weeks ago he cut the back of his right hand on a fish fin. A painless red-violet nodule formed at the site and slowly became crusted. Two more nodules have now appeared on his forearm, along a line toward the elbow. He has no fever, and his chest x-ray is normal. A biopsy shows granulomas, and an acid-fast stain shows a few red rods. The culture grows in about 2 weeks at 30°C but grows poorly at 37°C. Which organism is most likely?",
+      "choices": [
+        "Mycobacterium tuberculosis",
+        "Mycobacterium leprae",
+        "Mycobacterium avium complex",
+        "Mycobacterium kansasii",
+        "Mycobacterium marinum"
+      ],
+      "correct": 4,
+      "explanation": "Nodules that start at a hand wound after **fish or water** contact and then spread along the **lymphatics** of the forearm, with **acid-fast rods** that grow best at about **30°C**, point to ***Mycobacterium marinum***. Its preference for cooler temperatures explains why it stays in the cooler skin of the hands and arms instead of spreading to deep organs. *M. leprae* is tempting because it also prefers cool body sites, but it **cannot be cultured** on artificial media and causes anesthetic skin lesions and nerve damage. *M. kansasii* and *M. avium* complex mainly cause lung disease or disseminated infection, and *M. tuberculosis* grows at 37°C.",
+      "explanation_pt": "Nódulos que começam em um ferimento da mão após contato com **peixes ou água** e depois se espalham pelos **linfáticos** do antebraço, com **bacilos álcool-ácido resistentes** que crescem melhor a cerca de **30°C**, indicam ***Mycobacterium marinum***. Sua preferência por temperaturas mais baixas explica por que ele fica na pele mais fria das mãos e dos braços, sem se espalhar para órgãos profundos. O *M. leprae* é tentador porque também prefere áreas frias do corpo, mas **não pode ser cultivado** em meios artificiais e causa lesões de pele anestésicas e dano neural. O *M. kansasii* e o complexo *M. avium* causam sobretudo doença pulmonar ou infecção disseminada, e o *M. tuberculosis* cresce a 37°C."
+    }
+  ],
+  "notes": []
+}

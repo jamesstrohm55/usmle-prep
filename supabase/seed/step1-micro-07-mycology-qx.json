@@ -1,0 +1,150 @@
+{
+  "cards": [],
+  "questions": [
+    {
+      "slug": "q-mycology-qx-dermatophyte-keratin",
+      "track": "step1",
+      "system": "microbiology",
+      "discipline": "microbiology",
+      "tags": ["mycology", "dermatophytes", "cutaneous-fungi"],
+      "stem": "A 7-year-old girl has had an itchy rash on her forearm for 3 weeks. Her family adopted a kitten 2 months ago. The forearm lesion is a ring-shaped patch with a raised, scaly red border and a clearer center. She also has a round, scaly patch of hair loss on the scalp with short broken hairs. She has no fever. A potassium hydroxide (KOH) preparation of scale from the border shows branching septate hyphae and no yeasts. In which part of the host does this organism mainly grow?",
+      "choices": [
+        "Living keratinocytes of the basal layer",
+        "Collagen of the papillary dermis",
+        "Lymphatic vessels that drain the skin of the arm",
+        "Keratin of the stratum corneum and hair",
+        "Melanocytes at the dermal-epidermal junction"
+      ],
+      "correct": 3,
+      "explanation": "Annular scaly lesions and patchy scalp hair loss after contact with a kitten suggest **tinea corporis** and **tinea capitis** from a **dermatophyte** (often *Microsporum canis* from cats). Dermatophytes digest **keratin** and stay in **dead keratinized tissue**: the stratum corneum, hair and nails; they rarely invade living tissue. Spread along **lymphatic vessels** is tempting for a fungus acquired from an animal, but that pattern belongs to *Sporothrix*, which is inoculated into the dermis and forms a line of nodules, not a scaly ring.",
+      "explanation_pt": "Lesões anulares descamativas e áreas de alopecia no couro cabeludo após contato com um filhote de gato sugerem **tinha do corpo** e **tinha do couro cabeludo** por um **dermatófito** (com frequência *Microsporum canis*, transmitido por gatos). Os dermatófitos digerem **queratina** e permanecem no **tecido queratinizado morto**: camada córnea, pelos e unhas; raramente invadem tecido vivo. A disseminação pelos **vasos linfáticos** é tentadora para um fungo transmitido por animal, mas esse padrão é do *Sporothrix*, que é inoculado na derme e forma uma fileira de nódulos, e não um anel descamativo."
+    },
+    {
+      "slug": "q-mycology-qx-malassezia-hypopigmentation",
+      "track": "step1",
+      "system": "microbiology",
+      "discipline": "microbiology",
+      "tags": ["mycology", "malassezia", "cutaneous-fungi"],
+      "stem": "A 22-year-old man spent the summer working as a lifeguard in a hot, humid coastal city. He now has many light, round macules on his upper back and chest. Some have joined into larger patches. The macules have fine scale that appears when the skin is scraped, and they did not tan with the rest of his skin. They itch slightly. A KOH preparation of the scale shows short hyphae mixed with clusters of round yeasts. Which mechanism best explains the light color of the macules?",
+      "choices": [
+        "Acids made by the yeast inhibit tyrosinase in melanocytes",
+        "Cytotoxic T cells destroy melanocytes in the basal layer",
+        "An inherited defect leaves melanocytes without tyrosinase",
+        "Melanocyte precursors fail to migrate from the neural crest",
+        "Fungal hyphae invade and replace the basal epidermis"
+      ],
+      "correct": 0,
+      "explanation": "Fine-scaling light macules on the trunk after heat and humidity, with short hyphae and yeasts on KOH (*spaghetti and meatballs*), are **pityriasis (tinea) versicolor** from the lipid-loving yeast ***Malassezia***. The yeast lives in the stratum corneum and makes **dicarboxylic acids** such as **azelaic acid**, which inhibit **tyrosinase**, so melanocytes make less pigment. **Vitiligo** (autoimmune T-cell destruction of melanocytes) is the most tempting choice, but it causes complete, sharply defined loss of pigment with no scale, and KOH is negative.",
+      "explanation_pt": "Máculas claras com descamação fina no tronco após calor e umidade, com hifas curtas e leveduras no exame com KOH (aspecto de *espaguete com almôndegas*), indicam **pitiríase versicolor** pela levedura lipofílica ***Malassezia***. A levedura vive na camada córnea e produz **ácidos dicarboxílicos**, como o **ácido azelaico**, que inibem a **tirosinase**, de modo que os melanócitos produzem menos pigmento. O **vitiligo** (destruição autoimune dos melanócitos por linfócitos T) é a opção mais tentadora, mas causa perda completa e bem delimitada do pigmento, sem descamação, e o KOH é negativo."
+    },
+    {
+      "slug": "q-mycology-qx-candidemia-neutropenia",
+      "track": "step1",
+      "system": "microbiology",
+      "discipline": "microbiology",
+      "tags": ["mycology", "candida", "host-defense"],
+      "stem": "A 61-year-old woman is in the hospital 14 days after induction chemotherapy for acute myeloid leukemia. She has a central venous catheter and has received broad-spectrum antibacterial drugs for 8 days. Fever of 39.2°C (102.6°F) continues, and she now has several small, painless pink nodules on her arms and trunk. Labs show a white blood cell count of 300/μL, an absolute neutrophil count of 40/μL, hemoglobin 8.1 g/dL and platelets 18,000/μL. Blood cultures grow oval budding yeasts that form germ tubes in serum at 37°C. Loss of which host defense most directly allowed this organism to spread through her blood?",
+      "choices": [
+        "Th17 cells that protect mucosal surfaces",
+        "Secretory IgA on mucosal surfaces",
+        "Oxidative killing by neutrophils",
+        "Degranulation of eosinophils in tissues",
+        "The complement membrane attack complex"
+      ],
+      "correct": 2,
+      "explanation": "Germ tube-positive budding yeasts in the blood are ***Candida albicans***; skin nodules in this setting suggest **disseminated candidiasis**. A central line and antibiotics let *Candida* enter the blood, and **profound neutropenia** removes the main defense against **invasive, bloodstream** disease: **neutrophil** phagocytosis and oxidative killing. **Th17 cells** are the tempting choice, but defects in T-cell (Th17) immunity cause **mucocutaneous** disease (thrush, esophagitis, chronic mucocutaneous candidiasis) rather than candidemia.",
+      "explanation_pt": "Leveduras em brotamento no sangue com tubo germinativo positivo são ***Candida albicans***; nódulos cutâneos nesse contexto sugerem **candidíase disseminada**. O cateter central e os antibióticos permitem que a *Candida* entre no sangue, e a **neutropenia profunda** remove a principal defesa contra a doença **invasiva, na corrente sanguínea**: a fagocitose e a destruição oxidativa pelos **neutrófilos**. Os **linfócitos Th17** são a opção tentadora, mas defeitos da imunidade T (Th17) causam doença **mucocutânea** (candidíase oral, esofagite, candidíase mucocutânea crônica), e não candidemia."
+    },
+    {
+      "slug": "q-mycology-qx-pneumocystis-no-ergosterol",
+      "track": "step1",
+      "system": "microbiology",
+      "discipline": "microbiology",
+      "tags": ["mycology", "pneumocystis", "fungal-structure"],
+      "stem": "A 39-year-old man with HIV infection who takes no antiretroviral therapy has had 3 weeks of dry cough, fever and worsening shortness of breath. Oxygen saturation is 91% on room air at rest and 84% after he walks across the room. His CD4 count is 70/mm³, serum lactate dehydrogenase is 480 U/L (normal < 250) and serum (1→3)-β-D-glucan is high. Chest x-ray shows bilateral, diffuse interstitial opacities. Silver stain of bronchoalveolar lavage fluid shows clusters of cup-shaped cysts. The team notes that amphotericin B and azole antifungals do not work against this organism. Which feature of the organism best explains this?",
+      "choices": [
+        "It is a protozoan rather than a true fungus",
+        "A thick polysaccharide capsule keeps the drugs out",
+        "Efflux pumps remove the drugs from its cytoplasm",
+        "It lives inside macrophages, out of reach of the drugs",
+        "Its membrane has cholesterol, not ergosterol"
+      ],
+      "correct": 4,
+      "explanation": "Subacute hypoxemic pneumonia with a low CD4 count, high LDH, positive β-D-glucan and silver-stained cysts is ***Pneumocystis jirovecii*** pneumonia. Amphotericin B binds **ergosterol**, and azoles block **ergosterol synthesis**; *Pneumocystis* membranes contain **cholesterol** and lack ergosterol, so neither drug class has a target. It was once called a protozoan, which is the tempting choice, but genetic studies show it is a **true fungus**, and its cyst wall contains the **β-glucan** detected in this patient's serum.",
+      "explanation_pt": "Pneumonia subaguda com hipoxemia, CD4 baixo, LDH alta, β-D-glucana positiva e cistos corados pela prata é pneumonia por ***Pneumocystis jirovecii***. A anfotericina B liga-se ao **ergosterol**, e os azólicos bloqueiam a **síntese de ergosterol**; a membrana do *Pneumocystis* contém **colesterol** e não tem ergosterol, por isso nenhuma das duas classes tem alvo. Ele já foi classificado como protozoário, o que torna essa opção tentadora, mas estudos genéticos mostram que é um **fungo verdadeiro**, e a parede do cisto contém a **β-glucana** detectada no soro deste paciente."
+    },
+    {
+      "slug": "q-mycology-qx-blastomyces-inhalation",
+      "track": "step1",
+      "system": "microbiology",
+      "discipline": "microbiology",
+      "tags": ["mycology", "dimorphic-fungi", "blastomyces"],
+      "stem": "A 46-year-old man from northern Wisconsin hunts beavers and canoes along wooded rivers. He has had 2 months of cough, low-grade fever and weight loss. On his cheek there is a raised, crusted, warty plaque with an irregular border. Chest x-ray shows a mass-like consolidation in the right upper lobe, and a rib x-ray shows a lytic lesion. A biopsy of the edge of the skin plaque shows large yeasts with thick, double-contoured walls; each yeast has a single bud joined to it by a wide base. How did this patient most likely acquire the infection?",
+      "choices": [
+        "Direct inoculation of spores into the skin of the cheek",
+        "Inhalation of conidia from moist soil and rotting wood",
+        "Swallowing yeasts in untreated river water",
+        "Respiratory droplets from another infected person",
+        "Overgrowth of a yeast that is normal skin flora"
+      ],
+      "correct": 1,
+      "explanation": "Large thick-walled yeasts with **broad-based budding**, lung disease, warty skin lesions and a lytic bone lesion in a man from the Great Lakes region indicate **blastomycosis**. ***Blastomyces*** lives as a mold in **moist soil and decaying wood** near waterways; people **inhale its conidia**, and the lung infection then spreads through the blood to the **skin** and **bone**. Direct skin inoculation is tempting because the skin lesion is so visible, but that route is typical of *Sporothrix*; blastomycosis is not spread from person to person.",
+      "explanation_pt": "Leveduras grandes de parede espessa com **brotamento de base larga**, doença pulmonar, lesões cutâneas verrucosas e uma lesão óssea lítica em homem da região dos Grandes Lagos indicam **blastomicose**. O ***Blastomyces*** vive como bolor em **solo úmido e madeira em decomposição** perto de cursos d'água; a pessoa **inala os conídios**, e a infecção pulmonar se dissemina pelo sangue para a **pele** e os **ossos**. A inoculação direta na pele é tentadora porque a lesão cutânea chama atenção, mas essa via é típica do *Sporothrix*; a blastomicose não é transmitida de pessoa para pessoa."
+    },
+    {
+      "slug": "q-mycology-qx-cryptococcus-mucicarmine",
+      "track": "step1",
+      "system": "microbiology",
+      "discipline": "microbiology",
+      "tags": ["mycology", "cryptococcus", "lab-diagnosis"],
+      "stem": "A 57-year-old man received a kidney transplant 3 years ago and takes tacrolimus, mycophenolate and prednisone. He has had a mild dry cough for 1 month. Chest CT shows a 2-cm nodule in the left lower lobe. A needle biopsy shows round yeasts, 5 to 10 μm across, with single narrow-based buds. Each yeast sits in a clear space, and with mucicarmine stain the yeasts turn bright red. Which part of the organism does the mucicarmine stain mainly highlight?",
+      "choices": [
+        "Polysaccharide capsule",
+        "Chitin in the cell wall",
+        "Melanin in the cell wall",
+        "Ergosterol in the cell membrane",
+        "Glycogen in the cytoplasm"
+      ],
+      "correct": 0,
+      "explanation": "Narrow-based budding yeasts with a red-staining halo on **mucicarmine** in a transplant recipient indicate ***Cryptococcus neoformans***. Mucicarmine binds the thick **polysaccharide capsule**, the same structure that appears as a clear halo with India ink and that the **cryptococcal antigen** test detects; the capsule also helps the yeast resist phagocytosis. Melanin is tempting because *Cryptococcus* does make it in its cell wall, but melanin is shown with the **Fontana-Masson** stain, not mucicarmine; chitin is shown with calcofluor white.",
+      "explanation_pt": "Leveduras com brotamento de base estreita e halo corado em vermelho pelo **mucicarmim** em um transplantado indicam ***Cryptococcus neoformans***. O mucicarmim liga-se à espessa **cápsula polissacarídica**, a mesma estrutura que aparece como halo claro na tinta da China e que o teste de **antígeno criptocócico** detecta; a cápsula também ajuda a levedura a resistir à fagocitose. A melanina é tentadora porque o *Cryptococcus* de fato a produz na parede celular, mas ela é evidenciada pela coloração de **Fontana-Masson**, e não pelo mucicarmim; a quitina é evidenciada pelo calcoflúor branco."
+    },
+    {
+      "slug": "q-mycology-qx-mucor-deferoxamine",
+      "track": "step1",
+      "system": "microbiology",
+      "discipline": "microbiology",
+      "tags": ["mycology", "mucormycosis", "iron"],
+      "stem": "A 19-year-old woman with β-thalassemia major receives red cell transfusions every month and nightly subcutaneous infusions of deferoxamine. She has had 4 days of fever, severe right facial pain and swelling around the right eye. Exam shows a black, necrotic area on the right nasal turbinate. Labs show glucose 94 mg/dL, bicarbonate 24 mEq/L and an absolute neutrophil count of 4,100/μL. A turbinate biopsy shows broad, ribbon-like hyphae with few septa that branch at right angles and invade blood vessels. Which mechanism best explains her risk for this infection?",
+      "choices": [
+        "Her chelating drug has caused neutropenia",
+        "Acidosis has released iron from transferrin",
+        "Iron overload has blocked T-cell activation",
+        "The fungus uses her drug as an iron carrier",
+        "High glucose has impaired neutrophil chemotaxis"
+      ],
+      "correct": 3,
+      "explanation": "Broad, ribbon-like, wide-angle hyphae invading vessels in a necrotic turbinate are **Mucorales** (*Rhizopus*, *Mucor*). These fungi need **iron**, and **deferoxamine** acts as a **siderophore** for them: the fungus takes up the iron-deferoxamine complex and grows faster. Acidosis releasing iron from transferrin is the tempting choice because it explains mucormycosis in **diabetic ketoacidosis**, but her bicarbonate and glucose are normal, and her neutrophil count is normal too. Iron overload does raise risk, but by giving the fungus more iron, not by blocking T cells.",
+      "explanation_pt": "Hifas largas, em fita, com ramificação em ângulo amplo e invasão vascular em uma concha nasal necrótica são **Mucorales** (*Rhizopus*, *Mucor*). Esses fungos precisam de **ferro**, e a **deferoxamina** age como **sideróforo** para eles: o fungo capta o complexo ferro-deferoxamina e cresce mais rápido. A acidose liberando ferro da transferrina é a opção tentadora, porque explica a mucormicose na **cetoacidose diabética**, mas o bicarbonato e a glicemia dela são normais, e a contagem de neutrófilos também. A sobrecarga de ferro aumenta o risco, mas por oferecer mais ferro ao fungo, e não por bloquear linfócitos T."
+    },
+    {
+      "slug": "q-mycology-qx-aflatoxin-tp53",
+      "track": "step1",
+      "system": "microbiology",
+      "discipline": "microbiology",
+      "tags": ["mycology", "aspergillus", "mycotoxin"],
+      "stem": "A 50-year-old farmer from a rural area of West Africa has chronic hepatitis B. His family eats maize and peanuts that are stored for months in damp granaries. He has had 2 months of right upper quadrant pain and a 6-kg weight loss. Serum alpha-fetoprotein is 1,850 ng/mL (normal < 10). CT shows a 7-cm liver mass that enhances in the arterial phase. A toxin from a mold that grows on his stored food most likely contributed to this tumor by causing which DNA change?",
+      "choices": [
+        "Activating point mutation in codon 12 of KRAS",
+        "C-to-T changes at neighboring pyrimidines in TP53",
+        "G-to-T transversion at codon 249 of TP53",
+        "Translocation that places MYC next to an immunoglobulin gene",
+        "Inactivation of both copies of APC"
+      ],
+      "correct": 2,
+      "explanation": "A liver mass with very high AFP in a hepatitis B carrier who eats moldy stored grain and peanuts is **hepatocellular carcinoma** linked to **aflatoxin B1** from ***Aspergillus flavus***. Liver cytochrome P450 enzymes turn aflatoxin into a reactive epoxide that binds **guanine**, causing a typical **G-to-T transversion at codon 249 of TP53**; hepatitis B and aflatoxin act together to raise the risk. C-to-T changes at neighboring pyrimidines are tempting because they are also TP53 mutations, but they are the signature of **ultraviolet light** in skin cancers.",
+      "explanation_pt": "Massa hepática com AFP muito alta em portador de hepatite B que come grãos e amendoim mofados é **carcinoma hepatocelular** ligado à **aflatoxina B1** do ***Aspergillus flavus***. As enzimas do citocromo P450 do fígado convertem a aflatoxina em um epóxido reativo que se liga à **guanina**, causando a típica **transversão G→T no códon 249 do TP53**; hepatite B e aflatoxina atuam juntas para aumentar o risco. Trocas C→T em pirimidinas vizinhas são tentadoras porque também são mutações do TP53, mas são a assinatura da **luz ultravioleta** nos cânceres de pele."
+    }
+  ],
+  "notes": []
+}

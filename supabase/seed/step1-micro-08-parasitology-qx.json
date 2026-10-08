@@ -1,0 +1,184 @@
+{
+  "cards": [],
+  "questions": [
+    {
+      "slug": "q-parasitology-qx-vivax-relapse",
+      "track": "step1",
+      "system": "microbiology",
+      "discipline": "microbiology",
+      "tags": [
+        "parasitology",
+        "malaria",
+        "protozoa"
+      ],
+      "stem": "A 31-year-old woman spent 6 months working in a village in the Brazilian Amazon. Two weeks after she came home, she had fevers every second day. A blood smear showed enlarged red cells with fine red dots and irregular, ameboid ring forms. She took a blood-stage drug, her fever stopped, and repeat smears were negative. Five months later, with no new travel, the same fever pattern returns, and the smear again shows the same parasite. Which parasite form is the most likely source of this new episode?",
+      "choices": [
+        "Trophozoites in red cells that resisted the drug",
+        "Gametocytes left over in the peripheral blood",
+        "Dormant parasites inside hepatocytes",
+        "Merozoites hidden in the red pulp of the spleen",
+        "Sporozoites stored in the bone marrow"
+      ],
+      "correct": 2,
+      "explanation": "Enlarged red cells with **Schüffner dots** point to *Plasmodium vivax* (or *ovale*), which leaves dormant **hypnozoites** in the **liver**. Blood-stage drugs do not reach them, so they can wake up months later and cause a **relapse**. Drug-resistant blood forms (the most tempting choice) cause a **recrudescence**, which usually appears within days to a few weeks of treatment, not after 5 months. Gametocytes infect mosquitoes and do not restart the human blood cycle.",
+      "explanation_pt": "Hemácias aumentadas com **granulações de Schüffner** indicam *Plasmodium vivax* (ou *ovale*), que deixa **hipnozoítos** latentes no **fígado**. Os fármacos da fase sanguínea não os atingem, e eles podem despertar meses depois e causar uma **recaída**. Formas sanguíneas resistentes (a opção mais tentadora) causam **recrudescência**, que costuma surgir em dias a poucas semanas após o tratamento, e não após 5 meses. Os gametócitos infectam o mosquito e não reiniciam o ciclo sanguíneo no ser humano."
+    },
+    {
+      "slug": "q-parasitology-qx-naegleria-csf",
+      "track": "step1",
+      "system": "microbiology",
+      "discipline": "microbiology",
+      "tags": [
+        "parasitology",
+        "free-living-amoebae",
+        "protozoa"
+      ],
+      "stem": "A 12-year-old boy has had headache, fever and vomiting for 2 days. Today he is confused and has a stiff neck. His mother says he first complained that food tasted strange. Six days ago, during a hot summer week, he swam and dived in a warm freshwater pond. Lumbar puncture shows high opening pressure. CSF: leukocytes 2,600/mm³ (90% neutrophils), many red cells, glucose 20 mg/dL (serum 104 mg/dL), protein 340 mg/dL. Gram stain shows no bacteria. A fresh wet mount of warm CSF shows motile cells that move with blunt pseudopods. Which organism is the most likely cause?",
+      "choices": [
+        "Naegleria fowleri",
+        "Acanthamoeba castellanii",
+        "Streptococcus pneumoniae",
+        "Cryptococcus neoformans",
+        "Herpes simplex virus type 1"
+      ],
+      "correct": 0,
+      "explanation": "Warm fresh water, rapid **purulent meningoencephalitis** with early changes in **smell or taste**, and **motile amoebae** in a CSF wet mount are typical of *Naegleria fowleri*. It enters the nose and reaches the brain along the **olfactory nerve** through the **cribriform plate**. *Acanthamoeba* causes a slow **granulomatous** encephalitis, mainly in immunocompromised patients, over weeks to months. Bacterial meningitis gives a similar CSF, but the Gram stain usually shows organisms and the wet mount shows no moving cells.",
+      "explanation_pt": "Água doce morna, **meningoencefalite purulenta** rápida com alteração precoce do **olfato ou paladar** e **amebas móveis** no exame a fresco do LCR são típicos de *Naegleria fowleri*. Ela entra pelo nariz e chega ao cérebro pelo **nervo olfatório**, através da **lâmina cribriforme**. *Acanthamoeba* causa encefalite **granulomatosa** lenta, sobretudo em imunocomprometidos, ao longo de semanas a meses. A meningite bacteriana dá um LCR parecido, mas o Gram costuma mostrar bactérias e o exame a fresco não mostra células móveis."
+    },
+    {
+      "slug": "q-parasitology-qx-acanthamoeba-keratitis",
+      "track": "step1",
+      "system": "microbiology",
+      "discipline": "microbiology",
+      "tags": [
+        "parasitology",
+        "free-living-amoebae",
+        "protozoa"
+      ],
+      "stem": "A 26-year-old woman who wears soft contact lenses has had 3 weeks of worsening pain and redness in her right eye. She often rinses her lenses with tap water and sometimes swims while wearing them. The pain is much worse than the eye looks. Antibacterial eye drops did not help. Slit-lamp exam shows a ring-shaped infiltrate in the corneal stroma and inflamed corneal nerves. A corneal scraping is cultured on non-nutrient agar covered with Escherichia coli, and double-walled cysts grow. Which organism is the most likely cause?",
+      "choices": [
+        "Pseudomonas aeruginosa",
+        "Fusarium solani",
+        "Herpes simplex virus type 1",
+        "Acanthamoeba species",
+        "Naegleria fowleri"
+      ],
+      "correct": 3,
+      "explanation": "*Acanthamoeba* **keratitis** is linked to contact lenses exposed to **tap water**, hot tubs or swimming. Clues are **pain out of proportion** to the exam, a **ring-shaped stromal infiltrate**, inflamed corneal nerves and a slow course without response to antibacterial drops. The amoebae feed on bacteria, so they grow on agar with an *E. coli* lawn and form **double-walled cysts**. *Fusarium* keratitis is also linked to lenses and does not respond to antibacterial drops, but scrapings show branching hyphae and the infiltrate has feathery edges; *Pseudomonas* causes a purulent ulcer within days.",
+      "explanation_pt": "A **ceratite** por *Acanthamoeba* está ligada a lentes de contato expostas à **água de torneira**, a banheiras de hidromassagem ou à natação. As pistas são **dor desproporcional** ao exame, **infiltrado estromal em anel**, nervos corneanos inflamados e evolução lenta sem resposta a colírios antibacterianos. As amebas se alimentam de bactérias, por isso crescem em ágar com uma camada de *E. coli* e formam **cistos de parede dupla**. A ceratite por *Fusarium* também está ligada às lentes e não responde a colírios antibacterianos, mas o raspado mostra hifas ramificadas e o infiltrado tem bordas plumosas; a *Pseudomonas* causa úlcera purulenta em poucos dias."
+    },
+    {
+      "slug": "q-parasitology-qx-visceral-leishmaniasis-marrow",
+      "track": "step1",
+      "system": "microbiology",
+      "discipline": "microbiology",
+      "tags": [
+        "parasitology",
+        "leishmania",
+        "protozoa"
+      ],
+      "stem": "A 6-year-old boy from a rural area of Piauí, in northeastern Brazil, has had fever on and off for 2 months, with weight loss and a swollen abdomen. The family keeps dogs, and small biting insects are common at dusk. The spleen extends 10 cm below the left costal margin, and the liver is also enlarged. Laboratory results: hemoglobin 7.1 g/dL, leukocytes 2,100/mm³, platelets 64,000/mm³, albumin 2.6 g/dL, and a high polyclonal gamma globulin level. A bone marrow aspirate shows macrophages filled with small oval organisms; each has a nucleus and a separate small rod-shaped structure. Which organism is the most likely cause?",
+      "choices": [
+        "Histoplasma capsulatum",
+        "Schistosoma mansoni",
+        "Trypanosoma cruzi",
+        "Plasmodium malariae",
+        "Leishmania infantum"
+      ],
+      "correct": 4,
+      "explanation": "Fever, weight loss, **massive splenomegaly**, **pancytopenia** and **polyclonal hypergammaglobulinemia** in a child from northeastern Brazil suggest **visceral leishmaniasis** (kala-azar), spread by the **sandfly** with dogs as the main reservoir there. The marrow shows **amastigotes** inside **macrophages**; the small rod next to the nucleus is the **kinetoplast**. *Histoplasma* yeasts also fill macrophages, but they are budding yeasts without a kinetoplast. *Trypanosoma cruzi* amastigotes also have a kinetoplast, but they mainly invade heart and gut muscle cells, and acute Chagas disease does not cause this massive spleen with pancytopenia.",
+      "explanation_pt": "Febre, emagrecimento, **esplenomegalia volumosa**, **pancitopenia** e **hipergamaglobulinemia policlonal** em criança do Nordeste brasileiro sugerem **leishmaniose visceral** (calazar), transmitida pelo **flebotomíneo** (mosquito-palha), com o cão como principal reservatório na região. A medula mostra **amastigotas** dentro de **macrófagos**; o pequeno bastão ao lado do núcleo é o **cinetoplasto**. As leveduras de *Histoplasma* também preenchem macrófagos, mas são leveduras em brotamento, sem cinetoplasto. Os amastigotas de *Trypanosoma cruzi* também têm cinetoplasto, mas invadem sobretudo células musculares do coração e do intestino, e a doença de Chagas aguda não causa essa esplenomegalia volumosa com pancitopenia."
+    },
+    {
+      "slug": "q-parasitology-qx-strongyloides-bacteremia",
+      "track": "step1",
+      "system": "microbiology",
+      "discipline": "microbiology",
+      "tags": [
+        "parasitology",
+        "nematodes",
+        "strongyloides"
+      ],
+      "stem": "A 61-year-old man grew up on a farm in Bahia, Brazil, and moved to the United States 35 years ago. Four weeks ago he started high-dose prednisone for a severe autoimmune disease flare. He now has fever, abdominal pain, cough, wheezing and blood-streaked sputum. A fast-moving, raised, itchy red line crosses his lower trunk. Blood cultures grow Escherichia coli. Sputum microscopy shows many slender, motile larvae. Which mechanism best explains the bacteremia?",
+      "choices": [
+        "Steroid-induced loss of neutrophils in the marrow",
+        "Larvae carrying gut bacteria across the bowel wall",
+        "Adult worms blocking the bile duct and causing cholangitis",
+        "Eggs lodging in portal venules and causing liver abscesses",
+        "Aspiration of colonic contents during severe vomiting"
+      ],
+      "correct": 1,
+      "explanation": "*Strongyloides stercoralis* persists for decades by **autoinfection**. **Corticosteroids** allow **hyperinfection**: huge numbers of larvae cross the bowel wall and spread to the lungs and other organs, and they carry **enteric gram-negative bacteria** into the blood. The moving skin line is *larva currens*. Steroids do not cause neutropenia (they usually raise the neutrophil count), and biliary obstruction by adult worms is typical of *Ascaris*.",
+      "explanation_pt": "*Strongyloides stercoralis* persiste por décadas por **autoinfecção**. Os **corticoides** permitem a **hiperinfecção**: um grande número de larvas atravessa a parede intestinal e se espalha para os pulmões e outros órgãos, levando **bactérias gram-negativas entéricas** para o sangue. A linha móvel na pele é a *larva currens*. Corticoides não causam neutropenia (em geral elevam a contagem de neutrófilos), e a obstrução biliar por vermes adultos é típica de *Ascaris*."
+    },
+    {
+      "slug": "q-parasitology-qx-brucei-sleeping-sickness",
+      "track": "step1",
+      "system": "microbiology",
+      "discipline": "microbiology",
+      "tags": [
+        "parasitology",
+        "trypanosoma",
+        "protozoa",
+        "vectors"
+      ],
+      "stem": "A 44-year-old wildlife photographer returns from 3 weeks in game parks in East Africa. During the trip, a large fly gave him a painful bite on the forearm, and a red, tender nodule formed there. He now has fevers that come and go over several weeks, headache and a few enlarged lymph nodes. A thick blood smear taken during a fever shows extracellular, flagellated parasites with an undulating membrane. Without treatment, which problem is most likely to develop next?",
+      "choices": [
+        "Dilated heart and enlarged esophagus",
+        "Massive spleen with low blood counts",
+        "Daytime sleepiness and confusion",
+        "Blood in urine and a calcified bladder",
+        "Dark urine from red cell hemolysis"
+      ],
+      "correct": 2,
+      "explanation": "A painful fly bite with a **chancre**, fever waves and **extracellular trypomastigotes** in the blood after East African game parks point to *Trypanosoma brucei rhodesiense*, spread by the **tsetse fly**. The fever waves come from **antigenic variation** of its surface glycoprotein coat (**VSG**). Within weeks to months the parasites enter the **CNS** and cause **sleeping sickness**: daytime sleepiness, poor night sleep, confusion and behavior change. A dilated heart and esophagus is late *T. cruzi* infection (Chagas disease), spread by triatomine bugs in the Americas, not by tsetse flies.",
+      "explanation_pt": "Picada dolorosa de mosca com **cancro de inoculação**, ondas de febre e **tripomastigotas extracelulares** no sangue após parques de safári na África Oriental apontam para *Trypanosoma brucei rhodesiense*, transmitido pela **mosca tsé-tsé**. As ondas de febre resultam da **variação antigênica** da sua capa de glicoproteína de superfície (**VSG**). Em semanas a meses, os parasitas invadem o **SNC** e causam a **doença do sono**: sonolência diurna, sono noturno ruim, confusão e alteração do comportamento. Coração e esôfago dilatados são a forma tardia da infecção por *T. cruzi* (doença de Chagas), transmitida pelo barbeiro nas Américas, e não pela mosca tsé-tsé."
+    },
+    {
+      "slug": "q-parasitology-qx-diphyllobothrium-b12",
+      "track": "step1",
+      "system": "microbiology",
+      "discipline": "microbiology",
+      "tags": [
+        "parasitology",
+        "cestodes",
+        "diphyllobothrium"
+      ],
+      "stem": "A 52-year-old man has fatigue and tingling in both feet. He fishes in northern lakes and often eats raw or lightly salted freshwater fish. Exam shows pale skin and reduced vibration sense in the toes. Laboratory results: hemoglobin 9.2 g/dL, MCV 116 fL, vitamin B12 low, folate normal, methylmalonic acid high, and antibodies to intrinsic factor negative. He recently passed a long, flat, white strand of worm segments in his stool. Stool microscopy shows oval eggs with a small lid at one end. Which mechanism best explains his anemia?",
+      "choices": [
+        "Uptake of dietary vitamin B12 by the worm",
+        "Antibodies that block intrinsic factor",
+        "Bacterial overgrowth that consumes vitamin B12",
+        "Destruction of the terminal ileal mucosa by worms",
+        "Chronic blood loss from worms attached to the bowel"
+      ],
+      "correct": 0,
+      "explanation": "Raw **freshwater fish**, a passed strand of flat segments and **operculated eggs** point to the fish tapeworm *Diphyllobothrium latum*. The worm in the small intestine **takes up vitamin B12** before the host can absorb it, which causes **megaloblastic anemia** and neuropathy with high methylmalonic acid. Pernicious anemia is less likely because intrinsic factor antibodies are negative. Bacterial overgrowth can also consume B12, but it needs a blind loop or poor motility and does not explain the eggs or the passed segments.",
+      "explanation_pt": "**Peixe de água doce** cru, eliminação de uma fita de segmentos achatados e **ovos operculados** apontam para a tênia do peixe, *Diphyllobothrium latum*. O verme no intestino delgado **capta a vitamina B12** antes que o hospedeiro a absorva, o que causa **anemia megaloblástica** e neuropatia com ácido metilmalônico elevado. A anemia perniciosa é menos provável porque os anticorpos anti-fator intrínseco são negativos. O supercrescimento bacteriano também consome B12, mas exige alça cega ou dismotilidade e não explica os ovos nem os segmentos eliminados."
+    },
+    {
+      "slug": "q-parasitology-qx-onchocerca-vector",
+      "track": "step1",
+      "system": "microbiology",
+      "discipline": "microbiology",
+      "tags": [
+        "parasitology",
+        "nematodes",
+        "filariae",
+        "vectors"
+      ],
+      "stem": "A 35-year-old man from a village beside a fast-flowing river in West Africa has had intense itching for years. Exam shows thick, patchy, depigmented skin on both shins and several firm, painless nodules over the hips and ribs. Vision in both eyes is getting worse, and the cornea shows small scattered opacities. Eosinophils are 18%. Small skin samples placed in saline release many microfilariae, but daytime and night-time blood smears are negative. Which insect most likely transmitted this infection?",
+      "choices": [
+        "Chrysops deer fly",
+        "Simulium blackfly",
+        "Culex mosquito",
+        "Phlebotomus sandfly",
+        "Glossina tsetse fly"
+      ],
+      "correct": 1,
+      "explanation": "Itching, **leopard-like depigmented skin**, **subcutaneous nodules** over bony areas, eye damage and **microfilariae in skin snips** are typical of *Onchocerca volvulus* (**river blindness**). It is spread by the **blackfly** (*Simulium*), which breeds in **fast-flowing rivers**. The deer fly (*Chrysops*) spreads *Loa loa*, which causes migrating swellings and an adult worm crossing the conjunctiva, with microfilariae in **daytime blood**. Mosquitoes spread *Wuchereria*, whose microfilariae are found in night-time blood.",
+      "explanation_pt": "Prurido, **pele despigmentada em \"pele de leopardo\"**, **nódulos subcutâneos** sobre proeminências ósseas, lesão ocular e **microfilárias na biópsia de pele** (*skin snip*) são típicos de *Onchocerca volvulus* (**cegueira dos rios**, oncocercose). É transmitida pelo **borrachudo** (*Simulium*), que se reproduz em **rios de correnteza rápida**. A mutuca (*Chrysops*) transmite *Loa loa*, que causa edemas migratórios e verme adulto atravessando a conjuntiva, com microfilárias no **sangue diurno**. Os mosquitos transmitem *Wuchereria*, cujas microfilárias aparecem no sangue noturno."
+    }
+  ],
+  "notes": []
+}

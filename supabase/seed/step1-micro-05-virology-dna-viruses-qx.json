@@ -1,0 +1,185 @@
+{
+  "cards": [],
+  "questions": [
+    {
+      "slug": "q-virology-dna-viruses-qx-parvovirus-ssdna-arthritis",
+      "track": "step1",
+      "system": "microbiology",
+      "discipline": "microbiology",
+      "tags": [
+        "virology-dna-viruses",
+        "parvovirus",
+        "viral-structure"
+      ],
+      "stem": "A 34-year-old kindergarten teacher has had pain and morning stiffness in both wrists and in the small joints of both hands for 1 week. Two weeks ago she had a mild flu-like illness. Several children in her class recently had bright red cheeks, followed by a lacy rash on the arms. Exam shows mild, symmetric swelling of the metacarpophalangeal and proximal interphalangeal joints. She has no rash. Rheumatoid factor is negative, and IgM antibody against the suspected virus is positive. Which feature of this virus is unusual among human DNA viruses?",
+      "choices": [
+        "It copies its genome in the cytoplasm of the host cell",
+        "It has a genome made of single-stranded DNA",
+        "It gets a lipid envelope from the nuclear membrane",
+        "It copies its genome through an RNA intermediate",
+        "It has a genome divided into separate segments"
+      ],
+      "correct": 1,
+      "explanation": "Children with *slapped cheek* disease and a symmetric small-joint arthritis in an exposed adult point to **parvovirus B19**. Parvovirus is the only human DNA virus with a **single-stranded DNA** genome; it is also small and naked, and it needs dividing host cells, such as erythroid progenitors, because it has no DNA polymerase of its own. **Cytoplasmic replication** is the most tempting choice because it is also an exception among DNA viruses, but it belongs to **poxviruses**; parvovirus replicates in the nucleus. Copying through an RNA intermediate is a feature of hepatitis B virus, and herpesviruses take their envelope from the nuclear membrane.",
+      "explanation_pt": "Crianças com eritema infeccioso (*slapped cheek*, \"face esbofeteada\") e artrite simétrica de pequenas articulações em um adulto exposto apontam para **parvovírus B19**. O parvovírus é o único vírus de DNA humano com genoma de **DNA de fita simples**; é também pequeno e não envelopado, e depende de células em divisão, como os progenitores eritroides, porque não tem DNA polimerase própria. A **replicação citoplasmática** é a escolha mais tentadora por ser também uma exceção entre os vírus de DNA, mas pertence aos **poxvírus**; o parvovírus replica no núcleo. A cópia por meio de um intermediário de RNA é uma característica do vírus da hepatite B, e os herpesvírus obtêm o envelope da membrana nuclear."
+    },
+    {
+      "slug": "q-virology-dna-viruses-qx-poxvirus-cytoplasmic-polymerase",
+      "track": "step1",
+      "system": "microbiology",
+      "discipline": "microbiology",
+      "tags": [
+        "virology-dna-viruses",
+        "poxviruses",
+        "viral-replication"
+      ],
+      "stem": "A 29-year-old man has had fever, headache and muscle aches for 5 days, followed by painful skin lesions. Exam shows tender, enlarged inguinal and cervical lymph nodes. He has about 20 firm, deep pustules with a central dip, on the genital area, the face and the palms. PCR of fluid from a lesion detects an orthopoxvirus, and electron microscopy shows large, brick-shaped virions. Where does this virus copy its DNA, and what makes this possible?",
+      "choices": [
+        "In the nucleus, using host RNA polymerase II",
+        "In the nucleus, using a viral reverse transcriptase",
+        "In the cytoplasm, using host RNA polymerase II that leaves the nucleus",
+        "In the cytoplasm, using its own DNA-dependent RNA polymerase",
+        "In the cytoplasm, using a viral RNA-dependent RNA polymerase"
+      ],
+      "correct": 3,
+      "explanation": "This is **mpox**, a **poxvirus**; firm, umbilicated lesions plus **lymphadenopathy** are typical. Poxviruses are the DNA viruses that replicate in the **cytoplasm**; host transcription enzymes stay in the nucleus, so the virion carries its **own DNA-dependent RNA polymerase**, and the genome encodes its own DNA polymerase. Replication in the nucleus with host RNA polymerase II is the most tempting choice because it is true for most DNA viruses (herpes-, adeno- and papillomaviruses), but not for poxviruses. An RNA-dependent RNA polymerase is carried by negative-sense RNA viruses, not DNA viruses.",
+      "explanation_pt": "Trata-se de **mpox**, um **poxvírus**; lesões firmes e umbilicadas, com **linfadenopatia**, são típicas. Os poxvírus são os vírus de DNA que replicam no **citoplasma**; as enzimas de transcrição do hospedeiro ficam no núcleo, por isso o vírion traz sua **própria RNA polimerase DNA-dependente**, e o genoma codifica sua própria DNA polimerase. A replicação no núcleo com a RNA polimerase II do hospedeiro é a escolha mais tentadora, pois vale para a maioria dos vírus de DNA (herpes-, adeno- e papilomavírus), mas não para os poxvírus. A RNA polimerase RNA-dependente é carregada pelos vírus de RNA de polaridade negativa, não pelos vírus de DNA."
+    },
+    {
+      "slug": "q-virology-dna-viruses-qx-adenovirus-hemorrhagic-cystitis",
+      "track": "step1",
+      "system": "microbiology",
+      "discipline": "microbiology",
+      "tags": [
+        "virology-dna-viruses",
+        "adenovirus",
+        "viral-syndromes"
+      ],
+      "stem": "Over 2 weeks in July, 14 children at a summer day camp develop fever, sore throat and red, watery eyes. All of them swam in the same outdoor pool, and an inspection finds that its chlorine level had been too low. A 9-year-old boy from the camp has bilateral conjunctivitis without pus, pharyngitis and tender preauricular lymph nodes. PCR of a throat swab detects a double-stranded DNA virus. This virus is also a well-known cause of which of the following conditions?",
+      "choices": [
+        "Aplastic crisis in a child with sickle cell disease",
+        "Hand, foot and mouth disease",
+        "Acute hemorrhagic cystitis",
+        "Herpangina with small ulcers on the soft palate",
+        "Acute epiglottitis with drooling"
+      ],
+      "correct": 2,
+      "explanation": "Fever, pharyngitis and conjunctivitis in an outbreak linked to a poorly chlorinated pool is **pharyngoconjunctival fever** from **adenovirus**, a naked double-stranded DNA virus. Adenovirus also causes pneumonia, gastroenteritis and **acute hemorrhagic cystitis**, with painful, bloody urination, often in otherwise healthy children and in stem cell transplant recipients. **Hand, foot and mouth disease** is the most tempting choice because enteroviruses also spread in summer camps and pools, but it is caused by coxsackievirus, an RNA virus, as is herpangina. Aplastic crisis in sickle cell disease is caused by parvovirus B19, and epiglottitis is bacterial.",
+      "explanation_pt": "Febre, faringite e conjuntivite em um surto ligado a uma piscina mal clorada é **febre faringoconjuntival** por **adenovírus**, um vírus de DNA de fita dupla não envelopado. O adenovírus também causa pneumonia, gastroenterite e **cistite hemorrágica aguda**, com micção dolorosa e com sangue, muitas vezes em crianças previamente saudáveis e em receptores de transplante de células-tronco. A **doença mão-pé-boca** é a escolha mais tentadora, porque os enterovírus também se espalham em colônias de férias e piscinas, mas é causada pelo vírus Coxsackie, um vírus de RNA, assim como a herpangina. A crise aplástica na doença falciforme é causada pelo parvovírus B19, e a epiglotite é bacteriana."
+    },
+    {
+      "slug": "q-virology-dna-viruses-qx-cmv-heterophile-negative-latency",
+      "track": "step1",
+      "system": "microbiology",
+      "discipline": "microbiology",
+      "tags": [
+        "virology-dna-viruses",
+        "herpesviruses",
+        "cmv",
+        "latency"
+      ],
+      "stem": "A 24-year-old woman has had fever, night sweats and fatigue for 3 weeks. She has no sore throat. Temperature is 38.4°C (101.1°F). There is no tonsillar exudate, the cervical lymph nodes are small and not tender, and the liver edge is palpable. Labs show: WBC count 9,800/mm3 with 58% lymphocytes, many of them large and atypical; AST 92 U/L; ALT 110 U/L; heterophile antibody test negative; Epstein-Barr virus capsid IgM negative; HIV-1/2 antigen/antibody test and HIV RNA negative. IgM antibody to a different herpesvirus is positive. After she recovers, where will this virus mainly stay latent?",
+      "choices": [
+        "Memory B lymphocytes",
+        "Neurons of dorsal root and cranial nerve ganglia",
+        "Hepatocytes around the central veins",
+        "Renal tubular epithelial cells",
+        "Monocytes and myeloid progenitor cells"
+      ],
+      "correct": 4,
+      "explanation": "A mononucleosis-like illness with atypical lymphocytes and mild hepatitis, but little pharyngitis and a **negative heterophile test**, is classic for **CMV**. After the primary infection, CMV stays latent in **monocytes** and **myeloid progenitor** cells, which is why it can be passed on through blood products and organ transplants. **Memory B cells** are the most tempting choice, but they are the latency site of **EBV**, which the negative heterophile test and negative capsid IgM argue against. Sensory ganglion neurons hold HSV and VZV, and renal tubular cells hold BK polyomavirus.",
+      "explanation_pt": "Um quadro semelhante à mononucleose, com linfócitos atípicos e hepatite leve, mas pouca faringite e **teste de anticorpos heterófilos negativo**, é clássico do **CMV**. Após a infecção primária, o CMV fica latente em **monócitos** e em células **progenitoras mieloides**, o que explica sua transmissão por hemoderivados e transplantes de órgãos. Os **linfócitos B de memória** são a escolha mais tentadora, mas são o local de latência do **EBV**, contra o qual falam o teste heterófilo negativo e a IgM anticapsídeo negativa. Os neurônios de gânglios sensitivos abrigam o HSV e o VZV, e as células tubulares renais abrigam o poliomavírus BK."
+    },
+    {
+      "slug": "q-virology-dna-viruses-qx-hbv-cccdna-rebound",
+      "track": "step1",
+      "system": "microbiology",
+      "discipline": "microbiology",
+      "tags": [
+        "virology-dna-viruses",
+        "hepatitis-b",
+        "viral-replication"
+      ],
+      "stem": "A 41-year-old man has chronic hepatitis B. Before treatment, his HBsAg and HBeAg were positive, HBV DNA was 50,000,000 IU/mL and ALT was 140 U/L. He then took tenofovir for 2 years; HBV DNA became undetectable and ALT fell to 28 U/L, but HBsAg stayed positive. He stopped the drug on his own 4 months ago. Now HBV DNA is 2,000,000 IU/mL and ALT is 160 U/L. Sequencing finds no drug-resistance mutation in the viral polymerase. Which viral feature best explains the return of viral replication?",
+      "choices": [
+        "Viral DNA in host chromosomes acting as the main replication template",
+        "Latent viral genomes hidden in memory B lymphocytes",
+        "Circular viral DNA that persists in the nuclei of hepatocytes",
+        "A polymerase mutation that prevents drug binding",
+        "Antigenic variation of the viral surface antigen"
+      ],
+      "correct": 2,
+      "explanation": "In the hepatocyte nucleus, the partly double-stranded HBV genome is repaired into **covalently closed circular DNA (cccDNA)**. This stable episome is the template for all viral RNAs, including the pregenomic RNA that the viral polymerase copies into DNA by **reverse transcription**. Tenofovir blocks only this reverse transcription step, so cccDNA survives therapy and restarts replication when the drug stops; persistent HBsAg shows that infected hepatocytes were never cleared. **Integrated viral DNA** is the most tempting choice because HBV does integrate, but integrated pieces are usually rearranged and cannot make pregenomic RNA; they matter more for HBsAg production and hepatocellular carcinoma, and sequencing excludes resistance.",
+      "explanation_pt": "No núcleo do hepatócito, o genoma parcialmente de fita dupla do HBV é reparado e forma o **DNA circular covalentemente fechado (cccDNA)**. Esse epissomo estável é o molde de todos os RNAs virais, incluindo o RNA pré-genômico, que a polimerase viral copia em DNA por **transcrição reversa**. O tenofovir bloqueia apenas essa etapa de transcrição reversa; assim, o cccDNA sobrevive ao tratamento e reinicia a replicação quando o fármaco é suspenso, e o HBsAg persistente mostra que os hepatócitos infectados nunca foram eliminados. O **DNA viral integrado** é a escolha mais tentadora, pois o HBV de fato se integra, mas os fragmentos integrados costumam estar rearranjados e não produzem RNA pré-genômico; eles importam mais para a produção de HBsAg e para o carcinoma hepatocelular, e o sequenciamento exclui resistência."
+    },
+    {
+      "slug": "q-virology-dna-viruses-qx-hpv-vaccine-l1-vlp",
+      "track": "step1",
+      "system": "microbiology",
+      "discipline": "microbiology",
+      "tags": [
+        "virology-dna-viruses",
+        "hpv",
+        "vaccines"
+      ],
+      "stem": "An 11-year-old girl comes for a routine visit. Her father asks about the human papillomavirus vaccine. He is worried that it could infect his daughter or cause cancer, because he heard that it is made from the virus. The physician explains that the vaccine induces neutralizing antibodies that block the virus from entering basal epithelial cells. Which component does this vaccine contain?",
+      "choices": [
+        "Recombinant L1 capsid proteins assembled into empty particles",
+        "Live attenuated virus that replicates weakly in the skin",
+        "Whole virions inactivated with formalin",
+        "Purified recombinant E6 and E7 oncoproteins from high-risk types",
+        "Plasmid DNA that encodes the viral capsid proteins"
+      ],
+      "correct": 0,
+      "explanation": "The HPV vaccine contains **virus-like particles** made of the major capsid protein **L1**, produced by recombinant technology. The particles look like the viral capsid and induce **neutralizing antibodies**, but they contain **no viral DNA**, so they cannot infect cells or cause cancer. **E6 and E7** are the most tempting choice because they are the HPV oncoproteins, but they are made inside already infected cells; antibodies against them cannot prevent the virus from entering cells. The vaccine is neither live nor a whole inactivated virus.",
+      "explanation_pt": "A vacina contra o HPV contém **partículas semelhantes a vírus** (*virus-like particles*) feitas da principal proteína do capsídeo, a **L1**, produzida por tecnologia recombinante. As partículas imitam o capsídeo viral e induzem **anticorpos neutralizantes**, mas **não contêm DNA viral**, por isso não infectam células nem causam câncer. **E6 e E7** são a escolha mais tentadora por serem as oncoproteínas do HPV, mas são produzidas dentro de células já infectadas; anticorpos contra elas não impedem a entrada do vírus nas células. A vacina não é de vírus vivo nem de vírus inteiro inativado."
+    },
+    {
+      "slug": "q-virology-dna-viruses-qx-roseola-hhv6",
+      "track": "step1",
+      "system": "microbiology",
+      "discipline": "microbiology",
+      "tags": [
+        "virology-dna-viruses",
+        "herpesviruses",
+        "hhv-6",
+        "viral-exanthems"
+      ],
+      "stem": "A 10-month-old girl had 3 days of fever up to 40.1°C (104.2°F). On the second day she had a brief generalized seizure at home and was alert afterward. She kept drinking well and was playful when the fever came down. She has had no cough, runny nose or red eyes. This morning the fever was gone, and her parents found small pink spots on her chest and back that fade with pressure. The spots have spread to her neck, but her face is clear. Which virus is the most likely cause?",
+      "choices": [
+        "Measles virus",
+        "Human herpesvirus 6",
+        "Parvovirus B19",
+        "Rubella virus",
+        "Varicella-zoster virus"
+      ],
+      "correct": 1,
+      "explanation": "High fever for several days in an infant who looks well, sometimes with a **febrile seizure**, followed by a pink trunk rash **after the fever falls**, is **roseola** (exanthem subitum), caused by **HHV-6**. **Measles** is the most tempting choice because it also gives high fever and a maculopapular rash, but the measles rash starts on the face while the fever is still high, after cough, coryza and conjunctivitis. Parvovirus B19 starts with red cheeks, rubella rash also starts on the face, and varicella makes vesicles in different stages.",
+      "explanation_pt": "Febre alta por vários dias em um lactente em bom estado, às vezes com **convulsão febril**, seguida de exantema rosado no tronco **depois que a febre cai**, é o **exantema súbito** (roséola), causado pelo **HHV-6**. O **sarampo** é a escolha mais tentadora, porque também causa febre alta e exantema maculopapular, mas o exantema do sarampo começa na face enquanto a febre ainda está alta, após tosse, coriza e conjuntivite. O parvovírus B19 começa com bochechas vermelhas, o exantema da rubéola também começa na face, e a varicela forma vesículas em estágios diferentes."
+    },
+    {
+      "slug": "q-virology-dna-viruses-qx-ebv-ptld-t-cell-control",
+      "track": "step1",
+      "system": "microbiology",
+      "discipline": "microbiology",
+      "tags": [
+        "virology-dna-viruses",
+        "herpesviruses",
+        "ebv",
+        "oncogenic-viruses"
+      ],
+      "stem": "A 46-year-old woman received a kidney transplant 9 months ago. She had no antibodies to Epstein-Barr virus before the transplant, and the donor was seropositive. She takes tacrolimus, mycophenolate and prednisone. For 3 weeks she has had fever, night sweats and swollen lymph nodes in her neck. Exam shows several rubbery, nontender cervical nodes 2 to 3 cm in size. A node biopsy shows sheets of large B cells, and most of them are positive for EBV-encoded small RNAs (EBER) on in situ hybridization. Which mechanism best explains this disease?",
+      "choices": [
+        "Translocation of MYC next to an immunoglobulin gene",
+        "Direct toxic damage to lymph node stroma by tacrolimus",
+        "Weak T-cell killing of EBV-infected proliferating B cells",
+        "Insertion of viral DNA next to a host proto-oncogene",
+        "A viral protein that turns on IL-2 receptor genes in T cells"
+      ],
+      "correct": 2,
+      "explanation": "This is **post-transplant lymphoproliferative disorder (PTLD)**. EBV latent proteins drive infected **B cells** to proliferate, and normally **cytotoxic CD8+ T cells** keep them under control; drugs such as **tacrolimus** suppress these T cells, and a seronegative recipient of a seropositive donor's organ has the highest risk. A **MYC translocation** is the most tempting choice because EBV is linked to Burkitt lymphoma, but that tumor has t(8;14) and a *starry sky* pattern, and it is not the usual basis of PTLD. Insertion next to a proto-oncogene describes some retroviruses, and IL-2 receptor activation is HTLV-1 Tax.",
+      "explanation_pt": "Trata-se de **doença linfoproliferativa pós-transplante (DLPT)**. As proteínas de latência do EBV levam os **linfócitos B** infectados a proliferar, e normalmente os **linfócitos T CD8+ citotóxicos** os mantêm sob controle; fármacos como o **tacrolimo** suprimem esses linfócitos T, e um receptor soronegativo de órgão de doador soropositivo tem o maior risco. A **translocação do MYC** é a escolha mais tentadora, porque o EBV está associado ao linfoma de Burkitt, mas esse tumor tem t(8;14) e padrão em *starry sky* (\"céu estrelado\"), e não é a base habitual da DLPT. A inserção ao lado de um proto-oncogene descreve alguns retrovírus, e a ativação do receptor de IL-2 é da Tax do HTLV-1."
+    }
+  ],
+  "notes": []
+}

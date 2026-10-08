@@ -1,0 +1,182 @@
+{
+  "cards": [],
+  "questions": [
+    {
+      "slug": "q-gram-positive-bacteria-qx-diphtheria-ef2",
+      "track": "step1",
+      "system": "microbiology",
+      "discipline": "microbiology",
+      "tags": [
+        "gram-positive-bacteria",
+        "corynebacterium",
+        "toxins"
+      ],
+      "stem": "A 9-year-old girl who has never received any vaccines moved to the country 2 months ago. Three weeks ago she had a severe sore throat with fever that was treated at home and slowly improved. For the past 5 days her voice has sounded nasal, she coughs when she drinks, and milk comes back out through her nose. Today she says that print looks blurred when she holds a book close. Exam shows a soft palate that does not rise when she says \"ah\" and poor accommodation in both eyes. The pupils are equal and react normally to light. Strength and sensation in the limbs are normal, and she is afebrile. Her throat culture during the earlier illness grew a club-shaped gram-positive rod. Which action of the responsible toxin best explains her current findings?",
+      "choices": [
+        "Cleavage of SNARE proteins, which blocks release of neurotransmitter vesicles",
+        "Removal of an adenine base from 28S ribosomal RNA",
+        "ADP-ribosylation of elongation factor 2, halting translation",
+        "ADP-ribosylation of the Gs alpha subunit, which raises cAMP in host cells",
+        "Pore formation in cholesterol-rich host cell membranes"
+      ],
+      "correct": 2,
+      "explanation": "Palatal weakness with nasal regurgitation and loss of accommodation weeks after a severe pharyngitis in an unvaccinated child is the **late neuropathy of diphtheria** (*Corynebacterium diphtheriae*). Diphtheria toxin **ADP-ribosylates elongation factor 2** (at its diphthamide residue), so translocation along the ribosome stops and protein synthesis fails; the heart (myocarditis) and the Schwann cells of peripheral nerves (demyelination) are hit hardest, which explains the palatal and ciliary palsies. Shiga and Shiga-like toxins also shut down protein synthesis, but they cut an **adenine out of 28S rRNA** in the 60S subunit and cause bloody diarrhea with hemolytic uremic syndrome, never cranial neuropathy. Botulinum toxin would have caused weakness within a day or two of exposure, with dilated pupils and descending limb weakness.",
+      "explanation_pt": "Fraqueza do palato com regurgitação nasal e perda da acomodação, semanas depois de uma faringite grave em criança não vacinada, caracteriza a **neuropatia tardia da difteria** (*Corynebacterium diphtheriae*). A toxina diftérica faz **ADP-ribosilação do fator de alongamento 2** (no resíduo de diftamida); a translocação no ribossomo para e a síntese proteica falha; o coração (miocardite) e as células de Schwann dos nervos periféricos (desmielinização) são os mais atingidos, o que explica as paralisias palatina e ciliar. As toxinas Shiga e Shiga-like também interrompem a síntese proteica, mas retiram uma **adenina do RNA ribossômico 28S** da subunidade 60S e causam diarreia sanguinolenta com síndrome hemolítico-urêmica, nunca neuropatia craniana. A toxina botulínica causaria fraqueza em um ou dois dias após a exposição, com pupilas dilatadas e fraqueza descendente dos membros."
+    },
+    {
+      "slug": "q-gram-positive-bacteria-qx-saprophyticus-cystitis",
+      "track": "step1",
+      "system": "microbiology",
+      "discipline": "microbiology",
+      "tags": [
+        "gram-positive-bacteria",
+        "staphylococcus",
+        "lab-identification"
+      ],
+      "stem": "A 21-year-old woman has had burning on urination, urgency and suprapubic discomfort for 2 days. She became sexually active with a new partner last month. Temperature is 37.0°C (98.6°F), blood pressure 112/70 mm Hg, pulse 76/min, no flank tenderness. Urinalysis shows 60 leukocytes per high-power field, many bacteria, positive leukocyte esterase and negative nitrite. Urine culture grows more than 100,000 colonies/mL of a catalase-positive gram-positive coccus in clusters that is coagulase negative and grows right up to the edge of a novobiocin disk, with no zone of inhibition. Which organism is the most likely cause?",
+      "choices": [
+        "Escherichia coli",
+        "Staphylococcus saprophyticus",
+        "Staphylococcus epidermidis",
+        "Enterococcus faecalis",
+        "Staphylococcus aureus"
+      ],
+      "correct": 1,
+      "explanation": "Cystitis in a young, sexually active woman caused by a **coagulase-negative** staphylococcus that is **novobiocin resistant** (it grows right up to the disk) is *Staphylococcus saprophyticus*, the second most common cause of uncomplicated cystitis in this group; its urease and strong adherence to urothelium help it colonize. *S. epidermidis* is the tempting choice because it is also coagulase negative, but it is **novobiocin sensitive** and causes device-related infection rather than cystitis in a healthy woman. *Escherichia coli* is the single most common cause of cystitis overall, yet it is a **gram-negative rod**, which the Gram stain here excludes. A **negative nitrite** fits an organism that does not reduce nitrate well, so it does not argue against infection.",
+      "explanation_pt": "Cistite em mulher jovem e sexualmente ativa causada por estafilococo **coagulase-negativo** e **resistente à novobiocina** (cresce até a borda do disco, sem halo de inibição) corresponde ao *Staphylococcus saprophyticus*, a segunda causa mais comum de cistite não complicada nesse grupo; sua urease e a forte aderência ao urotélio favorecem a colonização. O *S. epidermidis* é a alternativa tentadora porque também é coagulase-negativo, mas é **sensível à novobiocina** e causa infecção associada a dispositivos, e não cistite em mulher saudável. A *Escherichia coli* é a causa mais frequente de cistite em geral, mas é um **bacilo gram-negativo**, excluído pela coloração de Gram. O **nitrito negativo** combina com um microrganismo que reduz mal o nitrato e, portanto, não afasta a infecção."
+    },
+    {
+      "slug": "q-gram-positive-bacteria-qx-neonatal-gbs-lab",
+      "track": "step1",
+      "system": "microbiology",
+      "discipline": "microbiology",
+      "tags": [
+        "gram-positive-bacteria",
+        "streptococcus",
+        "lab-identification"
+      ],
+      "stem": "A 24-day-old girl is brought to the clinic because she has been feeding poorly and sleeping more than usual since yesterday. She was born at term after an uncomplicated pregnancy and delivery and is breastfed. Temperature is 38.8°C (101.8°F), pulse 186/min, respirations 58/min. She is irritable when handled, and the anterior fontanelle is full. Cerebrospinal fluid shows 4,200 leukocytes/mm3 with 78% neutrophils, glucose 14 mg/dL (serum glucose 84 mg/dL) and protein 240 mg/dL. The culture grows gram-positive cocci in chains that are beta-hemolytic on blood agar and are not inhibited by a bacitracin disk. Which additional laboratory result is most likely in this isolate?",
+      "choices": [
+        "Sensitivity to optochin and solubility in bile",
+        "A positive PYR test with sensitivity to bacitracin",
+        "Growth in 6.5% NaCl with hydrolysis of bile esculin",
+        "Catalase positive and coagulase positive",
+        "Hydrolysis of hippurate with a positive CAMP test"
+      ],
+      "correct": 4,
+      "explanation": "Late-onset meningitis in a young infant caused by **beta-hemolytic**, **bacitracin-resistant** gram-positive cocci in chains is *Streptococcus agalactiae* (**group B**). Group B streptococci **hydrolyze hippurate** and are **CAMP positive**: they secrete a factor that widens the zone of hemolysis made by *Staphylococcus aureus*. **PYR positivity with bacitracin sensitivity** marks *S. pyogenes* (group A), which the stem already excludes because the isolate grows up to the bacitracin disk. The cerebrospinal fluid glucose is one sixth of the serum value and neutrophils predominate, a pattern that fits bacterial rather than viral meningitis.",
+      "explanation_pt": "Meningite de início tardio em recém-nascido causada por cocos gram-positivos em cadeias, **beta-hemolíticos** e **resistentes à bacitracina**, corresponde a *Streptococcus agalactiae* (**grupo B**). Os estreptococos do grupo B **hidrolisam o hipurato** e são **CAMP positivos**: secretam um fator que amplia a zona de hemólise do *Staphylococcus aureus*. **PYR positivo com sensibilidade à bacitracina** caracteriza o *S. pyogenes* (grupo A), já excluído no enunciado porque o isolado cresce junto ao disco de bacitracina. A glicose do líquido cefalorraquidiano é um sexto do valor sérico e há predomínio de neutrófilos, padrão de meningite bacteriana e não viral."
+    },
+    {
+      "slug": "q-gram-positive-bacteria-qx-vre-d-lactate",
+      "track": "step1",
+      "system": "microbiology",
+      "discipline": "microbiology",
+      "tags": [
+        "gram-positive-bacteria",
+        "enterococcus",
+        "resistance"
+      ],
+      "stem": "A 68-year-old woman has been in the intensive care unit for 5 weeks after abdominal surgery and has had a urinary catheter the whole time. She develops fever and chills, and two blood cultures grow gram-positive cocci in pairs and short chains. The isolate is catalase negative, hydrolyzes esculin in the presence of bile, grows in broth with 6.5% sodium chloride, and is PYR positive. Susceptibility testing shows that it is not inhibited by vancomycin. Which change in the organism best explains this resistance?",
+      "choices": [
+        "A beta-lactamase enzyme that opens the ring structure of the drug",
+        "A cell wall precursor that ends in D-alanine-D-lactate",
+        "Methylation of the drug's binding site on 23S ribosomal RNA",
+        "A penicillin-binding protein with low affinity for the drug",
+        "An efflux pump that pushes the drug out of the cytoplasm"
+      ],
+      "correct": 1,
+      "explanation": "Growth in **bile esculin** and in **6.5% NaCl** with a positive PYR test identifies *Enterococcus*, a common cause of bacteremia from the urinary tract in long-stay patients with urinary catheters. Vancomycin works by binding the terminal **D-Ala-D-Ala** of the peptidoglycan precursor; **VRE** strains carry *van* genes that build a precursor ending in **D-Ala-D-Lac**, which binds the drug far more weakly, so cell wall assembly continues. A low-affinity penicillin-binding protein (PBP2a) is how MRSA resists beta-lactams, but vancomycin does not act on a penicillin-binding protein at all, so changing one would not protect the organism.",
+      "explanation_pt": "O crescimento em **bile esculina** e em **NaCl a 6,5%** com teste PYR positivo identifica o *Enterococcus*, causa frequente de bacteriemia de origem urinária em pacientes internados por muito tempo com sonda vesical. A vancomicina age ligando-se ao terminal **D-Ala-D-Ala** do precursor do peptidoglicano; as cepas **VRE** carregam genes *van* que montam um precursor terminado em **D-Ala-D-Lac**, que liga o fármaco com afinidade muito menor, e a síntese da parede continua. Uma proteína ligadora de penicilina de baixa afinidade (PBP2a) é o mecanismo do MRSA contra os betalactâmicos, mas a vancomicina nem sequer atua sobre essas proteínas, de modo que alterá-las não protegeria a bactéria."
+    },
+    {
+      "slug": "q-gram-positive-bacteria-qx-scarlet-fever-aso",
+      "track": "step1",
+      "system": "microbiology",
+      "discipline": "microbiology",
+      "tags": [
+        "gram-positive-bacteria",
+        "streptococcus",
+        "toxins"
+      ],
+      "stem": "A 7-year-old girl has had fever and a very sore throat for 2 days. Today her mother noticed a rash. Temperature is 38.9°C (102.0°F). The tonsils are swollen with white exudate, and there are tender anterior cervical lymph nodes. A diffuse red rash that feels like sandpaper covers her trunk, is more intense in the armpits and groin, and spares a pale ring around her mouth. Her tongue is bright red with prominent papillae. Which laboratory result would best support recent infection with the organism responsible?",
+      "choices": [
+        "A fourfold rise in cold agglutinin titer",
+        "A positive heterophile antibody test",
+        "A positive urinary antigen test for pneumococcus",
+        "A rising antistreptolysin O titer",
+        "A positive serum test for antibodies against desmoglein 1"
+      ],
+      "correct": 3,
+      "explanation": "Exudative pharyngitis with a **sandpaper rash**, skin-fold accentuation, circumoral pallor and a **strawberry tongue** is **scarlet fever** from *Streptococcus pyogenes*, whose **pyrogenic (erythrogenic) exotoxin** acts as a superantigen. The same organism makes **streptolysin O**, and antibodies against it (**ASO**) rise over the following weeks, which is why a rising titer documents recent infection. Cold agglutinins rise in *Mycoplasma pneumoniae* infection, which causes a dry cough and patchy infiltrates rather than tonsillar exudate and this rash. A positive heterophile test would indicate infectious mononucleosis, which gives posterior cervical adenopathy and splenomegaly, not a sandpaper rash.",
+      "explanation_pt": "Faringite exsudativa com **exantema em lixa** (áspero ao toque), acentuação nas dobras cutâneas, palidez perioral e **língua em framboesa** caracteriza a **escarlatina** por *Streptococcus pyogenes*, cuja **exotoxina pirogênica (eritrogênica)** atua como superantígeno. O mesmo microrganismo produz a **estreptolisina O**, e os anticorpos contra ela (**ASLO**) sobem nas semanas seguintes; por isso a elevação do título documenta infecção recente. As crioaglutininas aumentam na infecção por *Mycoplasma pneumoniae*, que causa tosse seca e infiltrados em placas, e não exsudato tonsilar com esse exantema. Um teste de anticorpos heterófilos positivo indicaria mononucleose infecciosa, com adenomegalia cervical posterior e esplenomegalia, e não exantema em lixa."
+    },
+    {
+      "slug": "q-gram-positive-bacteria-qx-neonatal-tetanus-site",
+      "track": "step1",
+      "system": "microbiology",
+      "discipline": "microbiology",
+      "tags": [
+        "gram-positive-bacteria",
+        "clostridium",
+        "toxins"
+      ],
+      "stem": "A 12-day-old boy born at home in a rural area is brought in because he stopped feeding 2 days ago. His mother received no vaccines. The umbilical stump is dirty and smells bad. The baby is awake and alert. His jaw is clamped shut, his limbs are stiff, and handling him sets off painful spasms in which his back arches and his face is drawn into a fixed grimace. Temperature is 37.3°C (99.1°F). There is no weakness between spasms, and the pupils react normally. The responsible toxin reaches the central nervous system by traveling backwards inside motor axons. It then acts mainly on which structure?",
+      "choices": [
+        "Inhibitory interneurons of the spinal cord",
+        "Presynaptic terminals of motor neurons at the neuromuscular junction",
+        "Acetylcholine receptors on the muscle end plate",
+        "Voltage-gated sodium channels along peripheral axons",
+        "Dopaminergic neurons of the substantia nigra"
+      ],
+      "correct": 0,
+      "explanation": "Trismus, generalized rigidity, opisthotonus and *risus sardonicus* in a baby with an infected umbilical stump and an unvaccinated mother describe **neonatal tetanus**. **Tetanospasmin** moves by retrograde axonal transport to the spinal cord and cleaves **synaptobrevin** in **inhibitory interneurons** (including Renshaw cells), so **glycine and GABA** are no longer released and motor neurons fire without restraint. Botulinum toxin cleaves the same family of SNARE proteins but stays at the **presynaptic terminal of the neuromuscular junction**, where it blocks acetylcholine release and produces a floppy, flaccid infant with poor pupillary responses, the opposite of this picture.",
+      "explanation_pt": "Trismo, rigidez generalizada, opistótono e *riso sardônico* em um recém-nascido com coto umbilical infectado e mãe não vacinada descrevem o **tétano neonatal**. A **tetanospasmina** sobe por transporte axonal retrógrado até a medula espinhal e cliva a **sinaptobrevina** dos **interneurônios inibitórios** (incluindo as células de Renshaw); **glicina e GABA** deixam de ser liberados e os neurônios motores disparam sem freio. A toxina botulínica cliva a mesma família de proteínas SNARE, mas permanece no **terminal pré-sináptico da junção neuromuscular**, onde bloqueia a liberação de acetilcolina e produz um lactente hipotônico e flácido, com pupilas pouco reativas, o oposto deste quadro."
+    },
+    {
+      "slug": "q-gram-positive-bacteria-qx-listeria-cell-to-cell",
+      "track": "step1",
+      "system": "microbiology",
+      "discipline": "microbiology",
+      "tags": [
+        "gram-positive-bacteria",
+        "listeria",
+        "virulence"
+      ],
+      "stem": "A 29-year-old woman at 30 weeks' gestation has had fever, muscle aches and back pain for 2 days. She reports eating soft cheese bought at a street market a week ago. Temperature is 38.7°C (101.7°F). Two sets of blood cultures grow short gram-positive rods that are beta-hemolytic, show tumbling motility in broth at room temperature, and also grow when the plate is kept at 4°C. She has high-titer serum antibodies against this organism, yet the infection keeps progressing and the fetus becomes infected. Which property best explains why antibody fails to stop the spread of this organism?",
+      "choices": [
+        "A polysaccharide capsule that keeps complement off the bacterial surface",
+        "An IgA protease that cuts antibody on mucosal surfaces",
+        "Frequent antigenic variation of its surface proteins",
+        "Polymerization of host actin that drives it straight into the next cell",
+        "Survival inside a phagosome that cannot fuse with lysosomes"
+      ],
+      "correct": 3,
+      "explanation": "Tumbling motility, **growth in the cold** and beta-hemolysis in a pregnant woman who ate soft cheese indicate *Listeria monocytogenes*. After listeriolysin O lets it escape into the cytosol, it uses **ActA** to polymerize host **actin** into a comet tail that pushes it through the membrane into the neighboring cell, so it never meets antibody in the extracellular fluid and only **cell-mediated** immunity controls it. Blocked phagosome-lysosome fusion is how *Mycobacterium tuberculosis* and *Legionella* survive; *Listeria* does the opposite and leaves the phagosome altogether.",
+      "explanation_pt": "Motilidade em cambalhota, **crescimento no frio** e beta-hemólise em gestante que comeu queijo mole indicam *Listeria monocytogenes*. Depois que a listeriolisina O permite sua fuga para o citosol, ela usa a **ActA** para polimerizar a **actina** da célula hospedeira em uma cauda em cometa que a empurra através da membrana para a célula vizinha; assim nunca encontra anticorpos no meio extracelular, e só a imunidade **celular** a controla. O bloqueio da fusão fagossomo-lisossomo é o mecanismo do *Mycobacterium tuberculosis* e da *Legionella*; a *Listeria* faz o contrário e abandona o fagossomo."
+    },
+    {
+      "slug": "q-gram-positive-bacteria-qx-pneumococcus-quellung",
+      "track": "step1",
+      "system": "microbiology",
+      "discipline": "microbiology",
+      "tags": [
+        "gram-positive-bacteria",
+        "streptococcus",
+        "virulence"
+      ],
+      "stem": "A 62-year-old man with alcohol use disorder is admitted with 2 days of fever, shaking chills and cough. Chest x-ray shows consolidation of the right lower lobe. Gram stain of sputum shows many neutrophils and lance-shaped gram-positive cocci in pairs. In the laboratory, a drop of type-specific antiserum is added to the sputum and the material immediately around each organism appears to swell under the microscope. The structure made visible by this reaction helps the organism cause disease mainly by which mechanism?",
+      "choices": [
+        "Forming pores in host cell membranes after binding to cholesterol",
+        "Blocking opsonization, so neutrophils cannot engulf the organism",
+        "Cleaving secretory IgA on the surface of the airway",
+        "Inactivating elongation factor 2 in host cells",
+        "Binding the Fc portion of IgG so that it points the wrong way"
+      ],
+      "correct": 1,
+      "explanation": "The swelling seen when antiserum is added is the **quellung reaction**, and it highlights the **polysaccharide capsule** of *Streptococcus pneumoniae*. The capsule is the organism's main virulence factor because it keeps complement (C3b) from being deposited where neutrophils can recognize it, so they cannot **opsonophagocytose** it unless antibody against the capsule itself is present; this is why people without a working spleen and young children are at such high risk, and why capsular polysaccharide conjugated to a protein is used to make vaccines. Pneumococcus does make **pneumolysin**, a cholesterol-binding pore former, and an **IgA protease**, but neither is the structure that the quellung reaction reveals, and neither is the dominant reason the organism resists killing.",
+      "explanation_pt": "O inchaço observado ao se acrescentar o antissoro é a **reação de Quellung**, que evidencia a **cápsula polissacarídica** do *Streptococcus pneumoniae*. A cápsula é o principal fator de virulência porque impede a deposição de complemento (C3b) em local reconhecível pelos neutrófilos, que assim não conseguem fazer a **opsonofagocitose** sem anticorpos contra a própria cápsula; por isso pessoas sem baço funcionante e crianças pequenas têm risco tão elevado, e por isso o polissacarídeo capsular conjugado a uma proteína é usado nas vacinas. O pneumococo também produz **pneumolisina**, formadora de poros que se liga ao colesterol, e uma **protease de IgA**, mas nenhuma dessas é a estrutura revelada pela reação de Quellung nem o motivo principal de sua resistência à destruição."
+    }
+  ],
+  "notes": []
+}

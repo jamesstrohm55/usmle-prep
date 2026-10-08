@@ -1,0 +1,185 @@
+{
+  "cards": [],
+  "questions": [
+    {
+      "slug": "q-bacteriology-basics-qx-transformation",
+      "track": "step1",
+      "system": "microbiology",
+      "discipline": "microbiology",
+      "tags": [
+        "bacteriology-basics",
+        "genetics",
+        "transformation"
+      ],
+      "stem": "A research team works with a strain of Streptococcus pneumoniae that has lost its capsule genes and no longer kills mice. They grow this unencapsulated strain in broth with a cell-free extract made by breaking open an encapsulated strain. A small number of recipient cells now make capsule and kill mice, and their offspring keep the capsule. Treating the extract with DNase prevents this change, while treating it with protease or RNase does not. Which process explains the change in the recipient cells?",
+      "choices": [
+        "Conjugation",
+        "Generalized transduction",
+        "Transformation",
+        "Lysogenic conversion",
+        "Transposition"
+      ],
+      "correct": 2,
+      "explanation": "Uptake of **free (naked) DNA** from the surroundings is **transformation**, and its hallmark is that **DNase blocks it**. *S. pneumoniae*, *Haemophilus influenzae* and *Neisseria* are **naturally competent**: they take up DNA released by lysed cells and recombine it into their chromosome. Generalized transduction is the most tempting choice because a cell-free extract could contain phages, but DNA inside a phage capsid is protected from DNase. Conjugation needs a live donor cell in contact with the recipient, which a cell-free extract cannot provide.",
+      "explanation_pt": "A captação de **DNA livre (nu)** do ambiente é **transformação**, e sua marca é ser **bloqueada pela DNase**. *S. pneumoniae*, *Haemophilus influenzae* e *Neisseria* são **naturalmente competentes**: captam o DNA liberado por células lisadas e o recombinam no cromossomo. A transdução generalizada é a opção mais tentadora, porque um extrato acelular poderia conter fagos, mas o DNA dentro do capsídeo do fago fica protegido da DNase. A conjugação exige uma célula doadora viva em contato com a receptora, o que um extrato acelular não oferece."
+    },
+    {
+      "slug": "q-bacteriology-basics-qx-lysogenic-toxin-genes",
+      "track": "step1",
+      "system": "microbiology",
+      "discipline": "microbiology",
+      "tags": [
+        "bacteriology-basics",
+        "genetics",
+        "toxins",
+        "lysogenic-conversion"
+      ],
+      "stem": "A 7-year-old boy who has never been vaccinated arrives from a region with an ongoing outbreak. He has had fever, sore throat and neck swelling for 3 days. A gray, adherent membrane covers both tonsils and bleeds when the examiner tries to lift it. Culture on tellurite medium grows black colonies of a gram-positive rod, and an immunodiffusion test shows that the isolate secretes toxin. The gene for this toxin reached the bacterium by the same mechanism as the gene for which of the following toxins?",
+      "choices": [
+        "Tetanospasmin of Clostridium tetani",
+        "Lethal toxin of Bacillus anthracis",
+        "Heat-labile toxin of enterotoxigenic Escherichia coli",
+        "Exotoxin A of Pseudomonas aeruginosa",
+        "Cholera toxin of Vibrio cholerae"
+      ],
+      "correct": 4,
+      "explanation": "This is **diphtheria**, and only *Corynebacterium diphtheriae* strains that carry a **temperate bacteriophage** (β-prophage) make the toxin: this is **lysogenic conversion**. **Cholera toxin** genes also come from a phage (CTXφ) integrated into the *Vibrio* chromosome. Pseudomonas exotoxin A is the most tempting choice because it ADP-ribosylates **EF-2** just like diphtheria toxin, but its gene is a normal part of the bacterial chromosome. Tetanospasmin, anthrax toxin and the heat-labile toxin of ETEC are coded on **plasmids**.",
+      "explanation_pt": "Trata-se de **difteria**, e só as cepas de *Corynebacterium diphtheriae* que carregam um **bacteriófago temperado** (prófago β) produzem a toxina: isso é **conversão lisogênica**. Os genes da **toxina colérica** também vêm de um fago (CTXφ) integrado ao cromossomo do *Vibrio*. A exotoxina A da *Pseudomonas* é a opção mais tentadora porque faz ADP-ribosilação do **EF-2** como a toxina diftérica, mas seu gene faz parte do próprio cromossomo bacteriano. A tetanospasmina, a toxina do antraz e a toxina termolábil da ETEC são codificadas em **plasmídeos**."
+    },
+    {
+      "slug": "q-bacteriology-basics-qx-sporicidal-disinfectant",
+      "track": "step1",
+      "system": "microbiology",
+      "discipline": "microbiology",
+      "tags": [
+        "bacteriology-basics",
+        "sterilization",
+        "spores"
+      ],
+      "stem": "A hospital reviews how it cleans flexible bronchoscopes, which are damaged by the heat and pressure of an autoclave. Spores of Bacillus species were cultured from the inner channel of a scope that had been brushed, flushed with detergent and then rinsed with 70% isopropyl alcohol. The infection control team wants a chemical that can kill bacterial spores on these instruments when it is used for a long enough contact time. Which agent meets this goal?",
+      "choices": [
+        "Chlorhexidine gluconate",
+        "Glutaraldehyde",
+        "Benzalkonium chloride",
+        "Hexachlorophene",
+        "A phenol-based disinfectant"
+      ],
+      "correct": 1,
+      "explanation": "**Glutaraldehyde** alkylates and cross-links proteins and nucleic acids, and with a long enough exposure it kills **spores**, so it is used for **high-level disinfection or sterilization** of heat-sensitive instruments such as endoscopes. Other sporicidal methods include autoclaving, **ethylene oxide** gas and **hydrogen peroxide**. Chlorhexidine is the most tempting choice because it is a strong surgical antiseptic, but it damages the membranes of growing cells and does not kill spores. **Benzalkonium chloride** (a quaternary ammonium compound), **hexachlorophene** and other **phenolics** are also not sporicidal.",
+      "explanation_pt": "O **glutaraldeído** alquila e forma ligações cruzadas em proteínas e ácidos nucleicos e, com exposição suficientemente longa, mata **esporos**; por isso é usado para **desinfecção de alto nível ou esterilização** de instrumentos sensíveis ao calor, como endoscópios. Outros métodos esporicidas são a autoclavação, o gás **óxido de etileno** e o **peróxido de hidrogênio**. A clorexidina é a opção mais tentadora por ser um antisséptico cirúrgico potente, mas lesa as membranas de células em crescimento e não mata esporos. O **cloreto de benzalcônio** (um composto de amônio quaternário), o **hexaclorofeno** e os demais **fenólicos** também não são esporicidas."
+    },
+    {
+      "slug": "q-bacteriology-basics-qx-anaerobe-aminoglycoside",
+      "track": "step1",
+      "system": "microbiology",
+      "discipline": "microbiology",
+      "tags": [
+        "bacteriology-basics",
+        "anaerobes",
+        "growth",
+        "antibiotic-resistance"
+      ],
+      "stem": "A 58-year-old man has fever and pelvic pain 8 days after surgery for a perforated appendix. CT shows a 6-cm pelvic abscess that contains gas. He has received gentamicin alone for 4 days, and he is not improving. The abscess is drained, and the pus smells foul. Results: temperature 38.9°C (102°F); leukocyte count 17,800/mm3 with 86% neutrophils; Gram stain of the pus, pale gram-negative rods; aerobic culture, no growth at 48 hours; anaerobic culture, gram-negative rods that grow in the presence of 20% bile. Which property of this organism best explains why the drug failed?",
+      "choices": [
+        "A beta-lactamase that hydrolyzes the drug",
+        "A polysaccharide capsule that keeps the drug out of the cell",
+        "A methylated 23S rRNA that blocks drug binding",
+        "Lack of oxygen-dependent transport into the cell",
+        "Absence of peptidoglycan in the cell wall"
+      ],
+      "correct": 3,
+      "explanation": "Growth only without oxygen and tolerance of bile point to ***Bacteroides fragilis***, an **obligate anaerobe**. **Aminoglycosides** enter bacteria by an **oxygen-dependent** transport process that needs aerobic respiration, so they have no activity against anaerobes. A beta-lactamase is the most tempting choice because *B. fragilis* does make one, but it breaks beta-lactam drugs, not aminoglycosides. Its capsule promotes abscess formation rather than blocking drug entry, and 23S rRNA methylation causes resistance to macrolides and clindamycin.",
+      "explanation_pt": "O crescimento apenas sem oxigênio e a tolerância à bile indicam ***Bacteroides fragilis***, um **anaeróbio obrigatório**. Os **aminoglicosídeos** entram nas bactérias por um transporte **dependente de oxigênio**, que exige respiração aeróbia, por isso não têm atividade contra anaeróbios. A betalactamase é a opção mais tentadora porque o *B. fragilis* de fato a produz, mas ela degrada betalactâmicos, não aminoglicosídeos. A cápsula favorece a formação de abscessos em vez de impedir a entrada do fármaco, e a metilação do rRNA 23S causa resistência a macrolídeos e clindamicina."
+    },
+    {
+      "slug": "q-bacteriology-basics-qx-stationary-phase-tolerance",
+      "track": "step1",
+      "system": "microbiology",
+      "discipline": "microbiology",
+      "tags": [
+        "bacteriology-basics",
+        "growth",
+        "antibiotic-tolerance"
+      ],
+      "stem": "A microbiology student puts a small number of Escherichia coli cells into a flask of broth and counts live cells every 2 hours. For the first 2 hours the count barely changes. From hour 2 to hour 8 it doubles about every 20 minutes. After hour 10 the count stays flat because the nutrients are used up and waste has built up. She adds ampicillin to identical flasks at hour 5 and at hour 14. The drug kills most cells in the hour-5 flask but very few in the hour-14 flask. When the survivors from the hour-14 flask are moved to fresh broth, they grow and are then killed normally by ampicillin. Which statement best explains the poor killing at hour 14?",
+      "choices": [
+        "They were not building new peptidoglycan",
+        "They had changed into heat-resistant endospores",
+        "They had picked up a beta-lactamase plasmid",
+        "Endotoxin from dead cells had bound the drug",
+        "A mutation had changed their 30S ribosomal target"
+      ],
+      "correct": 0,
+      "explanation": "At hour 14 the culture is in **stationary phase**: the cells have stopped dividing, so they make very little new **peptidoglycan**. **Beta-lactams** such as ampicillin block cell wall cross-linking and kill best in the **exponential (log) phase**, which is one reason slow-growing bacteria in abscesses, biofilms and bone infections are hard to clear. A beta-lactamase plasmid is the most tempting choice, but the survivors are killed normally once they grow again in fresh broth, which shows **tolerance**, not inherited resistance. *E. coli* does not form spores, and ampicillin does not act on the 30S ribosome.",
+      "explanation_pt": "Na hora 14 a cultura está na **fase estacionária**: as células pararam de se dividir e por isso produzem muito pouco **peptidoglicano** novo. Os **betalactâmicos**, como a ampicilina, bloqueiam a ligação cruzada da parede celular e matam melhor na **fase exponencial (log)**, o que ajuda a explicar por que bactérias de crescimento lento em abscessos, biofilmes e infecções ósseas são difíceis de eliminar. Um plasmídeo de betalactamase é a opção mais tentadora, mas as sobreviventes são mortas normalmente quando voltam a crescer em caldo novo, o que indica **tolerância**, e não resistência herdada. A *E. coli* não forma esporos, e a ampicilina não age no ribossomo 30S."
+    },
+    {
+      "slug": "q-bacteriology-basics-qx-macconkey-lactose",
+      "track": "step1",
+      "system": "microbiology",
+      "discipline": "microbiology",
+      "tags": [
+        "bacteriology-basics",
+        "culture-media",
+        "lab-tests"
+      ],
+      "stem": "A 31-year-old woman comes to a walk-in clinic because she has needed to urinate every hour since yesterday, with pain at the end of each void. She is afebrile and has no back pain. Urinalysis shows: leukocyte esterase positive; nitrite positive; 40 to 50 leukocytes per high-power field; many bacteria. Gram stain of the urine shows gram-negative rods. On MacConkey agar, which contains bile salts, crystal violet, lactose and the pH indicator neutral red, the organism grows as bright pink colonies. Which property of the organism does the pink color show?",
+      "choices": [
+        "Resistance to bile salts and crystal violet",
+        "Production of urease",
+        "Fermentation of lactose to acid",
+        "Production of hydrogen sulfide",
+        "Lysis of red blood cells"
+      ],
+      "correct": 2,
+      "explanation": "MacConkey agar is both **selective** and **differential**. Bile salts and crystal violet inhibit most gram-positive bacteria, so growth itself shows bile tolerance; the **pink color** appears when a **lactose fermenter** such as *E. coli* or *Klebsiella* makes acid, which turns the neutral red indicator pink. Resistance to bile salts and crystal violet is the most tempting choice, but non-fermenters such as *Proteus* and *Pseudomonas* also grow on this agar and form pale, colorless colonies. Urease and hydrogen sulfide are tested with other media, and hemolysis is read on blood agar.",
+      "explanation_pt": "O ágar MacConkey é ao mesmo tempo **seletivo** e **diferencial**. Os sais biliares e o cristal violeta inibem a maioria das gram-positivas, então o simples crescimento mostra tolerância à bile; a **cor rosa** aparece quando um **fermentador de lactose**, como *E. coli* ou *Klebsiella*, produz ácido, que torna rosa o indicador vermelho neutro. A resistência a sais biliares e cristal violeta é a opção mais tentadora, mas não fermentadores como *Proteus* e *Pseudomonas* também crescem nesse ágar e formam colônias pálidas, incolores. Urease e sulfeto de hidrogênio são testados em outros meios, e a hemólise é avaliada no ágar sangue."
+    },
+    {
+      "slug": "q-bacteriology-basics-qx-protein-a",
+      "track": "step1",
+      "system": "microbiology",
+      "discipline": "microbiology",
+      "tags": [
+        "bacteriology-basics",
+        "virulence",
+        "staphylococcus"
+      ],
+      "stem": "A 34-year-old man who injects drugs has fever, chills and a new heart murmur. Blood cultures grow gram-positive cocci in clusters that are catalase-positive and coagulase-positive. Laboratory studies show that a protein anchored in the organism's peptidoglycan coats the bacteria with the patient's own IgG, yet his neutrophils ingest these coated bacteria poorly. Which mechanism best explains the poor phagocytosis?",
+      "choices": [
+        "The protein cleaves secretory IgA at its hinge region",
+        "The protein mimics host myosin and induces cross-reacting antibodies",
+        "The protein converts fibrinogen to fibrin around the bacteria",
+        "The protein links MHC class II molecules to T-cell receptors",
+        "The protein binds IgG by its Fc region, hiding it from phagocytes"
+      ],
+      "correct": 4,
+      "explanation": "This is ***Staphylococcus aureus*** endocarditis, and the cell wall protein is **protein A**. It binds the **Fc region of IgG**, so the antibody sits on the bacterium in the wrong orientation: neutrophil **Fc receptors** cannot grab it, and complement is fixed poorly, so **opsonization fails**. Coagulase is the most tempting choice because a fibrin coat also protects *S. aureus* from phagocytes, but it does not explain bacteria coated with the patient's IgG. IgA protease belongs to organisms such as *Neisseria*, myosin-like M protein to *S. pyogenes*, and superantigens act on T cells rather than on phagocytosis.",
+      "explanation_pt": "Trata-se de endocardite por ***Staphylococcus aureus***, e a proteína da parede celular é a **proteína A**. Ela se liga à **porção Fc da IgG**, de modo que o anticorpo fica na bactéria na orientação errada: os **receptores Fc** dos neutrófilos não conseguem se ligar a ele e o complemento é pouco fixado, então a **opsonização falha**. A coagulase é a opção mais tentadora porque uma capa de fibrina também protege o *S. aureus* dos fagócitos, mas não explica bactérias revestidas pela IgG do próprio paciente. A protease de IgA pertence a organismos como *Neisseria*, a proteína M semelhante à miosina ao *S. pyogenes*, e os superantígenos agem sobre linfócitos T, não sobre a fagocitose."
+    },
+    {
+      "slug": "q-bacteriology-basics-qx-endotoxin-heat-stable",
+      "track": "step1",
+      "system": "microbiology",
+      "discipline": "microbiology",
+      "tags": [
+        "bacteriology-basics",
+        "toxins",
+        "endotoxin",
+        "sterilization"
+      ],
+      "stem": "A small compounding pharmacy prepares a batch of intravenous saline with water from a storage tank that is later found to contain large numbers of gram-negative rods. The bags are autoclaved before they are sent to an outpatient clinic. Within 1 hour of starting infusions from this batch, four patients develop chills, rigors and fever. One patient's findings are: temperature 39.4°C (102.9°F); pulse 118/min; blood pressure 94/58 mm Hg; respirations 22/min. Blood cultures from all four patients and cultures of the unused bags show no growth after 5 days. Which bacterial component most likely caused this reaction?",
+      "choices": [
+        "A heat-labile protein exotoxin secreted by the bacteria",
+        "Lipid A of the outer membrane lipopolysaccharide",
+        "Spores that survived autoclaving and germinated",
+        "Teichoic acid from a thick cell wall",
+        "A polysaccharide capsule released from dead cells"
+      ],
+      "correct": 1,
+      "explanation": "Autoclaving killed the bacteria, but **endotoxin (LPS)** is **heat-stable** and stays in the fluid (removing it needs very high dry heat). Its toxic part, **lipid A**, binds **CD14/TLR4** on macrophages and triggers IL-1 and TNF release, which cause fever, rigors and hypotension even with sterile cultures. A protein exotoxin is the most tempting choice, but most exotoxins are **heat-labile** and would be destroyed by autoclaving. Surviving spores would have grown in the cultures, and teichoic acid belongs to gram-positive bacteria.",
+      "explanation_pt": "A autoclavação matou as bactérias, mas a **endotoxina (LPS)** é **termoestável** e permanece no líquido (sua remoção exige calor seco muito elevado). Sua parte tóxica, o **lipídio A**, liga-se ao **CD14/TLR4** dos macrófagos e desencadeia a liberação de IL-1 e TNF, que causam febre, calafrios e hipotensão mesmo com culturas estéreis. Uma exotoxina proteica é a opção mais tentadora, mas a maioria das exotoxinas é **termolábil** e seria destruída pela autoclavação. Esporos sobreviventes teriam crescido nas culturas, e o ácido teicoico pertence às bactérias gram-positivas."
+    }
+  ],
+  "notes": []
+}

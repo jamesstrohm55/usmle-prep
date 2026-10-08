@@ -1,0 +1,184 @@
+{
+  "cards": [],
+  "questions": [
+    {
+      "slug": "q-gram-negative-bacteria-qx-meningococcus-maltose",
+      "track": "step1",
+      "system": "microbiology",
+      "discipline": "microbiology",
+      "tags": [
+        "gram-negative-bacteria",
+        "neisseria",
+        "lab-diagnosis"
+      ],
+      "stem": "An 18-year-old college student who lives in a dormitory has had fever and headache for 12 hours. A purple, non-blanching rash is spreading quickly over his legs. Blood pressure is 82/48 mm Hg and pulse is 128/min. His neck is stiff. CSF Gram stain shows gram-negative diplococci, and blood cultures grow the same organism on chocolate agar. Which laboratory feature distinguishes this organism from Neisseria gonorrhoeae?",
+      "choices": [
+        "Positive oxidase test",
+        "Growth on Thayer-Martin agar",
+        "Fermentation of glucose",
+        "Fermentation of maltose",
+        "Production of IgA1 protease"
+      ],
+      "correct": 3,
+      "explanation": "Fever, a fast-spreading purpuric rash, shock and meningitis in a young adult living in a dormitory is **meningococcal disease** (*Neisseria meningitidis*). Both pathogenic *Neisseria* species are oxidase positive, grow on Thayer-Martin agar and make IgA1 protease, but only *N. meningitidis* **ferments maltose** as well as glucose (*N. gonorrhoeae* ferments glucose only). Glucose fermentation is the tempting choice, but it is shared by both species, so it cannot separate them; the meningococcus also has a polysaccharide capsule, which the gonococcus lacks.",
+      "explanation_pt": "Febre, exantema purpúrico de progressão rápida, choque e meningite em um adulto jovem que mora em alojamento estudantil são **doença meningocócica** (*Neisseria meningitidis*). As duas espécies patogênicas de *Neisseria* são oxidase positivas, crescem no ágar Thayer-Martin e produzem protease de IgA1, mas só *N. meningitidis* **fermenta maltose** além de glicose (*N. gonorrhoeae* fermenta apenas glicose). A fermentação de glicose é a opção tentadora, mas é comum às duas espécies e não as diferencia; o meningococo também tem cápsula polissacarídica, que o gonococo não tem."
+    },
+    {
+      "slug": "q-gram-negative-bacteria-qx-nontypeable-haemophilus",
+      "track": "step1",
+      "system": "microbiology",
+      "discipline": "microbiology",
+      "tags": [
+        "gram-negative-bacteria",
+        "haemophilus",
+        "vaccines"
+      ],
+      "stem": "A 3-year-old girl has had her third episode of acute otitis media this year. She received all recommended childhood vaccines on schedule, including the Haemophilus influenzae type b conjugate vaccine. Tympanocentesis fluid grows small gram-negative coccobacilli on chocolate agar. On sheep blood agar, the organism grows only next to a streak of Staphylococcus aureus. Which characteristic of this isolate best explains why her vaccination did not prevent the infection?",
+      "choices": [
+        "It has no polysaccharide capsule",
+        "Its type b capsule has mutated so vaccine antibodies no longer bind",
+        "Its IgA1 protease cleaves the IgG made after vaccination",
+        "Its lipooligosaccharide differs from the one in the vaccine",
+        "It survives only inside neutrophils, out of reach of antibodies"
+      ],
+      "correct": 0,
+      "explanation": "Small gram-negative coccobacilli that grow on chocolate agar and show **satellite growth** around *S. aureus* (which supplies **factor V**) are *Haemophilus influenzae*, and mucosal infections such as otitis media, sinusitis and conjunctivitis in vaccinated children are caused mostly by **nontypeable** strains, which have **no capsule**. The Hib conjugate vaccine induces antibodies only against the type b capsule (**PRP**), so it does not protect against unencapsulated strains. IgA1 protease is tempting because it is a real virulence factor, but it cleaves secretory IgA1 on mucosa, not the serum IgG made after vaccination; the vaccine does not target LOS either.",
+      "explanation_pt": "Cocobacilos gram-negativos pequenos que crescem no ágar chocolate e mostram **satelitismo** ao redor de *S. aureus* (que fornece o **fator V**) são *Haemophilus influenzae*, e infecções de mucosa como otite média, sinusite e conjuntivite em crianças vacinadas são causadas sobretudo por cepas **não tipáveis**, que **não têm cápsula**. A vacina conjugada Hib induz anticorpos apenas contra a cápsula do tipo b (**PRP**), por isso não protege contra cepas sem cápsula. A protease de IgA1 é tentadora porque é um fator de virulência real, mas cliva a IgA1 secretora na mucosa, e não a IgG sérica produzida após a vacina; a vacina também não tem como alvo o LOS."
+    },
+    {
+      "slug": "q-gram-negative-bacteria-qx-pasteurella-cat-bite",
+      "track": "step1",
+      "system": "microbiology",
+      "discipline": "microbiology",
+      "tags": [
+        "gram-negative-bacteria",
+        "pasteurella",
+        "zoonoses"
+      ],
+      "stem": "A 34-year-old woman was bitten on the back of her right hand by her cat. Twelve hours later the area is red, swollen and very painful, with a thin gray discharge from the puncture wounds and red streaks up the forearm. Temperature is 37.9°C (100.2°F). Gram stain of the discharge shows small gram-negative coccobacilli that stain more darkly at both ends. Which organism is most likely?",
+      "choices": [
+        "Bartonella henselae",
+        "Eikenella corrodens",
+        "Capnocytophaga canimorsus",
+        "Staphylococcus aureus",
+        "Pasteurella multocida"
+      ],
+      "correct": 4,
+      "explanation": "Cellulitis that starts **within 24 hours** of a **cat or dog bite**, with small gram-negative coccobacilli showing **bipolar staining**, is ***Pasteurella multocida***, which lives in the mouths of these animals. *Bartonella henselae* is the tempting choice because it also comes from cats, but it causes cat-scratch disease, with a papule and regional lymphadenopathy that appear 1 to 3 weeks later, not rapid cellulitis. *Eikenella* is typical of human bites, *Capnocytophaga* causes severe sepsis after dog bites mainly in asplenic patients, and *S. aureus* is gram positive. Treatment and prophylaxis use **amoxicillin-clavulanate**.",
+      "explanation_pt": "Celulite que começa **nas primeiras 24 horas** após **mordedura de gato ou cão**, com cocobacilos gram-negativos pequenos de **coloração bipolar**, é ***Pasteurella multocida***, que vive na boca desses animais. *Bartonella henselae* é a opção tentadora porque também vem de gatos, mas causa a doença da arranhadura do gato, com pápula e linfadenopatia regional que surgem 1 a 3 semanas depois, e não celulite rápida. *Eikenella* é típica de mordedura humana, *Capnocytophaga* causa sepse grave após mordedura de cão sobretudo em asplênicos, e *S. aureus* é gram-positivo. O tratamento e a profilaxia usam **amoxicilina-clavulanato**."
+    },
+    {
+      "slug": "q-gram-negative-bacteria-qx-legionella-phagosome",
+      "track": "step1",
+      "system": "microbiology",
+      "discipline": "microbiology",
+      "tags": [
+        "gram-negative-bacteria",
+        "legionella",
+        "virulence",
+        "immunity"
+      ],
+      "stem": "A 58-year-old man who had a kidney transplant 2 years ago takes tacrolimus and prednisone. He works in an office building where several coworkers have recently had pneumonia. He has had 4 days of fever, dry cough, watery diarrhea and confusion. Temperature is 39.6°C (103.3°F). Chest x-ray shows patchy consolidation in both lower lobes. Laboratory results: sodium 128 mEq/L, AST 96 U/L, ALT 104 U/L. A urine antigen test is positive. Sputum Gram stain shows many neutrophils but few organisms. How does the causative organism survive inside the alveolar macrophages that ingest it?",
+      "choices": [
+        "It escapes from the phagosome into the cytosol with a pore-forming toxin",
+        "It prevents its phagosome from fusing with lysosomes",
+        "Its thick polysaccharide capsule stops macrophages from ingesting it",
+        "It multiplies inside fully acidified phagolysosomes",
+        "It binds the Fc portion of antibodies so it cannot be opsonized"
+      ],
+      "correct": 1,
+      "explanation": "Pneumonia with diarrhea, confusion, **hyponatremia**, raised liver enzymes and a positive urine antigen test, in an outbreak linked to a building, is **Legionnaires' disease** (*Legionella pneumophila*). After macrophages ingest it, *Legionella* uses a secretion system to inject proteins that **block phagosome-lysosome fusion**, so it multiplies in a protected vacuole; this is why control needs cell-mediated immunity, which is weak in transplant patients. Escape into the cytosol with a pore-forming toxin is the strategy of *Listeria*, and growth inside acidic phagolysosomes is typical of *Coxiella*; *Legionella* does not rely on a capsule, because it is readily ingested.",
+      "explanation_pt": "Pneumonia com diarreia, confusão, **hiponatremia**, enzimas hepáticas elevadas e antígeno urinário positivo, em um surto ligado a um prédio, é a **doença dos legionários** (*Legionella pneumophila*). Depois de ser ingerida pelos macrófagos, *Legionella* usa um sistema de secreção para injetar proteínas que **bloqueiam a fusão do fagossomo com o lisossomo**, e assim se multiplica em um vacúolo protegido; por isso o controle depende da imunidade celular, que é fraca em transplantados. A saída para o citosol com uma toxina formadora de poros é a estratégia de *Listeria*, e o crescimento dentro de fagolisossomos ácidos é típico de *Coxiella*; *Legionella* não depende de cápsula, pois é ingerida facilmente."
+    },
+    {
+      "slug": "q-gram-negative-bacteria-qx-campylobacter-culture",
+      "track": "step1",
+      "system": "microbiology",
+      "discipline": "microbiology",
+      "tags": [
+        "gram-negative-bacteria",
+        "campylobacter",
+        "lab-diagnosis"
+      ],
+      "stem": "A 22-year-old woman has had 3 days of fever, crampy abdominal pain and frequent stools with blood. Five days ago she visited a dairy farm and drank unpasteurized milk. Temperature is 38.6°C (101.5°F). Stool microscopy shows many neutrophils. A stained smear of the stool shows curved gram-negative rods, some in pairs shaped like the wings of a seagull. The organism is oxidase positive. Under which conditions does the laboratory grow this organism best?",
+      "choices": [
+        "Cold enrichment at 4°C",
+        "Buffered charcoal yeast extract agar",
+        "Microaerophilic atmosphere at 42°C",
+        "Alkaline thiosulfate-citrate-bile salts-sucrose agar",
+        "Sorbitol MacConkey agar"
+      ],
+      "correct": 2,
+      "explanation": "Bloody, inflammatory diarrhea after raw milk, with curved, **seagull-shaped**, oxidase-positive gram-negative rods, is ***Campylobacter jejuni***. It grows best in **low oxygen (microaerophilic)** conditions at **42°C** on selective media, a temperature that suppresses most other stool flora. *Vibrio* is the tempting distractor because it is also curved and oxidase positive, but it grows on alkaline TCBS agar and usually causes watery diarrhea after seafood; cold enrichment is used for *Yersinia*, and sorbitol MacConkey screens for *E. coli* O157:H7.",
+      "explanation_pt": "Diarreia inflamatória com sangue após leite cru, com bastonetes gram-negativos curvos, **em forma de asa de gaivota** e oxidase positivos, é ***Campylobacter jejuni***. Ele cresce melhor com **pouco oxigênio (microaerofilia)** a **42 °C** em meios seletivos, temperatura que inibe a maior parte da flora fecal. *Vibrio* é o distrator tentador porque também é curvo e oxidase positivo, mas cresce no ágar alcalino TCBS e em geral causa diarreia aquosa após frutos do mar; o enriquecimento a frio é usado para *Yersinia*, e o ágar MacConkey-sorbitol rastreia *E. coli* O157:H7."
+    },
+    {
+      "slug": "q-gram-negative-bacteria-qx-h-pylori-urease",
+      "track": "step1",
+      "system": "microbiology",
+      "discipline": "microbiology",
+      "tags": [
+        "gram-negative-bacteria",
+        "helicobacter",
+        "virulence"
+      ],
+      "stem": "A 45-year-old man has had burning epigastric pain for 4 months. He takes no NSAIDs. Endoscopy shows redness of the gastric antrum and a small duodenal ulcer. Antral biopsy shows chronic inflammation, and a silver stain shows many curved rods in the mucus layer on the surface epithelium. Which mechanism best allows this organism to survive in the acidic stomach?",
+      "choices": [
+        "Urease makes ammonia, which buffers acid near it",
+        "It forms spores that resist acid until conditions improve",
+        "It lives inside parietal cells, away from the gastric lumen",
+        "A thick capsule keeps hydrogen ions out of the bacterial cell",
+        "Its lipopolysaccharide binds and neutralizes hydrogen ions"
+      ],
+      "correct": 0,
+      "explanation": "Curved rods in the mucus over antral epithelium with chronic gastritis and a duodenal ulcer point to ***Helicobacter pylori***. Its abundant **urease** splits urea into **ammonia** and CO2, and the ammonia buffers the acid next to the bacterium; flagella then carry it into the mucus layer, where the pH is closer to neutral. The same enzyme is the basis of the urea breath test. Spore formation is tempting as a survival strategy, but *H. pylori* does not form spores, and it lives in the mucus on the epithelium rather than inside parietal cells.",
+      "explanation_pt": "Bastonetes curvos no muco sobre o epitélio antral, com gastrite crônica e úlcera duodenal, indicam ***Helicobacter pylori***. Sua **urease** abundante quebra a ureia em **amônia** e CO2, e a amônia tampona o ácido ao redor da bactéria; os flagelos então a levam para a camada de muco, onde o pH é mais próximo do neutro. A mesma enzima é a base do teste respiratório da ureia. A formação de esporos é tentadora como estratégia de sobrevivência, mas *H. pylori* não forma esporos, e vive no muco sobre o epitélio, e não dentro das células parietais."
+    },
+    {
+      "slug": "q-gram-negative-bacteria-qx-salmonella-turtle-management",
+      "track": "step1",
+      "system": "microbiology",
+      "discipline": "microbiology",
+      "tags": [
+        "gram-negative-bacteria",
+        "salmonella",
+        "enterobacterales",
+        "management"
+      ],
+      "stem": "A 4-year-old boy has had 2 days of fever, abdominal cramps and loose stools, some streaked with blood. Two weeks ago his family bought a small pet turtle, and he often plays with it. Temperature is 38.7°C (101.7°F). Stool culture grows a gram-negative rod with these results: lactose fermentation, negative; oxidase, negative; H2S production on triple sugar iron agar, positive; motility, positive; urease, negative. He is drinking well and has no other illnesses. Which is the most appropriate management for this child?",
+      "choices": [
+        "Oral ciprofloxacin for 7 days",
+        "Oral metronidazole for 10 days",
+        "Loperamide to shorten the diarrhea",
+        "Fluids and supportive care only",
+        "Intravenous ceftriaxone until the fever resolves"
+      ],
+      "correct": 3,
+      "explanation": "Pet **reptiles** such as turtles carry **nontyphoidal *Salmonella***, and the profile fits it: a non-lactose-fermenting, oxidase-negative rod that is motile and makes **H2S**. In a healthy child, the illness ends on its own, so treatment is **fluids**; antibiotics do not shorten it much and can **prolong fecal shedding**. Ceftriaxone is tempting, but it is kept for infants under 3 months, immunocompromised patients, sickle cell disease or bacteremia. Antimotility drugs are avoided in bloody, invasive diarrhea.",
+      "explanation_pt": "**Répteis** de estimação, como tartarugas, carregam ***Salmonella* não tifoide**, e o perfil é compatível: bastonete não fermentador de lactose, oxidase negativo, móvel e produtor de **H2S**. Em criança saudável, a doença é autolimitada, e o tratamento é **hidratação**; antibióticos pouco encurtam o quadro e podem **prolongar a eliminação fecal** da bactéria. A ceftriaxona é tentadora, mas fica reservada para lactentes com menos de 3 meses, imunodeprimidos, doença falciforme ou bacteremia. Antidiarreicos antimotilidade são evitados na diarreia invasiva com sangue."
+    },
+    {
+      "slug": "q-gram-negative-bacteria-qx-upec-p-fimbriae",
+      "track": "step1",
+      "system": "microbiology",
+      "discipline": "microbiology",
+      "tags": [
+        "gram-negative-bacteria",
+        "e-coli",
+        "virulence"
+      ],
+      "stem": "A 24-year-old woman has had 2 days of fever, chills, vomiting and pain in the right flank. Three days earlier she had burning on urination. Temperature is 39.4°C (102.9°F), and there is tenderness at the right costovertebral angle. Urinalysis shows positive leukocyte esterase, positive nitrite and white blood cell casts. Urine culture grows a gram-negative rod that forms pink colonies on MacConkey agar and is oxidase negative. Which bacterial structure most helped this organism ascend to the kidney and cause infection?",
+      "choices": [
+        "K1 capsular antigen",
+        "P fimbriae",
+        "Shiga toxin",
+        "Heat-labile enterotoxin",
+        "Urease"
+      ],
+      "correct": 1,
+      "explanation": "Fever, flank pain and **white blood cell casts** after cystitis are **acute pyelonephritis**, and a lactose-fermenting, oxidase-negative rod is ***Escherichia coli***. Uropathogenic strains use **P fimbriae** (P pili) to attach to glycolipid receptors on the uroepithelium, so urine flow does not wash them out and they can climb the ureter to the kidney. The **K1 capsule** is the tempting choice because it is also an *E. coli* virulence factor, but it is linked to **neonatal meningitis**; urease is a feature of *Proteus*, which does not ferment lactose.",
+      "explanation_pt": "Febre, dor no flanco e **cilindros leucocitários** após cistite são **pielonefrite aguda**, e um bastonete fermentador de lactose e oxidase negativo é ***Escherichia coli***. As cepas uropatogênicas usam **fímbrias P** (pili P) para se fixar a receptores glicolipídicos do uroepitélio, de modo que o fluxo de urina não as elimina e elas conseguem subir pelo ureter até o rim. A **cápsula K1** é a opção tentadora porque também é um fator de virulência de *E. coli*, mas está ligada à **meningite neonatal**; a urease é típica de *Proteus*, que não fermenta lactose."
+    }
+  ],
+  "notes": []
+}

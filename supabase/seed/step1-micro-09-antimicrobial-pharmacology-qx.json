@@ -1,0 +1,182 @@
+{
+  "cards": [],
+  "questions": [
+    {
+      "slug": "q-antimicrobial-pharmacology-qx-inducible-clindamycin-resistance",
+      "track": "step1",
+      "system": "microbiology",
+      "discipline": "pharmacology",
+      "tags": [
+        "antimicrobial-pharmacology",
+        "macrolides",
+        "resistance"
+      ],
+      "stem": "A 34-year-old man has a draining abscess on his forearm. Culture grows Staphylococcus aureus that is susceptible to oxacillin. Routine testing reports the isolate as resistant to erythromycin but susceptible to clindamycin. The laboratory then places an erythromycin disk next to a clindamycin disk on the same agar plate. The clear zone around the clindamycin disk is flattened on the side that faces the erythromycin disk, so it looks like the letter D. Which mechanism best explains this result?",
+      "choices": [
+        "Acquisition of an altered penicillin-binding protein",
+        "Mutation of DNA gyrase at the drug-binding site",
+        "Enzymatic acetylation of both drugs inside the cell",
+        "Inducible methylation of the 23S rRNA binding site",
+        "An efflux pump that exports macrolides only"
+      ],
+      "correct": 3,
+      "explanation": "A positive **D-test** means **inducible MLS-B resistance**: erythromycin switches on an **erm** gene, whose methylase adds methyl groups to the **23S rRNA** of the 50S subunit. Methylated ribosomes bind macrolides, lincosamides (clindamycin) and streptogramin B poorly, so clindamycin can fail during treatment. An **efflux pump** (msrA) also makes the isolate resistant to erythromycin, but it does not export clindamycin, so clindamycin stays active and the zone stays round. An altered penicillin-binding protein (PBP2a) causes methicillin resistance, which this oxacillin-susceptible isolate lacks.",
+      "explanation_pt": "Um **teste D** positivo indica **resistência MLS-B induzível**: a eritromicina ativa um gene **erm**, cuja metilase adiciona grupos metil ao **rRNA 23S** da subunidade 50S. Ribossomos metilados se ligam mal a macrolídeos, lincosamidas (clindamicina) e estreptogramina B, por isso a clindamicina pode falhar durante o tratamento. Uma **bomba de efluxo** (msrA) também torna o isolado resistente à eritromicina, mas não exporta a clindamicina, que continua ativa, e o halo continua redondo. Uma proteína ligadora de penicilina alterada (PBP2a) causa resistência à meticilina, ausente neste isolado sensível à oxacilina."
+    },
+    {
+      "slug": "q-antimicrobial-pharmacology-qx-high-level-gentamicin-resistance",
+      "track": "step1",
+      "system": "microbiology",
+      "discipline": "pharmacology",
+      "tags": [
+        "antimicrobial-pharmacology",
+        "aminoglycosides",
+        "resistance"
+      ],
+      "stem": "A 59-year-old man develops fever and a new holosystolic murmur 6 weeks after a colonoscopy with polyp removal. Temperature is 38.6°C (101.5°F), pulse is 104/min and blood pressure is 128/70 mm Hg. Three blood cultures grow Enterococcus faecalis, and echocardiography shows a vegetation on the mitral valve. The team plans ampicillin plus gentamicin. The laboratory reports that the isolate is susceptible to ampicillin but shows high-level gentamicin resistance: it grows even at very high gentamicin concentrations. Which mechanism most likely explains this gentamicin resistance?",
+      "choices": [
+        "Low oxygen-dependent uptake of the drug across the membrane",
+        "A plasmid-encoded enzyme that chemically modifies the drug",
+        "Replacement of D-Ala-D-Ala with D-Ala-D-Lac",
+        "Methylation of the 23S rRNA in the 50S subunit",
+        "A beta-lactamase that also cleaves the drug"
+      ],
+      "correct": 1,
+      "explanation": "**High-level aminoglycoside resistance** in enterococci is usually caused by **aminoglycoside-modifying enzymes** (acetyltransferases, phosphotransferases, adenylyltransferases) carried on **plasmids** or transposons. The modified drug binds the **30S** subunit poorly, so adding ampicillin no longer gives **synergy**. Poor **oxygen-dependent uptake** explains the low-level resistance that all enterococci have, but a cell-wall drug overcomes it by letting more gentamicin in. D-Ala-D-Lac causes vancomycin resistance, not aminoglycoside resistance.",
+      "explanation_pt": "A **resistência de alto nível aos aminoglicosídeos** nos enterococos geralmente é causada por **enzimas modificadoras de aminoglicosídeos** (acetiltransferases, fosfotransferases, adeniltransferases) codificadas em **plasmídeos** ou transposons. O fármaco modificado se liga mal à subunidade **30S**, e a ampicilina deixa de produzir **sinergismo**. A baixa **captação dependente de oxigênio** explica a resistência de baixo nível que todos os enterococos têm, mas um fármaco da parede celular a supera ao aumentar a entrada da gentamicina. O D-Ala-D-Lac causa resistência à vancomicina, não aos aminoglicosídeos."
+    },
+    {
+      "slug": "q-antimicrobial-pharmacology-qx-flucytosine-marrow",
+      "track": "step1",
+      "system": "microbiology",
+      "discipline": "pharmacology",
+      "tags": [
+        "antimicrobial-pharmacology",
+        "antifungals",
+        "adverse-effects"
+      ],
+      "stem": "A 31-year-old woman with untreated HIV infection has cryptococcal meningitis. She is treated with intravenous amphotericin B plus a second oral antifungal drug. Laboratory results: at the start of treatment, hemoglobin 11.6 g/dL, leukocytes 4,800/μL, platelets 214,000/μL and creatinine 0.8 mg/dL; on day 12, hemoglobin 9.4 g/dL, leukocytes 1,700/μL, platelets 52,000/μL and creatinine 1.6 mg/dL. The drop in leukocytes and platelets is attributed to the oral drug, which accumulated as her kidney function worsened. How does this oral drug act against the fungus?",
+      "choices": [
+        "It binds ergosterol and forms pores in the membrane",
+        "It blocks 14α-demethylase in ergosterol synthesis",
+        "It inhibits β-1,3-glucan synthase in the fungal cell wall",
+        "It inhibits squalene epoxidase in sterol synthesis",
+        "Fungal deamination converts it to 5-fluorouracil"
+      ],
+      "correct": 4,
+      "explanation": "The partner drug is **flucytosine**. Fungal **cytosine deaminase** converts it to **5-fluorouracil**, which blocks **thymidylate synthase** (DNA) and is built into RNA. It is cleared by the kidneys, so **amphotericin B nephrotoxicity** raises its levels and makes **bone marrow suppression** (leukopenia, thrombocytopenia) more likely. Amphotericin B itself binds ergosterol and explains the rising creatinine and some anemia, but it does not usually lower leukocytes and platelets.",
+      "explanation_pt": "O fármaco associado é a **flucitosina**. A **citosina desaminase** fúngica a converte em **5-fluoruracila**, que bloqueia a **timidilato sintase** (DNA) e é incorporada ao RNA. Ela é eliminada pelos rins, por isso a **nefrotoxicidade da anfotericina B** eleva seus níveis e torna a **supressão medular** (leucopenia, trombocitopenia) mais provável. A própria anfotericina B se liga ao ergosterol e explica a creatinina em alta e parte da anemia, mas geralmente não reduz leucócitos e plaquetas."
+    },
+    {
+      "slug": "q-antimicrobial-pharmacology-qx-oseltamivir-release",
+      "track": "step1",
+      "system": "microbiology",
+      "discipline": "pharmacology",
+      "tags": [
+        "antimicrobial-pharmacology",
+        "antivirals",
+        "influenza"
+      ],
+      "stem": "A 27-year-old schoolteacher has had a sudden fever, chills, headache, aching muscles and a dry cough for 1 day. Temperature is 39.3°C (102.7°F). Several of her students have similar symptoms. A rapid molecular test of a nasal swab is positive for influenza B. She is given an oral antiviral drug for 5 days. Which mechanism best describes how this drug acts?",
+      "choices": [
+        "It prevents release of new virions from infected cells",
+        "It blocks the M2 ion channel and prevents viral uncoating",
+        "It binds hemagglutinin and prevents viral attachment",
+        "It is phosphorylated by a viral kinase and blocks DNA polymerase",
+        "It inhibits reverse transcription of the viral RNA genome"
+      ],
+      "correct": 0,
+      "explanation": "The oral drug used for influenza A and B is **oseltamivir**, a **neuraminidase inhibitor**. Neuraminidase cuts **sialic acid** on the cell surface; when it is blocked, new virions stay stuck to the infected cell and to each other, so the infection spreads less. **M2 channel blockers** (amantadine, rimantadine) prevent uncoating, but they do not act on influenza B, and most influenza A strains are now resistant. Activation by a viral kinase describes acyclovir and ganciclovir in herpesviruses.",
+      "explanation_pt": "O fármaco oral usado para influenza A e B é o **oseltamivir**, um **inibidor da neuraminidase**. A neuraminidase cliva o **ácido siálico** da superfície celular; quando ela é bloqueada, os novos vírions ficam presos à célula infectada e uns aos outros, e a infecção se espalha menos. Os **bloqueadores do canal M2** (amantadina, rimantadina) impedem o desnudamento, mas não agem sobre o influenza B, e a maioria das cepas de influenza A hoje é resistente. A ativação por uma quinase viral descreve o aciclovir e o ganciclovir nos herpesvírus."
+    },
+    {
+      "slug": "q-antimicrobial-pharmacology-qx-praziquantel-mechanism",
+      "track": "step1",
+      "system": "microbiology",
+      "discipline": "pharmacology",
+      "tags": [
+        "antimicrobial-pharmacology",
+        "antiparasitics",
+        "helminths"
+      ],
+      "stem": "A 25-year-old man returns from 4 months of volunteer work in Malawi, where he often swam in a freshwater lake. He now has blood at the end of urination and mild suprapubic discomfort. Blood counts show eosinophilia. Microscopy of a midday urine sample shows parasite eggs, and serology for Schistosoma is positive. He is treated with the drug of choice for this infection. How does this drug kill the worms?",
+      "choices": [
+        "It binds β-tubulin and blocks microtubule formation",
+        "It opens glutamate-gated chloride channels in worm nerves",
+        "It lets calcium into the worm, causing spastic paralysis",
+        "It stimulates worm nicotinic receptors like a depolarizing blocker",
+        "It uncouples oxidative phosphorylation in worm mitochondria"
+      ],
+      "correct": 2,
+      "explanation": "Schistosomiasis is treated with **praziquantel**, which makes the worm's outer layer (tegument) **permeable to calcium**. The calcium influx causes sudden **spastic contraction and paralysis** and damages the tegument, so host immunity can attack the worm. **Albendazole** binds β-tubulin and is used for many roundworms and for cysticercosis, but it is not effective against adult schistosomes. Opening glutamate-gated chloride channels describes **ivermectin**, and nicotinic stimulation describes **pyrantel pamoate**.",
+      "explanation_pt": "A esquistossomose é tratada com **praziquantel**, que torna a camada externa do verme (tegumento) **permeável ao cálcio**. A entrada de cálcio causa **contração espástica e paralisia** súbitas e lesa o tegumento, permitindo o ataque da imunidade do hospedeiro. O **albendazol** se liga à β-tubulina e é usado em muitos nematódeos e na cisticercose, mas não é eficaz contra os esquistossomos adultos. Abrir canais de cloreto regulados por glutamato descreve a **ivermectina**, e o estímulo nicotínico descreve o **pamoato de pirantel**."
+    },
+    {
+      "slug": "q-antimicrobial-pharmacology-qx-imipenem-cilastatin",
+      "track": "step1",
+      "system": "microbiology",
+      "discipline": "pharmacology",
+      "tags": [
+        "antimicrobial-pharmacology",
+        "beta-lactams",
+        "carbapenems"
+      ],
+      "stem": "A 63-year-old woman in the intensive care unit has pneumonia caused by a Klebsiella pneumoniae strain that makes an extended-spectrum beta-lactamase. She is treated with intravenous imipenem, which is always given in a fixed combination with cilastatin. Cilastatin has no antibacterial activity of its own. What is the role of cilastatin in this combination?",
+      "choices": [
+        "It irreversibly inhibits the bacterial beta-lactamase",
+        "It blocks a renal enzyme that breaks down imipenem",
+        "It slows hepatic metabolism of imipenem by CYP3A4",
+        "It prevents imipenem from crossing into the brain",
+        "It increases imipenem entry through outer membrane porins"
+      ],
+      "correct": 1,
+      "explanation": "**Cilastatin** inhibits **dehydropeptidase I**, an enzyme on the brush border of the **proximal tubule** that hydrolyzes imipenem. Without it, imipenem levels in urine would be low and the breakdown products could harm the tubule. Cilastatin is not a **beta-lactamase inhibitor** like clavulanate or tazobactam; imipenem works against ESBL producers because carbapenems resist those enzymes. Imipenem is not broken down by hepatic **CYP3A4**, and cilastatin does not prevent imipenem **seizures**.",
+      "explanation_pt": "A **cilastatina** inibe a **desidropeptidase I**, enzima da borda em escova do **túbulo proximal** que hidrolisa o imipeném. Sem ela, os níveis urinários de imipeném seriam baixos e os produtos de degradação poderiam lesar o túbulo. A cilastatina não é um **inibidor de betalactamase** como o clavulanato ou o tazobactam; o imipeném age contra produtores de ESBL porque os carbapenêmicos resistem a essas enzimas. O imipeném não é metabolizado pela **CYP3A4** hepática, e a cilastatina não previne as **convulsões** do imipeném."
+    },
+    {
+      "slug": "q-antimicrobial-pharmacology-qx-isoniazid-katg",
+      "track": "step1",
+      "system": "microbiology",
+      "discipline": "pharmacology",
+      "tags": [
+        "antimicrobial-pharmacology",
+        "antimycobacterial",
+        "resistance"
+      ],
+      "stem": "A 41-year-old man has had cough, night sweats and weight loss for 2 months. Sputum is positive for acid-fast bacilli, and culture grows Mycobacterium tuberculosis. Drug susceptibility results: rifampin susceptible, isoniazid resistant, pyrazinamide susceptible, ethambutol susceptible. Molecular testing finds a mutation in a bacterial gene. Which mechanism most likely explains the resistant result?",
+      "choices": [
+        "Loss of the catalase-peroxidase that activates the drug",
+        "Mutation of the β subunit of DNA-dependent RNA polymerase",
+        "Loss of the amidase that converts the drug to its active acid",
+        "Mutation of the arabinosyl transferase that builds arabinogalactan",
+        "Plasmid-encoded acetylation of the drug by the bacterium"
+      ],
+      "correct": 0,
+      "explanation": "**Isoniazid** is a **prodrug** that must be activated by the mycobacterial **catalase-peroxidase (KatG)**; the active form blocks **mycolic acid** synthesis. Mutations in **katG** that block drug activation are the most common cause of isoniazid resistance. **rpoB** mutations (RNA polymerase β subunit) cause **rifampin** resistance, which this isolate does not have; pyrazinamidase (pncA) and arabinosyl transferase (embB) mutations affect pyrazinamide and ethambutol. **Acetylation** of isoniazid happens in the human liver (NAT2) and changes drug levels and toxicity, not bacterial susceptibility.",
+      "explanation_pt": "A **isoniazida** é um **pró-fármaco** que precisa ser ativado pela **catalase-peroxidase (KatG)** micobacteriana; a forma ativa bloqueia a síntese de **ácidos micólicos**. Mutações no **katG** que impedem a ativação do fármaco são a causa mais comum de resistência à isoniazida. Mutações do **rpoB** (subunidade β da RNA polimerase) causam resistência à **rifampicina**, ausente neste isolado; mutações da pirazinamidase (pncA) e da arabinosil transferase (embB) afetam a pirazinamida e o etambutol. A **acetilação** da isoniazida ocorre no fígado humano (NAT2) e altera níveis e toxicidade do fármaco, não a sensibilidade bacteriana."
+    },
+    {
+      "slug": "q-antimicrobial-pharmacology-qx-sulfonamide-selectivity",
+      "track": "step1",
+      "system": "microbiology",
+      "discipline": "pharmacology",
+      "tags": [
+        "antimicrobial-pharmacology",
+        "folate-antagonists",
+        "mechanism"
+      ],
+      "stem": "A 24-year-old woman has burning on urination and urinary frequency for 2 days. She has no fever or flank pain. Urinalysis shows leukocyte esterase and nitrites. She is treated with trimethoprim-sulfamethoxazole. The sulfamethoxazole component blocks folate synthesis in Escherichia coli but not in her own cells. Which feature of human cells best explains this selectivity?",
+      "choices": [
+        "Their dihydrofolate reductase binds the drug poorly",
+        "Their P-glycoprotein pumps the drug out of the cell",
+        "They acetylate the drug quickly into an inactive form",
+        "They take up dietary folate and lack the target enzyme",
+        "Their ribosomes have no 30S subunit for the drug to bind"
+      ],
+      "correct": 3,
+      "explanation": "**Sulfamethoxazole** is a **PABA analog** that competitively inhibits **dihydropteroate synthase**, an early step in bacterial folate synthesis. Bacteria must make their own folate, while **human cells lack this enzyme** and take in **preformed folate** from the diet. A human **dihydrofolate reductase** that binds the drug poorly explains the selectivity of **trimethoprim**, the other component, not of the sulfonamide. Hepatic acetylation does occur, but it is not why human cells are spared.",
+      "explanation_pt": "O **sulfametoxazol** é um **análogo do PABA** que inibe competitivamente a **di-hidropteroato sintase**, uma etapa inicial da síntese bacteriana de folato. As bactérias precisam produzir o próprio folato, enquanto as **células humanas não têm essa enzima** e obtêm **folato pré-formado** da dieta. Uma **di-hidrofolato redutase** humana que se liga mal ao fármaco explica a seletividade da **trimetoprima**, o outro componente, e não da sulfonamida. A acetilação hepática ocorre, mas não é o motivo de as células humanas serem poupadas."
+    }
+  ],
+  "notes": []
+}

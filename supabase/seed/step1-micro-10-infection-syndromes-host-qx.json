@@ -1,0 +1,182 @@
+{
+ "cards": [],
+ "questions": [
+  {
+   "slug": "q-infection-syndromes-host-qx-toxoplasma-maternal-route",
+   "track": "step1",
+   "system": "microbiology",
+   "discipline": "microbiology",
+   "tags": [
+    "infection-syndromes-host",
+    "torch",
+    "toxoplasma"
+   ],
+   "stem": "A 3-day-old girl born at term is evaluated because her head circumference is above the 97th percentile. During the second trimester, her 28-year-old mother had a week of fatigue and swollen, painless lymph nodes in the neck. The mother has no pets. During the pregnancy she often ate rare lamb and home-cured sausage. Eye exam of the infant shows yellow-white retinal scars with dark pigment at their edges in both eyes. Head CT shows enlarged lateral ventricles and calcifications scattered through the brain tissue. Which exposure most likely caused the infection in the mother?",
+   "choices": [
+    "Respiratory droplets from an infected coworker",
+    "Saliva or urine from a toddler in day care",
+    "Tissue cysts in undercooked meat",
+    "Unpasteurized soft cheese",
+    "Mosquito bites during travel"
+   ],
+   "correct": 2,
+   "explanation": "**Chorioretinitis**, **hydrocephalus** and calcifications **scattered through the brain** are the classic triad of congenital ***Toxoplasma gondii*** infection; a mother with no cat contact most likely swallowed **tissue cysts** in **undercooked meat**, often with only a mild illness and lymph node swelling. Saliva or urine from a toddler is the tempting choice because it is how mothers catch CMV, but congenital CMV gives **periventricular** calcifications with **microcephaly** and hearing loss, not a large head. Soft cheese transmits *Listeria*, and mosquitoes transmit Zika virus, which causes microcephaly.",
+   "explanation_pt": "**Coriorretinite**, **hidrocefalia** e calcificações **difusas pelo parênquima cerebral** são a tríade clássica da infecção congênita por ***Toxoplasma gondii***; uma mãe sem contato com gatos provavelmente ingeriu **cistos teciduais** em **carne malcozida**, muitas vezes com doença leve e apenas aumento de linfonodos. Saliva ou urina de criança pequena é a opção tentadora por ser a via pela qual as mães adquirem o CMV, mas o CMV congênito causa calcificações **periventriculares** com **microcefalia** e surdez, e não cabeça aumentada. Queijo mole não pasteurizado transmite *Listeria*, e mosquitos transmitem o vírus Zika, que causa microcefalia."
+  },
+  {
+   "slug": "q-infection-syndromes-host-qx-congenital-cmv",
+   "track": "step1",
+   "system": "microbiology",
+   "discipline": "microbiology",
+   "tags": [
+    "infection-syndromes-host",
+    "torch",
+    "cmv"
+   ],
+   "stem": "A 2-day-old boy fails his newborn hearing screen in both ears. He was born at 38 weeks and is small for gestational age. His lenses are clear, and there is no heart murmur. His head circumference is below the 3rd percentile. There are scattered petechiae on the trunk, and the liver edge is 4 cm below the costal margin. Platelets are 48,000/µL. Total bilirubin is 9.0 mg/dL, of which 3.5 mg/dL is direct. Head ultrasound shows calcifications along the walls of the lateral ventricles. His mother works in a day-care center. In the first trimester she had a few days of fever and fatigue, and a heterophile antibody test was negative. She has not traveled outside the United States. Which organism most likely caused this infant's condition?",
+   "choices": [
+    "Toxoplasma gondii",
+    "Rubella virus",
+    "Herpes simplex virus type 2",
+    "Zika virus",
+    "Cytomegalovirus"
+   ],
+   "correct": 4,
+   "explanation": "**Periventricular calcifications**, **microcephaly**, **sensorineural hearing loss**, low platelets with petechiae, hepatomegaly and growth restriction point to congenital ***cytomegalovirus***, the most common congenital infection. Day-care work is a classic source, because toddlers shed CMV in saliva and urine, and adult infection is often a mild, **heterophile-negative** mononucleosis-like illness. *Toxoplasma* is the tempting choice because it also causes brain calcifications, but they are scattered through the brain and come with hydrocephalus and chorioretinitis. Zika also causes microcephaly with calcifications but needs mosquito exposure in an affected area or a partner who traveled, and rubella can also cause deafness, low platelets and a small head, but it typically comes with **cataracts** and a **patent ductus arteriosus**, and the mother usually has a rash.",
+   "explanation_pt": "**Calcificações periventriculares**, **microcefalia**, **perda auditiva neurossensorial**, plaquetopenia com petéquias, hepatomegalia e restrição de crescimento apontam para infecção congênita por ***citomegalovírus***, a infecção congênita mais comum. Trabalhar em creche é uma fonte clássica, porque crianças pequenas eliminam o CMV na saliva e na urina, e a infecção no adulto costuma ser um quadro leve semelhante à mononucleose, com **anticorpos heterófilos negativos**. *Toxoplasma* é a opção tentadora por também causar calcificações cerebrais, mas elas são difusas pelo parênquima e vêm com hidrocefalia e coriorretinite. O Zika também causa microcefalia com calcificações, mas exige exposição a mosquitos em área afetada ou parceiro que viajou; já a rubéola também pode causar surdez, plaquetopenia e cabeça pequena, mas tipicamente vem com **catarata** e **persistência do canal arterial**, e a mãe costuma ter exantema."
+  },
+  {
+   "slug": "q-infection-syndromes-host-qx-gbs-early-onset-route",
+   "track": "step1",
+   "system": "microbiology",
+   "discipline": "microbiology",
+   "tags": [
+    "infection-syndromes-host",
+    "neonatal-sepsis",
+    "meningitis"
+   ],
+   "stem": "A boy born at 39 weeks becomes lethargic and starts grunting 14 hours after birth. The mother's membranes ruptured 22 hours before delivery, and her temperature during labor was 38.3°C. The result of her prenatal vaginal-rectal culture had not been reviewed. The infant's temperature is 35.9°C, pulse is 182/min and respirations are 70/min. Cerebrospinal fluid shows: white cells 1,800/µL (90% neutrophils), protein 210 mg/dL and glucose 18 mg/dL (blood glucose 70 mg/dL). Gram stain shows gram-positive cocci in pairs and short chains. How did the organism most likely reach this infant?",
+   "choices": [
+    "Transplacental spread from the mother's bloodstream",
+    "Ascent from the colonized birth canal",
+    "Breast milk during the first feeding",
+    "Hands of nursery staff after birth",
+    "Droplets from a sick family member"
+   ],
+   "correct": 1,
+   "explanation": "Sepsis and meningitis in the **first day of life** with **gram-positive cocci in chains** is **early-onset group B streptococcal** (*Streptococcus agalactiae*) disease. The organism **colonizes the mother's vagina and rectum**; with **prolonged rupture of membranes** and fever in labor it ascends into the amniotic fluid or is aspirated as the baby passes through the birth canal. Transplacental spread is the tempting choice, but that route fits *Listeria* (gram-positive **rods**) and TORCH organisms. Spread from caregivers, breast milk or the environment after birth can cause late-onset disease, not illness 14 hours after delivery.",
+   "explanation_pt": "Sepse e meningite no **primeiro dia de vida** com **cocos gram-positivos em cadeias** indicam doença **precoce pelo estreptococo do grupo B** (*Streptococcus agalactiae*). O organismo **coloniza a vagina e o reto da mãe**; com **ruptura prolongada das membranas** e febre no trabalho de parto, ele sobe para o líquido amniótico ou é aspirado quando o bebê passa pelo canal de parto. A disseminação transplacentária é a opção tentadora, mas essa via combina com *Listeria* (**bastonetes** gram-positivos) e com os agentes TORCH. A transmissão por cuidadores, leite materno ou pelo ambiente após o nascimento pode causar doença tardia, e não doença 14 horas após o parto."
+  },
+  {
+   "slug": "q-infection-syndromes-host-qx-sickle-salmonella-osteomyelitis",
+   "track": "step1",
+   "system": "microbiology",
+   "discipline": "microbiology",
+   "tags": [
+    "infection-syndromes-host",
+    "osteomyelitis",
+    "asplenia"
+   ],
+   "stem": "A 9-year-old boy with sickle cell disease (HbSS) has had 6 days of fever and worsening pain in his left lower leg, and he cannot bear weight. Temperature is 39.0°C. The middle of the left shin is warm, swollen and very tender. Labs: leukocytes 21,000/µL, hemoglobin 7.6 g/dL (his usual value is about 8 g/dL), reticulocytes 12%, C-reactive protein high. MRI shows marrow edema and a fluid collection in the shaft of the tibia. Culture of the bone aspirate grows a motile gram-negative rod that does not ferment lactose and makes black colonies on a medium that detects hydrogen sulfide. Which organism is most likely?",
+   "choices": [
+    "Staphylococcus aureus",
+    "Escherichia coli",
+    "Shigella sonnei",
+    "Salmonella species",
+    "Pseudomonas aeruginosa"
+   ],
+   "correct": 3,
+   "explanation": "In sickle cell disease, **functional asplenia** weakens clearance of blood-borne bacteria, and **bone infarcts** give a place for them to settle, so ***Salmonella*** is a classic cause of **osteomyelitis**; it is a **motile**, **non-lactose-fermenting**, **H2S-producing** gram-negative rod. *S. aureus* is the tempting choice because it is the most common cause of osteomyelitis overall, including in many patients with sickle cell disease, but it is a gram-positive coccus in clusters. *Shigella* is non-motile and makes no H2S, *E. coli* ferments lactose, and *Pseudomonas* is oxidase positive and does not make H2S.",
+   "explanation_pt": "Na anemia falciforme, a **asplenia funcional** prejudica a eliminação de bactérias do sangue e os **infartos ósseos** oferecem um local para elas se instalarem; por isso a ***Salmonella*** é causa clássica de **osteomielite**; é um bastonete gram-negativo **móvel**, que **não fermenta lactose** e **produz H2S**. *S. aureus* é a opção tentadora por ser a causa mais comum de osteomielite em geral, inclusive em muitos pacientes com anemia falciforme, mas é um coco gram-positivo em cachos. *Shigella* é imóvel e não produz H2S, *E. coli* fermenta lactose, e *Pseudomonas* é oxidase-positiva e não produz H2S."
+  },
+  {
+   "slug": "q-infection-syndromes-host-qx-oral-polio-vaccine-reversion",
+   "track": "step1",
+   "system": "microbiology",
+   "discipline": "microbiology",
+   "tags": [
+    "infection-syndromes-host",
+    "vaccines",
+    "poliovirus"
+   ],
+   "stem": "A 30-year-old man never received his childhood vaccines. He lives in a country where vaccine drops given by mouth are still used, and his 4-month-old nephew, who lives in the same home, received them 4 weeks ago. The man now has 3 days of fever and muscle aches, followed by sudden weakness of the right leg. The right leg is flaccid, with absent knee and ankle reflexes; sensation is normal. Cerebrospinal fluid shows 60 white cells/µL (mostly lymphocytes), normal glucose and slightly high protein. Stool testing detects a poliovirus whose genome is closely related to a vaccine strain. Which property of the vaccine best explains this man's illness?",
+   "choices": [
+    "Live virus shed in stool that can regain neurovirulence",
+    "Inactivated whole virus that induces serum IgG but little gut IgA",
+    "An adjuvant that triggers autoimmune injury of anterior horn cells",
+    "A toxoid that mimics gangliosides on peripheral motor nerves",
+    "Virus-like particles assembled from a recombinant capsid protein"
+   ],
+   "correct": 0,
+   "explanation": "The **oral polio vaccine** contains **live attenuated** virus that multiplies in the gut and is **shed in stool**, so it can spread to unvaccinated contacts; during that replication a few mutations can **restore neurovirulence**, and the virus then destroys **anterior horn motor neurons** (asymmetric flaccid paralysis with normal sensation). The inactivated vaccine is the tempting choice because it does induce serum IgG with weaker gut IgA, but it contains killed virus and cannot cause polio. An autoimmune attack on nerve gangliosides describes Guillain-Barré syndrome, which is ascending and symmetric with high CSF protein and few cells.",
+   "explanation_pt": "A **vacina oral contra a poliomielite** contém vírus **vivo atenuado** que se multiplica no intestino e é **eliminado nas fezes**, podendo chegar a contatos não vacinados; durante essa replicação, poucas mutações podem **restaurar a neurovirulência**, e o vírus então destrói os **neurônios motores do corno anterior** (paralisia flácida assimétrica com sensibilidade normal). A vacina inativada é a opção tentadora porque de fato induz IgG sérica com menos IgA intestinal, mas contém vírus morto e não pode causar poliomielite. Um ataque autoimune a gangliosídeos dos nervos descreve a síndrome de Guillain-Barré, que é ascendente e simétrica, com proteína alta e poucas células no LCR."
+  },
+  {
+   "slug": "q-infection-syndromes-host-qx-cons-catheter-biofilm",
+   "track": "step1",
+   "system": "microbiology",
+   "discipline": "microbiology",
+   "tags": [
+    "infection-syndromes-host",
+    "nosocomial",
+    "device-infection"
+   ],
+   "stem": "A 64-year-old woman has received parenteral nutrition through a tunneled central venous catheter for 3 weeks after bowel surgery. She now has a temperature of 38.6°C and mild redness at the catheter exit site. Blood cultures drawn through the catheter and from a peripheral vein both grow gram-positive cocci in clusters that are catalase positive, coagulase negative and sensitive to novobiocin. The isolate is resistant to several antibiotics. After a course of vancomycin with the catheter left in place, the fever and positive cultures return. Which bacterial feature best explains why the infection persists?",
+   "choices": [
+    "Protein A that binds the Fc region of IgG",
+    "Bound coagulase that coats the cells in a fibrin layer",
+    "A superantigen that activates many T cells at once",
+    "A polysaccharide biofilm on the catheter surface",
+    "Spores that survive antibiotics in a dormant state"
+   ],
+   "correct": 3,
+   "explanation": "Coagulase-negative, novobiocin-sensitive staphylococci are ***Staphylococcus epidermidis***, a skin organism that sticks to plastic and builds a **polysaccharide biofilm**; bacteria inside the biofilm are shielded from antibiotics and phagocytes, so infection often returns until the **catheter is removed**. Protein A and bound coagulase are tempting staphylococcal defenses, but they belong to *S. aureus*, which is coagulase positive. Staphylococci do not form spores, and superantigens cause toxic shock, not persistent line infection.",
+   "explanation_pt": "Estafilococos coagulase-negativos e sensíveis à novobiocina são o ***Staphylococcus epidermidis***, um organismo da pele que adere ao plástico e forma um **biofilme de polissacarídeo**; as bactérias dentro do biofilme ficam protegidas de antibióticos e fagócitos, e a infecção costuma voltar até que o **cateter seja retirado**. A proteína A e a coagulase ligada são defesas estafilocócicas tentadoras, mas pertencem ao *S. aureus*, que é coagulase-positivo. Estafilococos não formam esporos, e superantígenos causam choque tóxico, não infecção persistente de cateter."
+  },
+  {
+   "slug": "q-infection-syndromes-host-qx-cf-pseudomonas-alginate",
+   "track": "step1",
+   "system": "microbiology",
+   "discipline": "microbiology",
+   "tags": [
+    "infection-syndromes-host",
+    "cystic-fibrosis",
+    "pseudomonas"
+   ],
+   "stem": "A 17-year-old girl with cystic fibrosis has had more cough and thicker sputum for 2 weeks. Her FEV1 has fallen from 68% to 55% of predicted. In childhood her sputum cultures grew Staphylococcus aureus. For the past 3 years, they have grown the same organism despite many courses of antibiotics: an oxidase-positive gram-negative rod that does not ferment lactose. Its colonies are wet, slimy and shiny and smell sweet. Which bacterial product most directly allows this organism to persist in her airways?",
+   "choices": [
+    "Exotoxin A",
+    "Alginate",
+    "Pyocyanin",
+    "Elastase",
+    "Lipid A"
+   ],
+   "correct": 1,
+   "explanation": "In cystic fibrosis, ***Pseudomonas aeruginosa*** switches to a **mucoid** form that makes large amounts of **alginate**, an exopolysaccharide that forms a **biofilm** in the thick airway mucus; it shields the bacteria from antibodies, neutrophils and antibiotics, so the infection becomes chronic. Pyocyanin is the tempting choice because it is a classic *Pseudomonas* product, but this blue-green pigment damages tissue by making reactive oxygen species; it does not form the mucoid matrix. Exotoxin A stops protein synthesis by blocking elongation factor 2, and elastase digests tissue proteins.",
+   "explanation_pt": "Na fibrose cística, a ***Pseudomonas aeruginosa*** passa para uma forma **mucoide** que produz grandes quantidades de **alginato**, um exopolissacarídeo que forma **biofilme** no muco espesso das vias aéreas; ele protege as bactérias de anticorpos, neutrófilos e antibióticos, e a infecção se torna crônica. A piocianina é a opção tentadora por ser um produto clássico da *Pseudomonas*, mas esse pigmento azul-esverdeado lesa os tecidos ao gerar espécies reativas de oxigênio; não forma a matriz mucoide. A exotoxina A interrompe a síntese proteica ao bloquear o fator de alongamento 2, e a elastase digere proteínas dos tecidos."
+  },
+  {
+   "slug": "q-infection-syndromes-host-qx-bk-virus-nephropathy",
+   "track": "step1",
+   "system": "microbiology",
+   "discipline": "microbiology",
+   "tags": [
+    "infection-syndromes-host",
+    "transplant",
+    "viruses"
+   ],
+   "stem": "A 46-year-old man received a kidney transplant from a deceased donor 7 months ago. He takes tacrolimus, mycophenolate and prednisone. He feels well and has no fever, pain or urinary symptoms. His serum creatinine was 1.2 mg/dL at 3 months, 1.6 mg/dL at 5 months and is 2.1 mg/dL today. Leukocyte count is normal. Urinalysis shows no protein or blood. Urine cytology shows tubular cells whose enlarged nuclei are filled by a single glassy, smudged inclusion. A graft biopsy shows similar intranuclear inclusions in tubular epithelial cells, with interstitial inflammation; the cells have no cytoplasmic inclusions. Which virus is most likely responsible?",
+   "choices": [
+    "Cytomegalovirus",
+    "Adenovirus",
+    "BK polyomavirus",
+    "JC polyomavirus",
+    "Epstein-Barr virus"
+   ],
+   "correct": 2,
+   "explanation": "A slow, **silent rise in graft creatinine** with urine **decoy cells** (nuclei filled by a glassy inclusion) and intranuclear inclusions in tubular cells is **BK polyomavirus nephropathy**, which reactivates from latency in the urinary tract under strong immunosuppression. CMV is the tempting choice because it is the most common viral infection after transplant, but it usually causes fever and leukopenia, and its enlarged *owl's eye* cells also have cytoplasmic inclusions. Adenovirus can also cause smudgy intranuclear inclusions in the graft, but it usually brings fever and **bloody urine** (hemorrhagic cystitis). JC virus is the related polyomavirus that infects oligodendrocytes and causes progressive multifocal leukoencephalopathy, and EBV drives post-transplant lymphoproliferative disorder.",
+   "explanation_pt": "Uma **elevação lenta e silenciosa da creatinina do enxerto**, com **células decoy** (células-chamariz) na urina (núcleos preenchidos por inclusão de aspecto vítreo) e inclusões intranucleares nas células tubulares, indica **nefropatia pelo poliomavírus BK**, que se reativa da latência no trato urinário sob imunossupressão intensa. O CMV é a opção tentadora por ser a infecção viral mais comum após o transplante, mas costuma causar febre e leucopenia, e suas células aumentadas em *olho de coruja* também têm inclusões citoplasmáticas. O adenovírus também pode causar inclusões intranucleares borradas no enxerto, mas costuma vir com febre e **urina com sangue** (cistite hemorrágica). O vírus JC é o poliomavírus relacionado que infecta oligodendrócitos e causa leucoencefalopatia multifocal progressiva, e o EBV causa a doença linfoproliferativa pós-transplante."
+  }
+ ],
+ "notes": []
+}
