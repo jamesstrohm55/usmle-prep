@@ -14,6 +14,9 @@ import { systemLabel } from '../../ui/systemLabel';
 import { doneToday, parseSnapshot, type Snapshot } from '../../engine/progress';
 import { getLastUserId } from '../../db/lastUser';
 
+// Stagger index for the tiles' blur-fade entrance (see .tile in styles.css).
+const at = (i: number) => ({ '--i': i }) as React.CSSProperties;
+
 const dayKey = (d: Date) => `${d.getFullYear()}-${String(d.getMonth() + 1).padStart(2, '0')}-${String(d.getDate()).padStart(2, '0')}`;
 
 export async function loadToday() {
@@ -168,18 +171,18 @@ export function Today({ load = loadToday, save = saveSettings, now = () => new D
       <p role="status" className="warn-line">{overMax ? 'Maximum is 600 minutes, using 600.' : ''}</p>
       {data.hasCompletedRun === false && <p className="callout"><span><Link to="/diagnostic">Take the diagnostic</Link> to calibrate your plan.</span></p>}
       <div className="bento">
-        <section className="tile t-count">
+        <section className="tile t-count" style={at(0)}>
           <h2>Exam countdown</h2>
           <p className={view.left !== null && view.left >= 0 ? 'big' : 'muted'}>{daysLeftText(view.left)}</p>
           {data.settings.target_date && <p className="meta">Target date: {new Date(`${data.settings.target_date}T00:00:00`).toLocaleDateString('en-US', { month: 'long', day: 'numeric', year: 'numeric' })}</p>}
         </section>
-        <section className="tile t-prog">
+        <section className="tile t-prog" style={at(1)}>
           <h2>Today</h2>
           <p className="big">{view.tasks.length ? `${tasksDone} of ${view.tasks.length} done` : `${view.minutes} min`}</p>
           <label className="minutes-field">Minutes today <input type="number" min={0} max={600} value={override} placeholder={String(view.minutes)}
             onChange={(e) => onOverride(e.target.value)} /></label>
         </section>
-        <section className="tile t-week">
+        <section className="tile t-week" style={at(2)}>
           <div className="panel-head"><h2>This week</h2><span className="meta">Monday to Sunday</span></div>
           <div className="week" aria-hidden="true">{view.byDay.map((m, i) => (
             <div key={i} className={`day${i === view.dayIdx ? ' now' : ''}`}>
@@ -189,7 +192,7 @@ export function Today({ load = loadToday, save = saveSettings, now = () => new D
           <p className="week-total">{view.done} of {view.planned} min this week</p>
           <progress aria-label="Minutes this week" max={view.planned || 1} value={Math.min(view.done, view.planned)} />
         </section>
-        <section className="tile t-plan">
+        <section className="tile t-plan" style={at(3)}>
           <div className="panel-head"><h2>Your tasks</h2><span className="meta">{view.minutes} min planned</span></div>
           {view.minutes <= 0 ? <p className="empty">No study time set for today.</p> : !view.tasks.length ? <p className="empty">Nothing to do today.</p> : (<>
             <ol className="today-tasks">{view.tasks.map((t, i) => {
@@ -202,7 +205,7 @@ export function Today({ load = loadToday, save = saveSettings, now = () => new D
             <div className="plan-foot"><span className="meta">Plans update with your answers.</span><button onClick={onRebuild}>Rebuild plan</button></div>
           </>)}
         </section>
-        <section className="tile t-mastery">
+        <section className="tile t-mastery" style={at(4)}>
           <div className="panel-head"><h2>Where you stand</h2><span className="meta">Weakest first</span></div>
           <ul className="mastery">
             {started.map(([sys, m]) => (
@@ -219,7 +222,7 @@ export function Today({ load = loadToday, save = saveSettings, now = () => new D
               </li>))}
           </ul>
         </section>
-        <section className="tile t-settings">
+        <section className="tile t-settings" style={at(5)}>
           <details><summary>Plan settings</summary><Settings value={data.settings} onSave={onSave} /></details>
         </section>
       </div>

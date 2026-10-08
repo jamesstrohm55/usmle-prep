@@ -126,6 +126,9 @@ ul { padding-left: 1.2rem; }
 .minutes-field input { text-align: center; }
 .bento { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 16px; align-items: stretch; }
 .tile { background: var(--surface); border: 1px solid var(--line); border-radius: var(--r-card); padding: 20px 22px; box-shadow: var(--sh-1); min-width: 0; transition: transform .2s ease, box-shadow .2s ease; }
+/* Blur fade in: each tile settles from slightly above, blurred and transparent. `backwards` keeps hover transforms working afterwards. */
+.tile { animation: blur-fade .5s ease-out backwards; animation-delay: calc(40ms + var(--i, 0) * 70ms); }
+@keyframes blur-fade { from { opacity: 0; filter: blur(6px); transform: translateY(-6px); } to { opacity: 1; filter: blur(0); transform: none; } }
 .tile:hover { transform: translateY(-2px); box-shadow: var(--sh-2); }
 .tile h2 { font-size: .8rem; font-weight: 650; text-transform: uppercase; letter-spacing: .06em; color: var(--ink-2); margin: 0 0 8px; }
 .tile .panel-head h2 { margin: 0; }
@@ -280,4 +283,5 @@ p[role='status']:empty { margin: 0; }
 @media (prefers-reduced-motion: reduce) {
   * { transition: none !important; }
   .tile:hover { transform: none; }
+  .tile { animation: none; }
 }
