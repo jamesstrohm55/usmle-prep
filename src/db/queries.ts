@@ -3,6 +3,7 @@ import { supabase } from './client';
 import { getLastUserId } from './lastUser';
 import type { Card, Question, Note, ItemStatus } from './models';
 import type { CardStateRow } from '../engine/fsrs';
+import type { Attempt, Review } from '../engine/planner';
 
 type Res<T> = { data: T | null; error: { message: string; code?: string } | null; status?: number };
 
@@ -78,4 +79,43 @@ export async function search(q: string) {
 
 export async function setItemStatus(kind: 'card' | 'question' | 'note', id: string, status: ItemStatus, note?: string) {
   must(await supabase.from('item_reviews').upsert({ item_kind: kind, item_id: id, status, note: note ?? null }, { onConflict: 'user_id,item_kind,item_id' }).select());
+}
+
+export type Settings = { target_date: string | null; minutes_by_weekday: number[] };
+export const DEFAULT_SETTINGS: Settings = { target_date: null, minutes_by_weekday: [60, 60, 60, 60, 60, 180, 180] };
+
+export const fetchSettings = () =>
+  cachedRead('study_settings', async () =>
+    (must(await supabase.from('study_settings').select('target_date,minutes_by_weekday').maybeSingle()) as Settings | null) ?? DEFAULT_SETTINGS);
+
+export async function saveSettings(s: Settings) {
+  must(await supabase.from('study_settings').upsert(
+    { target_date: s.target_date, minutes_by_weekday: s.minutes_by_weekday, updated_at: new Date().toISOString() },
+    { onConflict: 'user_id' }).select());
+}
+
+export const fetchAttempts = () =>
+  cachedRead('attempts', () => pageAll<Attempt>((a, b) =>
+    supabase.from('attempts').select('question_id,correct,duration_ms,answered_at').order('id').range(a, b)));
+export const fetchReviews = () =>
+  cachedRead('review_log', () => pageAll<Review>((a, b) =>
+    supabase.from('review_log').select('card_id,duration_ms,reviewed_at').order('id').range(a, b)));
+
+export type Run = {
+  id: string; started_at: string; completed_at: string | null;
+  status: 'in_progress' | 'completed' | 'abandoned'; question_ids: string[]; seed: string;
+};
+export async function fetchRuns(): Promise<Run[]> {
+  return must(await supabase.from('diagnostic_runs').select('*').order('started_at', { ascending: false })) as Run[];
+}
+export async function createRun(question_ids: string[], seed: string): Promise<Run> {
+  return must(await supabase.from('diagnostic_runs').insert({ question_ids, seed }).select('*').single()) as Run;
+}
+export async function setRunStatus(id: string, status: 'completed' | 'abandoned') {
+  const patch = status === 'completed' ? { status, completed_at: new Date().toISOString() } : { status };
+  must(await supabase.from('diagnostic_runs').update(patch).eq('id', id).select());
+}
+export async function fetchRunAttempts(runId: string) {
+  return must(await supabase.from('attempts').select('question_id,chosen,correct').eq('session_id', runId).order('id')) as
+    { question_id: string; chosen: number; correct: boolean }[];
 }
