@@ -4,6 +4,7 @@ import { pageAll } from '../../db/queries';
 import { useToast } from '../../ui/Toast';
 import { parseCardsCsv, parseQuestionsJson } from './parse';
 import { buildBackup, describeImport, importCards, importQuestions, type ImportProgress, type TableSpec } from './transfer';
+import { useT } from '../../ui/lang';
 
 async function userId() {
   const { data } = await supabase.auth.getUser();
@@ -23,6 +24,7 @@ const errMsg = (e: unknown) => (e instanceof Error ? e.message : String(e));
 
 export function ImportExport() {
   const toast = useToast();
+  const tr = useT();
   const [report, setReport] = useState('');
   const alive = useRef(true);
   useEffect(() => { alive.current = true; return () => { alive.current = false; }; }, []);
@@ -34,7 +36,7 @@ export function ImportExport() {
     if (!alive.current) return; // stale Retry after unmount / user change
     const p = await run(resume);
     setReport(describeImport(noun, p, rejected));
-    if (p.error) toast.show(`Import stopped after ${p.processed} of ${total} saved: ${p.error}`, () => void runImport(noun, rejected, total, run, p));
+    if (p.error) toast.show(tr('Import stopped after {a} of {b} saved: {m}', { a: p.processed, b: total, m: p.error }), () => void runImport(noun, rejected, total, run, p));
   }
 
   async function doCards(file: File) {
@@ -56,26 +58,26 @@ export function ImportExport() {
       Object.assign(document.createElement('a'), { href: url, download: `usmle-prep-backup-${Date.now()}.json` }).click();
       setTimeout(() => URL.revokeObjectURL(url), 0); // revoking synchronously can cancel the download on older Safari
     } catch (e) {
-      toast.show(`Export failed: ${errMsg(e)}`, () => void exportAll());
+      toast.show(tr('Export failed: {m}', { m: errMsg(e) }), () => void exportAll());
     }
   }
 
   const pick = (fn: (f: File) => Promise<void>) => (e: React.ChangeEvent<HTMLInputElement>) => {
     const f = e.target.files?.[0];
     e.target.value = ''; // allow picking the same file again
-    if (f) fn(f).catch((err) => toast.show(`Import failed: ${errMsg(err)}`));
+    if (f) fn(f).catch((err) => toast.show(tr('Import failed: {m}', { m: errMsg(err) })));
   };
 
   return (
     <div className="card">
-      <h2>Import</h2>
-      <p>Cards: Anki "Notes in Plain Text" export or a two-column CSV (front, back).</p>
+      <h2>{tr('Import')}</h2>
+      <p>{tr('Cards: Anki "Notes in Plain Text" export or a two-column CSV (front, back).')}</p>
       <input type="file" accept=".csv,.tsv,.txt" onChange={pick(doCards)} />
-      <p>Questions: a JSON array of <code>{'{ stem, choices[], correct, explanation }'}</code>.</p>
+      <p>{tr('Questions: a JSON array of')} <code>{'{ stem, choices[], correct, explanation }'}</code>.</p>
       <input type="file" accept=".json" onChange={pick(doQuestions)} />
       {report && <pre>{report}</pre>}
-      <h2>Export</h2>
-      <button onClick={() => void exportAll()}>Download my backup (JSON)</button>
+      <h2>{tr('Export')}</h2>
+      <button onClick={() => void exportAll()}>{tr('Download my backup (JSON)')}</button>
     </div>
   );
 }

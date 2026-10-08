@@ -1,5 +1,6 @@
 import { render, screen, fireEvent, act, waitFor } from '@testing-library/react';
 import { Questions } from './Questions';
+import { LangProvider } from '../../ui/lang';
 import { ToastProvider } from '../../ui/Toast';
 import { setItemStatus } from '../../db/queries';
 import type { Question } from '../../db/models';
@@ -838,4 +839,17 @@ test('no preset: the summary has no Back to Today link and history is never load
   expect(screen.queryByText('Back to Today')).toBeNull();
   expect(screen.queryByRole('link')).toBeNull();
   expect(loadAttempts).not.toHaveBeenCalled();
+});
+
+test('Portuguese: buttons and messages are translated, the question and answers are not', async () => {
+  localStorage.setItem('ui-lang', 'pt');
+  render(<LangProvider><ToastProvider><Questions load={async () => [q('1'), q('2')]} save={async () => {}} /></ToastProvider></LangProvider>);
+  expect(await screen.findByText('Questões de prática')).toBeTruthy();
+  fireEvent.click(screen.getByText(/Iniciar sessão tutor \(2 questões\)/));
+  expect(screen.getByText(/stem-/)).toBeTruthy(); // study text untouched
+  fireEvent.click(screen.getByText('B1'));
+  expect(await screen.findByText('Marcar como errado')).toBeTruthy();
+  expect(screen.getByText('Próxima')).toBeTruthy();
+  expect(screen.getByText(/^exp-/)).toBeTruthy(); // English explanation untouched
+  localStorage.clear();
 });

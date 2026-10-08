@@ -321,3 +321,6 @@ p[role='status']:empty { margin: 0; }
 .lang-switch button:hover:not(:disabled) { background: var(--line-2); border: 0; }
 .lang-switch button[aria-pressed='true'], .lang-switch button[aria-pressed='true']:hover:not(:disabled) { background: var(--accent); color: #fff; }
 @media (max-width: 760px) { .topbar { padding: 10px 14px 0; } }
+
+.login-lang { position: absolute; top: 18px; right: 22px; }
+.login { position: relative; }

@@ -10,6 +10,7 @@ import { ItemImage } from '../../ui/ItemImage';
 import { uuid } from '../../ui/uuid';
 import { systemLabel } from '../../ui/systemLabel';
 import { Loading } from '../../ui/Loading';
+import { useT } from '../../ui/lang';
 
 // One answer's row, built once when answered so a Retry re-sends it unchanged and never reads another session's state.
 // rejected = the server refused this row for good (integrity error): it is never re-sent and offers no Retry.
@@ -30,6 +31,7 @@ export function Questions({ load = fetchQuestions, save = saveAttempts, preset, 
   preset?: { system: string; n: number; done?: number; practice?: boolean }; loadAttempts?: typeof fetchAttempts;
 }) {
   const toast = useToast();
+  const tr = useT();
   const [bank, setBank] = useState<Question[] | null>(null);
   const [loadError, setLoadError] = useState<string | null>(null);
   const [mode, setMode] = useState<Mode | null>(null);
@@ -115,10 +117,10 @@ export function Questions({ load = fetchQuestions, save = saveAttempts, preset, 
         const others = retryPs.some((r) => !r.done && !r.rejected && !r.inFlight);
         // The number only means something in the session on screen (a row from an earlier session is unnamed).
         const where = todo[0].row.session_id === sessionId.current ? ` (Q${todo[0].n})` : '';
-        toast.show(`${failMsg}: ${msg}${where}`, others ? () => send(retryPs, failMsg) : undefined);
+        toast.show(`${tr(failMsg)}: ${msg}${where}`, others ? () => send(retryPs, failMsg) : undefined);
         return;
       }
-      if (alive.current) toast.show(`${failMsg}: ${msg}`, () => send(retryPs, failMsg));
+      if (alive.current) toast.show(`${tr(failMsg)}: ${msg}`, () => send(retryPs, failMsg));
     }).then(() => {});
     todo.forEach((p) => { p.inFlight = run; });
     return run;
@@ -126,12 +128,12 @@ export function Questions({ load = fetchQuestions, save = saveAttempts, preset, 
 
   function setStatus(id: string, status: 'flagged' | 'verified', ok: string, note?: string) {
     if (!alive.current) return;
-    setItemStatus('question', id, status, note).then(() => toast.show(ok)).catch((e) => toast.show(`Could not update question: ${(e as Error).message}`, () => setStatus(id, status, ok, note)));
+    setItemStatus('question', id, status, note).then(() => toast.show(ok)).catch((e) => toast.show(tr('Could not update question: {m}', { m: (e as Error).message }), () => setStatus(id, status, ok, note)));
   }
   function flag(id: string) {
-    const note = window.prompt('What is wrong? (optional)');
+    const note = window.prompt(tr('What is wrong? (optional)'));
     if (note === null) return; // cancelled: do not flag
-    setStatus(id, 'flagged', 'Flagged for review.', note.trim() || undefined);
+    setStatus(id, 'flagged', tr('Flagged for review.'), note.trim() || undefined);
   }
 
   function finish() {
@@ -149,30 +151,30 @@ export function Questions({ load = fetchQuestions, save = saveAttempts, preset, 
       const rejected = ps.filter((p) => p.rejected);
       // One plain failure keeps its own toast (it names the reason); a summary only adds counts for several or rejected rows.
       if (!alive.current || (!unsaved && !rejected.length) || (unsaved === 1 && !rejected.length)) return;
-      const parts = [unsaved && `${unsaved} not saved`, rejected.length && `${rejected.length} rejected by the server`].filter(Boolean).join(', ');
-      const which = rejected.length ? `. Rejected: ${rejected.map((p) => `Q${p.n}`).join(', ')}.` : '';
-      toast.show(`Could not save results: ${parts} (of ${ps.length})${which}`, unsaved ? () => send(ps, 'Could not save results').then(report) : undefined);
+      const parts = [unsaved && tr('{n} not saved', { n: unsaved }), rejected.length && tr('{n} rejected by the server', { n: rejected.length })].filter(Boolean).join(', ');
+      const which = rejected.length ? tr('. Rejected: {list}.', { list: rejected.map((p) => `Q${p.n}`).join(', ') }) : '';
+      toast.show(`${tr('Could not save results')}: ${parts} (${tr('of {n}', { n: ps.length })})${which}`, unsaved ? () => send(ps, 'Could not save results').then(report) : undefined);
     };
     Promise.all(ps.map((p) => p.inFlight)).then(() => send(ps, 'Could not save results')).then(report);
   }
 
-  if (loadError) return <p>Could not load questions: {loadError} <button onClick={refresh}>Retry</button></p>;
+  if (loadError) return <p>{tr('Could not load questions:')} {loadError} <button onClick={refresh}>{tr('Retry')}</button></p>;
   if (!bank) return <Loading />;
-  if (!bank.length) return <p>No questions yet.</p>;
+  if (!bank.length) return <p>{tr('No questions yet.')}</p>;
 
   const blockSize = Math.min(BLOCK, bank.length);
   const plannedCount = preset ? Math.min(preset.n, bank.filter((q) => q.system === preset.system).length) : 0;
-  const qWord = plannedCount === 1 ? 'question' : 'questions';
-  const plannedLabel = preset?.practice ? `Start practice set (${plannedCount} ${qWord} in ${systemLabel(preset.system)})`
-    : preset?.done ? `Resume planned set (${plannedCount} ${qWord} left in ${systemLabel(preset.system)}, ${preset.done} done)`
-    : `Start planned set (${plannedCount} ${qWord} in ${systemLabel(preset?.system ?? '')})`;
+  const qWord = plannedCount === 1 ? tr('question') : tr('questions');
+  const plannedLabel = preset?.practice ? tr('Start practice set ({n} {w} in {s})', { n: plannedCount, w: qWord, s: systemLabel(preset.system, tr) })
+    : preset?.done ? tr('Resume planned set ({n} {w} left in {s}, {d} done)', { n: plannedCount, w: qWord, s: systemLabel(preset.system, tr), d: preset.done })
+    : tr('Start planned set ({n} {w} in {s})', { n: plannedCount, w: qWord, s: systemLabel(preset?.system ?? '', tr) });
   if (!mode) return (
     <div className="card">
-      <h2>Practice questions</h2>
-      <p className="muted">{bank.length} questions available.</p>
-      {preset && plannedCount > 0 && !plannedUsed && <p><button className="primary" disabled={!ready} onClick={() => { const pool = selectForTask(bank, latest, preset.system, preset.n); if (pool.length) setPlannedUsed(true); start('tutor', pool); }}>{plannedLabel}{!ready && ' (loading history…)'}</button></p>}
-      <button onClick={() => start('tutor', pickBlock(bank, BLOCK))}>Start tutor session ({blockSize} questions)</button>{' '}
-      <button onClick={() => start('timed', pickBlock(bank, BLOCK))}>Start timed session ({blockSize} questions, {Math.round(timedLimitMs(blockSize) / 60000)} min)</button>
+      <h2>{tr('Practice questions')}</h2>
+      <p className="muted">{tr('{n} questions available.', { n: bank.length })}</p>
+      {preset && plannedCount > 0 && !plannedUsed && <p><button className="primary" disabled={!ready} onClick={() => { const pool = selectForTask(bank, latest, preset.system, preset.n); if (pool.length) setPlannedUsed(true); start('tutor', pool); }}>{plannedLabel}{!ready && ` ${tr('(loading history…)')}`}</button></p>}
+      <button onClick={() => start('tutor', pickBlock(bank, BLOCK))}>{tr('Start tutor session ({n} questions)', { n: blockSize })}</button>{' '}
+      <button onClick={() => start('timed', pickBlock(bank, BLOCK))}>{tr('Start timed session ({n} questions, {m} min)', { n: blockSize, m: Math.round(timedLimitMs(blockSize) / 60000) })}</button>
     </div>
   );
 
@@ -180,10 +182,10 @@ export function Questions({ load = fetchQuestions, save = saveAttempts, preset, 
     const s = sessionSummary(session, answers);
     return (
       <div className="card">
-        <h2 className="summary-score">{s.correct} of {s.total} correct ({s.pct}%)</h2>
-        {s.missed.length > 0 && <button onClick={() => start('tutor', s.missed)}>Review {s.missed.length} missed</button>}{' '}
-        <button onClick={() => setMode(null)}>Done</button>
-        {preset && <>{' '}<a href="#/today">Back to Today</a></>}
+        <h2 className="summary-score">{tr('{c} of {t} correct ({p}%)', { c: s.correct, t: s.total, p: s.pct })}</h2>
+        {s.missed.length > 0 && <button onClick={() => start('tutor', s.missed)}>{tr('Review {n} missed', { n: s.missed.length })}</button>}{' '}
+        <button onClick={() => setMode(null)}>{tr('Done')}</button>
+        {preset && <>{' '}<a href="#/today">{tr('Back to Today')}</a></>}
       </div>
     );
   }
@@ -207,7 +209,7 @@ export function Questions({ load = fetchQuestions, save = saveAttempts, preset, 
   return (
     <div className="card">
       <div className="q-top">
-        <small>Q{idx + 1}/{session.length}{mode === 'timed' && ` · ${Math.floor(remaining / 60)}:${String(remaining % 60).padStart(2, '0')} left`}</small>
+        <small>Q{idx + 1}/{session.length}{mode === 'timed' && ` · ${tr('{time} left', { time: `${Math.floor(remaining / 60)}:${String(remaining % 60).padStart(2, '0')}` })}`}</small>
         <div className="meter" aria-hidden="true"><i style={{ width: `${((idx + (answered ? 1 : 0)) / session.length) * 100}%` }} /></div>
       </div>
       <p className="stem">{q.stem}</p>
@@ -226,13 +228,13 @@ export function Questions({ load = fetchQuestions, save = saveAttempts, preset, 
           <div className="q-nav">
             {q.explanation_pt && !showPt && <button onClick={() => setShowPt(true)}>Ver em português</button>}
             <span className="item-actions">
-              <button onClick={() => flag(q.id)}>Flag as wrong</button>
-              <button onClick={() => setStatus(q.id, 'verified', 'Marked verified.')}>Mark verified</button>
+              <button onClick={() => flag(q.id)}>{tr('Flag as wrong')}</button>
+              <button onClick={() => setStatus(q.id, 'verified', tr('Marked verified.'))}>{tr('Mark verified')}</button>
             </span>
           </div>
         </>
       )}
-      {answered && <p className="q-nav">{last ? <button className="primary" onClick={finish}>Finish</button> : <button className="primary" onClick={next}>Next</button>}</p>}
+      {answered && <p className="q-nav">{last ? <button className="primary" onClick={finish}>{tr('Finish')}</button> : <button className="primary" onClick={next}>{tr('Next')}</button>}</p>}
     </div>
   );
 }

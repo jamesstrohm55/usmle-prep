@@ -5,6 +5,7 @@ import { ToastProvider } from '../../ui/Toast';
 import { DEFAULT_SETTINGS } from '../../db/queries';
 import * as planner from '../../engine/planner';
 import { setLastUserId } from '../../db/lastUser';
+import { LangProvider } from '../../ui/lang';
 
 vi.mock('../../engine/planner', async (orig) => {
   const m = await orig<typeof import('../../engine/planner')>();
@@ -491,4 +492,20 @@ test('loading is a status and the weekly progress bar is labelled', async () => 
   show(data());
   expect(screen.getByRole('status')).toBeTruthy();
   expect(await screen.findByLabelText('Minutes this week')).toBeTruthy();
+});
+
+test('Portuguese: tile titles, plan text and settings follow the language, study names stay as they are', async () => {
+  localStorage.setItem('ui-lang', 'pt');
+  render(
+    <LangProvider><ToastProvider><MemoryRouter>
+      <Today load={async () => data({ settings: { ...DEFAULT_SETTINGS, target_date: '2026-10-10' } })} save={vi.fn()} now={() => NOW} />
+    </MemoryRouter></ToastProvider></LangProvider>,
+  );
+  expect(await screen.findByText('Suas tarefas')).toBeTruthy();
+  for (const t of ['Seu plano', 'Contagem regressiva', 'Esta semana', 'Como você está', 'Refazer plano', 'Minutos hoje', 'Configurações do plano']) {
+    expect(screen.getAllByText(new RegExp(t)).length).toBeGreaterThan(0);
+  }
+  expect(screen.getByText(/faltam 3 dias/)).toBeTruthy();
+  expect(screen.getByRole('link', { name: /Responder 10 questões de/ })).toBeTruthy();
+  expect(screen.queryByText('Your tasks')).toBeNull();
 });

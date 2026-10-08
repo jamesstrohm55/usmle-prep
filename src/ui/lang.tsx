@@ -1,6 +1,7 @@
 import { createContext, useCallback, useContext, useState, type ReactNode } from 'react';
+import { PT } from './pt';
 
-// Interface language for the sidebar menu only. Study content, questions and test screens stay in English.
+// Interface language (menu, buttons, labels, messages). Study material (questions, answers, cards, notes) is never translated here.
 export type Lang = 'en' | 'pt';
 const KEY = 'ui-lang';
 
@@ -15,6 +16,18 @@ const write = (l: Lang) => { try { localStorage.setItem(KEY, l); } catch { /* la
 
 const Ctx = createContext<{ lang: Lang; setLang: (l: Lang) => void }>({ lang: 'en', setLang: () => {} });
 export const useLang = () => useContext(Ctx);
+
+// The English text is the key: English renders as written, Portuguese comes from PT (missing entries fall back to English).
+// `{name}` placeholders are filled from vars.
+export type Tr = (text: string, vars?: Record<string, string | number>) => string;
+export function translate(lang: Lang, text: string, vars?: Record<string, string | number>): string {
+  const tpl = lang === 'pt' ? PT[text] ?? text : text;
+  return vars ? tpl.replace(/\{(\w+)\}/g, (m, k: string) => (k in vars ? String(vars[k]) : m)) : tpl;
+}
+export function useT(): Tr {
+  const { lang } = useLang();
+  return useCallback((text, vars) => translate(lang, text, vars), [lang]);
+}
 
 export function LangProvider({ children }: { children: ReactNode }) {
   const [lang, set] = useState<Lang>(read);

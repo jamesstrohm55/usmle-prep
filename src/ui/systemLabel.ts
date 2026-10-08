@@ -1,3 +1,5 @@
+import type { Tr } from './lang';
+
 const SPECIAL: Record<string, string> = {
   'hematology-oncology': 'Hematology & oncology',
   'biochemistry-genetics': 'Biochemistry & genetics',
@@ -8,6 +10,7 @@ const SPECIAL: Record<string, string> = {
 };
 
 // "gastrointestinal" -> "Gastrointestinal"; stored slugs stay as they are everywhere else.
-export function systemLabel(slug: string): string {
-  return SPECIAL[slug] ?? slug.charAt(0).toUpperCase() + slug.slice(1).replace(/-/g, ' ');
+// With a translator, the readable English name is looked up in the Portuguese dictionary.
+export function systemLabel(slug: string, tr: Tr = (s) => s): string {
+  return tr(SPECIAL[slug] ?? slug.charAt(0).toUpperCase() + slug.slice(1).replace(/-/g, ' '));
 }

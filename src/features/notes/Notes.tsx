@@ -4,8 +4,10 @@ import type { Note } from '../../db/models';
 import { Rich } from '../../ui/Rich';
 import { systemLabel } from '../../ui/systemLabel';
 import { Loading } from '../../ui/Loading';
+import { useT } from '../../ui/lang';
 
 export function Notes({ load = fetchNotes }: { load?: typeof fetchNotes }) {
+  const tr = useT();
   const [notes, setNotes] = useState<Note[] | null>(null);
   const [error, setError] = useState<string | null>(null);
   const [open, setOpen] = useState<string | null>(null);
@@ -18,9 +20,9 @@ export function Notes({ load = fetchNotes }: { load?: typeof fetchNotes }) {
   }, []);
   useEffect(refresh, [refresh]);
 
-  if (error) return <p>Could not load notes: {error} <button onClick={refresh}>Retry</button></p>;
+  if (error) return <p>{tr('Could not load notes:')} {error} <button onClick={refresh}>{tr('Retry')}</button></p>;
   if (!notes) return <Loading />;
-  if (!notes.length) return <p>No notes yet.</p>;
+  if (!notes.length) return <p>{tr('No notes yet.')}</p>;
 
   return (
     <div>
@@ -28,7 +30,7 @@ export function Notes({ load = fetchNotes }: { load?: typeof fetchNotes }) {
         <div className="card note" key={n.id}>
           <h3>
             <button className="note-head" aria-expanded={open === n.id} onClick={() => { setOpen(open === n.id ? null : n.id); setPt(false); }}>
-              <span>{n.title} <small>({systemLabel(n.system)})</small></span>
+              <span>{n.title} <small>({systemLabel(n.system, tr)})</small></span>
             </button>
           </h3>
           {open === n.id && (

@@ -6,6 +6,7 @@ vi.mock('../../db/client', () => ({
   supabase: { auth: { signInWithOtp: (a: unknown) => signInWithOtp(a), signInWithOAuth: (a: unknown) => signInWithOAuth(a) } },
 }));
 import { Login } from './Login';
+import { LangProvider } from '../../ui/lang';
 
 async function submit() {
   render(<Login />);
@@ -133,4 +134,16 @@ test('other OAuth redirect errors show their description', async () => {
   window.history.replaceState(null, '', '/#error=access_denied&error_description=Access+denied');
   render(<Login />);
   expect(await screen.findByText('Access denied')).toBeTruthy();
+});
+
+test('Portuguese: the sign-in screen is translated and has the EN/PT switch', async () => {
+  localStorage.setItem('ui-lang', 'pt');
+  signInWithOtp.mockResolvedValue({ error: null });
+  render(<LangProvider><Login /></LangProvider>);
+  expect(screen.getByRole('button', { name: 'Continuar com Google' })).toBeTruthy();
+  expect(screen.getByRole('button', { name: 'PT' }).getAttribute('aria-pressed')).toBe('true');
+  fireEvent.change(screen.getByLabelText('E-mail'), { target: { value: 'a@b.co' } });
+  fireEvent.click(screen.getByRole('button', { name: 'Enviar link de acesso por e-mail' }));
+  expect(await screen.findByText('Confira seu e-mail para o link de acesso.')).toBeTruthy();
+  localStorage.clear();
 });

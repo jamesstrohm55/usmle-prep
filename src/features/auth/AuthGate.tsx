@@ -6,6 +6,7 @@ import { clearLastUserId, getLastUserId, setLastUserId, takeExplicitSignOut } fr
 import { useToast } from '../../ui/Toast';
 import { Login } from './Login';
 import { Loading } from '../../ui/Loading';
+import { useT } from '../../ui/lang';
 
 export function AuthGate({ children }: { children: ReactNode }) {
   const [session, setSession] = useState<Session | null | undefined>(undefined);
@@ -13,6 +14,7 @@ export function AuthGate({ children }: { children: ReactNode }) {
   const [hadSession, setHadSession] = useState(false); // once true, children stay mounted behind the Login overlay
   const [epoch, setEpoch] = useState(0); // bump to remount children for a different user
   const { dismiss } = useToast();
+  const tr = useT();
   const prevUser = useRef<string | null>(getLastUserId());
 
   useEffect(() => {
@@ -54,7 +56,7 @@ export function AuthGate({ children }: { children: ReactNode }) {
   const active = !!session || offline;
   return (
     <>
-      {offline && !session && <p role="status" className="offline">Offline — showing saved content. Changes can't be saved until you reconnect.</p>}
+      {offline && !session && <p role="status" className="offline">{tr("Offline — showing saved content. Changes can't be saved until you reconnect.")}</p>}
       {hadSession && <div key={epoch} hidden={!active}>{children}</div>}
       {!active && <Login />}
     </>

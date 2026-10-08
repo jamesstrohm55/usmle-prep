@@ -5,6 +5,7 @@ import { useToast } from '../../ui/Toast';
 import { ItemImage } from '../../ui/ItemImage';
 import { Rich } from '../../ui/Rich';
 import { Loading } from '../../ui/Loading';
+import { useT } from '../../ui/lang';
 
 type Hit = Awaited<ReturnType<typeof search>>[number];
 type Row = Card | Question | Note;
@@ -45,6 +46,7 @@ function Detail({ kind, row }: { kind: Hit['kind']; row: Row }) {
 type Opened = { state: 'loading' } | { state: 'error'; msg: string } | { state: 'missing' } | { state: 'ok'; row: Row };
 
 function HitItem({ hit, lookup }: { hit: Hit; lookup: typeof lookupRow }) {
+  const tr = useT();
   const [open, setOpen] = useState(false);
   const [data, setData] = useState<Opened | null>(null);
 
@@ -63,13 +65,13 @@ function HitItem({ hit, lookup }: { hit: Hit; lookup: typeof lookupRow }) {
   return (
     <li>
       <button className="hit-btn" aria-expanded={open} onClick={toggle}>
-        <small>{hit.kind} · {hit.system}</small> {hit.title}
+        <small>{tr(hit.kind)} · {hit.system}</small> {hit.title}
       </button>
       {open && data && (
         <div className="hit-body">
           {data.state === 'loading' && <Loading compact />}
-          {data.state === 'missing' && <p>This item is no longer available.</p>}
-          {data.state === 'error' && <p>Could not open: {data.msg} <button onClick={load}>Retry</button></p>}
+          {data.state === 'missing' && <p>{tr('This item is no longer available.')}</p>}
+          {data.state === 'error' && <p>{tr('Could not open:')} {data.msg} <button onClick={load}>{tr('Retry')}</button></p>}
           {data.state === 'ok' && <Detail kind={hit.kind} row={data.row} />}
         </div>
       )}
@@ -79,6 +81,7 @@ function HitItem({ hit, lookup }: { hit: Hit; lookup: typeof lookupRow }) {
 
 export function Search({ load = search, lookup = lookupRow }: { load?: typeof search; lookup?: typeof lookupRow }) {
   const toast = useToast();
+  const tr = useT();
   const [q, setQ] = useState('');
   const [hits, setHits] = useState<Hit[] | null>(null);
   const seq = useRef(0); // latest-wins: a slower, older response must not overwrite a newer one
@@ -93,7 +96,7 @@ export function Search({ load = search, lookup = lookupRow }: { load?: typeof se
       const r = await load(term);
       if (mine === seq.current) setHits(r);
     } catch (err) {
-      if (mine === seq.current) toast.show(`Search failed: ${(err as Error).message}`, () => run(term));
+      if (mine === seq.current) toast.show(tr('Search failed: {m}', { m: (err as Error).message }), () => run(term));
     }
   }
 
@@ -106,10 +109,10 @@ export function Search({ load = search, lookup = lookupRow }: { load?: typeof se
   return (
     <div>
       <form role="search" className="search-bar" onSubmit={submit}>
-        <input type="search" role="searchbox" value={q} onChange={(e) => setQ(e.target.value)} placeholder="Search cards, questions, notes" />
-        <button type="submit" className="primary">Search</button>
+        <input type="search" role="searchbox" value={q} onChange={(e) => setQ(e.target.value)} placeholder={tr('Search cards, questions, notes')} />
+        <button type="submit" className="primary">{tr('Search')}</button>
       </form>
-      {hits && !hits.length && <p>No results.</p>}
+      {hits && !hits.length && <p>{tr('No results.')}</p>}
       <ul className="hits">{(hits ?? []).map((h) => <HitItem key={`${h.kind}-${h.id}`} hit={h} lookup={lookup} />)}</ul>
     </div>
   );

@@ -8,6 +8,7 @@ import { Rich } from '../../ui/Rich';
 import { ItemImage } from '../../ui/ItemImage';
 import { systemLabel } from '../../ui/systemLabel';
 import { Loading } from '../../ui/Loading';
+import { useT } from '../../ui/lang';
 
 type States = Map<string, CardStateRow>;
 const loadData = async () => ({ cards: await fetchCards(), states: (await fetchCardStates()) as States });
@@ -20,6 +21,7 @@ const GRADES = [
 
 export function Flashcards({ load = loadData, save = saveReview }: { load?: typeof loadData; save?: typeof saveReview }) {
   const toast = useToast();
+  const tr = useT();
   const [data, setData] = useState<{ cards: Card[]; states: States } | null>(null);
   const [loadError, setLoadError] = useState<string | null>(null);
   const [queue, setQueue] = useState<string[]>([]);
@@ -62,7 +64,7 @@ export function Flashcards({ load = loadData, save = saveReview }: { load?: type
       await save(current.id, toRow(card), rating, now.getTime() - shownAt.current);
     } catch (e) {
       // retry is a no-op if the card has since moved on (stale closure would re-save and skip a card)
-      toast.show(`Could not save your rating: ${(e as Error).message}`, () => { if (alive.current && turn.current === myTurn) rate(rating); });
+      toast.show(tr('Could not save your rating: {m}', { m: (e as Error).message }), () => { if (alive.current && turn.current === myTurn) rate(rating); });
       return;
     } finally {
       busy.current = false;
@@ -80,34 +82,34 @@ export function Flashcards({ load = loadData, save = saveReview }: { load?: type
   }
 
   const flag = (status: 'flagged' | 'verified', ok: string, note?: string) =>
-    setItemStatus('card', current!.id, status, note).then(() => toast.show(ok), (e) => toast.show(`Could not update status: ${e.message}`));
+    setItemStatus('card', current!.id, status, note).then(() => toast.show(ok), (e) => toast.show(tr('Could not update status: {m}', { m: e.message })));
   function flagWrong() {
-    const note = window.prompt('What is wrong? (optional)');
+    const note = window.prompt(tr('What is wrong? (optional)'));
     if (note === null) return; // cancelled: do not flag
-    flag('flagged', 'Flagged for review.', note.trim() || undefined);
+    flag('flagged', tr('Flagged for review.'), note.trim() || undefined);
   }
 
-  if (loadError) return <p>Could not load cards: {loadError} <button onClick={refresh}>Retry</button></p>;
+  if (loadError) return <p>{tr('Could not load cards:')} {loadError} <button onClick={refresh}>{tr('Retry')}</button></p>;
   if (!data) return <Loading />;
-  if (!current) return <p>Nothing due. Come back later, or add cards on the Import tab.</p>;
+  if (!current) return <p>{tr('Nothing due. Come back later, or add cards on the Import tab.')}</p>;
 
   return (
     <div className="card flash">
-      <p className="flash-meta"><small>{queue.length} left · {systemLabel(current.system)} · {current.discipline}</small></p>
+      <p className="flash-meta"><small>{tr('{n} left', { n: queue.length })} · {systemLabel(current.system, tr)} · {current.discipline}</small></p>
       <h2>{current.front}</h2>
       <ItemImage src={current.image_url} credit={current.image_credit} />
       {!revealed ? (
-        <button className="primary" onClick={() => setRevealed(true)}>Show answer</button>
+        <button className="primary" onClick={() => setRevealed(true)}>{tr('Show answer')}</button>
       ) : (
         <>
           <div className="answer">
             <p><Rich text={current.back} /></p>
             {current.back_pt && (showPt ? <p lang="pt-BR"><Rich text={current.back_pt} /></p> : <button onClick={() => setShowPt(true)}>Ver em português</button>)}
           </div>
-          <div className="grades">{GRADES.map(([label, r]) => <button key={label} className={label.toLowerCase()} disabled={saving} onClick={() => rate(r)}>{label}</button>)}</div>
+          <div className="grades">{GRADES.map(([label, r]) => <button key={label} className={label.toLowerCase()} disabled={saving} onClick={() => rate(r)}>{tr(label)}</button>)}</div>
           <p className="item-actions">
-            <button onClick={flagWrong}>Flag as wrong</button>
-            <button onClick={() => flag('verified', 'Marked verified.')}>Mark verified</button>
+            <button onClick={flagWrong}>{tr('Flag as wrong')}</button>
+            <button onClick={() => flag('verified', tr('Marked verified.'))}>{tr('Mark verified')}</button>
           </p>
         </>
       )}

@@ -13,6 +13,7 @@ import { ItemImage } from '../../ui/ItemImage';
 import { uuid } from '../../ui/uuid';
 import { systemLabel } from '../../ui/systemLabel';
 import { Loading } from '../../ui/Loading';
+import { useT } from '../../ui/lang';
 
 export async function loadDiagnostic() {
   const [questions, attempts, runs] = await Promise.all([fetchQuestions(), fetchAttempts(), fetchRuns()]);
@@ -31,6 +32,7 @@ const pct = (n: number) => `${Math.round(n * 100)}%`;
 
 export function Diagnostic({ load = loadDiagnostic, deps = DEPS }: { load?: () => Promise<DiagnosticData>; deps?: DiagnosticDeps }) {
   const toast = useToast();
+  const tr = useT();
   const [data, setData] = useState<DiagnosticData | null>(null);
   const [error, setError] = useState<string | null>(null);
   const [view, setView] = useState<View>('home');
@@ -76,7 +78,7 @@ export function Diagnostic({ load = loadDiagnostic, deps = DEPS }: { load?: () =
   }, []);
   useEffect(refresh, [refresh]);
 
-  if (error) return <p role="alert">Could not load the diagnostic: {error} <button onClick={refresh}>Retry</button></p>;
+  if (error) return <p role="alert">{tr('Could not load the diagnostic:')} {error} <button onClick={refresh}>{tr('Retry')}</button></p>;
   if (!data) return <Loading />;
 
   const byId = new Map(data.questions.map((q) => [q.id, q]));
@@ -85,7 +87,7 @@ export function Diagnostic({ load = loadDiagnostic, deps = DEPS }: { load?: () =
   const current = runQs.find((q) => !answeredIds.current.has(q.id));
   const inRun = new Set(runQs.map((q) => q.id));
   const doneCount = answered.filter((a) => inRun.has(a.question_id)).length;
-  const progress = <div className="q-top"><small>{doneCount} of {runQs.length} answered</small><div className="meter" aria-hidden="true"><i style={{ width: `${runQs.length ? (doneCount / runQs.length) * 100 : 0}%` }} /></div></div>;
+  const progress = <div className="q-top"><small>{tr('{a} of {b} answered', { a: doneCount, b: runQs.length })}</small><div className="meter" aria-hidden="true"><i style={{ width: `${runQs.length ? (doneCount / runQs.length) * 100 : 0}%` }} /></div></div>;
 
   async function start() {
     if (busy.current) return;
@@ -100,8 +102,8 @@ export function Diagnostic({ load = loadDiagnostic, deps = DEPS }: { load?: () =
       resetRun(r, []); setView('question'); shownAt.current = Date.now();
     } catch (e) {
       const msg = (e as { code?: string }).code === '23505'
-        ? 'A diagnostic is already in progress on another device. Reload to resume it.'
-        : `Could not start the diagnostic: ${(e as Error).message}`;
+        ? tr('A diagnostic is already in progress on another device. Reload to resume it.')
+        : tr('Could not start the diagnostic: {m}', { m: (e as Error).message });
       toast.show(msg, start);
     } finally { busy.current = false; }
   }
@@ -117,7 +119,7 @@ export function Diagnostic({ load = loadDiagnostic, deps = DEPS }: { load?: () =
         answeredIds.current = new Set(rows.map((a) => a.question_id));
         setAnswered(rows);
       } catch (e) {
-        if (alive.current && runId.current === r.id) toast.show(`Could not finish the diagnostic: ${(e as Error).message}`, go);
+        if (alive.current && runId.current === r.id) toast.show(tr('Could not finish the diagnostic: {m}', { m: (e as Error).message }), go);
       }
     };
     go();
@@ -140,7 +142,7 @@ export function Diagnostic({ load = loadDiagnostic, deps = DEPS }: { load?: () =
     } catch (e) {
       // 23505 = unique (session_id, question_id): an earlier save of this answer already landed.
       if ((e as { code?: string }).code !== '23505') {
-        if (alive.current && runId.current === r.id) toast.show(`Could not save your answer: ${(e as Error).message}`, () => submit(r, a, row));
+        if (alive.current && runId.current === r.id) toast.show(tr('Could not save your answer: {m}', { m: (e as Error).message }), () => submit(r, a, row));
         return;
       }
     } finally { busy.current = false; if (alive.current) setSaving(false); }
@@ -155,11 +157,11 @@ export function Diagnostic({ load = loadDiagnostic, deps = DEPS }: { load?: () =
   }
 
   async function startOver() {
-    if (!window.confirm('Abandon this diagnostic? Answers already given stay in your history.')) return;
+    if (!window.confirm(tr('Abandon this diagnostic? Answers already given stay in your history.'))) return;
     try {
       await depsRef.current.setRunStatus(run!.id, 'abandoned');
       if (alive.current) { resetRun(null, []); setView('home'); }
-    } catch (e) { toast.show(`Could not start over: ${(e as Error).message}`, startOver); }
+    } catch (e) { toast.show(tr('Could not start over: {m}', { m: (e as Error).message }), startOver); }
   }
 
   if (view === 'question' && current) return (
@@ -168,13 +170,13 @@ export function Diagnostic({ load = loadDiagnostic, deps = DEPS }: { load?: () =
       <p ref={stemRef} tabIndex={-1} className="stem">{current.stem}</p>
       <ItemImage src={current.image_url} credit={current.image_credit} />
       <div className="choices">{current.choices.map((c, i) => <div key={i} className="choice-row"><button className="choice" disabled={saving} onClick={() => choose(current, i)}>{c}</button></div>)}</div>
-      <p className="q-nav"><button disabled={saving} onClick={() => { setShowPt(false); setView('review'); }}>Pause</button></p>
+      <p className="q-nav"><button disabled={saving} onClick={() => { setShowPt(false); setView('review'); }}>{tr('Pause')}</button></p>
     </div>
   );
 
   if (view === 'review') return (
     <div className="card">
-      <h2>This sitting: {sitting.length} answered</h2>
+      <h2>{tr('This sitting: {n} answered', { n: sitting.length })}</h2>
       {sitting.some((a) => byId.get(a.questionId)?.explanation_pt) && !showPt &&
         <button onClick={() => setShowPt(true)}>Ver em português</button>}
       {sitting.map((a) => {
@@ -183,8 +185,8 @@ export function Diagnostic({ load = loadDiagnostic, deps = DEPS }: { load?: () =
         return (
           <div key={q.id} className="review-item">
             <p className="stem">{q.stem}</p>
-            <p className="muted">Your answer: {q.choices[chosen]}</p>
-            <p className="muted">Correct answer: {q.choices[q.correct]}</p>
+            <p className="muted">{tr('Your answer:')} {q.choices[chosen]}</p>
+            <p className="muted">{tr('Correct answer:')} {q.choices[q.correct]}</p>
             <div className="explain">
               <p><Rich text={q.explanation} /></p>
               {showPt && q.explanation_pt && <p className="pt" lang="pt-BR"><Rich text={q.explanation_pt} /></p>}
@@ -193,8 +195,8 @@ export function Diagnostic({ load = loadDiagnostic, deps = DEPS }: { load?: () =
         );
       })}
       {run?.status === 'completed'
-        ? <button className="primary" onClick={() => setView('results')}>See results</button>
-        : <button className="primary" onClick={() => { setSitting([]); setView('home'); }}>Back</button>}
+        ? <button className="primary" onClick={() => setView('results')}>{tr('See results')}</button>
+        : <button className="primary" onClick={() => { setSitting([]); setView('home'); }}>{tr('Back')}</button>}
     </div>
   );
 
@@ -202,14 +204,14 @@ export function Diagnostic({ load = loadDiagnostic, deps = DEPS }: { load?: () =
     const s = summarizeRun(runQs, answered);
     return (
       <div className="card">
-        <h2 className="summary-score">{s.correct} of {s.total} correct</h2>
+        <h2 className="summary-score">{tr('{c} of {t} correct', { c: s.correct, t: s.total })}</h2>
         <ul className="results">{s.bySystem.map((r) => (
           <li key={r.system}>
-            {systemLabel(r.system)}: {r.accuracy === null ? 'not answered' : `${r.correct} of ${r.answered} correct (${pct(r.accuracy)})`}
-            {r.lowConfidence && ' · low confidence'}
+            {systemLabel(r.system, tr)}: {r.accuracy === null ? tr('not answered') : tr('{c} of {a} correct ({p})', { c: r.correct, a: r.answered, p: pct(r.accuracy) })}
+            {r.lowConfidence && ` · ${tr('low confidence')}`}
           </li>
         ))}</ul>
-        <button className="primary" onClick={start}>Start another diagnostic</button>
+        <button className="primary" onClick={start}>{tr('Start another diagnostic')}</button>
       </div>
     );
   }
@@ -221,16 +223,16 @@ export function Diagnostic({ load = loadDiagnostic, deps = DEPS }: { load?: () =
         // Every answer saved but the completion call never landed (closed tab): finish it now.
         if (!current) { finish(run); setView('results'); return; }
         setSitting([]); setShowPt(false); shownAt.current = Date.now(); setView('question');
-      }}>Resume</button>{' '}
-      <button onClick={startOver}>Start over</button>
+      }}>{tr('Resume')}</button>{' '}
+      <button onClick={startOver}>{tr('Start over')}</button>
     </div>
   );
 
   return (
     <div className="card">
-      <h2>Diagnostic</h2>
-      <p>The diagnostic samples about 100 questions across systems to find where you stand. Answer in short sittings: pause any time and resume later. Explanations appear when you pause or finish.</p>
-      {data.questions.length ? <button className="primary" onClick={start}>Start diagnostic</button> : <p>No questions yet.</p>}
+      <h2>{tr('Diagnostic')}</h2>
+      <p>{tr('The diagnostic samples about 100 questions across systems to find where you stand. Answer in short sittings: pause any time and resume later. Explanations appear when you pause or finish.')}</p>
+      {data.questions.length ? <button className="primary" onClick={start}>{tr('Start diagnostic')}</button> : <p>{tr('No questions yet.')}</p>}
     </div>
   );
 }
