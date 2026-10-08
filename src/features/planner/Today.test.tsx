@@ -201,16 +201,16 @@ test('question task shows distinct questions answered since the plan in its syst
   ];
   seed(15, renal10);
   show(data({ questions: [...qs(40), ...qs(5, 'Nervous')], attempts, settings: wedSettings(15) }));
-  await screen.findByText(/Answer 10 /);
-  expect(item(/Answer 10/).textContent).toMatch(/7\/10/);
+  await screen.findByText(/Answer 3 more /);
+  expect(item(/Answer 3 more/).textContent).toMatch(/7\/10/);
   expect(screen.getByText('7 of 10 done')).toBeTruthy();
 });
 
 test('a finished task is checked, struck and clamped to its count, and all done shows when every task is done', async () => {
   seed(15, renal10);
   show(data({ questions: qs(40), attempts: qs(12).map((q) => ans(q.id)), settings: wedSettings(15) }));
-  await screen.findByText(/Answer 10 /);
-  const li = item(/Answer 10/);
+  await screen.findByText(/Practice 10 more /);
+  const li = item(/Practice 10 more/);
   expect(li.textContent).toMatch(/✓/);
   expect(li.textContent).toMatch(/10\/10/);
   expect(li.textContent).not.toMatch(/12\/10/);
@@ -222,10 +222,38 @@ test('a finished task is checked, struck and clamped to its count, and all done 
 test('an unfinished task has no check and no all-done message', async () => {
   seed(15, renal10);
   show(data({ questions: qs(40), attempts: qs(3).map((q) => ans(q.id)), settings: wedSettings(15) }));
-  await screen.findByText(/Answer 10 /);
-  expect(item(/Answer 10/).textContent).toMatch(/3\/10/);
-  expect(item(/Answer 10/).textContent).not.toMatch(/✓/);
+  await screen.findByText(/Answer 7 more /);
+  expect(item(/Answer 7 more/).textContent).toMatch(/3\/10/);
+  expect(item(/Answer 7 more/).textContent).not.toMatch(/✓/);
   expect(screen.queryByText('All done for today.')).toBeNull();
+});
+
+const qHref = (name: RegExp) => screen.getByRole('link', { name }).getAttribute('href');
+const enc = encodeURIComponent(SYS);
+
+test('a question task with no progress links to the full planned set', async () => {
+  seed(15, renal10);
+  show(data({ questions: qs(40), settings: wedSettings(15) }));
+  await screen.findByText(/Answer 10 /);
+  expect(qHref(/Answer 10 Renal & Urinary questions/)).toBe(`/questions?system=${enc}&n=10`);
+});
+
+test('a partly done question task asks for the remaining questions and resumes with done', async () => {
+  seed(15, renal10);
+  show(data({ questions: qs(40), attempts: qs(3).map((q) => ans(q.id)), settings: wedSettings(15) }));
+  await screen.findByText(/Answer 7 more /);
+  expect(qHref(/Answer 7 more Renal & Urinary questions/)).toBe(`/questions?system=${enc}&n=7&done=3`);
+  expect(item(/Answer 7 more/).textContent).toMatch(/3\/10/);
+});
+
+test('a completed question task offers extra practice, not a resume', async () => {
+  seed(15, renal10);
+  show(data({ questions: qs(40), attempts: qs(12).map((q) => ans(q.id)), settings: wedSettings(15) }));
+  await screen.findByText(/Practice 10 more /);
+  expect(qHref(/Practice 10 more Renal & Urinary questions/)).toBe(`/questions?system=${enc}&n=10&practice=1`);
+  const li = item(/Practice 10 more/);
+  expect(li.textContent).toMatch(/✓/);
+  expect(li.className).toBe('done');
 });
 
 test('flashcard task counts distinct cards reviewed since the plan', async () => {
@@ -257,15 +285,15 @@ test('a question re-answered after the plan counts once', async () => {
   const since = new Date(2026, 9, 7, 11).getTime();
   seed(15, renal10, { since });
   show(data({ questions: qs(40), attempts: [ans(`${SYS}-q0`, today(9)), ans(`${SYS}-q0`, today(13)), ans(`${SYS}-q0`, today(14)), ans(`${SYS}-q1`, today(10))], settings: wedSettings(15) }));
-  await screen.findByText(/Answer 10 /);
-  expect(item(/Answer 10/).textContent).toMatch(/1\/10/);
+  await screen.findByText(/Answer 9 more /);
+  expect(item(/Answer 9 more/).textContent).toMatch(/1\/10/);
 });
 
 test('unknown run state (runs failed to load) keeps a completed-run snapshot and its progress', async () => {
   seed(60, [{ kind: 'questions', system: SYS, count: 40, minutes: 60 }]);
   show(data({ questions: qs(80), attempts: qs(30).map((q) => ans(q.id)), hasCompletedRun: null }));
-  await screen.findByText(/Answer 40 /);
-  expect(item(/Answer 40/).textContent).toMatch(/30\/40/);
+  await screen.findByText(/Answer 10 more /);
+  expect(item(/Answer 10 more/).textContent).toMatch(/30\/40/);
   expect(stored()).toMatchObject({ since: 0, hasCompletedRun: true });
 });
 
@@ -308,9 +336,9 @@ test('the day plan is saved and reused, and progress after it counts normally', 
   // Later: questions all answered, more content, due cards appear. The plan stays put, progress moves.
   const past = new Date(2026, 9, 1).toISOString();
   show(data({ questions: qs(80), attempts: qs(40).map((q) => ans(q.id, today(13))), cards: cs(30), states: new Map(cs(30).map((c) => [c.id, { due: past }])) }));
-  await screen.findByText(/Answer 40 /);
+  await screen.findByText(/Practice 40 more /);
   expect(screen.queryByText(/Review \d+ flashcards/)).toBeNull();
-  expect(item(/Answer 40/).textContent).toMatch(/40\/40/);
+  expect(item(/Practice 40 more/).textContent).toMatch(/40\/40/);
   expect(screen.getByText('All done for today.')).toBeTruthy();
 });
 

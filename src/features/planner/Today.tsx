@@ -140,7 +140,12 @@ export function Today({ load = loadToday, save = saveSettings, now = () => new D
       return <>Read <Link to="/notes">{n ? n.title : `a note in ${t.system}`}</Link> {mins}{' '}
         <label><input type="checkbox" checked={isRead(t.system)} onChange={(e) => setRead(t.system, e.target.checked)} /> Mark read</label></>;
     }
-    return <><Link to={`/questions?system=${encodeURIComponent(t.system)}&n=${t.count}`}>Answer {t.count} {t.system} questions</Link> {mins} {progressText(t)}</>;
+    // Link and text reflect the remaining work; a finished task offers extra practice instead.
+    const done = progressOf(t), left = t.count - done, base = `/questions?system=${encodeURIComponent(t.system)}`;
+    const [to, text] = done >= t.count ? [`${base}&n=${t.count}&practice=1`, `Practice ${t.count} more ${t.system} questions`]
+      : done > 0 ? [`${base}&n=${left}&done=${done}`, `Answer ${left} more ${t.system} questions`]
+      : [`${base}&n=${t.count}`, `Answer ${t.count} ${t.system} questions`];
+    return <><Link to={to}>{text}</Link> {mins} {progressText(t)}</>;
   };
 
   return (
