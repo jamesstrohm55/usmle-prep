@@ -1,0 +1,181 @@
+{
+  "cards": [],
+  "questions": [
+    {
+      "slug": "q-child-eating-substance-qx-anorexia-amenorrhea",
+      "track": "step1",
+      "system": "psychiatry",
+      "discipline": "pathology",
+      "tags": [
+        "child-eating-substance",
+        "eating-disorders",
+        "anorexia"
+      ],
+      "stem": "A 17-year-old girl is brought to the clinic by her mother because she has had no menstrual period for 5 months. Her periods were regular from age 13. She runs every day, eats very little, and says she still needs to lose weight. Her BMI is 15.9 kg/m2. Pulse is 48/min and blood pressure is 88/58 mm Hg. She has fine, soft hair on her back and arms. Lab results: urine hCG negative, FSH 1.8 mIU/mL (low), LH 0.9 mIU/mL (low), estradiol low, prolactin 12 ng/mL (normal), and TSH 2.1 μU/mL (normal). Which mechanism best explains her amenorrhea?",
+      "choices": [
+        "Autoimmune loss of ovarian follicles",
+        "Prolactin-mediated inhibition of gonadotropin release",
+        "Androgen excess that stops follicle maturation",
+        "Decreased pulsatile GnRH release from the hypothalamus",
+        "Scarring of the endometrium after dilation and curettage"
+      ],
+      "correct": 3,
+      "explanation": "This is **anorexia nervosa** with **functional hypothalamic amenorrhea**: low body fat (low **leptin**) and energy deficit reduce **GnRH pulses**, so **LH, FSH and estradiol are all low**. Primary ovarian insufficiency is the tempting choice because estradiol is also low, but the loss of ovarian feedback would make **FSH high**, not low. Prolactin and TSH are normal, and endometrial scarring would not lower the hormones.",
+      "explanation_pt": "Trata-se de **anorexia nervosa** com **amenorreia hipotalâmica funcional**: o baixo percentual de gordura corporal (**leptina** baixa) e o déficit energético reduzem os **pulsos de GnRH**, e por isso **LH, FSH e estradiol estão todos baixos**. A insuficiência ovariana primária é a alternativa tentadora, pois o estradiol também está baixo, mas a perda do *feedback* ovariano deixaria o **FSH alto**, e não baixo. A prolactina e o TSH estão normais, e a cicatriz endometrial não reduziria os hormônios."
+    },
+    {
+      "slug": "q-child-eating-substance-qx-laxative-acidosis",
+      "track": "step1",
+      "system": "psychiatry",
+      "discipline": "pathology",
+      "tags": [
+        "child-eating-substance",
+        "eating-disorders",
+        "acid-base"
+      ],
+      "stem": "A 24-year-old woman is admitted with weakness and dizziness. Her BMI is 16.4 kg/m2, and she has an intense fear of gaining weight. She binge eats several times a week and then 'gets rid of the food' in secret. Her teeth and parotid glands look normal. Lab results: sodium 135 mEq/L, potassium 2.8 mEq/L, chloride 113 mEq/L, bicarbonate 15 mEq/L, arterial pH 7.32, and PaCO2 30 mm Hg. Which compensatory behavior best explains these findings?",
+      "choices": [
+        "Self-induced vomiting",
+        "Misuse of stimulant laxatives",
+        "Misuse of loop diuretics",
+        "Prolonged fasting",
+        "Misuse of thyroid hormone pills"
+      ],
+      "correct": 1,
+      "explanation": "The anion gap is 135 - (113 + 15) = **7**, so she has a **normal anion gap (hyperchloremic) metabolic acidosis** with **hypokalemia**, the pattern of **laxative-induced diarrhea**, which loses bicarbonate and potassium. Her low BMI with purging fits **anorexia nervosa, binge-eating/purging type**. Self-induced vomiting is the tempting choice, but vomiting and diuretics cause **hypochloremic metabolic alkalosis**. Prolonged fasting causes ketoacidosis with a **high** anion gap.",
+      "explanation_pt": "O ânion gap é 135 - (113 + 15) = **7**, logo ela tem **acidose metabólica com ânion gap normal (hiperclorêmica)** e **hipocalemia**, o padrão da **diarreia induzida por laxantes**, que causa perda de bicarbonato e potássio. O IMC baixo com purgação indica **anorexia nervosa, tipo compulsão alimentar purgativa**. O vômito autoinduzido é a alternativa tentadora, mas vômitos e diuréticos causam **alcalose metabólica hipoclorêmica**. O jejum prolongado causa cetoacidose com ânion gap **elevado**."
+    },
+    {
+      "slug": "q-child-eating-substance-qx-fragile-x-mvp",
+      "track": "step1",
+      "system": "psychiatry",
+      "discipline": "pathology",
+      "tags": [
+        "child-eating-substance",
+        "autism",
+        "fragile-x",
+        "cardiac"
+      ],
+      "stem": "A 16-year-old boy is evaluated for behavior problems. Since early childhood he has avoided eye contact and has not played with other children. He flaps his hands when excited and becomes very upset when his daily routine changes. He has moderate intellectual disability. Exam shows a long, narrow face, a prominent jaw, large ears, very flexible finger joints and large testes. His mother's brother has similar features. Which cardiac abnormality is this patient most likely to have?",
+      "choices": [
+        "Mitral valve prolapse",
+        "Bicuspid aortic valve",
+        "Supravalvular aortic stenosis",
+        "Persistent truncus arteriosus",
+        "Atrioventricular septal defect"
+      ],
+      "correct": 0,
+      "explanation": "Autism features with intellectual disability, a long face, large ears, joint laxity and **macroorchidism** point to **fragile X syndrome** (CGG expansion silencing *FMR1*). The connective-tissue laxity also affects the heart, causing **mitral valve prolapse**. Bicuspid aortic valve is the tempting choice because it is the classic valve lesion of a sex-chromosome disorder, but it occurs in **Turner syndrome**. Supravalvular aortic stenosis is Williams syndrome, truncus arteriosus is 22q11.2 deletion, and atrioventricular septal defect is Down syndrome.",
+      "explanation_pt": "Características de autismo com deficiência intelectual, face alongada, orelhas grandes, frouxidão articular e **macro-orquidismo** indicam **síndrome do X frágil** (expansão CGG que silencia o *FMR1*). A frouxidão do tecido conjuntivo também atinge o coração e causa **prolapso da valva mitral**. A valva aórtica bicúspide é a alternativa tentadora, pois é a lesão valvar clássica de uma doença dos cromossomos sexuais, mas ocorre na **síndrome de Turner**. A estenose aórtica supravalvar é da síndrome de Williams, o *truncus arteriosus* é da deleção 22q11.2, e o defeito do septo atrioventricular é da síndrome de Down."
+    },
+    {
+      "slug": "q-child-eating-substance-qx-conduct-disorder-treatment",
+      "track": "step1",
+      "system": "psychiatry",
+      "discipline": "pathology",
+      "tags": [
+        "child-eating-substance",
+        "disruptive-behavior",
+        "treatment"
+      ],
+      "stem": "A 14-year-old boy is brought to the clinic by his parents after he was suspended from school. Over the past year he has threatened classmates with a knife, stolen money from other students and set fire to a neighbor's shed. Last month he hurt the family dog on purpose. He shows little guilt about any of these acts. He pays attention well in class, and he has no depressed mood, anxiety or psychotic symptoms. Which is the most appropriate first-line treatment for his condition?",
+      "choices": [
+        "Long-acting stimulant medication",
+        "Second-generation antipsychotic",
+        "Family-based behavioral therapy",
+        "Selective serotonin reuptake inhibitor",
+        "Benzodiazepine taken as needed"
+      ],
+      "correct": 2,
+      "explanation": "Repeated **violation of the basic rights of others** (threats with a weapon, theft, fire setting, cruelty to animals) in an adolescent is **conduct disorder**, and first-line treatment is **psychosocial**: family-based behavioral therapy such as parent management training or multisystemic therapy. A second-generation antipsychotic is the tempting choice because it can reduce severe aggression, but it is only an add-on when behavioral therapy is not enough. Stimulants treat coexisting ADHD and SSRIs treat depression or anxiety, which he does not have. If the pattern continues after age 18, it can become **antisocial personality disorder**, which requires conduct disorder that began before age 15.",
+      "explanation_pt": "Um padrão repetido de **violação dos direitos básicos dos outros** (ameaça com arma, furto, provocar incêndio, crueldade com animais) em um adolescente é **transtorno de conduta**, e o tratamento de primeira linha é **psicossocial**: terapia comportamental com a família, como o treinamento de pais ou a terapia multissistêmica. O antipsicótico de segunda geração é a alternativa tentadora, pois pode reduzir a agressividade grave, mas é apenas um complemento quando a terapia comportamental não basta. Os estimulantes tratam o TDAH associado e os ISRS tratam depressão ou ansiedade, que ele não tem. Se o padrão continuar após os 18 anos, pode evoluir para **transtorno de personalidade antissocial**, que exige transtorno de conduta iniciado antes dos 15 anos."
+    },
+    {
+      "slug": "q-child-eating-substance-qx-tourette",
+      "track": "step1",
+      "system": "psychiatry",
+      "discipline": "pathology",
+      "tags": [
+        "child-eating-substance",
+        "tic-disorders"
+      ],
+      "stem": "A 10-year-old boy is brought to the clinic because of repeated movements and sounds. For 18 months he has blinked hard, turned his head quickly to the side and shrugged his shoulders many times a day. For the past year he has also sniffed and cleared his throat loudly, although he has no cold or allergy. He feels an urge before each movement and can hold it back for a short time in class. He has had no sore throat or fever this year. The rest of the neurologic exam is normal. Which is the most likely diagnosis?",
+      "choices": [
+        "Persistent motor tic disorder",
+        "Provisional tic disorder",
+        "Sydenham chorea",
+        "Obsessive-compulsive disorder",
+        "Tourette syndrome"
+      ],
+      "correct": 4,
+      "explanation": "He has **multiple motor tics** and **vocal tics** (sniffing, throat clearing) for **more than 1 year**, with onset in childhood: **Tourette syndrome**. A **premonitory urge** and brief **suppressibility** are typical of tics. Persistent motor tic disorder is the tempting choice, but it requires motor tics **or** vocal tics, not both; provisional tic disorder lasts less than 1 year. Sydenham chorea follows streptococcal infection and causes irregular movements that cannot be held back. OCD often occurs together with Tourette syndrome, but it does not explain the tics.",
+      "explanation_pt": "Ele tem **múltiplos tiques motores** e **tiques vocais** (fungar, pigarrear) há **mais de 1 ano**, com início na infância: **síndrome de Tourette**. A **sensação premonitória** e a **supressão** breve são típicas dos tiques. O transtorno de tique motor persistente é a alternativa tentadora, mas exige tiques motores **ou** vocais, e não ambos; o transtorno de tique transitório (provisório) dura menos de 1 ano. A coreia de Sydenham ocorre após infecção estreptocócica e causa movimentos irregulares que não podem ser contidos. O TOC é frequente junto com a síndrome de Tourette, mas não explica os tiques."
+    },
+    {
+      "slug": "q-child-eating-substance-qx-adhd-inattentive",
+      "track": "step1",
+      "system": "psychiatry",
+      "discipline": "pathology",
+      "tags": [
+        "child-eating-substance",
+        "adhd"
+      ],
+      "stem": "A 9-year-old girl is brought to the clinic because her grades have fallen over the past year. Her teacher says she often looks out the window, does not finish her work and makes careless mistakes. At home she loses her books and forgets her chores, and her parents must remind her many times. She is not disruptive and has close friends. She sleeps and eats well and says she feels happy. Hearing and vision tests are normal. When she breathes fast for 3 minutes in the office, she stays alert and keeps talking normally. Which is the most likely diagnosis?",
+      "choices": [
+        "Absence epilepsy",
+        "Attention-deficit/hyperactivity disorder",
+        "Major depressive disorder",
+        "Specific learning disorder with impairment in reading",
+        "Autism spectrum disorder"
+      ],
+      "correct": 1,
+      "explanation": "Inattention, careless mistakes, forgetfulness and losing things at **school and at home** for more than 6 months, starting before age 12, fit **ADHD, predominantly inattentive presentation**, which is often missed in girls because they are not disruptive. Absence epilepsy is the tempting choice, but its brief staring spells are usually **provoked by hyperventilation**, and she stayed alert during the test. A specific learning disorder affects specific academic skills, such as reading, and does not explain forgetting chores at home.",
+      "explanation_pt": "Desatenção, erros por descuido, esquecimentos e perda de objetos **na escola e em casa** há mais de 6 meses, com início antes dos 12 anos, indicam **TDAH, apresentação predominantemente desatenta**, que muitas vezes passa despercebida em meninas por não causarem tumulto. A epilepsia de ausência é a alternativa tentadora, mas suas breves crises de olhar fixo costumam ser **desencadeadas pela hiperventilação**, e ela permaneceu alerta durante o teste. O transtorno específico da aprendizagem afeta habilidades acadêmicas específicas, como a leitura, e não explica o esquecimento das tarefas em casa."
+    },
+    {
+      "slug": "q-child-eating-substance-qx-cannabis-cb1",
+      "track": "step1",
+      "system": "psychiatry",
+      "discipline": "pathology",
+      "tags": [
+        "child-eating-substance",
+        "intoxication",
+        "cannabis"
+      ],
+      "stem": "A 17-year-old boy is brought to the emergency department by friends because he became very anxious at a party. He says that time is passing very slowly and that people are watching him. Since he arrived, he has eaten two large bags of chips. Temperature is 37.0°C, pulse is 116/min, blood pressure is 132/78 mm Hg, and respirations are 16/min. His conjunctivae are red and his mouth is dry. His pupils are normal in size and react to light. His skin is moist, bowel sounds are normal, and there is no nystagmus. Which mechanism best explains the effects of the drug he most likely used?",
+      "choices": [
+        "Activation of CB1 cannabinoid receptors",
+        "Antagonism at NMDA glutamate receptors",
+        "Agonism at serotonin 5-HT2A receptors",
+        "Blockade of muscarinic acetylcholine receptors",
+        "Agonism at mu opioid receptors"
+      ],
+      "correct": 0,
+      "explanation": "**Red conjunctivae**, **increased appetite**, dry mouth, tachycardia, a **slowed sense of time** and anxiety or paranoia point to **cannabis** intoxication. THC is an agonist at **CB1 receptors**, which are Gi-coupled and reduce neurotransmitter release from presynaptic terminals. Muscarinic blockade is the tempting choice because of the dry mouth, tachycardia and altered mental state, but it also causes **dilated pupils**, hot **dry skin**, and decreased bowel sounds. PCP (NMDA antagonism) causes nystagmus, and LSD (5-HT2A agonism) causes mydriasis.",
+      "explanation_pt": "**Hiperemia conjuntival**, **aumento do apetite**, boca seca, taquicardia, **percepção do tempo lentificada** e ansiedade ou paranoia indicam intoxicação por **cannabis**. O THC é agonista dos **receptores CB1**, acoplados à proteína Gi, que reduzem a liberação de neurotransmissores nos terminais pré-sinápticos. O bloqueio muscarínico é a alternativa tentadora por causa da boca seca, da taquicardia e da alteração do estado mental, mas também causa **midríase**, **pele quente e seca** e redução dos ruídos hidroaéreos. A PCP (antagonismo NMDA) causa nistagmo, e o LSD (agonismo 5-HT2A) causa midríase."
+    },
+    {
+      "slug": "q-child-eating-substance-qx-stimulant-crash",
+      "track": "step1",
+      "system": "psychiatry",
+      "discipline": "pathology",
+      "tags": [
+        "child-eating-substance",
+        "stimulants",
+        "withdrawal"
+      ],
+      "stem": "A 26-year-old man is brought to the clinic by his sister. For 2 days he has slept about 14 hours a day and eaten very large meals. He says he feels worthless and 'empty' and has thought that life is not worth living. Before this, he used a drug every day for 5 days and hardly slept or ate during that time. Temperature is 36.8°C, pulse is 64/min, and blood pressure is 112/70 mm Hg. His pupils are normal. He has no tremor, sweating, yawning, runny nose or diarrhea. Withdrawal from which substance best explains these findings?",
+      "choices": [
+        "Alcohol",
+        "Heroin",
+        "Cannabis (marijuana)",
+        "Methamphetamine",
+        "Nicotine"
+      ],
+      "correct": 3,
+      "explanation": "A binge with little sleep or food, followed by a **crash** with **hypersomnia**, **increased appetite** and **depressed mood**, is **stimulant withdrawal** (methamphetamine or cocaine). Its main danger is **suicidal ideation**, so his statement needs attention. Nicotine withdrawal is the tempting choice because it also increases appetite and lowers mood, but it causes **irritability, restlessness and insomnia**, not long sleep. Cannabis withdrawal also causes irritability, poor sleep and a **decreased** appetite, and opioid or alcohol withdrawal would cause autonomic signs that he does not have.",
+      "explanation_pt": "Um período de uso intenso com pouco sono e pouca comida, seguido de um **crash** com **hipersonia**, **aumento do apetite** e **humor deprimido**, é **abstinência de estimulantes** (metanfetamina ou cocaína). O principal perigo é a **ideação suicida**, por isso sua fala merece atenção. A abstinência de nicotina é a alternativa tentadora, pois também aumenta o apetite e piora o humor, mas causa **irritabilidade, inquietação e insônia**, e não sono prolongado. A abstinência de cannabis também causa irritabilidade, sono ruim e **redução** do apetite, e a abstinência de opioides ou de álcool causaria sinais autonômicos que ele não tem."
+    }
+  ],
+  "notes": []
+}

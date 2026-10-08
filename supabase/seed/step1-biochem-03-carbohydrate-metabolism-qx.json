@@ -1,0 +1,177 @@
+{
+  "cards": [],
+  "questions": [
+    {
+      "slug": "q-carbohydrate-metabolism-qx-hfi-phosphate-trapping",
+      "track": "step1",
+      "system": "biochemistry-genetics",
+      "discipline": "pathology",
+      "tags": [
+        "carbohydrate-metabolism",
+        "fructose"
+      ],
+      "stem": "A 7-month-old boy has had episodes of vomiting, sweating and drowsiness for 3 weeks. The episodes began when his parents started giving him pureed fruit and apple juice. Before that he took only breast milk and was well. His liver is enlarged. During an episode, blood glucose is 36 mg/dL, and urine is positive for reducing substances. The episodes stop when fruit and juice are removed from his diet. Which mechanism best explains his low blood glucose?",
+      "choices": [
+        "Fructose triggers excessive insulin release, which drives glucose into muscle and fat",
+        "Fructose-1-phosphate traps phosphate, which slows glycogen breakdown and gluconeogenesis",
+        "Glucose-6-phosphate cannot be converted to free glucose, so the liver cannot export glucose",
+        "Fructokinase is missing, so dietary fructose is lost in the urine instead of becoming glucose",
+        "Galactose-1-phosphate builds up in hepatocytes and blocks the release of glucose from glycogen"
+      ],
+      "correct": 1,
+      "explanation": "This is **hereditary fructose intolerance** (**aldolase B** deficiency). Fructokinase still works, so **fructose-1-phosphate** accumulates in the liver and ties up phosphate; with little free phosphate and ATP, **glycogen phosphorylase** and **gluconeogenesis** slow down, and glucose falls. Fructokinase deficiency is the tempting choice because fructose appears in the urine, but that condition (essential fructosuria) is benign and does not cause hypoglycemia or liver enlargement.",
+      "explanation_pt": "Trata-se de **intolerância hereditária à frutose** (deficiência de **aldolase B**). A frutoquinase continua funcionando, então a **frutose-1-fosfato** se acumula no fígado e sequestra fosfato; com pouco fosfato livre e pouco ATP, a **glicogênio fosforilase** e a **gliconeogênese** ficam mais lentas, e a glicemia cai. A deficiência de frutoquinase é a alternativa tentadora porque há frutose na urina, mas essa condição (frutosúria essencial) é benigna e não causa hipoglicemia nem hepatomegalia."
+    },
+    {
+      "slug": "q-carbohydrate-metabolism-qx-cori-disease-glucagon-test",
+      "track": "step1",
+      "system": "biochemistry-genetics",
+      "discipline": "pathology",
+      "tags": [
+        "carbohydrate-metabolism",
+        "glycogen-storage-disease"
+      ],
+      "stem": "A 3-year-old boy has a large liver and becomes shaky and irritable when meals are late. He is short for his age, and he has mild weakness of the thigh muscles when he climbs stairs. After an overnight fast, results are: glucose 52 mg/dL (normal 70-100), lactate 1.3 mmol/L (normal 0.5-2.2), uric acid 4.1 mg/dL (normal 2-5.5), β-hydroxybutyrate high, ALT 230 U/L (normal under 40) and creatine kinase 760 U/L (normal under 200). Glucagon given 2 hours after a carbohydrate meal raises his blood glucose normally. Glucagon given after an overnight fast does not raise it. Deficiency of which enzyme is most likely?",
+      "choices": [
+        "Glucose-6-phosphatase",
+        "Liver glycogen phosphorylase",
+        "Lysosomal acid α-glucosidase",
+        "Glycogen debranching enzyme",
+        "Muscle glycogen phosphorylase"
+      ],
+      "correct": 3,
+      "explanation": "This is **Cori disease** (type III), with liver and muscle involvement (type IIIa: weakness, high **creatine kinase**). After a meal, phosphorylase can still remove glucose from the new outer chains, so glucagon works; after a fast, only branch points are left, and without the **debranching enzyme** glycogen breakdown stops. Lactate and uric acid stay **normal** because gluconeogenesis is intact, and ketones rise because the body burns fat during the fast. Glucose-6-phosphatase deficiency (von Gierke) is the tempting choice, but it causes high lactate and uric acid and no response to glucagon even after a meal.",
+      "explanation_pt": "Trata-se da **doença de Cori** (tipo III), com acometimento hepático e muscular (tipo IIIa: fraqueza, **creatinoquinase** alta). Após uma refeição, a fosforilase ainda consegue retirar glicose das cadeias externas recém-formadas, então o glucagon funciona; após o jejum, restam apenas os pontos de ramificação e, sem a **enzima desramificadora**, a degradação do glicogênio para. O lactato e o ácido úrico ficam **normais** porque a gliconeogênese está preservada, e as cetonas sobem porque o organismo queima gordura durante o jejum. A deficiência de glicose-6-fosfatase (von Gierke) é a alternativa tentadora, mas causa lactato e ácido úrico altos e nenhuma resposta ao glucagon, mesmo após a refeição."
+    },
+    {
+      "slug": "q-carbohydrate-metabolism-qx-pompe-lysosome",
+      "track": "step1",
+      "system": "biochemistry-genetics",
+      "discipline": "pathology",
+      "tags": [
+        "carbohydrate-metabolism",
+        "glycogen-storage-disease"
+      ],
+      "stem": "A 4-month-old girl has poor feeding, a weak cry and very low muscle tone. Her tongue is large. A chest x-ray shows a very large heart. The ECG shows a short PR interval and very tall QRS complexes, and an echocardiogram shows thick ventricular walls. Blood glucose and lactate are normal. A muscle biopsy shows vacuoles filled with glycogen. The deficient enzyme normally works in which part of the cell?",
+      "choices": [
+        "Lysosome",
+        "Cytosol",
+        "Endoplasmic reticulum lumen",
+        "Mitochondrial matrix",
+        "Peroxisome"
+      ],
+      "correct": 0,
+      "explanation": "This is infantile **Pompe disease** (type II), caused by deficiency of **acid α-glucosidase** (acid maltase). This enzyme breaks down glycogen inside **lysosomes**, so glycogen builds up in membrane-bound vacuoles in heart and skeletal muscle, causing **hypertrophic cardiomyopathy** and hypotonia. The cytosol is the tempting choice because phosphorylase and the debranching enzyme work there; that cytosolic pathway is intact in Pompe disease, which is why blood glucose stays normal.",
+      "explanation_pt": "Trata-se da **doença de Pompe** infantil (tipo II), causada pela deficiência de **α-glicosidase ácida** (maltase ácida). Essa enzima degrada o glicogênio dentro dos **lisossomos**; por isso o glicogênio se acumula em vacúolos delimitados por membrana no coração e no músculo esquelético, causando **cardiomiopatia hipertrófica** e hipotonia. O citosol é a alternativa tentadora porque a fosforilase e a enzima desramificadora atuam ali; essa via citosólica está preservada na doença de Pompe, e por isso a glicemia fica normal."
+    },
+    {
+      "slug": "q-carbohydrate-metabolism-qx-fructose-bypasses-pfk1",
+      "track": "step1",
+      "system": "biochemistry-genetics",
+      "discipline": "physiology",
+      "tags": [
+        "carbohydrate-metabolism",
+        "fructose",
+        "glycolysis"
+      ],
+      "stem": "A 38-year-old man drinks about 2 liters per day of soft drinks sweetened with high-fructose corn syrup. His fasting triglycerides are high, and an ultrasound shows fatty liver. His physician explains that the liver turns fructose into fat faster than it turns glucose into fat. Which enzyme does hepatic fructose metabolism bypass that explains this difference?",
+      "choices": [
+        "Pyruvate kinase",
+        "Pyruvate dehydrogenase",
+        "Phosphofructokinase-1",
+        "Acetyl-CoA carboxylase",
+        "Citrate synthase"
+      ],
+      "correct": 2,
+      "explanation": "In the liver, fructose is phosphorylated by **fructokinase** and split by **aldolase B** into DHAP and glyceraldehyde, which enter glycolysis as **triose phosphates**. This skips **PFK-1**, the rate-limiting step that ATP and citrate normally slow down, so fructose carbons flow freely to acetyl-CoA and **fatty acid synthesis**. Pyruvate dehydrogenase is the tempting choice, but fructose carbons still pass through it to form the acetyl-CoA used for fat synthesis.",
+      "explanation_pt": "No fígado, a frutose é fosforilada pela **frutoquinase** e clivada pela **aldolase B** em DHAP e gliceraldeído, que entram na glicólise como **trioses-fosfato**. Isso contorna a **PFK-1**, a etapa limitante que o ATP e o citrato normalmente freiam; assim, os carbonos da frutose seguem livremente para acetil-CoA e **síntese de ácidos graxos**. A piruvato desidrogenase é a alternativa tentadora, mas os carbonos da frutose ainda passam por ela para formar a acetil-CoA usada na síntese de gordura."
+    },
+    {
+      "slug": "q-carbohydrate-metabolism-qx-glucagon-fructose-2-6-bisphosphate",
+      "track": "step1",
+      "system": "biochemistry-genetics",
+      "discipline": "physiology",
+      "tags": [
+        "carbohydrate-metabolism",
+        "glycolysis",
+        "gluconeogenesis"
+      ],
+      "stem": "Researchers add glucagon to isolated liver cells. Within minutes, glycolysis slows and gluconeogenesis speeds up. The amounts of the enzymes in the cells do not change during this time. Which change most likely explains this rapid shift?",
+      "choices": [
+        "More fructose-2,6-bisphosphate, so the enzyme phosphofructokinase-1 is more strongly activated",
+        "Removal of phosphate from liver pyruvate kinase, which makes it more active",
+        "Rapid synthesis of new PEPCK protein from newly transcribed mRNA",
+        "Activation of acetyl-CoA carboxylase, which raises the cell's level of malonyl-CoA",
+        "Less fructose-2,6-bisphosphate, so fructose-1,6-bisphosphatase is no longer inhibited"
+      ],
+      "correct": 4,
+      "explanation": "Glucagon raises **cAMP**, and **protein kinase A** phosphorylates the bifunctional enzyme: its **PFK-2** activity turns off and its **FBPase-2** activity turns on. **Fructose-2,6-bisphosphate** falls, so PFK-1 loses its strongest activator and **fructose-1,6-bisphosphatase** is no longer inhibited. More fructose-2,6-bisphosphate is the tempting choice, but that is the insulin (fed-state) effect. PKA also phosphorylates and **inactivates** liver pyruvate kinase, and PEPCK induction is a slower change that needs new protein.",
+      "explanation_pt": "O glucagon aumenta o **AMPc**, e a **proteína quinase A** fosforila a enzima bifuncional: sua atividade de **PFK-2** é desligada e a de **FBPase-2** é ligada. A **frutose-2,6-bisfosfato** cai; assim, a PFK-1 perde seu ativador mais potente e a **frutose-1,6-bisfosfatase** deixa de ser inibida. Mais frutose-2,6-bisfosfato é a alternativa tentadora, mas esse é o efeito da insulina (estado alimentado). A PKA também fosforila e **inativa** a piruvato quinase hepática, e a indução da PEPCK é uma mudança mais lenta, que exige síntese de nova proteína."
+    },
+    {
+      "slug": "q-carbohydrate-metabolism-qx-g6pd-nadp-regulation",
+      "track": "step1",
+      "system": "biochemistry-genetics",
+      "discipline": "physiology",
+      "tags": [
+        "carbohydrate-metabolism",
+        "pentose-phosphate-pathway",
+        "g6pd"
+      ],
+      "stem": "Researchers expose isolated human red cells to hydrogen peroxide. Within seconds, the rate of the oxidative pentose phosphate pathway increases several-fold. The amount of glucose-6-phosphate dehydrogenase protein does not change. Which change most directly increases the activity of this enzyme?",
+      "choices": [
+        "A rise in NADP+ as NADPH is used to reduce oxidized glutathione",
+        "Phosphorylation of the enzyme by protein kinase A after a rise in cAMP",
+        "A rise in fructose-2,6-bisphosphate that binds the enzyme as an activator",
+        "A rise in AMP that binds the enzyme as an allosteric activator",
+        "A rise in NADH from glycolysis that binds the enzyme as a cofactor"
+      ],
+      "correct": 0,
+      "explanation": "**Glucose-6-phosphate dehydrogenase** is the rate-limiting enzyme of the **pentose phosphate pathway**, and its main control is the supply of **NADP+**. As glutathione peroxidase removes the peroxide, **glutathione reductase** uses NADPH to restore reduced glutathione and makes NADP+, which speeds up G6PD within seconds. PKA phosphorylation is the tempting choice because it controls many metabolic enzymes, but red cells have no glucagon receptors, and this fast response comes from substrate supply, not a hormone signal. NADH is not used by G6PD at all.",
+      "explanation_pt": "A **glicose-6-fosfato desidrogenase** é a enzima limitante da **via das pentoses-fosfato**, e seu principal controle é a oferta de **NADP+**. Enquanto a glutationa peroxidase remove o peróxido, a **glutationa redutase** usa NADPH para restaurar a glutationa reduzida e gera NADP+, o que acelera a G6PD em segundos. A fosforilação pela PKA é a alternativa tentadora porque controla muitas enzimas metabólicas, mas as hemácias não têm receptores de glucagon, e essa resposta rápida vem da oferta de substrato, não de um sinal hormonal. O NADH não é usado pela G6PD."
+    },
+    {
+      "slug": "q-carbohydrate-metabolism-qx-ethanol-fasting-hypoglycemia",
+      "track": "step1",
+      "system": "biochemistry-genetics",
+      "discipline": "pathology",
+      "tags": [
+        "carbohydrate-metabolism",
+        "gluconeogenesis"
+      ],
+      "stem": "A 45-year-old man is brought to the emergency department confused and sweating. For 2 days he has been drinking heavily and has eaten almost nothing. Results: blood glucose 41 mg/dL (normal 70-100), lactate 4.6 mmol/L (normal 0.5-2.2), β-hydroxybutyrate high and blood ethanol high. Serum insulin is low. He improves quickly with intravenous thiamine and dextrose. Which mechanism best explains his low blood glucose?",
+      "choices": [
+        "Ethanol directly stimulates insulin secretion from pancreatic beta cells",
+        "Thiamine deficiency blocks the entry of pyruvate into the TCA cycle",
+        "Acetaldehyde inhibits glucose-6-phosphatase in the endoplasmic reticulum",
+        "Ketone bodies inhibit the release of glucose from liver glycogen",
+        "A high NADH/NAD+ ratio that limits gluconeogenesis from pyruvate"
+      ],
+      "correct": 4,
+      "explanation": "After 2 days without food, liver glycogen is used up, so blood glucose depends on **gluconeogenesis**. Alcohol dehydrogenase and aldehyde dehydrogenase produce **NADH**; the high **NADH/NAD+ ratio** turns pyruvate into **lactate** and oxaloacetate into **malate**, so gluconeogenesis lacks its substrates, and lactate rises. Thiamine deficiency is the tempting choice because he is given thiamine, but impaired pyruvate dehydrogenase raises lactate without blocking glucose production; thiamine is given before glucose to protect against Wernicke encephalopathy.",
+      "explanation_pt": "Após 2 dias sem comer, o glicogênio hepático se esgota, e a glicemia passa a depender da **gliconeogênese**. A álcool desidrogenase e a aldeído desidrogenase produzem **NADH**; a **relação NADH/NAD+** alta converte piruvato em **lactato** e oxaloacetato em **malato**, então faltam substratos para a gliconeogênese, e o lactato sobe. A deficiência de tiamina é a alternativa tentadora porque ele recebe tiamina, mas a piruvato desidrogenase prejudicada eleva o lactato sem bloquear a produção de glicose; a tiamina é dada antes da glicose para proteger contra a encefalopatia de Wernicke."
+    },
+    {
+      "slug": "q-carbohydrate-metabolism-qx-muscle-phosphorylase-calcium",
+      "track": "step1",
+      "system": "biochemistry-genetics",
+      "discipline": "physiology",
+      "tags": [
+        "carbohydrate-metabolism",
+        "glycogen-metabolism"
+      ],
+      "stem": "A 22-year-old woman starts a 100-meter sprint. Within the first seconds, glycogen breakdown in her leg muscles rises sharply, before her plasma epinephrine level has changed. Which signal most directly activates glycogen breakdown in the contracting muscle at this moment?",
+      "choices": [
+        "Glucagon binding to receptors on the muscle cell membrane, which raises cAMP",
+        "Insulin-activated protein phosphatase 1, which removes the phosphate groups from glycogen phosphorylase",
+        "Glucose-6-phosphate binding to glycogen phosphorylase as an allosteric activator",
+        "Calcium from the sarcoplasmic reticulum binding the calmodulin subunit of phosphorylase kinase",
+        "A rise in ATP that binds glycogen phosphorylase as an allosteric activator"
+      ],
+      "correct": 3,
+      "explanation": "The **calcium** that triggers contraction also binds **calmodulin**, a built-in subunit of **phosphorylase kinase**, which then activates **glycogen phosphorylase**. This links glycogen breakdown to contraction without any hormone; rising AMP adds to the effect. Glucagon is the tempting choice, but skeletal muscle has essentially no glucagon receptors; in muscle, the cAMP signal comes from **epinephrine**, which had not yet risen. Glucose-6-phosphate and ATP signal plenty of energy and inhibit, rather than activate, muscle phosphorylase.",
+      "explanation_pt": "O **cálcio** que dispara a contração também se liga à **calmodulina**, uma subunidade integrante da **fosforilase quinase**, que então ativa a **glicogênio fosforilase**. Isso acopla a degradação do glicogênio à contração sem nenhum hormônio; o aumento do AMP reforça o efeito. O glucagon é a alternativa tentadora, mas o músculo esquelético praticamente não tem receptores de glucagon; no músculo, o sinal de AMPc vem da **adrenalina**, que ainda não havia subido. A glicose-6-fosfato e o ATP sinalizam energia abundante e inibem, em vez de ativar, a fosforilase muscular."
+    }
+  ],
+  "notes": []
+}

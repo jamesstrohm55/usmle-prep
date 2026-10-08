@@ -1,0 +1,186 @@
+{
+ "cards": [],
+ "questions": [
+  {
+   "slug": "q-amino-acid-nucleotide-qx-ada-datp",
+   "track": "step1",
+   "system": "biochemistry-genetics",
+   "discipline": "pathology",
+   "tags": [
+    "amino-acid-nucleotide",
+    "ada-deficiency",
+    "scid",
+    "purine-salvage"
+   ],
+   "stem": "A 4-month-old girl has had oral thrush since birth, chronic diarrhea and poor weight gain. She is now admitted with Pneumocystis jirovecii pneumonia. Her parents are first cousins. Chest x-ray shows no thymic shadow, and the front ends of the ribs look cupped and flared. Her lymphocyte count is very low, and T cells, B cells and NK cells are all markedly reduced. Red blood cell adenosine deaminase activity is absent. Which process best explains the loss of her lymphocytes?",
+   "choices": [
+    "dATP that inhibits ribonucleotide reductase",
+    "Uric acid crystals that deposit in the thymus and lymph nodes",
+    "Orotic acid that builds up and blocks pyrimidine synthesis",
+    "Excess PRPP that drives toxic de novo purine synthesis",
+    "Xanthine that precipitates inside dividing lymphocytes"
+   ],
+   "correct": 0,
+   "explanation": "This is autosomal recessive **SCID** from **adenosine deaminase (ADA)** deficiency; rib-end cupping is a known skeletal sign. Without ADA, **deoxyadenosine** is phosphorylated to **dATP** inside lymphocytes, and dATP **inhibits ribonucleotide reductase**, so cells cannot make the deoxynucleotides needed for DNA synthesis. Uric acid is not the cause: it is usually normal in ADA deficiency, and urate crystals do not destroy lymphocytes. Excess PRPP is the problem in HGPRT deficiency, which causes hyperuricemia, not immunodeficiency.",
+   "explanation_pt": "Trata-se de **SCID** autossômica recessiva por deficiência de **adenosina desaminase (ADA)**; as extremidades costais em taça são um sinal esquelético conhecido. Sem ADA, a **desoxiadenosina** é fosforilada a **dATP** dentro dos linfócitos, e o dATP **inibe a ribonucleotídeo redutase**, impedindo a produção dos desoxinucleotídeos necessários à síntese de DNA. O ácido úrico não é a causa: costuma estar normal na deficiência de ADA, e cristais de urato não destroem linfócitos. O excesso de PRPP é o problema da deficiência de HGPRT, que causa hiperuricemia, e não imunodeficiência."
+  },
+  {
+   "slug": "q-amino-acid-nucleotide-qx-msud-cofactors",
+   "track": "step1",
+   "system": "biochemistry-genetics",
+   "discipline": "physiology",
+   "tags": [
+    "amino-acid-nucleotide",
+    "maple-syrup-urine-disease",
+    "cofactors"
+   ],
+   "stem": "A 6-day-old boy, born at term, fed well for 3 days but now feeds poorly and is very sleepy. His muscle tone alternates between floppy and stiff, and he has had episodes of arching of the back. His diaper smells like burnt sugar. Blood glucose and plasma ammonia are normal. Plasma leucine, isoleucine and valine are markedly elevated, and alloisoleucine is present. The deficient enzyme complex needs the same set of cofactors as which other enzyme?",
+   "choices": [
+    "Pyruvate carboxylase",
+    "Pyruvate dehydrogenase",
+    "Propionyl-CoA carboxylase",
+    "Alanine aminotransferase",
+    "Methylmalonyl-CoA mutase"
+   ],
+   "correct": 1,
+   "explanation": "The odor and the high **branched-chain amino acids** with alloisoleucine point to **maple syrup urine disease**, a defect of **branched-chain α-ketoacid dehydrogenase**. Like **pyruvate dehydrogenase** and α-ketoglutarate dehydrogenase, this complex needs **thiamine pyrophosphate, lipoic acid, CoA, FAD and NAD+**. Propionyl-CoA carboxylase acts later in isoleucine and valine breakdown, but it is a **biotin**-dependent carboxylase, like pyruvate carboxylase. Aminotransferases use pyridoxal phosphate, and methylmalonyl-CoA mutase uses vitamin B12.",
+   "explanation_pt": "O odor e os **aminoácidos de cadeia ramificada** elevados, com aloisoleucina, indicam **doença da urina em xarope de bordo**, defeito da **desidrogenase de α-cetoácidos de cadeia ramificada**. Assim como a **piruvato desidrogenase** e a α-cetoglutarato desidrogenase, esse complexo precisa de **pirofosfato de tiamina, ácido lipoico, CoA, FAD e NAD+**. A propionil-CoA carboxilase atua mais adiante na degradação da isoleucina e da valina, mas é uma carboxilase dependente de **biotina**, como a piruvato carboxilase. As aminotransferases usam fosfato de piridoxal, e a metilmalonil-CoA mutase usa vitamina B12."
+  },
+  {
+   "slug": "q-amino-acid-nucleotide-qx-arginase-deficiency",
+   "track": "step1",
+   "system": "biochemistry-genetics",
+   "discipline": "pathology",
+   "tags": [
+    "amino-acid-nucleotide",
+    "urea-cycle",
+    "arginase"
+   ],
+   "stem": "A 5-year-old girl developed normally until age 2. Since then she has become more and more stiff in the legs, now walks on her toes and falls often. Her parents say she refuses meat and becomes irritable and vomits after large protein meals. Exam shows increased tone and brisk reflexes in both legs, with upgoing plantar responses. Brain MRI shows no sign of perinatal brain injury. Plasma ammonia is mildly elevated, plasma citrulline is normal and plasma arginine is about 4 times the upper limit of normal. Deficiency of which enzyme is most likely?",
+   "choices": [
+    "Argininosuccinate lyase",
+    "Ornithine transcarbamylase",
+    "Arginase",
+    "Carbamoyl phosphate synthetase I",
+    "Argininosuccinate synthetase"
+   ],
+   "correct": 2,
+   "explanation": "**Arginase** is the last urea cycle enzyme: it splits **arginine** into urea and ornithine. Its deficiency is unusual among urea cycle defects because ammonia is often only mildly raised; instead, **arginine accumulates** and the child develops a **progressive spastic diplegia** in early childhood. Argininosuccinate lyase makes arginine, so its deficiency lowers arginine and raises argininosuccinic acid. OTC and CPS-I deficiencies cause severe neonatal hyperammonemia with low citrulline, and argininosuccinate synthetase deficiency raises citrulline.",
+   "explanation_pt": "A **arginase** é a última enzima do ciclo da ureia: cliva a **arginina** em ureia e ornitina. Sua deficiência é diferente dos outros defeitos do ciclo, pois a amônia muitas vezes sobe pouco; em vez disso, a **arginina se acumula** e a criança desenvolve **diplegia espástica progressiva** no início da infância. A argininossuccinato liase produz arginina, então sua deficiência reduz a arginina e eleva o ácido argininossuccínico. As deficiências de OTC e de CPS-I causam hiperamonemia neonatal grave com citrulina baixa, e a deficiência de argininossuccinato sintetase eleva a citrulina."
+  },
+  {
+   "slug": "q-amino-acid-nucleotide-qx-orotic-aciduria-uridine",
+   "track": "step1",
+   "system": "biochemistry-genetics",
+   "discipline": "pharmacology",
+   "tags": [
+    "amino-acid-nucleotide",
+    "orotic-aciduria",
+    "pyrimidine-synthesis"
+   ],
+   "stem": "A 10-month-old boy is evaluated for poor growth and pallor. He did not improve after 6 weeks of oral folic acid and vitamin B12 injections. Laboratory studies show: hemoglobin 7.6 g/dL; mean corpuscular volume 114 fL; serum vitamin B12 and folate normal; plasma ammonia normal; BUN normal. The bone marrow is megaloblastic. Urine contains many needle-shaped crystals, and urine orotic acid is markedly elevated. Which supplement is most likely to correct his anemia?",
+   "choices": [
+    "Folinic acid",
+    "Arginine",
+    "Pyridoxine",
+    "Uridine",
+    "Tetrahydrobiopterin"
+   ],
+   "correct": 3,
+   "explanation": "Megaloblastic anemia that does not respond to B12 or folate, **orotic acid crystals** in the urine and a **normal ammonia** mean **hereditary orotic aciduria**, a defect of **UMP synthase**. Giving **uridine** bypasses the block: it is converted to UMP, restores pyrimidine nucleotides for DNA synthesis, and its products feed back to slow the overproduction of orotic acid. Folinic acid supplies reduced folate but cannot fix a pyrimidine block. Arginine is used in some urea cycle defects, which raise orotic acid together with hyperammonemia.",
+   "explanation_pt": "Anemia megaloblástica que não responde a B12 nem a folato, **cristais de ácido orótico** na urina e **amônia normal** indicam **acidúria orótica hereditária**, defeito da **UMP sintase**. A **uridina** contorna o bloqueio: é convertida em UMP, repõe os nucleotídeos de pirimidina para a síntese de DNA e seus produtos inibem por retroalimentação a produção excessiva de ácido orótico. O ácido folínico fornece folato reduzido, mas não corrige um bloqueio das pirimidinas. A arginina é usada em alguns defeitos do ciclo da ureia, que elevam o ácido orótico junto com hiperamonemia."
+  },
+  {
+   "slug": "q-amino-acid-nucleotide-qx-bh4-neurotransmitters",
+   "track": "step1",
+   "system": "biochemistry-genetics",
+   "discipline": "physiology",
+   "tags": [
+    "amino-acid-nucleotide",
+    "phenylketonuria",
+    "tetrahydrobiopterin",
+    "neurotransmitter-synthesis"
+   ],
+   "stem": "A girl had a high phenylalanine level on newborn screening and was started on a low-phenylalanine diet. At 5 months her plasma phenylalanine is well controlled, but she has poor head control, low truncal tone, episodes in which her eyes roll upward, and two seizures. Serum prolactin is elevated. Cerebrospinal fluid shows low homovanillic acid and low 5-hydroxyindoleacetic acid. Lack of which cofactor best explains all of her findings?",
+   "choices": [
+    "Pyridoxal phosphate",
+    "Thiamine pyrophosphate",
+    "S-adenosylmethionine",
+    "Ascorbic acid",
+    "Tetrahydrobiopterin"
+   ],
+   "correct": 4,
+   "explanation": "**Tetrahydrobiopterin (BH4)** is the cofactor for **phenylalanine hydroxylase**, **tyrosine hydroxylase** and **tryptophan hydroxylase**. A BH4 synthesis or recycling defect therefore causes high phenylalanine and also low **dopamine** (low HVA, high prolactin from lost dopamine inhibition) and low **serotonin** (low 5-HIAA), which a low-phenylalanine diet cannot correct. Pyridoxal phosphate is the cofactor of aromatic L-amino acid decarboxylase, whose defect also lowers HVA and 5-HIAA, but it does not raise phenylalanine. Ascorbic acid is needed by dopamine β-hydroxylase, a later step that does not affect serotonin.",
+   "explanation_pt": "A **tetra-hidrobiopterina (BH4)** é o cofator da **fenilalanina hidroxilase**, da **tirosina hidroxilase** e da **triptofano hidroxilase**. Um defeito na síntese ou na reciclagem da BH4 causa fenilalanina alta e também **dopamina** baixa (HVA baixo, prolactina alta pela perda da inibição dopaminérgica) e **serotonina** baixa (5-HIAA baixo), que a dieta pobre em fenilalanina não corrige. O fosfato de piridoxal é o cofator da descarboxilase de L-aminoácidos aromáticos, cujo defeito também reduz HVA e 5-HIAA, mas não eleva a fenilalanina. O ácido ascórbico é usado pela dopamina β-hidroxilase, uma etapa posterior que não afeta a serotonina."
+  },
+  {
+   "slug": "q-amino-acid-nucleotide-qx-alkaptonuria-arthropathy",
+   "track": "step1",
+   "system": "biochemistry-genetics",
+   "discipline": "pathology",
+   "tags": [
+    "amino-acid-nucleotide",
+    "alkaptonuria",
+    "tyrosine-catabolism"
+   ],
+   "stem": "A 48-year-old man has had worsening low back pain and stiffness for 10 years, and now his knees hurt too. His ear cartilage looks slate blue-black, and there are dark brown patches on the whites of both eyes. A urine sample left on the counter for some hours turns black. Spine x-rays show narrowed disc spaces with dense calcification of many intervertebral discs. Serum uric acid is normal. Deficiency of which enzyme is most likely?",
+   "choices": [
+    "Tyrosinase",
+    "Homogentisate oxidase",
+    "Fumarylacetoacetate hydrolase",
+    "Phenylalanine hydroxylase",
+    "Hypoxanthine-guanine phosphoribosyltransferase"
+   ],
+   "correct": 1,
+   "explanation": "Urine that **darkens on standing**, blue-black pigment in ear cartilage and sclera (**ochronosis**) and spinal arthropathy with **calcified discs** mean **alkaptonuria**. **Homogentisate oxidase** deficiency blocks tyrosine breakdown, and **homogentisic acid** builds up and binds to connective tissue. Tyrosinase is the tempting choice because it also deals with pigment, but its deficiency causes **albinism**, with too little pigment, not dark deposits. Fumarylacetoacetate hydrolase deficiency (tyrosinemia type I) causes liver and kidney disease in infancy.",
+   "explanation_pt": "Urina que **escurece quando deixada em repouso**, pigmento negro-azulado na cartilagem da orelha e na esclera (**ocronose**) e artropatia da coluna com **discos calcificados** indicam **alcaptonúria**. A deficiência de **homogentisato oxidase** bloqueia a degradação da tirosina, e o **ácido homogentísico** se acumula e se liga ao tecido conjuntivo. A tirosinase é a opção tentadora por também envolver pigmento, mas sua deficiência causa **albinismo**, com falta de pigmento, e não depósitos escuros. A deficiência de fumarilacetoacetato hidrolase (tirosinemia tipo I) causa doença hepática e renal na infância."
+  },
+  {
+   "slug": "q-amino-acid-nucleotide-qx-propionic-acidemia",
+   "track": "step1",
+   "system": "biochemistry-genetics",
+   "discipline": "pathology",
+   "tags": [
+    "amino-acid-nucleotide",
+    "organic-acidemia",
+    "hyperammonemia",
+    "propionyl-coa"
+   ],
+   "stem": "A 4-day-old girl, born at term, is brought in for vomiting, poor feeding and lethargy. She breathes fast and deep. Laboratory studies show: arterial pH 7.18; PaCO2 22 mm Hg; HCO3 8 mEq/L; Na 137 mEq/L; Cl 102 mEq/L; glucose 52 mg/dL; urine ketones large; plasma ammonia markedly elevated; plasma glycine elevated. Urine organic acids show high 3-hydroxypropionate and methylcitrate, and methylmalonic acid is normal. Which enzyme is most likely deficient?",
+   "choices": [
+    "Ornithine transcarbamylase",
+    "Branched-chain α-ketoacid dehydrogenase",
+    "Methylmalonyl-CoA mutase",
+    "Propionyl-CoA carboxylase",
+    "Carbamoyl phosphate synthetase I"
+   ],
+   "correct": 3,
+   "explanation": "She has a **high anion gap metabolic acidosis** (137 − [102 + 8] = 27) with ketosis and hyperammonemia, the pattern of an **organic acidemia**, and **3-hydroxypropionate and methylcitrate** come from excess **propionyl-CoA**: **propionyl-CoA carboxylase** deficiency (propionic acidemia). Ammonia rises because propionyl-CoA inhibits **N-acetylglutamate synthase**, which slows CPS-I. Methylmalonyl-CoA mutase is one step later, so its defect would raise **methylmalonic acid**, which is normal here. Primary urea cycle defects such as OTC or CPS-I deficiency cause respiratory alkalosis without ketoacidosis.",
+   "explanation_pt": "Ela tem **acidose metabólica com ânion gap elevado** (137 − [102 + 8] = 27), com cetose e hiperamonemia, o padrão de uma **acidemia orgânica**, e o **3-hidroxipropionato e o metilcitrato** vêm do excesso de **propionil-CoA**: deficiência de **propionil-CoA carboxilase** (acidemia propiônica). A amônia sobe porque o propionil-CoA inibe a **N-acetilglutamato sintase**, o que reduz a atividade da CPS-I. A metilmalonil-CoA mutase atua uma etapa depois, e seu defeito elevaria o **ácido metilmalônico**, normal aqui. Defeitos primários do ciclo da ureia, como deficiência de OTC ou de CPS-I, causam alcalose respiratória sem cetoacidose."
+  },
+  {
+   "slug": "q-amino-acid-nucleotide-qx-phenylbutyrate-otc-carrier",
+   "track": "step1",
+   "system": "biochemistry-genetics",
+   "discipline": "pharmacology",
+   "tags": [
+    "amino-acid-nucleotide",
+    "urea-cycle",
+    "hyperammonemia",
+    "nitrogen-scavengers"
+   ],
+   "stem": "A 15-year-old girl has had several episodes of vomiting, headache and confusion, each after a large meat meal; between episodes she is well. Her brother died of hyperammonemia as a newborn. During the current episode, laboratory studies show: plasma ammonia 190 μmol/L (reference below 50); plasma glutamine high; plasma citrulline low; urine orotic acid high; anion gap normal. After recovery she starts a protein-limited diet and oral sodium phenylbutyrate. How does this drug lower her ammonia?",
+   "choices": [
+    "It acidifies the colon so that ammonia is trapped as ammonium",
+    "It replaces N-acetylglutamate as the activator of CPS-I",
+    "It kills urease-producing bacteria in the colon",
+    "It speeds ammonia uptake by muscle as alanine",
+    "Its product joins glutamine for excretion in urine"
+   ],
+   "correct": 4,
+   "explanation": "A girl with protein-triggered hyperammonemia, low citrulline, high orotic acid and a brother who died as a newborn is likely a **symptomatic OTC carrier** (X-linked, with unfavorable X inactivation in the liver). **Phenylbutyrate** is converted to **phenylacetate**, which joins **glutamine** to form **phenylacetylglutamine**; the kidney excretes it, and each molecule removes two nitrogen atoms without using the urea cycle. Acidifying the colon to trap ammonium is how **lactulose** works in hepatic encephalopathy, not this drug. Activating CPS-I in place of N-acetylglutamate is the action of carglumic acid, used for N-acetylglutamate synthase deficiency.",
+   "explanation_pt": "Uma menina com hiperamonemia desencadeada por proteína, citrulina baixa, ácido orótico alto e um irmão que morreu no período neonatal é provavelmente uma **portadora sintomática de deficiência de OTC** (ligada ao X, com inativação do X desfavorável no fígado). O **fenilbutirato** é convertido em **fenilacetato**, que se une à **glutamina** e forma **fenilacetilglutamina**; o rim a excreta, e cada molécula remove dois átomos de nitrogênio sem usar o ciclo da ureia. Acidificar o cólon para reter amônio é o mecanismo da **lactulose** na encefalopatia hepática, e não deste fármaco. Ativar a CPS-I no lugar do N-acetilglutamato é a ação do ácido carglúmico, usado na deficiência de N-acetilglutamato sintase."
+  }
+ ],
+ "notes": []
+}

@@ -1,0 +1,185 @@
+{
+  "cards": [],
+  "questions": [
+    {
+      "slug": "q-mood-anxiety-trauma-qx-panic-locus-coeruleus",
+      "track": "step1",
+      "system": "psychiatry",
+      "discipline": "pathology",
+      "tags": [
+        "mood-anxiety-trauma",
+        "anxiety",
+        "panic",
+        "neurobiology"
+      ],
+      "stem": "A 29-year-old woman has had 6 episodes over the past 2 months of a sudden pounding heartbeat, chest tightness, shortness of breath, trembling and a strong fear that she is dying. The episodes start without warning, once while she was resting on her sofa, and each one peaks within 10 minutes. Between episodes she worries all the time about the next one, and she has stopped driving on highways. She takes no medications and drinks one cup of coffee a day. Today her vital signs, physical examination and ECG are normal. Laboratory results: TSH 1.8 mU/L (normal 0.5-4.5), fasting glucose 88 mg/dL (normal 70-99), plasma free metanephrines within the normal range, and a negative urine drug screen. Overactivity of which nucleus is most closely linked to the sudden surge of arousal and autonomic symptoms during her episodes?",
+      "choices": [
+        "Dorsal raphe nucleus",
+        "Ventral tegmental area",
+        "Nucleus basalis of Meynert",
+        "Locus coeruleus",
+        "Substantia nigra pars compacta"
+      ],
+      "correct": 3,
+      "explanation": "Recurrent, unexpected attacks with at least 1 month of worry and avoidance, after normal thyroid, glucose, catecholamine and drug tests, fit **panic disorder**. The **locus coeruleus** in the pons is the main source of brain **norepinephrine**, and a burst of its activity produces sudden alertness, fear, tachycardia and sweating, which is why noradrenergic overactivity is linked to panic. The dorsal raphe nucleus is tempting because serotonergic drugs help panic disorder, but it makes **serotonin**, and those drugs work slowly over weeks rather than explaining the acute alarm surge. The VTA and substantia nigra make dopamine, and the nucleus basalis makes acetylcholine.",
+      "explanation_pt": "Ataques recorrentes e inesperados, com pelo menos 1 mês de preocupação e esquiva, após exames normais de tireoide, glicose, catecolaminas e triagem toxicológica, indicam **transtorno de pânico**. O **locus cerúleo** na ponte é a principal fonte de **noradrenalina** do encéfalo, e uma descarga de sua atividade produz alerta súbito, medo, taquicardia e sudorese; por isso a hiperatividade noradrenérgica está ligada ao pânico. O núcleo dorsal da rafe é tentador porque os fármacos serotoninérgicos ajudam no transtorno de pânico, mas ele produz **serotonina**, e esses fármacos agem lentamente, ao longo de semanas, sem explicar a descarga aguda de alarme. A área tegmentar ventral e a substância negra produzem dopamina, e o núcleo basal de Meynert produz acetilcolina."
+    },
+    {
+      "slug": "q-mood-anxiety-trauma-qx-ocd-orbitofrontal-caudate",
+      "track": "step1",
+      "system": "psychiatry",
+      "discipline": "pathology",
+      "tags": [
+        "mood-anxiety-trauma",
+        "ocd",
+        "neurobiology"
+      ],
+      "stem": "A 24-year-old man spends about 3 hours a day washing his hands. Several times an hour he has unwanted thoughts that his hands are covered with dangerous germs. He knows these thoughts are excessive, but washing is the only thing that briefly lowers his anxiety. His hands are red and cracked. He has no tics, and he has never had a period of elevated mood. In a research study, functional brain imaging is done while he holds an object he believes is dirty. Increased activity in which circuit is most likely?",
+      "choices": [
+        "Hippocampus and entorhinal cortex",
+        "Orbitofrontal cortex and caudate nucleus",
+        "Cerebellar vermis and dentate nucleus",
+        "Primary motor cortex and putamen",
+        "Lateral hypothalamus and nucleus accumbens"
+      ],
+      "correct": 1,
+      "explanation": "Intrusive, unwanted thoughts (**obsessions**) relieved for a short time by repeated acts (**compulsions**), with preserved insight, are **OCD**. Imaging studies in OCD show **overactivity** of a loop that links the **orbitofrontal cortex** and **anterior cingulate** to the **caudate nucleus** and thalamus, and symptom provocation increases this activity. The motor cortex-putamen loop is tempting because rituals are repeated movements, but that sensorimotor loop is linked mainly to **tics**, which he does not have. The hippocampal and cerebellar circuits serve memory and coordination, and the hypothalamus-accumbens circuit serves feeding and reward.",
+      "explanation_pt": "Pensamentos intrusivos e indesejados (**obsessões**) aliviados por pouco tempo por atos repetidos (**compulsões**), com crítica preservada, caracterizam o **TOC**. Estudos de imagem no TOC mostram **hiperatividade** de um circuito que liga o **córtex orbitofrontal** e o **cíngulo anterior** ao **núcleo caudado** e ao tálamo, e a provocação dos sintomas aumenta essa atividade. O circuito córtex motor-putâmen é tentador porque os rituais são movimentos repetidos, mas esse circuito sensório-motor está ligado principalmente aos **tiques**, que ele não tem. Os circuitos do hipocampo e do cerebelo servem à memória e à coordenação, e o circuito hipotálamo-núcleo accumbens serve à alimentação e à recompensa."
+    },
+    {
+      "slug": "q-mood-anxiety-trauma-qx-adjustment-job-loss",
+      "track": "step1",
+      "system": "psychiatry",
+      "discipline": "pathology",
+      "tags": [
+        "mood-anxiety-trauma",
+        "trauma",
+        "adjustment"
+      ],
+      "stem": "A 44-year-old man comes to the clinic 5 weeks after he lost his job when his factory closed. About a week after the layoff he began to feel sad and tearful. He worries about paying his bills, wakes up often at night and has trouble concentrating when he reads. He has stopped returning calls from friends and has not started looking for a new job. His appetite and energy are normal. He still enjoys playing soccer with his son on weekends. He has no feelings of guilt and no thoughts of death or suicide. He has no past psychiatric history. Which is the most likely diagnosis?",
+      "choices": [
+        "Major depressive disorder, single episode",
+        "Generalized anxiety disorder",
+        "Acute stress disorder",
+        "Persistent depressive disorder",
+        "Adjustment disorder with depressed mood"
+      ],
+      "correct": 4,
+      "explanation": "Low mood that began **within 3 months of a clear stressor**, with real distress and some loss of function (he avoids friends and does not look for work), but without enough symptoms for another disorder, is **adjustment disorder with depressed mood**. Major depressive disorder is the most tempting choice, but he has only 3 of the needed symptoms (sad mood, poor sleep, poor concentration); his interest, appetite and energy are preserved, and he has no guilt or suicidal thoughts. Acute stress disorder requires exposure to a life-threatening or violent trauma, and job loss is not one. Generalized anxiety disorder needs at least 6 months of worry about many topics, and persistent depressive disorder needs at least 2 years.",
+      "explanation_pt": "Humor deprimido que começou **até 3 meses após um estressor claro**, com sofrimento real e alguma perda de função (ele evita os amigos e não procura emprego), mas sem sintomas suficientes para outro transtorno, é **transtorno de adaptação com humor deprimido**. O transtorno depressivo maior é a escolha mais tentadora, mas ele tem apenas 3 dos sintomas necessários (humor triste, sono ruim, falta de concentração); interesse, apetite e energia estão preservados, e não há culpa nem ideação suicida. O transtorno de estresse agudo exige exposição a um trauma com ameaça à vida ou violência, e a perda do emprego não é um trauma desse tipo. O TAG exige pelo menos 6 meses de preocupação com vários temas, e o transtorno depressivo persistente exige pelo menos 2 anos."
+    },
+    {
+      "slug": "q-mood-anxiety-trauma-qx-steroid-induced-mania",
+      "track": "step1",
+      "system": "psychiatry",
+      "discipline": "pathology",
+      "tags": [
+        "mood-anxiety-trauma",
+        "bipolar",
+        "mania",
+        "secondary-causes"
+      ],
+      "stem": "A 31-year-old woman is admitted to the hospital with a severe asthma attack. She is treated with high-dose oral prednisone and inhaled albuterol as needed. On hospital day 4, the nurses report that she has hardly slept for 2 nights but does not feel tired. She talks fast, jumps from topic to topic and says she will start three companies and write a book this month. She has no personal or family history of psychiatric illness and no history of drug use. Temperature is 37.0°C (98.6°F), pulse is 96/min, blood pressure is 128/80 mm Hg, and oxygen saturation is 97% on room air. Laboratory results: random blood glucose 182 mg/dL, sodium 139 mEq/L, TSH 1.6 mU/L (normal 0.5-4.5), and a negative urine drug screen. Which is the most likely cause of her symptoms?",
+      "choices": [
+        "Adverse effect of prednisone",
+        "Adverse effect of albuterol",
+        "First episode of bipolar I disorder",
+        "Thyrotoxicosis",
+        "Delirium from hypoxemia"
+      ],
+      "correct": 0,
+      "explanation": "A first manic picture (little need for sleep, pressured speech, flight of ideas, grandiose plans) that starts a few days after **high-dose glucocorticoids** in a woman with no psychiatric history is most likely **glucocorticoid-induced mania**; the high glucose is another steroid effect. Glucocorticoids commonly cause insomnia and euphoria, and at high doses they can cause mania or psychosis, which usually improves as the dose is lowered. Albuterol is the most tempting distractor, but a beta-2 agonist causes tremor, anxiety and tachycardia, not grandiosity and flight of ideas. A primary bipolar I diagnosis is not made when a drug better explains the episode, unless the mania persists well after the drug is stopped, and the normal TSH and oxygen saturation exclude thyrotoxicosis and hypoxemia.",
+      "explanation_pt": "Um primeiro quadro maníaco (pouca necessidade de sono, fala acelerada, fuga de ideias, planos grandiosos) que começa poucos dias após **glicocorticoide em dose alta**, em uma mulher sem história psiquiátrica, é mais provavelmente **mania induzida por glicocorticoide**; a glicemia alta é outro efeito do corticoide. Os glicocorticoides causam com frequência insônia e euforia e, em doses altas, podem causar mania ou psicose, que geralmente melhora com a redução da dose. O salbutamol é o distrator mais tentador, mas um agonista beta-2 causa tremor, ansiedade e taquicardia, não grandiosidade e fuga de ideias. O diagnóstico de transtorno bipolar tipo I primário não é feito quando um fármaco explica melhor o episódio, a menos que a mania persista bem depois da suspensão do fármaco, e o TSH e a saturação de oxigênio normais excluem tireotoxicose e hipoxemia."
+    },
+    {
+      "slug": "q-mood-anxiety-trauma-qx-atypical-features",
+      "track": "step1",
+      "system": "psychiatry",
+      "discipline": "pathology",
+      "tags": [
+        "mood-anxiety-trauma",
+        "depression",
+        "specifiers"
+      ],
+      "stem": "A 26-year-old woman has felt depressed for 2 months. She sleeps 11 to 12 hours a night and still feels tired. She eats more than usual and has gained 6 kg. She says her arms and legs often feel as heavy as lead. When friends take her out to dinner, her mood lifts for the evening, but it falls again the next day. Since her teens she has felt deeply hurt by small criticisms, and she has ended friendships because of this. She has trouble concentrating at work and feels worthless. She has never had a period of elevated mood. This is her first depressive episode. TSH is normal. Which is the most likely diagnosis?",
+      "choices": [
+        "Major depressive disorder with melancholic features",
+        "Major depressive disorder with seasonal pattern",
+        "Major depressive disorder with atypical features",
+        "Bipolar II disorder",
+        "Persistent depressive disorder"
+      ],
+      "correct": 2,
+      "explanation": "She meets criteria for a **major depressive episode** (depressed mood, hypersomnia, increased appetite with weight gain, fatigue, poor concentration and worthlessness for 2 months). Her **mood reactivity** (mood lifts with good events), **hypersomnia**, **weight gain**, **leaden paralysis** and long-standing **rejection sensitivity** define the **atypical features** specifier. Melancholic features are nearly the opposite: mood that does not brighten with good events, early-morning waking, weight loss and marked guilt. A seasonal pattern needs episodes that recur at the same time of year, bipolar II needs a hypomanic episode, and persistent depressive disorder needs at least 2 years of symptoms.",
+      "explanation_pt": "Ela preenche critérios para um **episódio depressivo maior** (humor deprimido, hipersonia, aumento do apetite com ganho de peso, fadiga, falta de concentração e sentimento de inutilidade por 2 meses). A **reatividade do humor** (o humor melhora com eventos positivos), a **hipersonia**, o **ganho de peso**, a **paralisia de chumbo** (*leaden paralysis*) e a **sensibilidade à rejeição** de longa data definem o especificador **com características atípicas**. As características melancólicas são quase o oposto: humor que não melhora com eventos positivos, despertar precoce, perda de peso e culpa intensa. O padrão sazonal exige episódios que se repetem na mesma época do ano, o bipolar tipo II exige um episódio hipomaníaco, e o transtorno depressivo persistente exige pelo menos 2 anos de sintomas."
+    },
+    {
+      "slug": "q-mood-anxiety-trauma-qx-persistent-depressive-labs",
+      "track": "step1",
+      "system": "psychiatry",
+      "discipline": "pathology",
+      "tags": [
+        "mood-anxiety-trauma",
+        "depression",
+        "dysthymia"
+      ],
+      "stem": "A 39-year-old man comes to the clinic because his wife says he is \"always gloomy.\" He agrees that he has felt down on most days for at least 3 years. He has low energy, low self-esteem and trouble making decisions. In that time he has never felt well for more than a few weeks. He has never had a 2-week period with loss of interest in his hobbies, a change in appetite or thoughts of suicide. He has never had a period of elevated mood or unusually high energy. He works full time as an accountant. He says the low mood makes his work and marriage harder. Laboratory results: hemoglobin 14.6 g/dL (normal 13.5-17.5), TSH 2.1 mU/L (normal 0.5-4.5), free T4 1.2 ng/dL (normal 0.8-1.8), calcium 9.4 mg/dL (normal 8.5-10.5), and fasting glucose 92 mg/dL (normal 70-99). Which is the most likely diagnosis?",
+      "choices": [
+        "Major depressive disorder",
+        "Persistent depressive disorder",
+        "Cyclothymic disorder",
+        "Depressive disorder due to hypothyroidism",
+        "Adjustment disorder with depressed mood"
+      ],
+      "correct": 1,
+      "explanation": "Depressed mood on most days for **at least 2 years**, with at least 2 other symptoms (low energy, low self-esteem, poor decision making) and **no symptom-free period longer than 2 months**, is **persistent depressive disorder** (dysthymia). Major depressive disorder is the most tempting choice, but he has never had 2 weeks with 5 or more symptoms, such as anhedonia, appetite change or suicidal thoughts. Cyclothymic disorder needs periods of hypomanic symptoms, and the normal TSH and free T4 exclude hypothyroidism as the cause. Adjustment disorder needs a clear stressor and begins within 3 months of it.",
+      "explanation_pt": "Humor deprimido na maioria dos dias por **pelo menos 2 anos**, com pelo menos 2 outros sintomas (pouca energia, baixa autoestima, dificuldade de decisão) e **nenhum período sem sintomas maior que 2 meses**, é **transtorno depressivo persistente** (distimia). O transtorno depressivo maior é a escolha mais tentadora, mas ele nunca teve 2 semanas com 5 ou mais sintomas, como anedonia, alteração do apetite ou ideação suicida. O transtorno ciclotímico exige períodos de sintomas hipomaníacos, e o TSH e o T4 livre normais excluem o hipotireoidismo como causa. O transtorno de adaptação exige um estressor claro e começa até 3 meses após ele."
+    },
+    {
+      "slug": "q-mood-anxiety-trauma-qx-ptsd-amygdala",
+      "track": "step1",
+      "system": "psychiatry",
+      "discipline": "pathology",
+      "tags": [
+        "mood-anxiety-trauma",
+        "trauma",
+        "ptsd",
+        "neurobiology"
+      ],
+      "stem": "A 33-year-old man returned from military combat 6 months ago. Since then he has had nightmares about an explosion that killed two friends. When he hears fireworks, he feels as if he is back at the scene. He avoids crowds and war movies, feels emotionally numb with his family and startles at small noises. In a research study, functional MRI is done while he looks at combat images. Compared with veterans without this disorder, which brain structure most likely shows increased activity?",
+      "choices": [
+        "Amygdala",
+        "Hippocampus",
+        "Medial prefrontal cortex",
+        "Mammillary bodies",
+        "Suprachiasmatic nucleus"
+      ],
+      "correct": 0,
+      "explanation": "Intrusions, avoidance, emotional numbing and hyperarousal for more than 1 month after a life-threatening event are **PTSD**. The **amygdala** detects threat and drives fear responses, and in PTSD it **overreacts** to trauma reminders. The medial prefrontal cortex is the most tempting choice because it is also abnormal in PTSD, but its activity is **reduced**, so it fails to calm the amygdala. The hippocampus is often smaller and less active, which may make it harder to link the fear memory to its context, so safe places are not recognized as safe; the mammillary bodies and suprachiasmatic nucleus serve memory and circadian rhythm.",
+      "explanation_pt": "Intrusões, esquiva, embotamento emocional e hiperexcitabilidade por mais de 1 mês após um evento com ameaça à vida caracterizam o **TEPT**. A **amígdala** detecta ameaças e comanda as respostas de medo e, no TEPT, ela **reage em excesso** a lembranças do trauma. O córtex pré-frontal medial é a escolha mais tentadora porque também está alterado no TEPT, mas sua atividade está **reduzida**, de modo que ele não consegue acalmar a amígdala. O hipocampo costuma ser menor e menos ativo, o que pode dificultar a ligação da memória de medo ao seu contexto, de modo que lugares seguros não são reconhecidos como seguros; os corpos mamilares e o núcleo supraquiasmático servem à memória e ao ritmo circadiano."
+    },
+    {
+      "slug": "q-mood-anxiety-trauma-qx-suicide-strongest-predictor",
+      "track": "step1",
+      "system": "psychiatry",
+      "discipline": "pathology",
+      "tags": [
+        "mood-anxiety-trauma",
+        "suicide",
+        "risk-factors"
+      ],
+      "stem": "A 52-year-old man with major depressive disorder comes for a follow-up visit. He divorced last year and now lives alone. He lost his job 3 months ago. He drinks 3 to 4 beers most nights and has chronic low back pain. Two years ago, during an earlier depressive episode, he took an overdose of acetaminophen and was treated in the intensive care unit. Today he says he feels hopeless about the future. Which factor in his history is the strongest predictor of death by suicide?",
+      "choices": [
+        "Living alone after a divorce",
+        "Recent loss of his job",
+        "His overdose 2 years ago",
+        "Drinking most nights",
+        "Chronic low back pain"
+      ],
+      "correct": 2,
+      "explanation": "A **previous suicide attempt** is the single strongest predictor of later death by suicide, so his overdose 2 years ago carries the most weight. Alcohol use is the most tempting distractor because it is a strong risk factor that lowers inhibition, but it adds less risk than a prior attempt. Living alone, recent job loss, chronic pain, male sex and hopelessness all add risk too, so this man needs a direct, careful assessment of suicidal thoughts and plans.",
+      "explanation_pt": "Uma **tentativa de suicídio prévia** é o preditor isolado mais forte de morte posterior por suicídio, por isso a overdose de 2 anos atrás tem o maior peso. O uso de álcool é o distrator mais tentador porque é um fator de risco forte que reduz a inibição, mas acrescenta menos risco que uma tentativa prévia. Morar sozinho, perda recente do emprego, dor crônica, sexo masculino e desesperança também aumentam o risco, de modo que este homem precisa de uma avaliação direta e cuidadosa de ideação e planos suicidas."
+    }
+  ],
+  "notes": []
+}

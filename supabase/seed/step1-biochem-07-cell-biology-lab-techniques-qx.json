@@ -1,0 +1,184 @@
+{
+  "cards": [],
+  "questions": [
+    {
+      "slug": "q-cell-biology-lab-qx-i-cell-disease",
+      "track": "step1",
+      "system": "biochemistry-genetics",
+      "discipline": "pathology",
+      "tags": [
+        "cell-biology-lab",
+        "organelles",
+        "golgi",
+        "lysosome"
+      ],
+      "stem": "A 14-month-old girl is evaluated for delayed development. Since early infancy she has had stiff joints, coarse facial features and very thick gums. Her corneas are clear. The liver is mildly enlarged, and x-rays show broad ribs and abnormal vertebrae. Activities of several different lysosomal enzymes, including β-hexosaminidase, arylsulfatase A and iduronate sulfatase, are 8 to 15 times above the upper limit of normal in plasma, but they are markedly reduced inside her cultured skin fibroblasts. The fibroblasts contain many large cytoplasmic inclusions. Which step is most likely defective?",
+      "choices": [
+        "Removal of L-iduronate from dermatan and heparan sulfate inside lysosomes",
+        "Breakdown of GM2 ganglioside by hexosaminidase A inside lysosomes",
+        "Phosphorylation of mannose residues on lysosomal enzymes in the Golgi",
+        "Addition of N-linked core sugars to newly made proteins in the rough ER",
+        "Pumping of protons into the lysosome by a vacuolar ATPase"
+      ],
+      "correct": 2,
+      "explanation": "This is **I-cell disease** (mucolipidosis type II): **N-acetylglucosamine-1-phosphotransferase** in the Golgi fails to put the **mannose-6-phosphate** tag on lysosomal enzymes. Without the tag, many different enzymes are **secreted into the blood** instead of being sent to lysosomes, so plasma levels are high while cells fill with undigested material (the inclusions). **Hurler syndrome** (α-L-iduronidase deficiency) also causes coarse features and stiff joints, but only one enzyme is missing, plasma enzyme levels are not high, and corneal clouding is typical.",
+      "explanation_pt": "Trata-se da **doença da célula I** (mucolipidose tipo II): a **N-acetilglicosamina-1-fosfotransferase** do Golgi não coloca o marcador **manose-6-fosfato** nas enzimas lisossômicas. Sem o marcador, muitas enzimas diferentes são **secretadas para o sangue** em vez de seguirem para os lisossomos; assim, os níveis plasmáticos ficam altos enquanto as células se enchem de material não digerido (as inclusões). A **síndrome de Hurler** (deficiência de α-L-iduronidase) também causa fácies grosseira e rigidez articular, mas falta apenas uma enzima, os níveis plasmáticos de enzimas não estão altos e a opacidade da córnea é típica."
+    },
+    {
+      "slug": "q-cell-biology-lab-qx-flow-cytometry-mitotic-arrest",
+      "track": "step1",
+      "system": "biochemistry-genetics",
+      "discipline": "physiology",
+      "tags": [
+        "cell-biology-lab",
+        "lab-techniques",
+        "cell-cycle",
+        "cytoskeleton"
+      ],
+      "stem": "Researchers treat a culture of rapidly dividing human breast cancer cells with drug X for 24 hours. The cells are then stained with a dye that binds DNA in proportion to its amount and are analyzed one by one by flow cytometry. Untreated cells: 60% have 2N DNA content, 25% are between 2N and 4N, and 15% have 4N. Treated cells: 15% have 2N, 10% are between 2N and 4N, and 75% have 4N. Under the microscope, many treated cells have condensed chromosomes, but very few are in anaphase. Which mechanism best explains the effect of drug X?",
+      "choices": [
+        "Binds tubulin and prevents microtubules from depolymerizing",
+        "Inhibits ribonucleotide reductase and blocks DNA synthesis",
+        "Inhibits CDK4/6 and keeps Rb in its active, underphosphorylated form",
+        "Inhibits dihydrofolate reductase and depletes thymidine",
+        "Is incorporated into DNA and blocks DNA polymerase"
+      ],
+      "correct": 0,
+      "explanation": "Flow cytometry with a DNA dye sorts cells by DNA content: **2N** = G1, between = S, **4N** = G2 or M. A large shift to 4N with condensed chromosomes but almost no anaphase means **arrest in M phase**, the effect of a **taxane** such as **paclitaxel**, which **stabilizes microtubules** so the spindle cannot work normally. Hydroxyurea, methotrexate and cytarabine act in **S phase**, so cells pile up at or just after 2N rather than at 4N. A CDK4/6 inhibitor holds cells in **G1**, which would raise the 2N fraction.",
+      "explanation_pt": "A citometria de fluxo com corante de DNA separa as células pelo conteúdo de DNA: **2N** = G1, intermediário = S, **4N** = G2 ou M. Um grande desvio para 4N, com cromossomos condensados mas quase nenhuma anáfase, indica **parada na fase M**, efeito de um **taxano** como o **paclitaxel**, que **estabiliza os microtúbulos** e impede o fuso de funcionar normalmente. A hidroxiureia, o metotrexato e a citarabina agem na **fase S**, então as células se acumulam em 2N ou logo acima, e não em 4N. Um inibidor de CDK4/6 retém as células em **G1**, o que aumentaria a fração 2N."
+    },
+    {
+      "slug": "q-cell-biology-lab-qx-northern-blot-xist",
+      "track": "step1",
+      "system": "biochemistry-genetics",
+      "discipline": "physiology",
+      "tags": [
+        "cell-biology-lab",
+        "lab-techniques",
+        "blots"
+      ],
+      "stem": "Researchers study X-inactivation in skin fibroblasts from healthy women and men. The XIST gene is located on the X chromosome, so it is present in cells of both sexes. Its product coats the inactive X chromosome and works without ever being translated into protein. The team wants to show that the XIST product is made in female cells but not in male cells, and also to estimate its length. Which technique is most appropriate?",
+      "choices": [
+        "Southern blot",
+        "Western blot",
+        "Enzyme-linked immunosorbent assay (ELISA)",
+        "Northern blot",
+        "Southwestern blot"
+      ],
+      "correct": 3,
+      "explanation": "**XIST** makes a long **noncoding RNA**, so the question is about **gene expression at the RNA level**. A **Northern blot** separates RNA by size on a gel and detects it with a labeled probe, showing both whether the transcript is present and its approximate length. A **Southern blot** detects DNA, and the XIST gene is present in both female and male cells, so it cannot show whether the gene is being transcribed. Western blot and ELISA detect proteins, and the Southwestern blot detects DNA-binding proteins.",
+      "explanation_pt": "O **XIST** produz um **RNA longo não codificante**, então a pergunta é sobre a **expressão gênica no nível do RNA**. O **Northern blot** separa o RNA por tamanho em gel e o detecta com uma sonda marcada, mostrando se o transcrito está presente e seu comprimento aproximado. O **Southern blot** detecta DNA, e o gene XIST está presente nas células femininas e masculinas, então não mostra se o gene está sendo transcrito. O Western blot e o ELISA detectam proteínas, e o Southwestern blot detecta proteínas que se ligam ao DNA."
+    },
+    {
+      "slug": "q-cell-biology-lab-qx-noncompetitive-intercepts",
+      "track": "step1",
+      "system": "biochemistry-genetics",
+      "discipline": "physiology",
+      "tags": [
+        "cell-biology-lab",
+        "enzyme-kinetics"
+      ],
+      "stem": "A research group studies a liver enzyme and draws Lineweaver-Burk plots (1/V against 1/[S]) with and without drug Y. Without drug Y, the line crosses the y-axis at 0.010 min/µmol and the x-axis at −0.5 per mM. With drug Y, the line crosses the y-axis at 0.025 min/µmol and the x-axis at −0.5 per mM. When drug Y is removed by dialysis, enzyme activity returns fully to normal. Which statement best describes how drug Y acts?",
+      "choices": [
+        "It competes with the substrate for the active site",
+        "It binds outside the active site and slows catalysis",
+        "It binds only to the enzyme-substrate complex",
+        "It forms a permanent covalent bond with the active site",
+        "It increases the affinity of the enzyme for its substrate"
+      ],
+      "correct": 1,
+      "explanation": "The **y-intercept is 1/Vmax**, so Vmax falls from 1/0.010 = 100 to 1/0.025 = 40 µmol/min. The **x-intercept is −1/Km**, so Km stays at 1/0.5 = 2 mM. A lower Vmax with an unchanged Km, fully reversed by dialysis, is **reversible noncompetitive inhibition**: the drug binds outside the active site and reduces catalysis without changing substrate binding. An inhibitor that binds only the enzyme-substrate complex (**uncompetitive**) lowers both Vmax and Km, giving parallel lines; a **competitive** inhibitor raises Km and leaves Vmax unchanged; an irreversible covalent inhibitor would not be removed by dialysis.",
+      "explanation_pt": "O **intercepto em y é 1/Vmáx**, então a Vmáx cai de 1/0,010 = 100 para 1/0,025 = 40 µmol/min. O **intercepto em x é −1/Km**, então o Km permanece 1/0,5 = 2 mM. Vmáx menor com Km inalterado, totalmente revertida pela diálise, é **inibição não competitiva reversível**: o fármaco se liga fora do sítio ativo e reduz a catálise sem alterar a ligação do substrato. Um inibidor que se liga apenas ao complexo enzima-substrato (**incompetitivo**) reduz tanto a Vmáx quanto o Km, gerando retas paralelas; um inibidor **competitivo** aumenta o Km e não altera a Vmáx; um inibidor covalente irreversível não seria removido pela diálise."
+    },
+    {
+      "slug": "q-cell-biology-lab-qx-smooth-er-induction",
+      "track": "step1",
+      "system": "biochemistry-genetics",
+      "discipline": "physiology",
+      "tags": [
+        "cell-biology-lab",
+        "organelles",
+        "smooth-er"
+      ],
+      "stem": "A 27-year-old woman with epilepsy has taken phenobarbital for 6 years. She becomes pregnant even though she took a combined oral contraceptive pill every day as directed. Serum gamma-glutamyl transferase is mildly elevated, and other liver tests are normal. Electron microscopy of her hepatocytes would most likely show an increase in which structure?",
+      "choices": [
+        "Rough endoplasmic reticulum",
+        "Golgi apparatus",
+        "Peroxisomes",
+        "Lysosomes",
+        "Smooth endoplasmic reticulum"
+      ],
+      "correct": 4,
+      "explanation": "Phenobarbital is a strong **inducer of cytochrome P450** enzymes, which sit in the membranes of the **smooth endoplasmic reticulum**; long-term use makes the smooth ER of hepatocytes expand (**hypertrophy**). Faster hepatic metabolism of estrogen and progestin lowers their levels and explains the **contraceptive failure**. The new P450 proteins are made on ribosomes of the rough ER, but the structure that clearly enlarges is the smooth ER. Peroxisome proliferation is linked to drugs such as fibrates in rodents, not to barbiturates.",
+      "explanation_pt": "O fenobarbital é um forte **indutor das enzimas do citocromo P450**, que ficam nas membranas do **retículo endoplasmático liso**; o uso prolongado faz o RE liso dos hepatócitos se expandir (**hipertrofia**). O metabolismo hepático mais rápido do estrogênio e do progestagênio reduz seus níveis e explica a **falha do contraceptivo**. As novas proteínas P450 são produzidas nos ribossomos do RE rugoso, mas a estrutura que aumenta claramente é o RE liso. A proliferação de peroxissomos está ligada a fármacos como os fibratos em roedores, e não aos barbitúricos."
+    },
+    {
+      "slug": "q-cell-biology-lab-qx-signal-recognition-particle",
+      "track": "step1",
+      "system": "biochemistry-genetics",
+      "discipline": "physiology",
+      "tags": [
+        "cell-biology-lab",
+        "organelles",
+        "protein-targeting",
+        "rough-er"
+      ],
+      "stem": "A cultured pancreatic acinar cell line normally secretes a digestive enzyme. Researchers change the gene so that the 20 codons right after the start codon, which encode a stretch of mostly hydrophobic residues at the N-terminus, are deleted. The mutant enzyme is made at a normal rate, but it is found free in the cytosol, it is quickly degraded, and none of it is secreted. Which step fails first in the mutant cells?",
+      "choices": [
+        "Addition of mannose-6-phosphate in the cis-Golgi",
+        "Packaging into secretory vesicles in the trans-Golgi network",
+        "Binding of the signal recognition particle",
+        "Addition of N-linked oligosaccharides in the rough ER lumen",
+        "Fusion of secretory granules with the plasma membrane"
+      ],
+      "correct": 2,
+      "explanation": "The deleted stretch is the **N-terminal signal sequence**. As it comes out of the ribosome, the **signal recognition particle (SRP)** binds it, pauses translation and brings the ribosome to the **SRP receptor** on the rough ER, where the protein enters the ER lumen through a translocon. Without the signal, translation finishes on free cytosolic ribosomes, so the protein never enters the secretory pathway. N-linked glycosylation in the ER lumen also does not happen, but only because the protein never reaches the lumen; it is a later step, not the first failure.",
+      "explanation_pt": "O trecho deletado é a **sequência sinal N-terminal**. Quando ela sai do ribossomo, a **partícula de reconhecimento de sinal (SRP)** se liga a ela, pausa a tradução e leva o ribossomo ao **receptor de SRP** no RE rugoso, onde a proteína entra no lúmen do RE por um translocon. Sem o sinal, a tradução termina em ribossomos livres no citosol, e a proteína nunca entra na via secretora. A N-glicosilação no lúmen do RE também não ocorre, mas apenas porque a proteína nunca chega ao lúmen; é uma etapa posterior, e não a primeira falha."
+    },
+    {
+      "slug": "q-cell-biology-lab-qx-kinesin-zoster-reactivation",
+      "track": "step1",
+      "system": "biochemistry-genetics",
+      "discipline": "physiology",
+      "tags": [
+        "cell-biology-lab",
+        "cytoskeleton",
+        "axonal-transport"
+      ],
+      "stem": "A 68-year-old man has 3 days of burning pain in a band on the left side of his chest. A rash of grouped vesicles on a red base then appears in the same band and stops at the midline. The virus has stayed latent in a dorsal root ganglion since he had chickenpox as a child. Now newly made virus particles travel from the neuron cell body along the sensory axon to the skin. Which motor protein most directly carries them in this direction?",
+      "choices": [
+        "Dynein",
+        "Myosin II",
+        "Dynamin",
+        "Kinesin",
+        "Myosin V"
+      ],
+      "correct": 3,
+      "explanation": "In axons, microtubules point their **plus (+) ends toward the axon terminal**. Movement from the cell body toward the terminal is **anterograde** transport, driven by **kinesin**; this is how reactivated varicella-zoster virus reaches the skin of the dermatome. **Dynein** is the tempting answer because it carries cargo in the **retrograde** direction, toward the cell body: that is how the virus first reached the ganglion during chickenpox, and how rabies virus and tetanus toxin reach the CNS. Myosins move along actin over short distances, and dynamin pinches off vesicles during endocytosis.",
+      "explanation_pt": "Nos axônios, os microtúbulos têm a **extremidade mais (+) voltada para o terminal do axônio**. O movimento do corpo celular para o terminal é o transporte **anterógrado**, feito pela **cinesina**; é assim que o vírus varicela-zóster reativado chega à pele do dermátomo. A **dineína** é a resposta tentadora porque leva a carga no sentido **retrógrado**, em direção ao corpo celular: foi assim que o vírus chegou ao gânglio durante a varicela, e é assim que o vírus da raiva e a toxina tetânica chegam ao SNC. As miosinas se movem sobre a actina em distâncias curtas, e a dinamina destaca vesículas durante a endocitose."
+    },
+    {
+      "slug": "q-cell-biology-lab-qx-progeria-nuclear-lamina",
+      "track": "step1",
+      "system": "biochemistry-genetics",
+      "discipline": "pathology",
+      "tags": [
+        "cell-biology-lab",
+        "cytoskeleton",
+        "intermediate-filaments"
+      ],
+      "stem": "An 8-year-old girl is evaluated for poor growth. She was normal at birth, but since age 1 her height and weight have stayed far below the 3rd percentile. She has almost no scalp hair, prominent scalp veins, thin and tight skin, very little fat under the skin, stiff joints and a small jaw. Her school performance is normal. Carotid ultrasound shows atherosclerotic plaques. Genetic testing finds a new point mutation that creates an abnormal splice site in a gene, so her cells make a shortened, permanently farnesylated form of its protein. Her nuclei are misshapen with blebs. Which structure is most directly abnormal?",
+      "choices": [
+        "Nuclear lamina made of intermediate filaments",
+        "Telomerase complex that lengthens chromosome ends",
+        "Microtubules that form the mitotic spindle",
+        "Actin filaments of the cortex under the plasma membrane",
+        "RecQ helicase that unwinds DNA during repair"
+      ],
+      "correct": 0,
+      "explanation": "This is **Hutchinson-Gilford progeria syndrome**, caused by a mutation in **LMNA**, which encodes **lamin A**. Lamins are **intermediate filaments** that form the **nuclear lamina** under the inner nuclear membrane; the abnormal, farnesylated protein (**progerin**) distorts the nucleus and disturbs chromatin and DNA repair, leading to early aging and early atherosclerosis. A **RecQ helicase** defect causes **Werner syndrome**, which also causes premature aging, but it starts in adolescence or adulthood rather than in infancy. Telomeres do shorten faster in progeria cells, but that is a consequence, not the primary defect.",
+      "explanation_pt": "Trata-se da **síndrome de progeria de Hutchinson-Gilford**, causada por uma mutação no **LMNA**, que codifica a **lamina A**. As laminas são **filamentos intermediários** que formam a **lâmina nuclear** sob a membrana nuclear interna; a proteína anormal farnesilada (**progerina**) deforma o núcleo e altera a cromatina e o reparo do DNA, levando a envelhecimento precoce e aterosclerose precoce. Um defeito de **helicase RecQ** causa a **síndrome de Werner**, que também causa envelhecimento precoce, mas começa na adolescência ou na vida adulta, e não na primeira infância. Os telômeros de fato encurtam mais rápido nas células da progeria, mas isso é uma consequência, e não o defeito primário."
+    }
+  ],
+  "notes": []
+}

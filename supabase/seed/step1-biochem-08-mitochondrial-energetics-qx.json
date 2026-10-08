@@ -1,0 +1,185 @@
+{
+  "cards": [],
+  "questions": [
+    {
+      "slug": "q-mitochondrial-energetics-qx-fluoroacetate-aconitase",
+      "track": "step1",
+      "system": "biochemistry-genetics",
+      "discipline": "physiology",
+      "tags": [
+        "mitochondrial-energetics",
+        "tca-cycle",
+        "toxicology"
+      ],
+      "stem": "A 3-year-old boy is brought to the emergency department 2 hours after he ate pellets from a rodent poison stored in a farm shed. The label lists sodium fluoroacetate. He has vomiting, muscle twitching and a generalized seizure. Serum lactate is high, and ionized calcium is low. The poison is converted in his cells into a compound that blocks one step of the citric acid cycle. Which metabolite is most likely to build up in his tissues?",
+      "choices": [
+        "Alpha-ketoglutarate",
+        "Succinate",
+        "Citrate",
+        "Oxaloacetate",
+        "Fumarate"
+      ],
+      "correct": 2,
+      "explanation": "Fluoroacetate is turned into fluoroacetyl-CoA, which **citrate synthase** joins to oxaloacetate to make **fluorocitrate**. Fluorocitrate blocks **aconitase**, so citrate cannot become isocitrate and **citrate accumulates**; the extra citrate binds calcium, which helps explain the low ionized calcium. Alpha-ketoglutarate and succinate are made after the blocked step, so their supply falls instead of rising.",
+      "explanation_pt": "O fluoroacetato é convertido em fluoroacetil-CoA, que a **citrato sintase** une ao oxaloacetato para formar **fluorocitrato**. O fluorocitrato bloqueia a **aconitase**, então o citrato não vira isocitrato e o **citrato se acumula**; o excesso de citrato se liga ao cálcio, o que ajuda a explicar o cálcio ionizado baixo. O alfa-cetoglutarato e o succinato são formados depois da etapa bloqueada, então sua oferta cai em vez de subir."
+    },
+    {
+      "slug": "q-mitochondrial-energetics-qx-malonate-complex-ii",
+      "track": "step1",
+      "system": "biochemistry-genetics",
+      "discipline": "physiology",
+      "tags": [
+        "mitochondrial-energetics",
+        "electron-transport-chain",
+        "inhibitors"
+      ],
+      "stem": "A researcher measures oxygen consumption by isolated mitochondria with ADP and phosphate present. With glutamate plus malate as fuel, oxygen use is 100 units before and 95 units after adding compound Y. With succinate as fuel, it is 100 units before and 20 units after adding compound Y. When the succinate concentration is then raised tenfold in the presence of compound Y, oxygen use rises back to 85 units. Compound Y most likely acts on which part of the respiratory chain?",
+      "choices": [
+        "Complex III (cytochrome bc1 complex)",
+        "Complex I (NADH dehydrogenase)",
+        "Complex IV (cytochrome c oxidase)",
+        "Complex II (succinate dehydrogenase)",
+        "Complex V (ATP synthase)"
+      ],
+      "correct": 3,
+      "explanation": "Compound Y blocks only the **succinate**-driven pathway, and extra succinate overcomes the block, so it behaves like **malonate**, a **competitive inhibitor of succinate dehydrogenase (complex II)**. Glutamate and malate make NADH, which enters at complex I and bypasses complex II, so oxygen use barely changes. Inhibitors of complex III, complex IV or ATP synthase would lower oxygen use with **both** fuels, because both electron routes pass through them.",
+      "explanation_pt": "O composto Y bloqueia só a via movida pelo **succinato**, e o excesso de succinato supera o bloqueio, então ele age como o **malonato**, um **inibidor competitivo da succinato desidrogenase (complexo II)**. Glutamato e malato geram NADH, que entra no complexo I e não passa pelo complexo II, então o consumo de O2 quase não muda. Inibidores do complexo III, do complexo IV ou da ATP sintase reduziriam o consumo de O2 com **os dois** substratos, porque as duas rotas de elétrons passam por eles."
+    },
+    {
+      "slug": "q-mitochondrial-energetics-qx-arsenic-lipoic-acid",
+      "track": "step1",
+      "system": "biochemistry-genetics",
+      "discipline": "physiology",
+      "tags": [
+        "mitochondrial-energetics",
+        "tca-cycle",
+        "toxicology",
+        "vitamins"
+      ],
+      "stem": "A 46-year-old farm worker is brought to the emergency department 4 hours after he drank from a soft-drink bottle that held an old pesticide. He has severe vomiting, profuse watery diarrhea and a garlic odor on his breath. His pupils are normal in size, and he has no excess salivation or wheezing. Blood pressure is 88/54 mm Hg. Labs show sodium 138 mEq/L, chloride 102 mEq/L, bicarbonate 13 mEq/L and lactate 7.8 mmol/L. An ECG shows a prolonged QT interval. The poison inhibits pyruvate dehydrogenase and alpha-ketoglutarate dehydrogenase by binding which cofactor?",
+      "choices": [
+        "Thiamine pyrophosphate",
+        "Lipoic acid",
+        "Flavin adenine dinucleotide",
+        "Coenzyme A",
+        "Biotin"
+      ],
+      "correct": 1,
+      "explanation": "Garlic breath, cholera-like diarrhea, QT prolongation and a high anion gap (138 - 102 - 13 = 23) lactic acidosis suggest **arsenic** poisoning; normal pupils and no excess secretions argue against an organophosphate. Trivalent arsenic (**arsenite**) binds the two sulfhydryl groups of **lipoic acid**, so pyruvate dehydrogenase and alpha-ketoglutarate dehydrogenase stop working, and pyruvate is turned into lactate. Thiamine pyrophosphate is a cofactor of the same enzymes, but thiamine deficiency develops over weeks in malnourished patients and does not cause garlic breath or acute severe diarrhea.",
+      "explanation_pt": "Hálito de alho, diarreia semelhante à cólera, QT prolongado e acidose láctica com ânion gap alto (138 - 102 - 13 = 23) sugerem intoxicação por **arsênio**; pupilas normais e ausência de hipersecreção falam contra organofosforado. O arsênio trivalente (**arsenito**) se liga aos dois grupos sulfidrila do **ácido lipoico**, então a piruvato desidrogenase e a alfa-cetoglutarato desidrogenase param de funcionar, e o piruvato vira lactato. O pirofosfato de tiamina é cofator das mesmas enzimas, mas a deficiência de tiamina se instala em semanas, em pacientes desnutridos, e não causa hálito de alho nem diarreia aguda intensa."
+    },
+    {
+      "slug": "q-mitochondrial-energetics-qx-brown-fat-thermogenin",
+      "track": "step1",
+      "system": "biochemistry-genetics",
+      "discipline": "physiology",
+      "tags": [
+        "mitochondrial-energetics",
+        "uncouplers",
+        "thermogenesis"
+      ],
+      "stem": "A healthy term newborn is placed skin-to-skin with his mother in a cool delivery room. Over the next hour his core temperature stays normal, although he does not shiver. Norepinephrine acting on beta-3 receptors activates a fat depot between his shoulder blades, and the fatty acids released there open a protein in the inner mitochondrial membrane. Compared with the resting state, which change is most likely seen in the mitochondria of this tissue?",
+      "choices": [
+        "Higher oxygen consumption and less ATP made per oxygen used",
+        "Lower oxygen consumption and less ATP made per oxygen used",
+        "Higher oxygen consumption and more ATP made per oxygen used",
+        "Lower oxygen consumption and the same ATP made per oxygen used",
+        "Unchanged oxygen consumption and more ATP made per oxygen used"
+      ],
+      "correct": 0,
+      "explanation": "Newborns keep warm mainly by **non-shivering thermogenesis** in **brown adipose tissue**. Its mitochondria contain **thermogenin (UCP1)**, a physiologic **uncoupler** that lets protons flow back into the matrix without passing ATP synthase. The chain runs faster (**more O2 used**) but **less ATP is made per O2**, and the energy is released as **heat**. A fall in oxygen use would fit an electron transport inhibitor such as cyanide, which stops heat production instead of increasing it.",
+      "explanation_pt": "Os recém-nascidos se aquecem principalmente por **termogênese sem tremor** no **tecido adiposo marrom**. Suas mitocôndrias têm **termogenina (UCP1)**, um **desacoplador** fisiológico que deixa os prótons voltarem à matriz sem passar pela ATP sintase. A cadeia funciona mais rápido (**mais O2 consumido**), mas **menos ATP é gerado por O2**, e a energia é liberada como **calor**. Uma queda do consumo de O2 combinaria com um inibidor da cadeia de transporte de elétrons, como o cianeto, que interrompe a produção de calor em vez de aumentá-la."
+    },
+    {
+      "slug": "q-mitochondrial-energetics-qx-lactate-pyruvate-ratio",
+      "track": "step1",
+      "system": "biochemistry-genetics",
+      "discipline": "pathology",
+      "tags": [
+        "mitochondrial-energetics",
+        "mitochondrial-disease",
+        "lactic-acidosis",
+        "electron-transport-chain"
+      ],
+      "stem": "A 14-month-old boy is evaluated for poor weight gain, weak sucking and loss of head control after a viral illness. Fasting blood glucose is 86 mg/dL, and urine ketones are negative. Blood studies show lactate 6.0 mmol/L (reference 0.5-2.2), pyruvate 0.15 mmol/L (reference 0.03-0.10), a lactate-to-pyruvate ratio of 40 (reference 10-20) and a high alanine level. A defect in which of the following best explains these findings?",
+      "choices": [
+        "Pyruvate dehydrogenase complex",
+        "Glucose-6-phosphatase",
+        "Medium-chain acyl-CoA dehydrogenase",
+        "Pyruvate kinase",
+        "Respiratory chain complex I"
+      ],
+      "correct": 4,
+      "explanation": "Lactate (6.0) divided by pyruvate (0.15) is **40**, a **high lactate-to-pyruvate ratio**. Lactate dehydrogenase keeps this ratio in step with the cytosolic **NADH/NAD+** ratio, so a high ratio means NADH is not being reoxidized, as in a **respiratory chain defect** such as complex I deficiency. **Pyruvate dehydrogenase deficiency** is the tempting choice, but pyruvate and lactate rise together, so the ratio stays **normal or low**. Glucose-6-phosphatase and MCAD deficiencies cause fasting hypoglycemia, which this child does not have.",
+      "explanation_pt": "O lactato (6,0) dividido pelo piruvato (0,15) dá **40**, uma **relação lactato/piruvato alta**. A lactato desidrogenase mantém essa relação acompanhando a relação **NADH/NAD+** do citosol; assim, uma relação alta indica que o NADH não está sendo reoxidado, como em um **defeito da cadeia respiratória**, por exemplo a deficiência do complexo I. A **deficiência de piruvato desidrogenase** é a opção tentadora, mas nela piruvato e lactato sobem juntos e a relação fica **normal ou baixa**. As deficiências de glicose-6-fosfatase e de MCAD causam hipoglicemia de jejum, que esta criança não tem."
+    },
+    {
+      "slug": "q-mitochondrial-energetics-qx-kearns-sayre-heart-block",
+      "track": "step1",
+      "system": "biochemistry-genetics",
+      "discipline": "pathology",
+      "tags": [
+        "mitochondrial-energetics",
+        "mitochondrial-disease",
+        "kearns-sayre"
+      ],
+      "stem": "A 16-year-old boy has had slowly worsening drooping of both eyelids for 3 years. He has no double vision. His eye movements are limited in all directions, and fundoscopy shows a salt-and-pepper pigmentary retinopathy. He tires easily. His parents and siblings are healthy. An ECG shows right bundle branch block with left anterior fascicular block. Genetic testing finds a single large deletion in mitochondrial DNA. Which complication is most likely to cause sudden death in this patient?",
+      "choices": [
+        "Aortic dissection",
+        "Torsades de pointes from congenital long QT syndrome",
+        "Pulmonary embolism",
+        "Complete atrioventricular block",
+        "Left ventricular outflow tract obstruction"
+      ],
+      "correct": 3,
+      "explanation": "Onset before age 20 of **progressive external ophthalmoplegia**, **pigmentary retinopathy** and a conduction defect, with a single large **mtDNA deletion**, is **Kearns-Sayre syndrome**; the deletion usually arises de novo, which fits his healthy family. The bundle branch and fascicular blocks can progress to **complete heart block**, the main cause of sudden death in this disorder. Left ventricular outflow obstruction belongs to hypertrophic cardiomyopathy from sarcomere gene mutations, and congenital long QT comes from ion channel genes, not from a mitochondrial deletion.",
+      "explanation_pt": "Início antes dos 20 anos de **oftalmoplegia externa progressiva**, **retinopatia pigmentar** e distúrbio de condução, com uma grande **deleção única do mtDNA**, caracteriza a **síndrome de Kearns-Sayre**; a deleção geralmente surge *de novo*, o que combina com a família saudável. Os bloqueios de ramo e fascicular podem evoluir para **bloqueio atrioventricular total**, a principal causa de morte súbita nessa doença. A obstrução da via de saída do ventrículo esquerdo é da cardiomiopatia hipertrófica por mutações de genes do sarcômero, e o QT longo congênito vem de genes de canais iônicos, não de uma deleção mitocondrial."
+    },
+    {
+      "slug": "q-mitochondrial-energetics-qx-leigh-heteroplasmy",
+      "track": "step1",
+      "system": "biochemistry-genetics",
+      "discipline": "pathology",
+      "tags": [
+        "mitochondrial-energetics",
+        "mitochondrial-inheritance",
+        "heteroplasmy",
+        "leigh-syndrome"
+      ],
+      "stem": "A 9-month-old boy loses skills he had gained: he no longer sits or holds his head up, and he has trouble swallowing. Serum and CSF lactate are high. Brain MRI shows symmetric lesions in the basal ganglia and brainstem. Testing finds a point mutation in a mitochondrial DNA gene for an ATP synthase subunit in 95% of his mtDNA copies. His mother, who is healthy, carries the same mutation in 40% of the mtDNA copies in her blood. Which concept best explains why mother and son are affected so differently?",
+      "choices": [
+        "Anticipation from repeat expansion",
+        "Genomic imprinting",
+        "Heteroplasmy",
+        "Uniparental disomy",
+        "Skewed X-inactivation"
+      ],
+      "correct": 2,
+      "explanation": "This is **Leigh syndrome** from an mtDNA **ATP synthase (MT-ATP6)** mutation. Each cell carries many mtDNA copies, and a mix of normal and mutant copies is called **heteroplasmy**; random sharing of copies into egg cells can give a child a much higher mutant share than the mother, and disease appears once that share passes the tissue's **threshold**. Anticipation is tempting because the disease is worse in the next generation, but it is caused by trinucleotide repeats that lengthen in nuclear genes, not by a shift in the share of mutant mtDNA.",
+      "explanation_pt": "Trata-se de **síndrome de Leigh** por mutação do mtDNA na **ATP sintase (MT-ATP6)**. Cada célula tem muitas cópias de mtDNA, e a mistura de cópias normais e mutantes se chama **heteroplasmia**; a distribuição aleatória das cópias para os oócitos pode dar ao filho uma fração mutante muito maior que a da mãe, e a doença aparece quando essa fração ultrapassa o **limiar** do tecido. A antecipação é tentadora porque a doença é mais grave na geração seguinte, mas ela decorre de repetições de trinucleotídeos que se expandem em genes nucleares, e não de uma mudança na fração de mtDNA mutante."
+    },
+    {
+      "slug": "q-mitochondrial-energetics-qx-isocitrate-dehydrogenase-calcium",
+      "track": "step1",
+      "system": "biochemistry-genetics",
+      "discipline": "physiology",
+      "tags": [
+        "mitochondrial-energetics",
+        "tca-cycle",
+        "regulation"
+      ],
+      "stem": "A 20-year-old sprinter starts a set of hard intervals. Within seconds, flux through the citric acid cycle in his thigh muscles rises several-fold. Which change in the mitochondrial matrix most directly activates the enzyme that sets the pace of this cycle?",
+      "choices": [
+        "Rise in the ATP-to-ADP ratio",
+        "Rise in the NADH-to-NAD+ ratio",
+        "Rise in succinyl-CoA",
+        "Rise in citrate",
+        "Rise in free calcium"
+      ],
+      "correct": 4,
+      "explanation": "The rate-limiting enzyme of the cycle is **isocitrate dehydrogenase**. Muscle contraction raises **Ca2+** in the matrix, and Ca2+ and **ADP** activate it (Ca2+ also activates alpha-ketoglutarate dehydrogenase), so the cycle speeds up as the muscle works. A rise in citrate supplies substrate but is not an activator of this enzyme, while a high ATP/ADP ratio, high NADH and succinyl-CoA all **slow** the cycle.",
+      "explanation_pt": "A enzima limitante do ciclo é a **isocitrato desidrogenase**. A contração muscular eleva o **Ca2+** na matriz, e o Ca2+ e o **ADP** a ativam (o Ca2+ também ativa a alfa-cetoglutarato desidrogenase), então o ciclo acelera enquanto o músculo trabalha. Um aumento de citrato fornece substrato, mas não ativa essa enzima, enquanto uma relação ATP/ADP alta, o NADH alto e a succinil-CoA **retardam** o ciclo."
+    }
+  ],
+  "notes": []
+}

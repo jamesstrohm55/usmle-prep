@@ -1,0 +1,183 @@
+{
+ "cards": [],
+ "questions": [
+  {
+   "slug": "q-vitamins-nutrition-qx-vitamin-e-cystic-fibrosis",
+   "track": "step1",
+   "system": "biochemistry-genetics",
+   "discipline": "pathology",
+   "tags": [
+    "vitamins-nutrition",
+    "fat-soluble-vitamins",
+    "vitamin-e"
+   ],
+   "stem": "A 17-year-old boy with cystic fibrosis has 6 months of an unsteady gait. He falls more often in the dark. He has not taken his pancreatic enzyme capsules regularly for a year, and his stools are greasy. Exam shows loss of vibration and position sense in both legs, a positive Romberg sign and absent ankle reflexes. Laboratory results: hemoglobin 10.6 g/dL, MCV 88 fL, reticulocytes 5%, LDH high, haptoglobin low, serum vitamin B12 normal and methylmalonic acid normal. A deficiency of which nutrient best explains these findings?",
+   "choices": [
+    "Vitamin B12",
+    "Vitamin E",
+    "Thiamine (B1)",
+    "Copper",
+    "Folic acid"
+   ],
+   "correct": 1,
+   "explanation": "Poor fat absorption in cystic fibrosis lowers **vitamin E**, a membrane antioxidant; without it, red cells are damaged by oxidation (**hemolytic anemia**: high reticulocytes and LDH, low haptoglobin) and the **posterior columns** and spinocerebellar tracts degenerate. **Vitamin B12** deficiency is the most tempting choice because it causes the same posterior column signs, and pancreatic insufficiency can impair B12 absorption, but here the anemia is normocytic and hemolytic, and B12 and **methylmalonic acid are normal**. Folate deficiency causes a megaloblastic anemia without these spinal cord signs.",
+   "explanation_pt": "A má absorção de gordura na fibrose cística reduz a **vitamina E**, um antioxidante de membranas; sem ela, as hemácias sofrem lesão oxidativa (**anemia hemolítica**: reticulócitos e LDH altos, haptoglobina baixa) e as **colunas dorsais** e os tratos espinocerebelares degeneram. A deficiência de **vitamina B12** é a opção mais tentadora porque causa os mesmos sinais de coluna dorsal, e a insuficiência pancreática pode prejudicar a absorção de B12, mas aqui a anemia é normocítica e hemolítica, e a B12 e o **ácido metilmalônico estão normais**. A deficiência de folato causa anemia megaloblástica sem esses sinais medulares."
+  },
+  {
+   "slug": "q-vitamins-nutrition-qx-ethanol-fatty-liver-nadh",
+   "track": "step1",
+   "system": "biochemistry-genetics",
+   "discipline": "physiology",
+   "tags": [
+    "vitamins-nutrition",
+    "ethanol-metabolism",
+    "fatty-liver"
+   ],
+   "stem": "A 46-year-old man has drunk about 10 beers a day for 8 years. He has mild discomfort in the right upper abdomen. The liver is enlarged, smooth and slightly tender. AST is 88 U/L and ALT is 40 U/L. A liver biopsy shows hepatocytes filled with large fat droplets, with no fibrosis. Which change in liver metabolism most directly causes the fat buildup?",
+   "choices": [
+    "Too little apolipoprotein B-100 to export VLDL",
+    "Faster fatty acid oxidation driven by extra acetyl-CoA",
+    "A high NADH/NAD+ ratio that raises glycerol-3-phosphate",
+    "Loss of lipoprotein lipase activity in liver capillaries",
+    "Increased hepatic uptake of chylomicron remnants"
+   ],
+   "correct": 2,
+   "explanation": "Alcohol dehydrogenase and aldehyde dehydrogenase make **NADH**. The high **NADH/NAD+ ratio** turns dihydroxyacetone phosphate into **glycerol-3-phosphate**, the backbone for **triglycerides**, and it also slows **fatty acid oxidation**, so fat builds up in hepatocytes. Lack of apolipoprotein B-100 is the tempting choice because it causes fatty liver in kwashiorkor, but this man's problem is too much triglyceride being made, not a failure to export it. A high NADH/NAD+ ratio slows fatty acid oxidation rather than speeding it up.",
+   "explanation_pt": "A álcool desidrogenase e a aldeído desidrogenase produzem **NADH**. A razão **NADH/NAD+** alta converte a di-hidroxiacetona fosfato em **glicerol-3-fosfato**, o esqueleto dos **triglicerídeos**, e também reduz a **oxidação de ácidos graxos**, de modo que a gordura se acumula nos hepatócitos. A falta de apolipoproteína B-100 é a opção tentadora porque causa esteatose no kwashiorkor, mas o problema deste homem é a produção excessiva de triglicerídeos, e não a falha em exportá-los. A razão NADH/NAD+ alta reduz a oxidação de ácidos graxos, em vez de acelerá-la."
+  },
+  {
+   "slug": "q-vitamins-nutrition-qx-kwashiorkor-fatty-liver",
+   "track": "step1",
+   "system": "biochemistry-genetics",
+   "discipline": "pathology",
+   "tags": [
+    "vitamins-nutrition",
+    "malnutrition",
+    "kwashiorkor"
+   ],
+   "stem": "A 3-year-old boy in a region with food shortages has eaten mostly a thin maize gruel since he stopped breastfeeding a year ago. He has a puffy face, swollen legs and a large belly. His skin peels in dark patches, and his hair is thin and pale. Some fat under the skin remains. The liver is large and smooth. Serum albumin is 1.8 g/dL. A liver biopsy shows hepatocytes filled with large fat droplets. Which mechanism best explains the liver finding?",
+   "choices": [
+    "Lack of lipoprotein lipase in adipose tissue capillaries",
+    "Increased intestinal absorption of dietary fat as chylomicrons",
+    "Increased uptake of LDL through hepatic LDL receptors",
+    "Too little apolipoprotein B-100 to export VLDL",
+    "Hepatocyte injury from a high NADH/NAD+ ratio"
+   ],
+   "correct": 3,
+   "explanation": "Edema, low albumin, skin and hair changes with some fat preserved point to **kwashiorkor** (protein lack with some calories). Without enough amino acids, the liver cannot make enough **apolipoprotein B-100**, so triglycerides cannot leave as **VLDL** and build up as **fatty liver**. Lipoprotein lipase deficiency is the tempting choice because it is a lipid-handling defect, but it raises chylomicrons in the blood and causes pancreatitis, not hepatic fat retention. A high NADH/NAD+ ratio explains fatty liver in alcohol use, which does not fit this child.",
+   "explanation_pt": "Edema, albumina baixa e alterações de pele e cabelo com alguma gordura preservada indicam **kwashiorkor** (falta de proteína com alguma ingestão calórica). Sem aminoácidos suficientes, o fígado não produz **apolipoproteína B-100** suficiente, os triglicerídeos não saem como **VLDL** e se acumulam como **esteatose hepática**. A deficiência de lipase lipoproteica é a opção tentadora porque é um defeito do manejo de lipídios, mas eleva os quilomícrons no sangue e causa pancreatite, e não retenção de gordura no fígado. Uma razão NADH/NAD+ alta explica a esteatose no uso de álcool, o que não se aplica a esta criança."
+  },
+  {
+   "slug": "q-vitamins-nutrition-qx-selenium-cardiomyopathy",
+   "track": "step1",
+   "system": "biochemistry-genetics",
+   "discipline": "pathology",
+   "tags": [
+    "vitamins-nutrition",
+    "minerals",
+    "selenium"
+   ],
+   "stem": "An 8-year-old girl from a remote farming area has 2 months of tiredness, shortness of breath and leg swelling. Her family eats almost only grain grown locally, in soil known to be very poor in one trace element. Her extremities are cool. Echocardiography shows a dilated left ventricle with a low ejection fraction. Serum thiamine is normal. Low activity of which enzyme most likely contributes to her heart disease?",
+   "choices": [
+    "Superoxide dismutase",
+    "Transketolase",
+    "Catalase",
+    "Glutathione peroxidase",
+    "Cytochrome c oxidase (complex IV)"
+   ],
+   "correct": 3,
+   "explanation": "A dilated cardiomyopathy in a child eating crops from trace-element-poor soil suggests **selenium deficiency** (Keshan disease). Selenium is built into **glutathione peroxidase** as selenocysteine; this enzyme removes hydrogen peroxide and lipid peroxides, so low activity leaves heart muscle open to oxidative damage. Superoxide dismutase is the tempting choice because it is also an antioxidant enzyme, but it needs copper, zinc or manganese, not selenium. Transketolase would point to thiamine deficiency, which is excluded and usually gives a high-output state with warm extremities.",
+   "explanation_pt": "Cardiomiopatia dilatada em uma criança que come produtos de um solo pobre em oligoelementos sugere **deficiência de selênio** (doença de Keshan). O selênio faz parte da **glutationa peroxidase** como selenocisteína; essa enzima remove peróxido de hidrogênio e peróxidos lipídicos, e sua baixa atividade deixa o miocárdio exposto à lesão oxidativa. A superóxido dismutase é a opção tentadora porque também é uma enzima antioxidante, mas depende de cobre, zinco ou manganês, e não de selênio. A transcetolase indicaria deficiência de tiamina, que foi excluída e costuma causar um estado de alto débito com extremidades quentes."
+  },
+  {
+   "slug": "q-vitamins-nutrition-qx-zinc-excess-copper",
+   "track": "step1",
+   "system": "biochemistry-genetics",
+   "discipline": "physiology",
+   "tags": [
+    "vitamins-nutrition",
+    "minerals",
+    "zinc",
+    "copper"
+   ],
+   "stem": "A 58-year-old man has 6 months of numb feet and an unsteady gait. For more than a year he has taken large daily amounts of an over-the-counter zinc supplement to prevent colds. Exam shows loss of vibration and position sense in both legs. Laboratory results: hemoglobin 9.4 g/dL, MCV 101 fL, absolute neutrophil count 900/mm3, serum vitamin B12 normal, methylmalonic acid normal, serum zinc high and serum copper low. Which mechanism best explains his deficiency?",
+   "choices": [
+    "Metallothionein in enterocytes trapping dietary copper",
+    "Zinc competing with cobalamin for intrinsic factor binding",
+    "Zinc blocking ceruloplasmin gene transcription in the liver",
+    "Zinc increasing copper excretion into bile through ATP7B",
+    "Zinc inhibiting ferrochelatase in red cell precursors"
+   ],
+   "correct": 0,
+   "explanation": "Too much **zinc** induces **metallothionein** in intestinal cells; this protein binds **copper** more tightly than zinc, so dietary copper stays in the enterocytes and is lost when they are shed. The resulting **copper deficiency** causes anemia, neutropenia and a myeloneuropathy that looks like B12 deficiency. Interference with B12 is the tempting choice because the picture mimics subacute combined degeneration, but B12 and **methylmalonic acid are normal**. Low ceruloplasmin can follow copper deficiency, but it is a result, not the cause.",
+   "explanation_pt": "O excesso de **zinco** induz **metalotioneína** nas células intestinais; essa proteína se liga ao **cobre** com mais força que ao zinco, e o cobre da dieta fica retido nos enterócitos e se perde quando eles descamam. A **deficiência de cobre** resultante causa anemia, neutropenia e uma mieloneuropatia semelhante à deficiência de B12. A interferência com a B12 é a opção tentadora porque o quadro imita a degeneração combinada subaguda, mas a B12 e o **ácido metilmalônico estão normais**. A ceruloplasmina baixa pode acompanhar a deficiência de cobre, mas é consequência, e não causa."
+  },
+  {
+   "slug": "q-vitamins-nutrition-qx-vitamin-a-toxicity",
+   "track": "step1",
+   "system": "biochemistry-genetics",
+   "discipline": "pathology",
+   "tags": [
+    "vitamins-nutrition",
+    "fat-soluble-vitamins",
+    "vitamin-a"
+   ],
+   "stem": "A 41-year-old woman has 2 months of daily headaches that are worst in the morning, and blurred vision. For a year she has taken several high-potency over-the-counter supplements and has eaten beef liver most days. Exam shows bilateral papilledema, dry peeling skin, patchy hair loss, tender long bones and an enlarged liver. Serum calcium is 11.2 mg/dL. Brain MRI shows no mass, and lumbar puncture shows a high opening pressure with normal fluid. Excess of which vitamin best explains these findings?",
+   "choices": [
+    "Vitamin D",
+    "Niacin (B3)",
+    "Vitamin A",
+    "Vitamin E",
+    "Pyridoxine (B6)"
+   ],
+   "correct": 2,
+   "explanation": "Raised intracranial pressure without a mass, dry peeling skin, hair loss, bone pain, liver enlargement and mild hypercalcemia in someone taking supplements and eating liver fit **vitamin A toxicity**. Vitamin A is fat-soluble and stored in the liver, so excess builds up; it also increases bone resorption, which raises calcium. **Vitamin D** excess is the tempting choice because of the hypercalcemia, but it does not cause intracranial hypertension, skin peeling or hair loss. Excess B6 causes a sensory neuropathy, and niacin causes flushing and liver injury.",
+   "explanation_pt": "Hipertensão intracraniana sem massa, pele seca e descamativa, queda de cabelo, dor óssea, hepatomegalia e hipercalcemia leve em uma pessoa que usa suplementos e come fígado indicam **intoxicação por vitamina A**. A vitamina A é lipossolúvel e armazenada no fígado, por isso o excesso se acumula; ela também aumenta a reabsorção óssea, o que eleva o cálcio. O excesso de **vitamina D** é a opção tentadora por causa da hipercalcemia, mas não causa hipertensão intracraniana, descamação da pele nem queda de cabelo. O excesso de B6 causa neuropatia sensitiva, e o de niacina causa rubor e lesão hepática."
+  },
+  {
+   "slug": "q-vitamins-nutrition-qx-riboflavin-fad",
+   "track": "step1",
+   "system": "biochemistry-genetics",
+   "discipline": "physiology",
+   "tags": [
+    "vitamins-nutrition",
+    "b-vitamins",
+    "riboflavin"
+   ],
+   "stem": "A 22-year-old woman has eaten a very restricted diet for a year, avoiding milk products, meat and eggs, and eating small amounts. She has painful cracks at the corners of her mouth, red swollen lips and a sore, magenta-colored tongue. Her eyes are red and sensitive to light, and slit-lamp exam shows small new blood vessels growing into both corneas. She has a greasy, scaly rash beside her nose. Hemoglobin is normal. The deficient vitamin forms a coenzyme needed by which enzyme?",
+   "choices": [
+    "Lactate dehydrogenase",
+    "Alanine aminotransferase",
+    "Propionyl-CoA carboxylase",
+    "Transketolase",
+    "Succinate dehydrogenase"
+   ],
+   "correct": 4,
+   "explanation": "Angular stomatitis, cheilosis, a magenta tongue and **corneal vascularization** point to **riboflavin (B2)** deficiency; dairy is a major source. Riboflavin forms **FAD** and FMN, and **succinate dehydrogenase** (complex II) uses FAD. **Alanine aminotransferase** is the tempting choice because B6 deficiency also causes cheilosis and glossitis, but it does not cause corneal vascularization. Lactate dehydrogenase uses NADH (niacin), propionyl-CoA carboxylase uses biotin, and transketolase uses thiamine pyrophosphate.",
+   "explanation_pt": "Estomatite angular, queilose, língua magenta e **vascularização da córnea** indicam deficiência de **riboflavina (B2)**; os laticínios são uma fonte importante. A riboflavina forma **FAD** e FMN, e a **succinato desidrogenase** (complexo II) usa FAD. A **alanina aminotransferase** é a opção tentadora porque a deficiência de B6 também causa queilose e glossite, mas não causa vascularização da córnea. A lactato desidrogenase usa NADH (niacina), a propionil-CoA carboxilase usa biotina, e a transcetolase usa pirofosfato de tiamina."
+  },
+  {
+   "slug": "q-vitamins-nutrition-qx-starvation-ketones-brain",
+   "track": "step1",
+   "system": "biochemistry-genetics",
+   "discipline": "physiology",
+   "tags": [
+    "vitamins-nutrition",
+    "fed-fasting-metabolism",
+    "ketone-bodies"
+   ],
+   "stem": "A 30-year-old man has been on a hunger strike for 5 weeks, taking only water and salt. He is thin but alert. Laboratory results: glucose 62 mg/dL, serum β-hydroxybutyrate markedly high, bicarbonate mildly low. His daily urine urea nitrogen is about half of what it was in the first week of the strike. Which adaptation best explains the slower breakdown of his muscle protein?",
+   "choices": [
+    "Storage of new liver glycogen made from glycerol",
+    "Brain use of ketone bodies for much of its fuel",
+    "Fatty acid oxidation by red blood cells for ATP",
+    "Release of glucose from muscle glycogen into blood",
+    "Hepatic conversion of acetyl-CoA from fat into glucose"
+   ],
+   "correct": 1,
+   "explanation": "In prolonged starvation the liver makes large amounts of **ketone bodies** from fatty acids, and the **brain** adapts to oxidize them for much of its energy. The brain then needs less glucose, so less **amino acid** from muscle is used for gluconeogenesis, and urine nitrogen falls. Conversion of fat into glucose is the tempting choice, but **acetyl-CoA cannot make net glucose** because the pyruvate dehydrogenase step cannot be reversed; only the glycerol part of fat is gluconeogenic. Red cells have no mitochondria, and muscle lacks glucose-6-phosphatase, so it cannot release glucose.",
+   "explanation_pt": "No jejum prolongado, o fígado produz grandes quantidades de **corpos cetônicos** a partir de ácidos graxos, e o **cérebro** se adapta e passa a oxidá-los para obter boa parte da sua energia. O cérebro passa a precisar de menos glicose, então menos **aminoácidos** musculares são usados na gliconeogênese, e o nitrogênio urinário cai. A conversão de gordura em glicose é a opção tentadora, mas o **acetil-CoA não gera ganho líquido de glicose**, porque a etapa da piruvato desidrogenase é irreversível; só o glicerol da gordura é gliconeogênico. As hemácias não têm mitocôndrias, e o músculo não tem glicose-6-fosfatase, por isso não libera glicose."
+  }
+ ],
+ "notes": []
+}

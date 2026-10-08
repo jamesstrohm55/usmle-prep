@@ -1,0 +1,183 @@
+{
+  "cards": [],
+  "questions": [
+    {
+      "slug": "q-lipid-metabolism-qx-ketone-use-thiophorase",
+      "track": "step1",
+      "system": "biochemistry-genetics",
+      "discipline": "physiology",
+      "tags": [
+        "lipid-metabolism",
+        "ketone-bodies",
+        "fasting"
+      ],
+      "stem": "A healthy 25-year-old man takes part in a 5-day supervised fast with water only. On day 5 his results are: plasma glucose 61 mg/dL, beta-hydroxybutyrate 4.6 mmol/L (on day 1 it was 0.3 mmol/L), and serum insulin is low. Tissue samples are then incubated with labeled acetoacetate. Heart and skeletal muscle cells oxidize it to CO2, but hepatocytes from the same man do not, even though his liver is making large amounts of acetoacetate. Lack of which enzyme in hepatocytes best explains this?",
+      "choices": [
+        "Succinyl-CoA:acetoacetate CoA transferase",
+        "Mitochondrial beta-hydroxybutyrate dehydrogenase",
+        "HMG-CoA synthase",
+        "HMG-CoA lyase",
+        "Carnitine palmitoyltransferase I"
+      ],
+      "correct": 0,
+      "explanation": "To use a ketone, a cell must first activate acetoacetate to acetoacetyl-CoA with **succinyl-CoA:acetoacetate CoA transferase** (**thiophorase**). Hepatocytes lack this enzyme, so the liver exports ketones instead of burning them, and extrahepatic tissues such as heart, muscle and (in prolonged fasting) brain use them. Beta-hydroxybutyrate dehydrogenase is active in the liver: it converts acetoacetate to beta-hydroxybutyrate, which is why that ketone rose so much during the fast. HMG-CoA synthase and HMG-CoA lyase are the liver's ketone-making enzymes, not ketone-using ones.",
+      "explanation_pt": "Para usar um corpo cetônico, a célula precisa primeiro ativar o acetoacetato a acetoacetil-CoA pela **succinil-CoA:acetoacetato CoA-transferase** (**tioforase**). Os hepatócitos não têm essa enzima, por isso o fígado exporta os corpos cetônicos em vez de oxidá-los, e tecidos extra-hepáticos como coração, músculo e (no jejum prolongado) cérebro os utilizam. A beta-hidroxibutirato desidrogenase está ativa no fígado: ela converte acetoacetato em beta-hidroxibutirato, o que explica a grande elevação desse corpo cetônico durante o jejum. A HMG-CoA sintase e a HMG-CoA liase são enzimas hepáticas que produzem corpos cetônicos, e não que os utilizam."
+    },
+    {
+      "slug": "q-lipid-metabolism-qx-fabry-substrate",
+      "track": "step1",
+      "system": "biochemistry-genetics",
+      "discipline": "pathology",
+      "tags": [
+        "lipid-metabolism",
+        "lysosomal-storage",
+        "sphingolipidoses"
+      ],
+      "stem": "A 19-year-old man has had episodes of burning pain in his hands and feet since age 8. The episodes start with exercise, hot weather or fever. He sweats very little and does not tolerate heat. Exam shows clusters of small dark red papules that do not blanch, between the umbilicus and the knees. Slit-lamp exam shows whorl-like opacities in both corneas. Urinalysis shows protein. His maternal uncle started dialysis at age 41. Accumulation of which substance best explains his findings?",
+      "choices": [
+        "Cerebroside sulfate (sulfatide)",
+        "Globotriaosylceramide",
+        "Galactocerebroside",
+        "GM2 ganglioside",
+        "Glucocerebroside"
+      ],
+      "correct": 1,
+      "explanation": "Painful small-fiber neuropathy (*acroparesthesias*), **hypohidrosis**, **angiokeratomas** in a bathing-trunk pattern, whorled corneal opacities (*cornea verticillata*) and proteinuria, with an affected maternal relative, point to **Fabry disease**. X-linked deficiency of **α-galactosidase A** lets **globotriaosylceramide** (ceramide trihexoside, Gb3) build up in vascular endothelium, nerves, kidney and heart. Sulfatide builds up in metachromatic leukodystrophy, which causes demyelination with motor regression, not painful crises with skin and kidney disease.",
+      "explanation_pt": "Neuropatia dolorosa de fibras finas (*acroparestesias*), **hipoidrose**, **angioqueratomas** na região entre o umbigo e os joelhos, opacidades corneanas em redemoinho (*cornea verticillata*) e proteinúria, com um parente materno afetado, indicam **doença de Fabry**. A deficiência ligada ao X de **α-galactosidase A** leva ao acúmulo de **globotriaosilceramida** (ceramida tri-hexosídeo, Gb3) no endotélio vascular, nos nervos, nos rins e no coração. O sulfatídeo se acumula na leucodistrofia metacromática, que causa desmielinização com regressão motora, e não crises dolorosas com doença cutânea e renal."
+    },
+    {
+      "slug": "q-lipid-metabolism-qx-hunter-enzyme",
+      "track": "step1",
+      "system": "biochemistry-genetics",
+      "discipline": "pathology",
+      "tags": [
+        "lipid-metabolism",
+        "lysosomal-storage",
+        "mucopolysaccharidoses"
+      ],
+      "stem": "A 5-year-old boy is evaluated for developmental delay and behavior problems. He is hyperactive and often hits other children. He has coarse facial features, a large tongue, stiff finger joints and an umbilical hernia. The liver and spleen are enlarged. On the skin over both shoulder blades there are firm, pale, pebbly papules. Slit-lamp exam shows clear corneas. His mother's brother had similar features. Urine contains excess dermatan sulfate and heparan sulfate. Deficiency of which enzyme is most likely?",
+      "choices": [
+        "α-L-Iduronidase",
+        "Arylsulfatase A",
+        "Iduronate-2-sulfatase",
+        "N-acetylglucosamine-1-phosphotransferase",
+        "Galactocerebrosidase"
+      ],
+      "correct": 2,
+      "explanation": "Coarse features, organomegaly and stiff joints with excess **dermatan and heparan sulfate** mean a **mucopolysaccharidosis**. Clear corneas, aggressive hyperactive behavior, pebbly skin over the scapulae and an affected maternal uncle (**X-linked recessive**) point to **Hunter syndrome**, caused by **iduronate-2-sulfatase** deficiency. Hurler syndrome (α-L-iduronidase) stores the same two glycosaminoglycans but is autosomal recessive and typically causes **corneal clouding**.",
+      "explanation_pt": "Fácies grosseira, organomegalia e rigidez articular com excesso de **dermatan sulfato e heparan sulfato** indicam uma **mucopolissacaridose**. Córneas transparentes, comportamento agressivo e hiperativo, pápulas em aspecto de seixos sobre as escápulas e um tio materno afetado (**recessiva ligada ao X**) indicam **síndrome de Hunter**, causada pela deficiência de **iduronato-2-sulfatase**. A síndrome de Hurler (α-L-iduronidase) acumula os mesmos dois glicosaminoglicanos, mas é autossômica recessiva e tipicamente causa **opacificação da córnea**."
+    },
+    {
+      "slug": "q-lipid-metabolism-qx-mcad-hypoglycemia-mechanism",
+      "track": "step1",
+      "system": "biochemistry-genetics",
+      "discipline": "pathology",
+      "tags": [
+        "lipid-metabolism",
+        "beta-oxidation",
+        "fatty-acid-oxidation-disorders"
+      ],
+      "stem": "A 14-month-old girl is brought to the emergency department because she is very drowsy. She had a viral illness with vomiting and ate almost nothing for 18 hours. She has no hepatomegaly. Lab results: glucose 34 mg/dL; insulin below the detection limit; beta-hydroxybutyrate 0.2 mmol/L (low for this length of fasting); free fatty acids high; ammonia mildly elevated. Plasma octanoylcarnitine (C8) is very high, and urine contains dicarboxylic acids. Which mechanism best explains her low glucose?",
+      "choices": [
+        "Excess insulin secretion from pancreatic islet beta cells",
+        "Deficient activity of hepatic glucose-6-phosphatase",
+        "Failure to mobilize fatty acids from adipose tissue",
+        "Too little acetyl-CoA to activate pyruvate carboxylase",
+        "Inability to break down glycogen in skeletal muscle"
+      ],
+      "correct": 3,
+      "explanation": "High **C8 acylcarnitine** and dicarboxylic aciduria with fasting **hypoketotic hypoglycemia** point to **MCAD deficiency**. When beta-oxidation stops at medium-chain acyl-CoA, the liver makes little **acetyl-CoA** and NADH, so **pyruvate carboxylase** (activated by acetyl-CoA) and gluconeogenesis slow down; the lack of ketones also forces tissues to use more glucose. Hyperinsulinism also causes hypoglycemia with low ketones, but insulin here is undetectable and free fatty acids are high, so lipolysis is working and insulin is not the cause.",
+      "explanation_pt": "**Acilcarnitina C8** elevada e acidúria dicarboxílica com **hipoglicemia hipocetótica** de jejum indicam **deficiência de MCAD**. Quando a betaoxidação para na acil-CoA de cadeia média, o fígado produz pouca **acetil-CoA** e pouco NADH, então a **piruvato carboxilase** (ativada pela acetil-CoA) e a gliconeogênese diminuem; a falta de corpos cetônicos também faz os tecidos consumirem mais glicose. O hiperinsulinismo também causa hipoglicemia com cetonas baixas, mas aqui a insulina é indetectável e os ácidos graxos livres estão altos, então a lipólise funciona e a insulina não é a causa."
+    },
+    {
+      "slug": "q-lipid-metabolism-qx-metachromatic-leukodystrophy",
+      "track": "step1",
+      "system": "biochemistry-genetics",
+      "discipline": "pathology",
+      "tags": [
+        "lipid-metabolism",
+        "lysosomal-storage",
+        "sphingolipidoses",
+        "leukodystrophy"
+      ],
+      "stem": "A 28-month-old girl is evaluated because she is losing motor skills. She walked alone at 13 months, but over the past 6 months she has become clumsy, falls often and now cannot walk without help. Her speech has also regressed. Exam shows weakness, absent ankle and knee reflexes, and mild ataxia. Nerve conduction velocities are markedly slowed. Brain MRI shows symmetric abnormal signal in the periventricular white matter. Urinary excretion of sulfatides is increased. Deficiency of which enzyme is most likely?",
+      "choices": [
+        "Galactocerebrosidase",
+        "Hexosaminidase A",
+        "Glucocerebrosidase",
+        "α-Galactosidase A",
+        "Arylsulfatase A"
+      ],
+      "correct": 4,
+      "explanation": "Motor regression in a toddler with **central demyelination** plus a **demyelinating peripheral neuropathy** (lost reflexes, slow conduction) and high urinary **sulfatides** point to the late-infantile form of **metachromatic leukodystrophy**. Autosomal recessive **arylsulfatase A** deficiency lets sulfatides build up in oligodendrocytes and Schwann cells. Krabbe disease (galactocerebrosidase) also damages central and peripheral myelin, but it usually starts in the first months of life with extreme irritability, and its toxic product is **psychosine**, with **globoid cells**, not sulfatides.",
+      "explanation_pt": "Regressão motora em uma criança pequena com **desmielinização central** e **neuropatia periférica desmielinizante** (reflexos abolidos, condução lenta) e **sulfatídeos** urinários elevados indicam a forma infantil tardia da **leucodistrofia metacromática**. A deficiência autossômica recessiva de **arilsulfatase A** leva ao acúmulo de sulfatídeos nos oligodendrócitos e nas células de Schwann. A doença de Krabbe (galactocerebrosidase) também lesa a mielina central e periférica, mas costuma começar nos primeiros meses de vida com irritabilidade intensa, e seu produto tóxico é a **psicosina**, com **células globoides**, e não sulfatídeos."
+    },
+    {
+      "slug": "q-lipid-metabolism-qx-dysbetalipoproteinemia-apoe",
+      "track": "step1",
+      "system": "biochemistry-genetics",
+      "discipline": "pathology",
+      "tags": [
+        "lipid-metabolism",
+        "dyslipidemia",
+        "lipoproteins",
+        "remnants"
+      ],
+      "stem": "A 54-year-old man has yellow-orange streaks in the creases of his palms and firm yellow nodules on his elbows and knees. He has pain in his calves when he walks two blocks. Over the past year he has gained weight and was diagnosed with type 2 diabetes. Fasting lipids: total cholesterol 410 mg/dL, triglycerides 450 mg/dL, HDL 36 mg/dL. Lipoprotein electrophoresis shows a broad beta band. A variant of which protein most likely underlies his lipid disorder?",
+      "choices": [
+        "LDL receptor",
+        "Lipoprotein lipase",
+        "Apolipoprotein E",
+        "Apolipoprotein B-100",
+        "Apolipoprotein C-II"
+      ],
+      "correct": 2,
+      "explanation": "**Palmar crease xanthomas**, **tuberoeruptive xanthomas**, cholesterol and triglycerides raised to a similar degree and a **broad beta band** point to **dysbetalipoproteinemia**. It usually needs **apoE2** homozygosity, which binds hepatic receptors poorly, so **chylomicron remnants and IDL** are not cleared; a second hit such as diabetes, obesity or hypothyroidism often unmasks it. Lipoprotein lipase or apoC-II deficiency raises triglycerides more than cholesterol, with chylomicrons, pancreatitis and eruptive xanthomas starting in childhood. An LDL receptor defect raises LDL with normal triglycerides and causes tendon xanthomas.",
+      "explanation_pt": "**Xantomas estriados palmares** (nas pregas das palmas), **xantomas tuberoeruptivos**, colesterol e triglicerídeos elevados em grau semelhante e uma **banda beta larga** indicam **disbetalipoproteinemia**. Em geral ela exige homozigose para **apoE2**, que se liga mal aos receptores hepáticos, de modo que os **remanescentes de quilomícrons e a IDL** não são removidos; um segundo fator, como diabetes, obesidade ou hipotireoidismo, costuma revelá-la. A deficiência de lipase lipoproteica ou de apoC-II eleva os triglicerídeos mais que o colesterol, com quilomícrons, pancreatite e xantomas eruptivos desde a infância. Um defeito do receptor de LDL eleva a LDL com triglicerídeos normais e causa xantomas tendíneos."
+    },
+    {
+      "slug": "q-lipid-metabolism-qx-refsum-alpha-oxidation",
+      "track": "step1",
+      "system": "biochemistry-genetics",
+      "discipline": "pathology",
+      "tags": [
+        "lipid-metabolism",
+        "peroxisomal-disorders",
+        "fatty-acid-oxidation-disorders"
+      ],
+      "stem": "A 27-year-old man has had poor night vision since his teens, and his visual fields have slowly narrowed. For 2 years he has had numb feet and an unsteady gait. Exam shows dry, scaly skin on the legs, reduced vibration sense and absent ankle reflexes. Both fourth toes are short. Funduscopic exam shows dark pigment clumps in the peripheral retina. Plasma phytanic acid is markedly elevated. A defect in which process is most likely?",
+      "choices": [
+        "Lysosomal breakdown of sulfatides",
+        "Peroxisomal alpha-oxidation of fatty acids",
+        "Mitochondrial beta-oxidation of medium-chain fatty acids",
+        "Peroxisomal beta-oxidation of very-long-chain fatty acids",
+        "Hepatic synthesis of ketone bodies"
+      ],
+      "correct": 1,
+      "explanation": "Retinitis pigmentosa, a sensorimotor neuropathy, ataxia, ichthyosis-like skin and short metatarsals with high **phytanic acid** point to **Refsum disease**. Phytanic acid (from dairy and ruminant fat) has a methyl group that blocks beta-oxidation, so it must first lose one carbon by **peroxisomal alpha-oxidation**; that step is defective. Peroxisomal beta-oxidation of very-long-chain fatty acids is the defect in X-linked adrenoleukodystrophy, which causes adrenal insufficiency and cerebral demyelination in boys, not retinitis pigmentosa with high phytanic acid.",
+      "explanation_pt": "Retinose pigmentar, neuropatia sensitivo-motora, ataxia, pele semelhante à ictiose e metatarsos curtos com **ácido fitânico** elevado indicam **doença de Refsum**. O ácido fitânico (de laticínios e gordura de ruminantes) tem um grupo metila que bloqueia a betaoxidação, por isso precisa antes perder um carbono pela **alfa-oxidação peroxissômica**; é essa etapa que está defeituosa. A betaoxidação peroxissômica dos ácidos graxos de cadeia muito longa é o defeito da adrenoleucodistrofia ligada ao X, que causa insuficiência adrenal e desmielinização cerebral em meninos, e não retinose pigmentar com ácido fitânico elevado."
+    },
+    {
+      "slug": "q-lipid-metabolism-qx-citrate-shuttle",
+      "track": "step1",
+      "system": "biochemistry-genetics",
+      "discipline": "physiology",
+      "tags": [
+        "lipid-metabolism",
+        "fatty-acid-synthesis"
+      ],
+      "stem": "A 23-year-old man eats far more carbohydrate than he needs every day for several months and gains weight. In his hepatocytes, glucose is broken down to pyruvate, and pyruvate dehydrogenase makes acetyl-CoA inside the mitochondria. These acetyl groups are then used by fatty acid synthase in the cytosol. In which form do the acetyl groups most likely cross the inner mitochondrial membrane?",
+      "choices": [
+        "Citrate",
+        "Acetylcarnitine",
+        "Malonyl-CoA",
+        "Acetoacetate",
+        "Oxaloacetate"
+      ],
+      "correct": 0,
+      "explanation": "The inner mitochondrial membrane has no carrier for acetyl-CoA. In the fed state, acetyl-CoA joins oxaloacetate to form **citrate**, which leaves the mitochondria (the **citrate shuttle**); in the cytosol **ATP-citrate lyase** splits it back into acetyl-CoA and oxaloacetate for **acetyl-CoA carboxylase** and fatty acid synthase. **Acetylcarnitine** is the tempting choice, but the **carnitine shuttle** mainly carries long-chain acyl groups **into** mitochondria for beta-oxidation; it is not the main route that supplies cytosolic acetyl-CoA for fatty acid synthesis. Malonyl-CoA itself is made in the cytosol, not exported from mitochondria.",
+      "explanation_pt": "A membrana mitocondrial interna não tem transportador para acetil-CoA. No estado alimentado, a acetil-CoA se une ao oxaloacetato e forma **citrato**, que sai da mitocôndria (a **lançadeira de citrato**); no citosol, a **ATP-citrato liase** o cliva novamente em acetil-CoA e oxaloacetato para a **acetil-CoA carboxilase** e a ácido graxo sintase. A **acetilcarnitina** é a opção tentadora, mas a **lançadeira de carnitina** leva principalmente grupos acila de cadeia longa **para dentro** da mitocôndria para a betaoxidação; ela não é a via principal que fornece acetil-CoA citosólica para a síntese de ácidos graxos. A própria malonil-CoA é produzida no citosol, e não exportada da mitocôndria."
+    }
+  ],
+  "notes": []
+}

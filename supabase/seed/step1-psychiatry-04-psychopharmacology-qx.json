@@ -1,0 +1,187 @@
+{
+  "cards": [],
+  "questions": [
+    {
+      "slug": "q-psychopharmacology-qx-nms-d2-blockade",
+      "track": "step1",
+      "system": "psychiatry",
+      "discipline": "pharmacology",
+      "tags": [
+        "psychopharmacology",
+        "antipsychotics",
+        "neuroleptic-malignant-syndrome"
+      ],
+      "stem": "A 34-year-old man with schizophrenia has taken haloperidol, sertraline and benztropine at the same doses for 2 years. Four days ago, his haloperidol dose was increased because of agitation. Over the past 2 days, he has become confused and stiff. Temperature is 40.2°C (104.4°F), pulse is 126/min, and blood pressure varies between 172/104 and 128/76 mm Hg. His skin is wet with sweat. All four limbs show uniform rigidity that resists movement through the whole range. Reflexes are hard to elicit, there is no clonus, and pupils are normal in size. Bowel sounds are present. Laboratory studies show creatine kinase 21,400 U/L (normal 40-200), leukocyte count 15,800/mm3 and creatinine 1.9 mg/dL. Which drug action best explains this condition?",
+      "choices": [
+        "Excess serotonin activity at 5-HT2A receptors",
+        "Blockade of muscarinic receptors in the brain and skin",
+        "Blockade of dopamine D2 receptors in the brain",
+        "Uncontrolled calcium release from mutant ryanodine receptors",
+        "Loss of GABA-A inhibition after drug withdrawal"
+      ],
+      "correct": 2,
+      "explanation": "Fever, **lead-pipe rigidity**, confusion, unstable blood pressure and a very high **creatine kinase** that develop over days after a higher antipsychotic dose are **neuroleptic malignant syndrome**. It comes from strong **D2 blockade** in the hypothalamus (heat control) and the nigrostriatal pathway (rigidity). Serotonin syndrome is the most tempting choice because he takes sertraline, but it starts within hours and causes **hyperreflexia and clonus**, not reduced reflexes in rigid limbs. Anticholinergic toxicity gives dry skin and absent bowel sounds, and he received no anesthetic to trigger malignant hyperthermia.",
+      "explanation_pt": "Febre, **rigidez em cano de chumbo**, confusão, pressão arterial instável e **creatinoquinase** muito elevada que surgem ao longo de dias após aumento da dose do antipsicótico indicam **síndrome neuroléptica maligna**. Ela decorre do **bloqueio D2** intenso no hipotálamo (controle térmico) e na via nigroestriatal (rigidez). A síndrome serotoninérgica é a opção mais tentadora porque ele usa sertralina, mas começa em horas e causa **hiper-reflexia e clônus**, e não reflexos diminuídos em membros rígidos. A intoxicação anticolinérgica causa pele seca e ruídos hidroaéreos ausentes, e ele não recebeu anestésico que desencadeasse hipertermia maligna."
+    },
+    {
+      "slug": "q-psychopharmacology-qx-cyproheptadine-linezolid",
+      "track": "step1",
+      "system": "psychiatry",
+      "discipline": "pharmacology",
+      "tags": [
+        "psychopharmacology",
+        "antidepressants",
+        "serotonin-syndrome"
+      ],
+      "stem": "A 67-year-old man has taken escitalopram for depression for 3 years. He is admitted with an infected leg wound that grows vancomycin-resistant Enterococcus, and linezolid is started. Eighteen hours later, he is agitated and sweating and has diarrhea and a tremor. Temperature is 38.9°C (102.0°F), pulse is 124/min, and blood pressure is 164/94 mm Hg. His pupils are dilated. Reflexes are brisk, more in the legs than in the arms, and there is sustained clonus at both ankles. Creatine kinase is normal. Both drugs are stopped and a benzodiazepine is given, but he remains agitated, so oral cyproheptadine is added. Which action of cyproheptadine explains its benefit?",
+      "choices": [
+        "Antagonism at 5-HT2A receptors",
+        "Antagonism at 5-HT3 receptors",
+        "Partial agonism at 5-HT1A receptors",
+        "Inhibition of tryptophan hydroxylase",
+        "Blockade of dopamine D2 receptors"
+      ],
+      "correct": 0,
+      "explanation": "Rapid onset of agitation, fever, diarrhea, **hyperreflexia** and **clonus** after linezolid was added to an SSRI is **serotonin syndrome**: **linezolid** is a **weak MAO inhibitor**, so serotonin builds up. **Cyproheptadine**, a first-generation antihistamine, also **blocks 5-HT2A receptors**, which mediate much of the toxicity. Ondansetron blocks **5-HT3** receptors and is an antiemetic; it does not treat serotonin syndrome. D2 blockers such as haloperidol do not help and can confuse the picture with neuroleptic malignant syndrome.",
+      "explanation_pt": "Início rápido de agitação, febre, diarreia, **hiper-reflexia** e **clônus** após a adição de linezolida a um ISRS indica **síndrome serotoninérgica**: a **linezolida** é um **inibidor fraco da MAO**, e a serotonina se acumula. A **ciproeptadina**, um anti-histamínico de primeira geração, também **bloqueia receptores 5-HT2A**, que mediam grande parte da toxicidade. A ondansetrona bloqueia receptores **5-HT3** e é antiemética; não trata a síndrome serotoninérgica. Bloqueadores D2 como o haloperidol não ajudam e podem confundir o quadro com a síndrome neuroléptica maligna."
+    },
+    {
+      "slug": "q-psychopharmacology-qx-tca-wide-qrs",
+      "track": "step1",
+      "system": "psychiatry",
+      "discipline": "pharmacology",
+      "tags": [
+        "psychopharmacology",
+        "antidepressants",
+        "toxicology",
+        "tca-overdose"
+      ],
+      "stem": "A 24-year-old woman is brought to the emergency department after she was found drowsy next to an empty bottle of amitriptyline. In the department she has one generalized seizure. Temperature is 38.1°C (100.6°F), pulse is 132/min, respirations are 10/min, and blood pressure is 84/50 mm Hg. Her skin is hot, red and dry, her pupils are dilated, bowel sounds are absent, and the bladder is palpable. ECG shows sinus tachycardia, a QRS duration of 148 ms (normal under 120 ms) and a tall terminal R wave in lead aVR. Which drug action best explains the widened QRS complex?",
+      "choices": [
+        "Blockade of muscarinic receptors in the sinus node",
+        "Blockade of alpha-1 receptors in arterioles",
+        "Inhibition of norepinephrine reuptake at cardiac nerve endings",
+        "Blockade of potassium channels that repolarize the ventricles",
+        "Blockade of fast sodium channels in ventricular myocytes"
+      ],
+      "correct": 4,
+      "explanation": "Tricyclic antidepressants block **fast sodium channels** in the ventricles, so depolarization spreads slowly and the **QRS widens**; a tall terminal R wave in aVR is a typical clue. This effect drives the ventricular arrhythmias and is the reason for giving **sodium bicarbonate**. Muscarinic blockade explains her sinus tachycardia, dry skin, mydriasis and urinary retention, but it does not widen the QRS. Alpha-1 blockade adds to her hypotension, and potassium channel blockade lengthens the QT interval rather than the QRS.",
+      "explanation_pt": "Os antidepressivos tricíclicos bloqueiam os **canais rápidos de sódio** dos ventrículos, a despolarização se propaga devagar e o **QRS se alarga**; uma onda R terminal alta em aVR é uma pista típica. Esse efeito causa as arritmias ventriculares e é o motivo para usar **bicarbonato de sódio**. O bloqueio muscarínico explica a taquicardia sinusal, a pele seca, a midríase e a retenção urinária, mas não alarga o QRS. O bloqueio alfa-1 contribui para a hipotensão, e o bloqueio de canais de potássio prolonga o intervalo QT, e não o QRS."
+    },
+    {
+      "slug": "q-psychopharmacology-qx-clozapine-agranulocytosis",
+      "track": "step1",
+      "system": "psychiatry",
+      "discipline": "pharmacology",
+      "tags": [
+        "psychopharmacology",
+        "antipsychotics",
+        "clozapine",
+        "agranulocytosis"
+      ],
+      "stem": "A 31-year-old man with schizophrenia still had hallucinations after full trials of risperidone and then haloperidol. Eight weeks ago he started a third drug, and his hallucinations have improved. He now drools at night, is constipated and has gained 4 kg. For 3 days he has had fever, pain on swallowing and white-based ulcers on his gums. Temperature is 39.1°C (102.4°F). Laboratory studies show a leukocyte count of 1,800/mm3 (normal 4,500-11,000) with 5% neutrophils, so the absolute neutrophil count is 90/mm3. Hemoglobin is 13.9 g/dL and the platelet count is 238,000/mm3. Which drug did he most likely start?",
+      "choices": [
+        "Haloperidol",
+        "Clozapine",
+        "Olanzapine",
+        "Aripiprazole",
+        "Quetiapine"
+      ],
+      "correct": 1,
+      "explanation": "**Clozapine** is the drug for schizophrenia that did not respond to two other antipsychotics. Its most feared adverse effect is **agranulocytosis**, which is why neutrophil counts are checked regularly; this patient has an isolated, very low neutrophil count with fever. **Hypersalivation**, severe constipation and weight gain are other typical effects. Olanzapine is the most tempting choice because it has a similar structure and causes weight gain, but severe neutropenia is rare with it, and it is not the drug kept for treatment-resistant illness.",
+      "explanation_pt": "A **clozapina** é o fármaco para a esquizofrenia que não respondeu a dois outros antipsicóticos. Seu efeito adverso mais temido é a **agranulocitose**, motivo pelo qual a contagem de neutrófilos é feita regularmente; este paciente tem neutrófilos muito baixos, de forma isolada, com febre. **Sialorreia**, constipação grave e ganho de peso são outros efeitos típicos. A olanzapina é a opção mais tentadora porque tem estrutura semelhante e causa ganho de peso, mas neutropenia grave é rara com ela, e ela não é o fármaco reservado para a doença refratária."
+    },
+    {
+      "slug": "q-psychopharmacology-qx-valbenazine-tardive-dyskinesia",
+      "track": "step1",
+      "system": "psychiatry",
+      "discipline": "pharmacology",
+      "tags": [
+        "psychopharmacology",
+        "antipsychotics",
+        "extrapyramidal-effects",
+        "tardive-dyskinesia"
+      ],
+      "stem": "A 66-year-old woman with schizophrenia has taken fluphenazine for 15 years. Over the past 6 months her family has noticed repeated lip smacking, chewing movements, pushing of the tongue out of the mouth and slow writhing movements of her fingers. One month ago benztropine was added, and the movements became worse. Benztropine is stopped and valbenazine is started. Two months later the movements are much less frequent. Which mechanism explains the effect of valbenazine?",
+      "choices": [
+        "Blockade of muscarinic receptors in the striatum",
+        "Stimulation of D2 receptors in the striatum",
+        "Inhibition of monoamine oxidase type B",
+        "Inhibition of vesicular monoamine transporter 2",
+        "Inhibition of catechol-O-methyltransferase"
+      ],
+      "correct": 3,
+      "explanation": "Late-onset involuntary movements of the mouth, tongue and fingers after years of a typical antipsychotic are **tardive dyskinesia**, thought to come from **supersensitive D2 receptors** in the striatum after long blockade. **Valbenazine** inhibits **VMAT2**, so less dopamine is packed into vesicles and released onto those receptors. Muscarinic blockade (benztropine) helps acute dystonia and drug-induced parkinsonism but **worsens** tardive dyskinesia, as happened here. MAO-B and COMT inhibitors raise dopamine and would make the movements worse.",
+      "explanation_pt": "Movimentos involuntários tardios da boca, da língua e dos dedos após anos de antipsicótico típico indicam **discinesia tardia**, atribuída a **receptores D2 hipersensíveis** no estriado após bloqueio prolongado. A **valbenazina** inibe o **VMAT2**, de modo que menos dopamina é armazenada em vesículas e liberada sobre esses receptores. O bloqueio muscarínico (benzatropina) ajuda na distonia aguda e no parkinsonismo induzido por fármacos, mas **piora** a discinesia tardia, como ocorreu aqui. Inibidores da MAO-B e da COMT aumentam a dopamina e piorariam os movimentos."
+    },
+    {
+      "slug": "q-psychopharmacology-qx-trazodone-priapism",
+      "track": "step1",
+      "system": "psychiatry",
+      "discipline": "pharmacology",
+      "tags": [
+        "psychopharmacology",
+        "antidepressants",
+        "trazodone",
+        "priapism"
+      ],
+      "stem": "A 41-year-old man with depression and insomnia started trazodone at bedtime 10 days ago, and he now sleeps well. He comes to the emergency department with a painful erection that has lasted 5 hours and did not follow sexual activity. He takes no other drugs, including phosphodiesterase inhibitors, and he does not use illicit drugs. He has no history of sickle cell disease, and his blood count is normal. The shaft of the penis is rigid and tender, and the glans is soft. Which action of trazodone most likely caused this problem?",
+      "choices": [
+        "Inhibition of phosphodiesterase-5 in the corpus cavernosum",
+        "Blockade of alpha-1 adrenergic receptors",
+        "Blockade of histamine H1 receptors",
+        "Blockade of muscarinic receptors",
+        "Inhibition of serotonin reuptake"
+      ],
+      "correct": 1,
+      "explanation": "**Trazodone** is a classic cause of **priapism**. The end of an erection needs sympathetic **alpha-1** stimulation to contract the smooth muscle of the corpora cavernosa; trazodone **blocks alpha-1 receptors**, so blood stays trapped. Its **H1** blockade explains why it helps him sleep, not the erection. Phosphodiesterase-5 inhibition is the mechanism of sildenafil, which he does not take; trazodone does not act on this enzyme.",
+      "explanation_pt": "A **trazodona** é causa clássica de **priapismo**. O fim da ereção depende de estímulo simpático **alfa-1** que contrai a musculatura lisa dos corpos cavernosos; a trazodona **bloqueia receptores alfa-1**, e o sangue fica retido. O bloqueio **H1** explica por que ela o ajuda a dormir, e não a ereção. A inibição da fosfodiesterase-5 é o mecanismo da sildenafila, que ele não usa; a trazodona não age sobre essa enzima."
+    },
+    {
+      "slug": "q-psychopharmacology-qx-methylphenidate-mechanism",
+      "track": "step1",
+      "system": "psychiatry",
+      "discipline": "pharmacology",
+      "tags": [
+        "psychopharmacology",
+        "stimulants",
+        "adhd"
+      ],
+      "stem": "An 8-year-old boy with attention-deficit/hyperactivity disorder started methylphenidate 6 weeks ago. His teacher reports that he now finishes his work and interrupts less. His parents say he eats little at lunch and has trouble falling asleep. His weight has gone from 26.0 kg to 24.6 kg, and his pulse is 104/min, compared with 88/min before treatment. Which mechanism of methylphenidate explains both its benefit and these adverse effects?",
+      "choices": [
+        "Release of dopamine and norepinephrine by reversing their transporters",
+        "Selective inhibition of norepinephrine reuptake",
+        "Stimulation of alpha-2A receptors in the prefrontal cortex",
+        "Blockade of dopamine and norepinephrine reuptake transporters",
+        "Irreversible inhibition of monoamine oxidase"
+      ],
+      "correct": 3,
+      "explanation": "**Methylphenidate** binds the **dopamine and norepinephrine transporters** and blocks reuptake, so more of both transmitters stays in the synapse. This improves attention but also **reduces appetite**, causes **insomnia** and raises heart rate. The most tempting choice, reversal of the transporters with release of stored transmitter, describes **amphetamines**. Selective norepinephrine reuptake inhibition is atomoxetine, and alpha-2A agonism is guanfacine, a non-stimulant that tends to lower heart rate.",
+      "explanation_pt": "O **metilfenidato** se liga aos **transportadores de dopamina e noradrenalina** e bloqueia a recaptação, mantendo mais desses transmissores na sinapse. Isso melhora a atenção, mas também **reduz o apetite**, causa **insônia** e aumenta a frequência cardíaca. A opção mais tentadora, a inversão dos transportadores com liberação do transmissor armazenado, descreve as **anfetaminas**. A inibição seletiva da recaptação de noradrenalina é a atomoxetina, e o agonismo alfa-2A é a guanfacina, um não estimulante que tende a reduzir a frequência cardíaca."
+    },
+    {
+      "slug": "q-psychopharmacology-qx-bupropion-bulimia-seizure",
+      "track": "step1",
+      "system": "psychiatry",
+      "discipline": "pharmacology",
+      "tags": [
+        "psychopharmacology",
+        "antidepressants",
+        "bupropion",
+        "seizures"
+      ],
+      "stem": "A 23-year-old woman with depression smokes one pack of cigarettes per day. She asked for one drug that could treat her mood, help her stop smoking and not cause weight gain. Three weeks after starting it, she is brought to the emergency department after her first generalized tonic-clonic seizure. She does not drink alcohol. BMI is 20 kg/m2. She has painless swelling in front of both ears and small scars over the knuckles of her right hand, and her dentist recently noted thinning of the enamel on the back of her front teeth. Serum studies show sodium 138 mEq/L, potassium 3.2 mEq/L, chloride 94 mEq/L, bicarbonate 31 mEq/L and glucose 92 mg/dL. Which mechanism describes the drug she started?",
+      "choices": [
+        "Inhibition of serotonin reuptake",
+        "Partial agonism at alpha-4 beta-2 nicotinic receptors",
+        "Inhibition of norepinephrine and dopamine reuptake",
+        "Blockade of presynaptic alpha-2 receptors",
+        "Inhibition of serotonin and norepinephrine reuptake"
+      ],
+      "correct": 2,
+      "explanation": "A drug for depression that also helps smokers quit and does not cause weight gain is **bupropion**, which **inhibits norepinephrine and dopamine reuptake** and **lowers the seizure threshold**. Her parotid swelling, knuckle scars, enamel loss, normal weight and **hypokalemic metabolic alkalosis** point to hidden **bulimia nervosa**, a condition in which bupropion should be avoided because seizure risk is higher. Varenicline is the most tempting choice because it helps smokers quit, but it is not an antidepressant. Mirtazapine (alpha-2 blockade) usually causes weight gain.",
+      "explanation_pt": "Um fármaco para depressão que também ajuda a parar de fumar e não causa ganho de peso é a **bupropiona**, que **inibe a recaptação de noradrenalina e dopamina** e **reduz o limiar convulsivo**. O aumento das parótidas, as cicatrizes nos nós dos dedos, o desgaste do esmalte, o peso normal e a **alcalose metabólica hipocalêmica** apontam para **bulimia nervosa** oculta, condição em que a bupropiona deve ser evitada porque o risco de convulsão é maior. A vareniclina é a opção mais tentadora porque ajuda a parar de fumar, mas não é antidepressivo. A mirtazapina (bloqueio alfa-2) costuma causar ganho de peso."
+    }
+  ],
+  "notes": []
+}
