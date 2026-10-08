@@ -1,0 +1,182 @@
+{
+  "cards": [],
+  "questions": [
+    {
+      "slug": "q-neurophysiology-qx-hyperkalemia-excitability",
+      "track": "step1",
+      "system": "nervous",
+      "discipline": "physiology",
+      "tags": [
+        "neurophysiology",
+        "action-potential",
+        "hyperkalemia"
+      ],
+      "stem": "A 66-year-old man with end-stage kidney disease has missed his last three dialysis sessions. He has 1 day of weakness in both legs and now cannot stand. Patellar reflexes are reduced. Laboratory studies show: sodium 136 mEq/L, potassium 7.6 mEq/L, chloride 101 mEq/L, bicarbonate 16 mEq/L, and creatinine 9.4 mg/dL. The ECG shows tall, peaked T waves. Which mechanism best explains his muscle weakness?",
+      "choices": [
+        "A less negative resting potential that keeps many Na+ channels inactivated",
+        "A more negative resting potential that moves the membrane away from threshold",
+        "Reduced acetylcholine release from the motor nerve terminal",
+        "Loss of myelin that slows conduction in the motor axons",
+        "Reduced Ca2+ release from the sarcoplasmic reticulum through RyR1"
+      ],
+      "correct": 0,
+      "explanation": "The resting potential depends mostly on **K+ leak**, so a high extracellular K+ reduces the K+ gradient and makes the resting potential **less negative** (partial depolarization). A sustained depolarization keeps the inactivation gates of many voltage-gated **Na+ channels closed**, so fewer channels can open and the cells become **less excitable**, which causes weakness. A more negative resting potential is the tempting answer, but **hyperpolarization** is the effect of **hypokalemia**, not hyperkalemia.",
+      "explanation_pt": "O potencial de repouso depende principalmente do **vazamento de K+**; assim, o K+ extracelular alto reduz o gradiente de K+ e torna o potencial de repouso **menos negativo** (despolarização parcial). A despolarização mantida deixa **fechadas** as comportas de inativação de muitos **canais de Na+** voltagem-dependentes; menos canais conseguem abrir e as células ficam **menos excitáveis**, o que causa fraqueza. Um potencial de repouso mais negativo é a resposta tentadora, mas a **hiperpolarização** é o efeito da **hipocalemia**, e não da hipercalemia."
+    },
+    {
+      "slug": "q-neurophysiology-qx-tetrodotoxin-sodium-channel",
+      "track": "step1",
+      "system": "nervous",
+      "discipline": "physiology",
+      "tags": [
+        "neurophysiology",
+        "action-potential",
+        "toxins"
+      ],
+      "stem": "A 34-year-old man eats pufferfish at a restaurant. Forty minutes later he notices numbness of his lips and tongue and tingling in his fingers. Over the next hour he develops weakness of his arms and legs and has trouble breathing. Nerve conduction studies show markedly reduced or absent motor and sensory responses. Which action of the toxin best explains his findings?",
+      "choices": [
+        "Cleavage of SNARE proteins in the motor nerve terminal",
+        "Block of voltage-gated K+ channels in the axon",
+        "Inhibition of acetylcholinesterase in the synaptic cleft",
+        "Block of voltage-gated Na+ channels in the axon",
+        "Persistent opening of voltage-gated Na+ channels in the axon"
+      ],
+      "correct": 3,
+      "explanation": "Pufferfish contains **tetrodotoxin**, which binds and **blocks voltage-gated Na+ channels**. Without Na+ entry, the depolarizing phase of the **action potential** cannot happen, so both sensory and motor nerves stop conducting, which explains the early numbness and the fast paralysis. Botulinum toxin (SNARE cleavage) is the tempting choice because it also causes weakness, but it acts only at the nerve terminal, so nerve conduction is preserved and **sensation is spared**; it also typically causes **dilated pupils** and a descending paralysis over hours to days.",
+      "explanation_pt": "O baiacu contém **tetrodotoxina**, que se liga aos **canais de Na+** voltagem-dependentes e os **bloqueia**. Sem a entrada de Na+, a fase de despolarização do **potencial de ação** não ocorre; assim, os nervos sensitivos e motores param de conduzir, o que explica a dormência precoce e a paralisia rápida. A toxina botulínica (clivagem das SNARE) é a escolha tentadora porque também causa fraqueza, mas age apenas no terminal nervoso: a condução nervosa é preservada e a **sensibilidade fica poupada**; ela também costuma causar **pupilas dilatadas** e paralisia descendente ao longo de horas a dias."
+    },
+    {
+      "slug": "q-neurophysiology-qx-relative-refractory",
+      "track": "step1",
+      "system": "nervous",
+      "discipline": "physiology",
+      "tags": [
+        "neurophysiology",
+        "action-potential",
+        "refractory-period"
+      ],
+      "stem": "In a physiology laboratory, students stimulate an isolated nerve axon with pairs of brief electrical pulses. The first pulse always produces an action potential. When the second pulse comes very soon after the first, no action potential appears, even with very strong pulses. When the second pulse comes a few milliseconds later, an action potential appears only if the pulse is stronger than the first one. Which mechanism best explains the need for a stronger pulse at the later interval?",
+      "choices": [
+        "All voltage-gated Na+ channels are still held closed by their inactivation gates",
+        "The Na+/K+-ATPase has not yet restored the ion gradients",
+        "Voltage-gated K+ channels are still open and hyperpolarize the membrane",
+        "Extracellular Na+ around the axon has been depleted",
+        "The axon terminal has run out of releasable neurotransmitter"
+      ],
+      "correct": 2,
+      "explanation": "The later interval is the **relative refractory period**. Voltage-gated **K+ channels** close slowly, so K+ efflux continues and briefly **hyperpolarizes** the membrane; it is farther from threshold, and only a stronger stimulus can reach it (some Na+ channels are also still recovering). The tempting choice, all Na+ channels still inactivated, describes the **absolute refractory period**, when no stimulus of any strength works. A single action potential moves very few ions, so the **Na+/K+-ATPase** and the ion gradients are not the limiting factor.",
+      "explanation_pt": "O intervalo mais tardio é o **período refratário relativo**. Os **canais de K+** voltagem-dependentes fecham lentamente; o efluxo de K+ continua e **hiperpolariza** brevemente a membrana, que fica mais longe do limiar, e apenas um estímulo mais forte consegue alcançá-lo (alguns canais de Na+ também ainda estão se recuperando). A escolha tentadora, todos os canais de Na+ ainda inativados, descreve o **período refratário absoluto**, quando nenhum estímulo, de qualquer intensidade, funciona. Um único potencial de ação movimenta pouquíssimos íons; por isso, a **Na+/K+-ATPase** e os gradientes iônicos não são o fator limitante."
+    },
+    {
+      "slug": "q-neurophysiology-qx-paraganglioma-pnmt",
+      "track": "step1",
+      "system": "nervous",
+      "discipline": "physiology",
+      "tags": [
+        "neurophysiology",
+        "catecholamines",
+        "paraganglioma"
+      ],
+      "stem": "A 38-year-old woman has 4 months of episodes of pounding headache, palpitations and heavy sweating. During an episode her blood pressure is 186/112 mm Hg and her pulse is 120/min. Laboratory studies show: plasma free normetanephrine 4.6 nmol/L (reference below 0.9) and plasma free metanephrine 0.3 nmol/L (reference below 0.5). CT shows a 4-cm mass next to the aorta near its bifurcation; both adrenal glands are normal. Low activity of which enzyme in the tumor cells best explains this hormone pattern?",
+      "choices": [
+        "Tyrosine hydroxylase",
+        "Phenylethanolamine N-methyltransferase",
+        "Dopamine beta-hydroxylase",
+        "Aromatic L-amino acid decarboxylase",
+        "Catechol-O-methyltransferase"
+      ],
+      "correct": 1,
+      "explanation": "This is an **extra-adrenal paraganglioma** that makes **norepinephrine** (high normetanephrine) but almost no epinephrine. **PNMT** converts norepinephrine to epinephrine, and its expression is **induced by the high cortisol** that reaches the adrenal medulla from the cortex; chromaffin cells outside the adrenal lack this exposure and have little PNMT. Dopamine beta-hydroxylase is the tempting choice, but it makes norepinephrine from dopamine, so low activity would **lower** norepinephrine, not raise it. **COMT** must be working, because it converts norepinephrine to normetanephrine.",
+      "explanation_pt": "Trata-se de um **paraganglioma extra-adrenal** que produz **noradrenalina** (normetanefrina alta), mas quase nenhuma adrenalina. A **PNMT** converte noradrenalina em adrenalina, e sua expressão é **induzida pelo cortisol elevado** que chega à medula adrenal a partir do córtex; as células cromafins fora da adrenal não recebem essa exposição e têm pouca PNMT. A dopamina beta-hidroxilase é a escolha tentadora, mas ela produz noradrenalina a partir da dopamina; sua baixa atividade **reduziria** a noradrenalina, e não a aumentaria. A **COMT** precisa estar funcionando, pois converte noradrenalina em normetanefrina."
+    },
+    {
+      "slug": "q-neurophysiology-qx-excitation-contraction-coupling",
+      "track": "step1",
+      "system": "nervous",
+      "discipline": "physiology",
+      "tags": [
+        "neurophysiology",
+        "skeletal-muscle",
+        "calcium"
+      ],
+      "stem": "A researcher places isolated skeletal muscle fibers and isolated strips of ventricular muscle in a bath with no Ca2+. Both tissues are stimulated electrically at a steady rate. The skeletal muscle fibers keep contracting with normal force for many minutes. The cardiac strips stop contracting within a few beats. Which feature of skeletal muscle best explains this difference?",
+      "choices": [
+        "Larger Ca2+ entry through L-type channels during each skeletal action potential",
+        "Ca2+ release triggered by Ca2+ that enters through L-type channels",
+        "Troponin C that binds Ca2+ with a much higher affinity",
+        "Gap junctions that let Ca2+ pass between neighboring fibers",
+        "A direct mechanical link between the dihydropyridine receptor and RyR1"
+      ],
+      "correct": 4,
+      "explanation": "In skeletal muscle the **dihydropyridine receptor** in the T tubule acts as a voltage sensor that is **mechanically coupled to RyR1**; depolarization changes its shape and opens RyR1 directly, so Ca2+ comes from the sarcoplasmic reticulum and **no extracellular Ca2+ is needed**. Ca2+ release triggered by entering Ca2+ is the tempting choice, but this **calcium-induced calcium release** is the cardiac mechanism (through RyR2), and it is the reason the cardiac strips fail in a Ca2+-free bath. Skeletal fibers are not coupled by gap junctions; each fiber is activated by its own motor nerve.",
+      "explanation_pt": "No músculo esquelético, o **receptor de di-hidropiridina** do túbulo T funciona como sensor de voltagem **acoplado mecanicamente ao RyR1**; a despolarização muda sua conformação e abre o RyR1 diretamente, de modo que o Ca2+ vem do retículo sarcoplasmático e **não é necessário Ca2+ extracelular**. A liberação de Ca2+ desencadeada pelo Ca2+ que entra é a escolha tentadora, mas essa **liberação de cálcio induzida por cálcio** é o mecanismo cardíaco (via RyR2) e explica por que as tiras cardíacas param no banho sem Ca2+. As fibras esqueléticas não são acopladas por junções comunicantes; cada fibra é ativada pelo seu próprio nervo motor."
+    },
+    {
+      "slug": "q-neurophysiology-qx-area-postrema-domperidone",
+      "track": "step1",
+      "system": "nervous",
+      "discipline": "physiology",
+      "tags": [
+        "neurophysiology",
+        "blood-brain-barrier",
+        "circumventricular-organs"
+      ],
+      "stem": "A 71-year-old man with Parkinson disease started levodopa-carbidopa 2 weeks ago. His tremor is better, but he has daily nausea and has vomited twice. He is given domperidone, a dopamine D2 receptor antagonist that does not cross the blood-brain barrier. His nausea improves, and his tremor and stiffness do not get worse. Which brain region is the most likely site of the drug's antiemetic effect?",
+      "choices": [
+        "Substantia nigra pars compacta",
+        "Organum vasculosum of the lamina terminalis",
+        "Dorsal striatum",
+        "Area postrema",
+        "Nucleus accumbens"
+      ],
+      "correct": 3,
+      "explanation": "The **area postrema** (chemoreceptor trigger zone) in the floor of the fourth ventricle is a **circumventricular organ**: its capillaries are fenestrated and lack the tight junctions of the **blood-brain barrier**, so circulating dopamine from levodopa can trigger vomiting there, and a peripherally restricted D2 antagonist can block it. Because domperidone stays outside the barrier, it does not block D2 receptors in the **striatum**, so parkinsonism does not worsen. The OVLT is the tempting choice because it also lacks a blood-brain barrier, but it senses **plasma osmolality** and drives thirst and ADH release, not vomiting.",
+      "explanation_pt": "A **área postrema** (zona de gatilho quimiorreceptora), no assoalho do quarto ventrículo, é um **órgão circunventricular**: seus capilares são fenestrados e não têm as junções de oclusão da **barreira hematoencefálica**; por isso, a dopamina circulante proveniente da levodopa pode desencadear vômitos ali, e um antagonista D2 de ação periférica pode bloqueá-la. Como a domperidona permanece fora da barreira, ela não bloqueia os receptores D2 do **estriado**, e o parkinsonismo não piora. O OVLT é a escolha tentadora porque também não tem barreira hematoencefálica, mas ele detecta a **osmolalidade plasmática** e estimula a sede e a liberação de ADH, e não o vômito."
+    },
+    {
+      "slug": "q-neurophysiology-qx-pacinian-vibration",
+      "track": "step1",
+      "system": "nervous",
+      "discipline": "physiology",
+      "tags": [
+        "neurophysiology",
+        "sensory-receptors",
+        "diabetic-neuropathy"
+      ],
+      "stem": "A 57-year-old man with type 2 diabetes for 15 years has a foot examination. A vibrating 128-Hz tuning fork is placed on the joint of each great toe. He cannot feel the buzzing on either side, although he feels it normally at the knees. Pinprick sensation is mildly reduced in both feet. Which skin receptor is most specialized to detect this kind of stimulus?",
+      "choices": [
+        "Pacinian corpuscle",
+        "Merkel disc",
+        "Ruffini ending",
+        "Meissner corpuscle",
+        "Free nerve ending"
+      ],
+      "correct": 0,
+      "explanation": "**Pacinian corpuscles** lie deep in the dermis and subcutaneous tissue; their layered capsule makes them **rapidly adapting**, so they respond to fast change, such as **high-frequency vibration**. They send signals through large myelinated A-beta fibers in the dorsal columns, and the long fibers to the feet are affected early in **diabetic neuropathy**. Meissner corpuscles are the tempting choice because they are also rapidly adapting, but they sit superficially in hairless skin and respond best to **light touch and low-frequency flutter**. Merkel discs and Ruffini endings are **slowly adapting** and signal steady pressure or skin stretch.",
+      "explanation_pt": "Os **corpúsculos de Pacini** ficam na derme profunda e no tecido subcutâneo; sua cápsula em camadas os torna de **adaptação rápida**, e por isso respondem a mudanças rápidas, como a **vibração de alta frequência**. Eles enviam sinais por fibras A-beta mielinizadas grandes nas colunas dorsais, e as fibras longas que chegam aos pés são acometidas precocemente na **neuropatia diabética**. Os corpúsculos de Meissner são a escolha tentadora porque também são de adaptação rápida, mas ficam superficiais na pele glabra e respondem melhor ao **toque leve e à vibração de baixa frequência**. Os discos de Merkel e as terminações de Ruffini são de **adaptação lenta** e sinalizam pressão constante ou estiramento da pele."
+    },
+    {
+      "slug": "q-neurophysiology-qx-ischemia-excitotoxicity",
+      "track": "step1",
+      "system": "nervous",
+      "discipline": "pathology",
+      "tags": [
+        "neurophysiology",
+        "excitotoxicity",
+        "glutamate"
+      ],
+      "stem": "A 59-year-old man has a cardiac arrest at home. Bystanders start chest compressions, and a pulse returns after about 12 minutes. In the intensive care unit, his blood pressure is 104/66 mm Hg, pulse is 96/min, and oxygen saturation is 98% on a ventilator. He remains in a coma 3 days later. MRI shows injury in the hippocampus and the cerebral cortex. Which process most directly drives the death of neurons in the first hours after this kind of injury?",
+      "choices": [
+        "Increased GABA release that suppresses neuronal firing",
+        "Phagocytosis of healthy neurons by activated microglia",
+        "Glutamate activation of NMDA receptors with Ca2+ influx",
+        "Autoantibodies against neuronal voltage-gated K+ channels",
+        "Loss of dopamine release from nigrostriatal neurons"
+      ],
+      "correct": 2,
+      "explanation": "During global ischemia, ATP runs out, so neurons and astrocytes cannot clear **glutamate**, so it builds up in the synapse and overstimulates **NMDA receptors**. These receptors let **Ca2+ flood into the neuron**, which activates proteases, lipases and free radical production and kills the cell (**excitotoxicity**); the hippocampus and cortex are among the most sensitive regions. Microglial activation is the tempting choice, but microglia mainly **clear dead cells** after the injury; they do not cause the early neuron death. Increased GABA would protect neurons rather than kill them.",
+      "explanation_pt": "Durante a isquemia global, o ATP se esgota, e neurônios e astrócitos não conseguem remover o **glutamato**, que se acumula na sinapse e hiperestimula os **receptores NMDA**. Esses receptores deixam o **Ca2+ entrar em excesso no neurônio**, o que ativa proteases, lipases e a produção de radicais livres e mata a célula (**excitotoxicidade**); o hipocampo e o córtex estão entre as regiões mais sensíveis. A ativação da micróglia é a escolha tentadora, mas a micróglia principalmente **remove as células mortas** após a lesão; ela não causa a morte neuronal precoce. Mais GABA protegeria os neurônios em vez de matá-los."
+    }
+  ],
+  "notes": []
+}

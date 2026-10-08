@@ -1,0 +1,182 @@
+{
+  "cards": [],
+  "questions": [
+    {
+      "slug": "q-neuropharmacology-qx-inhaled-anesthetic-onset",
+      "track": "step1",
+      "system": "nervous",
+      "discipline": "pharmacology",
+      "tags": [
+        "neuropharmacology",
+        "general-anesthetics",
+        "pharmacokinetics"
+      ],
+      "stem": "A pharmacology student compares five experimental inhaled anesthetics. Agent A: blood/gas partition coefficient 0.65, minimum alveolar concentration (MAC) 2.0%. Agent B: blood/gas 2.4, MAC 0.75%. Agent C: blood/gas 0.42, MAC 6.0%. Agent D: blood/gas 12, MAC 0.2%. Agent E: blood/gas 1.4, MAC 1.2%. All other conditions are the same. Which agent will most likely produce the fastest induction of anesthesia?",
+      "choices": [
+        "Agent A",
+        "Agent B",
+        "Agent C",
+        "Agent D",
+        "Agent E"
+      ],
+      "correct": 2,
+      "explanation": "Speed of induction depends on **solubility in blood**. A gas with a **low blood/gas partition coefficient** (Agent C, 0.42) dissolves poorly in blood, so its partial pressure in blood and brain rises quickly. Agent D is the most **potent** (lowest MAC), but it is very soluble in blood, so it has the **slowest** induction and recovery. Potency and speed of onset are separate properties.",
+      "explanation_pt": "A velocidade de indução depende da **solubilidade no sangue**. Um gás com **baixo coeficiente de partição sangue/gás** (Agente C, 0,42) se dissolve pouco no sangue, e sua pressão parcial no sangue e no cérebro sobe rápido. O Agente D é o mais **potente** (menor CAM), mas é muito solúvel no sangue, por isso tem a indução e a recuperação **mais lentas**. Potência e rapidez de início são propriedades diferentes."
+    },
+    {
+      "slug": "q-neuropharmacology-qx-succinylcholine-denervation",
+      "track": "step1",
+      "system": "nervous",
+      "discipline": "pharmacology",
+      "tags": [
+        "neuropharmacology",
+        "neuromuscular-blockers",
+        "hyperkalemia"
+      ],
+      "stem": "A 26-year-old man became paraplegic after a spinal cord injury 5 weeks ago. He now needs urgent surgery for a bowel obstruction, and succinylcholine is given for rapid intubation. Two minutes later, the ECG shows peaked T waves and a wide QRS complex, and he develops ventricular fibrillation. Serum potassium was 4.2 mEq/L before surgery and is now 7.9 mEq/L. Temperature is 37.1°C (98.8°F), end-tidal CO2 is normal, and there is no muscle rigidity. Which mechanism best explains the rise in potassium?",
+      "choices": [
+        "Uncontrolled calcium release through a mutant ryanodine receptor",
+        "Inhibition of the Na+/K+-ATPase in skeletal muscle",
+        "Potassium shift out of cells caused by severe metabolic acidosis",
+        "Low aldosterone with reduced renal potassium excretion",
+        "Extrajunctional nicotinic receptors after loss of nerve input"
+      ],
+      "correct": 4,
+      "explanation": "After **denervation** (including spinal cord injury or stroke), burns or crush injury, muscle makes many **extrajunctional nicotinic receptors** across its whole surface. **Succinylcholine** depolarizes all of them at once, and a large amount of potassium leaves the muscle within minutes, causing **hyperkalemic arrest**. Malignant hyperthermia (mutant **ryanodine receptor**) can also raise potassium, but it comes with rigidity, rising end-tidal CO2 and fever, which are absent here.",
+      "explanation_pt": "Após **desnervação** (inclusive lesão medular ou AVC), queimaduras ou lesão por esmagamento, o músculo produz muitos **receptores nicotínicos extrajuncionais** em toda a sua superfície. A **succinilcolina** despolariza todos ao mesmo tempo, e grande quantidade de potássio sai do músculo em minutos, causando **parada cardíaca por hipercalemia**. A hipertermia maligna (**receptor de rianodina** mutante) também pode elevar o potássio, mas vem com rigidez, aumento do CO2 expirado (capnografia) e febre, ausentes aqui."
+    },
+    {
+      "slug": "q-neuropharmacology-qx-ester-allergy",
+      "track": "step1",
+      "system": "nervous",
+      "discipline": "pharmacology",
+      "tags": [
+        "neuropharmacology",
+        "local-anesthetics",
+        "drug-allergy"
+      ],
+      "stem": "A 38-year-old woman needs a small skin lesion removed from her forearm under local anesthesia. Two years ago she developed hives, lip swelling and wheezing a few minutes after a nerve block with procaine. Allergy testing at that time showed sensitivity to para-aminobenzoic acid (PABA). Which local anesthetic is the most appropriate choice for her procedure?",
+      "choices": [
+        "Tetracaine",
+        "Chloroprocaine",
+        "Benzocaine",
+        "Lidocaine",
+        "Cocaine"
+      ],
+      "correct": 3,
+      "explanation": "Procaine is an **ester** local anesthetic. Esters are broken down by plasma cholinesterase to **PABA**, which causes most true local anesthetic allergies, so **all esters** should be avoided. **Lidocaine** is an **amide**, is metabolized by the liver and does not form PABA. Benzocaine may seem safe because it is only used on the skin, but it is also an ester.",
+      "explanation_pt": "A procaína é um anestésico local do tipo **éster**. Os ésteres são degradados pela colinesterase plasmática em **PABA**, responsável pela maioria das alergias verdadeiras a anestésicos locais, então **todos os ésteres** devem ser evitados. A **lidocaína** é uma **amida**, é metabolizada pelo fígado e não forma PABA. A benzocaína pode parecer segura por ser só de uso tópico, mas também é um éster."
+    },
+    {
+      "slug": "q-neuropharmacology-qx-lamotrigine-valproate",
+      "track": "step1",
+      "system": "nervous",
+      "discipline": "pharmacology",
+      "tags": [
+        "neuropharmacology",
+        "antiepileptics",
+        "drug-interactions"
+      ],
+      "stem": "A 23-year-old man with generalized epilepsy has taken valproate for 3 years. Because seizures continue, lamotrigine is added, and his dose is increased on the schedule normally used for patients who take no other antiepileptic drugs. Four weeks later he has fever, a painful red rash with dark target-like lesions and blisters, and erosions on the lips and inside the mouth. Which mechanism most likely increased his risk of this reaction?",
+      "choices": [
+        "Valproate inhibits glucuronidation of lamotrigine, raising its level",
+        "Valproate induces hepatic CYP3A4, producing a toxic lamotrigine metabolite",
+        "Lamotrigine inhibits valproate metabolism, raising the valproate level",
+        "Lamotrigine displaces valproate from albumin, raising free valproate",
+        "Valproate reduces renal clearance of lamotrigine by blocking tubular secretion"
+      ],
+      "correct": 0,
+      "explanation": "This is **Stevens-Johnson syndrome**, the most feared reaction to **lamotrigine**; risk rises with **high levels** and **fast dose increases**. **Valproate inhibits** the liver enzymes that **glucuronidate** lamotrigine, so lamotrigine levels roughly double and the dose must be raised much more slowly. Valproate is an enzyme **inhibitor**, not an inducer, so a CYP3A4 induction mechanism does not fit.",
+      "explanation_pt": "Trata-se da **síndrome de Stevens-Johnson**, a reação mais temida da **lamotrigina**; o risco aumenta com **níveis altos** e **aumento rápido da dose**. O **valproato inibe** as enzimas hepáticas que fazem a **glicuronidação** da lamotrigina, então os níveis de lamotrigina aproximadamente dobram e a dose deve ser aumentada bem mais devagar. O valproato é um **inibidor** enzimático, não um indutor, então um mecanismo de indução do CYP3A4 não se aplica."
+    },
+    {
+      "slug": "q-neuropharmacology-qx-topiramate-stones",
+      "track": "step1",
+      "system": "nervous",
+      "discipline": "pharmacology",
+      "tags": [
+        "neuropharmacology",
+        "antiepileptics",
+        "migraine"
+      ],
+      "stem": "A 31-year-old woman started a drug 8 months ago to prevent frequent migraines. Since then she has lost 6 kg and has trouble finding words. Today she has severe right flank pain that spreads to the groin, and urinalysis shows blood. Serum studies: sodium 139 mEq/L, chloride 113 mEq/L, bicarbonate 17 mEq/L, potassium 3.4 mEq/L. Urine pH is 6.8. CT shows a small stone in the right ureter. Which drug action best explains her stone?",
+      "choices": [
+        "Blockade of T-type calcium channels in thalamic neurons",
+        "Inhibition of carbonic anhydrase in the renal tubule",
+        "Agonism at serotonin 5-HT1B/1D receptors",
+        "Blockade of beta-1 and beta-2 adrenergic receptors",
+        "Binding to the alpha-2-delta subunit of calcium channels"
+      ],
+      "correct": 1,
+      "explanation": "Weight loss, word-finding trouble and kidney stones in a patient taking a migraine preventive point to **topiramate**. It **inhibits carbonic anhydrase**, causing a **normal anion gap metabolic acidosis** (anion gap 139 - 113 - 17 = 9), alkaline urine and low urinary citrate, which favor **calcium phosphate stones**. Propranolol is also a migraine preventive, but it does not cause acidosis or stones; it more often causes fatigue and weight gain.",
+      "explanation_pt": "Perda de peso, dificuldade para encontrar palavras e cálculo renal em paciente que usa preventivo de enxaqueca apontam para o **topiramato**. Ele **inibe a anidrase carbônica**, causando **acidose metabólica com ânion gap normal** (ânion gap 139 - 113 - 17 = 9), urina alcalina e citrato urinário baixo, o que favorece **cálculos de fosfato de cálcio**. O propranolol também é preventivo de enxaqueca, mas não causa acidose nem cálculos; causa mais fadiga e ganho de peso."
+    },
+    {
+      "slug": "q-neuropharmacology-qx-buprenorphine-withdrawal",
+      "track": "step1",
+      "system": "nervous",
+      "discipline": "pharmacology",
+      "tags": [
+        "neuropharmacology",
+        "opioids",
+        "partial-agonist"
+      ],
+      "stem": "A 29-year-old man who has injected heroin several times a day for 2 years wants treatment for opioid use disorder. His last injection was 3 hours ago, and he is calm, with small pupils. He is given sublingual buprenorphine. Thirty minutes later he is restless and yawning, with dilated pupils, a runny nose, goosebumps, abdominal cramps and diarrhea. Which property of buprenorphine best explains these new symptoms?",
+      "choices": [
+        "It is a full mu agonist with a very short half-life",
+        "It is a mu antagonist with no agonist activity",
+        "It binds mu receptors tightly but activates them only partly",
+        "It stimulates kappa receptors and causes dysphoria and restlessness",
+        "It induces CYP3A4 and speeds up heroin clearance"
+      ],
+      "correct": 2,
+      "explanation": "Buprenorphine is a **partial mu agonist** with **very high receptor affinity**. Given while heroin still occupies the receptors, it pushes heroin off and replaces full activation with weaker activation, so the patient goes into **precipitated withdrawal**. For this reason it is started only after early withdrawal signs appear. It is not a pure antagonist like naloxone; its partial agonist effect is why it can treat opioid use disorder.",
+      "explanation_pt": "A buprenorfina é um **agonista parcial mu** com **afinidade muito alta** pelo receptor. Dada enquanto a heroína ainda ocupa os receptores, ela desloca a heroína e troca a ativação plena por uma ativação mais fraca, e o paciente entra em **abstinência precipitada**. Por isso só é iniciada depois que surgem os primeiros sinais de abstinência. Não é um antagonista puro como a naloxona; seu efeito de agonista parcial é o motivo de servir para tratar o transtorno por uso de opioides."
+    },
+    {
+      "slug": "q-neuropharmacology-qx-dopamine-agonist-impulse",
+      "track": "step1",
+      "system": "nervous",
+      "discipline": "pharmacology",
+      "tags": [
+        "neuropharmacology",
+        "parkinson-disease",
+        "adverse-effects"
+      ],
+      "stem": "A 61-year-old man with Parkinson disease has taken carbidopa-levodopa for 3 years. Six months ago ropinirole was added. His wife now reports that he has spent most of their savings on online gambling and has started compulsive late-night shopping. He had no such behavior before. Which action of the added drug best explains this change?",
+      "choices": [
+        "D2/D3 receptor stimulation in the mesolimbic pathway",
+        "Inhibition of peripheral DOPA decarboxylase",
+        "Inhibition of catechol-O-methyltransferase",
+        "Blockade of muscarinic receptors in the striatum",
+        "Blockade of NMDA glutamate receptors in the basal ganglia"
+      ],
+      "correct": 0,
+      "explanation": "Ropinirole and pramipexole are **non-ergot dopamine agonists**. They act directly on **D2** and especially **D3** receptors, which are dense in the **mesolimbic reward pathway**, so they can cause **impulse control disorders** such as gambling, shopping, binge eating and hypersexuality; they also cause sudden **sleep attacks**. Peripheral DOPA decarboxylase inhibition is the action of carbidopa, which he took for years without this problem.",
+      "explanation_pt": "O ropinirol e o pramipexol são **agonistas dopaminérgicos não ergóticos**. Eles agem diretamente nos receptores **D2** e sobretudo **D3**, abundantes na **via mesolímbica de recompensa**, e por isso podem causar **transtornos do controle de impulsos**, como jogo patológico, compras compulsivas, compulsão alimentar e hipersexualidade; também causam **ataques de sono** súbitos. A inibição da DOPA descarboxilase periférica é a ação da carbidopa, que ele usou por anos sem esse problema."
+    },
+    {
+      "slug": "q-neuropharmacology-qx-donepezil-bradycardia",
+      "track": "step1",
+      "system": "nervous",
+      "discipline": "pharmacology",
+      "tags": [
+        "neuropharmacology",
+        "alzheimer-disease",
+        "adverse-effects"
+      ],
+      "stem": "A 79-year-old woman with Alzheimer disease fainted at home while standing up from a chair. She has taken amlodipine for hypertension for 6 years. Donepezil was started 6 weeks ago. Vital signs now: pulse 42/min and regular, blood pressure 96/58 mm Hg, respirations 14/min. ECG shows sinus bradycardia with a normal PR interval. She also reports nausea and loose stools since starting her newest drug. Which mechanism best explains her bradycardia?",
+      "choices": [
+        "Blockade of NMDA receptors in the brainstem",
+        "Blockade of L-type calcium channels in the AV node",
+        "Blockade of beta-1 adrenergic receptors in the SA node",
+        "More acetylcholine acting on cardiac M2 receptors",
+        "Reduced thyroid hormone production"
+      ],
+      "correct": 3,
+      "explanation": "**Donepezil** inhibits **acetylcholinesterase** in the body as well as in the brain. More acetylcholine reaches **M2 receptors** in the SA and AV nodes, so the heart rate slows, which can cause **syncope**; the same cholinergic excess explains her nausea and diarrhea. **Amlodipine** is a dihydropyridine that acts mainly on vascular smooth muscle, has little effect on the nodes, and she took it for years without trouble.",
+      "explanation_pt": "A **donepezila** inibe a **acetilcolinesterase** no corpo e também no cérebro. Mais acetilcolina chega aos **receptores M2** dos nós sinusal e atrioventricular, e a frequência cardíaca cai, o que pode causar **síncope**; o mesmo excesso colinérgico explica a náusea e a diarreia. O **anlodipino** é uma di-hidropiridina que age sobretudo no músculo liso vascular, tem pouco efeito sobre os nós, e ela o usou por anos sem problema."
+    }
+  ],
+  "notes": []
+}

@@ -1,0 +1,189 @@
+{
+  "cards": [],
+  "questions": [
+    {
+      "slug": "q-epilepsy-headache-sleep-qx-west-syndrome-eeg",
+      "track": "step1",
+      "system": "nervous",
+      "discipline": "pathology",
+      "tags": [
+        "epilepsy-headache-sleep",
+        "seizures",
+        "west-syndrome",
+        "tuberous-sclerosis"
+      ],
+      "stem": "A 6-month-old boy is brought to the clinic because of strange movements for 3 weeks. Several times a day, usually soon after waking, he suddenly bends his head, trunk and arms forward for 1 to 2 seconds. These movements come in series of 10 to 20. He no longer smiles at his parents and has stopped rolling over, which he did at 4 months. Examination shows three pale, leaf-shaped macules on his trunk that are easier to see under ultraviolet (Wood) light. Echocardiography shows small masses in the ventricular walls. Which EEG pattern is most likely?",
+      "choices": [
+        "Generalized 3 Hz spike-and-wave discharges",
+        "Generalized 4-6 Hz polyspike-and-wave discharges",
+        "Chaotic high-voltage waves with multifocal spikes",
+        "Generalized slow spike-and-wave discharges below 2.5 Hz",
+        "Periodic sharp waves over one temporal lobe"
+      ],
+      "correct": 2,
+      "explanation": "This infant has **West syndrome** (infantile spasms): clusters of flexion spasms, **developmental regression** and, on EEG, **hypsarrhythmia**, a chaotic, high-voltage background with spikes from many sites. The ash-leaf macules and cardiac **rhabdomyomas** point to **tuberous sclerosis**, a classic cause. Slow spike-and-wave below 2.5 Hz is the tempting answer, but it belongs to **Lennox-Gastaut syndrome**, which affects older children and can develop later from West syndrome. A 3 Hz pattern means absence seizures, and 4-6 Hz polyspike-and-wave means juvenile myoclonic epilepsy.",
+      "explanation_pt": "Este lactente tem **síndrome de West** (espasmos infantis): salvas de espasmos em flexão, **regressão do desenvolvimento** e, no EEG, **hipsarritmia**, um traçado de base caótico e de alta voltagem com espículas de vários focos. As máculas hipocrômicas em folha (*ash-leaf*) e os **rabdomiomas** cardíacos indicam **esclerose tuberosa**, uma causa clássica. A espícula-onda lenta abaixo de 2,5 Hz é a resposta tentadora, mas pertence à **síndrome de Lennox-Gastaut**, que acomete crianças maiores e pode surgir mais tarde a partir da síndrome de West. O padrão a 3 Hz indica crises de ausência, e a poliespícula-onda a 4-6 Hz indica epilepsia mioclônica juvenil."
+    },
+    {
+      "slug": "q-epilepsy-headache-sleep-qx-hyponatremia-seizure",
+      "track": "step1",
+      "system": "nervous",
+      "discipline": "pathology",
+      "tags": [
+        "epilepsy-headache-sleep",
+        "seizures",
+        "etiology",
+        "hyponatremia"
+      ],
+      "stem": "A 22-year-old woman is brought to the emergency department from an all-night music festival after a generalized tonic-clonic seizure. Her friends say she took MDMA (ecstasy) and then drank large amounts of water to avoid overheating. Before the seizure she had a headache, vomited, and became confused. Temperature is 37.6°C, pulse is 96/min, and blood pressure is 128/78 mm Hg. Laboratory studies show: serum Na+ 116 mEq/L (normal 135-145), K+ 3.8 mEq/L, glucose 90 mg/dL, BUN 8 mg/dL, calcium 9.3 mg/dL, and serum osmolality 240 mOsm/kg (normal 275-295). Urine osmolality is 450 mOsm/kg. Which mechanism best explains her seizure?",
+      "choices": [
+        "Water loss from brain cells that damages myelin in the pons",
+        "Low blood glucose that causes neuronal energy failure",
+        "Low serum calcium that lowers the neuronal firing threshold",
+        "Water movement into brain cells that causes cerebral edema",
+        "High body temperature that causes direct neuronal injury"
+      ],
+      "correct": 3,
+      "explanation": "**MDMA** stimulates ADH release, and with heavy water intake the result is acute **hypotonic hyponatremia** (calculated osmolality: 2 × 116 + 90/18 + 8/2.8 ≈ 240 mOsm/kg; the concentrated urine confirms ADH effect). Water moves along the osmotic gradient **into brain cells**, and the swelling (**cerebral edema**) causes headache, vomiting, confusion and seizures. Water loss from brain cells with pontine myelin damage is the tempting answer, but that is **osmotic demyelination**, a complication of correcting chronic hyponatremia too fast, not of the hyponatremia itself. Glucose, calcium and temperature are normal here.",
+      "explanation_pt": "O **MDMA** estimula a liberação de ADH e, com a grande ingestão de água, o resultado é **hiponatremia hipotônica** aguda (osmolalidade calculada: 2 × 116 + 90/18 + 8/2,8 ≈ 240 mOsm/kg; a urina concentrada confirma o efeito do ADH). A água segue o gradiente osmótico **para dentro das células cerebrais**, e o inchaço (**edema cerebral**) causa cefaleia, vômitos, confusão e crises convulsivas. A perda de água pelas células cerebrais com lesão da mielina pontina é a resposta tentadora, mas isso é a **desmielinização osmótica**, uma complicação da correção rápida demais da hiponatremia crônica, e não da hiponatremia em si. Glicose, cálcio e temperatura estão normais aqui."
+    },
+    {
+      "slug": "q-epilepsy-headache-sleep-qx-rem-behavior-disorder",
+      "track": "step1",
+      "system": "nervous",
+      "discipline": "pathology",
+      "tags": [
+        "epilepsy-headache-sleep",
+        "sleep",
+        "rem-sleep-behavior-disorder",
+        "synucleinopathy"
+      ],
+      "stem": "A 64-year-old man is brought to the clinic by his wife. For 2 years, several times a month, he shouts, punches and kicks during sleep, usually in the second half of the night. Once he fell out of bed. When she wakes him, he is alert at once and describes a dream in which he was fighting an attacker. He takes no medications. Neurologic examination is normal except for a reduced sense of smell. A sleep study during these episodes shows high chin muscle tone while the EEG shows low-voltage, mixed-frequency activity with rapid eye movements. Which condition is this man at greatest risk of developing?",
+      "choices": [
+        "Parkinson disease",
+        "Alzheimer disease",
+        "Obstructive sleep apnea",
+        "Temporal lobe epilepsy",
+        "Huntington disease"
+      ],
+      "correct": 0,
+      "explanation": "This is **REM sleep behavior disorder**: the normal **muscle atonia of REM sleep** is lost, so the patient acts out his dreams, wakes quickly and remembers them. In older men it is often the first sign of an **alpha-synucleinopathy**, mainly **Parkinson disease**, dementia with Lewy bodies or multiple system atrophy; loss of smell is another early sign. Temporal lobe epilepsy is the tempting answer because the events are stereotyped and nocturnal, but seizures do not arise from a REM EEG pattern and are not followed by a clear dream memory. Alzheimer disease and Huntington disease have no strong link to this disorder.",
+      "explanation_pt": "Trata-se do **transtorno comportamental do sono REM**: a **atonia muscular normal do sono REM** se perde, e o paciente encena os sonhos, acorda rapidamente e se lembra deles. Em homens mais velhos, costuma ser o primeiro sinal de uma **alfa-sinucleinopatia**, sobretudo a **doença de Parkinson**, a demência com corpos de Lewy ou a atrofia de múltiplos sistemas; a perda do olfato é outro sinal precoce. A epilepsia do lobo temporal é a resposta tentadora porque os eventos são estereotipados e noturnos, mas as crises não surgem de um padrão de EEG de sono REM nem são seguidas de lembrança clara de um sonho. A doença de Alzheimer e a doença de Huntington não têm associação forte com esse transtorno."
+    },
+    {
+      "slug": "q-epilepsy-headache-sleep-qx-gate-control",
+      "track": "step1",
+      "system": "nervous",
+      "discipline": "physiology",
+      "tags": [
+        "epilepsy-headache-sleep",
+        "pain",
+        "gate-control"
+      ],
+      "stem": "A 30-year-old man hits his shin hard on a table. He first feels a sharp, well-localized pain, and about a second later a dull, aching pain. He rubs the skin over the area firmly, and the pain becomes less intense within seconds. Which mechanism best explains why rubbing reduces his pain?",
+      "choices": [
+        "Descending serotonergic fibers from the raphe nuclei block pain transmission",
+        "The periaqueductal gray releases endorphins into the cerebrospinal fluid",
+        "Repeated stimulation depletes substance P from C-fiber terminals",
+        "Fast A-delta fiber signals cancel the slower C-fiber signals in the thalamus",
+        "Touch fibers activate inhibitory interneurons in the dorsal horn"
+      ],
+      "correct": 4,
+      "explanation": "Rubbing activates large, myelinated **A-beta** touch fibers. In the **dorsal horn**, their branches excite **inhibitory interneurons** that dampen transmission from pain fibers to second-order neurons: this is the **gate control** theory. Descending control from the **raphe nuclei** and **periaqueductal gray** is the tempting answer, but it is a central pathway that is not switched on by local rubbing within seconds. The two phases of his pain reflect fast **A-delta** fibers (first, sharp pain) and slow **C fibers** (second, dull pain); they add together and do not cancel each other.",
+      "explanation_pt": "Esfregar a pele ativa as fibras táteis **A-beta**, calibrosas e mielinizadas. No **corno posterior**, seus ramos excitam **interneurônios inibitórios** que atenuam a transmissão das fibras de dor para os neurônios de segunda ordem: é a **teoria do portão** (*gate control*). O controle descendente pelos **núcleos da rafe** e pela **substância cinzenta periaquedutal** é a resposta tentadora, mas é uma via central que não é ativada em segundos pelo esfregar local. As duas fases da dor refletem as fibras **A-delta** rápidas (primeira dor, aguda) e as fibras **C** lentas (segunda dor, surda); elas se somam e não se anulam."
+    },
+    {
+      "slug": "q-epilepsy-headache-sleep-qx-rem-acetylcholine",
+      "track": "step1",
+      "system": "nervous",
+      "discipline": "physiology",
+      "tags": [
+        "epilepsy-headache-sleep",
+        "sleep",
+        "rem",
+        "eeg"
+      ],
+      "stem": "A 25-year-old healthy volunteer sleeps overnight in a sleep laboratory. At 5 AM, the EEG shows low-voltage, mixed-frequency activity with sawtooth waves. The eye leads record rapid, conjugate eye movements, and the chin muscle recording is almost flat. His breathing and heart rate are irregular. Activity of which neurons is most important for starting this sleep stage?",
+      "choices": [
+        "Noradrenergic neurons of the locus ceruleus",
+        "Cholinergic neurons of the pons",
+        "Serotonergic neurons of the raphe nuclei",
+        "Histaminergic neurons of the tuberomammillary nucleus",
+        "Orexin neurons of the lateral hypothalamus"
+      ],
+      "correct": 1,
+      "explanation": "The findings describe **REM sleep**: an awake-like, low-voltage EEG with sawtooth waves, rapid eye movements, **muscle atonia**, and irregular breathing and pulse; REM periods are longest near morning. REM is switched on by **cholinergic neurons in the pons** (the paramedian pontine reticular formation, or PPRF, also drives the eye movements). The locus ceruleus is the tempting answer because it is a pontine nucleus, but its **noradrenergic** neurons, like the serotonergic raphe neurons, fall almost silent during REM. Histamine and orexin neurons promote and stabilize wakefulness.",
+      "explanation_pt": "Os achados descrevem o **sono REM**: EEG de baixa voltagem semelhante à vigília, com ondas em dente de serra, movimentos oculares rápidos, **atonia muscular** e respiração e pulso irregulares; os períodos REM são mais longos perto da manhã. O REM é iniciado por **neurônios colinérgicos da ponte** (a formação reticular paramediana pontina, FRPP, também gera os movimentos oculares). O lócus cerúleo é a resposta tentadora por ser um núcleo pontino, mas seus neurônios **noradrenérgicos**, assim como os neurônios serotoninérgicos da rafe, ficam quase silenciosos durante o REM. Os neurônios de histamina e de orexina promovem e estabilizam a vigília."
+    },
+    {
+      "slug": "q-epilepsy-headache-sleep-qx-migraine-aura",
+      "track": "step1",
+      "system": "nervous",
+      "discipline": "pathology",
+      "tags": [
+        "epilepsy-headache-sleep",
+        "headache",
+        "migraine",
+        "aura"
+      ],
+      "stem": "A 27-year-old woman sees a small, shimmering zigzag line near the center of her vision. Over 20 minutes it slowly grows and moves toward the left, leaving a blind area behind it. The image stays the same when she closes either eye. Then tingling starts in her left fingers and slowly moves up her arm to her face over 10 minutes. All symptoms resolve after 40 minutes. A throbbing right-sided headache with nausea and light sensitivity follows and lasts 10 hours. She has had similar episodes before. Neurologic examination and brain MRI are normal. Which mechanism best explains her visual symptoms?",
+      "choices": [
+        "Embolic occlusion of a branch of the posterior cerebral artery",
+        "Release of CGRP from trigeminal fibers around meningeal vessels",
+        "Hypersynchronous neuronal firing that starts in the occipital lobe",
+        "Vasospasm of the central retinal artery in one eye",
+        "A depolarization wave that crosses the cortex"
+      ],
+      "correct": 4,
+      "explanation": "This is **migraine with aura**; the aura comes from **cortical spreading depression**: a slow wave of neuronal depolarization, followed by suppressed activity, that crosses the cortex at a few millimeters per minute. That is why symptoms **build up and march** over minutes and then move from vision to touch. **CGRP** release from the **trigeminovascular system** is the tempting answer, but it explains the **headache pain**, not the aura. An embolic TIA starts suddenly with maximal deficit, and retinal vasospasm affects only one eye.",
+      "explanation_pt": "Trata-se de **enxaqueca com aura**; a aura resulta da **depressão alastrante cortical**: uma onda lenta de despolarização neuronal, seguida de atividade suprimida, que percorre o córtex a poucos milímetros por minuto. Por isso os sintomas **surgem e progridem** ao longo de minutos e depois passam da visão para o tato. A liberação de **CGRP** pelo **sistema trigeminovascular** é a resposta tentadora, mas explica a **dor da cefaleia**, não a aura. Um AIT embólico começa de forma súbita com déficit máximo, e o vasoespasmo retiniano afeta apenas um olho."
+    },
+    {
+      "slug": "q-epilepsy-headache-sleep-qx-trigeminal-neuralgia-ms",
+      "track": "step1",
+      "system": "nervous",
+      "discipline": "pathology",
+      "tags": [
+        "epilepsy-headache-sleep",
+        "headache",
+        "trigeminal-neuralgia",
+        "multiple-sclerosis"
+      ],
+      "stem": "A 31-year-old woman has had attacks of facial pain for 3 weeks. Each attack is a sudden, electric-shock pain in her right cheek and jaw that lasts 1 to 2 seconds. Brushing her teeth, chewing or a light touch on the cheek can trigger it, and she has many attacks each day. Two years ago, she had painful loss of vision in her left eye that recovered over 6 weeks. Between attacks, facial sensation and strength are normal, and a dental examination is normal. The left pupil shows a relative afferent defect. Which mechanism most likely explains her facial pain?",
+      "choices": [
+        "Demyelinating plaque at the trigeminal root entry zone in the pons",
+        "Compression of the trigeminal root by a looping superior cerebellar artery",
+        "Reactivation of varicella-zoster virus in the trigeminal ganglion",
+        "Granulomatous inflammation of the superficial temporal artery",
+        "Schwannoma growing at the cerebellopontine angle"
+      ],
+      "correct": 0,
+      "explanation": "Brief, electric, trigger-provoked jolts in a trigeminal distribution are **trigeminal neuralgia**. In a **young woman** with prior **optic neuritis** (the relative afferent pupillary defect remains), the cause is most likely **multiple sclerosis**, with a demyelinating plaque where the trigeminal root enters the **pons**. Vascular compression of the root is the tempting answer because it is the most common cause overall, but it typically affects **older adults** without other neurologic history. Zoster causes burning pain with a rash, and temporal arteritis causes headache and jaw pain on chewing in older adults, not seconds-long shocks.",
+      "explanation_pt": "Choques breves, elétricos e provocados por gatilhos no território do trigêmeo caracterizam a **neuralgia do trigêmeo**. Em uma **mulher jovem** com **neurite óptica** prévia (o defeito pupilar aferente relativo persiste), a causa mais provável é a **esclerose múltipla**, com uma placa de desmielinização onde a raiz do trigêmeo entra na **ponte**. A compressão vascular da raiz é a resposta tentadora por ser a causa mais comum no geral, mas costuma afetar **adultos mais velhos** sem outra história neurológica. O herpes-zóster causa dor em queimação com erupção cutânea, e a arterite temporal causa cefaleia e dor mandibular ao mastigar em idosos, não choques de segundos."
+    },
+    {
+      "slug": "q-epilepsy-headache-sleep-qx-alcohol-withdrawal-seizure",
+      "track": "step1",
+      "system": "nervous",
+      "discipline": "pathology",
+      "tags": [
+        "epilepsy-headache-sleep",
+        "seizures",
+        "etiology",
+        "alcohol-withdrawal"
+      ],
+      "stem": "A 48-year-old man was admitted 30 hours ago with pneumonia. He has drunk heavily every day for 10 years, and his last drink was just before admission. Today he has a coarse tremor, sweating and anxiety, and then he has a generalized tonic-clonic seizure that stops after 1 minute. He was not confused or hallucinating before the seizure. Temperature is 37.3°C, pulse is 106/min, and blood pressure is 146/90 mm Hg. Laboratory studies show: glucose 96 mg/dL, Na+ 136 mEq/L, calcium 9.2 mg/dL, and magnesium 1.9 mg/dL (normal 1.7-2.2). Head CT is normal. Which mechanism best explains his seizure?",
+      "choices": [
+        "Thiamine deficiency that damages the mammillary bodies",
+        "Low magnesium that removes the block on NMDA channels",
+        "Less GABA-A inhibition and more NMDA glutamate activity",
+        "Toxic acetaldehyde buildup in cortical neurons",
+        "Poor liver glucose output that causes neuronal energy failure"
+      ],
+      "correct": 2,
+      "explanation": "Chronic alcohol **enhances GABA-A** receptors and **inhibits NMDA** glutamate receptors, so the brain adapts with fewer or less sensitive GABA-A receptors and more NMDA activity. When drinking stops suddenly, this adapted state leaves the brain **hyperexcitable**: tremor, sweating, tachycardia and, typically within the first **1 to 2 days**, **withdrawal seizures**. Low magnesium is the tempting answer because it can lower the seizure threshold in people who drink, but his magnesium, glucose, sodium and calcium are normal. Thiamine deficiency causes Wernicke encephalopathy (confusion, ophthalmoplegia, ataxia), not withdrawal seizures.",
+      "explanation_pt": "O álcool crônico **potencializa os receptores GABA-A** e **inibe os receptores NMDA** de glutamato; o cérebro se adapta com receptores GABA-A menos numerosos ou menos sensíveis e mais atividade NMDA. Quando o consumo para de repente, esse estado adaptado deixa o cérebro **hiperexcitável**: tremor, sudorese, taquicardia e, tipicamente nos primeiros **1 a 2 dias**, **crises convulsivas de abstinência**. A hipomagnesemia é a resposta tentadora, pois pode reduzir o limiar convulsivo em quem bebe, mas o magnésio, a glicose, o sódio e o cálcio estão normais. A deficiência de tiamina causa encefalopatia de Wernicke (confusão, oftalmoplegia, ataxia), não crises de abstinência."
+    }
+  ],
+  "notes": []
+}

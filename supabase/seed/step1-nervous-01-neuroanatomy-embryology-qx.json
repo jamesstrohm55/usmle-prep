@@ -1,0 +1,182 @@
+{
+  "cards": [],
+  "questions": [
+    {
+      "slug": "q-neuroanatomy-embryology-qx-holoprosencephaly-shh",
+      "track": "step1",
+      "system": "nervous",
+      "discipline": "embryology",
+      "tags": [
+        "neuroanatomy-embryology",
+        "holoprosencephaly",
+        "trisomy-13"
+      ],
+      "stem": "A newborn girl is examined on the first day of life. Her eyes are set very close together, and she has a midline cleft of the upper lip and palate. She has six fingers on each hand and a small area of missing skin on the scalp. Head ultrasound shows one large central ventricle and fused thalami, with no division between the two cerebral hemispheres. Her karyotype is 47,XX,+13. Reduced activity of which signaling pathway is most closely linked to her brain malformation?",
+      "choices": [
+        "Wnt signaling",
+        "Fibroblast growth factor signaling",
+        "Homeobox (HOX) gene expression",
+        "Retinoic acid signaling",
+        "Sonic hedgehog signaling"
+      ],
+      "correct": 4,
+      "explanation": "A single ventricle, fused thalami and close-set eyes describe **holoprosencephaly**: the **prosencephalon** did not split into two hemispheres. Midline tissue makes **sonic hedgehog (SHH)**, which patterns the ventral midline of the forebrain and face, and loss of this signal is the classic molecular cause; **trisomy 13 (Patau)** is the classic chromosomal association, even though the *SHH* gene itself is on chromosome 7. **HOX** genes are tempting because of the extra fingers, but they set segment identity along the head-to-tail axis and do not divide the forebrain; polydactyly here is simply part of Patau syndrome.",
+      "explanation_pt": "Ventrículo único, tálamos fundidos e olhos muito próximos descrevem a **holoprosencefalia**: o **prosencéfalo** não se dividiu em dois hemisférios. O tecido da linha média produz **sonic hedgehog (SHH)**, que organiza a linha média ventral do prosencéfalo e da face, e a perda desse sinal é a causa molecular clássica; a **trissomia do 13 (Patau)** é a associação cromossômica clássica, embora o próprio gene *SHH* fique no cromossomo 7. Os genes **HOX** são tentadores por causa dos dedos extras, mas definem a identidade dos segmentos ao longo do eixo craniocaudal e não dividem o prosencéfalo; a polidactilia aqui faz parte da síndrome de Patau."
+    },
+    {
+      "slug": "q-neuroanatomy-embryology-qx-thalamic-sensory-stroke",
+      "track": "step1",
+      "system": "nervous",
+      "discipline": "anatomy",
+      "tags": [
+        "neuroanatomy-embryology",
+        "thalamus",
+        "lacunar-stroke"
+      ],
+      "stem": "A 67-year-old man with long-standing hypertension and diabetes wakes up with numbness of his whole left side. Examination shows reduced pinprick, temperature, light touch, vibration and joint position sense over the left face, arm, trunk and leg. Strength, reflexes, coordination, speech and visual fields are normal. Two months later, he develops severe burning pain on the left side of his body that gets worse when his clothes touch the skin. Where is the lesion most likely located?",
+      "choices": [
+        "Left ventral posterior nuclei of the thalamus",
+        "Right lateral geniculate nucleus",
+        "Right ventral posterior nuclei of the thalamus",
+        "Right ventral lateral nucleus of the thalamus",
+        "Right lateral medulla"
+      ],
+      "correct": 2,
+      "explanation": "Loss of all sensory types over the face and body on one side, with no weakness, is a **pure sensory stroke** of the **VPL** (body) and **VPM** (face) nuclei of the opposite thalamus, often a lacunar infarct. The later burning pain set off by light touch is **thalamic pain syndrome** (Dejerine-Roussy). The left thalamus is the most tempting choice, but the spinothalamic tract, medial lemniscus and trigeminothalamic fibers have all crossed before they reach the thalamus, so a right lesion gives left-sided loss. A lateral medulla lesion gives crossed findings (face on one side, body on the other) with hoarseness and ataxia.",
+      "explanation_pt": "A perda de todos os tipos de sensibilidade na face e no corpo de um lado, sem fraqueza, é um **AVC sensitivo puro** dos núcleos **VPL** (corpo) e **VPM** (face) do tálamo oposto, muitas vezes um infarto lacunar. A dor em queimação que surge depois e piora com o toque leve é a **síndrome dolorosa talâmica** (Dejerine-Roussy). O tálamo esquerdo é a alternativa mais tentadora, mas o trato espinotalâmico, o lemnisco medial e as fibras trigeminotalâmicas já cruzaram antes de chegar ao tálamo, então uma lesão à direita causa perda à esquerda. Uma lesão do bulbo lateral causa achados cruzados (face de um lado, corpo do outro) com rouquidão e ataxia."
+    },
+    {
+      "slug": "q-neuroanatomy-embryology-qx-anencephaly-polyhydramnios",
+      "track": "step1",
+      "system": "nervous",
+      "discipline": "embryology",
+      "tags": [
+        "neuroanatomy-embryology",
+        "neural-tube-defects",
+        "polyhydramnios"
+      ],
+      "stem": "A 31-year-old woman at 20 weeks of gestation comes for her first prenatal visit. Her uterus is larger than expected for her dates. Laboratory results: maternal serum alpha-fetoprotein 6.2 multiples of the median (normal below 2.5), hCG 1.0 multiples of the median, and fasting plasma glucose 84 mg/dL (normal 70-99). Ultrasound shows no bony skull above the level of the orbits. The amniotic fluid index is 32 cm (normal 5-25). The fetal stomach looks small, and the kidneys and bladder look normal. Which mechanism best explains the excess amniotic fluid?",
+      "choices": [
+        "Impaired fetal swallowing of amniotic fluid",
+        "Fetal osmotic diuresis from maternal hyperglycemia",
+        "Obstruction of the fetal duodenum",
+        "High fetal urine output from heart failure",
+        "Reduced fetal urine output from kidney failure"
+      ],
+      "correct": 0,
+      "explanation": "Absent skull above the orbits with a very high AFP is **anencephaly**, from failure of the **cranial neuropore** to close. The fetus normally removes amniotic fluid by **swallowing**, and the brainstem control of swallowing is impaired, so fluid builds up (**polyhydramnios**); the small stomach fits this. **Duodenal obstruction** is the most tempting choice because it also causes polyhydramnios, but the stomach and proximal duodenum would be dilated, not small. Maternal glucose is normal, there is no sign of fetal heart failure or hydrops, and kidney failure would cause too little fluid, not too much.",
+      "explanation_pt": "Ausência de calota craniana acima das órbitas com AFP muito alta é **anencefalia**, por falha no fechamento do **neuroporo cranial**. O feto normalmente remove o líquido amniótico pela **deglutição**, e o controle da deglutição pelo tronco encefálico está prejudicado, então o líquido se acumula (**polidrâmnio**); o estômago pequeno é compatível com isso. A **obstrução duodenal** é a alternativa mais tentadora porque também causa polidrâmnio, mas o estômago e o duodeno proximal estariam dilatados, e não pequenos. A glicemia materna é normal, não há sinal de insuficiência cardíaca fetal nem de hidropisia, e a insuficiência renal causaria pouco líquido, e não excesso."
+    },
+    {
+      "slug": "q-neuroanatomy-embryology-qx-dandy-walker",
+      "track": "step1",
+      "system": "nervous",
+      "discipline": "embryology",
+      "tags": [
+        "neuroanatomy-embryology",
+        "dandy-walker",
+        "hydrocephalus"
+      ],
+      "stem": "A 4-month-old boy is brought in because his head is growing quickly. His head circumference was 35 cm at birth (50th percentile) and is 46 cm today (above the 97th percentile). The anterior fontanelle is full and tense, and he cannot yet hold up his head. The skin over his spine is normal, and spinal ultrasound is normal. MRI shows a very large posterior fossa, an almost absent cerebellar vermis, and a large cyst that is continuous with the fourth ventricle. The lateral and third ventricles are dilated. The cerebellar tonsils are above the foramen magnum. Which diagnosis is most likely?",
+      "choices": [
+        "Chiari I malformation",
+        "Chiari II malformation",
+        "Aqueductal stenosis",
+        "Dandy-Walker malformation",
+        "Holoprosencephaly"
+      ],
+      "correct": 3,
+      "explanation": "A missing or very small **vermis** with a cystic, enlarged **fourth ventricle** in a large posterior fossa is the **Dandy-Walker malformation**, and it often causes **hydrocephalus**. **Chiari II** is the most tempting choice because it also appears in infants with hydrocephalus, but it has a small posterior fossa with the vermis and medulla pushed down through the foramen magnum, and it comes with a **lumbosacral myelomeningocele**. Aqueductal stenosis would leave the fourth ventricle normal in size, and Chiari I affects only the tonsils.",
+      "explanation_pt": "Um **verme** ausente ou muito pequeno com **quarto ventrículo** cístico e aumentado, em uma fossa posterior grande, é a **malformação de Dandy-Walker**, que muitas vezes causa **hidrocefalia**. A **Chiari II** é a alternativa mais tentadora porque também aparece em lactentes com hidrocefalia, mas tem fossa posterior pequena, com verme e bulbo empurrados para baixo pelo forame magno, e vem acompanhada de **mielomeningocele lombossacra**. A estenose do aqueduto deixaria o quarto ventrículo com tamanho normal, e a Chiari I afeta apenas as tonsilas."
+    },
+    {
+      "slug": "q-neuroanatomy-embryology-qx-superior-orbital-fissure",
+      "track": "step1",
+      "system": "nervous",
+      "discipline": "anatomy",
+      "tags": [
+        "neuroanatomy-embryology",
+        "cranial-nerves",
+        "foramina"
+      ],
+      "stem": "A 54-year-old woman has 2 months of double vision and a drooping left eyelid. Examination shows complete left ptosis. The left eye stays in the straight-ahead position and cannot move in any direction. The left pupil is dilated and does not react to light. Skin sensation is reduced over the left forehead, and the left corneal reflex is absent. Sensation over the left cheek and jaw is normal. Visual acuity, visual fields and the optic discs are normal in both eyes. A small mass is found at the opening that carries the affected nerves. Which opening is it?",
+      "choices": [
+        "Optic canal",
+        "Superior orbital fissure",
+        "Foramen rotundum",
+        "Inferior orbital fissure",
+        "Foramen ovale"
+      ],
+      "correct": 1,
+      "explanation": "A frozen eye with ptosis and a dilated pupil means **CN III, IV and VI** are all affected, and forehead numbness with a lost corneal reflex adds **V1**. These four nerves enter the orbit together through the **superior orbital fissure**. The **optic canal** is the most tempting choice because it is next to the fissure at the orbital apex, but it carries CN II, and vision and optic discs are normal here. Normal cheek and jaw sensation shows that V2 (foramen rotundum) and V3 (foramen ovale) are spared.",
+      "explanation_pt": "Um olho imóvel com ptose e pupila dilatada indica que os **NC III, IV e VI** estão todos afetados, e a dormência da fronte com perda do reflexo corneano acrescenta o **V1**. Esses quatro nervos entram juntos na órbita pela **fissura orbital superior**. O **canal óptico** é a alternativa mais tentadora por estar ao lado da fissura no ápice da órbita, mas ele conduz o NC II, e aqui a visão e os discos ópticos são normais. A sensibilidade normal da bochecha e da mandíbula mostra que o V2 (forame redondo) e o V3 (forame oval) estão poupados."
+    },
+    {
+      "slug": "q-neuroanatomy-embryology-qx-basal-plate-motor-neurons",
+      "track": "step1",
+      "system": "nervous",
+      "discipline": "embryology",
+      "tags": [
+        "neuroanatomy-embryology",
+        "neural-tube",
+        "poliomyelitis"
+      ],
+      "stem": "A 6-year-old boy who has never been vaccinated develops fever, sore throat and muscle aches. Three days later, his left leg becomes weak. Examination shows a floppy left leg with reduced muscle tone and absent knee and ankle reflexes. Pain, touch, vibration and joint position sense are normal in both legs. Cerebrospinal fluid shows 80 white cells/μL, mostly lymphocytes, with a normal glucose level. An enterovirus is isolated from his stool. The neurons destroyed in his disease develop from which embryonic structure?",
+      "choices": [
+        "Alar plate of the neural tube",
+        "Neural crest",
+        "Roof plate of the neural tube",
+        "Paraxial mesoderm",
+        "Basal plate of the neural tube"
+      ],
+      "correct": 4,
+      "explanation": "Fever followed by asymmetric flaccid weakness with absent reflexes, normal sensation and a lymphocytic CSF in an unvaccinated child is **poliomyelitis**, which destroys lower motor neurons in the **anterior horns**. These motor neurons come from the ventral **basal plate** of the neural tube. **Neural crest** is the most tempting choice because it makes many peripheral neurons, but those are sensory (dorsal root ganglia) and autonomic neurons, and sensation is normal here. The **alar plate** forms sensory neurons such as the dorsal horn, and paraxial mesoderm forms the muscles themselves.",
+      "explanation_pt": "Febre seguida de fraqueza flácida assimétrica com reflexos ausentes, sensibilidade normal e LCR com predomínio de linfócitos em uma criança não vacinada é **poliomielite**, que destrói os neurônios motores inferiores dos **cornos anteriores**. Esses neurônios motores vêm da **placa basal** ventral do tubo neural. A **crista neural** é a alternativa mais tentadora porque forma muitos neurônios periféricos, mas eles são sensitivos (gânglios da raiz dorsal) e autonômicos, e aqui a sensibilidade é normal. A **placa alar** forma neurônios sensitivos, como o corno dorsal, e o mesoderma paraxial forma os próprios músculos."
+    },
+    {
+      "slug": "q-neuroanatomy-embryology-qx-hemiballismus-subthalamic",
+      "track": "step1",
+      "system": "nervous",
+      "discipline": "anatomy",
+      "tags": [
+        "neuroanatomy-embryology",
+        "basal-ganglia",
+        "hemiballismus"
+      ],
+      "stem": "A 72-year-old woman with poorly controlled hypertension and diabetes has the sudden onset of large, violent, flinging movements of her right arm and right leg. The movements stop when she sleeps. Strength and sensation are normal. MRI shows a small acute infarct in the left subthalamic nucleus. Which change in basal ganglia activity best explains her movements?",
+      "choices": [
+        "Reduced excitation of the internal globus pallidus",
+        "Increased inhibition of the thalamus by the internal globus pallidus",
+        "Loss of dopamine at striatal D1 receptors",
+        "Loss of striatal neurons that project to the external globus pallidus",
+        "Increased output from the subthalamic nucleus"
+      ],
+      "correct": 0,
+      "explanation": "The **subthalamic nucleus** sends excitatory (glutamate) signals to the **GPi**, which in turn inhibits the motor thalamus. When the nucleus is destroyed, the GPi is less active, the thalamus is released, and the opposite limbs make wild flinging movements (**hemiballismus**). Loss of striatal neurons that project to the GPe is tempting because it also weakens the indirect pathway, but that is the slow, inherited caudate degeneration of **Huntington disease**, which causes chorea, not a sudden one-sided syndrome from a focal infarct. More thalamic inhibition or loss of D1 dopamine would reduce movement, as in parkinsonism.",
+      "explanation_pt": "O **núcleo subtalâmico** envia sinais excitatórios (glutamato) ao **GPi**, que por sua vez inibe o tálamo motor. Quando o núcleo é destruído, o GPi fica menos ativo, o tálamo é liberado e os membros do lado oposto fazem movimentos amplos de arremesso (**hemibalismo**). A perda de neurônios estriatais que projetam para o GPe é tentadora porque também enfraquece a via indireta, mas essa é a degeneração lenta e hereditária do caudado da **doença de Huntington**, que causa coreia, e não uma síndrome súbita de um lado por um infarto focal. Mais inibição talâmica ou perda de dopamina em D1 reduziria o movimento, como no parkinsonismo."
+    },
+    {
+      "slug": "q-neuroanatomy-embryology-qx-pineal-aqueduct-obstruction",
+      "track": "step1",
+      "system": "nervous",
+      "discipline": "anatomy",
+      "tags": [
+        "neuroanatomy-embryology",
+        "csf",
+        "hydrocephalus"
+      ],
+      "stem": "A 13-year-old boy has 6 weeks of morning headaches and vomiting. He cannot look upward. His pupils react poorly to light but constrict when he focuses on a near object. Vital signs: blood pressure 152/70 mm Hg, pulse 54/min, respirations 14/min, temperature 37.0°C. Both optic discs are swollen. MRI shows a mass in the pineal region. The lateral ventricles and the third ventricle are enlarged, and the fourth ventricle is normal in size. At which site is the flow of cerebrospinal fluid most likely blocked?",
+      "choices": [
+        "Interventricular foramina",
+        "Foramina of Luschka and Magendie",
+        "Cerebral aqueduct",
+        "Arachnoid granulations",
+        "Central canal of the spinal cord"
+      ],
+      "correct": 2,
+      "explanation": "A pineal mass presses on the dorsal midbrain, which explains the upward gaze palsy and light-near dissociation (**Parinaud syndrome**), and it narrows the **cerebral aqueduct**. Enlarged lateral and third ventricles with a normal fourth ventricle place the block between the third and fourth ventricles, a **noncommunicating** hydrocephalus; high blood pressure with a slow pulse and swollen discs show raised intracranial pressure. A block at the **foramina of Luschka and Magendie** is tempting, but the fourth ventricle would then be enlarged too. Poor absorption at the arachnoid granulations would enlarge all four ventricles, and a block at the interventricular foramina would spare the third ventricle.",
+      "explanation_pt": "Uma massa da pineal comprime o mesencéfalo dorsal, o que explica a paralisia do olhar para cima e a dissociação luz-perto (**síndrome de Parinaud**), e estreita o **aqueduto cerebral**. Ventrículos laterais e terceiro ventrículo aumentados com quarto ventrículo normal localizam o bloqueio entre o terceiro e o quarto ventrículos, uma hidrocefalia **não comunicante**; pressão arterial alta com pulso lento e papiledema mostram hipertensão intracraniana. Um bloqueio nos **forames de Luschka e de Magendie** é tentador, mas o quarto ventrículo também estaria aumentado. A absorção deficiente nas granulações aracnóideas aumentaria os quatro ventrículos, e um bloqueio nos forames interventriculares pouparia o terceiro ventrículo."
+    }
+  ],
+  "notes": []
+}

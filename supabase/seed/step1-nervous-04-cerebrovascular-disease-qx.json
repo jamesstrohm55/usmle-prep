@@ -1,0 +1,180 @@
+{
+  "cards": [],
+  "questions": [
+    {
+      "slug": "q-cerebrovascular-disease-qx-lacunar-pure-motor",
+      "track": "step1",
+      "system": "nervous",
+      "discipline": "pathology",
+      "tags": [
+        "cerebrovascular-disease",
+        "ischemic-stroke",
+        "lacunar"
+      ],
+      "stem": "A 66-year-old man wakes up with weakness of the right face, right arm and right leg. The weakness is equal in the arm and the leg. Sensation, language, visual fields and attention are normal. He has had hypertension and type 2 diabetes for 20 years and often skips his medicines. Findings: blood pressure 174/100 mm Hg, pulse 76/min and regular, HbA1c 8.4%, LDL cholesterol 128 mg/dL. The ECG shows sinus rhythm. MRI shows a 1-cm infarct in the posterior limb of the left internal capsule. Which change in the blocked vessel most likely caused this infarct?",
+      "choices": [
+        "Embolus from a thrombus in the left atrial appendage",
+        "Hyaline thickening of a penetrating arteriole wall",
+        "Rupture of a Charcot-Bouchard microaneurysm",
+        "Atherosclerotic plaque at the left carotid bifurcation",
+        "β-Amyloid deposits in the wall of a cortical artery"
+      ],
+      "correct": 1,
+      "explanation": "Pure motor weakness of the face, arm and leg with no cortical signs (no aphasia, neglect or field loss) is a **lacunar** stroke of the **internal capsule**. Long-standing **hypertension** and **diabetes** cause **lipohyalinosis** (hyaline thickening) of small penetrating arteries such as the lenticulostriate arteries, which then occlude. **Charcot-Bouchard** microaneurysms form in the same arteries, but their rupture causes a deep **hemorrhage**, not a small infarct. An embolus from the heart is unlikely with sinus rhythm, and carotid emboli usually reach the cortex and cause cortical signs.",
+      "explanation_pt": "Fraqueza motora pura de face, membro superior e membro inferior sem sinais corticais (sem afasia, heminegligência ou perda de campo visual) é um AVC **lacunar** da **cápsula interna**. A **hipertensão** e o **diabetes** de longa data causam **lipo-hialinose** (espessamento hialino) de pequenas artérias perfurantes, como as lenticuloestriadas, que então se ocluem. Os microaneurismas de **Charcot-Bouchard** se formam nas mesmas artérias, mas sua ruptura causa uma **hemorragia** profunda, e não um pequeno infarto. Um êmbolo cardíaco é improvável com ritmo sinusal, e os êmbolos carotídeos costumam atingir o córtex e causar sinais corticais."
+    },
+    {
+      "slug": "q-cerebrovascular-disease-qx-infarct-day-ten",
+      "track": "step1",
+      "system": "nervous",
+      "discipline": "pathology",
+      "tags": [
+        "cerebrovascular-disease",
+        "histopathology"
+      ],
+      "stem": "A 74-year-old woman has an ischemic stroke in the territory of the left middle cerebral artery. She develops aspiration pneumonia and dies on day 10 after the stroke. At autopsy, the infarcted cortex is soft and partly broken down. A section from the center of the infarct is examined under the microscope. Which finding is most likely?",
+      "choices": [
+        "Shrunken neurons with bright eosinophilic cytoplasm and no inflammatory cells",
+        "Dense infiltrate of neutrophils around dead neurons",
+        "A fluid-filled cavity surrounded by a thick wall of glial fibers",
+        "Many foamy macrophages filled with lipid from broken-down myelin",
+        "Ghost outlines of neurons with the tissue architecture kept intact"
+      ],
+      "correct": 3,
+      "explanation": "From about day 3, and peaking over the next 1 to 3 weeks, **microglia and blood-derived macrophages** fill the lesion and engulf the lipid-rich myelin debris, so they look **foamy**; the tissue undergoes **liquefactive necrosis**. **Neutrophils** are the main cells only in the first days (about 1 to 3 days), so a neutrophil infiltrate is too early for day 10. Red neurons without inflammation appear at 12-24 hours, and a cavity with a dense **glial scar** takes weeks to months. Kept tissue outlines describe **coagulative necrosis**, which is typical of infarcts in organs such as the heart and kidney, not the brain.",
+      "explanation_pt": "A partir do 3º dia, com pico nas 1 a 3 semanas seguintes, a **micróglia e os macrófagos derivados do sangue** preenchem a lesão e englobam os restos de mielina ricos em lipídios, por isso parecem **espumosos**; o tecido sofre **necrose liquefativa**. Os **neutrófilos** predominam apenas nos primeiros dias (cerca de 1 a 3 dias), então um infiltrado neutrofílico é precoce demais para o 10º dia. Neurônios vermelhos sem inflamação surgem em 12-24 horas, e uma cavidade com **cicatriz glial** densa leva semanas a meses. Contornos teciduais preservados descrevem a **necrose de coagulação**, típica de infartos de órgãos como o coração e o rim, e não do cérebro."
+    },
+    {
+      "slug": "q-cerebrovascular-disease-qx-alexia-without-agraphia",
+      "track": "step1",
+      "system": "nervous",
+      "discipline": "pathology",
+      "tags": [
+        "cerebrovascular-disease",
+        "stroke-syndromes",
+        "pca"
+      ],
+      "stem": "A 68-year-old right-handed man with atrial fibrillation suddenly cannot read his newspaper. He can write a short letter without errors, but a few minutes later he cannot read what he wrote. His speech is fluent, and comprehension, naming and repetition are normal. He has a right homonymous hemianopia with sparing of central (macular) vision. Strength and sensation are normal in all limbs. Occlusion of which artery best explains these findings?",
+      "choices": [
+        "Left posterior cerebral artery",
+        "Right posterior cerebral artery",
+        "Inferior division of the left middle cerebral artery",
+        "Left anterior cerebral artery",
+        "Left anterior choroidal artery"
+      ],
+      "correct": 0,
+      "explanation": "**Alexia without agraphia** with a **right homonymous hemianopia** points to a **left PCA** infarct of the occipital cortex and the **splenium** of the corpus callosum. Words seen by the intact right occipital lobe cannot cross the damaged splenium to reach the left-sided language areas, but those language areas are intact, so he can still speak and write. An infarct of the **inferior division of the left MCA** damages the Wernicke area and angular gyrus itself, so it causes poor comprehension and problems with both reading and writing.",
+      "explanation_pt": "**Alexia sem agrafia** com **hemianopsia homônima direita** indica um infarto da **ACP esquerda** no córtex occipital e no **esplênio** do corpo caloso. As palavras vistas pelo lobo occipital direito intacto não conseguem cruzar o esplênio lesado para chegar às áreas da linguagem à esquerda, mas essas áreas estão intactas, por isso ele ainda fala e escreve. Um infarto da **divisão inferior da ACM esquerda** lesa a própria área de Wernicke e o giro angular, causando compreensão ruim e alteração tanto da leitura quanto da escrita."
+    },
+    {
+      "slug": "q-cerebrovascular-disease-qx-medial-medullary",
+      "track": "step1",
+      "system": "nervous",
+      "discipline": "pathology",
+      "tags": [
+        "cerebrovascular-disease",
+        "stroke-syndromes",
+        "brainstem"
+      ],
+      "stem": "A 63-year-old woman with hypertension and diabetes has sudden weakness of her right arm and right leg. Her face is not weak. When she sticks out her tongue, it points to the left. Vibration and joint position sense are lost in the right arm and leg, but pain and temperature sensation are normal on both sides. Her speech is mildly slurred, and she has no vertigo, hoarseness or trouble swallowing. Findings: blood pressure 168/96 mm Hg, pulse 80/min and regular. Occlusion of which artery best explains these findings?",
+      "choices": [
+        "Left posterior inferior cerebellar artery",
+        "Right anterior spinal artery",
+        "Left anterior spinal artery",
+        "Left anterior inferior cerebellar artery",
+        "Left lenticulostriate artery"
+      ],
+      "correct": 2,
+      "explanation": "**Medial medullary syndrome** comes from occlusion of the **anterior spinal artery** (or a paramedian branch of the vertebral artery) on one side. It damages three structures on the left: the **hypoglossal nerve** (the tongue points toward the lesion), the **pyramid** (right arm and leg weakness, because the tract crosses below this level) and the **medial lemniscus** (right loss of vibration and position sense, because these fibers have already crossed). The left PICA is the tempting choice, but lateral medullary (**Wallenberg**) syndrome causes vertigo, hoarseness, dysphagia, Horner syndrome and crossed pain and temperature loss, with no limb weakness. A left lenticulostriate infarct would also weaken the right face and would not make the tongue point to the left.",
+      "explanation_pt": "A **síndrome bulbar medial** resulta da oclusão da **artéria espinal anterior** (ou de um ramo paramediano da artéria vertebral) de um lado. Ela lesa três estruturas à esquerda: o **nervo hipoglosso** (a língua desvia para o lado da lesão), a **pirâmide** (fraqueza dos membros superior e inferior direitos, porque o trato cruza abaixo desse nível) e o **lemnisco medial** (perda da sensibilidade vibratória e da propriocepção à direita, porque essas fibras já cruzaram). A PICA esquerda é a alternativa tentadora, mas a síndrome bulbar lateral (**Wallenberg**) causa vertigem, rouquidão, disfagia, síndrome de Horner e perda cruzada de dor e temperatura, sem fraqueza dos membros. Um infarto da artéria lenticuloestriada esquerda também enfraqueceria a face direita e não faria a língua desviar para a esquerda."
+    },
+    {
+      "slug": "q-cerebrovascular-disease-qx-amyloid-angiopathy",
+      "track": "step1",
+      "system": "nervous",
+      "discipline": "pathology",
+      "tags": [
+        "cerebrovascular-disease",
+        "intracranial-hemorrhage",
+        "amyloid-angiopathy"
+      ],
+      "stem": "A 79-year-old woman has a sudden headache and cannot see objects on her left side. CT shows a hemorrhage in the right occipital lobe, close to the cortex. Two years ago she had a hemorrhage in the left frontal lobe. Her memory has slowly declined over 3 years. She has never been treated for hypertension. Findings: blood pressure 128/78 mm Hg, platelets 240,000/μL, INR 1.0, aPTT 30 s (normal). MRI shows many tiny old bleeds in the cortex of both hemispheres. Which substance is most likely deposited in the walls of her cortical arteries?",
+      "choices": [
+        "Transthyretin",
+        "Immunoglobulin light chains",
+        "Hyaline material from leaked plasma proteins",
+        "Serum amyloid A protein",
+        "β-Amyloid (Aβ) peptide"
+      ],
+      "correct": 4,
+      "explanation": "Repeated **lobar** hemorrhages and cortical microbleeds in an older person with normal blood pressure, normal clotting and memory decline suggest **cerebral amyloid angiopathy**. **β-Amyloid**, the same peptide found in Alzheimer plaques, builds up in the walls of small cortical and leptomeningeal arteries and makes them fragile; it stains with Congo red and shows apple-green birefringence under polarized light. **Hyaline arteriolosclerosis** from hypertension or diabetes affects deep penetrating arteries and causes deep bleeds in the basal ganglia or thalamus, and she has no hypertension.",
+      "explanation_pt": "Hemorragias **lobares** repetidas e micro-hemorragias corticais em uma idosa com pressão arterial normal, coagulação normal e declínio da memória sugerem **angiopatia amiloide cerebral**. O **β-amiloide**, o mesmo peptídeo das placas da doença de Alzheimer, se acumula na parede de pequenas artérias corticais e leptomeníngeas e as torna frágeis; ele cora pelo vermelho Congo e mostra birrefringência verde-maçã sob luz polarizada. A **arteriolosclerose hialina** da hipertensão ou do diabetes afeta artérias perfurantes profundas e causa sangramentos profundos nos núcleos da base ou no tálamo, e ela não tem hipertensão."
+    },
+    {
+      "slug": "q-cerebrovascular-disease-qx-sagittal-sinus-thrombosis",
+      "track": "step1",
+      "system": "nervous",
+      "discipline": "pathology",
+      "tags": [
+        "cerebrovascular-disease",
+        "venous-sinus-thrombosis"
+      ],
+      "stem": "A 29-year-old woman gave birth vaginally 2 weeks ago. For 4 days she has had a headache that gets worse when she lies down, with vomiting. Today she has a generalized seizure. Findings: blood pressure 122/78 mm Hg, temperature 37.0°C (98.6°F), platelets 310,000/μL, and no protein in the urine. Both optic discs are swollen, and both legs are mildly weak. CT shows hemorrhagic infarcts high in the frontal and parietal lobes on both sides of the midline. They do not match the territory of a single artery. What is the most likely diagnosis?",
+      "choices": [
+        "Embolic occlusion of both anterior cerebral arteries",
+        "Rupture of a saccular aneurysm",
+        "Posterior reversible encephalopathy from eclampsia",
+        "Thrombosis of the superior sagittal sinus",
+        "Bleeding into a pituitary adenoma"
+      ],
+      "correct": 3,
+      "explanation": "The **postpartum** period is a hypercoagulable state. Days of headache that worsens lying down, **papilledema**, seizures and **bilateral parasagittal hemorrhagic infarcts** that cross arterial territories fit **superior sagittal sinus thrombosis**: blocked venous outflow raises intracranial and capillary pressure and causes venous infarcts that often bleed. Both ACA territories are also parasagittal, but an arterial embolus causes a sudden deficit without days of raised-pressure headache and papilledema, and its infarct follows the arterial territory. Eclampsia is unlikely with normal blood pressure and no proteinuria.",
+      "explanation_pt": "O **puerpério** é um estado de hipercoagulabilidade. Dias de cefaleia que piora ao deitar, **papiledema**, crises epilépticas e **infartos hemorrágicos parassagitais bilaterais** que cruzam territórios arteriais indicam **trombose do seio sagital superior**: a obstrução da drenagem venosa eleva a pressão intracraniana e capilar e causa infartos venosos que muitas vezes sangram. Os territórios das duas ACA também são parassagitais, mas um êmbolo arterial causa déficit súbito sem dias de cefaleia por hipertensão intracraniana e papiledema, e o infarto segue o território arterial. A eclâmpsia é improvável com pressão arterial normal e sem proteinúria."
+    },
+    {
+      "slug": "q-cerebrovascular-disease-qx-cytotoxic-edema",
+      "track": "step1",
+      "system": "nervous",
+      "discipline": "pathology",
+      "tags": [
+        "cerebrovascular-disease",
+        "cerebral-edema",
+        "ischemic-stroke"
+      ],
+      "stem": "A 64-year-old man has sudden weakness of the right arm and trouble finding words. A noncontrast CT of the head 2 hours after onset is normal. Diffusion-weighted MRI 1 hour later shows a bright area of restricted water diffusion in the left frontal cortex. Which mechanism best explains this early MRI change?",
+      "choices": [
+        "Breakdown of endothelial tight junctions, so plasma leaks into the interstitial space",
+        "Failure of the Na+/K+-ATPase from ATP loss, so sodium and water enter the cells",
+        "Bleeding into the infarcted tissue after the clot breaks up",
+        "Blocked CSF flow that pushes ventricular fluid into the nearby white matter",
+        "Low plasma oncotic pressure that lets water leave the capillaries"
+      ],
+      "correct": 1,
+      "explanation": "Within minutes of ischemia, neurons and glia run out of **ATP**, the **Na+/K+-ATPase** fails, and sodium and water move **into the cells**. This **cytotoxic edema** restricts water movement, so the area is bright on diffusion-weighted MRI before CT shows any change. **Vasogenic edema** is extracellular fluid from a leaky blood-brain barrier; in a stroke it develops later, over hours to days, and it is the typical edema around tumors and abscesses. Bleeding would appear as hyperdense blood on CT.",
+      "explanation_pt": "Minutos após a isquemia, os neurônios e a glia ficam sem **ATP**, a **Na+/K+-ATPase** falha, e o sódio e a água entram **nas células**. Esse **edema citotóxico** restringe o movimento da água, por isso a área fica brilhante na RM em difusão antes de qualquer alteração na TC. O **edema vasogênico** é líquido extracelular por uma barreira hematoencefálica permeável; no AVC ele surge mais tarde, em horas a dias, e é o edema típico ao redor de tumores e abscessos. Um sangramento apareceria como sangue hiperdenso na TC."
+    },
+    {
+      "slug": "q-cerebrovascular-disease-qx-amaurosis-fugax-carotid",
+      "track": "step1",
+      "system": "nervous",
+      "discipline": "pathology",
+      "tags": [
+        "cerebrovascular-disease",
+        "tia",
+        "carotid"
+      ],
+      "stem": "A 67-year-old man who smokes has had two episodes this week of painless vision loss in his right eye. He describes it as a curtain coming down. Each episode lasted about 5 minutes, and vision fully recovered. Yesterday his left hand was clumsy and weak for 15 minutes. His exam now is normal except for a bruit on the right side of the neck. Fundus exam of the right eye shows a small, bright yellow plaque at a branch point of a retinal arteriole. Findings: blood pressure 148/88 mm Hg, LDL cholesterol 172 mg/dL, fasting glucose 92 mg/dL. The ECG shows sinus rhythm. Where is the most likely source of these events?",
+      "choices": [
+        "Plaque near the origin of the right internal carotid artery",
+        "Plaque near the origin of the left internal carotid artery",
+        "Thrombus in the left atrial appendage",
+        "Plaque in the right vertebral artery",
+        "Inflammation of the right superficial temporal artery"
+      ],
+      "correct": 0,
+      "explanation": "Brief painless monocular vision loss (**amaurosis fugax**) comes from emboli to the **ophthalmic artery**, the first major branch of the **internal carotid artery**. Left hand weakness is a transient ischemic attack in the **right MCA** territory, which the right internal carotid also supplies, and the bright plaque in the retina is a cholesterol embolus (**Hollenhorst plaque**). A **left atrial thrombus** sends emboli to many different territories and is unlikely in sinus rhythm; here repeated events in one carotid territory with a bruit point to a carotid plaque. A left carotid lesion would affect the left eye and the right hand.",
+      "explanation_pt": "A perda visual monocular breve e indolor (**amaurose fugaz**) vem de êmbolos para a **artéria oftálmica**, o primeiro grande ramo da **artéria carótida interna**. A fraqueza da mão esquerda é um ataque isquêmico transitório (AIT) no território da **ACM direita**, também irrigado pela carótida interna direita, e a placa brilhante na retina é um êmbolo de colesterol (**placa de Hollenhorst**). Um **trombo no átrio esquerdo** envia êmbolos para vários territórios diferentes e é improvável em ritmo sinusal; aqui, eventos repetidos em um único território carotídeo com sopro indicam placa carotídea. Uma lesão da carótida esquerda afetaria o olho esquerdo e a mão direita."
+    }
+  ],
+  "notes": []
+}

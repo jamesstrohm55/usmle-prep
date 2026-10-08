@@ -1,0 +1,181 @@
+{
+  "cards": [],
+  "questions": [
+    {
+      "slug": "q-spinal-cord-peripheral-nerve-qx-anterior-spinal-artery",
+      "track": "step1",
+      "system": "nervous",
+      "discipline": "anatomy",
+      "tags": [
+        "spinal-cord-peripheral-nerve",
+        "cord-lesions",
+        "anterior-spinal-artery"
+      ],
+      "stem": "A 68-year-old man has open repair of a large thoracoabdominal aortic aneurysm. The aorta is clamped for a long time during surgery. When he wakes up, he cannot move his legs. His exam the next morning is: arm strength 5/5; leg strength 0/5 with absent knee and ankle reflexes; pinprick and temperature sensation absent below the T10 level on both sides; vibration and joint position sense normal in both big toes; bladder volume after an attempt to void 650 mL. Which part of the spinal cord is most likely spared?",
+      "choices": [
+        "Lateral corticospinal tracts",
+        "Lateral spinothalamic tracts",
+        "Anterior horn motor neurons",
+        "Dorsal columns",
+        "Descending autonomic fibers to the sacral cord"
+      ],
+      "correct": 3,
+      "explanation": "This is an **anterior spinal artery** infarct. The thoracolumbar cord depends on the **great anterior radiculomedullary artery (of Adamkiewicz)**, which can lose flow during aortic surgery. The anterior spinal artery supplies the anterior two-thirds of the cord, so motor tracts, anterior horns, spinothalamic tracts and autonomic pathways are damaged, while the **dorsal columns**, supplied by the posterior spinal arteries, are spared. Absent reflexes do not argue against this: they are typical of the early **spinal shock** phase and of anterior horn loss at the lumbar levels.",
+      "explanation_pt": "Trata-se de um infarto da **artéria espinhal anterior**. A medula toracolombar depende da **grande artéria radiculomedular anterior (de Adamkiewicz)**, que pode perder fluxo durante a cirurgia de aorta. A artéria espinhal anterior irriga os dois terços anteriores da medula, então os tratos motores, os cornos anteriores, os tratos espinotalâmicos e as vias autonômicas são lesados, enquanto as **colunas dorsais**, irrigadas pelas artérias espinhais posteriores, são poupadas. Os reflexos abolidos não falam contra: são típicos da fase inicial de **choque medular** e da perda dos cornos anteriores nos níveis lombares."
+    },
+    {
+      "slug": "q-spinal-cord-peripheral-nerve-qx-syringomyelia-chiari",
+      "track": "step1",
+      "system": "nervous",
+      "discipline": "pathology",
+      "tags": [
+        "spinal-cord-peripheral-nerve",
+        "cord-lesions",
+        "syringomyelia"
+      ],
+      "stem": "A 26-year-old woman notices that she burned both hands while cooking but felt no pain. Exam shows loss of pain and temperature sensation over both shoulders, arms and hands. Light touch, vibration and joint position sense are normal in all limbs. The small muscles of both hands are thin and weak. Leg strength is normal. An MRI of the cervical spine shows a fluid-filled cavity in the center of the cord from C4 to T1. Which additional finding on MRI of the head and neck is most likely?",
+      "choices": [
+        "Cerebellar tonsils displaced down through the foramen magnum",
+        "Cystic enlargement of the fourth ventricle with a small cerebellar vermis",
+        "Multiple oval white matter lesions next to the lateral ventricles",
+        "An enhancing mass attached to the dura at the foramen magnum",
+        "Collapse of a cervical vertebral body with a soft-tissue mass"
+      ],
+      "correct": 0,
+      "explanation": "Painless burns, **cape-like** loss of pain and temperature with preserved dorsal column sensation, and hand atrophy point to **syringomyelia**: the syrinx damages fibers crossing in the **anterior white commissure** and then the **anterior horns**. It is most often linked to a **Chiari I malformation** (tonsillar herniation through the foramen magnum), which disturbs CSF flow. **Dandy-Walker** malformation is the most tempting choice because it is also a posterior fossa anomaly, but it is a cystic fourth ventricle with vermis hypoplasia and usually presents in infancy with hydrocephalus, not with a cervical syrinx in an adult.",
+      "explanation_pt": "Queimaduras indolores, perda de dor e temperatura **em capa** com sensibilidade das colunas dorsais preservada e atrofia das mãos apontam para **siringomielia**: a siringe lesa as fibras que cruzam na **comissura branca anterior** e depois os **cornos anteriores**. Ela se associa com mais frequência à **malformação de Chiari tipo I** (herniação das tonsilas pelo forame magno), que altera o fluxo do LCR. A malformação de **Dandy-Walker** é a opção mais tentadora por também ser uma anomalia da fossa posterior, mas consiste em um quarto ventrículo cístico com hipoplasia do vérmis e costuma se apresentar na infância com hidrocefalia, não com siringe cervical em adulto."
+    },
+    {
+      "slug": "q-spinal-cord-peripheral-nerve-qx-erb-palsy-reflex",
+      "track": "step1",
+      "system": "nervous",
+      "discipline": "anatomy",
+      "tags": [
+        "spinal-cord-peripheral-nerve",
+        "brachial-plexus",
+        "neonatal-injury"
+      ],
+      "stem": "A 3.6-kg newborn boy is delivered vaginally after a difficult delivery with shoulder dystocia. On day 1, his right arm lies at his side, turned inward, with the elbow straight and the forearm pronated. He moves his right fingers and grips the examiner's finger well. When the head is suddenly dropped back a little, only the left arm moves outward. Which additional finding on the right side is most likely?",
+      "choices": [
+        "Drooping eyelid with a small pupil",
+        "Fingers held in a claw position",
+        "Absent biceps reflex",
+        "Absent palmar grasp reflex",
+        "Medial border of the scapula lifting off the chest wall"
+      ],
+      "correct": 2,
+      "explanation": "Shoulder dystocia with the *waiter's tip* posture and an asymmetric Moro reflex is **Erb palsy**, from injury to the **upper trunk (C5-C6)**. The **biceps reflex** is carried by **C5-C6**, so it is absent on the affected side, while the hand works because C8-T1 is intact. Ptosis with miosis (**Horner syndrome**) is tempting, but it reflects damage to **T1** in a lower plexus (**Klumpke**) injury, which would also weaken the grip and claw the fingers.",
+      "explanation_pt": "Distocia de ombro com a postura em *gorjeta de garçom* (*waiter's tip*) e reflexo de Moro assimétrico é **paralisia de Erb**, por lesão do **tronco superior (C5-C6)**. O **reflexo bicipital** depende de **C5-C6**, então está abolido no lado afetado, enquanto a mão funciona porque C8-T1 estão intactos. Ptose com miose (**síndrome de Horner**) é tentadora, mas reflete lesão de **T1** em uma lesão do plexo inferior (**Klumpke**), que também enfraqueceria a preensão e deixaria os dedos em garra."
+    },
+    {
+      "slug": "q-spinal-cord-peripheral-nerve-qx-cauda-equina",
+      "track": "step1",
+      "system": "nervous",
+      "discipline": "pathology",
+      "tags": [
+        "spinal-cord-peripheral-nerve",
+        "cauda-equina",
+        "motor-neuron-signs"
+      ],
+      "stem": "A 52-year-old man with prostate cancer has 3 weeks of severe low back pain that shoots down the back of his left leg more than his right. In the last 2 days, he has noticed numbness around the anus and the inner thighs, and today he had trouble starting urination. Exam shows weak plantar flexion and foot dorsiflexion, worse on the left, with reduced muscle tone. Both ankle reflexes are absent, and both plantar responses are flexor. Sensation is reduced in a saddle distribution. Which structure is most likely compressed?",
+      "choices": [
+        "Conus medullaris",
+        "Cauda equina nerve roots",
+        "Thoracic spinal cord at the T10 level",
+        "Lumbar sympathetic chain beside the vertebrae",
+        "Sciatic nerve in the gluteal region"
+      ],
+      "correct": 1,
+      "explanation": "Asymmetric **radicular pain**, flaccid weakness with lost reflexes and **flexor plantar** responses (pure **LMN** signs), **saddle anesthesia** and later urinary trouble fit **cauda equina syndrome**: compression of the nerve roots below the cord, here likely from a vertebral metastasis. The **conus medullaris** is the most tempting choice because it also causes saddle anesthesia, but a conus lesion usually starts with early, symmetric bladder and bowel loss, less radicular pain, and can add UMN signs. A thoracic cord lesion would cause spasticity and Babinski signs, and a single sciatic nerve injury would not cause saddle numbness or trouble starting urination.",
+      "explanation_pt": "Dor **radicular** assimétrica, fraqueza flácida com reflexos abolidos e reflexo **cutâneo-plantar em flexão** (sinais puros de **NMI**), **anestesia em sela** e alteração urinária mais tardia indicam **síndrome da cauda equina**: compressão das raízes nervosas abaixo do fim da medula, aqui provavelmente por metástase vertebral. O **cone medular** é a opção mais tentadora porque também causa anestesia em sela, mas a lesão do cone costuma começar com perda vesical e intestinal precoce e simétrica, menos dor radicular, e pode somar sinais de NMS. Uma lesão da medula torácica causaria espasticidade e sinal de Babinski, e uma lesão isolada do nervo isquiático não causaria anestesia em sela nem dificuldade para iniciar a micção."
+    },
+    {
+      "slug": "q-spinal-cord-peripheral-nerve-qx-spinal-muscular-atrophy",
+      "track": "step1",
+      "system": "nervous",
+      "discipline": "pathology",
+      "tags": [
+        "spinal-cord-peripheral-nerve",
+        "motor-neuron-signs",
+        "anterior-horn"
+      ],
+      "stem": "A 3-month-old boy is brought in because he feeds slowly and his cry has become weak. He was born at term after a normal pregnancy. When he is pulled up by the hands, his head falls back. He breathes mostly with his abdomen. He is alert and looks around the room. His pupils react normally to light, and his eyelids do not droop. There are fine twitching movements of the tongue, and all deep tendon reflexes are absent. He has a bowel movement every day. Laboratory studies: creatine kinase 95 U/L (normal 60-305), glucose 88 mg/dL, TSH normal. Which cells are most likely lost?",
+      "choices": [
+        "Skeletal muscle fibers lacking dystrophin",
+        "Cholinergic nerve terminals at the neuromuscular junction",
+        "Myelin-forming Schwann cells of peripheral nerves",
+        "Sensory neurons in the dorsal root ganglia",
+        "Lower motor neurons in the anterior horn"
+      ],
+      "correct": 4,
+      "explanation": "Severe hypotonia, **tongue fasciculations** and **areflexia** in an alert infant with normal eyes suggest **spinal muscular atrophy type 1 (Werdnig-Hoffmann)**: loss of **anterior horn cells** from mutations in the **SMN1** gene. **Infant botulism** is the most tempting choice, but toxin blocking acetylcholine release would cause **constipation**, ptosis and poorly reactive pupils, and it does not cause fasciculations. A normal creatine kinase argues against a muscle disease such as a dystrophinopathy.",
+      "explanation_pt": "Hipotonia grave, **fasciculações de língua** e **arreflexia** em lactente alerta com olhos normais sugerem **atrofia muscular espinhal (AME) tipo 1 (Werdnig-Hoffmann)**: perda das **células do corno anterior** por mutações no gene **SMN1**. O **botulismo infantil** é a opção mais tentadora, mas a toxina que bloqueia a liberação de acetilcolina causaria **constipação**, ptose e pupilas pouco reativas, e não causa fasciculações. A creatinoquinase normal fala contra uma doença muscular como uma distrofinopatia."
+    },
+    {
+      "slug": "q-spinal-cord-peripheral-nerve-qx-lumbar-puncture-flavum",
+      "track": "step1",
+      "system": "nervous",
+      "discipline": "anatomy",
+      "tags": [
+        "spinal-cord-peripheral-nerve",
+        "lumbar-puncture"
+      ],
+      "stem": "A 34-year-old woman needs a lumbar puncture. She sits and leans forward. The physician places the needle in the midline at the level of a line joining the tops of the iliac crests. While advancing the needle, the physician feels a sudden loss of resistance as the tip enters the epidural space. Which structure did the needle pass through just before this loss of resistance?",
+      "choices": [
+        "Posterior longitudinal ligament",
+        "Supraspinous ligament",
+        "Arachnoid mater",
+        "Ligamentum flavum",
+        "Dura mater"
+      ],
+      "correct": 3,
+      "explanation": "In the midline, the needle crosses skin, subcutaneous tissue, the **supraspinous** and **interspinous ligaments**, and then the tough **ligamentum flavum**; passing it gives the loss of resistance as the tip enters the **epidural space**. The dura and arachnoid come after the epidural space, just before CSF. The **posterior longitudinal ligament** is tempting because it is also a spinal ligament, but it lies on the back of the vertebral bodies, in front of the dural sac, so a correctly placed needle does not reach it.",
+      "explanation_pt": "Na linha média, a agulha atravessa pele, tecido subcutâneo, os **ligamentos supraespinal** e **interespinal** e depois o resistente **ligamento amarelo**; ao passar por ele há perda de resistência quando a ponta entra no **espaço epidural**. A dura-máter e a aracnoide vêm depois do espaço epidural, logo antes do LCR. O **ligamento longitudinal posterior** é tentador por também ser um ligamento da coluna, mas fica na face posterior dos corpos vertebrais, à frente do saco dural, então uma agulha bem posicionada não chega até ele."
+    },
+    {
+      "slug": "q-spinal-cord-peripheral-nerve-qx-radial-midshaft",
+      "track": "step1",
+      "system": "nervous",
+      "discipline": "anatomy",
+      "tags": [
+        "spinal-cord-peripheral-nerve",
+        "upper-limb-nerves",
+        "humerus-fracture"
+      ],
+      "stem": "A 38-year-old man falls from a ladder and breaks the middle part of the shaft of his left humerus. After the fracture is set, he cannot extend his wrist or the joints at the bases of his fingers. His elbow extension is strong, and the triceps reflex is normal. Which other finding is most likely?",
+      "choices": [
+        "Numbness over the dorsal first web space of the hand",
+        "Numbness over the lateral forearm",
+        "Numbness of the palm side of the thumb, index and middle fingers",
+        "Weakness of finger abduction and adduction",
+        "Numbness over the lateral shoulder"
+      ],
+      "correct": 0,
+      "explanation": "**Wrist drop** after a **midshaft humerus** fracture means injury to the **radial nerve** in the radial groove. Its **superficial branch** supplies the skin on the back of the hand over the **first web space**, so this area is numb. Weak elbow extension is the tempting trap: the branches to the **triceps** usually leave the radial nerve above the groove, so elbow extension and the triceps reflex are often spared. Lateral forearm numbness is musculocutaneous, palmar thumb numbness is median, weak finger abduction is ulnar, and lateral shoulder numbness is axillary.",
+      "explanation_pt": "**Mão caída** após fratura da **diáfise do úmero** indica lesão do **nervo radial** no sulco do nervo radial. Seu **ramo superficial** inerva a pele do dorso da mão sobre o **primeiro espaço interdigital**, então essa área fica dormente. A extensão do cotovelo fraca é a armadilha: os ramos para o **tríceps** geralmente saem do nervo radial acima do sulco, então a extensão do cotovelo e o reflexo tricipital costumam ser poupados. Dormência na face lateral do antebraço é do musculocutâneo, dormência palmar do polegar é do mediano, abdução dos dedos fraca é do ulnar e dormência na face lateral do ombro é do axilar."
+    },
+    {
+      "slug": "q-spinal-cord-peripheral-nerve-qx-superior-gluteal-injection",
+      "track": "step1",
+      "system": "nervous",
+      "discipline": "anatomy",
+      "tags": [
+        "spinal-cord-peripheral-nerve",
+        "lower-limb-nerves",
+        "trendelenburg"
+      ],
+      "stem": "A 70-year-old woman received an intramuscular injection in the upper medial part of her right buttock 2 weeks ago. Since then, her body tilts to one side as she walks. When she stands on her right leg and lifts the left foot, the left side of her pelvis drops. When she stands on her left leg, the pelvis stays level. Hip extension against resistance and knee strength are normal. Which nerve is most likely injured?",
+      "choices": [
+        "Right inferior gluteal nerve",
+        "Left superior gluteal nerve",
+        "Right superior gluteal nerve",
+        "Right obturator nerve",
+        "Right sciatic nerve"
+      ],
+      "correct": 2,
+      "explanation": "The pelvis drops on the side **opposite** the stance leg, so the hip abductors of the **stance (right) leg** are weak: a positive **Trendelenburg sign** from injury to the **right superior gluteal nerve**, which supplies the **gluteus medius and minimus**. The **left** superior gluteal nerve is the tempting trap, because the dropping side is the left, but a left lesion would cause the pelvis to drop when standing on the left leg. The **inferior gluteal nerve** supplies the gluteus maximus, so its injury would weaken hip extension, which is normal here.",
+      "explanation_pt": "A pelve cai do lado **oposto** à perna de apoio, então os abdutores do quadril da **perna de apoio (direita)** estão fracos: **sinal de Trendelenburg** positivo por lesão do **nervo glúteo superior direito**, que inerva os **glúteos médio e mínimo**. O nervo glúteo superior **esquerdo** é a armadilha, porque o lado que cai é o esquerdo, mas uma lesão à esquerda faria a pelve cair no apoio sobre a perna esquerda. O **nervo glúteo inferior** inerva o glúteo máximo, então sua lesão enfraqueceria a extensão do quadril, que está normal aqui."
+    }
+  ],
+  "notes": []
+}
