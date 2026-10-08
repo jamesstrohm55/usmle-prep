@@ -11,7 +11,7 @@ import { uuid } from '../../ui/uuid';
 
 // One answer's row, built once when answered so a Retry re-sends it unchanged and never reads another session's state.
 // rejected = the server refused this row for good (integrity error): it is never re-sent and offers no Retry.
-type Pending = { row: AttemptInsert; done: boolean; inFlight: Promise<void> | null; rejected?: string };
+type Pending = { row: AttemptInsert; label: string; done: boolean; inFlight: Promise<void> | null; rejected?: string };
 
 const BLOCK = 40;
 
@@ -106,7 +106,14 @@ export function Questions({ load = fetchQuestions, save = saveAttempts, preset, 
       // 23505 = unique (session_id, question_id): an earlier insert committed but its response was lost.
       if (err?.code === '23505') { todo[0].done = true; return; }
       const msg = err?.message || (err ? String(err) : 'unknown error');
-      if (integrity) { todo[0].rejected = msg; if (alive.current) toast.show(`${failMsg}: ${msg}`); return; }
+      if (integrity) {
+        todo[0].rejected = msg;
+        if (!alive.current) return;
+        // The toast holds one message, so keep a Retry for any other row that still can be saved.
+        const others = retryPs.some((r) => !r.done && !r.rejected && !r.inFlight);
+        toast.show(`${failMsg}: ${msg} (question ${todo[0].label.slice(1)})`, others ? () => send(retryPs, failMsg) : undefined);
+        return;
+      }
       if (alive.current) toast.show(`${failMsg}: ${msg}`, () => send(retryPs, failMsg));
     }).then(() => {});
     todo.forEach((p) => { p.inFlight = run; });
@@ -129,13 +136,18 @@ export function Questions({ load = fetchQuestions, save = saveAttempts, preset, 
     setFinished(true);
     // Answers were saved as given; once in-flight saves settle, retry only the ones that failed.
     const ps = pendingRef.current;
+    const sid = sessionId.current;
     const report = () => {
+      // A new session may have begun, and a late Retry may have put rows back in flight: wait, then count.
+      if (sessionId.current !== sid) return;
+      if (ps.some((p) => p.inFlight)) { Promise.all(ps.map((p) => p.inFlight)).then(report); return; }
       const unsaved = ps.filter((p) => !p.done && !p.rejected).length;
-      const rejected = ps.filter((p) => p.rejected).length;
+      const rejected = ps.filter((p) => p.rejected);
       // One plain failure keeps its own toast (it names the reason); a summary only adds counts for several or rejected rows.
-      if (!alive.current || (!unsaved && !rejected) || (unsaved === 1 && !rejected)) return;
-      const parts = [unsaved && `${unsaved} not saved`, rejected && `${rejected} rejected by the server`].filter(Boolean).join(', ');
-      toast.show(`Could not save results: ${parts} (of ${ps.length})`, unsaved ? () => send(ps, 'Could not save results').then(report) : undefined);
+      if (!alive.current || (!unsaved && !rejected.length) || (unsaved === 1 && !rejected.length)) return;
+      const parts = [unsaved && `${unsaved} not saved`, rejected.length && `${rejected.length} rejected by the server`].filter(Boolean).join(', ');
+      const which = rejected.length ? `. Rejected: ${rejected.map((p) => p.label).join(', ')}.` : '';
+      toast.show(`Could not save results: ${parts} (of ${ps.length})${which}`, unsaved ? () => send(ps, 'Could not save results').then(report) : undefined);
     };
     Promise.all(ps.map((p) => p.inFlight)).then(() => send(ps, 'Could not save results')).then(report);
   }
@@ -181,7 +193,7 @@ export function Questions({ load = fetchQuestions, save = saveAttempts, preset, 
     const a = gradeAnswer(q, i, Date.now() - shownAt.current);
     answersRef.current = [...answersRef.current, a];
     setAnswers(answersRef.current);
-    const p: Pending = { row: { question_id: a.questionId, chosen: a.chosen, correct: a.correct, duration_ms: a.durationMs, mode: modeRef.current!, session_id: sessionId.current }, done: false, inFlight: null };
+    const p: Pending = { label: `Q${idx + 1}`, row: { question_id: a.questionId, chosen: a.chosen, correct: a.correct, duration_ms: a.durationMs, mode: modeRef.current!, session_id: sessionId.current }, done: false, inFlight: null };
     pendingRef.current.push(p);
     send(pendingRef.current, 'Could not save your answer'); // also carries earlier rows whose save failed
   }

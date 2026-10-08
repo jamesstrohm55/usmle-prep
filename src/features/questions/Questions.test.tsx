@@ -14,7 +14,7 @@ const wrap = (ui: React.ReactElement) => render(<ToastProvider>{ui}</ToastProvid
 vi.mock('../../db/queries', async (orig) => ({ ...(await orig<typeof import('../../db/queries')>()), setItemStatus: vi.fn() }));
 
 afterEach(() => { vi.useRealTimers(); vi.restoreAllMocks(); });
-const deferred = () => { let resolve!: () => void; const promise = new Promise<void>((r) => { resolve = r; }); return { promise, resolve }; };
+const deferred = () => { let resolve!: () => void; let reject!: (e: unknown) => void; const promise = new Promise<void>((res, rej) => { resolve = res; reject = rej; }); return { promise, resolve, reject }; };
 
 test('empty bank shows an empty state', async () => {
   wrap(<Questions load={async () => []} save={async () => {}} />);
@@ -633,6 +633,57 @@ test('a data-exception row (22003, e.g. out-of-range duration) is rejected alone
   fireEvent.click(screen.getByText('B1'));
   await act(async () => {});
   expect(save.mock.calls.map((c) => ids(c[0]))).toEqual([['1'], ['2']]);
+});
+
+test('a rejected row names its question, and the Finish summary lists it', async () => {
+  vi.spyOn(Math, 'random').mockReturnValue(0.999999);
+  const save = vi.fn(async (rows: Row[]) => { if (ids(rows).includes('2')) throw fk(); });
+  wrap(<Questions load={async () => [q('1'), q('2')]} save={save as never} />);
+  fireEvent.click(await screen.findByText(/Start tutor session/));
+  fireEvent.click(screen.getByText('B1'));
+  await act(async () => {});
+  fireEvent.click(screen.getByText('Next'));
+  fireEvent.click(screen.getByText('B1'));
+  await screen.findByText(/Could not save your answer: violates foreign key \(question 2\)/);
+  await act(async () => { fireEvent.click(screen.getByText('Finish')); });
+  expect(screen.getByText(/1 rejected by the server \(of 2\)\. Rejected: Q2\./)).toBeTruthy();
+});
+
+test('a rejection toast keeps Retry when another answer is still unsaved, so that Retry is not lost', async () => {
+  vi.spyOn(Math, 'random').mockReturnValue(0.999999);
+  let offline = true;
+  const save = vi.fn(async (rows: Row[]) => {
+    if (ids(rows).includes('2')) throw fk();
+    if (offline) throw new TypeError('Failed to fetch');
+  });
+  wrap(<Questions load={async () => [q('1'), q('2')]} save={save as never} />);
+  fireEvent.click(await screen.findByText(/Start tutor session/));
+  fireEvent.click(screen.getByText('B1'));
+  await screen.findByText(/Failed to fetch/); // answer 1 unsaved
+  fireEvent.click(screen.getByText('Next'));
+  fireEvent.click(screen.getByText('B1')); // batch [1,2] splits: 1 fails offline, 2 is rejected
+  await act(async () => {});
+  expect(screen.getByText(/rejected for good \(question 2\)|violates foreign key \(question 2\)/)).toBeTruthy();
+  offline = false;
+  save.mockClear();
+  await act(async () => { fireEvent.click(screen.getByText('Retry')); });
+  expect(save.mock.calls.map((c) => ids(c[0]))).toEqual([['1']]); // the rejected row is not sent again
+});
+
+test('the Finish summary of an old session does not appear in a new session', async () => {
+  vi.spyOn(Math, 'random').mockReturnValue(0.999999);
+  const ds = [deferred(), deferred()];
+  const save = vi.fn().mockReturnValueOnce(ds[0].promise).mockReturnValueOnce(ds[1].promise).mockRejectedValue(new TypeError('Failed to fetch')); // Finish's re-send fails too, so a summary is due
+  wrap(<Questions load={async () => [q('1'), q('2')]} save={save} />);
+  fireEvent.click(await screen.findByText(/Start tutor session/));
+  fireEvent.click(screen.getByText('B1'));
+  fireEvent.click(screen.getByText('Next'));
+  fireEvent.click(screen.getByText('B1'));
+  await act(async () => { fireEvent.click(screen.getByText('Finish')); });
+  fireEvent.click(screen.getByText('Done'));
+  fireEvent.click(screen.getByText(/Start tutor session/)); // a new session begins while the old saves are in flight
+  await act(async () => { ds[0].reject(new TypeError('Failed to fetch')); ds[1].reject(new TypeError('Failed to fetch')); });
+  expect(screen.queryByText(/Could not save results: \d+ not saved/)).toBeNull();
 });
 
 test('a coded non-integrity error (auth/RLS/5xx) on a carried batch does not fall back to one row at a time', async () => {
