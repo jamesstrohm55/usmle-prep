@@ -6,4 +6,5 @@ button { padding: .5rem .9rem; cursor: pointer; }
 .card { background: #fff; border: 1px solid #ddd; border-radius: 8px; padding: 1.25rem; margin: 1rem 0; }
 .toast { position: fixed; bottom: 1rem; right: 1rem; background: #7a1f1f; color: #fff; padding: .75rem 1rem; border-radius: 6px; }
 .done { color: #777; text-decoration: line-through; }
-li { margin: .4rem 0; }
+ol.today-tasks li { margin: .4rem 0; }
+.sr-only { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; }

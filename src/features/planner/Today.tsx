@@ -10,7 +10,8 @@ import {
   buildPlan, daysLeft, DEFAULT_SEC_PER_CARD, DEFAULT_SEC_PER_QUESTION, lastStudyBySystem, latestPerQuestion, masteryBySystem,
   medianSeconds, minutesDoneThisWeek, pickNote, rankSystems, todayMinutes, type Task,
 } from '../../engine/planner';
-import { doneToday, parseSnapshot } from '../../engine/progress';
+import { doneToday, parseSnapshot, sinceBase, type Snapshot } from '../../engine/progress';
+import { getLastUserId } from '../../db/lastUser';
 
 const dayKey = (d: Date) => `${d.getFullYear()}-${String(d.getMonth() + 1).padStart(2, '0')}-${String(d.getDate()).padStart(2, '0')}`;
 
@@ -47,11 +48,14 @@ export function Today({ load = loadToday, save = saveSettings, now = () => new D
   const nowRef = useRef(now);
   nowRef.current = now; // an inline `now` must not retrigger the plan memo
   const today = dayKey(now());
+  const user = getLastUserId() ?? 'anon'; // browser-stored day state is per signed-in user
   const [stored, setStored] = useState<{ day: string; v: string } | null>(null);
   // Override belongs to a day: after midnight, read the new day's value instead of reusing yesterday's.
-  const override = stored && stored.day === today ? stored.v : readKey(`today-minutes:${today}`);
+  const overrideKey = `${user}:today-minutes:${today}`;
+  const override = stored && stored.day === overrideKey ? stored.v : readKey(overrideKey);
   const [noteRead, setNoteRead] = useState<Record<string, boolean>>({});
   const [rebuilds, setRebuilds] = useState(0);
+  const handledRebuilds = useRef(0);
   const alive = useRef(true);
   const loadRef = useRef(load);
 
@@ -76,38 +80,48 @@ export function Today({ load = loadToday, save = saveSettings, now = () => new D
     const dueCards = cards.filter((c) => { const s = states.get(c.id); return s && new Date(s.due) <= at; }).length;
     const minutes = todayMinutes(settings.minutes_by_weekday, at, parseOverride(override));
     // The plan is fixed for the day so finished tasks stay listed; it is rebuilt only when today's minutes change or on request.
-    const planKey = `plan:${today}`;
-    let tasks = parseSnapshot(readKey(planKey), minutes)?.tasks;
-    if (!tasks) {
-      tasks = buildPlan({
+    // Progress counts work done since the plan was made (`base`), so a mid-day rebuild starts at 0.
+    const planKey = `${user}:plan:${today}`;
+    const hasCompletedRun = !!data.hasCompletedRun;
+    const doneNow = doneToday(attempts, reviews, qSystem, at);
+    // After Rebuild, ignore the stored plan even if removing it failed.
+    const forced = rebuilds !== handledRebuilds.current;
+    handledRebuilds.current = rebuilds;
+    let plan: Snapshot | null = forced ? null : parseSnapshot(readKey(planKey), minutes, hasCompletedRun);
+    if (!plan) {
+      const tasks = buildPlan({
         minutes, dueCards, ranked, available,
         secPerCard: medianSeconds(lastDurations(reviews), DEFAULT_SEC_PER_CARD),
         secPerQuestion: medianSeconds(lastDurations(attempts), DEFAULT_SEC_PER_QUESTION),
       });
-      if (tasks.length) writeKey(planKey, JSON.stringify({ minutes, tasks }));
+      plan = { minutes, tasks, base: doneNow, hasCompletedRun };
+      if (tasks.length) writeKey(planKey, JSON.stringify(plan));
     }
     return {
-      minutes, tasks, latest, progress: doneToday(attempts, reviews, qSystem, at),
+      minutes, tasks: plan.tasks, latest, progress: sinceBase(doneNow, plan.base),
       left: daysLeft(settings.target_date, at),
       done: minutesDoneThisWeek(attempts, reviews, at),
       planned: settings.minutes_by_weekday.reduce((a, b) => a + b, 0),
     };
-  }, [data, override, today, rebuilds]);
+  }, [data, override, today, user, rebuilds]);
 
   if (error) return <p role="alert">Could not load your plan: {error} <button onClick={refresh}>Retry</button></p>;
   if (!data || !view) return <p role="status">Loading…</p>;
 
-  const onOverride = (v: string) => { setStored({ day: today, v }); writeKey(`today-minutes:${today}`, v); };
-  const onRebuild = () => { writeKey(`plan:${today}`, ''); setRebuilds((n) => n + 1); };
-  const noteKey = (system: string) => `note-done:${today}:${system}`;
+  const onOverride = (v: string) => { setStored({ day: overrideKey, v }); writeKey(overrideKey, v); };
+  const onRebuild = () => { writeKey(`${user}:plan:${today}`, ''); setRebuilds((n) => n + 1); };
+  const noteKey = (system: string) => `${user}:note-done:${today}:${system}`;
   const isRead = (system: string) => noteRead[noteKey(system)] ?? readKey(noteKey(system)) === '1';
   const setRead = (system: string, read: boolean) => {
     setNoteRead((r) => ({ ...r, [noteKey(system)]: read }));
     writeKey(noteKey(system), read ? '1' : '');
   };
-  const progressOf = (t: Task) =>
-    t.kind === 'cards' ? view.progress.cards : t.kind === 'questions' ? view.progress.questions[t.system] ?? 0 : null;
-  const isDone = (t: Task) => (t.kind === 'note' ? isRead(t.system) : progressOf(t)! >= t.count);
+  // Progress shown and judged against the planned count, never above it.
+  const progressOf = (t: Exclude<Task, { kind: 'note' }>) =>
+    Math.min(t.count, t.kind === 'cards' ? view.progress.cards : view.progress.questions[t.system] ?? 0);
+  const isDone = (t: Task) => (t.kind === 'note' ? isRead(t.system) : progressOf(t) >= t.count);
+  const progressText = (t: Exclude<Task, { kind: 'note' }>) => <>
+    <b aria-hidden="true">{progressOf(t)}/{t.count}</b><span className="sr-only">{progressOf(t)} of {t.count} done</span></>;
   const allDone = view.tasks.length > 0 && view.tasks.every(isDone);
   const overMax = (parseOverride(override) ?? 0) < Number(override);
   async function onSave(s: StudySettings) {
@@ -117,13 +131,13 @@ export function Today({ load = loadToday, save = saveSettings, now = () => new D
   }
   const renderTask = (t: Task) => {
     const mins = `(~${Math.round(t.minutes)} min)`;
-    if (t.kind === 'cards') return <><Link to="/cards">Review {t.count} flashcards</Link> {mins} <b>{progressOf(t)}/{t.count}</b></>;
+    if (t.kind === 'cards') return <><Link to="/cards">Review {t.count} flashcards</Link> {mins} {progressText(t)}</>;
     if (t.kind === 'note') {
       const n = pickNote(data.notes, data.questions, view.latest, t.system);
       return <>Read <Link to="/notes">{n ? n.title : `a note in ${t.system}`}</Link> {mins}{' '}
         <label><input type="checkbox" checked={isRead(t.system)} onChange={(e) => setRead(t.system, e.target.checked)} /> Mark read</label></>;
     }
-    return <><Link to={`/questions?system=${encodeURIComponent(t.system)}&n=${t.count}`}>Answer {t.count} {t.system} questions</Link> {mins} <b>{progressOf(t)}/{t.count}</b></>;
+    return <><Link to={`/questions?system=${encodeURIComponent(t.system)}&n=${t.count}`}>Answer {t.count} {t.system} questions</Link> {mins} {progressText(t)}</>;
   };
 
   return (
@@ -133,9 +147,9 @@ export function Today({ load = loadToday, save = saveSettings, now = () => new D
         {data.hasCompletedRun === false && <p><Link to="/diagnostic">Take the diagnostic</Link> to calibrate your plan.</p>}
         <label>Minutes today <input type="number" min={0} max={600} value={override} placeholder={String(view.minutes)}
           onChange={(e) => onOverride(e.target.value)} /></label>
-        {overMax && <p role="status">Maximum is 600 minutes, using 600.</p>}
+        <p role="status">{overMax ? 'Maximum is 600 minutes, using 600.' : ''}</p>
         {view.minutes <= 0 ? <p>No study time set for today.</p> : !view.tasks.length ? <p>Nothing to do today.</p> : (<>
-          <ol>{view.tasks.map((t, i) => {
+          <ol className="today-tasks">{view.tasks.map((t, i) => {
             const done = isDone(t);
             return <li key={i} className={done ? 'done' : ''}>{done && <span role="img" aria-label="done">✓ </span>}{renderTask(t)}</li>;
           })}</ol>
