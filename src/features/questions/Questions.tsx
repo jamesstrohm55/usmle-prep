@@ -53,10 +53,13 @@ export function Questions({ load = fetchQuestions, save = saveAttempts, preset, 
   // Planned set: history only picks which questions; a failed load just treats all as unseen.
   const [latest, setLatest] = useState<ReturnType<typeof latestPerQuestion>>(new Map());
   const hasPreset = !!preset;
+  const [ready, setReady] = useState(!preset);
   useEffect(() => {
     if (!hasPreset) return;
     let live = true;
-    loadAttempts().then((a) => live && setLatest(latestPerQuestion(a))).catch(() => live && setLatest(new Map()));
+    loadAttempts()
+      .then((a) => { if (live) { setLatest(latestPerQuestion(a)); setReady(true); } })
+      .catch(() => { if (live) { setLatest(new Map()); setReady(true); } });
     return () => { live = false; };
   }, [hasPreset, loadAttempts]);
 
@@ -114,7 +117,7 @@ export function Questions({ load = fetchQuestions, save = saveAttempts, preset, 
   if (!mode) return (
     <div className="card">
       <p>{bank.length} questions available.</p>
-      {preset && plannedCount > 0 && <p><button onClick={() => start('tutor', selectForTask(bank, latest, preset.system, preset.n))}>Start planned set ({plannedCount} questions in {preset.system})</button></p>}
+      {preset && plannedCount > 0 && <p><button disabled={!ready} onClick={() => start('tutor', selectForTask(bank, latest, preset.system, preset.n))}>Start planned set ({plannedCount} {plannedCount === 1 ? 'question' : 'questions'} in {preset.system}){!ready && ' (loading history…)'}</button></p>}
       <button onClick={() => start('tutor', pickBlock(bank, BLOCK))}>Start tutor session ({blockSize} questions)</button>{' '}
       <button onClick={() => start('timed', pickBlock(bank, BLOCK))}>Start timed session ({blockSize} questions, {Math.round(timedLimitMs(blockSize) / 60000)} min)</button>
     </div>

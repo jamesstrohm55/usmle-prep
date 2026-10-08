@@ -1,4 +1,4 @@
-import { render, screen, fireEvent, act } from '@testing-library/react';
+import { render, screen, fireEvent, act, waitFor } from '@testing-library/react';
 import { Questions } from './Questions';
 import { ToastProvider } from '../../ui/Toast';
 import { setItemStatus } from '../../db/queries';
@@ -251,7 +251,7 @@ test('preset: planned set starts a tutor session of unseen questions of that sys
 
 test('preset: count is capped at the questions available in the system', async () => {
   wrap(<Questions load={async () => [qs('r1', 'renal'), qs('c1', 'cardio')]} save={async () => {}} preset={{ system: 'renal', n: 10 }} loadAttempts={async () => []} />);
-  expect(await screen.findByText(/Start planned set \(1 questions in renal\)/)).toBeTruthy();
+  expect(await screen.findByText(/Start planned set \(1 question in renal\)/)).toBeTruthy();
 });
 
 test('preset for a system not in the bank shows the normal start screen only', async () => {
@@ -270,7 +270,21 @@ test('no preset leaves the start screen unchanged and never loads attempts', asy
 
 test('preset: failing loadAttempts falls back to all questions unseen, no crash or toast', async () => {
   wrap(<Questions load={async () => [qs('r1', 'renal'), qs('r2', 'renal')]} save={async () => {}} preset={{ system: 'renal', n: 5 }} loadAttempts={async () => { throw new Error('offline'); }} />);
-  fireEvent.click(await screen.findByText(/Start planned set \(2 questions in renal\)/));
+  const btn = (await screen.findByText(/Start planned set \(2 questions in renal\)/)) as HTMLButtonElement;
+  await waitFor(() => expect(btn.disabled).toBe(false));
+  fireEvent.click(btn);
   expect(screen.getByText(/Q1\/2/)).toBeTruthy();
   expect(screen.queryByRole('alert')).toBeNull();
+});
+
+test('preset: planned button is disabled until history loads, then excludes seen questions', async () => {
+  let resolve!: (a: ReturnType<typeof att>[]) => void;
+  const loadAttempts = () => new Promise<ReturnType<typeof att>[]>((r) => { resolve = r; });
+  wrap(<Questions load={async () => [qs('r1', 'renal'), qs('r2', 'renal')]} save={async () => {}} preset={{ system: 'renal', n: 1 }} loadAttempts={loadAttempts} />);
+  const btn = (await screen.findByText(/Start planned set/)) as HTMLButtonElement;
+  expect(btn.disabled).toBe(true);
+  await act(async () => { resolve([att('r1', true)]); });
+  expect(btn.disabled).toBe(false);
+  fireEvent.click(btn);
+  expect(screen.getByText('stem-r2')).toBeTruthy();
 });
