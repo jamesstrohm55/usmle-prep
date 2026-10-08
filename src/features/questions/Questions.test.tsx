@@ -503,6 +503,32 @@ test('preset: planned button is disabled until history loads, then excludes seen
   expect(screen.getByText('stem-r2')).toBeTruthy();
 });
 
+test('preset with done: Resume label, and the set still serves unseen questions first', async () => {
+  const bank = [qs('r1', 'renal'), qs('r2', 'renal'), qs('r3', 'renal')];
+  wrap(<Questions load={async () => bank} save={async () => {}} preset={{ system: 'renal', n: 2, done: 1 }} loadAttempts={async () => [att('r1', true)]} />);
+  const btn = (await screen.findByText('Resume planned set (2 questions left in renal, 1 done)')) as HTMLButtonElement;
+  await waitFor(() => expect(btn.disabled).toBe(false));
+  fireEvent.click(btn);
+  expect(screen.getByText(/Q1\/2/)).toBeTruthy();
+  expect(screen.getByText(/^stem-/).textContent).not.toBe('stem-r1');
+});
+
+test('preset with done: singular "1 question left"', async () => {
+  wrap(<Questions load={async () => [qs('r1', 'renal'), qs('r2', 'renal')]} save={async () => {}} preset={{ system: 'renal', n: 1, done: 5 }} loadAttempts={async () => []} />);
+  expect(await screen.findByText(/Resume planned set \(1 question left in renal, 5 done\)/)).toBeTruthy();
+});
+
+test('preset with practice: practice label, never Resume', async () => {
+  wrap(<Questions load={async () => [qs('r1', 'renal'), qs('r2', 'renal')]} save={async () => {}} preset={{ system: 'renal', n: 2, done: 3, practice: true }} loadAttempts={async () => []} />);
+  expect(await screen.findByText(/Start practice set \(2 questions in renal\)/)).toBeTruthy();
+  expect(screen.queryByText(/Resume|Start planned set/)).toBeNull();
+});
+
+test('preset with done 0 keeps the Start planned set label', async () => {
+  wrap(<Questions load={async () => [qs('r1', 'renal')]} save={async () => {}} preset={{ system: 'renal', n: 1, done: 0 }} loadAttempts={async () => []} />);
+  expect(await screen.findByText(/Start planned set \(1 question in renal\)/)).toBeTruthy();
+});
+
 test('a 23505 on the Finish batch re-sends each row alone, since a multi-row insert is all-or-nothing', async () => {
   vi.spyOn(Math, 'random').mockReturnValue(0.999999);
   const dup = Object.assign(new Error('duplicate key'), { code: '23505' });

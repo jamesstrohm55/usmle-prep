@@ -24,7 +24,7 @@ export function sessionSummary(session: Question[], answers: Answer[]) {
 
 export function Questions({ load = fetchQuestions, save = saveAttempts, preset, loadAttempts = fetchAttempts }: {
   load?: typeof fetchQuestions; save?: typeof saveAttempts;
-  preset?: { system: string; n: number }; loadAttempts?: typeof fetchAttempts;
+  preset?: { system: string; n: number; done?: number; practice?: boolean }; loadAttempts?: typeof fetchAttempts;
 }) {
   const toast = useToast();
   const [bank, setBank] = useState<Question[] | null>(null);
@@ -133,10 +133,14 @@ export function Questions({ load = fetchQuestions, save = saveAttempts, preset, 
 
   const blockSize = Math.min(BLOCK, bank.length);
   const plannedCount = preset ? Math.min(preset.n, bank.filter((q) => q.system === preset.system).length) : 0;
+  const qWord = plannedCount === 1 ? 'question' : 'questions';
+  const plannedLabel = preset?.practice ? `Start practice set (${plannedCount} ${qWord} in ${preset.system})`
+    : preset?.done ? `Resume planned set (${plannedCount} ${qWord} left in ${preset.system}, ${preset.done} done)`
+    : `Start planned set (${plannedCount} ${qWord} in ${preset?.system})`;
   if (!mode) return (
     <div className="card">
       <p>{bank.length} questions available.</p>
-      {preset && plannedCount > 0 && <p><button disabled={!ready} onClick={() => start('tutor', selectForTask(bank, latest, preset.system, preset.n))}>Start planned set ({plannedCount} {plannedCount === 1 ? 'question' : 'questions'} in {preset.system}){!ready && ' (loading history…)'}</button></p>}
+      {preset && plannedCount > 0 && <p><button disabled={!ready} onClick={() => start('tutor', selectForTask(bank, latest, preset.system, preset.n))}>{plannedLabel}{!ready && ' (loading history…)'}</button></p>}
       <button onClick={() => start('tutor', pickBlock(bank, BLOCK))}>Start tutor session ({blockSize} questions)</button>{' '}
       <button onClick={() => start('timed', pickBlock(bank, BLOCK))}>Start timed session ({blockSize} questions, {Math.round(timedLimitMs(blockSize) / 60000)} min)</button>
     </div>
@@ -199,5 +203,7 @@ export function QuestionsRoute() {
   const system = p.get('system') ?? '';
   const n = Number(p.get('n'));
   const ok = system && Number.isInteger(n) && n >= 1;
-  return <Questions preset={ok ? { system, n: Math.min(100, n) } : undefined} />;
+  const d = Number(p.get('done'));
+  const done = Number.isInteger(d) && d >= 0 && d <= 100 ? d : 0; // missing/garbled => 0
+  return <Questions preset={ok ? { system, n: Math.min(100, n), done, practice: p.get('practice') === '1' } : undefined} />;
 }

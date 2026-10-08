@@ -31,6 +31,43 @@ test('URL-encoded system is decoded', async () => {
   expect(await screen.findByText(/Start planned set \(1 question in Heme\/Onc\)/)).toBeTruthy();
 });
 
+test('valid done shows Resume', async () => {
+  bank[0].system = 'renal';
+  at('/questions?system=renal&n=3&done=4');
+  expect(await screen.findByText(/Resume planned set \(1 question left in renal, 4 done\)/)).toBeTruthy();
+});
+
+test.each(['abc', '2.5', '-1', '101', '', '0'])('done=%s is ignored', async (d) => {
+  bank[0].system = 'renal';
+  at(`/questions?system=renal&n=3&done=${d}`);
+  expect(await screen.findByText(/Start planned set \(1 question in renal\)/)).toBeTruthy();
+  expect(screen.queryByText(/Resume/)).toBeNull();
+});
+
+test('done=100 is accepted', async () => {
+  bank[0].system = 'renal';
+  at('/questions?system=renal&n=3&done=100');
+  expect(await screen.findByText(/Resume planned set \(1 question left in renal, 100 done\)/)).toBeTruthy();
+});
+
+test('practice=1 shows the practice label', async () => {
+  bank[0].system = 'renal';
+  at('/questions?system=renal&n=3&practice=1');
+  expect(await screen.findByText(/Start practice set \(1 questions? in renal\)/)).toBeTruthy();
+});
+
+test('practice other than 1 is ignored', async () => {
+  bank[0].system = 'renal';
+  at('/questions?system=renal&n=3&practice=yes');
+  expect(await screen.findByText(/Start planned set \(1 question in renal\)/)).toBeTruthy();
+});
+
+test('done or practice without a valid system and n still gives no preset', async () => {
+  at('/questions?n=3&done=2&practice=1');
+  expect(await screen.findByText(/Start tutor session/)).toBeTruthy();
+  expect(screen.queryByText(/planned set|practice set/)).toBeNull();
+});
+
 test('n above 100 is clamped, not dropped', async () => {
   bank[0].system = 'renal';
   at('/questions?system=renal&n=500');
