@@ -5,7 +5,7 @@ import { markExplicitSignOut } from './db/lastUser';
 import { supabase } from './db/client';
 import { clearCache } from './db/queries';
 import { Flashcards } from './features/flashcards/Flashcards';
-import { Questions } from './features/questions/Questions';
+import { QuestionsRoute } from './features/questions/Questions';
 import { Notes } from './features/notes/Notes';
 import { Search } from './features/search/Search';
 import { ImportExport } from './features/import-export/ImportExport';
@@ -37,7 +37,7 @@ export function App() {
           <main>
             <Routes>
               <Route path="/" element={<Flashcards />} />
-              <Route path="/questions" element={<Questions />} />
+              <Route path="/questions" element={<QuestionsRoute />} />
               <Route path="/notes" element={<Notes />} />
               <Route path="/search" element={<Search />} />
               <Route path="/data" element={<ImportExport />} />

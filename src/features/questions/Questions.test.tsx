@@ -230,3 +230,47 @@ test('a question with a relative image_url renders the prefixed image in the ste
   fireEvent.click(await screen.findByText(/Start tutor session/));
   expect((await screen.findByAltText('Clinical image (see the question)')).getAttribute('src')).toBe(`${import.meta.env.BASE_URL}images/ecg/afib-1.jpg`);
 });
+
+const qs = (id: string, system: string): Question => ({ ...q(id), system });
+const att = (question_id: string, correct: boolean) => ({ question_id, correct, duration_ms: 1, answered_at: '2026-01-01T00:00:00Z' });
+
+test('preset: planned set starts a tutor session of unseen questions of that system, at most n', async () => {
+  const bank = [qs('r1', 'renal'), qs('r2', 'renal'), qs('r3', 'renal'), qs('c1', 'cardio')];
+  wrap(<Questions load={async () => bank} save={async () => {}} preset={{ system: 'renal', n: 2 }} loadAttempts={async () => [att('r1', true)]} />);
+  fireEvent.click(await screen.findByText(/Start planned set \(2 questions in renal\)/));
+  const seen: string[] = [];
+  for (let i = 0; i < 2; i++) {
+    seen.push((screen.getByText(/^stem-/)).textContent!);
+    fireEvent.click(screen.getByText('B1')); // tutor mode shows explanation
+    expect(screen.getByText(/^exp-/)).toBeTruthy();
+    if (i === 0) fireEvent.click(screen.getByText('Next'));
+  }
+  expect(seen.sort()).toEqual(['stem-r2', 'stem-r3']);
+  expect(screen.getByText('Finish')).toBeTruthy();
+});
+
+test('preset: count is capped at the questions available in the system', async () => {
+  wrap(<Questions load={async () => [qs('r1', 'renal'), qs('c1', 'cardio')]} save={async () => {}} preset={{ system: 'renal', n: 10 }} loadAttempts={async () => []} />);
+  expect(await screen.findByText(/Start planned set \(1 questions in renal\)/)).toBeTruthy();
+});
+
+test('preset for a system not in the bank shows the normal start screen only', async () => {
+  wrap(<Questions load={async () => [q('1')]} save={async () => {}} preset={{ system: 'renal', n: 5 }} loadAttempts={async () => []} />);
+  expect(await screen.findByText(/Start tutor session/)).toBeTruthy();
+  expect(screen.queryByText(/Start planned set/)).toBeNull();
+});
+
+test('no preset leaves the start screen unchanged and never loads attempts', async () => {
+  const loadAttempts = vi.fn();
+  wrap(<Questions load={async () => [q('1')]} save={async () => {}} loadAttempts={loadAttempts} />);
+  expect(await screen.findByText(/Start tutor session/)).toBeTruthy();
+  expect(screen.queryByText(/Start planned set/)).toBeNull();
+  expect(loadAttempts).not.toHaveBeenCalled();
+});
+
+test('preset: failing loadAttempts falls back to all questions unseen, no crash or toast', async () => {
+  wrap(<Questions load={async () => [qs('r1', 'renal'), qs('r2', 'renal')]} save={async () => {}} preset={{ system: 'renal', n: 5 }} loadAttempts={async () => { throw new Error('offline'); }} />);
+  fireEvent.click(await screen.findByText(/Start planned set \(2 questions in renal\)/));
+  expect(screen.getByText(/Q1\/2/)).toBeTruthy();
+  expect(screen.queryByRole('alert')).toBeNull();
+});

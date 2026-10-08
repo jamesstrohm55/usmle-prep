@@ -1,7 +1,9 @@
 import { useCallback, useEffect, useRef, useState } from 'react';
-import { fetchQuestions, saveAttempts, setItemStatus, type AttemptInsert } from '../../db/queries';
+import { useSearchParams } from 'react-router-dom';
+import { fetchAttempts, fetchQuestions, saveAttempts, setItemStatus, type AttemptInsert } from '../../db/queries';
 import type { Question } from '../../db/models';
 import { gradeAnswer, canShowExplanation, timedLimitMs, pickBlock, type Answer, type Mode } from '../../engine/mcq';
+import { latestPerQuestion, selectForTask } from '../../engine/planner';
 import { useToast } from '../../ui/Toast';
 import { Rich } from '../../ui/Rich';
 import { ItemImage } from '../../ui/ItemImage';
@@ -20,7 +22,10 @@ export function sessionSummary(session: Question[], answers: Answer[]) {
   return { total, correct, pct: total ? Math.round((correct / total) * 100) : 0, missed: session.filter((q) => !correctIds.has(q.id)) };
 }
 
-export function Questions({ load = fetchQuestions, save = saveAttempts }: { load?: typeof fetchQuestions; save?: typeof saveAttempts }) {
+export function Questions({ load = fetchQuestions, save = saveAttempts, preset, loadAttempts = fetchAttempts }: {
+  load?: typeof fetchQuestions; save?: typeof saveAttempts;
+  preset?: { system: string; n: number }; loadAttempts?: typeof fetchAttempts;
+}) {
   const toast = useToast();
   const [bank, setBank] = useState<Question[] | null>(null);
   const [loadError, setLoadError] = useState<string | null>(null);
@@ -44,6 +49,16 @@ export function Questions({ load = fetchQuestions, save = saveAttempts }: { load
     load().then(setBank).catch((e) => setLoadError(e.message));
   }, [load]);
   useEffect(refresh, [refresh]);
+
+  // Planned set: history only picks which questions; a failed load just treats all as unseen.
+  const [latest, setLatest] = useState<ReturnType<typeof latestPerQuestion>>(new Map());
+  const hasPreset = !!preset;
+  useEffect(() => {
+    if (!hasPreset) return;
+    let live = true;
+    loadAttempts().then((a) => live && setLatest(latestPerQuestion(a))).catch(() => live && setLatest(new Map()));
+    return () => { live = false; };
+  }, [hasPreset, loadAttempts]);
 
   useEffect(() => {
     if (mode !== 'timed' || finished) return;
@@ -95,9 +110,11 @@ export function Questions({ load = fetchQuestions, save = saveAttempts }: { load
   if (!bank.length) return <p>No questions yet.</p>;
 
   const blockSize = Math.min(BLOCK, bank.length);
+  const plannedCount = preset ? Math.min(preset.n, bank.filter((q) => q.system === preset.system).length) : 0;
   if (!mode) return (
     <div className="card">
       <p>{bank.length} questions available.</p>
+      {preset && plannedCount > 0 && <p><button onClick={() => start('tutor', selectForTask(bank, latest, preset.system, preset.n))}>Start planned set ({plannedCount} questions in {preset.system})</button></p>}
       <button onClick={() => start('tutor', pickBlock(bank, BLOCK))}>Start tutor session ({blockSize} questions)</button>{' '}
       <button onClick={() => start('timed', pickBlock(bank, BLOCK))}>Start timed session ({blockSize} questions, {Math.round(timedLimitMs(blockSize) / 60000)} min)</button>
     </div>
@@ -149,4 +166,12 @@ export function Questions({ load = fetchQuestions, save = saveAttempts }: { load
       {answered && (last ? <button onClick={finish}>Finish</button> : <button onClick={next}>Next</button>)}
     </div>
   );
+}
+
+export function QuestionsRoute() {
+  const [p] = useSearchParams();
+  const system = p.get('system') ?? '';
+  const n = Number(p.get('n'));
+  const ok = system && Number.isInteger(n) && n >= 1 && n <= 100;
+  return <Questions preset={ok ? { system, n } : undefined} />;
 }
