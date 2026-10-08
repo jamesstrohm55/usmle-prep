@@ -36,7 +36,7 @@ Calendar view; reminders and notifications; tracking which notes were read (note
 - Header: days left (when a date is set), minutes available today, and a weekly bar of minutes done vs planned (Monday to Sunday, local time).
 - Task list sized to today's minutes:
   1. **Due flashcards**, capped at 40% of the time.
-  2. **Focus system** (highest priority): a note to read (estimated 6 minutes, suggested only), then a question set.
+  2. **Focus system** (highest priority): a note to read (estimated 6 minutes, suggested only; links to the notes screen and names the note of the block she has answered least), then a question set.
   3. **Second system** (when time remains): questions only.
 - Each task links to the existing screens (flashcards, notes, questions).
 - Under 10 minutes of time left after cards: a single question set in the focus system.
@@ -52,7 +52,7 @@ The diagnostic and later practice feed the same pool, so real practice gradually
 `priority = weight × (1 − mastery) × recency`, where `recency = clamp(0.5 + daysSinceLastStudy / 4, 0.5, 1.5)` and `daysSinceLastStudy` is the days since her last attempt or card review in that system (never studied counts as 7 or more). Highest priority is the focus system, second highest is the second system.
 
 ### Time estimates
-Seconds per card and per question come from her own history (median of recent `review_log.duration_ms` and `attempts.duration_ms`); defaults 20 s per card and 90 s per question until there is data. A question set has at least 5 questions.
+Seconds per card and per question come from her own history (median of recent `review_log.duration_ms` and `attempts.duration_ms`); defaults 20 s per card and 90 s per question until there is data. A question set has at least 5 questions when time allows; on a short day (under 20 minutes left after cards) the day is one set sized to the time left.
 
 ### Question selection for a task
 Unseen questions first, then questions she got wrong last time, then the rest, within the task's system.
@@ -66,6 +66,7 @@ New migration (one file, additive, nothing existing altered):
 - `study_settings(user_id uuid pk default auth.uid(), target_date date null, minutes_by_weekday int[] not null default '{60,60,60,60,60,180,180}', updated_at timestamptz default now())`, check `array_length = 7` and each value between 0 and 600.
 - `diagnostic_runs(id uuid pk default gen_random_uuid(), user_id uuid default auth.uid(), started_at timestamptz default now(), completed_at timestamptz null, status text check in ('in_progress','completed','abandoned'), question_ids uuid[] not null, seed text not null)`; at most one `in_progress` per user (partial unique index).
 - RLS on both: a user reads and writes only their own rows; admin read not required.
+- A unique index on `attempts(session_id, question_id)` makes a double answer impossible at the database level (checked for existing duplicates before applying).
 - Diagnostic answers reuse `attempts` (`session_id` = the run id, `mode = 'timed'`); no new answers table. Results are computed, not stored.
 - Applying the migration to the live project is a production database change: it needs explicit approval at execution time and the local RLS tests (Docker) must pass first.
 
