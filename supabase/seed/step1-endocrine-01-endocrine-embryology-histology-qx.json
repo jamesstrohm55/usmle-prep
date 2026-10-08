@@ -1,0 +1,181 @@
+{
+  "cards": [],
+  "questions": [
+    {
+      "slug": "q-endocrine-embryology-histology-qx-lingual-thyroid-excision",
+      "track": "step1",
+      "system": "endocrine",
+      "discipline": "embryology",
+      "tags": [
+        "endocrine-embryology-histology",
+        "thyroid-development",
+        "lingual-thyroid"
+      ],
+      "stem": "A 12-year-old girl has felt something in her throat for several months, and swallowing solid food is sometimes hard. Exam shows a smooth, reddish, 2-cm mass in the midline at the back of the tongue. No thyroid tissue can be felt in the front of the neck. TSH is 6.8 mU/L (normal 0.5-4.5), and free T4 is 0.9 ng/dL (normal 0.8-1.8). A radionuclide thyroid scan shows uptake only at the base of the tongue and no uptake in the neck. If this mass is removed completely, which outcome is most likely?",
+      "choices": [
+        "Hypocalcemia from loss of parathyroid tissue",
+        "Permanent hypothyroidism",
+        "Paralysis of one vocal cord",
+        "Loss of taste on the anterior two-thirds of the tongue",
+        "Deviation of the protruded tongue from hypoglossal nerve injury"
+      ],
+      "correct": 1,
+      "explanation": "This is a **lingual thyroid**: thyroid tissue that never left the **foramen cecum**. The scan shows no thyroid in the neck, so the mass is her **only thyroid tissue**, and complete removal leaves her with **permanent hypothyroidism**. Hypocalcemia is the tempting answer, but the parathyroids come from the **3rd and 4th pharyngeal pouches** and migrate separately, so they still lie in the neck. The mildly high TSH shows that even this ectopic tissue is barely enough.",
+      "explanation_pt": "Trata-se de uma **tireoide lingual**: tecido tireoidiano que nunca saiu do **forame cego**. A cintilografia não mostra tireoide no pescoço, então a massa é o **único tecido tireoidiano** dela, e a remoção completa causa **hipotireoidismo permanente**. A hipocalcemia é a resposta mais tentadora, mas as paratireoides vêm da **3ª e da 4ª bolsas faríngeas** e migram separadamente, então continuam no pescoço. O TSH levemente elevado mostra que mesmo esse tecido ectópico mal dá conta da demanda."
+    },
+    {
+      "slug": "q-endocrine-embryology-histology-qx-ectopic-inferior-parathyroid",
+      "track": "step1",
+      "system": "endocrine",
+      "discipline": "embryology",
+      "tags": [
+        "endocrine-embryology-histology",
+        "pharyngeal-pouches",
+        "parathyroid"
+      ],
+      "stem": "A 54-year-old woman has had two kidney stones in the past year. Serum calcium is 11.8 mg/dL (normal 8.5-10.5), phosphate is 2.1 mg/dL (normal 2.5-4.5), and PTH is 145 pg/mL (normal 10-65). During neck surgery, the surgeon finds both superior parathyroid glands and the right inferior gland, all of normal size. The left inferior gland cannot be found. After surgery, her calcium stays high. A sestamibi scan then shows one small focus of uptake in the anterior mediastinum, next to the thymus. The tissue causing her disease developed from which embryonic structure?",
+      "choices": [
+        "First pharyngeal pouch",
+        "Second pharyngeal pouch",
+        "Third pharyngeal pouch",
+        "Fourth pharyngeal pouch",
+        "Third pharyngeal arch"
+      ],
+      "correct": 2,
+      "explanation": "High calcium, low phosphate and high PTH point to **primary hyperparathyroidism**, here from an **ectopic adenoma** of the missing **inferior** gland. The inferior parathyroids come from the **3rd pharyngeal pouch** together with the **thymus**, and they migrate down with it, so an inferior gland can end up in the **anterior mediastinum**. The 4th pouch is the tempting answer because it sounds lower, but it forms the **superior** glands, which travel a shorter distance and usually stay near the upper pole of the thyroid.",
+      "explanation_pt": "Cálcio alto, fosfato baixo e PTH alto indicam **hiperparatireoidismo primário**, aqui por um **adenoma ectópico** da glândula **inferior** que faltava. As paratireoides inferiores vêm da **3ª bolsa faríngea**, junto com o **timo**, e descem com ele; por isso, uma glândula inferior pode parar no **mediastino anterior**. A 4ª bolsa é a resposta mais tentadora porque parece mais baixa, mas ela forma as glândulas **superiores**, que migram uma distância menor e costumam ficar perto do polo superior da tireoide."
+    },
+    {
+      "slug": "q-endocrine-embryology-histology-qx-thyroglossal-recurrence-hyoid",
+      "track": "step1",
+      "system": "endocrine",
+      "discipline": "anatomy",
+      "tags": [
+        "endocrine-embryology-histology",
+        "thyroid-development",
+        "neck-mass"
+      ],
+      "stem": "A 6-year-old boy had a midline neck cyst removed one year ago. The surgeon removed only the cyst itself. Pathology showed a cyst lined by respiratory and squamous epithelium, with a few thyroid follicles in its wall. Now a new painless swelling has appeared at the same place in the upper midline of the neck, and it moves up when he sticks out his tongue. To lower the risk that it returns again, the surgeon plans to remove the cyst, its tract up toward the tongue, and the central part of which structure?",
+      "choices": [
+        "Hyoid bone",
+        "Thyroid cartilage",
+        "Cricoid cartilage",
+        "Isthmus of the thyroid gland",
+        "Sternohyoid muscle"
+      ],
+      "correct": 0,
+      "explanation": "This is a recurrent **thyroglossal duct cyst**. The thyroid descends from the **foramen cecum**, and its duct passes in very close contact with the developing **hyoid bone**. Duct remnants left at the hyoid cause recurrence, so the standard operation (**Sistrunk procedure**) removes the cyst, the tract and the **middle part of the hyoid**. The thyroid isthmus is the tempting answer because the duct ends near the thyroid, but leaving the hyoid segment is what leaves duct tissue behind.",
+      "explanation_pt": "Trata-se de um **cisto do ducto tireoglosso** recidivado. A tireoide desce a partir do **forame cego**, e seu ducto passa em contato muito próximo com o **osso hioide** em formação. Restos do ducto deixados no hioide causam a recidiva; por isso a cirurgia padrão (**cirurgia de Sistrunk**) remove o cisto, o trajeto e a **porção central do hioide**. O istmo da tireoide é a resposta mais tentadora porque o ducto termina perto da tireoide, mas é a parte do hioide que, se preservada, deixa tecido do ducto para trás."
+    },
+    {
+      "slug": "q-endocrine-embryology-histology-qx-left-adrenal-vein-sampling",
+      "track": "step1",
+      "system": "endocrine",
+      "discipline": "anatomy",
+      "tags": [
+        "endocrine-embryology-histology",
+        "adrenal",
+        "adrenal-veins"
+      ],
+      "stem": "A 47-year-old man has hypertension that is hard to control. Serum potassium is 3.0 mEq/L (normal 3.5-5.0). Plasma aldosterone is high, and plasma renin activity is low. CT shows two adrenal glands of normal size. To find out which gland makes too much aldosterone, a radiologist plans to take blood directly from each adrenal vein. A catheter is passed from the right femoral vein up into the inferior vena cava. From the inferior vena cava, the catheter must enter which vein to reach the left adrenal vein?",
+      "choices": [
+        "Left gonadal vein",
+        "Splenic vein",
+        "Hemiazygos vein",
+        "Left common iliac vein",
+        "Left renal vein"
+      ],
+      "correct": 4,
+      "explanation": "The **left adrenal vein** drains into the **left renal vein**, so the catheter goes from the IVC into the left renal vein and then up into the adrenal vein. The **right adrenal vein** is short and drains **directly into the IVC**. The left gonadal vein is the tempting answer because it also drains into the left renal vein, but it is a separate tributary that runs down toward the pelvis, not up to the adrenal.",
+      "explanation_pt": "A **veia adrenal esquerda** drena para a **veia renal esquerda**; então o cateter passa da VCI para a veia renal esquerda e depois sobe para a veia adrenal. A **veia adrenal direita** é curta e drena **diretamente para a VCI**. A veia gonadal esquerda é a resposta mais tentadora porque também drena para a veia renal esquerda, mas é uma tributária separada, que desce em direção à pelve, e não sobe até a adrenal."
+    },
+    {
+      "slug": "q-endocrine-embryology-histology-qx-adh-neuron-cell-bodies",
+      "track": "step1",
+      "system": "endocrine",
+      "discipline": "anatomy",
+      "tags": [
+        "endocrine-embryology-histology",
+        "pituitary",
+        "posterior-pituitary"
+      ],
+      "stem": "A 34-year-old man has a skull base fracture in a car crash. Two days later he passes about 6 L of urine per day and is very thirsty. Serum sodium is 149 mEq/L (normal 136-145). Urine osmolality is 110 mOsm/kg, and it rises to 520 mOsm/kg after a dose of desmopressin. MRI shows that the pituitary stalk is cut. The hormone whose lack explains his urine findings is made in neuron cell bodies located in which structure?",
+      "choices": [
+        "Posterior pituitary, among the pituicytes",
+        "Anterior pituitary, among the cells from Rathke pouch",
+        "Arcuate nucleus of the hypothalamus",
+        "Supraoptic nucleus of the hypothalamus",
+        "Suprachiasmatic nucleus of the hypothalamus"
+      ],
+      "correct": 3,
+      "explanation": "Dilute urine that concentrates after desmopressin means **central diabetes insipidus**: a lack of **ADH**. ADH is made in the cell bodies of large neurons, mainly in the **supraoptic nucleus**; it travels down their axons through the stalk and is stored in the **posterior pituitary**. The posterior pituitary is the tempting answer, but it only stores and releases ADH: it contains axon endings and supporting glial cells (**pituicytes**), not the neurons that make the hormone. The arcuate nucleus makes dopamine and GHRH, and the suprachiasmatic nucleus sets the circadian rhythm.",
+      "explanation_pt": "Urina diluída que se concentra após desmopressina indica **diabetes insípido central**: falta de **ADH**. O ADH é produzido no corpo celular de neurônios grandes, principalmente no **núcleo supraóptico**; ele desce pelos axônios através da haste e é armazenado na **neuro-hipófise**. A neuro-hipófise é a resposta mais tentadora, mas ela apenas armazena e libera o ADH: contém terminações axonais e células gliais de sustentação (**pituícitos**), e não os neurônios que produzem o hormônio. O núcleo arqueado produz dopamina e GHRH, e o núcleo supraquiasmático controla o ritmo circadiano."
+    },
+    {
+      "slug": "q-endocrine-embryology-histology-qx-chromaffin-nicotinic-receptor",
+      "track": "step1",
+      "system": "endocrine",
+      "discipline": "physiology",
+      "tags": [
+        "endocrine-embryology-histology",
+        "adrenal",
+        "adrenal-medulla"
+      ],
+      "stem": "In a physiology experiment, electrical stimulation of the greater splanchnic nerve of an anesthetized animal raises the plasma epinephrine level about fivefold within minutes. The experiment is repeated after one drug is given. This time, stimulation of the nerve causes almost no rise in plasma epinephrine. Which drug was most likely given?",
+      "choices": [
+        "Atropine",
+        "Propranolol",
+        "Prazosin",
+        "Hexamethonium",
+        "Pancuronium"
+      ],
+      "correct": 3,
+      "explanation": "The adrenal medulla comes from **neural crest**: its **chromaffin cells** act like **postganglionic sympathetic neurons** without axons. Preganglionic splanchnic fibers end directly on them and release **acetylcholine**, which acts on **nicotinic (neuronal type, Nn) receptors**, so the **ganglionic blocker hexamethonium** stops the release. Atropine is the tempting answer because the transmitter is acetylcholine, but it blocks muscarinic receptors, not this nicotinic step. Pancuronium blocks the muscle-type (Nm) nicotinic receptor, and prazosin and propranolol block catecholamine effects, not catecholamine release.",
+      "explanation_pt": "A medula adrenal vem da **crista neural**: suas **células cromafins** funcionam como **neurônios simpáticos pós-ganglionares** sem axônio. As fibras esplâncnicas pré-ganglionares terminam diretamente nelas e liberam **acetilcolina**, que age em **receptores nicotínicos (do tipo neuronal, Nn)**; por isso o **bloqueador ganglionar hexametônio** impede a liberação. A atropina é a resposta mais tentadora porque o transmissor é a acetilcolina, mas ela bloqueia receptores muscarínicos, e não essa etapa nicotínica. O pancurônio bloqueia o receptor nicotínico do tipo muscular (Nm), e a prazosina e o propranolol bloqueiam os efeitos das catecolaminas, e não sua liberação."
+    },
+    {
+      "slug": "q-endocrine-embryology-histology-qx-acidophil-adenoma",
+      "track": "step1",
+      "system": "endocrine",
+      "discipline": "anatomy",
+      "tags": [
+        "endocrine-embryology-histology",
+        "pituitary",
+        "histology"
+      ],
+      "stem": "A 45-year-old man has had headaches for one year. MRI shows a 2-cm mass in the sella turcica, and he has transsphenoidal surgery. On microscopy, the tumor is made of uniform cells with abundant, strongly pink (eosinophilic) granular cytoplasm. Before surgery, which clinical finding was most likely present?",
+      "choices": [
+        "Central obesity, purple abdominal striae and proximal muscle weakness",
+        "Tremor and heat intolerance with high free T4 and a TSH that is not suppressed",
+        "Polyuria and thirst with dilute urine",
+        "Salt craving, low blood pressure and darkening of the skin creases",
+        "Enlarged hands and feet, a larger jaw, and wider spaces between the teeth"
+      ],
+      "correct": 4,
+      "explanation": "On routine stains, the **acidophils** of the anterior pituitary are the **somatotrophs (GH)** and **lactotrophs (prolactin)**; the **basophils** make **ACTH, TSH, FSH and LH**. Of the choices, only the signs of **acromegaly** come from an acidophil tumor. Cushing disease is the tempting answer because it is a classic pituitary adenoma, but corticotroph adenomas are **basophilic**, and a TSH-secreting adenoma is also basophilic. Pituitary adenomas rarely cause diabetes insipidus, and skin darkening with salt craving and low blood pressure suggests primary adrenal failure.",
+      "explanation_pt": "Na coloração de rotina, os **acidófilos** da adeno-hipófise são os **somatotrofos (GH)** e os **lactotrofos (prolactina)**; os **basófilos** produzem **ACTH, TSH, FSH e LH**. Entre as alternativas, só os sinais de **acromegalia** vêm de um tumor acidófilo. A doença de Cushing é a resposta mais tentadora porque é um adenoma hipofisário clássico, mas os adenomas corticotróficos são **basófilos**, e o adenoma produtor de TSH também é basófilo. Adenomas hipofisários raramente causam diabetes insípido, e escurecimento das pregas cutâneas com avidez por sal e PA baixa sugere insuficiência adrenal primária."
+    },
+    {
+      "slug": "q-endocrine-embryology-histology-qx-suppressed-follicles-exogenous-t4",
+      "track": "step1",
+      "system": "endocrine",
+      "discipline": "anatomy",
+      "tags": [
+        "endocrine-embryology-histology",
+        "thyroid-histology"
+      ],
+      "stem": "A 26-year-old nurse has palpitations, tremor and a 6-kg weight loss over 2 months. Pulse is 112/min. Her thyroid cannot be felt, and it is not tender. She has no eye findings. TSH is less than 0.01 mU/L (normal 0.4-4.0), and free T4 is 3.2 ng/dL (normal 0.8-1.8). The 24-hour radioactive iodine uptake is 1% (normal 10-30%). Serum thyroglobulin is low. If her thyroid tissue were examined under the microscope, which finding would be most likely?",
+      "choices": [
+        "Small follicles lined by tall columnar cells, with pale, scalloped colloid",
+        "Large follicles full of colloid, lined by flat, inactive cells",
+        "Lymphocytes with germinal centers and large eosinophilic follicular cells",
+        "Granulomas with multinucleated giant cells around damaged follicles",
+        "Dense fibrosis that extends into the nearby neck muscles"
+      ],
+      "correct": 1,
+      "explanation": "Thyrotoxicosis with very low iodine uptake and **low thyroglobulin** points to **exogenous thyroid hormone**. The extra hormone suppresses **TSH**, and without TSH the follicular cells become **flat and inactive**, while the follicles stay full of stored **colloid**. Thyroiditis (tender granulomatous or painless lymphocytic) is the tempting answer because uptake is also low, but damaged follicles leak thyroglobulin, so serum thyroglobulin is **high**. Tall cells with scalloped colloid show a gland stimulated by TSH-receptor antibodies, as in Graves disease.",
+      "explanation_pt": "Tireotoxicose com captação de iodo muito baixa e **tireoglobulina baixa** indica **hormônio tireoidiano exógeno**. O excesso de hormônio suprime o **TSH**, e, sem TSH, as células foliculares ficam **achatadas e inativas**, enquanto os folículos continuam cheios de **coloide** armazenado. A tireoidite (granulomatosa dolorosa ou linfocítica indolor) é a resposta mais tentadora porque a captação também é baixa, mas os folículos lesados liberam tireoglobulina, e a tireoglobulina sérica fica **alta**. Células altas com coloide festonado indicam uma glândula estimulada por anticorpos contra o receptor de TSH, como na doença de Graves."
+    }
+  ],
+  "notes": []
+}

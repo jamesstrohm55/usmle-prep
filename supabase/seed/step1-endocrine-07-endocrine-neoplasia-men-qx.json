@@ -1,0 +1,183 @@
+{
+  "cards": [],
+  "questions": [
+    {
+      "slug": "q-endocrine-neoplasia-men-qx-men1-second-hit",
+      "track": "step1",
+      "system": "endocrine",
+      "discipline": "pathology",
+      "tags": [
+        "endocrine-neoplasia-men",
+        "men1",
+        "tumor-suppressor"
+      ],
+      "stem": "A 36-year-old man has passed three kidney stones in 2 years. His mother has MEN1, and genetic testing showed that he inherited her germline MEN1 mutation. His laboratory results are: serum calcium 11.3 mg/dL (normal 8.5-10.5), phosphate 2.1 mg/dL (normal 2.5-4.5), PTH 128 pg/mL (normal 10-65) and high 24-hour urine calcium. At surgery all four parathyroid glands are enlarged, and three and a half glands are removed. DNA from the parathyroid tissue is compared with DNA from his blood. Which finding is most likely in the parathyroid tissue?",
+      "choices": [
+        "A second, activating mutation in the mutant MEN1 allele",
+        "Loss of the normal MEN1 allele inherited from his father",
+        "High menin expression from both MEN1 alleles",
+        "An activating RET mutation acquired by the gland cells",
+        "Methylation that silences the mutant maternal MEN1 allele"
+      ],
+      "correct": 1,
+      "explanation": "**Menin** is a **tumor suppressor**, so one inherited inactive allele is not enough: a tumor forms only after a **second hit** removes the normal allele, often by **loss of heterozygosity**. The parathyroid cells therefore lose the normal paternal copy and have no working menin. An *activating* mutation would not help a tumor suppressor cause a tumor. An **activating RET mutation** is the tempting choice because RET also causes hyperparathyroidism (MEN2A), but RET is a proto-oncogene and is not the cause in an MEN1 family. Silencing the mutant allele would leave normal menin and would not cause a tumor.",
+      "explanation_pt": "A **menina** é um **supressor tumoral**, então um alelo inativo herdado não basta: o tumor só surge depois de um **segundo evento** (*second hit*) que elimina o alelo normal, muitas vezes por **perda de heterozigosidade**. Assim, as células da paratireoide perdem a cópia paterna normal e ficam sem menina funcional. Uma mutação *ativadora* não faria um supressor tumoral causar tumor. Uma **mutação ativadora do RET** é a alternativa tentadora porque o RET também causa hiperparatireoidismo (NEM2A), mas o RET é um proto-oncogene e não é a causa em uma família com NEM1. Silenciar o alelo mutante deixaria menina normal e não causaria tumor."
+    },
+    {
+      "slug": "q-endocrine-neoplasia-men-qx-men1-calcium-gastrin",
+      "track": "step1",
+      "system": "endocrine",
+      "discipline": "physiology",
+      "tags": [
+        "endocrine-neoplasia-men",
+        "men1",
+        "gastrinoma"
+      ],
+      "stem": "A 44-year-old woman with MEN1 has a duodenal gastrinoma and primary hyperparathyroidism. She takes the same dose of omeprazole before and after a subtotal parathyroidectomy. Her laboratory results are: before surgery, serum calcium 11.8 mg/dL, fasting gastrin 980 pg/mL and creatinine 0.8 mg/dL; 3 months after surgery, calcium 9.3 mg/dL, fasting gastrin 410 pg/mL and creatinine 0.8 mg/dL (normal calcium 8.5-10.5; normal gastrin below 100). Which mechanism best explains the fall in her gastrin level?",
+      "choices": [
+        "Parathyroid hormone had been stimulating parietal cells directly",
+        "The removed parathyroid glands had been secreting gastrin",
+        "High calcium had been reducing renal clearance of gastrin",
+        "High calcium had been stimulating gastrin release by the tumor",
+        "Lower calcitriol levels caused the gastrinoma cells to die"
+      ],
+      "correct": 3,
+      "explanation": "**Calcium** is a direct stimulus for **gastrin release**, and gastrinoma cells respond strongly to it. When parathyroid surgery corrects the **hypercalcemia**, gastrin and acid output fall, which is one reason the hyperparathyroidism is usually corrected early in MEN1. Reduced **renal clearance** is the tempting choice because high calcium can injure the kidney, but her creatinine did not change. The parathyroid glands do not make gastrin, and PTH acting on parietal cells would change acid, not the gastrin level.",
+      "explanation_pt": "O **cálcio** é um estímulo direto para a **liberação de gastrina**, e as células do gastrinoma respondem fortemente a ele. Quando a cirurgia da paratireoide corrige a **hipercalcemia**, a gastrina e a secreção ácida caem; esse é um dos motivos para corrigir cedo o hiperparatireoidismo na NEM1. A redução da **depuração renal** é a alternativa tentadora porque o cálcio alto pode lesar o rim, mas a creatinina dela não mudou. As paratireoides não produzem gastrina, e o PTH agindo nas células parietais mudaria o ácido, não o nível de gastrina."
+    },
+    {
+      "slug": "q-endocrine-neoplasia-men-qx-ret-neural-crest",
+      "track": "step1",
+      "system": "endocrine",
+      "discipline": "embryology",
+      "tags": [
+        "endocrine-neoplasia-men",
+        "men2",
+        "ret",
+        "embryology"
+      ],
+      "stem": "A 3-day-old boy has not passed meconium, and his abdomen is distended. A rectal suction biopsy shows no ganglion cells. His mother had her thyroid removed at age 31 for a cancer with a very high calcitonin level. His maternal grandfather had an adrenal tumor that caused attacks of severe hypertension. Genetic testing finds a mutation in the same gene in the boy, his mother and his grandfather. The missing enteric neurons in the boy and the tumor cells in his grandfather's adrenal gland come from which embryologic tissue?",
+      "choices": [
+        "Neural crest",
+        "Neural tube neuroepithelium",
+        "Endoderm of the primitive gut",
+        "Intermediate mesoderm",
+        "Surface ectoderm"
+      ],
+      "correct": 0,
+      "explanation": "The family has a **RET** mutation (medullary thyroid carcinoma and pheochromocytoma, as in **MEN2A**), and some MEN2A families also have **Hirschsprung disease**. RET signaling is needed for **neural crest** cells to migrate into and colonize the gut, and **chromaffin cells** of the adrenal medulla, where pheochromocytoma arises, also come from the neural crest. **Intermediate mesoderm** is the tempting choice because it forms the adrenal **cortex**, but a catecholamine-secreting tumor arises in the medulla. The neural tube forms neurons of the brain and spinal cord, not enteric ganglia.",
+      "explanation_pt": "A família tem mutação do **RET** (carcinoma medular de tireoide e feocromocitoma, como na **NEM2A**), e algumas famílias com NEM2A também têm **doença de Hirschsprung**. A sinalização do RET é necessária para que as células da **crista neural** migrem e colonizem o intestino, e as **células cromafins** da medula adrenal, onde surge o feocromocitoma, também vêm da crista neural. O **mesoderma intermediário** é a alternativa tentadora porque forma o **córtex** adrenal, mas um tumor secretor de catecolaminas surge na medula. O tubo neural forma os neurônios do encéfalo e da medula espinal, e não os gânglios entéricos."
+    },
+    {
+      "slug": "q-endocrine-neoplasia-men-qx-vipoma-secretory-diarrhea",
+      "track": "step1",
+      "system": "endocrine",
+      "discipline": "pathology",
+      "tags": [
+        "endocrine-neoplasia-men",
+        "pancreatic-net",
+        "vipoma"
+      ],
+      "stem": "A 56-year-old woman has had 4 months of large-volume watery diarrhea, about 3 to 4 liters a day. The diarrhea continues during a 48-hour fast. She has muscle weakness and episodes of facial flushing. CT shows a 4-cm mass in the tail of the pancreas. Laboratory results: serum potassium 2.5 mEq/L (normal 3.5-5.0), bicarbonate 15 mEq/L (normal 22-28), stool sodium 105 mEq/L, stool potassium 38 mEq/L, stool osmolality 290 mOsm/kg, and normal urine 5-HIAA. Gastric acid output is very low. Which mechanism best explains her diarrhea?",
+      "choices": [
+        "Unabsorbed solutes that hold water in the bowel lumen",
+        "Serotonin-driven increase in intestinal motility",
+        "cAMP-driven chloride secretion through CFTR channels",
+        "Excess gastric acid that inactivates pancreatic enzymes",
+        "Loss of brush-border enzymes from villous atrophy"
+      ],
+      "correct": 2,
+      "explanation": "The stool osmotic gap is 290 - 2 x (105 + 38) = 4 mOsm/kg, and the diarrhea continues during fasting, so this is **secretory diarrhea**. With **hypokalemia** and **achlorhydria** from a pancreatic tumor, this is a **VIPoma**: VIP raises **cAMP** in enterocytes, opens **CFTR** chloride channels, and water follows the secreted chloride. A **serotonin**-secreting carcinoid is the tempting choice because of the flushing, but urine 5-HIAA is normal. Excess acid (gastrinoma) is ruled out by the very low acid output, and an osmotic cause would give a large gap and stop with fasting.",
+      "explanation_pt": "O hiato osmótico fecal é 290 - 2 x (105 + 38) = 4 mOsm/kg, e a diarreia continua no jejum, então é uma **diarreia secretora**. Com **hipocalemia** e **acloridria** por um tumor pancreático, trata-se de um **VIPoma**: o VIP aumenta o **AMPc** nos enterócitos, abre os canais de cloreto **CFTR**, e a água acompanha o cloreto secretado. Um carcinoide secretor de **serotonina** é a alternativa tentadora por causa do rubor facial, mas o 5-HIAA urinário é normal. O excesso de ácido (gastrinoma) é excluído pela secreção ácida muito baixa, e uma causa osmótica daria um hiato grande e pararia com o jejum."
+    },
+    {
+      "slug": "q-endocrine-neoplasia-men-qx-mtc-radioiodine",
+      "track": "step1",
+      "system": "endocrine",
+      "discipline": "pathology",
+      "tags": [
+        "endocrine-neoplasia-men",
+        "men2",
+        "medullary-thyroid-carcinoma"
+      ],
+      "stem": "A 29-year-old woman with MEN2A had a total thyroidectomy with neck lymph node dissection for medullary thyroid carcinoma. She takes levothyroxine. One year later, her serum calcitonin and carcinoembryonic antigen (CEA) are rising, and ultrasound shows two enlarged lymph nodes in the neck. She asks about treatment with radioactive iodine, which helped her friend after surgery for papillary thyroid cancer. Her physician explains that it will not work for her tumor. Which statement best explains why?",
+      "choices": [
+        "Calcitonin made by the tumor blocks iodide transport into its cells",
+        "The tumor lost its iodide pump by dedifferentiating, like anaplastic cancer",
+        "Levothyroxine keeps TSH low, and TSH is needed for iodide uptake",
+        "Radioactive iodine cannot reach tumor deposits within lymph nodes",
+        "The tumor comes from C cells, which never concentrate iodide"
+      ],
+      "correct": 4,
+      "explanation": "**Medullary thyroid carcinoma** arises from **parafollicular C cells**, which make **calcitonin**, not thyroid hormone. C cells do not trap or organify iodide, so **radioactive iodine** is not taken up by the tumor; surgery is the main treatment. **Dedifferentiation** is the tempting choice because it explains why **anaplastic** carcinoma ignores radioiodine, but medullary carcinoma never had iodide uptake to lose. Raising TSH, as is done before radioiodine for papillary cancer, would not help, because C cells have no TSH-driven iodide uptake. Papillary cancer comes from **follicular cells**, so its lymph node metastases can take up radioiodine.",
+      "explanation_pt": "O **carcinoma medular de tireoide** surge das **células C parafoliculares**, que produzem **calcitonina**, e não hormônio tireoidiano. As células C não captam nem organificam o iodeto, então o **iodo radioativo** não é captado pelo tumor; a cirurgia é o tratamento principal. A **desdiferenciação** é a alternativa tentadora porque explica por que o carcinoma **anaplásico** não responde ao radioiodo, mas o carcinoma medular nunca teve captação de iodeto para perder. Aumentar o TSH, como se faz antes do radioiodo no câncer papilífero, não ajudaria, porque as células C não têm captação de iodeto estimulada pelo TSH. O câncer papilífero vem das **células foliculares**, então suas metástases linfonodais podem captar radioiodo."
+    },
+    {
+      "slug": "q-endocrine-neoplasia-men-qx-metyrosine",
+      "track": "step1",
+      "system": "endocrine",
+      "discipline": "pharmacology",
+      "tags": [
+        "endocrine-neoplasia-men",
+        "pheochromocytoma",
+        "pharmacology"
+      ],
+      "stem": "A 50-year-old woman has a metastatic pheochromocytoma that cannot be removed. She takes phenoxybenzamine and a beta-blocker but still has high blood pressure and frequent attacks. A second drug is added. Over 2 weeks, her 24-hour urine catecholamines and metanephrines fall by about half, and the attacks become less frequent. She now feels sleepy, drools, and has a mild tremor and stiffness in both arms. This drug most likely blocks which reaction?",
+      "choices": [
+        "Phenylalanine to tyrosine",
+        "Tyrosine to L-DOPA",
+        "L-DOPA to dopamine",
+        "Dopamine to norepinephrine",
+        "Norepinephrine to epinephrine"
+      ],
+      "correct": 1,
+      "explanation": "**Metyrosine** inhibits **tyrosine hydroxylase**, the **rate-limiting** step of catecholamine synthesis, so tumor output of all catecholamines falls. It also enters the brain and lowers **dopamine** there, which causes **sedation** and **parkinsonism** (tremor, rigidity, drooling). Blocking **dopamine to norepinephrine** is the tempting choice, but it would let dopamine build up rather than fall, so it would not cause parkinsonism. **L-DOPA to dopamine** is not the answer: the decarboxylase is not rate-limiting, no decarboxylase blocker is used for pheochromocytoma, and the one in clinical use (carbidopa) stays outside the brain.",
+      "explanation_pt": "A **metirosina** inibe a **tirosina hidroxilase**, a etapa **limitante** da síntese de catecolaminas, então a produção tumoral de todas as catecolaminas cai. Ela também entra no cérebro e reduz a **dopamina**, o que causa **sedação** e **parkinsonismo** (tremor, rigidez, sialorreia). Bloquear **dopamina em noradrenalina** é a alternativa tentadora, mas isso faria a dopamina acumular em vez de cair, então não causaria parkinsonismo. **L-DOPA em dopamina** não é a resposta: a descarboxilase não é a etapa limitante, nenhum inibidor dela é usado no feocromocitoma, e o que se usa na clínica (carbidopa) não entra no cérebro."
+    },
+    {
+      "slug": "q-endocrine-neoplasia-men-qx-sdhb-complex-ii",
+      "track": "step1",
+      "system": "endocrine",
+      "discipline": "pathology",
+      "tags": [
+        "endocrine-neoplasia-men",
+        "paraganglioma",
+        "genetics"
+      ],
+      "stem": "A 26-year-old man has headaches, heavy sweating and high blood pressure. Plasma normetanephrine is very high. Imaging shows a 7-cm retroperitoneal mass near the left renal hilum, separate from a normal-looking adrenal gland. The mass is removed, but 2 years later he has metastases in his spine and lungs. His father had surgery for a slow-growing tumor at the carotid artery bifurcation. A germline mutation is found. The protein encoded by the mutated gene normally has which function?",
+      "choices": [
+        "Tags hypoxia-inducible factor with ubiquitin for degradation",
+        "Acts as a GTPase-activating protein that switches off RAS",
+        "Oxidizes succinate to fumarate in respiratory complex II",
+        "Signals as a receptor tyrosine kinase for GDNF-family ligands",
+        "Represses gene transcription as a nuclear scaffold protein"
+      ],
+      "correct": 2,
+      "explanation": "An **extra-adrenal paraganglioma** that **metastasizes**, in a family with a head and neck paraganglioma, points to a **succinate dehydrogenase** gene mutation (**SDHx**; metastatic disease is most typical of **SDHB**). This enzyme works in both the **citric acid cycle** and the electron transport chain (**complex II**); when it fails, succinate builds up and stabilizes HIF (*pseudohypoxia*). **VHL** protein, which tags HIF for degradation, is the tempting choice because VHL also causes pheochromocytoma, but VHL tumors are mostly adrenal and rarely metastatic. RAS inactivation (NF1), RET signaling (MEN2) and menin (MEN1) fit other syndromes.",
+      "explanation_pt": "Um **paraganglioma extra-adrenal** que **metastatiza**, em uma família com paraganglioma de cabeça e pescoço, indica mutação de um gene da **succinato desidrogenase** (**SDHx**; a doença metastática é mais típica do **SDHB**). Essa enzima atua tanto no **ciclo do ácido cítrico** quanto na cadeia transportadora de elétrons (**complexo II**); quando falha, o succinato acumula e estabiliza o HIF (*pseudo-hipóxia*). A proteína **VHL**, que marca o HIF para degradação, é a alternativa tentadora porque a doença de von Hippel-Lindau também causa feocromocitoma, mas seus tumores são em geral adrenais e raramente metastáticos. A inativação do RAS (NF1), a sinalização do RET (NEM2) e a menina (NEM1) correspondem a outras síndromes."
+    },
+    {
+      "slug": "q-endocrine-neoplasia-men-qx-gastric-net-ecl",
+      "track": "step1",
+      "system": "endocrine",
+      "discipline": "pathology",
+      "tags": [
+        "endocrine-neoplasia-men",
+        "neuroendocrine-tumors",
+        "carcinoid"
+      ],
+      "stem": "A 64-year-old woman with pernicious anemia receives monthly vitamin B12 injections. She has upper endoscopy for mild dyspepsia. It shows several polyps smaller than 1 cm in the body of the stomach. Biopsy shows nests of uniform cells with finely granular chromatin that stain for chromogranin A and synaptophysin. The nearby mucosa is thin and has lost its parietal cells. Fasting serum gastrin is markedly high, and the gastric pH is 7. Which mechanism most likely led to these polyps?",
+      "choices": [
+        "Helicobacter pylori-driven proliferation of B lymphocytes",
+        "Loss of E-cadherin in mucin-filled epithelial cells",
+        "Intestinal metaplasia that progressed through dysplasia",
+        "Chronic gastrin stimulation of enterochromaffin-like cells",
+        "Activating KIT mutations in the interstitial cells of Cajal"
+      ],
+      "correct": 3,
+      "explanation": "In **autoimmune gastritis**, loss of parietal cells removes acid, so nothing turns off the antral **G cells** and **gastrin** stays very high. Gastrin is a growth signal for **ECL cells**, which become hyperplastic and form small, multiple **gastric neuroendocrine tumors** (chromogranin A and synaptophysin positive). **Intestinal metaplasia** to adenocarcinoma is the tempting choice because autoimmune gastritis also raises that risk, but adenocarcinoma does not stain for neuroendocrine markers. MALT lymphoma (B cells), diffuse signet ring carcinoma (E-cadherin) and GIST (KIT) do not fit these findings.",
+      "explanation_pt": "Na **gastrite autoimune**, a perda das células parietais elimina o ácido, então nada desliga as **células G** do antro e a **gastrina** fica muito alta. A gastrina é um sinal de crescimento para as **células ECL** (semelhantes às enterocromafins), que ficam hiperplásicas e formam **tumores neuroendócrinos gástricos** pequenos e múltiplos (positivos para cromogranina A e sinaptofisina). A **metaplasia intestinal** progredindo para adenocarcinoma é a alternativa tentadora porque a gastrite autoimune também aumenta esse risco, mas o adenocarcinoma não cora para marcadores neuroendócrinos. Linfoma MALT (linfócitos B), carcinoma difuso com células em anel de sinete (E-caderina) e GIST (KIT) não explicam esses achados."
+    }
+  ],
+  "notes": []
+}

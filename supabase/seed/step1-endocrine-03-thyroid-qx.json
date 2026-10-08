@@ -1,0 +1,185 @@
+{
+  "cards": [],
+  "questions": [
+    {
+      "slug": "q-thyroid-qx-sick-euthyroid-deiodinase",
+      "track": "step1",
+      "system": "endocrine",
+      "discipline": "pathology",
+      "tags": [
+        "thyroid",
+        "thyroid-function-tests",
+        "deiodinase"
+      ],
+      "stem": "A 64-year-old man has been in the intensive care unit for 10 days with septic shock from pneumonia. He had no thyroid disease before, and he takes no thyroid drugs. He is now slowly improving. The thyroid gland is normal on exam. Laboratory results: TSH 1.1 mU/L (normal 0.4-4.0), free T4 1.0 ng/dL (normal 0.8-1.8), total T3 45 ng/dL (normal 80-180), and reverse T3 above the normal range. Which change best explains these results?",
+      "choices": [
+        "Destruction of thyroid follicles by autoantibodies",
+        "A fall in thyroxine-binding globulin made by the liver",
+        "Less conversion of T4 to T3 by peripheral 5'-deiodinase",
+        "Too little dietary iodine for hormone synthesis",
+        "Inhibition of thyroid peroxidase inside the follicular cells"
+      ],
+      "correct": 2,
+      "explanation": "This is **sick euthyroid syndrome** (low T3 syndrome). In severe illness, peripheral **5'-deiodinase** activity falls, so less T4 becomes active **T3** and more becomes inactive **reverse T3**; TSH and free T4 stay normal. A fall in TBG can lower total T3, but it does not raise reverse T3, and free hormone would stay normal. Autoimmune destruction, iodine deficiency and peroxidase inhibition all lower T4 production and would raise TSH.",
+      "explanation_pt": "Trata-se da **síndrome do eutireoidiano doente** (síndrome do T3 baixo). Na doença grave, a atividade da **5'-desiodase** periférica cai, então menos T4 vira **T3** ativo e mais vira **T3 reverso** inativo; o TSH e o T4 livre ficam normais. A queda da TBG pode reduzir o T3 total, mas não aumenta o T3 reverso, e o hormônio livre ficaria normal. Destruição autoimune, deficiência de iodo e inibição da peroxidase reduzem a produção de T4 e elevariam o TSH."
+    },
+    {
+      "slug": "q-thyroid-qx-estrogen-tbg-total-t4",
+      "track": "step1",
+      "system": "endocrine",
+      "discipline": "pathology",
+      "tags": [
+        "thyroid",
+        "thyroid-function-tests",
+        "tbg"
+      ],
+      "stem": "A 26-year-old woman comes for a routine checkup. She feels well and has no palpitations, weight change or heat intolerance. Five months ago she started a combined oral contraceptive pill. Pulse is 72/min. The thyroid gland is normal in size, and she has no eye findings. A urine pregnancy test is negative. Laboratory results: TSH 2.1 mU/L (normal 0.4-4.0), total T4 15.8 µg/dL (normal 5.0-12.0), and free T4 1.3 ng/dL (normal 0.8-1.8). Which change best explains her high total T4?",
+      "choices": [
+        "More thyroxine-binding globulin in the blood",
+        "IgG antibodies that stimulate the TSH receptor",
+        "Release of stored hormone from damaged follicles",
+        "Autonomous hormone production by a thyroid nodule",
+        "Pituitary resistance to thyroid hormone feedback"
+      ],
+      "correct": 0,
+      "explanation": "Estrogen raises **thyroxine-binding globulin (TBG)**. More T4 is bound, so **total T4 rises**, but **free T4 and TSH stay normal** and she is euthyroid. Graves disease, thyroiditis and a toxic nodule all raise free T4 and suppress TSH, which she does not have. Pituitary resistance to thyroid hormone would show a high free T4 with a normal or high TSH.",
+      "explanation_pt": "O estrogênio aumenta a **globulina ligadora de tiroxina (TBG)**. Mais T4 fica ligado, então o **T4 total sobe**, mas o **T4 livre e o TSH continuam normais** e a paciente está eutireoidiana. Doença de Graves, tireoidite e nódulo tóxico elevam o T4 livre e suprimem o TSH, o que ela não tem. A resistência hipofisária ao hormônio tireoidiano mostraria T4 livre alto com TSH normal ou alto."
+    },
+    {
+      "slug": "q-thyroid-qx-radiation-papillary-ret-ptc",
+      "track": "step1",
+      "system": "endocrine",
+      "discipline": "pathology",
+      "tags": [
+        "thyroid",
+        "neoplasia",
+        "papillary-carcinoma"
+      ],
+      "stem": "A 24-year-old woman has a painless nodule in her thyroid. At age 9 she received radiation therapy to the neck and chest for Hodgkin lymphoma. Exam shows a firm 2-cm nodule in the left lobe and a firm, enlarged lymph node in the left side of the neck. TSH is normal. Fine-needle aspiration of the nodule shows cells with pale, empty-looking nuclei, nuclear grooves and pink inclusions inside the nuclei. Which genetic change is most likely in this tumor?",
+      "choices": [
+        "Activating point mutation in RAS",
+        "Chromosomal rearrangement of RET",
+        "Germline point mutation in RET",
+        "PAX8-PPARG fusion from a translocation",
+        "Inactivating mutation in TP53"
+      ],
+      "correct": 1,
+      "explanation": "Clear nuclei with grooves and inclusions and spread to a neck node mean **papillary carcinoma**, and childhood **radiation** to the neck is its classic risk factor. Radiation-related papillary cancers often carry **RET/PTC rearrangements**, which join RET to another gene and switch it on in follicular cells. A **germline RET point mutation** causes MEN2 and **medullary** carcinoma, which arises from C cells and lacks these nuclear changes. RAS mutations and PAX8-PPARG fusions are typical of follicular tumors, and TP53 loss is typical of anaplastic carcinoma.",
+      "explanation_pt": "Núcleos claros com fendas e inclusões e disseminação para linfonodo cervical indicam **carcinoma papilífero**, e a **radioterapia** no pescoço na infância é seu fator de risco clássico. Os cânceres papilíferos associados à radiação costumam ter **rearranjos RET/PTC**, que unem o RET a outro gene e o ativam nas células foliculares. Uma **mutação pontual germinativa do RET** causa NEM 2 e carcinoma **medular**, que se origina das células C e não tem essas alterações nucleares. Mutações de RAS e fusões PAX8-PPARG são típicas de tumores foliculares, e a perda de TP53 é típica do carcinoma anaplásico."
+    },
+    {
+      "slug": "q-thyroid-qx-hashimoto-lymphoma",
+      "track": "step1",
+      "system": "endocrine",
+      "discipline": "pathology",
+      "tags": [
+        "thyroid",
+        "neoplasia",
+        "hashimoto",
+        "lymphoma"
+      ],
+      "stem": "A 67-year-old woman has had Hashimoto thyroiditis for 20 years and takes levothyroxine. Over the last 6 weeks, her neck has swollen quickly, and she now has trouble swallowing solid food. She has no fever or neck pain. The thyroid gland is diffusely enlarged, firm and non-tender. A core biopsy shows a dense, monotonous population of small-to-medium cells. The cells destroy follicles and fill the follicular epithelium. What is the most likely diagnosis?",
+      "choices": [
+        "Anaplastic thyroid carcinoma",
+        "Riedel thyroiditis",
+        "Medullary thyroid carcinoma",
+        "Primary thyroid lymphoma",
+        "Papillary thyroid carcinoma"
+      ],
+      "correct": 3,
+      "explanation": "Long-standing **Hashimoto thyroiditis** raises the risk of primary thyroid **B-cell lymphoma**. Sheets of lymphoid cells that invade the follicular epithelium and show **light-chain restriction** (a clonal B-cell population) confirm lymphoma rather than the polyclonal infiltrate of Hashimoto disease. **Anaplastic carcinoma** also causes a fast-growing neck mass in an older patient, but it is made of bizarre epithelial spindle and giant cells, not lymphoid cells. Riedel thyroiditis is mainly fibrosis, and medullary and papillary carcinomas are epithelial tumors.",
+      "explanation_pt": "A **tireoidite de Hashimoto** de longa data aumenta o risco de **linfoma B** primário da tireoide. Lençóis de células linfoides que invadem o epitélio folicular e mostram **restrição de cadeia leve** (população clonal de linfócitos B) confirmam linfoma, e não o infiltrado policlonal da doença de Hashimoto. O **carcinoma anaplásico** também causa massa cervical de crescimento rápido em idosos, mas é formado por células epiteliais fusiformes e gigantes bizarras, não por células linfoides. A tireoidite de Riedel é principalmente fibrose, e os carcinomas medular e papilífero são tumores epiteliais."
+    },
+    {
+      "slug": "q-thyroid-qx-jod-basedow-contrast",
+      "track": "step1",
+      "system": "endocrine",
+      "discipline": "pathology",
+      "tags": [
+        "thyroid",
+        "hyperthyroidism",
+        "iodine",
+        "toxic-multinodular-goiter"
+      ],
+      "stem": "A 72-year-old woman has had a large multinodular goiter for many years. Her thyroid tests have been normal, and she has had no symptoms. Five weeks ago she had a CT angiogram of the chest with intravenous iodinated contrast, which showed no pulmonary embolism. She now has palpitations, a fine tremor and a 3-kg weight loss. She has no eye findings. Pulse is 118/min and irregular. TSH is less than 0.01 mU/L (normal 0.4-4.0), and free T4 is 2.8 ng/dL (normal 0.8-1.8). Which mechanism best explains her new thyroid disease?",
+      "choices": [
+        "Antibodies against the TSH receptor that formed after the contrast",
+        "Iodide that blocked organification in the gland (Wolff-Chaikoff effect)",
+        "A TSH-secreting pituitary adenoma that began to grow",
+        "More peripheral conversion of T4 to T3 driven by iodide",
+        "Autonomous nodules that used the extra iodide to make hormone"
+      ],
+      "correct": 4,
+      "explanation": "This is the **Jod-Basedow phenomenon**: an iodine load causes hyperthyroidism in a gland with **autonomous nodules**. These nodules do not respond to TSH feedback, so when more iodide is available they simply make more hormone. The **Wolff-Chaikoff effect** is the opposite response: a large iodide load briefly **reduces** organification and hormone synthesis, and a gland that fails to escape it becomes hypothyroid, not hyperthyroid. Iodide does not speed up the conversion of T4 to T3. A TSH-secreting adenoma would not suppress TSH, and a long-standing nodular goiter with no eye findings points to autonomous nodules rather than Graves antibodies.",
+      "explanation_pt": "Trata-se do **fenômeno de Jod-Basedow**: uma carga de iodo causa hipertireoidismo em uma glândula com **nódulos autônomos**. Esses nódulos não respondem ao controle do TSH, então, quando há mais iodeto disponível, simplesmente produzem mais hormônio. O **efeito Wolff-Chaikoff** é a resposta oposta: uma grande carga de iodeto **reduz** brevemente a organificação e a síntese hormonal, e a glândula que não escapa desse efeito fica hipotireoidiana, não hipertireoidiana. O iodeto não acelera a conversão de T4 em T3. Um adenoma secretor de TSH não suprimiria o TSH, e um bócio nodular antigo sem achados oculares aponta para nódulos autônomos, e não para anticorpos da doença de Graves."
+    },
+    {
+      "slug": "q-thyroid-qx-myxedema-coma",
+      "track": "step1",
+      "system": "endocrine",
+      "discipline": "pathology",
+      "tags": [
+        "thyroid",
+        "hypothyroidism",
+        "myxedema"
+      ],
+      "stem": "A 78-year-old woman is brought to the emergency department in January because her neighbor found her confused at home. She has a scar at the base of the front of her neck from surgery many years ago, and she takes no medications. She has had a cough for 3 days. Temperature is 33.4°C (92.1°F), pulse is 48/min, respirations are 8/min, and blood pressure is 98/60 mm Hg. Her face and hands are puffy, the swelling does not pit, and her skin is cool and dry. Ankle reflexes relax slowly. Laboratory results: sodium 124 mEq/L, potassium 4.2 mEq/L, glucose 66 mg/dL, arterial PaCO2 62 mm Hg (normal 35-45), TSH 74 mU/L (normal 0.4-4.0), and free T4 below 0.2 ng/dL (normal 0.8-1.8). What is the most likely diagnosis?",
+      "choices": [
+        "Adrenal crisis",
+        "Myxedema coma",
+        "Sick euthyroid syndrome",
+        "Central hypothyroidism",
+        "Syndrome of inappropriate ADH secretion"
+      ],
+      "correct": 1,
+      "explanation": "Untreated **primary hypothyroidism** (very high TSH, very low free T4, likely after thyroidectomy) with **hypothermia**, bradycardia, **hypoventilation with CO2 retention**, hyponatremia and confusion is **myxedema coma**, often set off by cold or infection. **Adrenal crisis** also causes low blood pressure, low sodium and low glucose, but it usually brings tachycardia rather than bradycardia, and it does not explain the very high TSH. Sick euthyroid syndrome and central hypothyroidism do not raise TSH this much, and SIADH does not cause hypothermia or nonpitting edema.",
+      "explanation_pt": "**Hipotireoidismo primário** não tratado (TSH muito alto, T4 livre muito baixo, provavelmente após tireoidectomia) com **hipotermia**, bradicardia, **hipoventilação com retenção de CO2**, hiponatremia e confusão é **coma mixedematoso**, muitas vezes desencadeado por frio ou infecção. A **crise adrenal** também causa hipotensão, hiponatremia e hipoglicemia, mas costuma trazer taquicardia, e não bradicardia, e não explica o TSH muito alto. A síndrome do eutireoidiano doente e o hipotireoidismo central não elevam tanto o TSH, e a SIADH não causa hipotermia nem edema não depressível."
+    },
+    {
+      "slug": "q-thyroid-qx-postpartum-thyroiditis",
+      "track": "step1",
+      "system": "endocrine",
+      "discipline": "pathology",
+      "tags": [
+        "thyroid",
+        "thyroiditis",
+        "postpartum"
+      ],
+      "stem": "A 29-year-old woman has 3 weeks of palpitations, anxiety and poor sleep. She gave birth to a healthy baby 4 months ago. She has no neck pain and no eye findings. Pulse is 106/min. The thyroid gland is slightly enlarged, firm and non-tender. Laboratory results: TSH less than 0.01 mU/L (normal 0.4-4.0), free T4 2.3 ng/dL (normal 0.8-1.8), anti-thyroid peroxidase antibodies strongly positive, TSH-receptor antibodies negative, and ESR normal. What is the most likely diagnosis?",
+      "choices": [
+        "Graves disease",
+        "Postpartum thyroiditis",
+        "Subacute granulomatous thyroiditis",
+        "Toxic adenoma",
+        "Sheehan syndrome"
+      ],
+      "correct": 1,
+      "explanation": "Painless thyrotoxicosis a few months after delivery, with **anti-TPO antibodies** and no TSH-receptor antibodies, is **postpartum thyroiditis**. Lymphocytes damage the follicles, so stored hormone leaks out; a **hypothyroid phase** often follows before the gland recovers. **Graves disease** can also start after pregnancy, but it needs **TSH-receptor antibodies**, often causes eye findings, and has high iodine uptake. Subacute thyroiditis is painful with a high ESR, a toxic adenoma is a single nodule, and Sheehan syndrome causes hypothyroidism, not thyrotoxicosis.",
+      "explanation_pt": "Tireotoxicose indolor alguns meses após o parto, com **anticorpos anti-TPO** e sem anticorpos contra o receptor de TSH, é **tireoidite pós-parto**. Linfócitos lesam os folículos, e o hormônio armazenado extravasa; muitas vezes segue-se uma **fase de hipotireoidismo** antes da recuperação da glândula. A **doença de Graves** também pode surgir após a gestação, mas exige **anticorpos contra o receptor de TSH**, costuma causar achados oculares e tem captação de iodo alta. A tireoidite subaguda é dolorosa e tem VHS alta, o adenoma tóxico é um nódulo único, e a síndrome de Sheehan causa hipotireoidismo, não tireotoxicose."
+    },
+    {
+      "slug": "q-thyroid-qx-riedel-igg4",
+      "track": "step1",
+      "system": "endocrine",
+      "discipline": "pathology",
+      "tags": [
+        "thyroid",
+        "thyroiditis",
+        "riedel",
+        "igg4"
+      ],
+      "stem": "A 49-year-old man has 6 months of a slowly growing neck mass, a hoarse voice and some trouble swallowing. Two years ago he was treated with glucocorticoids for autoimmune pancreatitis. The thyroid gland is painless, rock-hard and fixed to nearby tissues; it does not move with swallowing. He has no fever and no weight loss. TSH and free T4 are normal. Fine-needle aspiration gives very few cells, so an open biopsy is done. Which finding is most likely on the biopsy?",
+      "choices": [
+        "Granulomas with multinucleated giant cells around follicles",
+        "Lymphoid follicles with germinal centers and Hürthle cells",
+        "Dense fibrosis with many IgG4-positive plasma cells",
+        "Sheets of pleomorphic spindle cells and giant cells",
+        "Nests of polygonal cells in a stroma of amyloid"
+      ],
+      "correct": 2,
+      "explanation": "A rock-hard, fixed thyroid that compresses nearby structures, in a man with prior **autoimmune pancreatitis**, suggests **Riedel thyroiditis** as part of **IgG4-related disease**. The biopsy shows **dense fibrosis** that spreads beyond the capsule, with many **IgG4-positive plasma cells**. **Anaplastic carcinoma** can also feel hard and fixed and cause hoarseness, but it grows fast in weeks, often with weight loss, and shows pleomorphic spindle and giant cells. Granulomas fit de Quervain thyroiditis, germinal centers with Hürthle cells fit Hashimoto thyroiditis, and amyloid fits medullary carcinoma.",
+      "explanation_pt": "Tireoide de consistência pétrea e fixa, que comprime estruturas vizinhas, em um homem com **pancreatite autoimune** prévia, sugere **tireoidite de Riedel** como parte da **doença relacionada à IgG4**. A biópsia mostra **fibrose densa** que ultrapassa a cápsula, com muitos **plasmócitos IgG4-positivos**. O **carcinoma anaplásico** também pode ser duro e fixo e causar rouquidão, mas cresce rápido, em semanas, muitas vezes com perda de peso, e mostra células fusiformes e gigantes pleomórficas. Granulomas indicam tireoidite de De Quervain, centros germinativos com células de Hürthle indicam tireoidite de Hashimoto, e amiloide indica carcinoma medular."
+    }
+  ],
+  "notes": []
+}

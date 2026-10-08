@@ -1,0 +1,183 @@
+{
+  "cards": [],
+  "questions": [
+    {
+      "slug": "q-endocrine-pharmacology-qx-lispro-hexamer",
+      "track": "step1",
+      "system": "endocrine",
+      "discipline": "pharmacology",
+      "tags": [
+        "endocrine-pharmacology",
+        "diabetes-drugs",
+        "insulin"
+      ],
+      "stem": "A 24-year-old man with type 1 diabetes uses NPH insulin twice a day and regular insulin before meals. He often injects the regular insulin just before he eats instead of 30 minutes earlier. His glucose rises sharply after meals and then falls too low 3 to 4 hours later. His physician switches his mealtime insulin to lispro, which he can inject right before eating. Which property of lispro explains its faster onset compared with regular insulin?",
+      "choices": [
+        "A fatty acid chain that binds albumin in the blood",
+        "Formation of small precipitates at the neutral pH of tissue",
+        "Amino acid changes that reduce self-association into hexamers",
+        "Binding to protamine, which slows release from the injection site",
+        "Higher binding affinity for the insulin receptor"
+      ],
+      "correct": 2,
+      "explanation": "**Regular insulin** forms **hexamers** at the injection site, and they must break into dimers and monomers before they can enter capillaries, so absorption is delayed. In **lispro**, two amino acids near the end of the B chain are swapped; this weakens **self-association**, so the drug absorbs quickly. Higher receptor affinity is tempting, but lispro binds the insulin receptor much like human insulin; the difference is absorption, not receptor action. Albumin binding (detemir), precipitation at neutral pH (glargine) and protamine (NPH) all **prolong** action.",
+      "explanation_pt": "A **insulina regular** forma **hexâmeros** no local da injeção, que precisam se dissociar em dímeros e monômeros antes de entrar nos capilares; por isso a absorção é retardada. Na **lispro**, dois aminoácidos perto do final da cadeia B estão invertidos; isso enfraquece a **autoassociação**, e o fármaco é absorvido rapidamente. Maior afinidade pelo receptor é tentadora, mas a lispro se liga ao receptor de insulina de forma semelhante à insulina humana; a diferença está na absorção, não na ação no receptor. Ligação à albumina (detemir), precipitação em pH neutro (glargina) e protamina (NPH) **prolongam** a ação."
+    },
+    {
+      "slug": "q-endocrine-pharmacology-qx-acarbose-hypoglycemia",
+      "track": "step1",
+      "system": "endocrine",
+      "discipline": "pharmacology",
+      "tags": [
+        "endocrine-pharmacology",
+        "diabetes-drugs",
+        "alpha-glucosidase-inhibitors",
+        "hypoglycemia"
+      ],
+      "stem": "A 66-year-old man with type 2 diabetes takes glyburide and acarbose. One afternoon he becomes sweaty, shaky and confused. His fingerstick glucose is 46 mg/dL. He is awake and can swallow safely. His wife wants to give him something by mouth. Which choice will raise his glucose most reliably?",
+      "choices": [
+        "Table sugar dissolved in water",
+        "Crackers",
+        "Cooked white rice",
+        "Peanut butter",
+        "Glucose tablets"
+      ],
+      "correct": 4,
+      "explanation": "**Acarbose** inhibits **alpha-glucosidases** of the intestinal brush border, which split sucrose and starch fragments into monosaccharides. **Glucose** is already a monosaccharide, so it is absorbed directly and is not affected by the drug. Table sugar is the tempting choice because it is the usual home treatment, but **sucrose** needs sucrase, an alpha-glucosidase that acarbose blocks. The low glucose is caused by **glyburide**; acarbose alone does not cause hypoglycemia.",
+      "explanation_pt": "A **acarbose** inibe as **alfa-glicosidases** da borda em escova intestinal, que quebram a sacarose e os fragmentos de amido em monossacarídeos. A **glicose** já é um monossacarídeo, então é absorvida diretamente e não sofre efeito do fármaco. O açúcar de mesa é a escolha tentadora, pois é o tratamento caseiro habitual, mas a **sacarose** precisa da sacarase, uma alfa-glicosidase bloqueada pela acarbose. A hipoglicemia é causada pela **glibenclamida**; a acarbose isolada não causa hipoglicemia."
+    },
+    {
+      "slug": "q-endocrine-pharmacology-qx-ptu-hepatotoxicity-deiodinase",
+      "track": "step1",
+      "system": "endocrine",
+      "discipline": "pharmacology",
+      "tags": [
+        "endocrine-pharmacology",
+        "thyroid-drugs",
+        "thionamides"
+      ],
+      "stem": "A 30-year-old woman was diagnosed with Graves disease at 7 weeks of pregnancy. She was started on the antithyroid drug usually chosen for early pregnancy. Six weeks later she has fatigue, nausea and yellow eyes. She drinks no alcohol and takes only prenatal vitamins besides this drug. Laboratory studies show ALT 1,240 U/L, AST 980 U/L, alkaline phosphatase 160 U/L, total bilirubin 6.2 mg/dL and INR 1.9. Tests for viral hepatitis are negative. Besides blocking thyroid peroxidase, the drug most likely responsible has which other action?",
+      "choices": [
+        "Inhibition of iodide uptake by the sodium-iodide symporter",
+        "Inhibition of peripheral conversion of T4 to T3",
+        "Inhibition of thyroid hormone release from the gland",
+        "Blockade of beta-adrenergic receptors in the heart",
+        "Inhibition of TSH secretion from the pituitary"
+      ],
+      "correct": 1,
+      "explanation": "A thionamide chosen for **early pregnancy** is **propylthiouracil (PTU)**, and very high aminotransferases with jaundice and a high INR fit PTU-induced **hepatocellular injury**, which can progress to liver failure. Besides blocking thyroid peroxidase, PTU inhibits **5'-deiodinase**, which lowers **peripheral conversion of T4 to T3**; methimazole does not. Inhibition of hormone release is tempting, but that is the action of **iodide** (and lithium), not of a thionamide. Iodide uptake through the symporter is blocked by perchlorate, not by PTU.",
+      "explanation_pt": "A tionamida escolhida no **início da gestação** é a **propiltiouracila (PTU)**, e aminotransferases muito altas com icterícia e INR elevado sugerem **lesão hepatocelular** pela PTU, que pode evoluir para insuficiência hepática. Além de bloquear a tireoperoxidase, a PTU inibe a **5'-desiodase**, o que reduz a **conversão periférica de T4 em T3**; o metimazol não faz isso. A inibição da liberação hormonal é tentadora, mas é a ação do **iodeto** (e do lítio), não de uma tionamida. A captação de iodeto pelo simportador é bloqueada pelo perclorato, não pela PTU."
+    },
+    {
+      "slug": "q-endocrine-pharmacology-qx-glucocorticoid-demargination",
+      "track": "step1",
+      "system": "endocrine",
+      "discipline": "pharmacology",
+      "tags": [
+        "endocrine-pharmacology",
+        "glucocorticoids",
+        "leukocytosis"
+      ],
+      "stem": "A 58-year-old man is admitted with a COPD exacerbation and is started on systemic prednisone. Two days later he breathes more easily. Temperature is 36.9°C (98.4°F), and his cough is improving. His blood counts on admission and on day 2 are: leukocytes 8,200/mm3 and 15,400/mm3; segmented neutrophils 68% and 89%; band forms 2% and 1%; lymphocytes 20% and 7%; monocytes 7% and 3%; eosinophils 3% and 0%. Which mechanism best explains the change in his leukocyte count?",
+      "choices": [
+        "A new bacterial pneumonia that triggers marrow release of immature neutrophils",
+        "A myeloproliferative clone that makes too many mature granulocytes",
+        "Loss of lymphocytes and eosinophils that triggers new granulocyte production",
+        "Detachment of marginated neutrophils from vessel walls into the circulation",
+        "Hemoconcentration caused by loss of plasma volume"
+      ],
+      "correct": 3,
+      "explanation": "**Glucocorticoids** lower endothelial **adhesion molecule** expression, so neutrophils that were attached to vessel walls (the **marginated pool**) move into the circulating pool; less exit into tissues adds to this. Neutrophils rose from about 5,600 to about 13,700/mm3, while **lymphocytes**, **monocytes** and **eosinophils** fell, which is the classic steroid pattern. A new bacterial pneumonia is the most tempting choice, but he has no fever, he is improving and the **band forms did not rise**, so there is no left shift. Hemoconcentration would raise all cell lines, not lower lymphocytes.",
+      "explanation_pt": "Os **glicocorticoides** reduzem a expressão de **moléculas de adesão** no endotélio, e os neutrófilos aderidos à parede dos vasos (o **pool marginal**) passam para o pool circulante; a menor saída para os tecidos reforça esse efeito. Os neutrófilos subiram de cerca de 5.600 para cerca de 13.700/mm3, enquanto **linfócitos**, **monócitos** e **eosinófilos** caíram, o padrão clássico do corticoide. Uma nova pneumonia bacteriana é a alternativa mais tentadora, mas ele está sem febre, melhorando e os **bastonetes não aumentaram**, então não há desvio à esquerda. A hemoconcentração elevaria todas as linhagens, sem reduzir os linfócitos."
+    },
+    {
+      "slug": "q-endocrine-pharmacology-qx-raloxifene-vte",
+      "track": "step1",
+      "system": "endocrine",
+      "discipline": "pharmacology",
+      "tags": [
+        "endocrine-pharmacology",
+        "bone-drugs",
+        "serms"
+      ],
+      "stem": "A 64-year-old woman with osteoporosis started a daily oral drug 5 months ago. She has had hot flashes since menopause, and they have become more frequent since she started the drug. She now has pain and swelling of her left calf, and duplex ultrasound shows a thrombus in the popliteal vein. A pelvic ultrasound done last month showed a thin endometrium. Which drug is she most likely taking?",
+      "choices": [
+        "Raloxifene",
+        "Alendronate",
+        "Conjugated estrogens",
+        "Calcitriol",
+        "Denosumab"
+      ],
+      "correct": 0,
+      "explanation": "**Raloxifene** is a **SERM**: it acts as an estrogen **agonist in bone** but an **antagonist in the breast and endometrium**, so the endometrium stays thin. Its estrogen-like effect on hepatic clotting factors raises the risk of **venous thrombosis**, and it can **worsen hot flashes**. Conjugated estrogens are tempting because they also cause venous thrombosis, but they relieve hot flashes and, without a progestin, stimulate the endometrium. Alendronate and denosumab do not cause thrombosis, and denosumab is injected. Calcitriol raises calcium and does not affect clotting or hot flashes.",
+      "explanation_pt": "O **raloxifeno** é um **SERM**: atua como **agonista estrogênico no osso**, mas como **antagonista na mama e no endométrio**, que permanece fino. Seu efeito estrogênico sobre os fatores de coagulação hepáticos aumenta o risco de **trombose venosa**, e ele pode **piorar os fogachos**. Os estrogênios conjugados são tentadores, pois também causam trombose venosa, mas aliviam os fogachos e, sem progestagênio, estimulam o endométrio. Alendronato e denosumabe não causam trombose, e o denosumabe é injetável. O calcitriol eleva o cálcio e não afeta a coagulação nem os fogachos."
+    },
+    {
+      "slug": "q-endocrine-pharmacology-qx-denosumab-hypocalcemia",
+      "track": "step1",
+      "system": "endocrine",
+      "discipline": "pharmacology",
+      "tags": [
+        "endocrine-pharmacology",
+        "bone-drugs",
+        "rankl"
+      ],
+      "stem": "A 76-year-old woman with osteoporosis had a hip fracture last year. She also has advanced chronic kidney disease. Her physician chooses an osteoporosis drug that is given by subcutaneous injection and is not cleared by the kidneys. Ten days after the injection she has numbness around her mouth and muscle cramps. Serum calcium is 7.1 mg/dL (reference 8.5-10.5), albumin is 4.0 g/dL, and PTH is high. What is the mechanism of action of this drug?",
+      "choices": [
+        "Binding to RANKL so it cannot activate osteoclast precursors",
+        "Inhibition of farnesyl pyrophosphate synthase in osteoclasts",
+        "Intermittent activation of PTH receptors on osteoblasts",
+        "Activation of the calcium-sensing receptor on parathyroid cells",
+        "Activation of estrogen receptors in bone"
+      ],
+      "correct": 0,
+      "explanation": "**Denosumab** is a monoclonal antibody against **RANKL**; it blocks osteoclast formation and activity, so calcium release from bone falls quickly. It is not cleared by the kidneys, and **hypocalcemia** is a key adverse effect, especially in **chronic kidney disease**; her PTH rises as an appropriate response. Inhibition of farnesyl pyrophosphate synthase is tempting because **zoledronic acid** can also cause hypocalcemia, but bisphosphonates are cleared by the kidneys and zoledronic acid is given IV. Calcium-sensing receptor activation (cinacalcet) would lower PTH, and teriparatide tends to raise calcium.",
+      "explanation_pt": "O **denosumabe** é um anticorpo monoclonal contra o **RANKL**; bloqueia a formação e a atividade dos osteoclastos, e a liberação de cálcio do osso cai rapidamente. Não é eliminado pelos rins, e a **hipocalcemia** é um efeito adverso importante, sobretudo na **doença renal crônica**; o PTH sobe como resposta adequada. A inibição da farnesil pirofosfato sintase é tentadora, pois o **ácido zoledrônico** também pode causar hipocalcemia, mas os bisfosfonatos são eliminados pelos rins e o ácido zoledrônico é aplicado IV. A ativação do receptor sensor de cálcio (cinacalcete) reduziria o PTH, e a teriparatida tende a elevar o cálcio."
+    },
+    {
+      "slug": "q-endocrine-pharmacology-qx-cabergoline-d2-gi",
+      "track": "step1",
+      "system": "endocrine",
+      "discipline": "pharmacology",
+      "tags": [
+        "endocrine-pharmacology",
+        "pituitary-drugs",
+        "dopamine-agonists"
+      ],
+      "stem": "A 38-year-old man has had headaches, low libido and erectile dysfunction for a year. Visual field testing shows loss of the temporal fields in both eyes. Serum prolactin is 2,400 ng/mL (reference below 15). MRI shows a 3-cm pituitary mass that presses on the optic chiasm. He is started on cabergoline. Over 3 months, his prolactin falls, the mass shrinks and his vision improves. Through which signaling pathway does the drug act on the tumor cells?",
+      "choices": [
+        "Gs-coupled D1 receptors that raise cAMP",
+        "Gq-coupled receptors that raise IP3 and calcium",
+        "Gi-coupled D2 receptors that lower cAMP",
+        "A receptor tyrosine kinase that activates the MAP kinase pathway",
+        "A cytokine receptor that recruits JAK kinases"
+      ],
+      "correct": 2,
+      "explanation": "**Cabergoline** is a **dopamine agonist** that stimulates **D2 receptors** on lactotroph tumor cells. D2 receptors couple to **Gi**, which inhibits adenylyl cyclase and **lowers cAMP**, so prolactin synthesis, secretion and cell growth fall; even large **macroprolactinomas** often shrink. D1 receptors are the tempting choice because they also bind dopamine, but they couple to Gs and raise cAMP. The JAK-coupled cytokine receptor is the receptor for **prolactin** itself, not for dopamine.",
+      "explanation_pt": "A **cabergolina** é um **agonista dopaminérgico** que estimula os **receptores D2** das células tumorais lactotróficas. Os receptores D2 se acoplam à proteína **Gi**, que inibe a adenilil ciclase e **reduz o AMPc**; assim, caem a síntese e a secreção de prolactina e o crescimento celular, e mesmo **macroprolactinomas** grandes costumam diminuir. Os receptores D1 são a alternativa tentadora, pois também ligam dopamina, mas se acoplam à Gs e aumentam o AMPc. O receptor de citocina acoplado a JAK é o receptor da própria **prolactina**, não da dopamina."
+    },
+    {
+      "slug": "q-endocrine-pharmacology-qx-octreotide-varices",
+      "track": "step1",
+      "system": "endocrine",
+      "discipline": "pharmacology",
+      "tags": [
+        "endocrine-pharmacology",
+        "somatostatin-analogs",
+        "portal-hypertension"
+      ],
+      "stem": "A 52-year-old man with alcohol-related cirrhosis vomits a large amount of bright red blood. Blood pressure is 92/60 mm Hg and pulse is 118/min. He has spider angiomas, ascites and a large spleen. He receives intravenous fluids, and a continuous infusion of octreotide is started while he waits for endoscopy. How does octreotide reduce bleeding from his varices?",
+      "choices": [
+        "Activation of V1 receptors on splanchnic arterioles",
+        "Blockade of beta-1 and beta-2 receptors, which lowers cardiac output",
+        "Nitric oxide release that lowers resistance inside the liver",
+        "Less release of glucagon and other vasodilating gut peptides",
+        "Inhibition of the H+/K+ ATPase in gastric parietal cells"
+      ],
+      "correct": 3,
+      "explanation": "**Octreotide** is a **somatostatin analog**. It reduces the release of **glucagon** and other gut peptides that dilate splanchnic vessels, so the **splanchnic arterioles constrict**, less blood flows into the portal vein, and **portal pressure** falls. V1 receptor activation is the tempting choice because it also constricts splanchnic arterioles, but that is the action of **vasopressin and terlipressin**, not of a somatostatin analog. Nonselective beta-blockers also lower portal pressure, but they act through beta receptors, and octreotide does not block acid secretion through the proton pump.",
+      "explanation_pt": "A **octreotida** é um **análogo da somatostatina**. Ela reduz a liberação de **glucagon** e de outros peptídeos intestinais que dilatam os vasos esplâncnicos; assim, as **arteríolas esplâncnicas se contraem**, menos sangue chega à veia porta e a **pressão portal** cai. A ativação dos receptores V1 é a alternativa tentadora, pois também contrai as arteríolas esplâncnicas, mas essa é a ação da **vasopressina e da terlipressina**, não de um análogo da somatostatina. Os betabloqueadores não seletivos também reduzem a pressão portal, mas agem por receptores beta, e a octreotida não bloqueia a secreção ácida pela bomba de prótons."
+    }
+  ],
+  "notes": []
+}

@@ -1,0 +1,182 @@
+{
+  "cards": [],
+  "questions": [
+    {
+      "slug": "q-hypothalamic-pituitary-qx-stalk-effect",
+      "track": "step1",
+      "system": "endocrine",
+      "discipline": "pathology",
+      "tags": [
+        "hypothalamic-pituitary",
+        "prolactin",
+        "mass-effect"
+      ],
+      "stem": "A 61-year-old man has had headaches and low libido for a year. He has bumped into door frames several times. Perimetry shows loss of the temporal visual field in both eyes. MRI shows a 3.2-cm sellar mass that presses up on the optic chiasm and bends the pituitary stalk. Lab results: prolactin 46 ng/mL (reference below 15), morning testosterone low, LH and FSH low-normal, IGF-1 low-normal, free T4 normal, morning cortisol normal, creatinine normal. After surgery, immunostaining shows that the tumor cells make no prolactin. Which mechanism best explains his high prolactin?",
+      "choices": [
+        "Increased TRH release from the hypothalamus onto lactotrophs",
+        "Less dopamine reaching lactotrophs through portal vessels",
+        "Prolactin secretion by tumor cells that escape dopamine control",
+        "Reduced clearance of prolactin by the kidneys and liver",
+        "Estrogen from peripheral aromatization stimulating lactotrophs"
+      ],
+      "correct": 1,
+      "explanation": "This is a **nonfunctioning macroadenoma** with the **stalk effect**. The mass bends the stalk, so less hypothalamic **dopamine** reaches the lactotrophs through the **portal vessels**, and normal lactotrophs release more prolactin. A prolactinoma is the tempting answer, but a prolactin-secreting tumor of this size usually gives a far higher prolactin, and the staining here showed no prolactin. His free T4 is normal, so there is no TRH excess, and his low testosterone gives little substrate for aromatization.",
+      "explanation_pt": "Trata-se de um **macroadenoma não funcionante** com **efeito haste**. A massa desvia a haste, então menos **dopamina** hipotalâmica chega aos lactotrofos pelos **vasos porta**, e os lactotrofos normais liberam mais prolactina. O prolactinoma é a resposta tentadora, mas um tumor secretor de prolactina desse tamanho costuma dar uma prolactina muito mais alta, e a imuno-histoquímica foi negativa para prolactina. O T4 livre é normal, então não há excesso de TRH, e a testosterona baixa oferece pouco substrato para a aromatização."
+    },
+    {
+      "slug": "q-hypothalamic-pituitary-qx-hypothyroid-hyperprolactinemia",
+      "track": "step1",
+      "system": "endocrine",
+      "discipline": "physiology",
+      "tags": [
+        "hypothalamic-pituitary",
+        "prolactin",
+        "hypothyroidism"
+      ],
+      "stem": "A 27-year-old woman has had no menstrual periods for 6 months. She also has a milky nipple discharge, tiredness, constipation and weight gain, and she always feels cold. She takes no medications. A pregnancy test is negative. Pulse is 56/min. Lab results: TSH 48 mU/L (reference 0.4-4.0), free T4 0.4 ng/dL (reference 0.8-1.8), prolactin 38 ng/mL (reference below 25). Which mechanism best explains her high prolactin?",
+      "choices": [
+        "A prolactin-secreting pituitary microadenoma",
+        "D2 receptor blockade on lactotrophs",
+        "TSH binding to receptors on lactotrophs",
+        "High TRH stimulating lactotrophs",
+        "Estrogen excess stimulating lactotrophs"
+      ],
+      "correct": 3,
+      "explanation": "She has **primary hypothyroidism**. Low thyroid hormone removes negative feedback, so the hypothalamus releases more **TRH**, which stimulates both thyrotrophs and **lactotrophs**. The mild rise in prolactin causes galactorrhea and suppresses GnRH. A prolactinoma is tempting, but hypothyroidism explains the whole picture, and the prolactin should fall with **levothyroxine** alone; she takes no D2-blocking drugs, and lactotrophs do not respond to TSH.",
+      "explanation_pt": "Ela tem **hipotireoidismo primário**. O hormônio tireoidiano baixo retira o feedback negativo, e o hipotálamo libera mais **TRH**, que estimula tanto os tireotrofos quanto os **lactotrofos**. A leve elevação da prolactina causa galactorreia e suprime o GnRH. O prolactinoma é tentador, mas o hipotireoidismo explica todo o quadro, e a prolactina deve cair só com **levotiroxina**; ela não usa fármacos bloqueadores D2, e os lactotrofos não respondem ao TSH."
+    },
+    {
+      "slug": "q-hypothalamic-pituitary-qx-siadh-urine-sodium",
+      "track": "step1",
+      "system": "endocrine",
+      "discipline": "physiology",
+      "tags": [
+        "hypothalamic-pituitary",
+        "siadh",
+        "adh"
+      ],
+      "stem": "A 66-year-old man who smokes has a cough and new confusion. CT of the chest shows a large central lung mass. He has no edema, his jugular veins are not distended, and his blood pressure does not fall on standing. He takes no diuretics. Lab results: serum Na+ 121 mEq/L, serum osmolality 250 mOsm/kg, serum uric acid low, urine osmolality 560 mOsm/kg, urine Na+ 72 mEq/L. TSH and morning cortisol are normal. Which mechanism best explains his high urine sodium?",
+      "choices": [
+        "Primary renal salt loss that shrinks plasma volume",
+        "ADH-driven inhibition of sodium uptake in the collecting duct",
+        "Low aldosterone from tumor spread to both adrenal glands",
+        "Blocked Na-K-2Cl cotransport in the thick ascending limb",
+        "Mild volume expansion that raises ANP and lowers aldosterone"
+      ],
+      "correct": 4,
+      "explanation": "This is **SIADH**, likely from **small cell lung cancer**. ADH makes the kidney keep water, and the extra water mildly expands the blood volume. The body answers with more **ANP** and less renin and **aldosterone**, so sodium is lost in the urine and the patient stays **euvolemic**, without edema. Primary renal salt wasting is tempting because urine sodium is high, but it would shrink the volume and cause orthostatic hypotension, which he does not have; ADH acts mainly on water channels, and his normal cortisol argues against adrenal failure.",
+      "explanation_pt": "Trata-se de **SIADH**, provavelmente por **carcinoma de pequenas células** do pulmão. O ADH faz o rim reter água, e esse excesso de água expande levemente o volume sanguíneo. O organismo responde com mais **peptídeo natriurético atrial (ANP)** e menos renina e **aldosterona**, então o sódio é perdido na urina e o paciente fica **euvolêmico**, sem edema. A perda renal primária de sal é tentadora porque o sódio urinário está alto, mas ela reduziria o volume e causaria hipotensão ortostática, que ele não tem; o ADH age principalmente nos canais de água, e o cortisol normal fala contra insuficiência adrenal."
+    },
+    {
+      "slug": "q-hypothalamic-pituitary-qx-apoplexy-acth",
+      "track": "step1",
+      "system": "endocrine",
+      "discipline": "pathology",
+      "tags": [
+        "hypothalamic-pituitary",
+        "apoplexy",
+        "hypopituitarism"
+      ],
+      "stem": "A 57-year-old man has a sudden, very severe headache that started 3 hours ago while he was watching television. He has vomited twice. His right eyelid droops, and his right eye points down and out. His vision is blurred. Blood pressure is 84/52 mm Hg, and pulse is 112/min. Serum glucose is 64 mg/dL, and Na+ is 131 mEq/L. CT of the head shows bleeding into a mass in an enlarged sella turcica. Loss of which pituitary hormone is the most immediate threat to his life?",
+      "choices": [
+        "ACTH",
+        "TSH",
+        "ADH",
+        "GH",
+        "LH and FSH"
+      ],
+      "correct": 0,
+      "explanation": "This is **pituitary apoplexy**: sudden bleeding into a pituitary adenoma, with mass effect on the **oculomotor nerve** in the cavernous sinus. Sudden loss of **ACTH** stops cortisol production, which causes shock, low glucose and low sodium, so he needs urgent **glucocorticoids**. ADH loss is tempting, but the posterior pituitary is often spared, and diabetes insipidus is rarely fatal when the patient can drink. TSH loss matters less in the first days because T4 has a long half-life.",
+      "explanation_pt": "Trata-se de **apoplexia hipofisária**: sangramento súbito em um adenoma hipofisário, com efeito de massa sobre o **nervo oculomotor** no seio cavernoso. A perda súbita de **ACTH** interrompe a produção de cortisol, o que causa choque, glicose baixa e sódio baixo; por isso ele precisa de **glicocorticoide** com urgência. A perda de ADH é tentadora, mas a neuro-hipófise muitas vezes é poupada, e o diabetes insípido raramente é fatal quando o paciente consegue beber água. A perda de TSH importa menos nos primeiros dias porque o T4 tem meia-vida longa."
+    },
+    {
+      "slug": "q-hypothalamic-pituitary-qx-pegvisomant-labs",
+      "track": "step1",
+      "system": "endocrine",
+      "discipline": "pharmacology",
+      "tags": [
+        "hypothalamic-pituitary",
+        "acromegaly",
+        "growth-hormone"
+      ],
+      "stem": "A 50-year-old woman had surgery for acromegaly caused by a GH-secreting pituitary adenoma. A small part of the tumor remains next to the cavernous sinus. Her serum IGF-1 stayed high on a somatostatin analog, so she is switched to pegvisomant, a GH receptor antagonist. Which pair of laboratory changes is expected after several months of pegvisomant therapy?",
+      "choices": [
+        "Lower serum GH and lower serum IGF-1",
+        "Lower serum GH and unchanged serum IGF-1",
+        "Higher serum GH and lower serum IGF-1",
+        "Higher serum GH and higher serum IGF-1",
+        "Unchanged serum GH and higher serum IGF-1"
+      ],
+      "correct": 2,
+      "explanation": "**Pegvisomant** blocks the **GH receptor**, so the liver makes less **IGF-1**, and IGF-1 falls. IGF-1 normally gives **negative feedback** on GH release, so serum GH **rises** when IGF-1 falls. Lower GH and lower IGF-1 is the tempting answer, but that is the pattern of a **somatostatin analog** such as octreotide, which acts on the tumor itself. Because pegvisomant does not act on the tumor, the tumor size still needs to be followed.",
+      "explanation_pt": "O **pegvisomanto** bloqueia o **receptor de GH**, então o fígado produz menos **IGF-1**, e o IGF-1 cai. O IGF-1 normalmente faz **feedback negativo** sobre a liberação de GH, então o GH sérico **sobe** quando o IGF-1 cai. GH baixo com IGF-1 baixo é a resposta tentadora, mas esse é o padrão de um **análogo da somatostatina** como a octreotida, que age no próprio tumor. Como o pegvisomanto não age no tumor, o tamanho do tumor ainda precisa ser acompanhado."
+    },
+    {
+      "slug": "q-hypothalamic-pituitary-qx-laron-gh-receptor",
+      "track": "step1",
+      "system": "endocrine",
+      "discipline": "physiology",
+      "tags": [
+        "hypothalamic-pituitary",
+        "growth-hormone",
+        "short-stature"
+      ],
+      "stem": "A 7-year-old boy is evaluated for very short stature. His height is far below the 3rd percentile. He has a small face with a prominent forehead. His parents are first cousins. Bone age is delayed. Lab results: random serum GH high, IGF-1 very low, IGF-binding protein 3 low, glucose 62 mg/dL, TSH and free T4 normal. He receives daily GH injections for 4 days, and his IGF-1 does not rise. A defect in which protein is the most likely cause?",
+      "choices": [
+        "GHRH receptor on somatotrophs",
+        "GH molecule made by the pituitary",
+        "IGF-1 receptor on growth plate cells",
+        "Somatostatin receptor on somatotrophs",
+        "GH receptor on hepatocytes"
+      ],
+      "correct": 4,
+      "explanation": "High GH with very low IGF-1 that does not rise with GH injections means **GH insensitivity** (**Laron syndrome**), usually an autosomal recessive **GH receptor** defect. The liver cannot respond to GH, so it makes little IGF-1, and the lost IGF-1 feedback lets GH rise. A defect in the GH molecule or the GHRH receptor is tempting because both cause short stature, but they give a **low** GH, and IGF-1 rises with GH injections. An IGF-1 receptor defect gives a normal or high IGF-1, not a low one.",
+      "explanation_pt": "GH alto com IGF-1 muito baixo que não sobe com injeções de GH indica **insensibilidade ao GH** (**síndrome de Laron**), geralmente um defeito autossômico recessivo do **receptor de GH**. O fígado não responde ao GH, então produz pouco IGF-1, e a perda do feedback do IGF-1 deixa o GH subir. Um defeito na molécula de GH ou no receptor de GHRH é tentador porque ambos causam baixa estatura, mas eles dão GH **baixo**, e o IGF-1 sobe com as injeções de GH. Um defeito no receptor de IGF-1 dá IGF-1 normal ou alto, não baixo."
+    },
+    {
+      "slug": "q-hypothalamic-pituitary-qx-lch-central-di",
+      "track": "step1",
+      "system": "endocrine",
+      "discipline": "pathology",
+      "tags": [
+        "hypothalamic-pituitary",
+        "diabetes-insipidus",
+        "langerhans-cell-histiocytosis"
+      ],
+      "stem": "A 4-year-old boy has passed large volumes of urine and has been very thirsty for 2 months. He also has a scaly rash on his scalp and a tender swelling on his skull. X-ray shows sharp, punched-out lytic lesions in the skull. In a water deprivation test, his urine osmolality stays low while his serum sodium rises; after desmopressin, his urine osmolality rises sharply. MRI shows a thickened pituitary stalk. A biopsy of a skull lesion is most likely to show which finding?",
+      "choices": [
+        "Cells with tennis racket-shaped granules",
+        "Calcified cyst lined by epithelium with wet keratin",
+        "Small round blue cells arranged in rosettes",
+        "Noncaseating granulomas with giant cells",
+        "Sheets of plasma cells with eccentric nuclei"
+      ],
+      "correct": 0,
+      "explanation": "The water deprivation and desmopressin results show **central diabetes insipidus**. With lytic skull lesions, a scalp rash and a thick pituitary stalk in a child, this is **Langerhans cell histiocytosis**: CD1a+ and S-100+ cells with **Birbeck granules** (tennis racket shape on electron microscopy) infiltrate bone and the stalk. Craniopharyngioma is tempting because it causes central DI in children, but it is a suprasellar mass and does not cause lytic skull lesions or a rash. Small round blue cells in rosettes fit neuroblastoma, which can spread to the skull but does not cause central DI with a scalp rash, and plasma cell sheets fit multiple myeloma in older adults.",
+      "explanation_pt": "Os resultados da restrição hídrica e da desmopressina mostram **diabetes insípido central**. Com lesões líticas no crânio, erupção no couro cabeludo e haste hipofisária espessada em uma criança, trata-se de **histiocitose de células de Langerhans**: células CD1a+ e S-100+ com **grânulos de Birbeck** (forma de raquete de tênis na microscopia eletrônica) infiltram o osso e a haste. O craniofaringioma é tentador porque causa DI central em crianças, mas é uma massa suprasselar e não causa lesões líticas no crânio nem erupção cutânea. Pequenas células redondas e azuis em rosetas indicam neuroblastoma, que pode metastatizar para o crânio, mas não causa DI central com erupção no couro cabeludo, e lençóis de plasmócitos indicam mieloma múltiplo em adultos mais velhos."
+    },
+    {
+      "slug": "q-hypothalamic-pituitary-qx-tsh-adenoma",
+      "track": "step1",
+      "system": "endocrine",
+      "discipline": "pathology",
+      "tags": [
+        "hypothalamic-pituitary",
+        "pituitary-adenoma",
+        "thyroid-axis"
+      ],
+      "stem": "A 44-year-old woman has had palpitations, heat intolerance, tremor and weight loss for 8 months. She also has headaches. She has a small, diffuse goiter and no eye findings. Lab results: free T4 3.6 ng/dL (reference 0.8-1.8), total T3 high, TSH 5.2 mU/L (reference 0.4-4.0). TSH receptor antibodies are negative. Perimetry shows loss of the temporal visual field in both eyes. What is the most likely cause of her hyperthyroidism?",
+      "choices": [
+        "Graves disease",
+        "Toxic multinodular goiter",
+        "TSH-secreting pituitary adenoma",
+        "Painless thyroiditis",
+        "Pituitary resistance to thyroid hormone"
+      ],
+      "correct": 2,
+      "explanation": "High free T4 should suppress TSH. A TSH that is **normal or high** with high T4 means the TSH comes from a source that ignores feedback, here a **TSH-secreting pituitary adenoma** big enough to press on the **optic chiasm**. Pituitary resistance to thyroid hormone is tempting because it gives the same hormone pattern, but it does not cause a sellar mass or bitemporal field loss. Graves disease, toxic multinodular goiter and thyroiditis all make T4 independent of TSH, so TSH would be suppressed.",
+      "explanation_pt": "O T4 livre alto deveria suprimir o TSH. Um TSH **normal ou alto** com T4 alto significa que o TSH vem de uma fonte que ignora o feedback, aqui um **adenoma hipofisário secretor de TSH** grande o suficiente para comprimir o **quiasma óptico**. A resistência hipofisária ao hormônio tireoidiano é tentadora porque dá o mesmo padrão hormonal, mas não causa massa selar nem perda dos campos temporais. Doença de Graves, bócio multinodular tóxico e tireoidite produzem T4 independente do TSH, então o TSH estaria suprimido."
+    }
+  ],
+  "notes": []
+}

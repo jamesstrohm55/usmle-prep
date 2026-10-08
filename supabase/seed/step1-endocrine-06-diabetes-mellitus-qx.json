@@ -1,0 +1,150 @@
+{
+  "cards": [],
+  "questions": [
+    {
+      "slug": "q-diabetes-mellitus-qx-hhs-residual-insulin",
+      "track": "step1",
+      "system": "endocrine",
+      "discipline": "pathology",
+      "tags": ["diabetes-mellitus", "hhs", "insulin-action"],
+      "stem": "A 74-year-old woman with type 2 diabetes lives in a nursing home. For 8 days she has had a cough and has been drinking very little. Today she is confused and very drowsy. Blood pressure is 92/56 mm Hg and pulse is 112/min. Her mucous membranes are very dry. Laboratory results: glucose 1,050 mg/dL, Na+ 146 mEq/L, K+ 4.6 mEq/L, Cl- 110 mEq/L, HCO3- 23 mEq/L, BUN 64 mg/dL, creatinine 2.1 mg/dL, arterial pH 7.37, serum β-hydroxybutyrate only slightly above normal. Which mechanism best explains why she has no significant ketoacidosis?",
+      "choices": [
+        "Loss of hepatic HMG-CoA synthase activity with aging",
+        "Suppression of glucagon release by the very high glucose",
+        "Fast renal excretion of ketone bodies as soon as they are formed",
+        "Residual insulin that blocks lipolysis but not hyperglycemia",
+        "Use of ketone bodies by the brain as its main fuel"
+      ],
+      "correct": 3,
+      "explanation": "This is **hyperosmolar hyperglycemic state (HHS)**: extreme hyperglycemia, an effective osmolality of about 2 × 146 + 1,050/18 ≈ **350 mOsm/kg**, a near-normal anion gap of 146 − (110 + 23) = 13 mEq/L and normal pH. Much **less insulin is needed to suppress lipolysis** than to drive glucose uptake into muscle, so her **residual insulin** keeps free fatty acid supply, and therefore ketogenesis, low. Glucagon suppression is tempting, but glucagon is high in HHS and still drives hepatic glucose output. Renal excretion cannot hide ketogenesis: her low GFR would make ketones accumulate, not disappear.",
+      "explanation_pt": "Trata-se de **estado hiperglicêmico hiperosmolar (EHH)**: hiperglicemia extrema, osmolalidade efetiva de cerca de 2 × 146 + 1.050/18 ≈ **350 mOsm/kg**, ânion gap quase normal de 146 − (110 + 23) = 13 mEq/L e pH normal. É preciso **muito menos insulina para suprimir a lipólise** do que para levar glicose ao músculo, então a **insulina residual** mantém baixa a oferta de ácidos graxos livres e, portanto, a cetogênese. A supressão do glucagon é tentadora, mas o glucagon está alto no EHH e continua estimulando a produção hepática de glicose. A excreção renal não esconde a cetogênese: com a TFG baixa, as cetonas se acumulariam, e não desapareceriam."
+    },
+    {
+      "slug": "q-diabetes-mellitus-qx-dka-nitroprusside-ketones",
+      "track": "step1",
+      "system": "endocrine",
+      "discipline": "pathology",
+      "tags": ["diabetes-mellitus", "dka", "ketone-bodies"],
+      "stem": "A 16-year-old boy with newly diagnosed type 1 diabetes is admitted with diabetic ketoacidosis. He is treated with IV fluids, IV insulin and potassium. On admission: glucose 610 mg/dL, Na+ 134 mEq/L, Cl- 98 mEq/L, HCO3- 7 mEq/L, pH 7.12, serum β-hydroxybutyrate 7.8 mmol/L, urine ketones by nitroprusside dipstick 2+. After 10 hours: glucose 220 mg/dL, Na+ 138 mEq/L, Cl- 106 mEq/L, HCO3- 16 mEq/L, pH 7.30, serum β-hydroxybutyrate 2.1 mmol/L, urine ketones 4+. He feels better and is breathing normally. Which best explains the change in his urine ketone result?",
+      "choices": [
+        "Oxidation of β-hydroxybutyrate to acetoacetate, which the test detects",
+        "Ongoing hepatic ketogenesis because the insulin infusion rate is too low",
+        "Reduced renal clearance of ketone bodies from acute kidney injury",
+        "Production of acetone by bacteria growing in the bladder",
+        "A false-positive dipstick reaction caused by high urine glucose"
+      ],
+      "correct": 0,
+      "explanation": "In DKA, the high NADH/NAD+ ratio favors **β-hydroxybutyrate**, the main ketone body. The **nitroprusside** test detects **acetoacetate** (and weakly acetone) but **not β-hydroxybutyrate**. As insulin works, β-hydroxybutyrate is oxidized back to acetoacetate, so the dipstick can look worse while he improves. Ongoing ketogenesis is the tempting choice, but his anion gap fell from 134 − (98 + 7) = **29** to 138 − (106 + 16) = **16 mEq/L**, and serum β-hydroxybutyrate fell, so ketoacidosis is resolving.",
+      "explanation_pt": "Na CAD, a alta relação NADH/NAD+ favorece o **β-hidroxibutirato**, principal corpo cetônico. O teste do **nitroprussiato** detecta o **acetoacetato** (e, fracamente, a acetona), mas **não o β-hidroxibutirato**. Com a ação da insulina, o β-hidroxibutirato é oxidado de volta a acetoacetato, e a fita reagente pode parecer pior enquanto o paciente melhora. A cetogênese persistente é a alternativa tentadora, mas o ânion gap caiu de 134 − (98 + 7) = **29** para 138 − (106 + 16) = **16 mEq/L**, e o β-hidroxibutirato sérico caiu; a cetoacidose está se resolvendo."
+    },
+    {
+      "slug": "q-diabetes-mellitus-qx-gck-mody",
+      "track": "step1",
+      "system": "endocrine",
+      "discipline": "pathology",
+      "tags": ["diabetes-mellitus", "mody", "insulin-secretion"],
+      "stem": "A 24-year-old woman has a fasting glucose of 118 mg/dL on a routine work checkup. She has no symptoms. Her BMI is 22 kg/m2, and there is no acanthosis nigricans. Old records show fasting glucose between 108 and 124 mg/dL for 8 years, with an HbA1c that has stayed nearly the same. Her mother and her maternal grandfather have had the same mild high glucose for decades, with no eye, kidney or nerve disease and no treatment. Islet autoantibodies are negative, and C-peptide is normal. Which mechanism best explains her hyperglycemia?",
+      "choices": [
+        "Slow autoimmune destruction of beta cells by T cells",
+        "A gain-of-function mutation of the beta-cell K-ATP channel",
+        "A mutation of the insulin receptor causing insulin resistance",
+        "Amyloid deposits formed from amylin within the islets",
+        "A higher glucose level needed to trigger insulin release"
+      ],
+      "correct": 4,
+      "explanation": "Mild, stable fasting hyperglycemia in a lean young adult, with an **autosomal dominant** family pattern and no autoantibodies, fits **MODY** due to a heterozygous loss-of-function mutation in **glucokinase (GCK)**. Glucokinase is the beta cell's glucose sensor, so less activity **raises the glucose set point** for insulin release; glucose is regulated, but at a higher level, and complications are rare. Slow autoimmune diabetes is the tempting choice, but it gives autoantibodies and progressive beta-cell loss rather than decades of stability. A K-ATP gain-of-function mutation causes severe neonatal diabetes, and insulin receptor defects cause marked insulin resistance with acanthosis.",
+      "explanation_pt": "Hiperglicemia de jejum leve e estável em uma jovem magra, com padrão familiar **autossômico dominante** e sem autoanticorpos, indica **MODY** por mutação heterozigótica com perda de função da **glicoquinase (GCK)**. A glicoquinase é o sensor de glicose da célula beta; com menos atividade, **o ponto de ajuste da glicose sobe** para a liberação de insulina. A glicemia continua regulada, só que em nível mais alto, e as complicações são raras. O diabetes autoimune lento é a alternativa tentadora, mas cursa com autoanticorpos e perda progressiva de células beta, e não com décadas de estabilidade. Mutação com ganho de função do canal K-ATP causa diabetes neonatal grave, e defeitos do receptor de insulina causam resistência insulínica acentuada com acantose."
+    },
+    {
+      "slug": "q-diabetes-mellitus-qx-glucagon-counterregulation",
+      "track": "step1",
+      "system": "endocrine",
+      "discipline": "physiology",
+      "tags": ["diabetes-mellitus", "hypoglycemia", "counterregulation"],
+      "stem": "A 23-year-old man has had type 1 diabetes for 6 years. In a research study, an IV insulin infusion lowers his plasma glucose to 50 mg/dL. He feels sweaty, shaky and anxious, and he notices a pounding heartbeat, just as in a healthy volunteer. However, after the infusion stops, his glucose returns to normal much more slowly than in the volunteer. Loss of which counterregulatory response best explains the slow recovery?",
+      "choices": [
+        "Epinephrine release from the adrenal medulla",
+        "Glucagon release from pancreatic alpha cells",
+        "Cortisol release from the adrenal cortex",
+        "Growth hormone release from the anterior pituitary",
+        "Norepinephrine release from sympathetic nerve endings"
+      ],
+      "correct": 1,
+      "explanation": "**Glucagon** is the fastest hormonal defense against hypoglycemia, raising hepatic glucose output within minutes. In type 1 diabetes, the **alpha-cell glucagon response to hypoglycemia** is lost within the first years, partly because there is no longer a fall in **intra-islet insulin** to signal the alpha cells. Epinephrine is the tempting choice: its response becomes blunted later after repeated hypoglycemia, causing **hypoglycemia unawareness**, but his adrenergic warning symptoms are intact. Cortisol and growth hormone act over hours, not minutes.",
+      "explanation_pt": "O **glucagon** é a defesa hormonal mais rápida contra a hipoglicemia, aumentando a produção hepática de glicose em minutos. No diabetes tipo 1, a **resposta do glucagon das células alfa à hipoglicemia** se perde nos primeiros anos, em parte porque deixa de haver queda da **insulina intrailhota** para sinalizar às células alfa. A epinefrina é a alternativa tentadora: sua resposta fica atenuada mais tarde, após hipoglicemias repetidas, causando **perda da percepção da hipoglicemia** (*hypoglycemia unawareness*), mas os sintomas adrenérgicos de alerta dele estão preservados. Cortisol e hormônio do crescimento agem em horas, e não em minutos."
+    },
+    {
+      "slug": "q-diabetes-mellitus-qx-hba1c-hemolysis",
+      "track": "step1",
+      "system": "endocrine",
+      "discipline": "pathology",
+      "tags": ["diabetes-mellitus", "hba1c", "hemolysis"],
+      "stem": "A 38-year-old woman with type 2 diabetes and hereditary spherocytosis comes for a follow-up visit. She still has her spleen. Her home glucose log for the past 3 months shows fasting values around 170 mg/dL and after-meal values around 240 mg/dL. Laboratory results: HbA1c 5.4%, hemoglobin 10.8 g/dL, reticulocytes 9%, high mean corpuscular hemoglobin concentration, indirect bilirubin 2.4 mg/dL. Serum fructosamine, a glycated serum protein, is high. Which best explains the low HbA1c?",
+      "choices": [
+        "Inaccurate readings from her home glucose meter",
+        "Slower nonenzymatic glycation of hemoglobin inside spherocytes",
+        "Shorter red cell survival with a younger red cell population",
+        "A hemoglobin variant that the HbA1c assay does not measure",
+        "Less hemoglobin inside each red cell available for glycation"
+      ],
+      "correct": 2,
+      "explanation": "**HbA1c** forms by **nonenzymatic glycation** of hemoglobin over the whole life of the red cell. In **hemolysis**, red cells are removed early and replaced by young cells (high reticulocytes), so each cell has less time to collect glucose and HbA1c is **falsely low**. A faulty glucose meter is the tempting choice, but the high **fructosamine**, which does not depend on red cell survival, confirms real hyperglycemia. HbA1c is a **percentage** of total hemoglobin, so the amount of hemoglobin per cell does not lower it, and hereditary spherocytosis is a membrane defect, not a hemoglobin variant.",
+      "explanation_pt": "A **HbA1c** se forma por **glicação não enzimática** da hemoglobina durante toda a vida da hemácia. Na **hemólise**, as hemácias são removidas precocemente e substituídas por células jovens (reticulócitos altos); cada célula tem menos tempo para acumular glicose, e a HbA1c fica **falsamente baixa**. Um glicosímetro com defeito é a alternativa tentadora, mas a **frutosamina** alta, que não depende da sobrevida das hemácias, confirma hiperglicemia real. A HbA1c é uma **porcentagem** da hemoglobina total, então a quantidade de hemoglobina por célula não a reduz, e a esferocitose hereditária é um defeito de membrana, e não uma variante de hemoglobina."
+    },
+    {
+      "slug": "q-diabetes-mellitus-qx-ketogenesis-malonyl-coa",
+      "track": "step1",
+      "system": "endocrine",
+      "discipline": "physiology",
+      "tags": ["diabetes-mellitus", "dka", "ketogenesis"],
+      "stem": "A 14-year-old girl is admitted with new-onset type 1 diabetes and diabetic ketoacidosis. Her insulin level is very low, and her glucagon level is high. In her hepatocytes, long-chain fatty acids are entering the mitochondria at a high rate and are being turned into ketone bodies. Which change in the liver most directly allows this fatty acid entry?",
+      "choices": [
+        "Increased carnitine synthesis in hepatocytes, driven by glucagon",
+        "Activation of acetyl-CoA carboxylase by glucagon signaling",
+        "Increased activity of fatty acid synthase in the cytosol",
+        "Increased activity of HMG-CoA reductase in the liver",
+        "A fall in malonyl-CoA that releases carnitine acyltransferase I"
+      ],
+      "correct": 4,
+      "explanation": "Long-chain fatty acids enter mitochondria through **carnitine acyltransferase I (CPT-I, carnitine palmitoyltransferase I)**, which is **inhibited by malonyl-CoA**. Glucagon, through cAMP and protein kinase A, **inactivates acetyl-CoA carboxylase**, and without insulin this enzyme is not reactivated, so **malonyl-CoA falls** and CPT-I is released. Beta-oxidation then floods the liver with acetyl-CoA, which mitochondrial **HMG-CoA synthase** turns into ketone bodies. More carnitine is tempting because carnitine carries the fatty acids, but carnitine supply is not the controlled step; CPT-I activity, set by malonyl-CoA, is.",
+      "explanation_pt": "Os ácidos graxos de cadeia longa entram na mitocôndria pela **carnitina aciltransferase I (CPT-I, carnitina palmitoiltransferase I)**, que é **inibida pela malonil-CoA**. O glucagon, via AMPc e proteína quinase A, **inativa a acetil-CoA carboxilase**, e sem insulina essa enzima não é reativada; assim, a **malonil-CoA cai** e a CPT-I fica livre. A betaoxidação então inunda o fígado de acetil-CoA, que a **HMG-CoA sintase** mitocondrial converte em corpos cetônicos. Mais carnitina é tentador, pois a carnitina transporta os ácidos graxos, mas a oferta de carnitina não é o passo regulado; a atividade da CPT-I, definida pela malonil-CoA, é."
+    },
+    {
+      "slug": "q-diabetes-mellitus-qx-honeymoon-phase",
+      "track": "step1",
+      "system": "endocrine",
+      "discipline": "pathology",
+      "tags": ["diabetes-mellitus", "type-1", "beta-cell-function"],
+      "stem": "An 11-year-old boy was diagnosed with type 1 diabetes 6 weeks ago, when he presented in diabetic ketoacidosis. Anti-GAD65 antibodies were positive. Over the past 2 weeks he has had several mild hypoglycemic episodes, and his parents have had to lower his insulin dose by about half. He is growing normally and has no abdominal symptoms, skin darkening or weight loss. Blood pressure is 106/66 mm Hg. Serum Na+ is 139 mEq/L, K+ is 4.2 mEq/L, and morning cortisol is normal. Fasting C-peptide, low at diagnosis, is now clearly higher. Which best explains his falling insulin needs?",
+      "choices": [
+        "Insulin antibodies that bind injected insulin and release it slowly",
+        "Primary adrenal insufficiency from autoimmune adrenalitis",
+        "Recovery of function in surviving beta cells after glucose control",
+        "Regrowth of a normal beta-cell mass from pancreatic duct cells",
+        "Loss of obesity-related insulin resistance after weight loss"
+      ],
+      "correct": 2,
+      "explanation": "This is the **honeymoon (partial remission) phase** of type 1 diabetes. At diagnosis, the surviving beta cells are stunned by high glucose and fatty acids (**glucotoxicity** and lipotoxicity); once insulin corrects these, they **recover some insulin secretion**, shown by the rise in **C-peptide**. The autoimmune attack continues, so this phase is temporary. Autoimmune adrenal insufficiency is the tempting choice, because it also lowers insulin needs and travels with type 1 diabetes, but his blood pressure, sodium, potassium and cortisol are normal, and it would not raise C-peptide.",
+      "explanation_pt": "Esta é a **fase de lua de mel (remissão parcial)** do diabetes tipo 1. Ao diagnóstico, as células beta restantes estão atordoadas pela glicose e pelos ácidos graxos elevados (**glicotoxicidade** e lipotoxicidade); quando a insulina os corrige, elas **recuperam parte da secreção de insulina**, como mostra a elevação do **peptídeo C**. O ataque autoimune continua, então essa fase é temporária. A insuficiência adrenal autoimune é a alternativa tentadora, pois também reduz a necessidade de insulina e se associa ao diabetes tipo 1, mas a pressão arterial, o sódio, o potássio e o cortisol dele estão normais, e ela não elevaria o peptídeo C."
+    },
+    {
+      "slug": "q-diabetes-mellitus-qx-caudal-regression",
+      "track": "step1",
+      "system": "endocrine",
+      "discipline": "pathology",
+      "tags": ["diabetes-mellitus", "pregnancy", "congenital-anomalies"],
+      "stem": "A newborn boy has very small, thin legs with flexed knees and no anal opening. X-rays show that the sacrum and the lowest lumbar vertebrae did not form. His mother had her first prenatal visit at 30 weeks. At that visit her glucose was 290 mg/dL and her HbA1c was very high, and she said she had been thirsty and urinating often for more than a year. Which mechanism best explains this baby's anomalies?",
+      "choices": [
+        "Fetal hyperinsulinemia during the third trimester",
+        "Maternal hyperglycemia during embryonic organogenesis",
+        "Maternal ketoacidosis during labor and delivery",
+        "Placental insufficiency from maternal vascular disease late in pregnancy",
+        "Fetal compression from polyhydramnios in late pregnancy"
+      ],
+      "correct": 1,
+      "explanation": "Absent sacrum and lower lumbar spine, small legs and anorectal malformation form **caudal regression syndrome**, a classic anomaly of **diabetes present before pregnancy**. Her symptoms for more than a year show that she was hyperglycemic at conception, and **hyperglycemia during organogenesis** (weeks 3 to 8 after fertilization) disturbs embryonic development; heart defects such as **transposition of the great arteries** and neural tube defects are also more common. Fetal hyperinsulinemia is the tempting choice, but it begins later and causes **macrosomia** and **neonatal hypoglycemia**, not malformations. For the same reason, gestational diabetes that begins after organogenesis is not linked to these malformations.",
+      "explanation_pt": "Ausência do sacro e da coluna lombar baixa, pernas pequenas e malformação anorretal formam a **síndrome de regressão caudal**, anomalia clássica do **diabetes prévio à gestação**. Os sintomas por mais de um ano mostram que ela já estava hiperglicêmica na concepção, e a **hiperglicemia durante a organogênese** (semanas 3 a 8 após a fecundação) perturba o desenvolvimento embrionário; cardiopatias como a **transposição das grandes artérias** e defeitos do tubo neural também são mais comuns. A hiperinsulinemia fetal é a alternativa tentadora, mas começa mais tarde e causa **macrossomia** e **hipoglicemia neonatal**, e não malformações. Pelo mesmo motivo, o diabetes gestacional que surge após a organogênese não se associa a essas malformações."
+    }
+  ],
+  "notes": []
+}

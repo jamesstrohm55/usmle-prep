@@ -1,0 +1,182 @@
+{
+  "cards": [],
+  "questions": [
+    {
+      "slug": "q-hormone-signaling-qx-lipoid-cah-star",
+      "track": "step1",
+      "system": "endocrine",
+      "discipline": "physiology",
+      "tags": [
+        "hormone-signaling",
+        "steroidogenesis",
+        "star"
+      ],
+      "stem": "A 3-week-old infant is brought to the emergency department with vomiting, poor feeding and weight loss. The infant has female external genitalia, but no uterus is seen on pelvic ultrasound, and a gonad is felt in each inguinal canal. Karyotype is 46,XY. Labs: sodium 124 mEq/L, potassium 6.8 mEq/L, glucose 45 mg/dL, cortisol very low, 17-hydroxyprogesterone low, DHEA sulfate low, testosterone low, plasma ACTH very high and plasma renin activity high. CT shows large adrenal glands. Which step of hormone synthesis is defective?",
+      "choices": [
+        "21-hydroxylation of progesterone and 17-hydroxyprogesterone",
+        "Conversion of Δ5 steroids to Δ4 steroids by 3β-HSD",
+        "Cholesterol transport to the inner mitochondrial membrane",
+        "17α-hydroxylation of pregnenolone and progesterone",
+        "Conversion of testosterone to dihydrotestosterone"
+      ],
+      "correct": 2,
+      "explanation": "Every adrenal and gonadal steroid is low, so the block is at the very first step: the **StAR** protein cannot move cholesterol to the inner mitochondrial membrane, where desmolase makes pregnenolone (**congenital lipoid adrenal hyperplasia**). Unused cholesterol fills the cells, so the adrenals are large; no testosterone means female external genitalia, while AMH from Sertoli cells still removes the uterus. **3β-HSD deficiency** is the most tempting choice because it also causes salt loss and poor virilization in a 46,XY infant, but DHEA sulfate would be high, not low.",
+      "explanation_pt": "Todos os esteroides adrenais e gonadais estão baixos, então o bloqueio está na primeira etapa: a proteína **StAR** não consegue levar o colesterol à membrana mitocondrial interna, onde a desmolase forma pregnenolona (**hiperplasia adrenal lipoide congênita**). O colesterol não usado se acumula nas células, por isso as adrenais estão aumentadas; sem testosterona, a genitália externa é feminina, enquanto o AMH das células de Sertoli ainda faz regredir o útero. A **deficiência de 3β-HSD** é a alternativa mais tentadora, porque também causa perda de sal e virilização insuficiente em um recém-nascido 46,XY, mas o sulfato de DHEA estaria alto, e não baixo."
+    },
+    {
+      "slug": "q-hormone-signaling-qx-3beta-hsd-deficiency",
+      "track": "step1",
+      "system": "endocrine",
+      "discipline": "physiology",
+      "tags": [
+        "hormone-signaling",
+        "steroidogenesis",
+        "3beta-hsd"
+      ],
+      "stem": "A 2-week-old infant has poor feeding and vomiting. At birth, the infant had a small phallus, a urethral opening at the base of the phallus and a split scrotum with palpable gonads. Karyotype is 46,XY. Labs: sodium 127 mEq/L, potassium 6.5 mEq/L, plasma renin activity high, cortisol low, aldosterone low, 17-hydroxypregnenolone very high, DHEA sulfate very high, 17-hydroxyprogesterone mildly high and testosterone low. Which protein is deficient?",
+      "choices": [
+        "21-hydroxylase",
+        "11β-hydroxylase",
+        "17α-hydroxylase",
+        "Steroidogenic acute regulatory protein",
+        "3β-hydroxysteroid dehydrogenase"
+      ],
+      "correct": 4,
+      "explanation": "**3β-HSD** turns Δ5 steroids (pregnenolone, 17-hydroxypregnenolone, DHEA) into Δ4 steroids (progesterone, 17-hydroxyprogesterone, androstenedione). Without it, no aldosterone or cortisol is made, so the infant loses salt, and Δ5 precursors such as **17-hydroxypregnenolone and DHEA** pile up. DHEA is a weak androgen, so a 46,XY infant is **undervirilized**. **21-hydroxylase deficiency** is the most tempting choice, but it gives a very high 17-hydroxyprogesterone and normal male genitalia in a 46,XY infant; the small rise here comes from peripheral 3β-HSD activity.",
+      "explanation_pt": "A **3β-HSD** converte esteroides Δ5 (pregnenolona, 17-hidroxipregnenolona, DHEA) em esteroides Δ4 (progesterona, 17-hidroxiprogesterona, androstenediona). Sem ela, não há síntese de aldosterona nem de cortisol, por isso o recém-nascido perde sal, e precursores Δ5 como **17-hidroxipregnenolona e DHEA** se acumulam. A DHEA é um andrógeno fraco, então um recém-nascido 46,XY fica **subvirilizado**. A **deficiência de 21-hidroxilase** é a alternativa mais tentadora, mas causa 17-hidroxiprogesterona muito alta e genitália masculina normal em um recém-nascido 46,XY; a pequena elevação aqui vem da atividade periférica da 3β-HSD."
+    },
+    {
+      "slug": "q-hormone-signaling-qx-glucocorticoid-remediable-aldosteronism",
+      "track": "step1",
+      "system": "endocrine",
+      "discipline": "physiology",
+      "tags": [
+        "hormone-signaling",
+        "steroidogenesis",
+        "aldosterone-synthase"
+      ],
+      "stem": "A 19-year-old man has had high blood pressure since age 12. His mother and his younger sister also have hypertension that started in childhood. Blood pressure is 158/96 mm Hg. Labs: potassium 3.4 mEq/L, plasma aldosterone high and plasma renin activity suppressed. CT of the adrenal glands is normal. After a short course of dexamethasone, his aldosterone level falls to low and his blood pressure falls to 132/84 mm Hg. Which mechanism best explains his condition?",
+      "choices": [
+        "Autonomous aldosterone secretion by a glomerulosa adenoma",
+        "Aldosterone synthase expressed in the zona fasciculata under ACTH control",
+        "Cortisol activating mineralocorticoid receptors because renal 11β-HSD2 is deficient",
+        "Bilateral idiopathic hyperplasia of the zona glomerulosa",
+        "Renin secretion by a juxtaglomerular cell tumor"
+      ],
+      "correct": 1,
+      "explanation": "In **glucocorticoid-remediable aldosteronism** (familial hyperaldosteronism type I), unequal crossing over joins the **ACTH-responsive control region of the 11β-hydroxylase gene** to the coding sequence of **aldosterone synthase**. The zona fasciculata then makes aldosterone whenever ACTH stimulates it, so dexamethasone, which suppresses ACTH, lowers aldosterone and blood pressure. **Bilateral idiopathic hyperplasia** is the most tempting choice because it also gives high aldosterone with normal-looking adrenals, but it is not suppressed by dexamethasone and does not usually run in families from childhood. 11β-HSD2 deficiency would give low aldosterone, and a renin-secreting tumor would give high renin.",
+      "explanation_pt": "No **aldosteronismo remediável por glicocorticoide** (hiperaldosteronismo familiar tipo I), um *crossing over* desigual une a **região reguladora do gene da 11β-hidroxilase**, que responde ao ACTH, à sequência codificadora da **aldosterona sintase**. A zona fasciculada passa a produzir aldosterona sempre que o ACTH a estimula, por isso a dexametasona, que suprime o ACTH, reduz a aldosterona e a pressão arterial. A **hiperplasia idiopática bilateral** é a alternativa mais tentadora, porque também causa aldosterona alta com adrenais de aspecto normal, mas não é suprimida pela dexametasona e não costuma acometer várias pessoas da família desde a infância. A deficiência de 11β-HSD2 cursaria com aldosterona baixa, e um tumor secretor de renina, com renina alta."
+    },
+    {
+      "slug": "q-hormone-signaling-qx-vitamin-d-receptor-rickets",
+      "track": "step1",
+      "system": "endocrine",
+      "discipline": "physiology",
+      "tags": [
+        "hormone-signaling",
+        "nuclear-receptors",
+        "calcitriol"
+      ],
+      "stem": "A 2-year-old boy is evaluated because he started walking late and his legs are bowed. His wrists are wide, and he has had almost no scalp hair since he was a few months old. He drinks fortified milk and plays outside every day. A course of vitamin D did not help. Labs: calcium 7.8 mg/dL (normal 8.5-10.5), phosphate 2.6 mg/dL (normal 4.0-6.5 for age), alkaline phosphatase high, PTH high, 25-hydroxyvitamin D normal and 1,25-dihydroxyvitamin D very high. Which defect best explains his findings?",
+      "choices": [
+        "Dietary vitamin D deficiency in a growing child",
+        "Loss of renal 1α-hydroxylase enzyme activity",
+        "Excess FGF23 from an inherited PHEX mutation",
+        "Mutant nuclear receptor for calcitriol",
+        "Deficiency of the hepatic 25-hydroxylase enzyme"
+      ],
+      "correct": 3,
+      "explanation": "Rickets with a **very high calcitriol** level means the hormone is made but cannot act: the **vitamin D receptor**, an intracellular receptor that binds DNA and controls gene transcription, is defective (**hereditary vitamin D-resistant rickets**). Gut calcium absorption falls, so PTH rises and phosphate is lost in the urine; **alopecia** is a classic clue, because the receptor is also needed for the hair cycle. **1α-hydroxylase deficiency** is the most tempting choice because it causes the same rickets, but calcitriol would be low. Dietary deficiency and 25-hydroxylase deficiency would lower 25-hydroxyvitamin D, and excess FGF23 causes rickets with normal calcium and a low or normal calcitriol.",
+      "explanation_pt": "Raquitismo com **calcitriol muito alto** significa que o hormônio é produzido, mas não consegue agir: o **receptor de vitamina D**, um receptor intracelular que se liga ao DNA e controla a transcrição gênica, é defeituoso (**raquitismo hereditário resistente à vitamina D**). A absorção intestinal de cálcio cai, então o PTH sobe e o fosfato é perdido na urina; a **alopecia** é uma pista clássica, porque o receptor também é necessário para o ciclo do folículo piloso. A **deficiência de 1α-hidroxilase** é a alternativa mais tentadora, porque causa o mesmo raquitismo, mas o calcitriol estaria baixo. A deficiência nutricional e a deficiência de 25-hidroxilase reduziriam a 25-hidroxivitamina D, e o excesso de FGF23 causa raquitismo com cálcio normal e calcitriol baixo ou normal."
+    },
+    {
+      "slug": "q-hormone-signaling-qx-insulin-pi3k-glut4",
+      "track": "step1",
+      "system": "endocrine",
+      "discipline": "pharmacology",
+      "tags": [
+        "hormone-signaling",
+        "tyrosine-kinase",
+        "insulin"
+      ],
+      "stem": "A 58-year-old woman with metastatic breast cancer starts alpelisib, a drug that inhibits the alpha isoform of phosphatidylinositol 3-kinase (PI3K). She has no history of diabetes. Two weeks later, her fasting plasma glucose is 230 mg/dL, and her fasting insulin level is higher than before treatment. Glucose uptake by her skeletal muscle is reduced. Which step of insulin signaling in muscle cells is most directly impaired?",
+      "choices": [
+        "Akt-driven GLUT4 transfer to the cell membrane",
+        "Autophosphorylation of the insulin receptor β subunits",
+        "Ras-MAPK signaling that promotes cell growth",
+        "JAK2 phosphorylation of STAT5 proteins",
+        "cAMP-dependent activation of protein kinase A"
+      ],
+      "correct": 0,
+      "explanation": "The **insulin receptor** is a tyrosine kinase: insulin binding causes autophosphorylation and phosphorylation of **IRS-1**, which recruits **PI3K**. PI3K makes PIP3, which activates **Akt**, and Akt moves **GLUT4** vesicles to the membrane of muscle and fat cells. Blocking PI3K stops this step, so glucose uptake falls and the β cells respond with more insulin. Receptor autophosphorylation is the most tempting choice, but it happens upstream of PI3K and is not affected; the Ras-MAPK branch controls growth, not glucose uptake.",
+      "explanation_pt": "O **receptor de insulina** é uma tirosina-quinase: a ligação da insulina causa autofosforilação e fosforilação do **IRS-1**, que recruta a **PI3K**. A PI3K forma PIP3, que ativa a **Akt**, e a Akt leva vesículas de **GLUT4** à membrana das células musculares e adiposas. O bloqueio da PI3K interrompe essa etapa, então a captação de glicose cai e as células β respondem com mais insulina. A autofosforilação do receptor é a alternativa mais tentadora, mas ocorre antes da PI3K e não é afetada; a via Ras-MAPK controla o crescimento, e não a captação de glicose."
+    },
+    {
+      "slug": "q-hormone-signaling-qx-nesiritide-guanylyl-cyclase",
+      "track": "step1",
+      "system": "endocrine",
+      "discipline": "pharmacology",
+      "tags": [
+        "hormone-signaling",
+        "second-messengers",
+        "cgmp"
+      ],
+      "stem": "A 68-year-old man with heart failure comes to the emergency department with severe dyspnea and leg edema. Crackles are heard at both lung bases. He receives nesiritide, a recombinant form of human B-type natriuretic peptide, by intravenous infusion. His dyspnea improves and urine output rises, but his blood pressure falls from 128/80 to 98/62 mm Hg. What is the molecular target of this drug?",
+      "choices": [
+        "Soluble guanylyl cyclase in the cytoplasm of smooth muscle",
+        "Gs-coupled receptor that raises cAMP",
+        "Phosphodiesterase-3, which the drug inhibits",
+        "Membrane receptor with its own guanylyl cyclase domain",
+        "Gq-coupled receptor that raises IP3"
+      ],
+      "correct": 3,
+      "explanation": "Natriuretic peptides bind **natriuretic peptide receptor A**, a transmembrane receptor whose intracellular part is a **guanylyl cyclase**. The rise in **cGMP** activates protein kinase G, which relaxes vascular smooth muscle and increases sodium excretion; **hypotension** is the main adverse effect. **Soluble guanylyl cyclase** is the most tempting choice because it also makes cGMP, but it is the target of **nitric oxide** and nitrates, not of BNP. Milrinone is the drug that inhibits phosphodiesterase-3.",
+      "explanation_pt": "Os peptídeos natriuréticos ligam-se ao **receptor de peptídeo natriurético A**, um receptor transmembrana cuja porção intracelular é uma **guanilato ciclase**. O aumento de **GMPc** ativa a proteína quinase G, que relaxa o músculo liso vascular e aumenta a excreção de sódio; a **hipotensão** é o principal efeito adverso. A **guanilato ciclase solúvel** é a alternativa mais tentadora, porque também produz GMPc, mas é o alvo do **óxido nítrico** e dos nitratos, e não do BNP. A milrinona é o fármaco que inibe a fosfodiesterase-3."
+    },
+    {
+      "slug": "q-hormone-signaling-qx-acth-receptor-resistance",
+      "track": "step1",
+      "system": "endocrine",
+      "discipline": "physiology",
+      "tags": [
+        "hormone-signaling",
+        "second-messengers",
+        "adrenal-cortex"
+      ],
+      "stem": "A 3-year-old boy is evaluated for two episodes of hypoglycemia with seizures during viral illnesses. His parents say his skin and gums have become darker over the past year. His genitalia are normal for a boy. He has no pubic hair, and his height is at the 50th percentile. Blood pressure is 96/60 mm Hg. Labs: sodium 138 mEq/L, potassium 4.3 mEq/L, morning cortisol very low, plasma ACTH very high, aldosterone normal and plasma renin activity normal. Adrenal autoantibodies are negative, and very-long-chain fatty acids are normal. Which defect best explains his findings?",
+      "choices": [
+        "Defective Gs-coupled ACTH receptor on adrenal cells",
+        "Autoimmune destruction of the whole adrenal cortex",
+        "Deficiency of 21-hydroxylase in the adrenal cortex",
+        "Loss of StAR protein function in adrenal cells",
+        "Deficiency of ACTH secretion by the anterior pituitary"
+      ],
+      "correct": 0,
+      "explanation": "Cortisol is low while ACTH is very high, but aldosterone is normal: the fasciculata cannot respond to ACTH (**ACTH resistance**, familial glucocorticoid deficiency). The **ACTH receptor (MC2R)** is a **Gs-coupled** receptor; without it, cAMP does not rise and cortisol is not made. High ACTH also acts on melanocortin-1 receptors and darkens the skin. Autoimmune adrenalitis is the most tempting choice, but it destroys the zona glomerulosa too, so aldosterone would be low and renin high; the antibodies are negative, and 21-hydroxylase deficiency would cause early virilization and a high 17-hydroxyprogesterone.",
+      "explanation_pt": "O cortisol está baixo com ACTH muito alto, mas a aldosterona é normal: a zona fasciculada não responde ao ACTH (**resistência ao ACTH**, deficiência familiar de glicocorticoide). O **receptor de ACTH (MC2R)** é acoplado à **proteína Gs**; sem ele, o AMPc não sobe e o cortisol não é produzido. O ACTH alto também age nos receptores de melanocortina-1 e escurece a pele. A adrenalite autoimune é a alternativa mais tentadora, mas também destrói a zona glomerulosa, então a aldosterona estaria baixa e a renina alta; além disso, os autoanticorpos são negativos, e a deficiência de 21-hidroxilase causaria virilização precoce e 17-hidroxiprogesterona alta."
+    },
+    {
+      "slug": "q-hormone-signaling-qx-losartan-at1-gq",
+      "track": "step1",
+      "system": "endocrine",
+      "discipline": "pharmacology",
+      "tags": [
+        "hormone-signaling",
+        "second-messengers",
+        "ip3-dag"
+      ],
+      "stem": "A 66-year-old man with type 2 diabetes and chronic kidney disease has albumin in his urine. He starts losartan. Two weeks later, his blood pressure is lower, and his serum potassium has risen from 4.6 to 5.7 mEq/L. Plasma aldosterone is lower than before treatment. In zona glomerulosa cells, the receptor blocked by this drug normally signals through which pathway?",
+      "choices": [
+        "Gs protein, adenylyl cyclase, cAMP and PKA",
+        "Gq protein, phospholipase C, IP3 and DAG",
+        "Gi protein that lowers cAMP levels in the cell",
+        "Receptor tyrosine kinase and the Ras pathway",
+        "Intracellular receptor that binds DNA directly"
+      ],
+      "correct": 1,
+      "explanation": "Losartan blocks the **AT1 receptor**, which is coupled to **Gq**. In glomerulosa cells, Gq activates **phospholipase C**: IP3 releases calcium and DAG activates protein kinase C, and both increase **aldosterone synthesis**. With less aldosterone, the collecting duct secretes less potassium, so **hyperkalemia** can occur. The Gs-cAMP pathway is the most tempting choice because **ACTH** uses it to stimulate the adrenal cortex, but angiotensin II does not act through cAMP.",
+      "explanation_pt": "A losartana bloqueia o **receptor AT1**, acoplado à **proteína Gq**. Nas células da zona glomerulosa, a Gq ativa a **fosfolipase C**: o IP3 libera cálcio e o DAG ativa a proteína quinase C, e ambos aumentam a **síntese de aldosterona**. Com menos aldosterona, o ducto coletor secreta menos potássio, por isso pode ocorrer **hipercalemia**. A via Gs-AMPc é a alternativa mais tentadora porque o **ACTH** a usa para estimular o córtex adrenal, mas a angiotensina II não age por meio do AMPc."
+    }
+  ],
+  "notes": []
+}
