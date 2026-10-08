@@ -1,0 +1,30 @@
+import { useState } from 'react';
+import type { Settings as StudySettings } from '../../db/queries';
+
+const DAYS = ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday'];
+const clampMin = (v: string) => Math.min(600, Math.max(0, Math.round(Number(v)) || 0));
+
+export function Settings({ value, onSave }: { value: StudySettings; onSave: (s: StudySettings) => Promise<void> }) {
+  const [date, setDate] = useState(value.target_date ?? '');
+  const [mins, setMins] = useState(value.minutes_by_weekday.map(String));
+  const [busy, setBusy] = useState(false);
+  const [error, setError] = useState<string | null>(null);
+
+  async function save() {
+    setBusy(true); setError(null);
+    try { await onSave({ target_date: date || null, minutes_by_weekday: mins.map(clampMin) }); }
+    catch (e) { setError((e as Error).message); }
+    finally { setBusy(false); }
+  }
+  return (
+    <div className="card">
+      <label>Target exam date <input type="date" value={date} onChange={(e) => setDate(e.target.value)} /></label>
+      {DAYS.map((d, i) => (
+        <div key={d}><label>{d} (minutes) <input type="number" min={0} max={600} value={mins[i]}
+          onChange={(e) => setMins(mins.map((m, j) => (j === i ? e.target.value : m)))} /></label></div>
+      ))}
+      <button onClick={save} disabled={busy}>Save</button>
+      {error && <p role="alert">Could not save: {error}</p>}
+    </div>
+  );
+}
