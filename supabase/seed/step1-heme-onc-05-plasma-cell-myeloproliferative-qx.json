@@ -1,0 +1,179 @@
+{
+ "cards": [],
+ "questions": [
+  {
+   "slug": "q-plasma-cell-myeloproliferative-qx-myeloma-cold-bone-scan",
+   "track": "step1",
+   "system": "hematology-oncology",
+   "discipline": "pathology",
+   "tags": [
+    "plasma-cell-myeloproliferative",
+    "multiple-myeloma",
+    "bone"
+   ],
+   "stem": "A 66-year-old man has 3 months of back pain and fatigue. X-rays of the spine and skull show several sharply defined lytic lesions. A bone marrow biopsy shows 40% clonal plasma cells. A technetium bone scan done earlier at another clinic was read as normal. Lab results: calcium 11.6 mg/dL (normal 8.5-10.5), alkaline phosphatase 82 U/L (normal 40-130), PTH 9 pg/mL (normal 10-65), and creatinine 1.1 mg/dL (normal 0.7-1.3). Which mechanism best explains the normal bone scan and the normal alkaline phosphatase?",
+   "choices": [
+    "High calcium that suppresses PTH secretion",
+    "Lesions too small for the scan to detect",
+    "Low calcitriol production by the kidneys",
+    "Weak osteoblast activity at the lytic sites",
+    "Osteoclast inhibition by excess osteoprotegerin"
+   ],
+   "correct": 3,
+   "explanation": "A technetium bone scan and serum **alkaline phosphatase** both reflect **osteoblast** activity (new bone formation). Myeloma cells activate osteoclasts through **RANKL** and also **suppress osteoblasts** (for example with Wnt inhibitors such as DKK1), so the lesions are purely lytic, with no reactive new bone to take up the tracer. Suppressed PTH is the tempting choice because it is real here, but low PTH does not stop tracer uptake at sites of bone repair; it is simply the response to the high calcium. The lesions are large enough to see on x-ray, calcitriol changes calcium absorption rather than tracer uptake, and myeloma lowers osteoprotegerin rather than raising it.",
+   "explanation_pt": "A cintilografia óssea com tecnécio e a **fosfatase alcalina** sérica refletem a atividade dos **osteoblastos** (formação de osso novo). As células do mieloma ativam os osteoclastos via **RANKL** e também **suprimem os osteoblastos** (por exemplo, com inibidores da via Wnt como o DKK1), por isso as lesões são puramente líticas, sem osso reativo novo para captar o radiofármaco. O PTH suprimido é a opção tentadora porque está de fato baixo aqui, mas o PTH baixo não impede a captação nos locais de reparo ósseo; é apenas a resposta à hipercalcemia. As lesões são grandes o suficiente para aparecer na radiografia, o calcitriol altera a absorção de cálcio e não a captação do radiofármaco, e o mieloma reduz a osteoprotegerina, em vez de aumentá-la."
+  },
+  {
+   "slug": "q-plasma-cell-myeloproliferative-qx-cast-nephropathy-biopsy",
+   "track": "step1",
+   "system": "hematology-oncology",
+   "discipline": "pathology",
+   "tags": [
+    "plasma-cell-myeloproliferative",
+    "multiple-myeloma",
+    "kidney"
+   ],
+   "stem": "A 71-year-old woman with newly diagnosed multiple myeloma has a rising creatinine over 2 weeks. She takes no NSAIDs and has had no contrast studies. Lab results: creatinine 3.4 mg/dL (1.0 mg/dL one month ago), calcium 10.1 mg/dL (normal 8.5-10.5), urine dipstick trace protein, urine protein-to-creatinine ratio 4.2 g/g (normal below 0.2), and no red cells or white cells in the urine sediment. A kidney biopsy is done. Which finding is most likely?",
+   "choices": [
+    "Glomerular deposits with apple-green birefringence under polarized light",
+    "Dense, fractured casts in distal tubules surrounded by giant cells",
+    "Crescents that fill most Bowman spaces",
+    "Thick glomerular basement membranes with subepithelial spikes",
+    "Interstitial edema with many eosinophils"
+   ],
+   "correct": 1,
+   "explanation": "The urine dipstick detects mainly **albumin**, so a nearly negative dipstick with a high total urine protein means the protein is mostly **free light chains** (Bence Jones protein). Filtered light chains bind **uromodulin** (Tamm-Horsfall protein) and form dense, fractured casts that block the **distal tubules** and attract multinucleated giant cells: **myeloma cast nephropathy**. AL amyloidosis is the most tempting choice because it also comes from a plasma cell clone, but its glomerular deposits leak albumin, which gives a strongly positive dipstick and nephrotic syndrome. Membranous changes also cause albuminuria, and eosinophil-rich interstitial nephritis usually follows a drug and shows white cells in the urine.",
+   "explanation_pt": "A fita reagente de urina detecta principalmente **albumina**; por isso, uma fita quase negativa com proteinúria total alta indica que a proteína é sobretudo de **cadeias leves livres** (proteína de Bence Jones). As cadeias leves filtradas se ligam à **uromodulina** (proteína de Tamm-Horsfall) e formam cilindros densos e fraturados que obstruem os **túbulos distais** e atraem células gigantes multinucleadas: **nefropatia por cilindros do mieloma**. A amiloidose AL é a opção mais tentadora, pois também vem de um clone plasmocitário, mas seus depósitos glomerulares deixam passar albumina, o que dá fita fortemente positiva e síndrome nefrótica. A nefropatia membranosa também causa albuminúria, e a nefrite intersticial rica em eosinófilos costuma surgir após um medicamento e mostra leucócitos na urina."
+  },
+  {
+   "track": "step1",
+   "system": "hematology-oncology",
+   "discipline": "pathology",
+   "slug": "q-plasma-cell-myeloproliferative-qx-rouleaux-mechanism",
+   "tags": [
+    "plasma-cell-myeloproliferative",
+    "multiple-myeloma",
+    "blood-smear"
+   ],
+   "stem": "A 70-year-old woman has 4 months of back pain and fatigue. Hemoglobin is 9.4 g/dL, total serum protein is 10.2 g/dL (normal 6.0-8.3), albumin is 3.4 g/dL (normal 3.5-5.0), and the erythrocyte sedimentation rate is 105 mm/h. A blood smear shows red cells lined up in long stacks, like a pile of coins. The stacks look the same when the sample is kept at 37°C. Which mechanism best explains this smear finding?",
+   "choices": [
+    "IgM antibodies that link red cells together in the cold",
+    "Spectrin defects that make red cells small and round",
+    "Hemoglobin polymers that bend red cells into a sickle shape",
+    "IgG and complement coating that leads to splenic removal",
+    "Plasma protein that reduces repulsion between red cells"
+   ],
+   "correct": 4,
+   "explanation": "Red cells carry a **negative surface charge** (mostly from sialic acid) that keeps them apart in the blood. Large amounts of plasma protein, here a **monoclonal immunoglobulin** (fibrinogen does the same in inflammation), coat the cells and weaken this repulsion, so they stack as **rouleaux** and settle faster, which raises the **ESR**. Cold agglutinins are the tempting choice because they also make red cells stick together, but IgM forms irregular clumps, not ordered stacks, and the clumps break up when the blood is warmed to 37°C. The globulin gap here (10.2 − 3.4 = 6.8 g/dL) fits a large amount of paraprotein.",
+   "explanation_pt": "As hemácias têm **carga de superfície negativa** (principalmente do ácido siálico), que as mantém separadas no sangue. Grandes quantidades de proteína plasmática, aqui uma **imunoglobulina monoclonal** (o fibrinogênio faz o mesmo na inflamação), recobrem as células e enfraquecem essa repulsão, de modo que elas se empilham em **rouleaux** e sedimentam mais rápido, o que eleva a **VHS**. As crioaglutininas são a opção tentadora, pois também fazem as hemácias se unirem, mas a IgM forma grumos irregulares, não pilhas ordenadas, e os grumos se desfazem quando o sangue é aquecido a 37 °C. A diferença de globulinas aqui (10,2 − 3,4 = 6,8 g/dL) é compatível com uma grande quantidade de paraproteína."
+  },
+  {
+   "track": "step1",
+   "system": "hematology-oncology",
+   "discipline": "pathology",
+   "slug": "q-plasma-cell-myeloproliferative-qx-plasma-cell-cd138",
+   "tags": [
+    "plasma-cell-myeloproliferative",
+    "multiple-myeloma",
+    "immunophenotype"
+   ],
+   "stem": "A 64-year-old man has bone pain, anemia and an M spike on serum protein electrophoresis. A bone marrow biopsy shows sheets of oval cells with off-center nuclei, a clear area beside the nucleus, and chromatin in coarse clumps around the edge of the nucleus. Some cells contain round pink globules of immunoglobulin. The pathologist uses immunohistochemistry to confirm the cell type. Which marker are these cells most likely to express?",
+   "choices": [
+    "CD20",
+    "CD3",
+    "CD138",
+    "CD34",
+    "CD103"
+   ],
+   "correct": 2,
+   "explanation": "Off-center nuclei, a **perinuclear clear area** (the Golgi), **coarse peripheral chromatin** and immunoglobulin globules are features of **plasma cells**, which express **CD138** (syndecan-1) and **CD38**. CD20 is the tempting choice because plasma cells come from B cells, but B cells usually **lose CD20** (and CD19) as they mature into plasma cells. CD3 marks T cells, CD34 marks stem cells and blasts, and CD103 marks hairy cell leukemia cells.",
+   "explanation_pt": "Núcleo excêntrico, **halo claro perinuclear** (o complexo de Golgi), **cromatina grosseira na periferia do núcleo** e glóbulos de imunoglobulina são características de **plasmócitos**, que expressam **CD138** (sindecano-1) e **CD38**. O CD20 é a opção tentadora, pois os plasmócitos derivam de linfócitos B, mas as células B em geral **perdem o CD20** (e o CD19) ao amadurecer em plasmócitos. O CD3 marca linfócitos T, o CD34 marca células-tronco e blastos, e o CD103 marca as células da tricoleucemia."
+  },
+  {
+   "slug": "q-plasma-cell-myeloproliferative-qx-al-amyloid-precursor",
+   "track": "step1",
+   "system": "hematology-oncology",
+   "discipline": "pathology",
+   "tags": [
+    "plasma-cell-myeloproliferative",
+    "amyloidosis"
+   ],
+   "stem": "A 58-year-old man has 6 months of burning pain and numbness in both feet. He feels lightheaded when he stands up, and he has lost 6 kg. He has no history of chronic infection or inflammatory disease, and no relatives with nerve disease. His tongue is enlarged, with tooth marks along its edges. Purple bruises appeared around both eyes after a bout of coughing. Serum albumin is 2.3 g/dL (normal 3.5-5.0), and a 24-hour urine collection contains 5 g of protein. An abdominal fat pad biopsy shows deposits that stain with Congo red and show apple-green birefringence under polarized light. Which cell type most likely makes the precursor protein of these deposits?",
+   "choices": [
+    "Plasma cells in the bone marrow",
+    "Hepatocytes in the liver",
+    "C cells of the thyroid gland",
+    "Beta cells of the pancreatic islets",
+    "Myocytes of the cardiac atria"
+   ],
+   "correct": 0,
+   "explanation": "**Macroglossia** and **periorbital purpura** (fragile, amyloid-filled vessels) with neuropathy, lightheadedness on standing and heavy proteinuria are classic for **AL amyloidosis**, in which a clone of **plasma cells** makes **light chains** (often lambda) that misfold into amyloid. Hepatocytes are the tempting choice because the liver makes transthyretin, whose mutant form causes an inherited amyloid neuropathy, but that disease runs in families and does not enlarge the tongue; the liver also makes serum amyloid A, which needs years of chronic inflammation. Thyroid C cells make calcitonin (amyloid in medullary thyroid cancer), islet beta cells make amylin (amyloid in type 2 diabetes), and atrial myocytes make ANP (isolated atrial amyloid).",
+   "explanation_pt": "**Macroglossia** e **púrpura periorbitária** (vasos frágeis cheios de amiloide) com neuropatia, tontura ao ficar em pé e proteinúria intensa são clássicas da **amiloidose AL**, na qual um clone de **plasmócitos** produz **cadeias leves** (frequentemente lambda) que se dobram de forma anormal em amiloide. Os hepatócitos são a opção tentadora, pois o fígado produz a transtirretina, cuja forma mutante causa uma neuropatia amiloide hereditária, mas essa doença ocorre em famílias e não aumenta a língua; o fígado também produz a proteína amiloide A sérica, que exige anos de inflamação crônica. As células C da tireoide produzem calcitonina (amiloide no carcinoma medular de tireoide), as células beta das ilhotas produzem amilina (amiloide no diabetes tipo 2) e os miócitos atriais produzem o ANP (amiloide atrial isolado)."
+  },
+  {
+   "slug": "q-plasma-cell-myeloproliferative-qx-et-pseudohyperkalemia",
+   "track": "step1",
+   "system": "hematology-oncology",
+   "discipline": "pathology",
+   "tags": [
+    "plasma-cell-myeloproliferative",
+    "essential-thrombocythemia",
+    "potassium"
+   ],
+   "stem": "A 58-year-old woman with essential thrombocythemia comes for a routine visit. She feels well and takes no drugs that affect potassium. Results from a serum sample: sodium 140 mEq/L, potassium 5.8 mEq/L (normal 3.5-5.0), creatinine 0.8 mg/dL, glucose 95 mg/dL, and bicarbonate 25 mEq/L. The laboratory reports no hemolysis. Platelet count is 1,500,000/mm3, and WBC count is 9,800/mm3. An ECG is normal. A repeat potassium, measured in plasma from a heparinized tube that is processed right away, is 4.3 mEq/L. Which best explains the high first potassium value?",
+   "choices": [
+    "Hemolysis of red cells during the blood draw",
+    "Shift of potassium out of cells from acidosis",
+    "Low aldosterone effect in the collecting duct",
+    "Potassium released by platelets in clotting",
+    "Reduced potassium excretion from kidney injury"
+   ],
+   "correct": 3,
+   "explanation": "Serum is the fluid left after blood **clots** in the tube, and activated platelets release their potassium during clotting. With a very high platelet count, this adds enough potassium to give **pseudohyperkalemia**, while the plasma value (no clotting) and the ECG are normal. Hemolysis during the draw is the most tempting choice because it is the most common cause of a falsely high potassium, but the laboratory found none, and it would also raise the plasma result. Her normal bicarbonate, creatinine and plasma potassium rule out acidosis, kidney injury and low aldosterone.",
+   "explanation_pt": "O soro é o líquido que sobra após o sangue **coagular** no tubo, e as plaquetas ativadas liberam seu potássio durante a coagulação. Com contagem de plaquetas muito alta, isso acrescenta potássio suficiente para gerar **pseudo-hipercalemia**, enquanto o valor no plasma (sem coagulação) e o ECG são normais. A hemólise durante a coleta é a opção mais tentadora, pois é a causa mais comum de potássio falsamente elevado, mas o laboratório não a encontrou, e ela também elevaria o resultado no plasma. O bicarbonato, a creatinina e o potássio plasmático normais afastam acidose, lesão renal e hipoaldosteronismo."
+  },
+  {
+   "track": "step1",
+   "system": "hematology-oncology",
+   "discipline": "pathology",
+   "slug": "q-plasma-cell-myeloproliferative-qx-pv-aquagenic-pruritus",
+   "tags": [
+    "plasma-cell-myeloproliferative",
+    "polycythemia-vera"
+   ],
+   "stem": "A 57-year-old man has had severe itching for 6 months. It starts within minutes after a warm shower and lasts about an hour. His skin looks normal, with no rash, dryness or jaundice. Hemoglobin is 18.9 g/dL, hematocrit is 57%, WBC count is 12,500/mm3 with 3% basophils (normal 0-1%), and platelets are 540,000/mm3. Oxygen saturation is 97% on room air, and creatinine is normal. Genetic testing finds a JAK2 V617F mutation. Which mechanism best explains his itching?",
+   "choices": [
+    "Bile acids that build up in the skin from cholestasis",
+    "Histamine from increased basophils and mast cells",
+    "IgE-mediated allergy to ingredients in his shower soap",
+    "Uremic toxins that build up when the kidneys fail",
+    "Dry skin from damage to the protective lipid barrier"
+   ],
+   "correct": 1,
+   "explanation": "High counts in all three lines, normal oxygen saturation and **JAK2 V617F** point to **polycythemia vera**. The clone also makes more **basophils** and **mast cells**, and contact with warm water triggers **histamine** release, which causes itching after bathing (*aquagenic pruritus*). An IgE-mediated allergy is the tempting choice because histamine is also the mediator there, but allergy needs a specific antigen and usually causes hives, not itching after any warm water. His skin is not dry, he has no jaundice, and his creatinine is normal, so dry skin, cholestasis and uremia do not fit.",
+   "explanation_pt": "Aumento das três séries, saturação de oxigênio normal e **JAK2 V617F** indicam **policitemia vera**. O clone também produz mais **basófilos** e **mastócitos**, e o contato com água morna desencadeia liberação de **histamina**, que causa prurido após o banho (*aquagenic pruritus*, prurido aquagênico). Uma alergia mediada por IgE é a opção tentadora, pois a histamina também é o mediador nela, mas a alergia exige um antígeno específico e costuma causar urticária, não prurido após qualquer contato com água morna. A pele dele não está seca, ele não tem icterícia e a creatinina é normal, então pele seca, colestase e uremia não se encaixam."
+  },
+  {
+   "slug": "q-plasma-cell-myeloproliferative-qx-therapy-related-mds",
+   "track": "step1",
+   "system": "hematology-oncology",
+   "discipline": "pathology",
+   "tags": [
+    "plasma-cell-myeloproliferative",
+    "myelodysplastic-syndromes"
+   ],
+   "stem": "A 70-year-old man has 4 months of fatigue and two skin infections. Five years ago, he received chemotherapy with an alkylating agent for lymphoma. Hemoglobin is 8.6 g/dL, MCV is 104 fL, WBC count is 2,400/mm3, and platelets are 68,000/mm3. Vitamin B12 and folate levels are normal. The smear shows neutrophils with only two nuclear lobes and few granules. The bone marrow is hypercellular, with 6% blasts and many ring sideroblasts on iron stain. Which is the most likely diagnosis?",
+   "choices": [
+    "Aplastic anemia",
+    "Therapy-related acute myeloid leukemia",
+    "Myelodysplastic syndrome",
+    "Megaloblastic anemia",
+    "Primary myelofibrosis"
+   ],
+   "correct": 2,
+   "explanation": "Cytopenias with a **hypercellular, dysplastic marrow**, bilobed **pseudo-Pelger-Huët** neutrophils, **ring sideroblasts** and **fewer than 20% blasts**, years after alkylating chemotherapy, point to **myelodysplastic syndrome** (ineffective hematopoiesis). Acute myeloid leukemia is the most tempting choice because therapy-related myeloid disease can progress to it, but AML needs at least 20% blasts. Megaloblastic anemia also gives macrocytosis and cytopenias, but B12 and folate are normal, and its neutrophils are hypersegmented, not bilobed. Aplastic anemia has a hypocellular, fatty marrow.",
+   "explanation_pt": "Citopenias com **medula hipercelular e displásica**, neutrófilos bilobados **pseudo-Pelger-Huët**, **sideroblastos em anel** e **menos de 20% de blastos**, anos após quimioterapia com agente alquilante, indicam **síndrome mielodisplásica** (hematopoese ineficaz). A leucemia mieloide aguda é a opção mais tentadora, pois a doença mieloide relacionada à terapia pode evoluir para ela, mas a LMA exige pelo menos 20% de blastos. A anemia megaloblástica também causa macrocitose e citopenias, mas B12 e folato estão normais, e seus neutrófilos são hipersegmentados, não bilobados. A anemia aplástica tem medula hipocelular e gordurosa."
+  }
+ ],
+ "notes": []
+}

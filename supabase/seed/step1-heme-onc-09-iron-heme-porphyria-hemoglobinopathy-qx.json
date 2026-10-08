@@ -1,0 +1,188 @@
+{
+  "cards": [],
+  "questions": [
+    {
+      "slug": "q-iron-heme-porphyria-qx-hemochromatosis-hepcidin",
+      "track": "step1",
+      "system": "hematology-oncology",
+      "discipline": "pathology",
+      "tags": [
+        "iron-heme-porphyria",
+        "hereditary-hemochromatosis",
+        "hepcidin",
+        "iron-studies"
+      ],
+      "stem": "A 48-year-old man of Irish descent comes to the clinic with 1 year of fatigue and aching in the knuckles of both hands. He drinks alcohol rarely and has never had a blood transfusion. His liver edge is felt 2 cm below the costal margin. His lab values are: hemoglobin 14.8 g/dL, serum iron 230 µg/dL (normal 60-170), total iron-binding capacity 280 µg/dL (normal 250-400), transferrin saturation 82% (normal 20-50), ferritin 1,450 ng/mL (normal 30-300), and ALT 68 U/L. Which mechanism best explains the iron build-up in this patient?",
+      "choices": [
+        "High hepcidin levels that trap iron inside macrophages",
+        "Low hepcidin levels that leave ferroportin active on enterocytes",
+        "Loss of plasma ferroxidase activity that blocks iron release",
+        "Chronic hemolysis that releases iron from destroyed red cells into plasma",
+        "Excess erythropoietin that drives iron uptake into the marrow"
+      ],
+      "correct": 1,
+      "explanation": "Very high transferrin saturation and ferritin with a normal hemoglobin, joint pain and an enlarged liver fit **hereditary hemochromatosis**. In the common forms, the liver makes too little **hepcidin** for the body's iron load, so **ferroportin** on duodenal enterocytes and macrophages is not degraded, and iron keeps flowing into the blood. **High hepcidin** is the mechanism of anemia of chronic disease: iron is trapped in macrophages, so serum iron and transferrin saturation are low, not high. Hemolysis is unlikely with a normal hemoglobin.",
+      "explanation_pt": "Saturação de transferrina e ferritina muito altas, com hemoglobina normal, dor articular e fígado aumentado indicam **hemocromatose hereditária**. Nas formas comuns, o fígado produz pouca **hepcidina** em relação à carga de ferro do corpo; assim, a **ferroportina** dos enterócitos do duodeno e dos macrófagos não é degradada, e o ferro continua entrando no sangue. **Hepcidina alta** é o mecanismo da anemia da doença crônica: o ferro fica retido nos macrófagos, então o ferro sérico e a saturação de transferrina ficam baixos, e não altos. Hemólise é improvável com hemoglobina normal."
+    },
+    {
+      "slug": "q-iron-heme-porphyria-qx-aip-drug-trigger",
+      "track": "step1",
+      "system": "hematology-oncology",
+      "discipline": "pharmacology",
+      "tags": [
+        "iron-heme-porphyria",
+        "acute-intermittent-porphyria",
+        "heme-synthesis",
+        "cytochrome-p450"
+      ],
+      "stem": "A 24-year-old woman with epilepsy was switched to carbamazepine 10 days ago. Since yesterday she has had cramping abdominal pain, nausea and vomiting, and she feels restless and cannot sleep. This morning she could not lift a cup with either hand. Pulse is 120/min and blood pressure is 148/98 mm Hg. Bowel sounds are reduced, but there is no rebound tenderness. She has no rash or blisters. A spot urine test shows a very high porphobilinogen level. Which mechanism best explains how the new drug set off this illness?",
+      "choices": [
+        "Direct inhibition of porphobilinogen deaminase by the drug",
+        "Inhibition of ferrochelatase in hepatocyte mitochondria",
+        "Release of heme from red cells destroyed by hemolysis",
+        "Induction of hepatic ALA synthase as free heme falls",
+        "Reduced renal clearance of porphobilinogen by the drug"
+      ],
+      "correct": 3,
+      "explanation": "This is an attack of **acute intermittent porphyria**: abdominal pain, motor weakness, a fast pulse and high blood pressure, with high urine **porphobilinogen** and no skin lesions. Carbamazepine induces hepatic **cytochrome P450**, and making new cytochromes uses up the liver's free heme; with less heme feedback, hepatic **ALA synthase** rises, and ALA and PBG pile up before the partly deficient enzyme. The drug does not inhibit **porphobilinogen deaminase**; that defect is inherited and usually silent until ALA synthase is driven up. Ferrochelatase inhibition would raise protoporphyrin, not urine PBG.",
+      "explanation_pt": "Trata-se de uma crise de **porfiria intermitente aguda**: dor abdominal, fraqueza motora, taquicardia e hipertensão, com **porfobilinogênio** urinário alto e sem lesões de pele. A carbamazepina induz o **citocromo P450** hepático, e a produção de novos citocromos consome o heme livre do fígado; com menos retroalimentação pelo heme, a **ALA sintase** hepática aumenta, e ALA e PBG se acumulam antes da enzima parcialmente deficiente. O fármaco não inibe a **porfobilinogênio desaminase**; esse defeito é herdado e costuma ficar silencioso até que a ALA sintase seja estimulada. A inibição da ferroquelatase aumentaria a protoporfirina, e não o PBG urinário."
+    },
+    {
+      "slug": "q-iron-heme-porphyria-qx-pct-enzyme",
+      "track": "step1",
+      "system": "hematology-oncology",
+      "discipline": "pathology",
+      "tags": [
+        "iron-heme-porphyria",
+        "porphyria-cutanea-tarda",
+        "heme-synthesis"
+      ],
+      "stem": "A 56-year-old man has had blisters on the backs of both hands for 4 months. They appear after minor bumps, break easily, and heal with scars and tiny white cysts. He has chronic hepatitis C and drinks about 6 beers a day. He has no abdominal pain, weakness or confusion. Exam also shows increased hair growth on his cheeks. His urine glows pink-orange under a Wood lamp. Reduced activity of which enzyme best explains his skin findings?",
+      "choices": [
+        "Uroporphyrinogen decarboxylase",
+        "Porphobilinogen deaminase",
+        "Ferrochelatase",
+        "Aminolevulinic acid dehydratase",
+        "Aminolevulinic acid synthase"
+      ],
+      "correct": 0,
+      "explanation": "Fragile, blistering skin on sun-exposed hands that heals with scars and milia, facial **hypertrichosis**, fluorescent urine, and **hepatitis C** with **alcohol** use point to **porphyria cutanea tarda**. Low hepatic **uroporphyrinogen decarboxylase** activity lets uroporphyrin build up; in the skin, light activates these porphyrins and damages tissue. **Ferrochelatase** deficiency (erythropoietic protoporphyria) also causes photosensitivity, but it starts in childhood with burning pain within minutes of sun, usually without blisters, and urine porphyrins are normal. Porphobilinogen deaminase deficiency causes neurovisceral attacks without skin lesions.",
+      "explanation_pt": "Pele frágil com bolhas nas mãos expostas ao sol, que deixam cicatrizes e mílios, **hipertricose** facial, urina fluorescente e **hepatite C** com uso de **álcool** indicam **porfiria cutânea tarda**. A baixa atividade hepática da **uroporfirinogênio descarboxilase** faz a uroporfirina se acumular; na pele, a luz ativa essas porfirinas e lesa o tecido. A deficiência de **ferroquelatase** (protoporfiria eritropoética) também causa fotossensibilidade, mas começa na infância, com dor em queimação poucos minutos após a exposição ao sol, geralmente sem bolhas, e as porfirinas urinárias são normais. A deficiência de porfobilinogênio desaminase causa crises neuroviscerais sem lesões de pele."
+    },
+    {
+      "slug": "q-iron-heme-porphyria-qx-lead-urine-ala",
+      "track": "step1",
+      "system": "hematology-oncology",
+      "discipline": "pathology",
+      "tags": [
+        "iron-heme-porphyria",
+        "lead-poisoning",
+        "heme-synthesis",
+        "acute-intermittent-porphyria"
+      ],
+      "stem": "A 41-year-old man who works at a car battery recycling plant has had crampy abdominal pain and constipation for 6 weeks. For 2 weeks he has had trouble lifting his right wrist. He takes no medications, and his skin is normal. Hemoglobin is 10.6 g/dL and MCV is 74 fL. A blood smear shows many red cells with coarse blue dots. Which pattern of urine heme precursors is most likely in this patient?",
+      "choices": [
+        "ALA high, porphobilinogen high",
+        "ALA normal, porphobilinogen high",
+        "ALA normal, porphobilinogen normal, uroporphyrin high",
+        "ALA low, porphobilinogen low",
+        "ALA high, porphobilinogen normal"
+      ],
+      "correct": 4,
+      "explanation": "Battery work, colic, **wrist drop**, microcytic anemia and **basophilic stippling** point to **lead poisoning**. Lead inhibits **ALA dehydratase**, the enzyme that turns ALA into porphobilinogen, so **ALA** rises in the urine while **porphobilinogen** stays normal. High ALA and high PBG together is the pattern of **acute intermittent porphyria**, which can also cause colic and motor neuropathy, but its block is one step later and it does not cause anemia or stippling. A high urine uroporphyrin fits porphyria cutanea tarda.",
+      "explanation_pt": "Trabalho com baterias, cólica, **mão caída**, anemia microcítica e **pontilhado basófilo** indicam **intoxicação por chumbo**. O chumbo inibe a **ALA desidratase**, enzima que converte o ALA em porfobilinogênio; por isso o **ALA** aumenta na urina, enquanto o **porfobilinogênio** fica normal. ALA e PBG altos ao mesmo tempo é o padrão da **porfiria intermitente aguda**, que também pode causar cólica e neuropatia motora, mas seu bloqueio é uma etapa adiante e ela não causa anemia nem pontilhado. Uroporfirina urinária alta é típica da porfiria cutânea tarda."
+    },
+    {
+      "slug": "q-iron-heme-porphyria-qx-sickle-trait-hematuria",
+      "track": "step1",
+      "system": "hematology-oncology",
+      "discipline": "pathology",
+      "tags": [
+        "iron-heme-porphyria",
+        "sickle-cell-trait",
+        "renal-papillary-necrosis"
+      ],
+      "stem": "A 23-year-old man has had painless red urine for 2 days. Newborn screening showed that he has sickle cell trait (HbAS). He has had no recent infection, injury or heavy exercise, and he takes no pain medications. Blood pressure is 122/76 mm Hg. Hemoglobin is 14.9 g/dL and creatinine is 0.9 mg/dL. Urinalysis shows many red cells of normal shape, no red cell casts and no protein. CT of the abdomen shows no stone and no renal mass. Which mechanism best explains his bleeding?",
+      "choices": [
+        "Immune complex deposits in the glomerular mesangium",
+        "Thinning of the glomerular basement membrane from a collagen defect",
+        "Red cell sickling in the hypoxic, hypertonic medulla",
+        "A small stone scraping the lining of the ureter",
+        "Prostaglandin loss from chronic analgesic use"
+      ],
+      "correct": 2,
+      "explanation": "Even in **sickle cell trait**, red cells can sickle in the **renal medulla**, where oxygen tension is low and osmolality and acidity are high. Sickling in the vasa recta causes small **papillary infarcts**, which explains painless gross hematuria with normal-shaped red cells; the same injury impairs urine concentration. **IgA nephropathy** is the most tempting choice, but it is a glomerular disease that follows a mucosal infection and gives dysmorphic red cells, red cell casts and often protein. The negative CT also matters, because **renal medullary carcinoma** is a rare tumor linked to sickle cell trait.",
+      "explanation_pt": "Mesmo no **traço falciforme**, as hemácias podem falcizar na **medula renal**, onde a tensão de oxigênio é baixa e a osmolalidade e a acidez são altas. A falcização nos vasos retos causa pequenos **infartos papilares**, o que explica a hematúria macroscópica indolor com hemácias de forma normal; a mesma lesão prejudica a concentração da urina. A **nefropatia por IgA** é a alternativa mais tentadora, mas é uma doença glomerular que surge após infecção de mucosa e causa hemácias dismórficas, cilindros hemáticos e muitas vezes proteinúria. A TC negativa também importa, porque o **carcinoma medular renal** é um tumor raro associado ao traço falciforme."
+    },
+    {
+      "slug": "q-iron-heme-porphyria-qx-hbh-disease-hemolysis",
+      "track": "step1",
+      "system": "hematology-oncology",
+      "discipline": "pathology",
+      "tags": [
+        "iron-heme-porphyria",
+        "alpha-thalassemia",
+        "hbh-disease",
+        "hemolysis"
+      ],
+      "stem": "A 6-year-old boy whose parents came from Southeast Asia is brought to the clinic because he tires easily and his eyes are sometimes yellow. His spleen is felt 4 cm below the costal margin. Hemoglobin is 8.9 g/dL, MCV is 61 fL, and the reticulocyte count is 7%. Serum iron and ferritin are normal. The blood smear shows target cells, and a special stain shows many small inclusions inside his red cells. Gene testing shows that three of his four alpha-globin genes are deleted. Which process best explains the destruction of his red cells?",
+      "choices": [
+        "Gamma-chain tetramers that hold oxygen too tightly to release it",
+        "Mutant beta chains that polymerize when they lose oxygen",
+        "Low heme synthesis caused by a lack of stored iron",
+        "IgG antibodies that coat the red cell membrane",
+        "Excess beta chains that form tetramers and precipitate"
+      ],
+      "correct": 4,
+      "explanation": "With only one working alpha-globin gene, alpha chains are scarce, so the extra beta chains pair with each other to form **HbH** (β4). HbH is unstable: it oxidizes and **precipitates** inside older red cells, and the **spleen** removes these damaged cells, which causes hemolysis, jaundice and splenomegaly. **Hb Barts** (γ4) is the tempting choice, but it forms mainly before birth, when gamma chains are made, and it dominates only when all four genes are lost (hydrops fetalis). Polymerization of deoxygenated hemoglobin is the mechanism of **HbS**, and the normal iron studies exclude iron deficiency.",
+      "explanation_pt": "Com apenas um gene de alfa-globina funcionando, faltam cadeias alfa, e as cadeias beta em excesso se unem entre si e formam a **HbH** (β4). A HbH é instável: oxida e **precipita** dentro das hemácias mais velhas, e o **baço** remove essas células lesadas, o que causa hemólise, icterícia e esplenomegalia. A **Hb Bart** (γ4) é a alternativa mais tentadora, mas ela se forma principalmente antes do nascimento, quando há produção de cadeias gama, e só predomina quando os quatro genes são perdidos (hidropisia fetal). A polimerização da hemoglobina desoxigenada é o mecanismo da **HbS**, e o ferro e a ferritina normais excluem deficiência de ferro."
+    },
+    {
+      "slug": "q-iron-heme-porphyria-qx-thalassemia-transfusional-iron",
+      "track": "step1",
+      "system": "hematology-oncology",
+      "discipline": "pathology",
+      "tags": [
+        "iron-heme-porphyria",
+        "beta-thalassemia",
+        "transfusional-hemosiderosis",
+        "iron-overload"
+      ],
+      "stem": "A 17-year-old boy with beta-thalassemia major has received red cell transfusions every 3 to 4 weeks since infancy. He stopped taking his iron chelator 3 years ago. He now has 2 months of shortness of breath and ankle swelling, and his puberty is delayed. Echocardiography shows a dilated left ventricle with an ejection fraction of 35%. His lab values before today's transfusion are: hemoglobin 9.6 g/dL, fasting glucose 168 mg/dL, ferritin 6,200 ng/mL (normal 30-300), transferrin saturation 95%, and negative hepatitis C antibody. Which process best explains his heart and endocrine disease?",
+      "choices": [
+        "Free-radical injury from iron in transfused red cells",
+        "Antibodies against minor antigens on donor red cells",
+        "High-output failure caused by his chronic anemia",
+        "Extramedullary hematopoiesis inside the affected organs",
+        "Autoimmune attack directed at several endocrine glands"
+      ],
+      "correct": 0,
+      "explanation": "Each unit of transfused blood adds iron that the body cannot excrete. Without a chelator, iron overload saturates transferrin, and free iron enters and deposits in the **heart**, **pancreas**, **pituitary** and liver (**transfusional hemosiderosis**). It makes free radicals and damages cells, which leads to cardiomyopathy, diabetes and hypogonadism. **High-output failure** from anemia is tempting, but regular transfusions keep his hemoglobin near 10 g/dL, and anemia would not explain the diabetes, delayed puberty or very high ferritin.",
+      "explanation_pt": "Cada unidade de sangue transfundida acrescenta ferro que o corpo não consegue excretar. Sem quelante, a sobrecarga de ferro satura a transferrina, e o ferro livre entra e se deposita no **coração**, no **pâncreas**, na **hipófise** e no fígado (**hemossiderose transfusional**). Ele gera radicais livres e lesa as células, levando a cardiomiopatia, diabetes e hipogonadismo. A **insuficiência de alto débito** pela anemia é tentadora, mas as transfusões regulares mantêm a hemoglobina perto de 10 g/dL, e a anemia não explicaria o diabetes, o atraso puberal nem a ferritina muito alta."
+    },
+    {
+      "slug": "q-iron-heme-porphyria-qx-sickle-dactylitis-hbf-switch",
+      "track": "step1",
+      "system": "hematology-oncology",
+      "discipline": "physiology",
+      "tags": [
+        "iron-heme-porphyria",
+        "sickle-cell-disease",
+        "fetal-hemoglobin",
+        "dactylitis"
+      ],
+      "stem": "A 7-month-old girl is brought to the emergency department because she has cried for 1 day and does not want to use her hands or stand on her feet. Newborn screening showed sickle cell disease (HbSS). Both hands and both feet are swollen, warm and tender. She has had no problems until now. Her parents ask why her disease did not cause symptoms in her first months of life. Which explanation is most accurate?",
+      "choices": [
+        "Maternal antibodies protected her red cells until they disappeared",
+        "Her spleen removed sickled cells until it became infarcted",
+        "Her red cells were still made in the liver, where sickling does not occur",
+        "Gamma-globin chains were replaced by mutant beta chains after birth",
+        "Iron stores from her mother delayed the onset of the anemia"
+      ],
+      "correct": 3,
+      "explanation": "This is **dactylitis** (hand-foot syndrome), often the first vaso-occlusive event in **HbSS**. At birth most hemoglobin is **HbF** (α2γ2), which does not polymerize with HbS. Over the first months, **γ-globin** synthesis falls and **β-globin** (here HbS) synthesis rises, so sickling and symptoms usually start after about 6 months. Maternal antibodies also fade at this age, but they protect against infection, not sickling, and red cell production had already moved from the fetal liver to the marrow before birth.",
+      "explanation_pt": "Trata-se de **dactilite** (síndrome mão-pé), muitas vezes o primeiro evento vaso-oclusivo na **HbSS**. Ao nascer, a maior parte da hemoglobina é **HbF** (α2γ2), que não polimeriza com a HbS. Nos primeiros meses, a síntese de **γ-globina** cai e a de **β-globina** (aqui, HbS) aumenta; por isso, a falcização e os sintomas costumam começar após cerca de 6 meses. Os anticorpos maternos também desaparecem nessa idade, mas protegem contra infecções, e não contra a falcização, e a produção de hemácias já havia passado do fígado fetal para a medula óssea antes do nascimento."
+    }
+  ],
+  "notes": []
+}

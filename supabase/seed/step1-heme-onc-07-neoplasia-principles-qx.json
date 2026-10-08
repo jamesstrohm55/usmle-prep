@@ -1,0 +1,180 @@
+{
+  "cards": [],
+  "questions": [
+    {
+      "slug": "q-neoplasia-principles-qx-vinyl-chloride-liver",
+      "track": "step1",
+      "system": "hematology-oncology",
+      "discipline": "pathology",
+      "tags": [
+        "neoplasia-principles",
+        "carcinogens",
+        "occupational"
+      ],
+      "stem": "A 59-year-old man has 3 months of right upper quadrant pain, fatigue and a 5-kg weight loss. For 30 years he cleaned polymerization tanks in a factory that makes polyvinyl chloride (PVC) pipes. He drinks no alcohol. Labs show: AST 58 U/L, ALT 52 U/L, alkaline phosphatase 210 U/L, alpha-fetoprotein 4 ng/mL (normal), hepatitis B surface antigen negative and hepatitis C antibody negative. CT shows several poorly defined liver masses with areas of bleeding and no signs of cirrhosis. Which tumor is most likely?",
+      "choices": [
+        "Hepatocellular carcinoma",
+        "Hepatic angiosarcoma",
+        "Cholangiocarcinoma",
+        "Hepatocellular adenoma",
+        "Cavernous hemangioma"
+      ],
+      "correct": 1,
+      "explanation": "Long work exposure to **vinyl chloride** monomer in PVC production is the classic cause of hepatic **angiosarcoma**, a malignant tumor of endothelial cells that forms bleeding masses. Hepatocellular carcinoma is the tempting choice, but its classic carcinogens are **aflatoxin**, HBV and HCV, it usually arises in a cirrhotic liver, and AFP is often high; here the viral tests and AFP are normal and there is no cirrhosis. A cavernous hemangioma is a benign vascular lesion and does not cause weight loss, and hepatocellular adenoma is benign and linked to oral contraceptives or anabolic steroids.",
+      "explanation_pt": "A exposição ocupacional prolongada ao monômero **cloreto de vinila** na produção de PVC é a causa clássica do **angiossarcoma** hepático, tumor maligno de células endoteliais que forma massas com sangramento. O carcinoma hepatocelular é a escolha tentadora, mas seus carcinógenos clássicos são a **aflatoxina**, o HBV e o HCV, ele costuma surgir em fígado cirrótico e a AFP muitas vezes está alta; aqui as sorologias virais e a AFP são normais e não há cirrose. O hemangioma cavernoso é uma lesão vascular benigna e não causa perda de peso, e o adenoma hepatocelular é benigno e associado a contraceptivos orais ou esteroides anabolizantes."
+    },
+    {
+      "slug": "q-neoplasia-principles-qx-choristoma-gastric-pancreas",
+      "track": "step1",
+      "system": "hematology-oncology",
+      "discipline": "pathology",
+      "tags": [
+        "neoplasia-principles",
+        "nomenclature"
+      ],
+      "stem": "A 46-year-old woman has mild upper abdominal discomfort after meals. Upper endoscopy shows a 1.5-cm firm nodule under the mucosa of the gastric antrum, with a small dimple in its center. The nodule is removed. Microscopy shows normal pancreatic acini, ducts and a few islets in the gastric submucosa. The cells show no atypia and no mitoses. Which term best describes this lesion?",
+      "choices": [
+        "Hamartoma",
+        "Teratoma",
+        "Glandular metaplasia",
+        "Choristoma",
+        "Adenoma"
+      ],
+      "correct": 3,
+      "explanation": "Normal, well-organized tissue found in a site where it does not belong (here, **pancreatic tissue in the stomach wall**) is a **choristoma** (heterotopic rest). The tempting choice is hamartoma, but a hamartoma is a disorganized overgrowth of tissue that is **native to that site**, such as cartilage and bronchial epithelium in the lung. Metaplasia is the replacement of one adult cell type by another at the same site, and a teratoma contains tissues from more than one germ layer.",
+      "explanation_pt": "Tecido normal e bem organizado encontrado em um local ao qual não pertence (aqui, **tecido pancreático na parede gástrica**) é um **coristoma** (tecido heterotópico). A escolha tentadora é hamartoma, mas o hamartoma é um crescimento desorganizado de tecido **próprio daquele local**, como cartilagem e epitélio brônquico no pulmão. Metaplasia é a substituição de um tipo celular adulto por outro no mesmo local, e o teratoma contém tecidos de mais de um folheto germinativo."
+    },
+    {
+      "slug": "q-neoplasia-principles-qx-p53-p21-g1-arrest",
+      "track": "step1",
+      "system": "hematology-oncology",
+      "discipline": "pathology",
+      "tags": [
+        "neoplasia-principles",
+        "cell-cycle",
+        "tumor-suppressors"
+      ],
+      "stem": "Researchers expose two cultures of human fibroblasts to ionizing radiation. Normal fibroblasts stop in G1 for many hours before they enter S phase. Fibroblasts in which both TP53 alleles have been deleted keep entering S phase with unrepaired DNA breaks. Which event most directly causes the G1 arrest in the normal cells?",
+      "choices": [
+        "Induced p21 inhibits cyclin-CDK, so Rb stays bound to E2F",
+        "Rb is hyperphosphorylated and releases E2F to the nucleus",
+        "MDM2 rises and targets p53 for proteasomal breakdown",
+        "BCL2 rises and blocks cytochrome c release",
+        "Cyclin D1 levels rise and activate CDK4 and CDK6 in the nucleus"
+      ],
+      "correct": 0,
+      "explanation": "DNA damage stabilizes **p53**, which turns on the gene for **p21**, a **CDK inhibitor**. With cyclin-CDK blocked, **Rb** stays **hypophosphorylated** and keeps **E2F** bound, so S-phase genes are not transcribed. The tempting choice reverses the logic: Rb **hyperphosphorylation** releases E2F and lets the cell **enter** S phase, which is what happens in the TP53-deleted cells. MDM2 normally degrades p53 and would weaken, not cause, the arrest.",
+      "explanation_pt": "A lesão do DNA estabiliza a **p53**, que ativa o gene da **p21**, um **inibidor de CDK**. Com a ciclina-CDK bloqueada, o **Rb** permanece **hipofosforilado** e mantém o **E2F** ligado, então os genes da fase S não são transcritos. A escolha tentadora inverte a lógica: a **hiperfosforilação** do Rb libera o E2F e permite que a célula **entre** na fase S, o que acontece nas células sem TP53. A MDM2 normalmente degrada a p53 e enfraqueceria a parada, em vez de causá-la."
+    },
+    {
+      "slug": "q-neoplasia-principles-qx-lymphoma-calcitriol-hypercalcemia",
+      "track": "step1",
+      "system": "hematology-oncology",
+      "discipline": "pathology",
+      "tags": [
+        "neoplasia-principles",
+        "paraneoplastic",
+        "hypercalcemia"
+      ],
+      "stem": "A 44-year-old man has 2 months of fevers, night sweats, weight loss, thirst and constipation. Exam shows enlarged, rubbery cervical lymph nodes. Chest CT shows a mediastinal mass and no bone lesions. Lymph node biopsy shows large binucleate cells with prominent nucleoli in a background of mixed inflammatory cells. Labs show: calcium 12.8 mg/dL (high), phosphate 4.4 mg/dL (normal), PTH 6 pg/mL (low), PTH-related peptide undetectable, 25-hydroxyvitamin D normal and 1,25-dihydroxyvitamin D high. Which mechanism best explains his hypercalcemia?",
+      "choices": [
+        "Tumor secretion of PTH-related peptide",
+        "Ectopic secretion of PTH by tumor cells",
+        "Local osteoclast activation by lymphoma deposits in the marrow",
+        "Excess dietary intake of vitamin D",
+        "Unregulated 1-alpha-hydroxylase in the tumor tissue"
+      ],
+      "correct": 4,
+      "explanation": "**Hodgkin lymphoma** (Reed-Sternberg cells) and some other lymphomas can cause hypercalcemia because tumor cells or nearby macrophages express **1-alpha-hydroxylase** that is not controlled by PTH, so they convert 25-hydroxyvitamin D to **calcitriol**. Calcitriol raises gut absorption of calcium and phosphate, and the high calcium suppresses PTH. The tempting choice is PTH-related peptide, the most common cause of humoral hypercalcemia of malignancy, but it is undetectable here and usually does not raise 1,25-dihydroxyvitamin D. Vitamin D intoxication would raise **25**-hydroxyvitamin D, which is normal.",
+      "explanation_pt": "O **linfoma de Hodgkin** (células de Reed-Sternberg) e alguns outros linfomas podem causar hipercalcemia porque as células tumorais ou macrófagos vizinhos expressam **1-alfa-hidroxilase** não controlada pelo PTH, convertendo 25-hidroxivitamina D em **calcitriol**. O calcitriol aumenta a absorção intestinal de cálcio e fosfato, e o cálcio alto suprime o PTH. A escolha tentadora é o peptídeo relacionado ao PTH, a causa mais comum de hipercalcemia humoral da malignidade, mas ele está indetectável aqui e em geral não eleva a 1,25-di-hidroxivitamina D. A intoxicação por vitamina D elevaria a **25**-hidroxivitamina D, que está normal."
+    },
+    {
+      "slug": "q-neoplasia-principles-qx-cytokeratin-carcinoma-origin",
+      "track": "step1",
+      "system": "hematology-oncology",
+      "discipline": "pathology",
+      "tags": [
+        "neoplasia-principles",
+        "immunohistochemistry",
+        "intermediate-filaments"
+      ],
+      "stem": "A 61-year-old woman has weight loss and an enlarged liver. CT shows many liver masses but no clear primary tumor. Liver biopsy shows sheets of poorly differentiated malignant cells, and the pathologist cannot tell the cell type from their shape. Immunohistochemistry shows: cytokeratin positive, vimentin negative, desmin negative, S-100 negative and CD45 negative. From which cell type did this tumor most likely arise?",
+      "choices": [
+        "Mesenchymal fibroblasts",
+        "Melanocytes",
+        "Epithelial cells",
+        "Lymphocytes",
+        "Smooth muscle cells"
+      ],
+      "correct": 2,
+      "explanation": "**Cytokeratin** is the **intermediate filament** of **epithelial** cells, so a cytokeratin-positive tumor is a **carcinoma**, here most likely metastatic to the liver. Melanoma is the tempting choice because it often presents as poorly differentiated metastases with an unknown primary, but it is typically **S-100** positive and cytokeratin negative. Sarcomas usually express **vimentin** (and desmin if muscle), and lymphomas express **CD45** (leukocyte common antigen).",
+      "explanation_pt": "A **citoqueratina** é o **filamento intermediário** das células **epiteliais**, então um tumor citoqueratina-positivo é um **carcinoma**, aqui provavelmente metastático para o fígado. O melanoma é a escolha tentadora porque costuma surgir como metástases pouco diferenciadas de primário desconhecido, mas em geral é **S-100** positivo e citoqueratina negativo. Sarcomas costumam expressar **vimentina** (e desmina se musculares), e linfomas expressam **CD45** (antígeno leucocitário comum)."
+    },
+    {
+      "slug": "q-neoplasia-principles-qx-kras-gtpase-mechanism",
+      "track": "step1",
+      "system": "hematology-oncology",
+      "discipline": "pathology",
+      "tags": [
+        "neoplasia-principles",
+        "oncogenes",
+        "signal-transduction"
+      ],
+      "stem": "A 66-year-old man is found to have adenocarcinoma of the head of the pancreas. Tumor DNA sequencing shows a point mutation at codon 12 of one KRAS allele; the other KRAS allele is normal. The NF1 gene is normal. By which mechanism does this mutation most directly drive tumor growth?",
+      "choices": [
+        "A fusion protein with constant tyrosine kinase activity",
+        "Amplification of a gene for a nuclear transcription factor",
+        "Loss of a protein that speeds RAS GTP hydrolysis",
+        "Impaired GTP hydrolysis that keeps RAS in its active form",
+        "Overexpression of a receptor tyrosine kinase on the cell surface"
+      ],
+      "correct": 3,
+      "explanation": "**KRAS** is a small **G protein**: it is active when bound to **GTP** and turns itself off by hydrolyzing GTP to GDP. Codon 12 mutations impair this **GTPase** activity and make RAS resistant to GTPase-activating proteins, so RAS stays GTP-bound and keeps signaling through the **MAP kinase** pathway; one mutated allele is enough (**gain of function**). The tempting choice is loss of a GTPase-activating protein, which is how **NF1** (neurofibromin) loss activates RAS, but NF1 is normal here and NF1 is a tumor suppressor that needs both alleles lost. A tyrosine kinase fusion describes BCR-ABL.",
+      "explanation_pt": "O **KRAS** é uma pequena **proteína G**: fica ativo ligado ao **GTP** e se desliga hidrolisando GTP em GDP. Mutações no códon 12 prejudicam essa atividade de **GTPase** e tornam o RAS resistente às proteínas ativadoras de GTPase, então o RAS permanece ligado ao GTP e continua sinalizando pela via das **MAP quinases**; basta um alelo mutado (**ganho de função**). A escolha tentadora é a perda de uma proteína ativadora de GTPase, que é como a perda do **NF1** (neurofibromina) ativa o RAS, mas o NF1 está normal aqui e é um supressor tumoral que exige a perda dos dois alelos. Uma fusão com atividade de tirosina quinase descreve o BCR-ABL."
+    },
+    {
+      "slug": "q-neoplasia-principles-qx-anti-yo-cerebellar-degeneration",
+      "track": "step1",
+      "system": "hematology-oncology",
+      "discipline": "pathology",
+      "tags": [
+        "neoplasia-principles",
+        "paraneoplastic",
+        "neurologic"
+      ],
+      "stem": "A 54-year-old woman has 6 weeks of quickly worsening unsteady gait, slurred speech and double vision. Exam shows a wide-based gait, bilateral dysmetria on finger-to-nose testing and nystagmus. Strength, reflexes and mental status are normal. Brain MRI is normal. Serum is positive for anti-Yo antibodies, and pelvic ultrasound shows a complex adnexal mass. Immune injury to which target best explains her neurologic findings?",
+      "choices": [
+        "NMDA receptors on hippocampal neurons",
+        "Purkinje cells of the cerebellar cortex",
+        "Presynaptic calcium channels at motor nerve endings",
+        "Acetylcholine receptors on skeletal muscle",
+        "Myelin of the cerebellar white matter"
+      ],
+      "correct": 1,
+      "explanation": "**Paraneoplastic cerebellar degeneration** with **anti-Yo** antibodies is classically linked to **ovarian** and breast carcinoma: an immune response against a tumor antigen also attacks **Purkinje cells**, causing subacute pancerebellar ataxia, often before the tumor is found. The tempting choice is anti-NMDA receptor encephalitis, which is also linked to an ovarian tumor (**teratoma**), but it causes psychiatric symptoms, seizures, dyskinesias and reduced consciousness rather than pure ataxia. Presynaptic calcium channel antibodies cause Lambert-Eaton syndrome, with proximal weakness and low reflexes.",
+      "explanation_pt": "A **degeneração cerebelar paraneoplásica** com anticorpos **anti-Yo** associa-se classicamente aos carcinomas de **ovário** e de mama: uma resposta imune contra um antígeno tumoral também ataca as **células de Purkinje**, causando ataxia pancerebelar subaguda, muitas vezes antes de o tumor ser encontrado. A escolha tentadora é a encefalite anti-receptor NMDA, também associada a tumor ovariano (**teratoma**), mas ela causa sintomas psiquiátricos, crises epilépticas, discinesias e rebaixamento da consciência, e não ataxia pura. Anticorpos contra canais de cálcio pré-sinápticos causam a síndrome de Lambert-Eaton, com fraqueza proximal e reflexos diminuídos."
+    },
+    {
+      "slug": "q-neoplasia-principles-qx-stage-predicts-prognosis",
+      "track": "step1",
+      "system": "hematology-oncology",
+      "discipline": "pathology",
+      "tags": [
+        "neoplasia-principles",
+        "grading-staging"
+      ],
+      "stem": "A 63-year-old man has a gastric adenocarcinoma removed by partial gastrectomy. The pathology report states: tumor diameter 2.5 cm; well differentiated (low grade), with regular glands; mild nuclear pleomorphism; few mitoses; invasion into the muscularis propria; 0 of 18 lymph nodes involved. Staging CT shows two small liver nodules, and a needle biopsy shows adenocarcinoma identical to the gastric tumor. Which finding is the strongest predictor of his prognosis?",
+      "choices": [
+        "Spread of the tumor to the liver",
+        "Well-differentiated glandular pattern",
+        "Mild nuclear pleomorphism",
+        "Low number of mitoses",
+        "Tumor diameter of 2.5 cm"
+      ],
+      "correct": 0,
+      "explanation": "**Stage** (TNM: local extent, nodes and **distant metastasis**) predicts prognosis better than **grade**, and distant metastasis places the tumor in the highest stage whatever its size or depth. The tempting choice is the well-differentiated pattern, a low **grade** that usually suggests slower growth, but grade describes how the cells look, not how far they have spread. Pleomorphism and mitotic count are also features of grade, and tumor size alone matters much less than spread to the liver.",
+      "explanation_pt": "O **estádio** (TNM: extensão local, linfonodos e **metástase a distância**) prediz o prognóstico melhor que o **grau**, e a metástase a distância coloca o tumor no estádio mais alto, qualquer que seja seu tamanho ou profundidade. A escolha tentadora é o padrão bem diferenciado, um **grau** baixo que em geral sugere crescimento mais lento, mas o grau descreve a aparência das células, e não até onde elas se espalharam. Pleomorfismo e número de mitoses também são componentes do grau, e o tamanho do tumor isolado importa muito menos que a disseminação para o fígado."
+    }
+  ],
+  "notes": []
+}

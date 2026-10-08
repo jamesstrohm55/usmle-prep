@@ -1,0 +1,185 @@
+{
+  "cards": [],
+  "questions": [
+    {
+      "slug": "q-leukemias-lymphomas-qx-all-tdt",
+      "track": "step1",
+      "system": "hematology-oncology",
+      "discipline": "pathology",
+      "tags": [
+        "leukemias-lymphomas",
+        "acute-leukemia",
+        "all"
+      ],
+      "stem": "A 4-year-old boy has 3 weeks of tiredness, pale skin, easy bruising and leg pain that wakes him at night. He has scattered petechiae, a mildly enlarged liver and spleen, and small nodes in the neck. Hemoglobin is 7.4 g/dL, leukocyte count is 38,000/mm3 with 70% blasts, and platelet count is 22,000/mm3. The blasts are small, with scant cytoplasm, no granules and no Auer rods. Flow cytometry shows that the blasts express CD10 and CD19. Which additional finding in the blasts is most likely?",
+      "choices": [
+        "Cytoplasmic myeloperoxidase",
+        "Nuclear cyclin D1",
+        "Nuclear TdT",
+        "Cytoplasmic TRAP",
+        "Surface CD15 and CD30"
+      ],
+      "correct": 2,
+      "explanation": "A young child with bone pain, cytopenias and small agranular blasts that carry the B-cell markers **CD10** and **CD19** has **B-lymphoblastic leukemia (ALL)**. Lymphoblasts are immature lymphoid cells, so they express the nuclear DNA polymerase **TdT** (terminal deoxynucleotidyl transferase). Myeloperoxidase is tempting because it is the classic stain used to sort blasts, but it marks **myeloblasts** of AML, which usually have granules or Auer rods and occur mostly in adults.",
+      "explanation_pt": "Criança pequena com dor óssea, citopenias e blastos pequenos, sem grânulos, que expressam os marcadores B **CD10** e **CD19** tem **leucemia linfoblástica aguda B (LLA)**. Linfoblastos são células linfoides imaturas, por isso expressam a DNA polimerase nuclear **TdT** (desoxinucleotidil transferase terminal). A mieloperoxidase é tentadora porque é a coloração clássica para classificar os blastos, mas marca os **mieloblastos** da LMA, que costumam ter grânulos ou bastonetes de Auer e ocorrem sobretudo em adultos."
+    },
+    {
+      "slug": "q-leukemias-lymphomas-qx-cll-hypogammaglobulinemia",
+      "track": "step1",
+      "system": "hematology-oncology",
+      "discipline": "pathology",
+      "tags": [
+        "leukemias-lymphomas",
+        "chronic-leukemia",
+        "cll",
+        "infection"
+      ],
+      "stem": "A 71-year-old man has had chronic lymphocytic leukemia for 4 years and has never received treatment. In the past year he has had three pneumonias; sputum cultures grew Streptococcus pneumoniae twice and Haemophilus influenzae once. The spleen tip is palpable. Current labs: hemoglobin 12.6 g/dL; leukocyte count 64,000/mm3 with 88% small mature lymphocytes; absolute neutrophil count 4,100/mm3; platelet count 162,000/mm3. Which mechanism best explains his repeated infections?",
+      "choices": [
+        "Low levels of normal immunoglobulins",
+        "Too few circulating neutrophils",
+        "Loss of splenic filtering of encapsulated bacteria",
+        "Inherited lack of late complement components",
+        "Selective loss of CD4+ helper T cells"
+      ],
+      "correct": 0,
+      "explanation": "In **CLL** the clonal B cells crowd out and suppress normal B cells, so **hypogammaglobulinemia** is common, and the patient cannot make opsonizing antibodies against **encapsulated bacteria** such as pneumococcus and *H. influenzae*. Neutropenia is tempting, but his absolute neutrophil count is normal and he has had no chemotherapy. His spleen is enlarged, not absent, and a late complement defect would cause mainly *Neisseria* infections.",
+      "explanation_pt": "Na **LLC**, os linfócitos B clonais suprimem e deslocam os linfócitos B normais, por isso a **hipogamaglobulinemia** é comum, e o paciente não produz anticorpos opsonizantes contra **bactérias encapsuladas**, como pneumococo e *H. influenzae*. A neutropenia é tentadora, mas a contagem absoluta de neutrófilos é normal e ele nunca recebeu quimioterapia. O baço está aumentado, não ausente, e uma deficiência dos componentes terminais do complemento causaria sobretudo infecções por *Neisseria*."
+    },
+    {
+      "slug": "q-leukemias-lymphomas-qx-burkitt-tls-hypocalcemia",
+      "track": "step1",
+      "system": "hematology-oncology",
+      "discipline": "pathology",
+      "tags": [
+        "leukemias-lymphomas",
+        "tumor-lysis-syndrome",
+        "burkitt-lymphoma"
+      ],
+      "stem": "A 13-year-old boy has a rapidly growing mass in the right lower abdomen. Biopsy shows sheets of medium-sized B cells with a very high proliferation index and scattered pale macrophages full of cell debris, giving a *starry sky* look. He starts combination chemotherapy. Two days later he has muscle cramps and tingling around the mouth, and tapping in front of his ear makes his facial muscles twitch. Serum results: potassium 6.1 mEq/L, phosphate 9.8 mg/dL, uric acid 11.4 mg/dL, calcium 6.6 mg/dL, creatinine 1.9 mg/dL (0.6 mg/dL before treatment). Which mechanism best explains his low calcium and these symptoms?",
+      "choices": [
+        "Low PTH secretion from parathyroid glands injured by chemotherapy",
+        "Magnesium loss through injured renal tubules",
+        "More calcium bound to albumin because of alkalosis",
+        "Calcium binding to phosphate released from lysed cells",
+        "Calcium chelation by citrate in transfused blood"
+      ],
+      "correct": 3,
+      "explanation": "Chemotherapy for **Burkitt lymphoma** (starry sky, very fast growth) caused **tumor lysis syndrome**: high potassium, phosphate and uric acid, and acute kidney injury. Dying tumor cells release large amounts of **phosphate**, which binds calcium and precipitates as calcium phosphate, so ionized calcium falls and causes tetany (positive Chvostek sign). Hypomagnesemia is tempting as a cause of hypocalcemia, but nothing here points to magnesium loss, and the very high phosphate explains the low calcium; PTH would be high, not low, in this setting.",
+      "explanation_pt": "A quimioterapia do **linfoma de Burkitt** (céu estrelado, crescimento muito rápido) causou **síndrome de lise tumoral**: potássio, fosfato e ácido úrico elevados, além de lesão renal aguda. As células tumorais que morrem liberam muito **fosfato**, que se liga ao cálcio e precipita como fosfato de cálcio; o cálcio ionizado cai e causa tetania (sinal de Chvostek positivo). A hipomagnesemia é tentadora como causa de hipocalcemia, mas nada aqui sugere perda de magnésio, e o fosfato muito alto explica o cálcio baixo; nessa situação o PTH estaria alto, e não baixo."
+    },
+    {
+      "slug": "q-leukemias-lymphomas-qx-lch-cell-of-origin",
+      "track": "step1",
+      "system": "hematology-oncology",
+      "discipline": "pathology",
+      "tags": [
+        "leukemias-lymphomas",
+        "langerhans-cell-histiocytosis"
+      ],
+      "stem": "A 3-year-old girl has had a tender lump on her scalp for 6 weeks. She is otherwise well and drinks a normal amount of fluid. Skull x-ray shows a single round, sharply punched-out lytic lesion in the parietal bone. Biopsy shows sheets of large cells with pale cytoplasm and grooved, bean-shaped nuclei, mixed with many eosinophils. The large cells stain for S-100, CD1a and langerin (CD207). The large cells are most closely related to which normal cell?",
+      "choices": [
+        "Osteoclast that resorbs bone",
+        "Dendritic cell of the epidermis",
+        "Mast cell of the connective tissue",
+        "Plasma cell of the bone marrow",
+        "Eosinophil of the blood"
+      ],
+      "correct": 1,
+      "explanation": "This is **Langerhans cell histiocytosis**: a lytic skull lesion in a child, with large cells with grooved nuclei that express **S-100, CD1a and langerin**. The tumor cells are clonal relatives of the **Langerhans cell**, the antigen-presenting **dendritic cell** of the epidermis, and contain **Birbeck granules** (tennis racket shape) on electron microscopy. The osteoclast is tempting because the lesion destroys bone, but osteoclasts are reacting cells, not the clonal cells, and do not express CD1a. The many eosinophils are reactive too (*eosinophilic granuloma*).",
+      "explanation_pt": "Trata-se de **histiocitose de células de Langerhans**: lesão lítica no crânio de uma criança, com células grandes de núcleo sulcado que expressam **S-100, CD1a e langerina**. As células tumorais são células clonais aparentadas à **célula de Langerhans**, a **célula dendrítica** apresentadora de antígeno da epiderme, e contêm **grânulos de Birbeck** (em forma de raquete de tênis) na microscopia eletrônica. O osteoclasto é tentador porque a lesão destrói osso, mas os osteoclastos são células reativas, não clonais, e não expressam CD1a. Os muitos eosinófilos também são reativos (*granuloma eosinofílico*)."
+    },
+    {
+      "slug": "q-leukemias-lymphomas-qx-atll-htlv1",
+      "track": "step1",
+      "system": "hematology-oncology",
+      "discipline": "pathology",
+      "tags": [
+        "leukemias-lymphomas",
+        "non-hodgkin-lymphoma",
+        "t-cell-lymphoma",
+        "htlv-1"
+      ],
+      "stem": "A 58-year-old woman who grew up in Salvador, Brazil, has 1 month of fatigue, thirst, constipation and new confusion. She has a widespread red skin rash, enlarged lymph nodes in the neck and groin, and an enlarged liver. Labs: calcium 13.6 mg/dL (normal 8.5-10.5), PTH 6 pg/mL (normal 10-65), leukocyte count 42,000/mm3. The blood smear shows many lymphocytes with deeply lobed nuclei shaped like flower petals. Flow cytometry shows that these cells are CD4+ and CD25+ T cells. Which infection most likely caused this disease?",
+      "choices": [
+        "Epstein-Barr virus (EBV)",
+        "Human herpesvirus 8 (HHV-8)",
+        "HIV-1",
+        "Hepatitis C virus (HCV)",
+        "HTLV-1"
+      ],
+      "correct": 4,
+      "explanation": "This is **adult T-cell leukemia/lymphoma**: CD4+ CD25+ malignant T cells with *flower-shaped* nuclei, skin and node involvement, and **hypercalcemia** with low PTH (the tumor cells release **PTHrP** and activate osteoclasts). It is caused by **HTLV-1**, which is endemic in Japan, the Caribbean, parts of Africa and Brazil, especially Bahia. EBV is tempting because it drives several lymphomas, but these are mainly B-cell tumors such as Burkitt and Hodgkin lymphoma. HIV also raises lymphoma risk, but mainly aggressive B-cell lymphomas, and it destroys CD4+ T cells instead of transforming them.",
+      "explanation_pt": "Trata-se de **leucemia/linfoma de células T do adulto**: linfócitos T malignos CD4+ CD25+ com núcleos em *flor*, acometimento de pele e linfonodos e **hipercalcemia** com PTH baixo (as células tumorais liberam **PTHrP** e ativam osteoclastos). É causada pelo **HTLV-1**, endêmico no Japão, no Caribe, em partes da África e no Brasil, especialmente na Bahia. O EBV é tentador porque causa vários linfomas, mas sobretudo tumores de células B, como os linfomas de Burkitt e de Hodgkin. O HIV também aumenta o risco de linfoma, mas principalmente de linfomas B agressivos, e destrói os linfócitos T CD4+ em vez de transformá-los."
+    },
+    {
+      "slug": "q-leukemias-lymphomas-qx-sezary-cd4",
+      "track": "step1",
+      "system": "hematology-oncology",
+      "discipline": "pathology",
+      "tags": [
+        "leukemias-lymphomas",
+        "non-hodgkin-lymphoma",
+        "t-cell-lymphoma",
+        "mycosis-fungoides"
+      ],
+      "stem": "A 67-year-old man has had itchy, scaly red patches on his buttocks and trunk for 6 years that were treated as eczema. Over the past 4 months the redness has spread to cover almost all of his skin, and he has enlarged lymph nodes in both axillae. The blood smear shows lymphocytes with folded nuclei that look like the surface of the brain. A skin biopsy shows atypical lymphocytes in the epidermis, some of them in small clusters with little spongiosis. Which cell type are the malignant cells most likely?",
+      "choices": [
+        "CD8+ cytotoxic T cell",
+        "CD19+ B cell",
+        "CD56+ natural killer cell",
+        "CD4+ helper T cell",
+        "CD68+ macrophage"
+      ],
+      "correct": 3,
+      "explanation": "Years of patches and plaques followed by erythroderma, lymph node spread and blood cells with *cerebriform* nuclei mean **mycosis fungoides** that has progressed to **Sézary syndrome**. These are skin-homing **CD4+ T-cell** lymphomas; the clusters of tumor cells in the epidermis are **Pautrier microabscesses**. CD8+ cytotoxic T cells are tempting because they also enter the epidermis in many inflammatory skin diseases, but in mycosis fungoides the clonal cells are typically CD4+.",
+      "explanation_pt": "Anos de manchas e placas seguidos de eritrodermia, acometimento linfonodal e células no sangue com núcleos *cerebriformes* indicam **micose fungoide** que evoluiu para **síndrome de Sézary**. São linfomas de **linfócitos T CD4+** com tropismo pela pele; os agrupamentos de células tumorais na epiderme são os **microabscessos de Pautrier**. Os linfócitos T citotóxicos CD8+ são tentadores porque também entram na epiderme em muitas dermatoses inflamatórias, mas na micose fungoide as células clonais são tipicamente CD4+."
+    },
+    {
+      "slug": "q-leukemias-lymphomas-qx-malt-h-pylori",
+      "track": "step1",
+      "system": "hematology-oncology",
+      "discipline": "pathology",
+      "tags": [
+        "leukemias-lymphomas",
+        "non-hodgkin-lymphoma",
+        "malt-lymphoma"
+      ],
+      "stem": "A 62-year-old woman has 4 months of upper abdominal discomfort and early fullness after meals. Endoscopy shows thick, nodular folds in the gastric antrum. Biopsy shows a dense infiltrate of small B cells that invade and destroy gastric glands, together with chronic gastritis and many curved rods on the surface epithelium on Giemsa stain. Staging shows no disease outside the stomach. Early in its course, the growth of this tumor depends mainly on which factor?",
+      "choices": [
+        "T-cell help driven by Helicobacter pylori antigens",
+        "Constant BCL2 expression from a t(14;18) translocation",
+        "Cyclin D1 overexpression from a t(11;14) translocation",
+        "Latent proteins of Epstein-Barr virus in the B cells",
+        "MYC activation from a t(8;14) translocation"
+      ],
+      "correct": 0,
+      "explanation": "Small B cells that invade glands (**lymphoepithelial lesions**) on a background of *H. pylori* gastritis indicate **gastric MALT lymphoma**, a marginal zone lymphoma. Early on, the clonal B cells still need signals from T cells that react to ***H. pylori*** antigens, so eradicating the bacterium often makes the tumor regress. t(14;18) is tempting because it also gives a small B-cell lymphoma, but it defines follicular lymphoma, which grows in nodes as follicles and does not depend on infection.",
+      "explanation_pt": "Linfócitos B pequenos que invadem as glândulas (**lesões linfoepiteliais**) sobre uma gastrite por *H. pylori* indicam **linfoma MALT gástrico**, um linfoma da zona marginal. No início, os linfócitos B clonais ainda dependem de sinais de linfócitos T que reagem aos antígenos do ***H. pylori***, por isso a erradicação da bactéria muitas vezes faz o tumor regredir. A t(14;18) é tentadora porque também causa um linfoma de pequenas células B, mas define o linfoma folicular, que cresce em linfonodos formando folículos e não depende de infecção."
+    },
+    {
+      "slug": "q-leukemias-lymphomas-qx-richter-transformation",
+      "track": "step1",
+      "system": "hematology-oncology",
+      "discipline": "pathology",
+      "tags": [
+        "leukemias-lymphomas",
+        "chronic-leukemia",
+        "cll",
+        "richter-transformation"
+      ],
+      "stem": "A 74-year-old man has had chronic lymphocytic leukemia for 6 years, managed with observation. Over 4 weeks, one node in his left neck has grown from 2 cm to 7 cm, and he has new fevers, night sweats and a 5-kg weight loss. Serum lactate dehydrogenase is markedly elevated. Biopsy of the node shows sheets of large cells, each about twice the size of a normal lymphocyte, with vesicular nuclei and prominent nucleoli. The large cells express CD20 and have a high proliferation index; there is no starry sky pattern. What is the most likely diagnosis in this node?",
+      "choices": [
+        "Reactive follicular hyperplasia",
+        "Diffuse large B-cell lymphoma",
+        "Classical Hodgkin lymphoma",
+        "Burkitt lymphoma",
+        "Mantle cell lymphoma"
+      ],
+      "correct": 1,
+      "explanation": "Sudden growth of one node, B symptoms and a high LDH in a patient with **CLL** suggest **Richter transformation**, most often into **diffuse large B-cell lymphoma**, which fits the sheets of large CD20+ cells. Classical Hodgkin lymphoma is a rare form of Richter transformation, but it shows scattered CD15+/CD30+ Reed-Sternberg cells in a mixed inflammatory background, not sheets of large B cells. Burkitt lymphoma has medium-sized cells with a starry sky pattern.",
+      "explanation_pt": "Crescimento súbito de um linfonodo, sintomas B e LDH alta em paciente com **LLC** sugerem **transformação de Richter**, mais frequentemente em **linfoma difuso de grandes células B**, compatível com os lençóis de células grandes CD20+. O linfoma de Hodgkin clássico é uma forma rara de transformação de Richter, mas mostra células de Reed-Sternberg CD15+/CD30+ esparsas em fundo inflamatório misto, e não lençóis de grandes células B. O linfoma de Burkitt tem células de tamanho médio com padrão em céu estrelado."
+    }
+  ],
+  "notes": []
+}

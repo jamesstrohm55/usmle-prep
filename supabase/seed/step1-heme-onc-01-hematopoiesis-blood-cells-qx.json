@@ -1,0 +1,185 @@
+{
+  "cards": [],
+  "questions": [
+    {
+      "slug": "q-hematopoiesis-blood-cells-qx-leukemoid-reaction",
+      "track": "step1",
+      "system": "hematology-oncology",
+      "discipline": "pathology",
+      "tags": [
+        "hematopoiesis-blood-cells",
+        "leukemoid-reaction",
+        "leukocytosis"
+      ],
+      "stem": "A 71-year-old woman has had fever and severe watery diarrhea for 4 days. She finished a course of clindamycin 1 week ago. Her abdomen is tender and distended. Her spleen cannot be felt. Blood counts: WBC 54,000/mm3 with 70% segmented neutrophils, 14% bands, 4% metamyelocytes, 8% lymphocytes, 4% monocytes and 0% basophils; hemoglobin 12.8 g/dL; platelets 410,000/mm3. On the smear, many neutrophils have coarse dark granules and pale blue patches in the cytoplasm. Which additional finding is most likely?",
+      "choices": [
+        "BCR-ABL1 fusion transcript detected by PCR testing",
+        "High leukocyte alkaline phosphatase score",
+        "Myeloblasts making up over 20% of marrow cells",
+        "JAK2 V617F mutation in neutrophils",
+        "Many smudge cells on the blood smear"
+      ],
+      "correct": 1,
+      "explanation": "This is a **leukemoid reaction** to severe infection (here, likely *C. difficile* colitis): a very high count made mostly of **mature neutrophils and bands**, with **toxic granulation** and **Döhle bodies**, no basophilia and no splenomegaly. Activated normal neutrophils have a **high LAP score**. **BCR-ABL1** is the most tempting choice, but **CML** usually shows basophilia, a full range of myeloid stages including myelocytes, a large spleen and a **low** LAP score.",
+      "explanation_pt": "Trata-se de uma **reação leucemoide** a uma infecção grave (aqui, provavelmente colite por *C. difficile*): leucocitose muito alta, composta sobretudo por **neutrófilos maduros e bastonetes**, com **granulações tóxicas** e **corpúsculos de Döhle**, sem basofilia e sem esplenomegalia. Neutrófilos normais ativados têm **escore de FAL alto** (fosfatase alcalina leucocitária). **BCR-ABL1** é a alternativa mais tentadora, mas a **LMC** costuma ter basofilia, todas as fases de maturação mieloide, incluindo mielócitos, baço grande e escore de FAL **baixo**."
+    },
+    {
+      "slug": "q-hematopoiesis-blood-cells-qx-bombay-h-antigen",
+      "track": "step1",
+      "system": "hematology-oncology",
+      "discipline": "physiology",
+      "tags": [
+        "hematopoiesis-blood-cells",
+        "blood-groups",
+        "bombay-phenotype"
+      ],
+      "stem": "A 29-year-old woman has heavy bleeding after the birth of her first child. She has never received a transfusion. Her red cells do not react with anti-A or anti-B reagents, so she is typed as group O, RhD-positive. However, her plasma strongly agglutinates the red cells of every group O, A and B donor tested. Her direct antiglobulin (Coombs) test is negative. Her red cells also fail to react with a lectin that binds the H antigen. Which best explains these results?",
+      "choices": [
+        "Inherited lack of both the A and B glycosyltransferases",
+        "Loss of the RhD protein from the red-cell membrane",
+        "Warm IgG autoantibody against a common red-cell antigen",
+        "Inherited lack of the enzyme that makes H antigen",
+        "Alloantibody against Kell formed during this pregnancy"
+      ],
+      "correct": 3,
+      "explanation": "This is the **Bombay phenotype**: without a working H-gene **fucosyltransferase**, red cells cannot make the **H antigen**, the base on which A and B sugars are added. The cells type as O, but the plasma has **anti-H**, anti-A and anti-B, so even group O red cells, which carry the most H antigen, are agglutinated. A normal group O person also lacks the A and B transferases, but still makes H antigen and does not react against other group O cells. A warm autoantibody would give a positive direct Coombs test, and an anti-Kell antibody would react with only the few Kell-positive donors, not with every donor.",
+      "explanation_pt": "Trata-se do **fenótipo Bombay**: sem a **fucosiltransferase** funcional do gene H, as hemácias não produzem o **antígeno H**, a base à qual se acrescentam os açúcares A e B. As hemácias são tipadas como O, mas o plasma tem **anti-H**, anti-A e anti-B, de modo que até as hemácias do grupo O, que têm a maior quantidade de antígeno H, são aglutinadas. Uma pessoa comum do grupo O também não tem as transferases A e B, mas produz antígeno H e não reage contra outras hemácias do grupo O. Um autoanticorpo quente daria teste de Coombs direto positivo, e um anticorpo anti-Kell reagiria apenas com os poucos doadores Kell-positivos, e não com todos."
+    },
+    {
+      "slug": "q-hematopoiesis-blood-cells-qx-thrombopoietin-cirrhosis",
+      "track": "step1",
+      "system": "hematology-oncology",
+      "discipline": "physiology",
+      "tags": [
+        "hematopoiesis-blood-cells",
+        "growth-factors",
+        "thrombocytopenia",
+        "thrombopoietin"
+      ],
+      "stem": "A 58-year-old man has cirrhosis from alcohol use. He stopped drinking 2 years ago. His platelet count is 62,000/mm3, hemoglobin 12.1 g/dL and WBC 4,200/mm3. Serum folate and vitamin B12 are normal. Ultrasound shows a nodular liver and a moderately enlarged spleen. Besides pooling of platelets in the spleen, lower hepatic production of which substance most likely contributes to his low platelet count?",
+      "choices": [
+        "Thrombopoietin",
+        "Hepcidin",
+        "Erythropoietin",
+        "Angiotensinogen",
+        "Insulin-like growth factor 1"
+      ],
+      "correct": 0,
+      "explanation": "**Thrombopoietin** is made mainly by the **liver**; it binds the **c-Mpl receptor** on megakaryocytes and drives platelet production. A scarred liver makes less of it, so in cirrhosis low production adds to **splenic sequestration** from portal hypertension. **Erythropoietin** is the most tempting choice, but it comes mainly from the **kidney** and acts on the red-cell line, not on megakaryocytes. Hepcidin, angiotensinogen and IGF-1 are also liver products, but none of them controls platelet production.",
+      "explanation_pt": "A **trombopoetina** é produzida principalmente pelo **fígado**; liga-se ao **receptor c-Mpl** dos megacariócitos e estimula a produção de plaquetas. O fígado cirrótico produz menos trombopoetina, de modo que, na cirrose, a menor produção soma-se ao **sequestro esplênico** causado pela hipertensão portal. A **eritropoetina** é a alternativa mais tentadora, mas vem sobretudo do **rim** e age na linhagem eritroide, não nos megacariócitos. Hepcidina, angiotensinogênio e IGF-1 também são produtos do fígado, mas nenhum deles controla a produção de plaquetas."
+    },
+    {
+      "slug": "q-hematopoiesis-blood-cells-qx-hermansky-pudlak-dense-granules",
+      "track": "step1",
+      "system": "hematology-oncology",
+      "discipline": "pathology",
+      "tags": [
+        "hematopoiesis-blood-cells",
+        "platelets",
+        "platelet-granules"
+      ],
+      "stem": "A 20-year-old woman has had easy bruising and frequent nosebleeds since childhood. She bled for many hours after a tooth was pulled. She has very pale skin, white-blond hair, horizontal nystagmus and poor visual acuity since birth. Her platelet count, PT, PTT and von Willebrand factor levels are normal. Her platelets show a weak second wave of aggregation. Her platelets most likely lack the granules that store which substance?",
+      "choices": [
+        "Von Willebrand factor",
+        "Fibrinogen",
+        "Thromboxane A2",
+        "Glycoprotein Ib",
+        "ADP"
+      ],
+      "correct": 4,
+      "explanation": "Albinism with a lifelong platelet bleeding problem is **Hermansky-Pudlak syndrome**, a defect in making **lysosome-related organelles**, such as **melanosomes** and platelet **dense granules**. Dense granules store **ADP**, **calcium** and **serotonin**; without released ADP, platelets cannot recruit more platelets, so the second wave of aggregation is weak. **Von Willebrand factor** is the most tempting choice, but it is stored in **alpha granules** (and in endothelial cells), and her vWF level is normal. Thromboxane A2 is made from arachidonic acid when platelets are activated; it is not stored in granules.",
+      "explanation_pt": "Albinismo com sangramento plaquetário desde a infância indica a **síndrome de Hermansky-Pudlak**, um defeito na formação de **organelas relacionadas aos lisossomos**, como os **melanossomos** e os **grânulos densos** das plaquetas. Os grânulos densos armazenam **ADP**, **cálcio** e **serotonina**; sem a liberação de ADP, as plaquetas não recrutam outras plaquetas, e a segunda onda de agregação fica fraca. O **fator de von Willebrand** é a alternativa mais tentadora, mas fica armazenado nos **grânulos alfa** (e nas células endoteliais), e o nível de FvW da paciente é normal. O tromboxano A2 é sintetizado a partir do ácido araquidônico quando a plaqueta é ativada; não fica armazenado em grânulos."
+    },
+    {
+      "slug": "q-hematopoiesis-blood-cells-qx-aplastic-anemia-pancytopenia",
+      "track": "step1",
+      "system": "hematology-oncology",
+      "discipline": "pathology",
+      "tags": [
+        "hematopoiesis-blood-cells",
+        "cytopenias",
+        "aplastic-anemia",
+        "bone-marrow"
+      ],
+      "stem": "A 24-year-old man has 3 weeks of fatigue, bleeding gums and small red spots on his legs. Two months ago he had hepatitis that tested negative for hepatitis A, B and C viruses. He takes no medicines. He has no enlarged lymph nodes, and his spleen cannot be felt. Labs: hemoglobin 7.2 g/dL, MCV 98 fL, reticulocytes 0.2%, WBC 1,800/mm3 (absolute neutrophil count 400/mm3), platelets 14,000/mm3. The smear shows no blasts and no abnormal cells. A bone marrow biopsy shows less than 10% cellularity, mostly fat, with no fibrosis and no tumor cells. Which mechanism best explains his blood counts?",
+      "choices": [
+        "Replacement of the marrow by fibrosis",
+        "Ineffective blood-cell production from impaired DNA synthesis",
+        "Cytotoxic T-cell attack on hematopoietic stem cells",
+        "Sequestration of blood cells in the spleen",
+        "Clonal growth of myeloblasts that crowds out normal cells"
+      ],
+      "correct": 2,
+      "explanation": "**Pancytopenia** with a **low reticulocyte count** and an empty, **fat-filled marrow** is **aplastic anemia**. Most cases, including those after seronegative hepatitis, are **immune-mediated**: **cytotoxic T cells** destroy **hematopoietic stem cells**, which is why immunosuppressive treatment often works. **Impaired DNA synthesis** (vitamin B12 or folate deficiency) also causes pancytopenia, but the marrow is **hypercellular** with **megaloblasts**, because many precursors die inside the marrow. Fibrosis, splenic sequestration and leukemia are ruled out by the biopsy, the normal spleen and the absence of blasts.",
+      "explanation_pt": "**Pancitopenia** com **reticulócitos baixos** e medula vazia, **substituída por gordura**, indica **anemia aplásica**. A maioria dos casos, inclusive os que ocorrem após hepatite soronegativa, é **imunomediada**: **linfócitos T citotóxicos** destroem as **células-tronco hematopoéticas**, o que explica por que a imunossupressão costuma funcionar. A **síntese de DNA prejudicada** (deficiência de vitamina B12 ou folato) também causa pancitopenia, mas a medula é **hipercelular**, com **megaloblastos**, porque muitos precursores morrem dentro da própria medula. Fibrose, sequestro esplênico e leucemia são afastados pela biópsia, pelo baço normal e pela ausência de blastos."
+    },
+    {
+      "slug": "q-hematopoiesis-blood-cells-qx-fetal-liver-hematopoiesis",
+      "track": "step1",
+      "system": "hematology-oncology",
+      "discipline": "embryology",
+      "tags": [
+        "hematopoiesis-blood-cells",
+        "hematopoiesis",
+        "fetal-development"
+      ],
+      "stem": "A fetus is lost by spontaneous miscarriage at 12 weeks of gestation. At autopsy, the pathologist looks for the organ that is producing most of the fetal blood cells at this age. Many clusters of nucleated red-cell precursors are found in this organ. Which organ is it?",
+      "choices": [
+        "Yolk sac",
+        "Spleen",
+        "Bone marrow",
+        "Thymus",
+        "Liver"
+      ],
+      "correct": 4,
+      "explanation": "Blood-cell production starts in the **yolk sac** in the third week, but from about the **sixth week** the **liver** becomes the main site and stays so for most of fetal life. **Bone marrow** is the most tempting choice, but the marrow starts to make blood cells only around mid-gestation, becomes the main site in the **third trimester** and is the only normal site after birth. The spleen helps only a little, and the thymus is a site of T-cell maturation, not of red-cell production.",
+      "explanation_pt": "A produção de células sanguíneas começa no **saco vitelino** na terceira semana, mas a partir de cerca da **sexta semana** o **fígado** passa a ser o principal local e permanece assim na maior parte da vida fetal. A **medula óssea** é a alternativa mais tentadora, mas a medula só começa a produzir células por volta da metade da gestação, torna-se o local principal no **terceiro trimestre** e é o único local normal após o nascimento. O baço contribui pouco, e o timo é local de maturação de linfócitos T, não de produção de hemácias."
+    },
+    {
+      "slug": "q-hematopoiesis-blood-cells-qx-reticulocyte-polychromasia",
+      "track": "step1",
+      "system": "hematology-oncology",
+      "discipline": "physiology",
+      "tags": [
+        "hematopoiesis-blood-cells",
+        "red-cells",
+        "reticulocytes",
+        "blood-smear"
+      ],
+      "stem": "A 35-year-old man is seen 7 days after bleeding from a duodenal ulcer. The bleeding was stopped by endoscopy, and he did not need a transfusion. He now feels better. Labs: hemoglobin 10.1 g/dL (it was 15.0 g/dL before the bleed), MCV 95 fL, reticulocytes 7%, ferritin normal. The smear shows many slightly large red cells with an even blue-gray tint and no central dots or inclusions. What gives these cells their color on a routine stain?",
+      "choices": [
+        "Leftover ribosomal RNA",
+        "Fragments of nuclear DNA",
+        "Precipitates of denatured hemoglobin",
+        "Granules of stored iron",
+        "Extra cholesterol in the cell membrane"
+      ],
+      "correct": 0,
+      "explanation": "After acute blood loss, the marrow releases many young red cells, or **reticulocytes**. They still contain **ribosomal RNA**, which takes up the basic dye and gives them a diffuse blue-gray tint (**polychromasia**); they are also slightly larger, which raises the MCV a little. **Nuclear DNA** fragments are the most tempting choice, but they form a single dense round dot (**Howell-Jolly body**), not an even tint. Denatured hemoglobin (Heinz bodies) and iron granules (Pappenheimer bodies) also appear as separate inclusions.",
+      "explanation_pt": "Após perda sanguínea aguda, a medula libera muitas hemácias jovens, os **reticulócitos**. Eles ainda contêm **RNA ribossômico**, que capta o corante básico e lhes dá um tom azul-acinzentado difuso (**policromasia**); também são um pouco maiores, o que eleva discretamente o VCM. Os fragmentos de **DNA nuclear** são a alternativa mais tentadora, mas formam um único ponto denso e redondo (**corpúsculo de Howell-Jolly**), e não uma coloração uniforme. A hemoglobina desnaturada (corpúsculos de Heinz) e os grânulos de ferro (corpúsculos de Pappenheimer) também aparecem como inclusões distintas."
+    },
+    {
+      "slug": "q-hematopoiesis-blood-cells-qx-rbc-glucose-dependence",
+      "track": "step1",
+      "system": "hematology-oncology",
+      "discipline": "physiology",
+      "tags": [
+        "hematopoiesis-blood-cells",
+        "red-cells",
+        "red-cell-metabolism"
+      ],
+      "stem": "A 30-year-old woman has eaten nothing for 10 days during a hunger strike but has been drinking water. Her plasma glucose is 62 mg/dL, and her plasma beta-hydroxybutyrate level is very high. Her brain now gets much of its energy from ketone bodies. Her red cells, however, still depend completely on glucose. Which best explains why her red cells cannot use ketone bodies?",
+      "choices": [
+        "Their glucose transporter needs insulin to work",
+        "Ketone bodies cannot cross the red-cell membrane",
+        "Ketone bodies block glycolysis inside red cells",
+        "They lack mitochondria",
+        "They lack the enzyme hexokinase"
+      ],
+      "correct": 3,
+      "explanation": "Mature red cells have **no mitochondria**, so they cannot run the citric acid cycle or oxidative phosphorylation, which are needed to burn **ketone bodies** (and fatty acids). They make ATP only by **anaerobic glycolysis**, and the **lactate** they release goes back to the liver to make glucose (**Cori cycle**). The **insulin** idea is the most tempting, but red cells take up glucose through **GLUT1**, which does not need insulin. Red cells do have hexokinase, which starts glycolysis, and ketone bodies can enter them through monocarboxylate transporters; the problem is that there is nowhere to burn them.",
+      "explanation_pt": "As hemácias maduras **não têm mitocôndrias**, por isso não realizam o ciclo do ácido cítrico nem a fosforilação oxidativa, necessários para oxidar **corpos cetônicos** (e ácidos graxos). Produzem ATP apenas por **glicólise anaeróbia**, e o **lactato** que liberam volta ao fígado para formar glicose (**ciclo de Cori**). A ideia da **insulina** é a mais tentadora, mas as hemácias captam glicose pelo **GLUT1**, que não depende de insulina. As hemácias têm hexoquinase, que inicia a glicólise, e os corpos cetônicos entram nelas por transportadores de monocarboxilatos; o problema é que não há onde oxidá-los."
+    }
+  ],
+  "notes": []
+}

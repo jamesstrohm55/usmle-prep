@@ -1,0 +1,190 @@
+{
+  "cards": [],
+  "questions": [
+    {
+      "slug": "q-hemostasis-coagulation-qx-ttp-adamts13",
+      "track": "step1",
+      "system": "hematology-oncology",
+      "discipline": "pathology",
+      "tags": [
+        "hemostasis-coagulation",
+        "ttp",
+        "microangiopathy",
+        "lab-tests"
+      ],
+      "stem": "A 34-year-old woman is brought to the emergency department because she has had trouble finding words for 6 hours. She has had headache and tiredness for 3 days. She has had no diarrhea, takes no medications and her pregnancy test is negative. Temperature is 38.1°C (100.6°F) and blood pressure is 132/80 mm Hg. She has petechiae on both legs. Laboratory results: hemoglobin 8.2 g/dL, platelets 16,000/mm3, reticulocytes 6%, LDH 1,250 U/L, haptoglobin undetectable, creatinine 1.3 mg/dL, PT 12.5 seconds (normal 11-13.5), aPTT 30 seconds (normal 25-35), fibrinogen 310 mg/dL (normal 200-400), and direct Coombs test negative. The blood smear shows many schistocytes. Which mechanism best explains her condition?",
+      "choices": [
+        "IgG autoantibody against platelet glycoprotein IIb/IIIa",
+        "Shiga toxin injury to glomerular and other endothelial cells",
+        "Tissue factor release that consumes platelets and clotting factors",
+        "Autoantibody against a von Willebrand factor-cleaving protease",
+        "IgG against complexes of heparin and platelet factor 4"
+      ],
+      "correct": 3,
+      "explanation": "Fever, a neurologic deficit, kidney injury, severe thrombocytopenia and a Coombs-negative hemolytic anemia with **schistocytes** fit **TTP**. An autoantibody lowers **ADAMTS13** activity, so **ultra-large vWF multimers** stay uncut and collect platelets into microthrombi. DIC is the most tempting choice, but DIC consumes clotting factors, so PT and aPTT would be long and fibrinogen low; here they are normal. HUS from Shiga toxin follows bloody diarrhea, which she did not have.",
+      "explanation_pt": "Febre, déficit neurológico, lesão renal, trombocitopenia grave e anemia hemolítica Coombs-negativa com **esquizócitos** indicam **PTT**. Um autoanticorpo reduz a atividade da **ADAMTS13**, então os **multímeros ultragrandes de FvW** não são clivados e agregam plaquetas em microtrombos. A CIVD é a opção mais tentadora, mas ela consome fatores de coagulação, o que prolongaria TP e TTPa e reduziria o fibrinogênio; aqui eles estão normais. A SHU por toxina Shiga vem após diarreia sanguinolenta, que ela não teve."
+    },
+    {
+      "slug": "q-hemostasis-coagulation-qx-glanzmann-aggregometry",
+      "track": "step1",
+      "system": "hematology-oncology",
+      "discipline": "pathology",
+      "tags": [
+        "hemostasis-coagulation",
+        "platelet-disorders",
+        "inherited",
+        "platelet-aggregation"
+      ],
+      "stem": "A 6-year-old girl is brought to the clinic because of frequent nosebleeds and bleeding gums since infancy. Her parents are first cousins and have no bleeding problems. Her platelet count is 250,000/mm3, and platelets are of normal size on the smear. PT and aPTT are normal. In platelet aggregation studies, her platelets do not aggregate in response to ADP, collagen, epinephrine or arachidonic acid. Agglutination in response to ristocetin is normal. A deficiency of which of the following is the most likely cause?",
+      "choices": [
+        "Glycoprotein IIb/IIIa",
+        "Glycoprotein Ib",
+        "von Willebrand factor",
+        "P2Y12 ADP receptor",
+        "Cyclooxygenase-1"
+      ],
+      "correct": 0,
+      "explanation": "No aggregation with every agonist means the **final common step** fails: fibrinogen cannot bridge platelets because **GpIIb/IIIa** is missing (**Glanzmann thrombasthenia**, autosomal recessive, normal count and size). **Ristocetin** makes vWF bind **GpIb**, so a normal ristocetin response rules out Bernard-Soulier syndrome and von Willebrand disease; Bernard-Soulier would also show low counts and giant platelets. A P2Y12 defect would block mainly the ADP response, and a cyclooxygenase-1 defect mainly the arachidonic acid response.",
+      "explanation_pt": "A ausência de agregação com todos os agonistas indica falha da **etapa final comum**: o fibrinogênio não consegue unir as plaquetas porque falta a **GpIIb/IIIa** (**trombastenia de Glanzmann**, autossômica recessiva, contagem e tamanho normais). A **ristocetina** faz o FvW se ligar à **GpIb**, então uma resposta normal à ristocetina exclui a síndrome de Bernard-Soulier e a doença de von Willebrand; a Bernard-Soulier também teria contagem baixa e plaquetas gigantes. Um defeito do P2Y12 bloquearia principalmente a resposta ao ADP, e um defeito da ciclo-oxigenase-1, principalmente a resposta ao ácido araquidônico."
+    },
+    {
+      "slug": "q-hemostasis-coagulation-qx-hit-pf4-mechanism",
+      "track": "step1",
+      "system": "hematology-oncology",
+      "discipline": "pathology",
+      "tags": [
+        "hemostasis-coagulation",
+        "platelet-disorders",
+        "hit",
+        "thrombosis"
+      ],
+      "stem": "A 59-year-old man has a bowel resection and receives subcutaneous unfractionated heparin to prevent clots. He had never received heparin before. His platelet count is 230,000/mm3 before surgery and 220,000/mm3 on day 2. On day 6, his left foot becomes cold and pale, and angiography shows a clot in the femoral artery. His platelet count is now 95,000/mm3. He has no bleeding. Which mechanism best explains the fall in his platelet count?",
+      "choices": [
+        "Direct binding of heparin to platelets that causes mild clumping",
+        "Platelet consumption after tissue factor release from injured tissue",
+        "IgG against heparin-platelet factor 4 complexes that activates platelets",
+        "IgG against platelet glycoprotein IIb/IIIa that leads to splenic removal",
+        "Dilution of platelets by fluids given during the operation"
+      ],
+      "correct": 2,
+      "explanation": "A platelet fall of more than half that begins **5-10 days** after first heparin exposure, together with a **new thrombosis**, is immune **HIT**. **IgG** binds **heparin-PF4** complexes, and the immune complexes **activate** platelets through their Fc receptors, so platelets are consumed while clots form. Direct nonimmune clumping by heparin is tempting, but it causes a small, early fall in the first 1-2 days without thrombosis. Anti-GpIIb/IIIa antibodies (ITP) cause bleeding, not clotting.",
+      "explanation_pt": "Uma queda de mais da metade das plaquetas que começa **5 a 10 dias** após a primeira exposição à heparina, com **nova trombose**, indica **TIH** imune. A **IgG** se liga a complexos **heparina-PF4**, e os imunocomplexos **ativam** as plaquetas pelos receptores Fc, então as plaquetas são consumidas enquanto se formam trombos. A agregação direta não imune pela heparina é tentadora, mas causa uma queda pequena e precoce nos primeiros 1 a 2 dias, sem trombose. Os anticorpos anti-GpIIb/IIIa (PTI) causam sangramento, e não trombose."
+    },
+    {
+      "slug": "q-hemostasis-coagulation-qx-factor-v-leiden-apc-resistance",
+      "track": "step1",
+      "system": "hematology-oncology",
+      "discipline": "pathology",
+      "tags": [
+        "hemostasis-coagulation",
+        "thrombophilia",
+        "factor-v-leiden",
+        "lab-tests"
+      ],
+      "stem": "A 24-year-old woman comes to the emergency department with a swollen, painful left leg. Ultrasound shows a deep vein thrombosis. She started a combined oral contraceptive 4 months ago. Her brother had a deep vein thrombosis at age 30. Platelet count, PT and aPTT are normal. In a special clotting test, activated protein C is added to her plasma; it lengthens the clotting time much less than it does in normal control plasma. Which defect is most likely present?",
+      "choices": [
+        "Mutant antithrombin with reduced inhibition of thrombin",
+        "Factor V that resists cleavage by activated protein C",
+        "Inherited low plasma level of protein C",
+        "High plasma level of prothrombin from a gene variant",
+        "Antibodies against phospholipid-binding plasma proteins"
+      ],
+      "correct": 1,
+      "explanation": "In **factor V Leiden**, a point mutation removes a cleavage site on factor Va, so **added activated protein C** cannot switch it off and the clotting time barely lengthens (**activated protein C resistance**). Estrogen adds to the clotting risk. **Protein C deficiency** is the most tempting choice, but the test supplies activated protein C from outside, so a low level of the patient's own protein C would not blunt the response. Antiphospholipid antibodies would usually prolong the baseline aPTT, and high prothrombin (G20210A) does not affect this test.",
+      "explanation_pt": "No **fator V de Leiden**, uma mutação pontual elimina um sítio de clivagem do fator Va, então a **proteína C ativada adicionada** não consegue inativá-lo e o tempo de coagulação quase não aumenta (**resistência à proteína C ativada**). O estrogênio soma risco de trombose. A **deficiência de proteína C** é a opção mais tentadora, mas o teste fornece proteína C ativada exógena, então um nível baixo da proteína C da própria paciente não reduziria a resposta. Anticorpos antifosfolípides geralmente prolongariam o TTPa basal, e a protrombina elevada (G20210A) não afeta esse teste."
+    },
+    {
+      "slug": "q-hemostasis-coagulation-qx-newborn-vitamin-k-carboxylation",
+      "track": "step1",
+      "system": "hematology-oncology",
+      "discipline": "pathology",
+      "tags": [
+        "hemostasis-coagulation",
+        "vitamin-k",
+        "newborn",
+        "biochemistry"
+      ],
+      "stem": "A 3-week-old boy is brought to the emergency department because his circumcision site keeps oozing blood and he has bruises on his chest. He was born at home at term, and his parents declined all injections after birth. He is exclusively breastfed. Laboratory results: hemoglobin 10.8 g/dL, platelets 310,000/mm3, PT 45 seconds (normal 11-14), aPTT 68 seconds (normal 25-40), and fibrinogen 260 mg/dL (normal 200-400). Which modification of clotting factors is most likely deficient in this infant?",
+      "choices": [
+        "Hydroxylation of proline and lysine residues",
+        "N-linked glycosylation of asparagine residues",
+        "Phosphorylation of serine residues",
+        "Mannose 6-phosphate tagging in the Golgi",
+        "Gamma-carboxylation of glutamate residues"
+      ],
+      "correct": 4,
+      "explanation": "Newborns have little **vitamin K**: little crosses the placenta, the gut has few vitamin K-making bacteria in the first weeks, and breast milk contains little, so a baby who missed the vitamin K injection at birth can bleed in the first weeks. Vitamin K is the cofactor for **gamma-carboxylation of glutamate** on factors **II, VII, IX and X**, which lets them bind calcium and phospholipid; without it, the **PT** and aPTT rise while platelets and fibrinogen stay normal. Hydroxylation of proline and lysine needs vitamin C; scurvy causes bleeding gums and bruising from weak collagen, but the PT and aPTT are normal.",
+      "explanation_pt": "Recém-nascidos têm pouca **vitamina K**: pouca atravessa a placenta, o intestino tem poucas bactérias produtoras de vitamina K nas primeiras semanas e o leite materno contém pouca, então um bebê que não recebeu a vitamina K injetável ao nascer pode sangrar nas primeiras semanas. A vitamina K é cofator da **gama-carboxilação do glutamato** nos fatores **II, VII, IX e X**, o que permite que eles se liguem ao cálcio e aos fosfolipídios; sem ela, o **TP** e o TTPa aumentam, enquanto plaquetas e fibrinogênio continuam normais. A hidroxilação de prolina e lisina depende da vitamina C; o escorbuto causa sangramento gengival e equimoses por colágeno frágil, mas TP e TTPa são normais."
+    },
+    {
+      "slug": "q-hemostasis-coagulation-qx-itp-marrow",
+      "track": "step1",
+      "system": "hematology-oncology",
+      "discipline": "pathology",
+      "tags": [
+        "hemostasis-coagulation",
+        "platelet-disorders",
+        "itp",
+        "bone-marrow"
+      ],
+      "stem": "A 27-year-old woman comes to the clinic because of small red spots on her legs for 1 week and bleeding gums when she brushes her teeth. She feels otherwise well and takes no medications. She has no lymphadenopathy or splenomegaly. Hemoglobin is 13.4 g/dL, leukocyte count is 6,800/mm3 with a normal differential, and platelet count is 12,000/mm3. The smear shows a few large platelets and no schistocytes or blasts. PT and aPTT are normal. Tests for HIV and hepatitis C are negative. A bone marrow aspirate is done. Which finding is most likely?",
+      "choices": [
+        "Hypocellular marrow replaced by fat",
+        "More than 20% myeloblasts",
+        "Diffuse reticulin fibrosis with teardrop cells",
+        "Normal cellularity with increased megakaryocytes",
+        "Dysplastic megakaryocytes with small hypolobated nuclei"
+      ],
+      "correct": 3,
+      "explanation": "Isolated severe thrombocytopenia with large platelets, normal red and white cells, and normal PT and aPTT in a well young woman fits **immune thrombocytopenia (ITP)**. IgG-coated platelets are removed by **splenic macrophages**, so the marrow responds by making **more megakaryocytes**. A fatty, hypocellular marrow (aplastic anemia) is tempting, but it reflects failed production and would lower all three cell lines, not platelets alone. Excess blasts or dysplastic megakaryocytes would point to leukemia or myelodysplasia, which usually affect other cell lines too.",
+      "explanation_pt": "Trombocitopenia grave isolada com plaquetas grandes, hemácias e leucócitos normais, e TP e TTPa normais em uma jovem sem outras queixas indicam **trombocitopenia imune (PTI)**. As plaquetas recobertas por IgG são removidas pelos **macrófagos esplênicos**, e a medula responde produzindo **mais megacariócitos**. Uma medula hipocelular e gordurosa (anemia aplástica) é tentadora, mas reflete falha de produção e reduziria as três linhagens, não só as plaquetas. Excesso de blastos ou megacariócitos displásicos indicariam leucemia ou mielodisplasia, que costumam afetar também outras linhagens."
+    },
+    {
+      "slug": "q-hemostasis-coagulation-qx-vwd-desmopressin-mechanism",
+      "track": "step1",
+      "system": "hematology-oncology",
+      "discipline": "pathology",
+      "tags": [
+        "hemostasis-coagulation",
+        "von-willebrand-disease",
+        "desmopressin",
+        "pharmacology"
+      ],
+      "stem": "A 24-year-old man has mild von Willebrand disease with a partial quantitative deficiency of von Willebrand factor. He has had nosebleeds and prolonged bleeding after small cuts since childhood. He now needs a tooth extraction. Before the procedure, he is given desmopressin, and the bleeding during the extraction is minimal. Which mechanism best explains how this drug reduced his bleeding?",
+      "choices": [
+        "Inhibition of plasmin-mediated breakdown of fibrin clots",
+        "Release of stored von Willebrand factor from endothelial cells",
+        "Increased hepatic synthesis of vitamin K-dependent clotting factors",
+        "Stimulation of platelet production by marrow megakaryocytes",
+        "Constriction of small arterioles through vascular V1 receptors"
+      ],
+      "correct": 1,
+      "explanation": "**Desmopressin** acts on **V2 receptors** to release **vWF** stored in endothelial **Weibel-Palade bodies**; the extra vWF improves platelet adhesion and protects **factor VIII**, so factor VIII levels rise too. It works best when the patient makes normal but too little vWF (**type 1** disease). Blocking plasmin-mediated fibrin breakdown is tempting because it also helps dental bleeding, but that is the action of **tranexamic acid**, not desmopressin. Desmopressin is selective for V2 receptors and has little V1 vasoconstrictor effect.",
+      "explanation_pt": "A **desmopressina** age em **receptores V2** e libera o **FvW** armazenado nos **corpúsculos de Weibel-Palade** do endotélio; o FvW extra melhora a adesão plaquetária e protege o **fator VIII**, então o nível de fator VIII também sobe. Ela funciona melhor quando o paciente produz FvW normal, mas em pouca quantidade (doença **tipo 1**). Bloquear a degradação da fibrina pela plasmina é tentador porque também ajuda no sangramento odontológico, mas essa é a ação do **ácido tranexâmico**, e não da desmopressina. A desmopressina é seletiva para receptores V2 e tem pouco efeito vasoconstritor V1."
+    },
+    {
+      "slug": "q-hemostasis-coagulation-qx-antithrombin-heparin-resistance",
+      "track": "step1",
+      "system": "hematology-oncology",
+      "discipline": "pathology",
+      "tags": [
+        "hemostasis-coagulation",
+        "thrombophilia",
+        "antithrombin-deficiency",
+        "heparin"
+      ],
+      "stem": "A 34-year-old man is admitted with a pulmonary embolism. His father had a pulmonary embolism at age 40. He takes no medications. He is started on a continuous intravenous infusion of unfractionated heparin, and the infusion rate is increased several times. Results: baseline aPTT 30 seconds (normal 25-35); aPTT after 12 hours 33 seconds; aPTT after 24 hours 34 seconds. His platelet count stays at 230,000/mm3, and he has no new bleeding. Which underlying condition best explains his poor response to heparin?",
+      "choices": [
+        "Factor V Leiden mutation",
+        "Protein C deficiency",
+        "Prothrombin G20210A mutation",
+        "Antiphospholipid syndrome",
+        "Antithrombin deficiency"
+      ],
+      "correct": 4,
+      "explanation": "Heparin has no anticoagulant effect of its own: it binds **antithrombin** and greatly speeds its inactivation of **thrombin** and **factor Xa**. An inherited **antithrombin deficiency** (autosomal dominant) causes venous clots and a weak aPTT response to heparin (**heparin resistance**). Factor V Leiden is the most common inherited thrombophilia and the most tempting choice, but antithrombin is normal, so heparin prolongs the aPTT as expected. Antiphospholipid syndrome would usually prolong the baseline aPTT, which is normal here.",
+      "explanation_pt": "A heparina não tem efeito anticoagulante próprio: ela se liga à **antitrombina** e acelera muito a inativação da **trombina** e do **fator Xa**. A **deficiência hereditária de antitrombina** (autossômica dominante) causa trombose venosa e resposta fraca do TTPa à heparina (**resistência à heparina**). O fator V de Leiden é a trombofilia hereditária mais comum e a opção mais tentadora, mas a antitrombina está normal, então a heparina prolonga o TTPa como esperado. A síndrome antifosfolípide geralmente prolongaria o TTPa basal, que aqui está normal."
+    }
+  ],
+  "notes": []
+}

@@ -1,0 +1,185 @@
+{
+  "cards": [],
+  "questions": [
+    {
+      "slug": "q-heme-onc-pharmacology-qx-mercaptopurine-allopurinol",
+      "track": "step1",
+      "system": "hematology-oncology",
+      "discipline": "pharmacology",
+      "tags": [
+        "heme-onc-pharmacology",
+        "chemotherapy",
+        "drug-interactions"
+      ],
+      "stem": "A 21-year-old man with acute lymphoblastic leukemia is in the maintenance phase of treatment with oral mercaptopurine and weekly oral methotrexate. His blood counts have been stable for months. Six weeks ago he passed a uric acid kidney stone, and allopurinol was added. His other drugs were not changed. He now has fever and painful mouth ulcers. Laboratory results today (last month in parentheses): leukocytes 900/mm3 (4,200/mm3), absolute neutrophil count 200/mm3 (2,500/mm3), hemoglobin 8.1 g/dL (11.9 g/dL) and platelets 22,000/mm3 (180,000/mm3). Which mechanism best explains this change?",
+      "choices": [
+        "Allopurinol blocks xanthine oxidase, an enzyme that inactivates mercaptopurine",
+        "Allopurinol inhibits thiopurine methyltransferase, an enzyme that inactivates mercaptopurine",
+        "Allopurinol blocks renal tubular secretion of methotrexate",
+        "Allopurinol inhibits hepatic CYP3A4, which metabolizes methotrexate",
+        "Allopurinol displaces methotrexate from its binding sites on albumin"
+      ],
+      "correct": 0,
+      "explanation": "**Mercaptopurine** is broken down in part by **xanthine oxidase**. **Allopurinol** inhibits this enzyme, so mercaptopurine levels rise and cause severe **myelosuppression** unless its dose is reduced. Thiopurine methyltransferase (TPMT) is the most tempting wrong answer: low TPMT activity also causes thiopurine toxicity, but that is an inherited trait, not an effect of allopurinol. Drugs that block renal secretion of methotrexate are NSAIDs, penicillins and probenecid, not allopurinol.",
+      "explanation_pt": "A **mercaptopurina** é degradada em parte pela **xantina oxidase**. O **alopurinol** inibe essa enzima, e assim os níveis de mercaptopurina sobem e causam **mielossupressão** grave, a menos que a dose seja reduzida. A tiopurina metiltransferase (TPMT) é a alternativa errada mais tentadora: a baixa atividade da TPMT também causa toxicidade das tiopurinas, mas é uma característica herdada, e não um efeito do alopurinol. Os fármacos que bloqueiam a secreção renal do metotrexato são os AINEs, as penicilinas e a probenecida, e não o alopurinol."
+    },
+    {
+      "slug": "q-heme-onc-pharmacology-qx-cyclophosphamide-mesna",
+      "track": "step1",
+      "system": "hematology-oncology",
+      "discipline": "pharmacology",
+      "tags": [
+        "heme-onc-pharmacology",
+        "chemotherapy",
+        "alkylating-agents",
+        "protective-agents"
+      ],
+      "stem": "A 34-year-old woman receives high-dose intravenous cyclophosphamide as part of the conditioning before a stem cell transplant. By mistake, no protective drug was given with it. Two days later she has burning on urination, frequency and red urine with small clots. Urine culture is negative, serum uric acid is normal, and cystoscopy shows diffuse bleeding from an inflamed bladder lining. Which drug, given with the cyclophosphamide, would most likely have prevented this, and how?",
+      "choices": [
+        "Dexrazoxane, which chelates iron and limits free radical injury",
+        "Leucovorin, which supplies a reduced folate to normal cells",
+        "Rasburicase, which turns uric acid into soluble allantoin",
+        "Mesna, whose free thiol group binds a toxic metabolite in urine",
+        "Allopurinol, which blocks the formation of new uric acid"
+      ],
+      "correct": 3,
+      "explanation": "Cyclophosphamide is activated in the liver, and one of its metabolites, **acrolein**, is excreted in the urine and injures the bladder lining, causing **hemorrhagic cystitis**. **Mesna** is concentrated in the urine, where its **free thiol (sulfhydryl) group** binds and inactivates acrolein. The uric acid drugs are tempting because hematuria can come from uric acid stones in tumor lysis, but her uric acid is normal and the cystoscopy shows diffuse mucosal bleeding. Dexrazoxane protects the heart from anthracyclines, and leucovorin rescues normal cells from methotrexate.",
+      "explanation_pt": "A ciclofosfamida é ativada no fígado, e um de seus metabólitos, a **acroleína**, é excretado na urina e lesa o revestimento vesical, causando **cistite hemorrágica**. A **mesna** concentra-se na urina, onde seu **grupo tiol (sulfidrila) livre** se liga à acroleína e a inativa. Os fármacos para ácido úrico são tentadores porque a hematúria pode vir de cálculos de ácido úrico na lise tumoral, mas o ácido úrico dela está normal e a cistoscopia mostra sangramento difuso da mucosa. O dexrazoxano protege o coração das antraciclinas, e a leucovorina resgata as células normais do metotrexato."
+    },
+    {
+      "slug": "q-heme-onc-pharmacology-qx-vincristine-neuropathy",
+      "track": "step1",
+      "system": "hematology-oncology",
+      "discipline": "pharmacology",
+      "tags": [
+        "heme-onc-pharmacology",
+        "chemotherapy",
+        "microtubule-inhibitors",
+        "adverse-effects"
+      ],
+      "stem": "A 6-year-old girl with acute lymphoblastic leukemia is in the third week of induction chemotherapy with vincristine, dexamethasone, asparaginase and intrathecal methotrexate. She now has severe constipation, pain in her jaw and tingling in her fingers. On examination, she has weak dorsiflexion of both feet and absent ankle reflexes. Her mental status is normal. What is the mechanism of the drug most likely responsible for these findings?",
+      "choices": [
+        "Stabilization of microtubules, which prevents their disassembly",
+        "Binding to tubulin, which prevents microtubule assembly",
+        "Inhibition of dihydrofolate reductase in nerve tissue",
+        "Depletion of circulating asparagine",
+        "Inhibition of topoisomerase II"
+      ],
+      "correct": 1,
+      "explanation": "Constipation (autonomic nerves), jaw pain (cranial nerves), paresthesias and loss of ankle reflexes are the classic **peripheral neuropathy** of **vincristine**. Vinca alkaloids **bind tubulin and block microtubule polymerization**, which disturbs mitosis in M phase and axonal transport in long nerves. Stabilization of microtubules is the tempting wrong answer: it is the mechanism of **paclitaxel**, which also causes neuropathy but is not part of this regimen. Intrathecal methotrexate can injure the brain (confusion, seizures), which does not fit her normal mental status and peripheral pattern.",
+      "explanation_pt": "Constipação (nervos autonômicos), dor na mandíbula (nervos cranianos), parestesias e perda dos reflexos aquileus são a **neuropatia periférica** clássica da **vincristina**. Os alcaloides da vinca **ligam-se à tubulina e bloqueiam a polimerização dos microtúbulos**, o que perturba a mitose na fase M e o transporte axonal nos nervos longos. A estabilização dos microtúbulos é a alternativa errada tentadora: é o mecanismo do **paclitaxel**, que também causa neuropatia, mas não faz parte deste esquema. O metotrexato intratecal pode lesar o encéfalo (confusão, convulsões), o que não combina com o estado mental normal e o padrão periférico dela."
+    },
+    {
+      "slug": "q-heme-onc-pharmacology-qx-rituximab-hbv-reactivation",
+      "track": "step1",
+      "system": "hematology-oncology",
+      "discipline": "pharmacology",
+      "tags": [
+        "heme-onc-pharmacology",
+        "targeted-therapy",
+        "monoclonal-antibodies",
+        "adverse-effects"
+      ],
+      "stem": "A 66-year-old woman with follicular lymphoma has received rituximab every 2 months for the past year. Before treatment, her tests showed HBsAg negative, anti-HBc antibody positive and anti-HBs antibody positive. She now has fatigue, nausea and yellow eyes. Laboratory results: ALT 1,240 U/L (normal under 40), total bilirubin 4.8 mg/dL, HBsAg positive and a high level of hepatitis B virus DNA. She has had no transfusions, new sexual partners or injections. Which mechanism best explains her liver disease?",
+      "choices": [
+        "Direct toxicity of the antibody to hepatocytes",
+        "Immune complexes of antibody and CD20 lodged in the liver",
+        "A new hepatitis B infection acquired during the infusions",
+        "T cells freed from an inhibitory checkpoint that attack hepatocytes",
+        "Loss of B cells that kept latent hepatitis B virus in check"
+      ],
+      "correct": 4,
+      "explanation": "**Rituximab** binds **CD20** and depletes B cells. Her tests before treatment (anti-HBc positive, HBsAg negative) show a **resolved past hepatitis B infection**, but viral DNA stays in hepatocytes for life. Without B cells, immune control fails and the virus **reactivates**, which can cause severe hepatitis. A new infection is the tempting answer, but she had no exposure, and her positive anti-HBc before treatment proves earlier contact with the virus; checkpoint-inhibitor hepatitis (from drugs such as anti-PD-1 antibodies) does not make HBsAg positive.",
+      "explanation_pt": "O **rituximabe** liga-se ao **CD20** e depleta os linfócitos B. Os exames antes do tratamento (anti-HBc positivo, HBsAg negativo) mostram uma **infecção pregressa e resolvida pelo vírus da hepatite B**, mas o DNA viral permanece nos hepatócitos por toda a vida. Sem linfócitos B, o controle imune falha e o vírus **se reativa**, o que pode causar hepatite grave. Uma nova infecção é a resposta tentadora, mas ela não teve exposição, e o anti-HBc positivo antes do tratamento comprova contato prévio com o vírus; a hepatite por inibidores de *checkpoint* (causada por fármacos como os anticorpos anti-PD-1) não torna o HBsAg positivo."
+    },
+    {
+      "slug": "q-heme-onc-pharmacology-qx-ipilimumab-colitis",
+      "track": "step1",
+      "system": "hematology-oncology",
+      "discipline": "pharmacology",
+      "tags": [
+        "heme-onc-pharmacology",
+        "immunotherapy",
+        "adverse-effects"
+      ],
+      "stem": "A 58-year-old man with metastatic melanoma started ipilimumab 6 weeks ago. He now has 8 watery stools a day with some blood and crampy abdominal pain. He has had no fever, travel or antibiotic use. Stool cultures and tests for Clostridioides difficile toxin are negative. Colonoscopy shows diffuse inflammation of the colon, and biopsies show many lymphocytes in the mucosa. His symptoms improve quickly with high-dose glucocorticoids. Which mechanism of the drug best explains this adverse effect?",
+      "choices": [
+        "Direct injury to rapidly dividing crypt epithelial cells",
+        "Blockade of PD-1, which removes a brake on T cells in tissues",
+        "Blockade of CTLA-4, which removes a brake on T-cell activation",
+        "Depletion of B cells that make protective mucosal IgA",
+        "Inhibition of VEGF, which reduces blood flow to the mucosa"
+      ],
+      "correct": 2,
+      "explanation": "**Ipilimumab** blocks **CTLA-4**, a receptor that competes with CD28 for **B7 (CD80/CD86)** on antigen-presenting cells and normally limits T-cell activation. Without this brake, T cells attack the tumor but also normal tissue, causing **immune-related adverse effects**; **colitis** is especially common with anti-CTLA-4 drugs, and it responds to glucocorticoids. PD-1 blockade is the tempting answer because pembrolizumab and nivolumab cause the same kind of autoimmune toxicity, but ipilimumab does not act on PD-1. Classic chemotherapy injures crypt cells directly, which would not explain a colitis full of lymphocytes that responds to steroids.",
+      "explanation_pt": "O **ipilimumabe** bloqueia o **CTLA-4**, receptor que compete com o CD28 pelo **B7 (CD80/CD86)** das células apresentadoras de antígeno e normalmente limita a ativação dos linfócitos T. Sem esse freio, os linfócitos T atacam o tumor, mas também tecidos normais, causando **eventos adversos imunomediados**; a **colite** é especialmente comum com os fármacos anti-CTLA-4 e responde aos glicocorticoides. O bloqueio do PD-1 é a resposta tentadora, porque o pembrolizumabe e o nivolumabe causam o mesmo tipo de toxicidade autoimune, mas o ipilimumabe não atua no PD-1. A quimioterapia clássica lesa diretamente as células das criptas, o que não explicaria uma colite rica em linfócitos que responde aos corticoides."
+    },
+    {
+      "slug": "q-heme-onc-pharmacology-qx-fluorouracil-leucovorin",
+      "track": "step1",
+      "system": "hematology-oncology",
+      "discipline": "pharmacology",
+      "tags": [
+        "heme-onc-pharmacology",
+        "chemotherapy",
+        "antimetabolites"
+      ],
+      "stem": "A 59-year-old man with metastatic colon cancer receives intravenous 5-fluorouracil together with leucovorin. A medical student is surprised, because she learned that leucovorin is a drug that protects normal cells from methotrexate. Which statement best explains why leucovorin is given with 5-fluorouracil?",
+      "choices": [
+        "It rescues normal bone marrow cells from folate depletion",
+        "It speeds the conversion of 5-fluorouracil into active nucleotides",
+        "It inhibits dihydropyrimidine dehydrogenase, which breaks down 5-fluorouracil",
+        "It blocks ribonucleotide reductase, adding a second hit to DNA synthesis",
+        "It stabilizes the drug's binding to thymidylate synthase"
+      ],
+      "correct": 4,
+      "explanation": "5-Fluorouracil is converted to **FdUMP**, which binds **thymidylate synthase** together with the folate cofactor **methylene-tetrahydrofolate**. **Leucovorin** raises the level of this cofactor, so the three-part complex is more stable and the enzyme stays blocked longer; leucovorin therefore **increases** both the effect and the toxicity of 5-FU. The rescue answer is the tempting one, but rescue works only against methotrexate, which blocks dihydrofolate reductase; 5-FU does not cause folate depletion. DPD (dihydropyrimidine dehydrogenase) deficiency raises 5-FU toxicity, but leucovorin does not inhibit that enzyme.",
+      "explanation_pt": "A 5-fluoruracila é convertida em **FdUMP**, que se liga à **timidilato sintase** junto com o cofator folato **metilenotetra-hidrofolato**. A **leucovorina** aumenta o nível desse cofator, e o complexo de três partes fica mais estável e a enzima permanece bloqueada por mais tempo; por isso a leucovorina **aumenta** tanto o efeito quanto a toxicidade da 5-FU. O resgate é a resposta tentadora, mas o resgate só funciona contra o metotrexato, que bloqueia a di-hidrofolato redutase; a 5-FU não causa depleção de folato. A deficiência de di-hidropirimidina desidrogenase (DPD) aumenta a toxicidade da 5-FU, mas a leucovorina não inibe essa enzima."
+    },
+    {
+      "slug": "q-heme-onc-pharmacology-qx-dabigatran-reversal",
+      "track": "step1",
+      "system": "hematology-oncology",
+      "discipline": "pharmacology",
+      "tags": [
+        "heme-onc-pharmacology",
+        "anticoagulants",
+        "reversal"
+      ],
+      "stem": "A 79-year-old man takes dabigatran for atrial fibrillation. He had vomiting and diarrhea for 4 days and drank little. Today he passes large black stools and feels faint. Blood pressure is 88/54 mm Hg and pulse is 118/min. Laboratory results: hemoglobin 7.2 g/dL, platelets 210,000/mm3, creatinine 2.6 mg/dL (1.0 mg/dL three months ago), aPTT 74 seconds (normal 25-35) and PT 16 seconds (normal 11-13.5). The thrombin time is markedly prolonged. Besides fluids, blood and endoscopy, which drug should be given to reverse his anticoagulant?",
+      "choices": [
+        "Andexanet alfa",
+        "Idarucizumab",
+        "Protamine sulfate",
+        "Intravenous vitamin K",
+        "Fresh frozen plasma alone"
+      ],
+      "correct": 1,
+      "explanation": "**Dabigatran** is a **direct thrombin inhibitor**, which is why the **thrombin time** is very prolonged; it is cleared mainly by the **kidneys**, so his acute kidney injury from dehydration let the drug build up. **Idarucizumab** is a humanized antibody fragment that binds dabigatran with very high affinity and neutralizes it within minutes. Andexanet alfa is the tempting wrong answer, but it is a decoy factor Xa that reverses Xa inhibitors such as apixaban and rivaroxaban. Vitamin K helps the liver make clotting factors and plasma replaces them, but neither helps when the drug blocks thrombin directly; protamine reverses heparin.",
+      "explanation_pt": "A **dabigatrana** é um **inibidor direto da trombina**, por isso o **tempo de trombina** está muito prolongado; ela é eliminada principalmente pelos **rins**, e a lesão renal aguda causada pela desidratação permitiu o acúmulo do fármaco. O **idarucizumabe** é um fragmento de anticorpo humanizado que se liga à dabigatrana com altíssima afinidade e a neutraliza em minutos. O andexanete alfa é a alternativa errada tentadora, mas é um fator Xa \"isca\" que reverte os inibidores do Xa, como apixabana e rivaroxabana. A vitamina K ajuda o fígado a produzir fatores de coagulação e o plasma os repõe, mas nenhum dos dois ajuda quando o fármaco bloqueia a trombina diretamente; a protamina reverte a heparina."
+    },
+    {
+      "slug": "q-heme-onc-pharmacology-qx-epoetin-iron-deficiency",
+      "track": "step1",
+      "system": "hematology-oncology",
+      "discipline": "pharmacology",
+      "tags": [
+        "heme-onc-pharmacology",
+        "supportive-care",
+        "erythropoiesis-stimulating-agents"
+      ],
+      "stem": "A 62-year-old woman with colon cancer is receiving chemotherapy. She has anemia from the chemotherapy and was started on epoetin alfa 8 weeks ago, but her hemoglobin has not risen. Her stools have tested positive for occult blood. Laboratory results: hemoglobin 8.9 g/dL, MCV 74 fL (normal 80-100), reticulocytes 0.6%, ferritin 9 ng/mL (normal 15-150), transferrin saturation 6% (normal 20-50) and normal vitamin B12 and folate levels. Which is the most likely reason for her poor response to epoetin?",
+      "choices": [
+        "Hepcidin-mediated trapping of iron in macrophages",
+        "Antibodies that neutralize erythropoietin",
+        "Folate deficiency caused by the chemotherapy",
+        "Too little iron for hemoglobin synthesis",
+        "Hemolysis of the new red blood cells"
+      ],
+      "correct": 3,
+      "explanation": "**Epoetin** makes the marrow produce more red cells, but each new cell needs **iron**. Her **low ferritin**, very low transferrin saturation, **microcytosis** and occult blood loss from the tumor show **absolute iron deficiency**, so the marrow cannot respond; iron must be replaced. Hepcidin-mediated iron trapping (anemia of chronic disease) is the tempting answer, because cancer raises hepcidin, but in that case ferritin is **normal or high**. Anti-erythropoietin antibodies cause **pure red cell aplasia** with very few reticulocytes, but they do not explain a low ferritin, and folate deficiency and hemolysis would not give microcytosis with low iron stores.",
+      "explanation_pt": "A **alfaepoetina** faz a medula produzir mais hemácias, mas cada nova célula precisa de **ferro**. A **ferritina baixa**, a saturação de transferrina muito baixa, a **microcitose** e a perda de sangue oculto pelo tumor indicam **deficiência absoluta de ferro**, e a medula não consegue responder; é preciso repor ferro. O sequestro de ferro mediado pela hepcidina (anemia da doença crônica) é a resposta tentadora, porque o câncer eleva a hepcidina, mas nesse caso a ferritina está **normal ou alta**. Os anticorpos anti-eritropoetina causam **aplasia pura da série vermelha** com muito poucos reticulócitos, mas não explicam a ferritina baixa, e a deficiência de folato e a hemólise não causariam microcitose com estoques de ferro baixos."
+    }
+  ],
+  "notes": []
+}
