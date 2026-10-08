@@ -100,6 +100,7 @@ describe('cachedRead', () => {
 });
 
 const args = (name: string) => calls.find(([n]) => n === name)?.[1];
+const all = (name: string) => calls.filter(([n]) => n === name).map(([, a]) => a);
 const fail = () => { result = { data: null, error: { message: 'boom', code: '23505' }, status: 409 }; };
 
 describe('settings', () => {
@@ -131,9 +132,11 @@ describe('attempts and reviews', () => {
     result = { data: [{ question_id: 'q' }], error: null };
     expect(await fetchAttempts()).toEqual([{ question_id: 'q' }]);
     expect(args('from')).toEqual(['attempts']);
+    expect(all('order')).toEqual([['id']]);
     calls = [];
     expect(await fetchReviews()).toEqual([{ question_id: 'q' }]);
     expect(args('from')).toEqual(['review_log']);
+    expect(all('order')).toEqual([['id']]);
   });
   it('throw on client error', async () => {
     fail();
@@ -146,16 +149,19 @@ describe('diagnostic runs', () => {
   it('fetchRuns is live (not cached) and newest first', async () => {
     result = { data: [{ id: 'r1' }], error: null };
     expect(await fetchRuns()).toEqual([{ id: 'r1' }]);
+    expect(args('from')).toEqual(['diagnostic_runs']);
     expect(args('order')).toEqual(['started_at', { ascending: false }]);
     expect(store.size).toBe(0);
   });
   it('createRun inserts question_ids and seed and returns the row', async () => {
     result = { data: { id: 'r1', seed: 's' }, error: null };
     expect(await createRun(['a', 'b'], 's')).toEqual({ id: 'r1', seed: 's' });
+    expect(args('from')).toEqual(['diagnostic_runs']);
     expect(args('insert')).toEqual([{ question_ids: ['a', 'b'], seed: 's' }]);
   });
   it("setRunStatus('completed') sends completed_at", async () => {
     await setRunStatus('r1', 'completed');
+    expect(args('from')).toEqual(['diagnostic_runs']);
     const [patch] = args('update') as [Record<string, unknown>];
     expect(patch.status).toBe('completed');
     expect(typeof patch.completed_at).toBe('string');
@@ -168,6 +174,8 @@ describe('diagnostic runs', () => {
   it('fetchRunAttempts filters on session_id and is live', async () => {
     result = { data: [{ question_id: 'q', chosen: 1, correct: true }], error: null };
     expect(await fetchRunAttempts('r1')).toHaveLength(1);
+    expect(args('from')).toEqual(['attempts']);
+    expect(all('order')).toEqual([['id']]);
     expect(args('eq')).toEqual(['session_id', 'r1']);
     expect(store.size).toBe(0);
   });
