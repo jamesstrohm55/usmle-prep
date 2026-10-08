@@ -4,6 +4,7 @@ import type { Card, Question, Note } from '../../db/models';
 import { useToast } from '../../ui/Toast';
 import { ItemImage } from '../../ui/ItemImage';
 import { Rich } from '../../ui/Rich';
+import { Loading } from '../../ui/Loading';
 
 type Hit = Awaited<ReturnType<typeof search>>[number];
 type Row = Card | Question | Note;
@@ -66,7 +67,7 @@ function HitItem({ hit, lookup }: { hit: Hit; lookup: typeof lookupRow }) {
       </button>
       {open && data && (
         <div className="hit-body">
-          {data.state === 'loading' && <p>Loading…</p>}
+          {data.state === 'loading' && <Loading compact />}
           {data.state === 'missing' && <p>This item is no longer available.</p>}
           {data.state === 'error' && <p>Could not open: {data.msg} <button onClick={load}>Retry</button></p>}
           {data.state === 'ok' && <Detail kind={hit.kind} row={data.row} />}

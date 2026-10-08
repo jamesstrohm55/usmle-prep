@@ -9,6 +9,7 @@ import { Rich } from '../../ui/Rich';
 import { ItemImage } from '../../ui/ItemImage';
 import { uuid } from '../../ui/uuid';
 import { systemLabel } from '../../ui/systemLabel';
+import { Loading } from '../../ui/Loading';
 
 // One answer's row, built once when answered so a Retry re-sends it unchanged and never reads another session's state.
 // rejected = the server refused this row for good (integrity error): it is never re-sent and offers no Retry.
@@ -156,7 +157,7 @@ export function Questions({ load = fetchQuestions, save = saveAttempts, preset, 
   }
 
   if (loadError) return <p>Could not load questions: {loadError} <button onClick={refresh}>Retry</button></p>;
-  if (!bank) return <p>Loading…</p>;
+  if (!bank) return <Loading />;
   if (!bank.length) return <p>No questions yet.</p>;
 
   const blockSize = Math.min(BLOCK, bank.length);

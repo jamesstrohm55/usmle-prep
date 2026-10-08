@@ -12,6 +12,7 @@ import { Rich } from '../../ui/Rich';
 import { ItemImage } from '../../ui/ItemImage';
 import { uuid } from '../../ui/uuid';
 import { systemLabel } from '../../ui/systemLabel';
+import { Loading } from '../../ui/Loading';
 
 export async function loadDiagnostic() {
   const [questions, attempts, runs] = await Promise.all([fetchQuestions(), fetchAttempts(), fetchRuns()]);
@@ -76,7 +77,7 @@ export function Diagnostic({ load = loadDiagnostic, deps = DEPS }: { load?: () =
   useEffect(refresh, [refresh]);
 
   if (error) return <p role="alert">Could not load the diagnostic: {error} <button onClick={refresh}>Retry</button></p>;
-  if (!data) return <p role="status">Loading…</p>;
+  if (!data) return <Loading />;
 
   const byId = new Map(data.questions.map((q) => [q.id, q]));
   // A question deleted from the bank since the draw is dropped rather than blocking the run.

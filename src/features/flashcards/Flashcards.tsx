@@ -7,6 +7,7 @@ import { useToast } from '../../ui/Toast';
 import { Rich } from '../../ui/Rich';
 import { ItemImage } from '../../ui/ItemImage';
 import { systemLabel } from '../../ui/systemLabel';
+import { Loading } from '../../ui/Loading';
 
 type States = Map<string, CardStateRow>;
 const loadData = async () => ({ cards: await fetchCards(), states: (await fetchCardStates()) as States });
@@ -87,7 +88,7 @@ export function Flashcards({ load = loadData, save = saveReview }: { load?: type
   }
 
   if (loadError) return <p>Could not load cards: {loadError} <button onClick={refresh}>Retry</button></p>;
-  if (!data) return <p>Loading…</p>;
+  if (!data) return <Loading />;
   if (!current) return <p>Nothing due. Come back later, or add cards on the Import tab.</p>;
 
   return (

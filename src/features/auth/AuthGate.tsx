@@ -5,6 +5,7 @@ import { clearCache } from '../../db/queries';
 import { clearLastUserId, getLastUserId, setLastUserId, takeExplicitSignOut } from '../../db/lastUser';
 import { useToast } from '../../ui/Toast';
 import { Login } from './Login';
+import { Loading } from '../../ui/Loading';
 
 export function AuthGate({ children }: { children: ReactNode }) {
   const [session, setSession] = useState<Session | null | undefined>(undefined);
@@ -49,7 +50,7 @@ export function AuthGate({ children }: { children: ReactNode }) {
     return () => { data.subscription.unsubscribe(); window.removeEventListener('online', check); };
   }, [dismiss]);
 
-  if (session === undefined) return <main>Loading…</main>;
+  if (session === undefined) return <main className="login"><Loading /></main>;
   const active = !!session || offline;
   return (
     <>

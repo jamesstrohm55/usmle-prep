@@ -289,3 +289,25 @@ p[role='status']:empty { margin: 0; }
   .tile:hover { transform: none; }
   .tile, main > .card, .note, .hits > li { animation: none; }
 }
+
+/* Loader: two cubes chasing each other around a square. */
+.loading { display: flex; justify-content: center; align-items: center; padding: 56px 0; margin-top: 0; margin-bottom: 0; }
+.loading.compact { padding: 6px 0; justify-content: flex-start; }
+.loading.compact .loader-box { --s: 11px; }
+.loader-box { --s: 18px; width: calc(var(--s) * 2.7); height: calc(var(--s) * 2.7); display: block; }
+.loader { --_d: calc(0.353 * var(--s)); --t: calc(var(--s) * 1.5); width: calc(var(--s) + var(--_d)); aspect-ratio: 1; display: grid; }
+.loader::before, .loader::after {
+  content: ''; grid-area: 1 / 1;
+  clip-path: polygon(var(--_d) 0, 100% 0, 100% calc(100% - var(--_d)), calc(100% - var(--_d)) 100%, 0 100%, 0 var(--_d));
+  background: conic-gradient(from -90deg at calc(100% - var(--_d)) var(--_d), #8fd9cf 135deg, #0f766e 0 270deg, #0a4f4a 0);
+  animation: loader-chase 2s infinite;
+}
+.loader::after { animation-delay: -1s; }
+@keyframes loader-chase {
+  0% { transform: translate(0, 0); }
+  25% { transform: translate(var(--t), 0); }
+  50% { transform: translate(var(--t), var(--t)); }
+  75% { transform: translate(0, var(--t)); }
+  100% { transform: translate(0, 0); }
+}
+@media (prefers-reduced-motion: reduce) { .loader::before, .loader::after { animation: none; } }

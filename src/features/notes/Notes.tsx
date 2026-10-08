@@ -3,6 +3,7 @@ import { fetchNotes } from '../../db/queries';
 import type { Note } from '../../db/models';
 import { Rich } from '../../ui/Rich';
 import { systemLabel } from '../../ui/systemLabel';
+import { Loading } from '../../ui/Loading';
 
 export function Notes({ load = fetchNotes }: { load?: typeof fetchNotes }) {
   const [notes, setNotes] = useState<Note[] | null>(null);
@@ -18,7 +19,7 @@ export function Notes({ load = fetchNotes }: { load?: typeof fetchNotes }) {
   useEffect(refresh, [refresh]);
 
   if (error) return <p>Could not load notes: {error} <button onClick={refresh}>Retry</button></p>;
-  if (!notes) return <p>Loading…</p>;
+  if (!notes) return <Loading />;
   if (!notes.length) return <p>No notes yet.</p>;
 
   return (

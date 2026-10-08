@@ -13,6 +13,7 @@ import { Notes } from './features/notes/Notes';
 import { Search } from './features/search/Search';
 import { ImportExport } from './features/import-export/ImportExport';
 import { Icon, type IconName } from './ui/Icon';
+import { Loading } from './ui/Loading';
 
 function SignOut() {
   const toast = useToast();
@@ -34,7 +35,7 @@ function Home() {
       .catch(() => live && setTo('/today')); // Today works without a diagnostic
     return () => { live = false; };
   }, []);
-  return to ? <Navigate to={to} replace /> : <p role="status">Loading…</p>;
+  return to ? <Navigate to={to} replace /> : <Loading />;
 }
 
 const NAV: [string, string, IconName][] = [

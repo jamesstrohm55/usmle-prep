@@ -13,6 +13,7 @@ import {
 import { systemLabel } from '../../ui/systemLabel';
 import { doneToday, parseSnapshot, type Snapshot } from '../../engine/progress';
 import { getLastUserId } from '../../db/lastUser';
+import { Loading } from '../../ui/Loading';
 
 // Stagger index for the tiles' blur-fade entrance (see .tile in styles.css).
 const at = (i: number) => ({ '--i': i }) as React.CSSProperties;
@@ -114,7 +115,7 @@ export function Today({ load = loadToday, save = saveSettings, now = () => new D
   }, [data, override, today, user, rebuilds]);
 
   if (error) return <p role="alert">Could not load your plan: {error} <button onClick={refresh}>Retry</button></p>;
-  if (!data || !view) return <p role="status">Loading…</p>;
+  if (!data || !view) return <Loading />;
 
   const onOverride = (v: string) => { setStored({ day: overrideKey, v }); writeKey(overrideKey, v); };
   const onRebuild = () => setRebuilds((n) => n + 1);
