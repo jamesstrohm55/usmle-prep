@@ -1,0 +1,187 @@
+{
+  "cards": [],
+  "questions": [
+    {
+      "slug": "q-arthritis-crystal-disease-qx-felty-syndrome",
+      "track": "step1",
+      "system": "musculoskeletal-dermatology",
+      "discipline": "pathology",
+      "tags": [
+        "arthritis-crystal-disease",
+        "rheumatoid-arthritis",
+        "extra-articular"
+      ],
+      "stem": "A 58-year-old woman has had rheumatoid arthritis for 15 years. She has refused disease-modifying drugs and takes only naproxen. This year she has had two episodes of pneumonia and one of cellulitis. She has symmetric swelling of the metacarpophalangeal joints with ulnar deviation, firm nodules over both elbows, and a spleen felt 4 cm below the left costal margin. She has no jaundice, ascites or lymph node enlargement. Laboratory studies show hemoglobin 10.8 g/dL, MCV 86 fL, white blood cells 2,400/µL with an absolute neutrophil count of 900/µL, and platelets 210,000/µL. Rheumatoid factor is positive at a high titer. The blood smear shows no blasts or abnormal lymphocytes. Which diagnosis best explains these findings?",
+      "choices": [
+        "Systemic lupus erythematosus",
+        "Hairy cell leukemia",
+        "Portal hypertension with hypersplenism",
+        "Felty syndrome",
+        "Chronic myeloid leukemia"
+      ],
+      "correct": 3,
+      "explanation": "Long-standing, seropositive, nodular **rheumatoid arthritis** with **splenomegaly** and **neutropenia** (and the infections that neutropenia causes) is **Felty syndrome**. Hairy cell leukemia also causes splenomegaly with low counts, but it usually lowers all three cell lines, including platelets, and the smear shows abnormal B cells with hair-like projections. Chronic myeloid leukemia gives a high white cell count, and portal hypertension would come with signs of liver disease. Lupus can cause leukopenia, but its arthritis does not erode joints or cause rheumatoid nodules.",
+      "explanation_pt": "**Artrite reumatoide** de longa data, soropositiva e com nódulos, associada a **esplenomegalia** e **neutropenia** (com as infecções que a neutropenia provoca), é a **síndrome de Felty**. A tricoleucemia também causa esplenomegalia com citopenias, mas costuma reduzir as três linhagens, inclusive as plaquetas, e o esfregaço mostra linfócitos B anormais com projeções semelhantes a pelos. A leucemia mieloide crônica cursa com leucocitose, e a hipertensão portal viria acompanhada de sinais de doença hepática. O lúpus pode causar leucopenia, mas sua artrite não é erosiva nem causa nódulos reumatoides."
+    },
+    {
+      "slug": "q-arthritis-crystal-disease-qx-atlantoaxial-subluxation",
+      "track": "step1",
+      "system": "musculoskeletal-dermatology",
+      "discipline": "pathology",
+      "tags": [
+        "arthritis-crystal-disease",
+        "rheumatoid-arthritis",
+        "extra-articular",
+        "cervical-spine"
+      ],
+      "stem": "A 68-year-old woman with rheumatoid arthritis for 20 years is scheduled for a knee replacement under general anesthesia. For several months she has had neck pain that spreads to the back of her head, and her hands tingle when she bends her neck forward. Her hands show ulnar deviation and swan-neck deformities. Before surgery, x-rays of the cervical spine are taken with the neck flexed and extended. Which finding on these films most likely explains her symptoms?",
+      "choices": [
+        "Wide gap between the atlas and the dens on neck flexion",
+        "Bony bridges joining the fronts of the cervical vertebral bodies",
+        "Osteophytes and disc narrowing at C5-C6",
+        "Wedge compression of a cervical vertebral body",
+        "Lytic metastasis destroying the dens"
+      ],
+      "correct": 0,
+      "explanation": "In rheumatoid arthritis, **synovitis** around the dens erodes the **transverse ligament** of the atlas, so C1 slides forward on C2 when the neck flexes (**atlantoaxial subluxation**). This can compress the upper cervical cord, which explains her occipital pain and tingling, and it is a risk during neck movement for intubation. Osteophytes with disc narrowing at C5-C6 are common at her age, but they reflect degenerative spondylosis, not RA, and do not explain instability at the top of the neck. Bony bridges between vertebral bodies (syndesmophytes) fit ankylosing spondylitis.",
+      "explanation_pt": "Na artrite reumatoide, a **sinovite** ao redor do processo odontoide erode o **ligamento transverso** do atlas, e C1 desliza para a frente sobre C2 quando o pescoço é fletido (**subluxação atlantoaxial**). Isso pode comprimir a medula cervical alta, o que explica a dor occipital e as parestesias, e é um risco durante a mobilização do pescoço para a intubação. Osteófitos com redução do espaço discal em C5-C6 são comuns nessa idade, mas refletem espondilose degenerativa, não AR, e não explicam instabilidade na região cervical alta. Pontes ósseas entre corpos vertebrais (sindesmófitos) sugerem espondilite anquilosante."
+    },
+    {
+      "slug": "q-arthritis-crystal-disease-qx-ankylosing-spondylitis-restriction",
+      "track": "step1",
+      "system": "musculoskeletal-dermatology",
+      "discipline": "pathology",
+      "tags": [
+        "arthritis-crystal-disease",
+        "spondyloarthropathy",
+        "ankylosing-spondylitis",
+        "pulmonary-function"
+      ],
+      "stem": "A 34-year-old man has had low back pain and morning stiffness for 10 years. The pain improves with exercise and wakes him in the second half of the night. Recently he becomes short of breath when he climbs two flights of stairs. Lumbar flexion is markedly reduced, and his chest expands only 2 cm with deep breathing. Pulmonary function tests show FVC 68% of predicted, FEV1 70% of predicted, FEV1/FVC ratio 0.83, total lung capacity 74% of predicted, and DLCO 95% of predicted. A chest CT shows normal lung tissue. Which mechanism best explains his test results?",
+      "choices": [
+        "Fibrosis of the upper lobes of the lungs",
+        "Narrowing of small airways by inflammation",
+        "Stiff chest wall from fused rib joints",
+        "Bilateral pleural effusions",
+        "Loss of alveolar walls and elastic recoil"
+      ],
+      "correct": 2,
+      "explanation": "Inflammatory back pain with reduced spinal motion and poor chest expansion means **ankylosing spondylitis**. Fusion of the **costovertebral** and costosternal joints stiffens the chest wall, which gives a **restrictive pattern** (low TLC and FVC, normal FEV1/FVC) with a **normal DLCO** because the lung tissue itself is healthy. Upper-lobe fibrosis can occur in ankylosing spondylitis, but it would show on CT and usually lower the DLCO. Small-airway narrowing and emphysema would cause an obstructive pattern with a low FEV1/FVC ratio.",
+      "explanation_pt": "Lombalgia inflamatória com redução da mobilidade da coluna e pouca expansibilidade torácica indica **espondilite anquilosante**. A fusão das articulações **costovertebrais** e costoesternais enrijece a parede torácica, o que gera um **padrão restritivo** (CPT e CVF baixas, VEF1/CVF normal) com **DLCO normal**, porque o parênquima pulmonar é saudável. A fibrose de lobos superiores pode ocorrer na espondilite anquilosante, mas apareceria na TC e costuma reduzir a DLCO. O estreitamento de pequenas vias aéreas e o enfisema causariam padrão obstrutivo, com VEF1/CVF baixa."
+    },
+    {
+      "slug": "q-arthritis-crystal-disease-qx-septic-arthritis-with-crystals",
+      "track": "step1",
+      "system": "musculoskeletal-dermatology",
+      "discipline": "pathology",
+      "tags": [
+        "arthritis-crystal-disease",
+        "septic-arthritis",
+        "gout",
+        "synovial-fluid"
+      ],
+      "stem": "A 66-year-old man with type 2 diabetes and gout has had 2 days of pain and swelling in his left knee, with chills. He has had several gout attacks in his big toes, and he has tophi on both elbows. Temperature is 38.9°C. The knee is hot, red and swollen, and he cannot bend it. Joint aspiration shows the following: thick, yellow, opaque fluid; white blood cells 112,000/µL with 95% neutrophils; needle-shaped, negatively birefringent crystals; and a Gram stain with gram-positive cocci in clusters. Which interpretation of the joint fluid is most likely correct?",
+      "choices": [
+        "Acute gout flare alone",
+        "Pseudogout flare alone",
+        "Reactive arthritis after a recent streptococcal skin infection",
+        "Gonococcal arthritis with tenosynovitis",
+        "Staphylococcal septic arthritis with coexisting gout"
+      ],
+      "correct": 4,
+      "explanation": "A synovial white cell count above about 50,000/µL with mostly neutrophils and **gram-positive cocci in clusters** means **septic arthritis**, most likely from ***Staphylococcus aureus***. The urate crystals show that he has gout, but **crystals do not exclude infection**, and a joint can have both at the same time. Calling this a gout flare alone is the tempting error: it ignores the organisms on Gram stain and the very high cell count, and a missed septic joint can destroy cartilage within days. *N. gonorrhoeae* is a gram-negative diplococcus, and reactive arthritis is sterile, so organisms on Gram stain exclude it.",
+      "explanation_pt": "Leucometria sinovial acima de cerca de 50.000/µL, com predomínio de neutrófilos e **cocos gram-positivos em cachos**, indica **artrite séptica**, provavelmente por ***Staphylococcus aureus***. Os cristais de urato mostram que ele tem gota, mas **cristais não excluem infecção**, e a mesma articulação pode ter as duas coisas ao mesmo tempo. Considerar o quadro apenas uma crise de gota é o erro tentador: ignora as bactérias na coloração de Gram e a leucometria muito alta, e uma artrite séptica não tratada pode destruir a cartilagem em poucos dias. A *N. gonorrhoeae* é um diplococo gram-negativo, e a artrite reativa é estéril, por isso bactérias na coloração de Gram a excluem."
+    },
+    {
+      "slug": "q-arthritis-crystal-disease-qx-psoriatic-arthritis-xray",
+      "track": "step1",
+      "system": "musculoskeletal-dermatology",
+      "discipline": "pathology",
+      "tags": [
+        "arthritis-crystal-disease",
+        "spondyloarthropathy",
+        "psoriatic-arthritis",
+        "imaging"
+      ],
+      "stem": "A 45-year-old man has 8 months of pain and stiffness in several fingers. His whole left third toe and right second finger became swollen, like sausages. The distal interphalangeal joints of four fingers are swollen and tender. Several fingernails have small pits, and one nail is lifting off its nail bed. There is a scaly red plaque in his gluteal cleft. Rheumatoid factor and anti-CCP antibody are negative. Which x-ray finding is most likely in his affected distal interphalangeal joints?",
+      "choices": [
+        "Joint narrowing with osteophytes and subchondral sclerosis",
+        "Erosions that taper one bone end and cup the other",
+        "Periarticular osteopenia with symmetric marginal erosions",
+        "Linear calcification within the articular cartilage",
+        "Punched-out erosions with overhanging bony edges"
+      ],
+      "correct": 1,
+      "explanation": "**Dactylitis**, **DIP arthritis**, **nail pitting** with onycholysis and a hidden psoriatic plaque, with negative RF and anti-CCP, mean **psoriatic arthritis**. Its erosions can sharpen the end of the middle phalanx and widen the base of the distal phalanx into a cup: the **pencil-in-cup** deformity. Osteoarthritis also affects the DIP joints (Heberden nodes), but it causes narrowing with osteophytes, not dactylitis or nail disease. Periarticular osteopenia with symmetric marginal erosions fits rheumatoid arthritis, which spares the DIP joints.",
+      "explanation_pt": "**Dactilite**, **artrite das IFD**, ***pitting* ungueal** com onicólise e uma placa psoriásica escondida, com FR e anti-CCP negativos, indicam **artrite psoriásica**. Suas erosões podem afilar a extremidade da falange média e alargar a base da falange distal em forma de taça: a deformidade em **lápis na taça** (*pencil-in-cup*). A osteoartrite também acomete as IFD (nódulos de Heberden), mas causa redução do espaço articular com osteófitos, sem dactilite nem alterações ungueais. Osteopenia periarticular com erosões marginais simétricas sugere artrite reumatoide, que poupa as IFD."
+    },
+    {
+      "slug": "q-arthritis-crystal-disease-qx-cppd-hemochromatosis",
+      "track": "step1",
+      "system": "musculoskeletal-dermatology",
+      "discipline": "pathology",
+      "tags": [
+        "arthritis-crystal-disease",
+        "pseudogout",
+        "chondrocalcinosis"
+      ],
+      "stem": "A 64-year-old woman has 2 days of pain and swelling in her left knee. Her periods stopped at age 51. For several years her hands have ached after housework. Her older brother was recently diagnosed with cirrhosis, although he does not drink alcohol. Knee fluid contains rhomboid, weakly positively birefringent crystals and no organisms. Knee x-rays show calcification of the menisci, and hand x-rays show hook-like osteophytes on the second and third metacarpal heads. Laboratory studies show calcium 9.6 mg/dL (normal 8.5-10.5), magnesium 1.9 mg/dL (normal 1.7-2.2), alkaline phosphatase 105 U/L (normal 40-130), fasting glucose 94 mg/dL, and transferrin saturation 71% (normal 20-50). Which disorder most likely underlies her joint disease?",
+      "choices": [
+        "Hereditary hemochromatosis",
+        "Primary hyperparathyroidism",
+        "Gitelman syndrome",
+        "Wilson disease",
+        "Hypophosphatasia"
+      ],
+      "correct": 0,
+      "explanation": "Calcium pyrophosphate crystals with **chondrocalcinosis**, **hook-like osteophytes at the 2nd and 3rd MCP joints**, a high transferrin saturation and a brother with unexplained cirrhosis point to **hereditary hemochromatosis**, a classic cause of CPPD disease. Women usually show iron overload later than men, because menstrual blood loss removes iron until **menopause**. Primary hyperparathyroidism is another CPPD association, but her calcium is normal; Gitelman syndrome would cause low magnesium, and hypophosphatasia would cause a low alkaline phosphatase. Wilson disease usually starts at a younger age with liver and neurologic disease, and it does not raise transferrin saturation.",
+      "explanation_pt": "Cristais de pirofosfato de cálcio com **condrocalcinose**, **osteófitos em gancho na 2ª e 3ª MCF**, saturação de transferrina elevada e um irmão com cirrose sem causa aparente indicam **hemocromatose hereditária**, causa clássica de doença por depósito de pirofosfato de cálcio. As mulheres costumam manifestar sobrecarga de ferro mais tarde que os homens, porque a perda menstrual remove ferro até a **menopausa**. O hiperparatireoidismo primário também se associa à doença, mas o cálcio dela é normal; a síndrome de Gitelman causaria hipomagnesemia, e a hipofosfatasia causaria fosfatase alcalina baixa. A doença de Wilson costuma começar mais cedo, com doença hepática e neurológica, e não eleva a saturação de transferrina."
+    },
+    {
+      "slug": "q-arthritis-crystal-disease-qx-tophus-histology",
+      "track": "step1",
+      "system": "musculoskeletal-dermatology",
+      "discipline": "pathology",
+      "tags": [
+        "arthritis-crystal-disease",
+        "gout",
+        "tophi"
+      ],
+      "stem": "A 70-year-old man has chronic kidney disease and has had attacks of joint pain in his feet and hands for 15 years, which were never treated between attacks. He now has firm, painless nodules on the rims of both ears and over both elbows. One elbow nodule has broken through the skin and drains chalky white material. A nodule is removed and examined under the microscope. Which finding is most likely?",
+      "choices": [
+        "Central fibrinoid necrosis rimmed by palisading histiocytes",
+        "Caseating granulomas containing acid-fast bacilli",
+        "Amorphous deposits ringed by foreign-body giant cells",
+        "Sheets of lipid-laden foamy macrophages",
+        "Nests of basaloid cells with peripheral palisading"
+      ],
+      "correct": 2,
+      "explanation": "Recurrent untreated attacks, CKD and chalky nodules on the ears and elbows are **chronic tophaceous gout**. A **tophus** is a mass of urate deposits surrounded by macrophages and **foreign-body giant cells**; in formalin-fixed tissue the crystals often dissolve and leave needle-shaped clefts. A **rheumatoid nodule** is the tempting choice because it also forms over the elbow, but it shows central fibrinoid necrosis with palisading histiocytes and does not drain chalky material. Foamy macrophages describe a xanthoma.",
+      "explanation_pt": "Crises recorrentes sem tratamento, DRC e nódulos que drenam material branco semelhante a giz nas orelhas e cotovelos indicam **gota tofácea crônica**. O **tofo** é uma massa de depósitos de urato cercada por macrófagos e **células gigantes do tipo corpo estranho**; no tecido fixado em formol, os cristais costumam se dissolver e deixar fendas em forma de agulha. O **nódulo reumatoide** é a opção tentadora porque também surge no cotovelo, mas mostra necrose fibrinoide central com histiócitos em paliçada e não drena material semelhante a giz. Macrófagos espumosos descrevem um xantoma."
+    },
+    {
+      "slug": "q-arthritis-crystal-disease-qx-ruptured-baker-cyst",
+      "track": "step1",
+      "system": "musculoskeletal-dermatology",
+      "discipline": "pathology",
+      "tags": [
+        "arthritis-crystal-disease",
+        "rheumatoid-arthritis",
+        "extra-articular",
+        "knee"
+      ],
+      "stem": "A 61-year-old woman with rheumatoid arthritis has had recurrent effusions of her right knee. After a day of squatting in her garden she has sudden pain and swelling of the right calf. The calf is tender and warm and is 3 cm larger in circumference than the left. There is a crescent-shaped bruise below the medial malleolus. Temperature is 37.2°C. Duplex ultrasound shows normal, fully compressible deep veins, and a fluid collection that starts in the medial popliteal fossa and tracks down into the calf muscles. Rupture of which structure most likely explains her findings?",
+      "choices": [
+        "Prepatellar bursa",
+        "Bursa under the pes anserinus tendons",
+        "Deep infrapatellar bursa",
+        "Suprapatellar bursa",
+        "Gastrocnemius-semimembranosus bursa"
+      ],
+      "correct": 4,
+      "explanation": "A **Baker (popliteal) cyst** is a distended **gastrocnemius-semimembranosus bursa** that connects with the knee joint at the back of the medial knee, so a chronic RA effusion fills it. When it ruptures, fluid tracks into the calf and mimics **deep vein thrombosis**; a normal venous ultrasound and a bruise near the ankle support rupture. The suprapatellar bursa also connects with the knee joint, but it lies above the patella at the front of the thigh, not in the popliteal fossa. The prepatellar, deep infrapatellar and pes anserine bursae are all at the front or the front-medial side of the knee.",
+      "explanation_pt": "O **cisto de Baker (poplíteo)** é a distensão da **bursa do gastrocnêmio-semimembranoso**, que se comunica com a articulação do joelho na face posteromedial, por isso o derrame crônico da AR a enche. Quando se rompe, o líquido desce para a panturrilha e simula **trombose venosa profunda**; um ultrassom venoso normal e uma equimose perto do tornozelo apoiam a ruptura. A bursa suprapatelar também se comunica com o joelho, mas fica acima da patela, na face anterior da coxa, e não na fossa poplítea. As bursas pré-patelar, infrapatelar profunda e da pata de ganso ficam na face anterior ou anteromedial do joelho."
+    }
+  ],
+  "notes": []
+}

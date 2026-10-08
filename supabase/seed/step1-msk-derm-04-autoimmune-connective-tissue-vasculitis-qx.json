@@ -1,0 +1,183 @@
+{
+  "cards": [],
+  "questions": [
+    {
+      "slug": "q-autoimmune-vasculitis-qx-dermatomyositis-biopsy",
+      "track": "step1",
+      "system": "musculoskeletal-dermatology",
+      "discipline": "pathology",
+      "tags": [
+        "autoimmune-vasculitis",
+        "myositis",
+        "muscle-biopsy"
+      ],
+      "stem": "A 54-year-old woman has had 2 months of trouble climbing stairs and lifting her arms to brush her hair. She has a violet rash on both upper eyelids with mild swelling. There are raised red-purple papules over the knuckles. Muscle strength is 4/5 at the shoulders and hips and normal in the hands and feet. Reflexes and sensation are normal. Creatine kinase is 3,400 U/L (normal 30-170 U/L), aldolase is increased, and TSH is 2.1 μU/mL (normal). A biopsy of the deltoid muscle is done. Which finding is most likely?",
+      "choices": [
+        "Endomysial CD8+ T cells surrounding and invading non-necrotic muscle fibers",
+        "Rimmed vacuoles and protein inclusions within muscle fibers",
+        "Perifascicular atrophy with inflammation around perimysial blood vessels",
+        "Absent dystrophin staining with fibers replaced by fat and fibrous tissue",
+        "Ragged red fibers filled with abnormal mitochondria"
+      ],
+      "correct": 2,
+      "explanation": "A **heliotrope rash**, **Gottron papules**, proximal weakness and a high CK are **dermatomyositis**. Complement-mediated injury of small vessels around the fascicles, with CD4+ T cells and B cells in the **perimysium**, makes the fibers at the edge of each fascicle shrink (**perifascicular atrophy**). Endomysial CD8+ T cells invading intact fibers is the pattern of **polymyositis**, which has no rash. Dermatomyositis in an adult also calls for a search for an **occult cancer**.",
+      "explanation_pt": "**Eritema em heliótropo**, **pápulas de Gottron**, fraqueza proximal e CK elevada indicam **dermatomiosite**. A lesão dos pequenos vasos mediada por complemento, com linfócitos T CD4+ e linfócitos B no **perimísio**, faz as fibras da periferia de cada fascículo atrofiarem (**atrofia perifascicular**). Linfócitos T CD8+ endomisiais invadindo fibras íntegras são o padrão da **polimiosite**, que não tem lesões de pele. No adulto, a dermatomiosite também exige a busca de **câncer oculto**."
+    },
+    {
+      "slug": "q-autoimmune-vasculitis-qx-polymyalgia-rheumatica",
+      "track": "step1",
+      "system": "musculoskeletal-dermatology",
+      "discipline": "pathology",
+      "tags": [
+        "autoimmune-vasculitis",
+        "polymyalgia-rheumatica",
+        "giant-cell-arteritis"
+      ],
+      "stem": "A 71-year-old man has had 6 weeks of aching and stiffness in his neck, both shoulders and both hips. The stiffness is worst in the morning and lasts about 2 hours. He has trouble getting out of bed and raising his arms to dress. He has lost 3 kg. He has no headache, jaw pain or vision change, and he takes no medications. Shoulder movement is limited by pain, but strength is 5/5 when tested carefully. The small joints of the hands are not swollen. Results: ESR 82 mm/h (normal < 20 mm/h), CRP increased, creatine kinase 95 U/L (normal 30-170 U/L), TSH normal, hemoglobin 11.8 g/dL. Which is the most likely diagnosis?",
+      "choices": [
+        "Polymyositis",
+        "Polymyalgia rheumatica",
+        "Fibromyalgia",
+        "Late-onset rheumatoid arthritis",
+        "Hypothyroid myopathy"
+      ],
+      "correct": 1,
+      "explanation": "Age over 50, morning **stiffness of the shoulder and hip girdles**, a high **ESR** and **normal CK and strength** are **polymyalgia rheumatica**. Polymyositis also affects proximal muscles, but it causes true weakness and a **high CK**. Fibromyalgia causes widespread pain with **normal inflammatory markers**. Because polymyalgia rheumatica overlaps with **giant cell arteritis**, the patient should be asked about headache, jaw claudication and vision change.",
+      "explanation_pt": "Idade acima de 50 anos, **rigidez matinal das cinturas escapular e pélvica**, **VHS** elevada e **CK e força normais** indicam **polimialgia reumática**. A polimiosite também acomete músculos proximais, mas causa fraqueza verdadeira e **CK elevada**. A fibromialgia causa dor difusa com **marcadores inflamatórios normais**. Como a polimialgia reumática se sobrepõe à **arterite de células gigantes**, o paciente deve ser questionado sobre cefaleia, claudicação mandibular e alterações visuais."
+    },
+    {
+      "slug": "q-autoimmune-vasculitis-qx-mctd-u1-rnp",
+      "track": "step1",
+      "system": "musculoskeletal-dermatology",
+      "discipline": "pathology",
+      "tags": [
+        "autoimmune-vasculitis",
+        "mctd",
+        "autoantibodies"
+      ],
+      "stem": "A 34-year-old woman has had 8 months of fingers that turn white and then blue in the cold. Her hands are now diffusely swollen and puffy. She has pain and swelling in the small joints of both hands and has trouble climbing stairs. Proximal muscle strength is 4/5. The lungs are clear, and the skin of her fingers is not rough or cracked. The skin is not thickened above the wrists. She has no facial rash, and a urinalysis is normal. Creatine kinase is 1,250 U/L. ANA is positive at a high titer with a speckled pattern. Anti-dsDNA, anti-Smith and anti-Scl-70 are negative. Which antibody is most likely present at a high titer?",
+      "choices": [
+        "Anti-centromere",
+        "Anti-Jo-1",
+        "Anti-La (SSB)",
+        "Anti-histone",
+        "Anti-U1 RNP"
+      ],
+      "correct": 4,
+      "explanation": "**Raynaud phenomenon**, **puffy hands**, inflammatory arthritis and myositis together are an overlap of SLE, systemic sclerosis and polymyositis. With a speckled ANA and negative anti-dsDNA, anti-Smith and anti-Scl-70, this is **mixed connective tissue disease**, defined by high titers of **anti-U1 RNP**. Anti-Jo-1 is tempting because of the myositis, and the antisynthetase syndrome can also cause Raynaud phenomenon and arthritis. However, Jo-1 is a cytoplasmic antigen, so the ANA is often negative or cytoplasmic rather than high-titer speckled, and the syndrome is marked by interstitial lung disease and mechanic's hands, which she does not have.",
+      "explanation_pt": "**Fenômeno de Raynaud**, **mãos edemaciadas** (*puffy hands*), artrite inflamatória e miosite juntos formam uma sobreposição de LES, esclerose sistêmica e polimiosite. Com FAN pontilhado e anti-dsDNA, anti-Sm e anti-Scl-70 negativos, trata-se de **doença mista do tecido conjuntivo**, definida por títulos altos de **anti-U1 RNP**. O anti-Jo-1 é tentador por causa da miosite, e a síndrome antissintetase também pode causar fenômeno de Raynaud e artrite. Porém, o Jo-1 é um antígeno citoplasmático, então o FAN costuma ser negativo ou citoplasmático, e não pontilhado em título alto, e a síndrome se caracteriza por doença pulmonar intersticial e mãos de mecânico, ausentes aqui."
+    },
+    {
+      "slug": "q-autoimmune-vasculitis-qx-behcet-hla-b51",
+      "track": "step1",
+      "system": "musculoskeletal-dermatology",
+      "discipline": "pathology",
+      "tags": [
+        "autoimmune-vasculitis",
+        "behcet",
+        "hla"
+      ],
+      "stem": "A 27-year-old man who grew up in Turkey has had painful mouth ulcers 4 to 5 times a year for 3 years. He now has a painful ulcer on the scrotum. He also has blurred vision and a red, painful right eye. Exam shows a layer of pus in the anterior chamber of the right eye (hypopyon) and tender red nodules on both shins. A small red pustule formed at the site of a blood draw 2 days ago. HSV PCR of the scrotal ulcer is negative. Which genetic marker is most strongly associated with this condition?",
+      "choices": [
+        "HLA-B51",
+        "HLA-B27",
+        "HLA-DR4",
+        "HLA-DR3",
+        "HLA-DQ2"
+      ],
+      "correct": 0,
+      "explanation": "Recurrent painful **oral and genital ulcers**, **uveitis** with hypopyon, erythema nodosum and **pathergy** (a pustule at a needle site) are **Behçet disease**, a variable-vessel vasculitis linked to **HLA-B51**. HLA-B27 is tempting because reactive arthritis also causes eye inflammation and mucosal lesions, but its oral ulcers are usually painless and it does not cause recurrent painful genital ulcers or pathergy. HLA-DR4 goes with rheumatoid arthritis and HLA-DQ2 with celiac disease.",
+      "explanation_pt": "**Úlceras orais e genitais** dolorosas e recorrentes, **uveíte** com hipópio, eritema nodoso e **patergia** (pústula no local da punção) indicam **doença de Behçet**, uma vasculite de vasos variáveis associada ao **HLA-B51**. O HLA-B27 é tentador porque a artrite reativa também causa inflamação ocular e lesões de mucosa, mas suas úlceras orais costumam ser indolores e ela não causa úlceras genitais dolorosas recorrentes nem patergia. O HLA-DR4 se associa à artrite reumatoide e o HLA-DQ2 à doença celíaca."
+    },
+    {
+      "slug": "q-autoimmune-vasculitis-qx-pan-hepatitis-b",
+      "track": "step1",
+      "system": "musculoskeletal-dermatology",
+      "discipline": "pathology",
+      "tags": [
+        "autoimmune-vasculitis",
+        "polyarteritis-nodosa",
+        "medium-vessel"
+      ],
+      "stem": "A 52-year-old man has had 2 months of fever, a 6-kg weight loss, muscle aches and episodes of abdominal pain. Last week he developed a right foot drop. He injected drugs in the past. Blood pressure is 158/96 mm Hg; it was normal 1 year ago. He has a net-like purple pattern on the skin of his thighs, and his left testicle is tender. Results: creatinine 1.9 mg/dL, urinalysis with mild proteinuria and no red cell casts, eosinophils 2%, c-ANCA and p-ANCA negative. Chest x-ray is normal. Angiography shows many small aneurysms and narrowed segments in the renal and mesenteric arteries. Which test is most likely positive?",
+      "choices": [
+        "Anti-glomerular basement membrane antibody",
+        "Antiphospholipid antibodies",
+        "Serum cryoglobulins",
+        "Hepatitis B surface antigen",
+        "Antistreptolysin O titer"
+      ],
+      "correct": 3,
+      "explanation": "Foot drop (a mononeuropathy, the typical first lesion of mononeuritis multiplex), abdominal pain from **mesenteric ischemia**, testicular pain, new **renin-driven hypertension**, **microaneurysms** of medium arteries, negative ANCA and normal lungs are **polyarteritis nodosa**. Its classic association is **chronic hepatitis B**, in which immune complexes containing viral antigen injure medium-sized arteries. Cryoglobulins are tempting in a person who injected drugs (hepatitis C), but cryoglobulinemic vasculitis affects **small vessels** and usually causes palpable purpura and glomerulonephritis, not aneurysms. Antiphospholipid antibodies can also cause a net-like skin pattern, but they cause thrombosis, not inflammatory aneurysms.",
+      "explanation_pt": "Pé caído (uma mononeuropatia, a lesão inicial típica da mononeurite múltipla), dor abdominal por **isquemia mesentérica**, dor testicular, **hipertensão nova mediada por renina**, **microaneurismas** de artérias de médio calibre, ANCA negativo e pulmões normais indicam **poliarterite nodosa**. Sua associação clássica é a **hepatite B crônica**, em que imunocomplexos com antígeno viral lesam artérias de médio calibre. As crioglobulinas são tentadoras em um usuário de drogas injetáveis (hepatite C), mas a vasculite crioglobulinêmica acomete **pequenos vasos** e costuma causar púrpura palpável e glomerulonefrite, e não aneurismas. Os anticorpos antifosfolípides também podem causar um padrão reticulado na pele, mas causam trombose, e não aneurismas inflamatórios."
+    },
+    {
+      "slug": "q-autoimmune-vasculitis-qx-sle-complement-consumption",
+      "track": "step1",
+      "system": "musculoskeletal-dermatology",
+      "discipline": "pathology",
+      "tags": [
+        "autoimmune-vasculitis",
+        "sle",
+        "hypersensitivity",
+        "complement"
+      ],
+      "stem": "A 24-year-old woman has had 3 weeks of joint pain, a rash on her cheeks after sun exposure and swelling of her ankles. Blood pressure is 150/94 mm Hg. Results: hemoglobin 10.9 g/dL, platelets 118,000/mm3, creatinine 1.6 mg/dL, urinalysis with 3+ protein and red cell casts, C3 42 mg/dL (normal 90-180 mg/dL), C4 6 mg/dL (normal 10-40 mg/dL), and anti-dsDNA positive at a high titer. Which mechanism best explains the low C3 and C4?",
+      "choices": [
+        "Classical pathway activation by immune complexes",
+        "An autoantibody that stabilizes the alternative C3 convertase",
+        "Loss of complement proteins through damaged glomeruli",
+        "Reduced synthesis of complement proteins by the liver",
+        "Inherited deficiency of C1 esterase inhibitor"
+      ],
+      "correct": 0,
+      "explanation": "Active **SLE** with nephritis is a **type III hypersensitivity**: DNA-anti-dsDNA immune complexes deposit in tissues and activate the **classical pathway** (C1, then C4 and C2, then C3), so **both C4 and C3 fall**. An autoantibody that stabilizes the alternative C3 convertase (**C3 nephritic factor**) lowers C3 but leaves **C4 normal**, because C4 belongs only to the classical and lectin pathways. Urinary loss does not explain the pattern, and complement levels rise again when the flare is controlled.",
+      "explanation_pt": "O **LES** ativo com nefrite é uma **hipersensibilidade tipo III**: imunocomplexos de DNA e anti-dsDNA se depositam nos tecidos e ativam a **via clássica** (C1, depois C4 e C2, depois C3), de modo que **C4 e C3 caem juntos**. Um autoanticorpo que estabiliza a C3 convertase da via alternativa (**fator nefrítico C3**) reduz o C3, mas mantém o **C4 normal**, porque o C4 pertence apenas às vias clássica e das lectinas. A perda urinária não explica esse padrão, e o complemento volta a subir quando o surto é controlado."
+    },
+    {
+      "slug": "q-autoimmune-vasculitis-qx-sjogren-malt-lymphoma",
+      "track": "step1",
+      "system": "musculoskeletal-dermatology",
+      "discipline": "pathology",
+      "tags": [
+        "autoimmune-vasculitis",
+        "sjogren",
+        "lymphoma"
+      ],
+      "stem": "A 58-year-old woman has had dry eyes and a dry mouth for 9 years. She uses artificial tears and has had many dental caries. Anti-Ro (SSA) and anti-La (SSB) were positive years ago. Over the last 4 months, her left parotid gland has grown steadily and become firm. It is not tender. She has night sweats and has lost 5 kg. Her temperature is normal. A firm, nontender lymph node is felt in the left side of the neck. Serum protein electrophoresis shows a small monoclonal IgM band. Which condition is most likely?",
+      "choices": [
+        "Pleomorphic adenoma",
+        "Warthin tumor",
+        "Marginal zone (MALT) lymphoma",
+        "Mucoepidermoid carcinoma",
+        "Bacterial (suppurative) parotitis"
+      ],
+      "correct": 2,
+      "explanation": "Long-standing **Sjögren syndrome** with a firm, persistently enlarging parotid gland, night sweats, weight loss, a neck lymph node and a **monoclonal protein** points to **marginal zone (MALT) B-cell lymphoma**. Chronic stimulation of B cells inside the inflamed glands allows a malignant clone to emerge. Mucoepidermoid carcinoma, the most common malignant salivary gland tumor, can also be firm and spread to neck nodes, but it does not produce a monoclonal protein and is not linked to Sjögren syndrome. Pleomorphic adenoma is a slow, painless mass without systemic symptoms.",
+      "explanation_pt": "**Síndrome de Sjögren** de longa data com parótida firme e em crescimento persistente, sudorese noturna, perda de peso, linfonodo cervical e **proteína monoclonal** sugere **linfoma B da zona marginal (MALT)**. A estimulação crônica dos linfócitos B nas glândulas inflamadas permite o surgimento de um clone maligno. O carcinoma mucoepidermoide, o tumor maligno de glândula salivar mais comum, também pode ser firme e acometer linfonodos cervicais, mas não produz proteína monoclonal e não se associa à síndrome de Sjögren. O adenoma pleomórfico é uma massa lenta e indolor, sem sintomas sistêmicos."
+    },
+    {
+      "slug": "q-autoimmune-vasculitis-qx-limited-ssc-pulmonary-hypertension",
+      "track": "step1",
+      "system": "musculoskeletal-dermatology",
+      "discipline": "pathology",
+      "tags": [
+        "autoimmune-vasculitis",
+        "systemic-sclerosis",
+        "pulmonary-hypertension"
+      ],
+      "stem": "A 61-year-old woman has had Raynaud phenomenon for 15 years. The skin of her fingers is tight and shiny, but the thickening stops at the wrists and spares the trunk. She has small hard calcium deposits in her fingertips, red spots of dilated vessels on her face, and heartburn. Anti-centromere antibody is positive. Over the last year she has had increasing shortness of breath on exertion. The pulmonic component of S2 is loud, and the lungs are clear. Pulmonary function: FVC 92% of predicted, FEV1/FVC 0.78, DLCO 45% of predicted. Chest CT shows no fibrosis. Which is the most likely cause of her dyspnea?",
+      "choices": [
+        "Interstitial lung fibrosis",
+        "Pulmonary arterial hypertension",
+        "Chronic aspiration from esophageal dysmotility",
+        "Emphysema",
+        "Left ventricular systolic dysfunction"
+      ],
+      "correct": 1,
+      "explanation": "This is **limited systemic sclerosis** (CREST) with **anti-centromere**. A **low DLCO with a normal FVC**, no fibrosis and a loud P2 point to **pulmonary arterial hypertension**, caused by intimal thickening and narrowing of small pulmonary arteries; it is the main late lung complication of limited disease. Interstitial lung disease also lowers the DLCO, but it reduces the FVC, causes crackles and shows fibrosis on CT, and it is more typical of **diffuse** disease with anti-Scl-70. A normal FEV1/FVC ratio argues against emphysema.",
+      "explanation_pt": "Trata-se de **esclerose sistêmica limitada** (CREST) com **anticentrômero**. **DLCO baixa com CVF normal**, ausência de fibrose e P2 hiperfonética indicam **hipertensão arterial pulmonar**, causada por espessamento intimal e estreitamento das pequenas artérias pulmonares; é a principal complicação pulmonar tardia da forma limitada. A doença pulmonar intersticial também reduz a DLCO, mas diminui a CVF, causa estertores e mostra fibrose na TC, e é mais típica da forma **difusa** com anti-Scl-70. Uma relação VEF1/CVF normal fala contra enfisema."
+    }
+  ],
+  "notes": []
+}

@@ -1,0 +1,184 @@
+{
+  "cards": [],
+  "questions": [
+    {
+      "slug": "q-bone-pathology-qx-osteopetrosis-osteoclast-origin",
+      "track": "step1",
+      "system": "musculoskeletal-dermatology",
+      "discipline": "pathology",
+      "tags": [
+        "bone-pathology",
+        "osteopetrosis",
+        "bone-cells"
+      ],
+      "stem": "A 7-month-old boy is evaluated for poor weight gain and frequent infections. His parents are first cousins. He does not follow objects with his eyes. The liver and spleen are both enlarged. Hemoglobin is 7.2 g/dL and the platelet count is 48,000/mm3; the blood smear shows nucleated red cells and immature granulocytes. X-rays show diffusely dense, chalk-white bones in which the marrow cavities cannot be seen. The cells that fail in this disease arise from which precursor?",
+      "choices": [
+        "Mesenchymal stromal cells of the bone marrow",
+        "Neural crest cells of the developing skull",
+        "Hypertrophic chondrocytes of the growth plate",
+        "Monocyte-macrophage precursors",
+        "Endothelial cells lining the marrow sinusoids"
+      ],
+      "correct": 3,
+      "explanation": "This is severe infantile **osteopetrosis**: **osteoclasts cannot resorb bone**, so bone fills the marrow (**pancytopenia**, extramedullary hematopoiesis with **hepatosplenomegaly**) and narrows the optic canals (visual loss). Osteoclasts are multinucleated cells formed by fusion of **monocyte-macrophage precursors**, which is why **hematopoietic stem cell transplantation** can correct the bone defect. **Mesenchymal stromal cells** are the most tempting choice, but they give rise to **osteoblasts**, which are not the failing cells here.",
+      "explanation_pt": "Trata-se de **osteopetrose** infantil grave: os **osteoclastos não conseguem reabsorver osso**, então o osso ocupa a medula (**pancitopenia**, hematopoese extramedular com **hepatoesplenomegalia**) e estreita os canais ópticos (perda visual). Os osteoclastos são células multinucleadas formadas pela fusão de **precursores monócito-macrófagos**, por isso o **transplante de células-tronco hematopoéticas** pode corrigir o defeito ósseo. As **células estromais mesenquimais** são a alternativa mais tentadora, mas originam os **osteoblastos**, que não são as células com defeito aqui."
+    },
+    {
+      "slug": "q-bone-pathology-qx-osteoid-osteoma-prostaglandin",
+      "track": "step1",
+      "system": "musculoskeletal-dermatology",
+      "discipline": "pathology",
+      "tags": [
+        "bone-pathology",
+        "bone-tumors",
+        "osteoid-osteoma"
+      ],
+      "stem": "A 17-year-old boy has 4 months of pain in his left thigh. The pain is worst at night and often wakes him. It goes away within about an hour after he takes ibuprofen. He has no fever or weight loss. CT of the femur shows a round lucent area about 1 cm wide in the cortex of the proximal shaft. The lucent area is surrounded by a thick zone of dense, reactive bone. Reduced production of which mediator by the lesion best explains his response to ibuprofen?",
+      "choices": [
+        "Leukotriene B4",
+        "Prostaglandin E2",
+        "Calcitonin gene-related peptide",
+        "Substance P",
+        "Histamine"
+      ],
+      "correct": 1,
+      "explanation": "This is an **osteoid osteoma**: a small lucent **nidus** with a thick **sclerotic rim**, and **night pain** that responds well to **NSAIDs**. The nidus makes large amounts of **prostaglandin E2**, which sensitizes nearby nerve fibers; ibuprofen blocks **cyclooxygenase** and cuts this production. **Leukotriene B4** is also an arachidonic acid product, but it comes from the **lipoxygenase** pathway, which NSAIDs do not block.",
+      "explanation_pt": "Trata-se de **osteoma osteoide**: pequeno **nidus** (nicho) radiotransparente com espesso **halo esclerótico** e **dor noturna** que responde bem a **AINEs**. O nidus produz grandes quantidades de **prostaglandina E2**, que sensibiliza as fibras nervosas vizinhas; o ibuprofeno bloqueia a **ciclo-oxigenase** e reduz essa produção. O **leucotrieno B4** também deriva do ácido araquidônico, mas vem da via da **lipoxigenase**, que os AINEs não bloqueiam."
+    },
+    {
+      "slug": "q-bone-pathology-qx-exostoses-chondrosarcoma",
+      "track": "step1",
+      "system": "musculoskeletal-dermatology",
+      "discipline": "pathology",
+      "tags": [
+        "bone-pathology",
+        "bone-tumors",
+        "osteochondroma",
+        "chondrosarcoma"
+      ],
+      "stem": "A 36-year-old man has had many hard, painless bumps near his knees, wrists and shoulders since childhood. His father has the same bumps. The bumps stopped growing when he finished puberty. Over the past 6 months, one bump on his left iliac bone has become larger and painful. MRI shows a bony outgrowth whose marrow is continuous with the ilium. Its cartilage cap is now several centimeters thick and has an irregular border with the soft tissues. Which tumor has most likely developed?",
+      "choices": [
+        "Osteosarcoma",
+        "Ewing sarcoma",
+        "Giant cell tumor of bone",
+        "Metastatic carcinoma",
+        "Chondrosarcoma"
+      ],
+      "correct": 4,
+      "explanation": "He has **hereditary multiple osteochondromas** (autosomal dominant, usually **EXT1** or **EXT2**). An osteochondroma should stop growing after the growth plates close; new growth and pain in an adult, with a **thick, irregular cartilage cap**, suggest malignant change of the cap into a secondary **chondrosarcoma**, which is more likely with multiple lesions and in the pelvis. **Osteosarcoma** is the most tempting choice, but it is a bone-forming tumor, mostly of the metaphysis in teenagers, and does not typically arise from an osteochondroma's cartilage cap.",
+      "explanation_pt": "Ele tem **osteocondromas múltiplos hereditários** (autossômico dominante, geralmente **EXT1** ou **EXT2**). Um osteocondroma deve parar de crescer após o fechamento das placas de crescimento; crescimento novo e dor em um adulto, com **capa cartilaginosa espessa e irregular**, sugerem transformação maligna da capa em **condrossarcoma** secundário, mais provável com lesões múltiplas e na pelve. O **osteossarcoma** é a alternativa mais tentadora, mas é um tumor formador de osso que ocorre principalmente na metáfise de adolescentes e não costuma surgir da capa cartilaginosa de um osteocondroma."
+    },
+    {
+      "slug": "q-bone-pathology-qx-osteonecrosis-glucocorticoid-hip",
+      "track": "step1",
+      "system": "musculoskeletal-dermatology",
+      "discipline": "pathology",
+      "tags": [
+        "bone-pathology",
+        "osteonecrosis",
+        "glucocorticoids"
+      ],
+      "stem": "A 31-year-old woman with systemic lupus erythematosus has taken high-dose oral prednisone for 10 months to treat lupus nephritis. She now has 2 months of deep right groin pain that is worse when she walks. She has no fever. Internal rotation of the right hip is painful and limited. Leukocyte count is normal. Plain x-rays of the hip are normal. MRI shows a wedge-shaped area under the joint surface of the femoral head, outlined by a wavy dark line; the joint space is preserved. Which process best explains her hip pain?",
+      "choices": [
+        "Ischemic death of bone in the femoral head",
+        "Bacterial infection of the femoral head marrow",
+        "Immune complex inflammation of the hip synovium",
+        "Reduced bone mass with normally mineralized matrix",
+        "Loss of articular cartilage from mechanical wear"
+      ],
+      "correct": 0,
+      "explanation": "Long-term **glucocorticoid** use plus groin pain, a normal plain film and a **subchondral wedge with a dark rim on MRI** point to **osteonecrosis (avascular necrosis) of the femoral head**. Bone dies when its blood supply fails; MRI shows it before x-rays change, and later the dead subchondral bone can collapse. **Lupus arthritis** is the most tempting choice, but it is usually a **non-erosive** polyarthritis of small joints and would not produce a focal lesion inside the femoral head. Steroid-induced **osteoporosis** is also common, but it thins bone diffusely and does not cause a demarcated subchondral wedge.",
+      "explanation_pt": "O uso prolongado de **glicocorticoides**, dor na virilha, radiografia normal e **área subcondral em cunha com borda escura na RM** indicam **osteonecrose (necrose avascular) da cabeça do fêmur**. O osso morre quando seu suprimento sanguíneo falha; a RM mostra a lesão antes das alterações na radiografia, e depois o osso subcondral morto pode colapsar. A **artrite lúpica** é a alternativa mais tentadora, mas costuma ser uma poliartrite **não erosiva** de pequenas articulações e não causaria uma lesão focal dentro da cabeça do fêmur. A **osteoporose** induzida por corticoide também é comum, mas afina o osso de forma difusa e não causa uma área subcondral em cunha bem delimitada."
+    },
+    {
+      "slug": "q-bone-pathology-qx-hematogenous-osteomyelitis-metaphysis",
+      "track": "step1",
+      "system": "musculoskeletal-dermatology",
+      "discipline": "pathology",
+      "tags": [
+        "bone-pathology",
+        "osteomyelitis",
+        "pediatrics"
+      ],
+      "stem": "An 8-year-old boy has 5 days of fever and a limp. He now refuses to stand on his right leg. Temperature is 38.9°C (102.0°F). The lower right thigh just above the knee is warm and very tender. The knee itself has no effusion and moves fully without pain. Laboratory results: leukocyte count 16,200/mm3 (80% neutrophils), ESR 62 mm/h (normal under 20), C-reactive protein 8.6 mg/dL (normal under 1.0). Blood cultures grow gram-positive cocci in clusters. X-rays of the femur are normal. Which feature of a child's bone best explains why the infection started in this region?",
+      "choices": [
+        "Direct spread of bacteria from the knee joint",
+        "Fast, high-pressure arterial flow in the shaft",
+        "Slow flow in looping vessels near the growth plate",
+        "A tightly attached periosteum that traps bacteria in bone",
+        "Many resident phagocytes in the metaphyseal marrow"
+      ],
+      "correct": 2,
+      "explanation": "This is acute **hematogenous osteomyelitis** of the distal femoral **metaphysis**, most often caused by **Staphylococcus aureus** in children. Next to the growth plate, small arteries turn into wide **looping vessels with slow, turbulent flow** and few phagocytes, so bacteria in the blood settle there easily; early x-rays are often normal. **Spread from the knee joint** is the most tempting choice, but the knee is normal here, and in children the infection usually travels from bone outward, not from joint to bone.",
+      "explanation_pt": "Trata-se de **osteomielite hematogênica** aguda da **metáfise** femoral distal, causada mais frequentemente por **Staphylococcus aureus** em crianças. Junto à placa de crescimento, pequenas artérias se transformam em **alças vasculares largas com fluxo lento e turbulento** e poucos fagócitos, então as bactérias do sangue se instalam ali com facilidade; as radiografias iniciais costumam ser normais. A **disseminação a partir do joelho** é a alternativa mais tentadora, mas o joelho está normal aqui e, em crianças, a infecção geralmente se espalha do osso para fora, e não da articulação para o osso."
+    },
+    {
+      "slug": "q-bone-pathology-qx-paget-osteosarcoma",
+      "track": "step1",
+      "system": "musculoskeletal-dermatology",
+      "discipline": "pathology",
+      "tags": [
+        "bone-pathology",
+        "paget-disease",
+        "bone-tumors",
+        "osteosarcoma"
+      ],
+      "stem": "A 73-year-old man was diagnosed with Paget disease of the right femur and pelvis 9 years ago. Over the past 2 months he has had new, constant pain in the right thigh that is worse at night, and a firm swelling has appeared. Laboratory results: alkaline phosphatase 2 years ago 210 U/L, now 690 U/L (normal 40-120); serum calcium 9.4 mg/dL (normal 8.5-10.5). X-ray shows a thick, bowed femur with a new destructive area that breaks through the cortex into a soft-tissue mass. Biopsy shows highly atypical spindle cells with thin, lace-like strands of pink matrix between them. Which diagnosis is most likely?",
+      "choices": [
+        "Osteosarcoma",
+        "Chondrosarcoma",
+        "Multiple myeloma",
+        "Metastatic prostate adenocarcinoma",
+        "Ewing sarcoma"
+      ],
+      "correct": 0,
+      "explanation": "**Paget disease** raises the risk of **osteosarcoma** in older adults; new, constant pain, a soft-tissue mass, cortical destruction and a sharp rise in **alkaline phosphatase** in a pagetic bone are warning signs. The lace-like matrix made by malignant cells is **osteoid**, the defining feature of osteosarcoma. **Chondrosarcoma** is the most tempting choice because it is also a tumor of older adults in the pelvis and femur, but its malignant cells make **cartilage**, not osteoid.",
+      "explanation_pt": "A **doença de Paget** aumenta o risco de **osteossarcoma** em idosos; dor nova e constante, massa de partes moles, destruição cortical e aumento acentuado da **fosfatase alcalina** em um osso pagético são sinais de alerta. A matriz rendilhada produzida pelas células malignas é **osteoide**, o achado que define o osteossarcoma. O **condrossarcoma** é a alternativa mais tentadora, porque também é um tumor de idosos na pelve e no fêmur, mas suas células malignas produzem **cartilagem**, e não osteoide."
+    },
+    {
+      "slug": "q-bone-pathology-qx-postmenopausal-osteoporosis-mechanism",
+      "track": "step1",
+      "system": "musculoskeletal-dermatology",
+      "discipline": "pathology",
+      "tags": [
+        "bone-pathology",
+        "osteoporosis",
+        "fractures"
+      ],
+      "stem": "A 62-year-old woman has sudden mid-back pain that began when she lifted a laundry basket. She reached menopause at 49 and has never taken hormone therapy. She has lost 3 cm of height over several years. There is tenderness over the T12 spinous process, and the neurologic exam is normal. X-ray shows anterior wedge compression of the T12 vertebral body and diffusely thin bones. Laboratory results: calcium 9.5 mg/dL (normal 8.5-10.5), phosphate 3.6 mg/dL (normal 2.5-4.5), alkaline phosphatase 85 U/L (normal 40-120), PTH 38 pg/mL (normal 10-65). Which mechanism best explains her bone disease?",
+      "choices": [
+        "Defective mineralization of newly formed osteoid",
+        "Osteoblast stimulation by excess parathyroid hormone",
+        "Failure of osteoclasts to acidify the resorption pit",
+        "Greater osteoclast activity after loss of estrogen",
+        "Disorganized remodeling driven by giant osteoclasts"
+      ],
+      "correct": 3,
+      "explanation": "A low-energy **vertebral compression fracture**, thin bones and **completely normal labs** point to **postmenopausal osteoporosis**. Estrogen normally limits osteoclasts by lowering **RANKL** and raising **osteoprotegerin**; after menopause, resorption outpaces formation, and **trabecular bone** such as the vertebral bodies is lost first. **Excess PTH** is the most tempting choice, but her calcium and PTH are normal; **osteomalacia** would show high alkaline phosphatase and often low phosphate.",
+      "explanation_pt": "Uma **fratura vertebral por compressão** de baixa energia, ossos finos e **exames laboratoriais totalmente normais** indicam **osteoporose pós-menopausa**. O estrogênio normalmente limita os osteoclastos ao reduzir o **RANKL** e aumentar a **osteoprotegerina**; após a menopausa, a reabsorção supera a formação, e o **osso trabecular**, como o dos corpos vertebrais, é perdido primeiro. O **excesso de PTH** é a alternativa mais tentadora, mas o cálcio e o PTH dela são normais; a **osteomalácia** mostraria fosfatase alcalina alta e, muitas vezes, fósforo baixo."
+    },
+    {
+      "slug": "q-bone-pathology-qx-osteomalacia-osteoid-seams",
+      "track": "step1",
+      "system": "musculoskeletal-dermatology",
+      "discipline": "pathology",
+      "tags": [
+        "bone-pathology",
+        "osteomalacia",
+        "bone-histology"
+      ],
+      "stem": "A 45-year-old woman with celiac disease has not followed her gluten-free diet for years. Over the past year she has had pain in her ribs and hips, and she now needs her arms to rise from a chair. Pressing on her lower ribs is painful. X-rays of the pelvis show narrow lucent bands across the inner cortex of both femoral necks. An iliac crest bone biopsy is done. Which finding is most likely on the biopsy?",
+      "choices": [
+        "Thin trabeculae with normally mineralized bone",
+        "Wide seams of unmineralized osteoid on trabeculae",
+        "Mosaic bone with irregular cement lines",
+        "Dense bone with retained cores of calcified cartilage",
+        "Dead trabeculae with empty osteocyte lacunae"
+      ],
+      "correct": 1,
+      "explanation": "Malabsorption of **vitamin D** in untreated celiac disease causes **osteomalacia**: osteoblasts keep making osteoid, but it cannot mineralize. The biopsy shows **thick seams of unmineralized osteoid** on the trabeculae, and the symmetric lucent bands are **pseudofractures** (*Looser zones*). **Thin trabeculae with normal mineral** is the most tempting choice, since both diseases cause fractures and both make bones look less dense on x-ray, but that pattern is **osteoporosis**, where the problem is too little bone, not too little mineral.",
+      "explanation_pt": "A má absorção de **vitamina D** na doença celíaca não tratada causa **osteomalácia**: os osteoblastos continuam produzindo osteoide, mas ele não consegue se mineralizar. A biópsia mostra **faixas espessas de osteoide não mineralizado** sobre as trabéculas, e as bandas radiotransparentes simétricas são **pseudofraturas** (*zonas de Looser*). A alternativa **trabéculas finas com mineralização normal** é a mais tentadora, já que as duas doenças causam fraturas e reduzem a densidade óssea na radiografia, mas esse padrão é o da **osteoporose**, em que o problema é pouco osso, e não pouco mineral."
+    }
+  ],
+  "notes": []
+}

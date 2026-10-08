@@ -1,0 +1,181 @@
+{
+  "cards": [],
+  "questions": [
+    {
+      "slug": "q-muscle-collagen-disease-qx-menkes-lysyl-oxidase",
+      "track": "step1",
+      "system": "musculoskeletal-dermatology",
+      "discipline": "pathology",
+      "tags": [
+        "muscle-collagen-disease",
+        "menkes",
+        "collagen-synthesis"
+      ],
+      "stem": "A 4-month-old boy is brought to the clinic because of poor feeding, weak muscle tone and two seizures. His scalp hair is sparse, pale and brittle. Under the microscope, each hair shaft is twisted along its long axis. His skin is loose and his joints are lax. Serum copper and ceruloplasmin are both low. Brain imaging shows long, twisted intracranial arteries. A maternal uncle died in infancy. Low activity of which enzyme best explains the weak connective tissue and abnormal arteries?",
+      "choices": [
+        "Prolyl hydroxylase",
+        "Lysyl hydroxylase",
+        "Lysyl oxidase",
+        "Procollagen peptidase",
+        "Tyrosinase"
+      ],
+      "correct": 2,
+      "explanation": "Kinky, brittle hair (*pili torti*), hypotonia, seizures, low serum copper and an affected maternal uncle fit **Menkes disease**, an X-linked defect of the copper transporter **ATP7A**. Without copper, **lysyl oxidase** cannot form the covalent **cross-links** within collagen fibrils and within elastin fibers outside the cell, so skin, joints and artery walls are weak. Tyrosinase is also copper-dependent and its low activity helps explain the pale hair, but it makes melanin, not connective tissue. Prolyl and lysyl hydroxylase work inside the cell and need **vitamin C** and iron, not copper.",
+      "explanation_pt": "Cabelo encarapinhado (*pili torti*) e quebradiço, hipotonia, convulsões, cobre sérico baixo e tio materno afetado indicam **doença de Menkes**, um defeito ligado ao X do transportador de cobre **ATP7A**. Sem cobre, a **lisil oxidase** não consegue formar as **ligações cruzadas** covalentes dentro das fibrilas de colágeno e das fibras de elastina fora da célula, e a pele, as articulações e a parede das artérias ficam frágeis. A tirosinase também depende de cobre e sua baixa atividade ajuda a explicar o cabelo claro, mas ela produz melanina, e não tecido conjuntivo. A prolil e a lisil hidroxilase atuam dentro da célula e precisam de **vitamina C** e ferro, e não de cobre."
+    },
+    {
+      "slug": "q-muscle-collagen-disease-qx-rhabdomyolysis-calcium-phosphate",
+      "track": "step1",
+      "system": "musculoskeletal-dermatology",
+      "discipline": "pathology",
+      "tags": [
+        "muscle-collagen-disease",
+        "rhabdomyolysis",
+        "electrolytes"
+      ],
+      "stem": "A 20-year-old military recruit collapses after a long march on a hot day during his first week of training. The next morning he has severe thigh and calf pain and dark brown urine. Labs: creatine kinase 85,000 U/L (normal < 200), potassium 6.1 mEq/L, creatinine 2.4 mg/dL (baseline 0.9 mg/dL), uric acid 11.2 mg/dL (normal 3.5-7.2). A urine dipstick reads 3+ for heme, yet no red cells are seen on microscopy. Which pattern of serum calcium and phosphate is most likely at this time?",
+      "choices": [
+        "Calcium low, phosphate high",
+        "Calcium high, phosphate low",
+        "Calcium low, phosphate low",
+        "Calcium high, phosphate high",
+        "Calcium normal, phosphate low"
+      ],
+      "correct": 0,
+      "explanation": "Very high CK, **myoglobinuria** (positive blood on dipstick with no red cells), hyperkalemia and acute kidney injury after extreme exertion in the heat fit **exertional rhabdomyolysis**. Broken muscle cells release potassium, **phosphate** and purines (high uric acid), so phosphate rises, and the injured kidneys excrete less of it. Calcium falls early because it **deposits in the injured muscle**, partly as calcium phosphate. High calcium can appear later, in the recovery phase, when this deposited calcium is released back into the blood, so it does not fit the first days.",
+      "explanation_pt": "CK muito alta, **mioglobinúria** (fita positiva para sangue sem hemácias), hipercalemia e lesão renal aguda após esforço extremo no calor indicam **rabdomiólise por esforço**. As células musculares lesadas liberam potássio, **fosfato** e purinas (ácido úrico alto), por isso o fosfato sobe, e os rins lesados excretam menos fosfato. O cálcio cai precocemente porque **se deposita no músculo lesado**, em parte como fosfato de cálcio. A hipercalcemia pode surgir mais tarde, na fase de recuperação, quando esse cálcio depositado volta ao sangue, e por isso não se encaixa nos primeiros dias."
+    },
+    {
+      "slug": "q-muscle-collagen-disease-qx-lambert-eaton-mechanism",
+      "track": "step1",
+      "system": "musculoskeletal-dermatology",
+      "discipline": "pathology",
+      "tags": [
+        "muscle-collagen-disease",
+        "lambert-eaton",
+        "neuromuscular-junction"
+      ],
+      "stem": "A 63-year-old man who has smoked for 45 years has 4 months of trouble climbing stairs and rising from a chair. He also has a dry mouth and erectile dysfunction. Hip and shoulder muscles are weak. Knee reflexes are absent at rest but appear after 10 seconds of strong voluntary contraction of the thigh. Pupils and eye movements are normal. Test results: acetylcholine receptor antibodies, negative; baseline compound muscle action potential, low; after 10 seconds of maximal exercise, amplitude rises to 2.5 times the baseline value. Which mechanism best explains his weakness?",
+      "choices": [
+        "Antibodies against postsynaptic acetylcholine receptors",
+        "Antibodies against muscle-specific kinase",
+        "Toxin cleavage of SNARE proteins",
+        "Antibodies against presynaptic calcium channels",
+        "Antibodies against nerve gangliosides"
+      ],
+      "correct": 3,
+      "explanation": "Proximal weakness, **autonomic** symptoms (dry mouth, erectile dysfunction), reflexes that return after effort and a large **increase in muscle response after exercise** fit **Lambert-Eaton myasthenic syndrome**, often linked to small cell lung cancer in smokers. Antibodies against **presynaptic voltage-gated calcium channels** reduce Ca2+ entry into the nerve terminal, so less acetylcholine is released; repeated firing builds up Ca2+ and partly overcomes the block. In myasthenia gravis, the antibodies attack the postsynaptic acetylcholine receptor: weakness gets worse with use, eye muscles are often involved, and there is no autonomic dysfunction or rise in response after exercise. Botulinum toxin also blocks release, but it causes an acute, descending paralysis with eye findings.",
+      "explanation_pt": "Fraqueza proximal, sintomas **autonômicos** (boca seca, disfunção erétil), reflexos que reaparecem após esforço e grande **aumento da resposta muscular após o exercício** indicam **síndrome miastênica de Lambert-Eaton**, frequentemente ligada ao carcinoma de pequenas células do pulmão em tabagistas. Anticorpos contra **canais de cálcio dependentes de voltagem pré-sinápticos** reduzem a entrada de Ca2+ no terminal nervoso, e menos acetilcolina é liberada; disparos repetidos acumulam Ca2+ e superam parcialmente o bloqueio. Na miastenia gravis, os anticorpos atacam o receptor de acetilcolina pós-sináptico: a fraqueza piora com o uso, os músculos oculares costumam ser acometidos e não há disfunção autonômica nem aumento da resposta após o exercício. A toxina botulínica também bloqueia a liberação, mas causa paralisia aguda e descendente com achados oculares."
+    },
+    {
+      "slug": "q-muscle-collagen-disease-qx-becker-dystrophin-function",
+      "track": "step1",
+      "system": "musculoskeletal-dermatology",
+      "discipline": "pathology",
+      "tags": [
+        "muscle-collagen-disease",
+        "muscular-dystrophy",
+        "dystrophin"
+      ],
+      "stem": "A 24-year-old man has had muscle cramps with exercise since his early teens. Over the past few years, climbing stairs has become slowly harder, but he still walks without help. His older brother has a similar problem. On exam, he has weak hip muscles and enlarged, firm calves. Serum creatine kinase is 3,500 U/L. Echocardiography shows a dilated left ventricle with reduced ejection fraction. Muscle biopsy shows weak, patchy staining for dystrophin, and a Western blot shows a dystrophin band of lower molecular weight than normal. What is the normal function of this protein?",
+      "choices": [
+        "Releasing Ca2+ from the sarcoplasmic reticulum",
+        "Moving tropomyosin away from the myosin-binding sites on actin",
+        "Splitting ATP to power the cross-bridge cycle",
+        "Storing oxygen for use inside the muscle fiber",
+        "Linking actin filaments to the extracellular matrix"
+      ],
+      "correct": 4,
+      "explanation": "Slowly progressive proximal weakness that starts in adolescence, calf pseudohypertrophy, high CK, **dilated cardiomyopathy**, an affected brother and a **shorter, reduced dystrophin** fit **Becker muscular dystrophy**. **Dystrophin** connects the actin cytoskeleton under the sarcolemma to the **dystroglycan** complex in the membrane, which binds laminin in the extracellular matrix. Without enough working dystrophin, the membrane tears during contraction, Ca2+ enters and fibers die. Calcium release from the sarcoplasmic reticulum is the job of the ryanodine receptor, which is abnormal in malignant hyperthermia, not in a dystrophinopathy.",
+      "explanation_pt": "Fraqueza proximal lentamente progressiva que começa na adolescência, pseudo-hipertrofia das panturrilhas, CK alta, **cardiomiopatia dilatada**, irmão afetado e **distrofina mais curta e reduzida** indicam **distrofia muscular de Becker**. A **distrofina** liga o citoesqueleto de actina sob o sarcolema ao complexo de **distroglicanos** da membrana, que se liga à laminina da matriz extracelular. Sem distrofina funcional suficiente, a membrana se rompe durante a contração, o Ca2+ entra e as fibras morrem. A liberação de cálcio do retículo sarcoplasmático é função do receptor de rianodina, alterado na hipertermia maligna, e não em uma distrofinopatia."
+    },
+    {
+      "slug": "q-muscle-collagen-disease-qx-oi-glycine-triple-helix",
+      "track": "step1",
+      "system": "musculoskeletal-dermatology",
+      "discipline": "pathology",
+      "tags": [
+        "muscle-collagen-disease",
+        "osteogenesis-imperfecta",
+        "collagen-synthesis"
+      ],
+      "stem": "A 2-year-old girl has had three fractures after minor falls. Her legs are bowed, and her sclerae are gray-blue. Genetic testing shows a heterozygous missense mutation in *COL1A1*. In the triple-helical part of the protein, the mutation replaces one glycine with cysteine. Normal type I collagen chains have glycine at every third position. Why is glycine needed at these positions?",
+      "choices": [
+        "Glycine is hydroxylated to stabilize the helix with hydrogen bonds",
+        "Only glycine is small enough to fit inside the triple helix",
+        "Glycine carries the sugars added before secretion",
+        "Glycine forms the covalent cross-links between fibrils",
+        "Glycine marks the cleavage site of the propeptides"
+      ],
+      "correct": 1,
+      "explanation": "Collagen chains repeat the **Gly-X-Y** pattern. In the triple helix, every third residue lies in the crowded center, where only **glycine**, with a hydrogen atom as its side chain, fits. A larger residue there distorts the helix; because mutant chains are built into helices with normal chains, one bad allele damages much of the collagen (**dominant-negative** effect) and causes **osteogenesis imperfecta**. Hydroxylation that stabilizes the helix happens on **proline** and **lysine** (needs vitamin C), not on glycine, and cross-links form between lysine and hydroxylysine residues.",
+      "explanation_pt": "As cadeias de colágeno repetem o padrão **Gly-X-Y**. Na tripla hélice, cada terceiro resíduo fica no centro estreito, onde só cabe a **glicina**, cuja cadeia lateral é um átomo de hidrogênio. Um resíduo maior nessa posição deforma a hélice; como as cadeias mutantes entram nas hélices junto com as normais, um único alelo alterado danifica grande parte do colágeno (efeito **dominante negativo**) e causa **osteogênese imperfeita**. A hidroxilação que estabiliza a hélice ocorre na **prolina** e na **lisina** (precisa de vitamina C), e não na glicina, e as ligações cruzadas se formam entre resíduos de lisina e hidroxilisina."
+    },
+    {
+      "slug": "q-muscle-collagen-disease-qx-marfan-tgf-beta",
+      "track": "step1",
+      "system": "musculoskeletal-dermatology",
+      "discipline": "pathology",
+      "tags": [
+        "muscle-collagen-disease",
+        "marfan",
+        "fibrillin"
+      ],
+      "stem": "A 17-year-old boy is referred because of a heart murmur. He is very tall, his arm span is longer than his height, and he has long, thin fingers and a sunken chest. Slit-lamp exam shows both lenses displaced upward. Echocardiography shows a dilated aortic root. His father died suddenly of an aortic dissection at age 40. Besides weakening the microfibrils of elastic tissue, the abnormal protein in this disease increases the activity of which signaling molecule in the aortic wall?",
+      "choices": [
+        "Transforming growth factor-beta",
+        "Platelet-derived growth factor",
+        "Vascular endothelial growth factor",
+        "Fibroblast growth factor",
+        "Insulin-like growth factor 1"
+      ],
+      "correct": 0,
+      "explanation": "Tall build, long arm span, **arachnodactyly**, pectus excavatum, **upward lens subluxation**, **aortic root dilation** and an affected father fit **Marfan syndrome**, an autosomal dominant defect of **fibrillin-1** (*FBN1*). Normal fibrillin-1 microfibrils hold **TGF-β** in an inactive form in the extracellular matrix; abnormal fibrillin releases too much active TGF-β, which adds to the medial degeneration of the aorta. Mutations of the **TGF-β receptor** cause a similar aortic disease (Loeys-Dietz syndrome). Fibroblast growth factor signaling is linked to a different skeletal disease, achondroplasia (*FGFR3*), which causes short limbs, not a tall build.",
+      "explanation_pt": "Estatura alta, envergadura aumentada, **aracnodactilia**, *pectus excavatum*, **subluxação do cristalino para cima**, **dilatação da raiz da aorta** e pai afetado indicam **síndrome de Marfan**, um defeito autossômico dominante da **fibrilina-1** (*FBN1*). As microfibrilas normais de fibrilina-1 mantêm o **TGF-β** em forma inativa na matriz extracelular; a fibrilina anormal libera TGF-β ativo em excesso, o que contribui para a degeneração da camada média da aorta. Mutações do **receptor de TGF-β** causam doença aórtica semelhante (síndrome de Loeys-Dietz). A sinalização do fator de crescimento de fibroblastos está ligada a outra doença esquelética, a acondroplasia (*FGFR3*), que causa membros curtos, e não estatura alta."
+    },
+    {
+      "slug": "q-muscle-collagen-disease-qx-glucocorticoid-myopathy",
+      "track": "step1",
+      "system": "musculoskeletal-dermatology",
+      "discipline": "pathology",
+      "tags": [
+        "muscle-collagen-disease",
+        "myopathy",
+        "glucocorticoids"
+      ],
+      "stem": "A 66-year-old woman with giant cell arteritis has taken high-dose prednisone for 4 months. She now has slowly increasing trouble rising from a chair and climbing stairs. She has no muscle pain or rash. On exam, she has a round face, thin skin and weakness of the hip and thigh muscles. Reflexes are normal. Labs: creatine kinase 85 U/L (normal 30-170), erythrocyte sedimentation rate 12 mm/h, potassium 4.1 mEq/L, TSH normal. If a thigh muscle were biopsied, what would it most likely show?",
+      "choices": [
+        "Perifascicular atrophy with perivascular inflammation",
+        "CD8+ T cells invading non-necrotic muscle fibers",
+        "Atrophy of type II fibers without inflammation",
+        "Fiber-type grouping from denervation",
+        "Scattered necrotic fibers with few immune cells"
+      ],
+      "correct": 2,
+      "explanation": "Proximal weakness with **normal CK**, no pain, Cushing features and months of high-dose glucocorticoids fit **glucocorticoid (steroid) myopathy**. Glucocorticoids increase protein breakdown and reduce protein synthesis in muscle, mostly in fast, glycolytic fibers, so the biopsy shows **atrophy of type II fibers** with no necrosis or inflammation. Polymyositis (CD8+ T cells invading fibers) and dermatomyositis (perifascicular atrophy, usually with a rash) destroy fibers and raise CK. Necrotic fibers would also raise CK, and fiber-type grouping needs nerve damage, which normal reflexes argue against.",
+      "explanation_pt": "Fraqueza proximal com **CK normal**, sem dor, com aspecto cushingoide e meses de glicocorticoide em dose alta indicam **miopatia por glicocorticoide (miopatia esteroide)**. Os glicocorticoides aumentam a degradação e reduzem a síntese de proteínas no músculo, sobretudo nas fibras rápidas e glicolíticas, e a biópsia mostra **atrofia das fibras do tipo II** sem necrose nem inflamação. A polimiosite (linfócitos T CD8+ invadindo as fibras) e a dermatomiosite (atrofia perifascicular, em geral com lesões de pele) destroem fibras e elevam a CK. Fibras necróticas também elevariam a CK, e o agrupamento por tipo de fibra exige lesão nervosa, o que os reflexos normais tornam improvável."
+    },
+    {
+      "slug": "q-muscle-collagen-disease-qx-fiber-types-endurance",
+      "track": "step1",
+      "system": "musculoskeletal-dermatology",
+      "discipline": "physiology",
+      "tags": [
+        "muscle-collagen-disease",
+        "fiber-types"
+      ],
+      "stem": "A 28-year-old woman trains for marathons. In a research study, a needle biopsy of her soleus muscle is stained for the activity of a mitochondrial oxidative enzyme. Most fibers stain dark, and a few stain pale. Compared with the pale fibers, which property do the dark fibers most likely have?",
+      "choices": [
+        "Faster contraction and relaxation",
+        "More reliance on anaerobic glycolysis",
+        "Larger motor units and greater peak force",
+        "More growth with heavy resistance training",
+        "More myoglobin and less fatigue with use"
+      ],
+      "correct": 4,
+      "explanation": "Fibers rich in mitochondrial oxidative enzymes are **type I** (slow-twitch) fibers. They contain many **mitochondria**, much **myoglobin** and many capillaries, so they make ATP by oxidative phosphorylation and **resist fatigue**; postural muscles such as the soleus and endurance training favor them. Heavy resistance training mainly enlarges **type II** fibers, which are fast, belong to larger motor units, are mostly glycolytic and tire quickly. The other choices also describe type II fibers.",
+      "explanation_pt": "Fibras ricas em enzimas oxidativas mitocondriais são fibras do **tipo I** (contração lenta). Elas têm muitas **mitocôndrias**, muita **mioglobina** e muitos capilares, produzem ATP por fosforilação oxidativa e **resistem à fadiga**; músculos posturais como o sóleo e o treino de resistência aeróbica favorecem essas fibras. O treino de força com cargas altas aumenta sobretudo as fibras do **tipo II**, que são rápidas, pertencem a unidades motoras maiores, são principalmente glicolíticas e cansam depressa. As outras alternativas também descrevem fibras do tipo II."
+    }
+  ],
+  "notes": []
+}
