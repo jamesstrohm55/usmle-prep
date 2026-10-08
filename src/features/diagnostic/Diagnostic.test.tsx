@@ -142,9 +142,9 @@ test('answering the last question completes the run and shows per-system results
   expect(await screen.findByText('exp-r3')).toBeTruthy(); // sitting review first
   fireEvent.click(screen.getByText('See results'));
   expect(screen.getByText('9 of 12 correct')).toBeTruthy();
-  expect(screen.getByText(/cardiovascular: 6 of 8 correct \(75%\)/)).toBeTruthy();
-  expect(screen.getByText(/renal: 3 of 4 correct \(75%\) · low confidence/)).toBeTruthy();
-  expect(screen.queryByText(/cardiovascular.*low confidence/)).toBeNull();
+  expect(screen.getByText(/Cardiovascular: 6 of 8 correct \(75%\)/)).toBeTruthy();
+  expect(screen.getByText(/Renal: 3 of 4 correct \(75%\) · low confidence/)).toBeTruthy();
+  expect(screen.queryByText(/Cardiovascular.*low confidence/)).toBeNull();
   expect(screen.getByText('Start another diagnostic')).toBeTruthy();
 });
 

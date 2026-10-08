@@ -2,6 +2,7 @@ import { useCallback, useEffect, useRef, useState } from 'react';
 import { fetchNotes } from '../../db/queries';
 import type { Note } from '../../db/models';
 import { Rich } from '../../ui/Rich';
+import { systemLabel } from '../../ui/systemLabel';
 
 export function Notes({ load = fetchNotes }: { load?: typeof fetchNotes }) {
   const [notes, setNotes] = useState<Note[] | null>(null);
@@ -23,19 +24,18 @@ export function Notes({ load = fetchNotes }: { load?: typeof fetchNotes }) {
   return (
     <div>
       {notes.map((n) => (
-        <div className="card" key={n.id}>
+        <div className="card note" key={n.id}>
           <h3>
-            <button aria-expanded={open === n.id} onClick={() => { setOpen(open === n.id ? null : n.id); setPt(false); }}
-              style={{ font: 'inherit', background: 'none', border: 0, padding: 0, cursor: 'pointer', textAlign: 'left' }}>
-              {n.title} <small>({n.system})</small>
+            <button className="note-head" aria-expanded={open === n.id} onClick={() => { setOpen(open === n.id ? null : n.id); setPt(false); }}>
+              <span>{n.title} <small>({systemLabel(n.system)})</small></span>
             </button>
           </h3>
           {open === n.id && (
-            <>
+            <div className="note-body">
               {/* ponytail: notes render as pre-wrapped text with bold/italic only; tables show as raw markdown. Add a markdown renderer when notes become long-form. */}
               <pre style={{ whiteSpace: 'pre-wrap', fontFamily: 'inherit' }}><Rich text={pt && n.body_pt_md ? n.body_pt_md : n.body_md} /></pre>
-              {n.body_pt_md && <button onClick={() => setPt(!pt)}>{pt ? 'Show English' : 'Ver em português'}</button>}
-            </>
+              {n.body_pt_md && <p style={{ marginTop: 14 }}><button onClick={() => setPt(!pt)}>{pt ? 'Show English' : 'Ver em português'}</button></p>}
+            </div>
           )}
         </div>
       ))}

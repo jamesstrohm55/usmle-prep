@@ -451,7 +451,7 @@ const att = (question_id: string, correct: boolean) => ({ question_id, correct, 
 test('preset: planned set starts a tutor session of unseen questions of that system, at most n', async () => {
   const bank = [qs('r1', 'renal'), qs('r2', 'renal'), qs('r3', 'renal'), qs('c1', 'cardio')];
   wrap(<Questions load={async () => bank} save={async () => {}} preset={{ system: 'renal', n: 2 }} loadAttempts={async () => [att('r1', true)]} />);
-  fireEvent.click(await screen.findByText(/Start planned set \(2 questions in renal\)/));
+  fireEvent.click(await screen.findByText(/Start planned set \(2 questions in Renal\)/));
   const seen: string[] = [];
   for (let i = 0; i < 2; i++) {
     seen.push((screen.getByText(/^stem-/)).textContent!);
@@ -465,7 +465,7 @@ test('preset: planned set starts a tutor session of unseen questions of that sys
 
 test('preset: count is capped at the questions available in the system', async () => {
   wrap(<Questions load={async () => [qs('r1', 'renal'), qs('c1', 'cardio')]} save={async () => {}} preset={{ system: 'renal', n: 10 }} loadAttempts={async () => []} />);
-  expect(await screen.findByText(/Start planned set \(1 question in renal\)/)).toBeTruthy();
+  expect(await screen.findByText(/Start planned set \(1 question in Renal\)/)).toBeTruthy();
 });
 
 test('preset for a system not in the bank shows the normal start screen only', async () => {
@@ -484,7 +484,7 @@ test('no preset leaves the start screen unchanged and never loads attempts', asy
 
 test('preset: failing loadAttempts falls back to all questions unseen, no crash or toast', async () => {
   wrap(<Questions load={async () => [qs('r1', 'renal'), qs('r2', 'renal')]} save={async () => {}} preset={{ system: 'renal', n: 5 }} loadAttempts={async () => { throw new Error('offline'); }} />);
-  const btn = (await screen.findByText(/Start planned set \(2 questions in renal\)/)) as HTMLButtonElement;
+  const btn = (await screen.findByText(/Start planned set \(2 questions in Renal\)/)) as HTMLButtonElement;
   await waitFor(() => expect(btn.disabled).toBe(false));
   fireEvent.click(btn);
   expect(screen.getByText(/Q1\/2/)).toBeTruthy();
@@ -506,7 +506,7 @@ test('preset: planned button is disabled until history loads, then excludes seen
 test('preset with done: Resume label, and the set still serves unseen questions first', async () => {
   const bank = [qs('r1', 'renal'), qs('r2', 'renal'), qs('r3', 'renal')];
   wrap(<Questions load={async () => bank} save={async () => {}} preset={{ system: 'renal', n: 2, done: 1 }} loadAttempts={async () => [att('r1', true)]} />);
-  const btn = (await screen.findByText('Resume planned set (2 questions left in renal, 1 done)')) as HTMLButtonElement;
+  const btn = (await screen.findByText('Resume planned set (2 questions left in Renal, 1 done)')) as HTMLButtonElement;
   await waitFor(() => expect(btn.disabled).toBe(false));
   fireEvent.click(btn);
   expect(screen.getByText(/Q1\/2/)).toBeTruthy();
@@ -515,18 +515,18 @@ test('preset with done: Resume label, and the set still serves unseen questions 
 
 test('preset with done: singular "1 question left"', async () => {
   wrap(<Questions load={async () => [qs('r1', 'renal'), qs('r2', 'renal')]} save={async () => {}} preset={{ system: 'renal', n: 1, done: 5 }} loadAttempts={async () => []} />);
-  expect(await screen.findByText(/Resume planned set \(1 question left in renal, 5 done\)/)).toBeTruthy();
+  expect(await screen.findByText(/Resume planned set \(1 question left in Renal, 5 done\)/)).toBeTruthy();
 });
 
 test('preset with practice: practice label, never Resume', async () => {
   wrap(<Questions load={async () => [qs('r1', 'renal'), qs('r2', 'renal')]} save={async () => {}} preset={{ system: 'renal', n: 2, done: 3, practice: true }} loadAttempts={async () => []} />);
-  expect(await screen.findByText(/Start practice set \(2 questions in renal\)/)).toBeTruthy();
+  expect(await screen.findByText(/Start practice set \(2 questions in Renal\)/)).toBeTruthy();
   expect(screen.queryByText(/Resume|Start planned set/)).toBeNull();
 });
 
 test('preset with done 0 keeps the Start planned set label', async () => {
   wrap(<Questions load={async () => [qs('r1', 'renal')]} save={async () => {}} preset={{ system: 'renal', n: 1, done: 0 }} loadAttempts={async () => []} />);
-  expect(await screen.findByText(/Start planned set \(1 question in renal\)/)).toBeTruthy();
+  expect(await screen.findByText(/Start planned set \(1 question in Renal\)/)).toBeTruthy();
 });
 
 test('a 23505 on the Finish batch re-sends each row alone, since a multi-row insert is all-or-nothing', async () => {

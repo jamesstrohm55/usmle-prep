@@ -6,6 +6,7 @@ import { newCard, rateCard, toRow, fromRow, Rating, type CardStateRow } from '..
 import { useToast } from '../../ui/Toast';
 import { Rich } from '../../ui/Rich';
 import { ItemImage } from '../../ui/ItemImage';
+import { systemLabel } from '../../ui/systemLabel';
 
 type States = Map<string, CardStateRow>;
 const loadData = async () => ({ cards: await fetchCards(), states: (await fetchCardStates()) as States });
@@ -90,19 +91,21 @@ export function Flashcards({ load = loadData, save = saveReview }: { load?: type
   if (!current) return <p>Nothing due. Come back later, or add cards on the Import tab.</p>;
 
   return (
-    <div className="card">
-      <p><small>{queue.length} left · {current.system} · {current.discipline}</small></p>
+    <div className="card flash">
+      <p className="flash-meta"><small>{queue.length} left · {systemLabel(current.system)} · {current.discipline}</small></p>
       <h2>{current.front}</h2>
       <ItemImage src={current.image_url} credit={current.image_credit} />
       {!revealed ? (
-        <button onClick={() => setRevealed(true)}>Show answer</button>
+        <button className="primary" onClick={() => setRevealed(true)}>Show answer</button>
       ) : (
         <>
-          <p><Rich text={current.back} /></p>
-          {current.back_pt && (showPt ? <p lang="pt-BR"><Rich text={current.back_pt} /></p> : <button onClick={() => setShowPt(true)}>Ver em português</button>)}
-          <div>{GRADES.map(([label, r]) => <button key={label} disabled={saving} onClick={() => rate(r)}>{label}</button>)}</div>
-          <p>
-            <button onClick={flagWrong}>Flag as wrong</button>{' '}
+          <div className="answer">
+            <p><Rich text={current.back} /></p>
+            {current.back_pt && (showPt ? <p lang="pt-BR"><Rich text={current.back_pt} /></p> : <button onClick={() => setShowPt(true)}>Ver em português</button>)}
+          </div>
+          <div className="grades">{GRADES.map(([label, r]) => <button key={label} className={label.toLowerCase()} disabled={saving} onClick={() => rate(r)}>{label}</button>)}</div>
+          <p className="item-actions">
+            <button onClick={flagWrong}>Flag as wrong</button>
             <button onClick={() => flag('verified', 'Marked verified.')}>Mark verified</button>
           </p>
         </>

@@ -1,4 +1,4 @@
-import { useEffect, useState } from 'react';
+import { useEffect, useState, type ReactNode } from 'react';
 import { HashRouter, Navigate, NavLink, Route, Routes } from 'react-router-dom';
 import { AuthGate } from './features/auth/AuthGate';
 import { ToastProvider, useToast } from './ui/Toast';
@@ -12,6 +12,7 @@ import { QuestionsRoute } from './features/questions/Questions';
 import { Notes } from './features/notes/Notes';
 import { Search } from './features/search/Search';
 import { ImportExport } from './features/import-export/ImportExport';
+import { Icon, type IconName } from './ui/Icon';
 
 function SignOut() {
   const toast = useToast();
@@ -21,7 +22,7 @@ function SignOut() {
       .catch((e: Error) => { markExplicitSignOut(false); toast.show(`Could not sign out: ${e.message}`); })
       .finally(clearCache);
   };
-  return <button onClick={go}>Sign out</button>;
+  return <button onClick={go}><Icon name="out" />Sign out</button>;
 }
 
 function Home() {
@@ -36,22 +37,32 @@ function Home() {
   return to ? <Navigate to={to} replace /> : <p role="status">Loading…</p>;
 }
 
+const NAV: [string, string, IconName][] = [
+  ['/today', 'Today', 'today'], ['/diagnostic', 'Diagnostic', 'diagnostic'], ['/cards', 'Cards', 'cards'],
+  ['/questions', 'Questions', 'questions'], ['/notes', 'Notes', 'notes'], ['/search', 'Search', 'search'], ['/data', 'Import / Export', 'data'],
+];
+
+export function Shell({ children }: { children: ReactNode }) {
+  return (
+    <div className="shell">
+      <aside className="sidebar">
+        <div className="brand"><span className="brand-mark"><Icon name="logo" size={19} /></span>USMLE Prep</div>
+        <nav>
+          {NAV.map(([to, label, icon]) => <NavLink key={to} to={to}><Icon name={icon} />{label}</NavLink>)}
+          <SignOut />
+        </nav>
+      </aside>
+      <main>{children}</main>
+    </div>
+  );
+}
+
 export function App() {
   return (
     <ToastProvider>
       <AuthGate>
         <HashRouter>
-          <nav>
-            <NavLink to="/today">Today</NavLink>
-            <NavLink to="/diagnostic">Diagnostic</NavLink>
-            <NavLink to="/cards">Cards</NavLink>
-            <NavLink to="/questions">Questions</NavLink>
-            <NavLink to="/notes">Notes</NavLink>
-            <NavLink to="/search">Search</NavLink>
-            <NavLink to="/data">Import / Export</NavLink>
-            <SignOut />
-          </nav>
-          <main>
+          <Shell>
             <Routes>
               <Route path="/" element={<Home />} />
               <Route path="/today" element={<Today />} />
@@ -62,7 +73,7 @@ export function App() {
               <Route path="/search" element={<Search />} />
               <Route path="/data" element={<ImportExport />} />
             </Routes>
-          </main>
+          </Shell>
         </HashRouter>
       </AuthGate>
     </ToastProvider>

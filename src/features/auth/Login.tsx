@@ -1,5 +1,6 @@
 import { useEffect, useState } from 'react';
 import { supabase } from '../../db/client';
+import { Icon } from '../../ui/Icon';
 
 // Fixed app root (no query, no hash route) so it matches the Supabase redirect allow-list.
 const appUrl = () => window.location.origin + import.meta.env.BASE_URL;
@@ -51,16 +52,20 @@ export function Login() {
   }
 
   return (
-    <main>
-      <h1>USMLE Prep</h1>
-      <div className="card">
-        <button type="button" onClick={google}>Continue with Google</button>
+    <main className="login">
+      <div className="login-box">
+        <div className="brand"><span className="brand-mark"><Icon name="logo" size={19} /></span></div>
+        <h1>USMLE Prep</h1>
+        <p className="sub">Step 1 study plan, questions and flashcards.</p>
+        <div className="card">
+          <button type="button" className="primary" onClick={google}>Continue with Google</button>
+        </div>
+        <form onSubmit={submit} className="card">
+          <label>Email <input type="email" required value={email} onChange={(e) => setEmail(e.target.value)} /></label>
+          <button type="submit">Email me a sign-in link</button>
+          {msg && <p role="status" style={{ marginTop: 12 }}>{msg}</p>}
+        </form>
       </div>
-      <form onSubmit={submit} className="card">
-        <label>Email <input type="email" required value={email} onChange={(e) => setEmail(e.target.value)} /></label>{' '}
-        <button type="submit">Email me a sign-in link</button>
-        {msg && <p role="status">{msg}</p>}
-      </form>
     </main>
   );
 }

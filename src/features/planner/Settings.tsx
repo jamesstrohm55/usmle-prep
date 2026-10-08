@@ -18,12 +18,14 @@ export function Settings({ value, onSave }: { value: StudySettings; onSave: (s: 
   }
   return (
     <div className="card">
-      <label>Target exam date <input type="date" value={date} onChange={(e) => setDate(e.target.value)} /></label>
-      {DAYS.map((d, i) => (
-        <div key={d}><label>{d} (minutes) <input type="number" min={0} max={600} value={mins[i]}
-          onChange={(e) => setMins(mins.map((m, j) => (j === i ? e.target.value : m)))} /></label></div>
-      ))}
-      <button onClick={save} disabled={busy}>Save</button>
+      <div className="settings-grid">
+        <label>Target exam date <input type="date" value={date} onChange={(e) => setDate(e.target.value)} /></label>
+        {DAYS.map((d, i) => (
+          <label key={d}>{d} (minutes) <input type="number" min={0} max={600} value={mins[i]}
+            onChange={(e) => setMins(mins.map((m, j) => (j === i ? e.target.value : m)))} /></label>
+        ))}
+      </div>
+      <button className="primary" onClick={save} disabled={busy}>Save</button>
       {error && <p role="alert">Could not save: {error}</p>}
     </div>
   );

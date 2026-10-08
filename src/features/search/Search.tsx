@@ -61,11 +61,11 @@ function HitItem({ hit, lookup }: { hit: Hit; lookup: typeof lookupRow }) {
 
   return (
     <li>
-      <button aria-expanded={open} onClick={toggle} style={{ font: 'inherit', background: 'none', border: 0, padding: 0, cursor: 'pointer', textAlign: 'left' }}>
+      <button className="hit-btn" aria-expanded={open} onClick={toggle}>
         <small>{hit.kind} · {hit.system}</small> {hit.title}
       </button>
       {open && data && (
-        <div>
+        <div className="hit-body">
           {data.state === 'loading' && <p>Loading…</p>}
           {data.state === 'missing' && <p>This item is no longer available.</p>}
           {data.state === 'error' && <p>Could not open: {data.msg} <button onClick={load}>Retry</button></p>}
@@ -104,12 +104,12 @@ export function Search({ load = search, lookup = lookupRow }: { load?: typeof se
 
   return (
     <div>
-      <form role="search" onSubmit={submit}>
-        <input type="search" role="searchbox" value={q} onChange={(e) => setQ(e.target.value)} placeholder="Search cards, questions, notes" />{' '}
-        <button type="submit">Search</button>
+      <form role="search" className="search-bar" onSubmit={submit}>
+        <input type="search" role="searchbox" value={q} onChange={(e) => setQ(e.target.value)} placeholder="Search cards, questions, notes" />
+        <button type="submit" className="primary">Search</button>
       </form>
       {hits && !hits.length && <p>No results.</p>}
-      <ul>{(hits ?? []).map((h) => <HitItem key={`${h.kind}-${h.id}`} hit={h} lookup={lookup} />)}</ul>
+      <ul className="hits">{(hits ?? []).map((h) => <HitItem key={`${h.kind}-${h.id}`} hit={h} lookup={lookup} />)}</ul>
     </div>
   );
 }

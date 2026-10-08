@@ -11,6 +11,7 @@ import { useToast } from '../../ui/Toast';
 import { Rich } from '../../ui/Rich';
 import { ItemImage } from '../../ui/ItemImage';
 import { uuid } from '../../ui/uuid';
+import { systemLabel } from '../../ui/systemLabel';
 
 export async function loadDiagnostic() {
   const [questions, attempts, runs] = await Promise.all([fetchQuestions(), fetchAttempts(), fetchRuns()]);
@@ -82,7 +83,8 @@ export function Diagnostic({ load = loadDiagnostic, deps = DEPS }: { load?: () =
   const runQs = run ? run.question_ids.map((id) => byId.get(id)).filter((q): q is Question => !!q) : [];
   const current = runQs.find((q) => !answeredIds.current.has(q.id));
   const inRun = new Set(runQs.map((q) => q.id));
-  const progress = <p>{answered.filter((a) => inRun.has(a.question_id)).length} of {runQs.length} answered</p>;
+  const doneCount = answered.filter((a) => inRun.has(a.question_id)).length;
+  const progress = <div className="q-top"><small>{doneCount} of {runQs.length} answered</small><div className="meter" aria-hidden="true"><i style={{ width: `${runQs.length ? (doneCount / runQs.length) * 100 : 0}%` }} /></div></div>;
 
   async function start() {
     if (busy.current) return;
@@ -162,10 +164,10 @@ export function Diagnostic({ load = loadDiagnostic, deps = DEPS }: { load?: () =
   if (view === 'question' && current) return (
     <div className="card">
       {progress}
-      <p ref={stemRef} tabIndex={-1}>{current.stem}</p>
+      <p ref={stemRef} tabIndex={-1} className="stem">{current.stem}</p>
       <ItemImage src={current.image_url} credit={current.image_credit} />
-      {current.choices.map((c, i) => <div key={i}><button disabled={saving} onClick={() => choose(current, i)}>{c}</button></div>)}
-      <p><button disabled={saving} onClick={() => { setShowPt(false); setView('review'); }}>Pause</button></p>
+      <div className="choices">{current.choices.map((c, i) => <div key={i} className="choice-row"><button className="choice" disabled={saving} onClick={() => choose(current, i)}>{c}</button></div>)}</div>
+      <p className="q-nav"><button disabled={saving} onClick={() => { setShowPt(false); setView('review'); }}>Pause</button></p>
     </div>
   );
 
@@ -178,18 +180,20 @@ export function Diagnostic({ load = loadDiagnostic, deps = DEPS }: { load?: () =
         const q = byId.get(a.questionId)!;
         const chosen = answered.find((x) => x.question_id === q.id)?.chosen ?? a.chosen; // database wins after the reload
         return (
-          <div key={q.id}>
-            <p>{q.stem}</p>
-            <p>Your answer: {q.choices[chosen]}</p>
-            <p>Correct answer: {q.choices[q.correct]}</p>
-            <p><Rich text={q.explanation} /></p>
-            {showPt && q.explanation_pt && <p lang="pt-BR"><Rich text={q.explanation_pt} /></p>}
+          <div key={q.id} className="review-item">
+            <p className="stem">{q.stem}</p>
+            <p className="muted">Your answer: {q.choices[chosen]}</p>
+            <p className="muted">Correct answer: {q.choices[q.correct]}</p>
+            <div className="explain">
+              <p><Rich text={q.explanation} /></p>
+              {showPt && q.explanation_pt && <p className="pt" lang="pt-BR"><Rich text={q.explanation_pt} /></p>}
+            </div>
           </div>
         );
       })}
       {run?.status === 'completed'
-        ? <button onClick={() => setView('results')}>See results</button>
-        : <button onClick={() => { setSitting([]); setView('home'); }}>Back</button>}
+        ? <button className="primary" onClick={() => setView('results')}>See results</button>
+        : <button className="primary" onClick={() => { setSitting([]); setView('home'); }}>Back</button>}
     </div>
   );
 
@@ -197,14 +201,14 @@ export function Diagnostic({ load = loadDiagnostic, deps = DEPS }: { load?: () =
     const s = summarizeRun(runQs, answered);
     return (
       <div className="card">
-        <h2>{s.correct} of {s.total} correct</h2>
-        <ul>{s.bySystem.map((r) => (
+        <h2 className="summary-score">{s.correct} of {s.total} correct</h2>
+        <ul className="results">{s.bySystem.map((r) => (
           <li key={r.system}>
-            {r.system}: {r.accuracy === null ? 'not answered' : `${r.correct} of ${r.answered} correct (${pct(r.accuracy)})`}
+            {systemLabel(r.system)}: {r.accuracy === null ? 'not answered' : `${r.correct} of ${r.answered} correct (${pct(r.accuracy)})`}
             {r.lowConfidence && ' · low confidence'}
           </li>
         ))}</ul>
-        <button onClick={start}>Start another diagnostic</button>
+        <button className="primary" onClick={start}>Start another diagnostic</button>
       </div>
     );
   }
@@ -212,7 +216,7 @@ export function Diagnostic({ load = loadDiagnostic, deps = DEPS }: { load?: () =
   if (run) return (
     <div className="card">
       {progress}
-      <button onClick={() => {
+      <button className="primary" onClick={() => {
         // Every answer saved but the completion call never landed (closed tab): finish it now.
         if (!current) { finish(run); setView('results'); return; }
         setSitting([]); setShowPt(false); shownAt.current = Date.now(); setView('question');
@@ -223,8 +227,9 @@ export function Diagnostic({ load = loadDiagnostic, deps = DEPS }: { load?: () =
 
   return (
     <div className="card">
+      <h2>Diagnostic</h2>
       <p>The diagnostic samples about 100 questions across systems to find where you stand. Answer in short sittings: pause any time and resume later. Explanations appear when you pause or finish.</p>
-      {data.questions.length ? <button onClick={start}>Start diagnostic</button> : <p>No questions yet.</p>}
+      {data.questions.length ? <button className="primary" onClick={start}>Start diagnostic</button> : <p>No questions yet.</p>}
     </div>
   );
 }

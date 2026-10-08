@@ -8,6 +8,7 @@ import { useToast } from '../../ui/Toast';
 import { Rich } from '../../ui/Rich';
 import { ItemImage } from '../../ui/ItemImage';
 import { uuid } from '../../ui/uuid';
+import { systemLabel } from '../../ui/systemLabel';
 
 // One answer's row, built once when answered so a Retry re-sends it unchanged and never reads another session's state.
 // rejected = the server refused this row for good (integrity error): it is never re-sent and offers no Retry.
@@ -161,13 +162,14 @@ export function Questions({ load = fetchQuestions, save = saveAttempts, preset, 
   const blockSize = Math.min(BLOCK, bank.length);
   const plannedCount = preset ? Math.min(preset.n, bank.filter((q) => q.system === preset.system).length) : 0;
   const qWord = plannedCount === 1 ? 'question' : 'questions';
-  const plannedLabel = preset?.practice ? `Start practice set (${plannedCount} ${qWord} in ${preset.system})`
-    : preset?.done ? `Resume planned set (${plannedCount} ${qWord} left in ${preset.system}, ${preset.done} done)`
-    : `Start planned set (${plannedCount} ${qWord} in ${preset?.system})`;
+  const plannedLabel = preset?.practice ? `Start practice set (${plannedCount} ${qWord} in ${systemLabel(preset.system)})`
+    : preset?.done ? `Resume planned set (${plannedCount} ${qWord} left in ${systemLabel(preset.system)}, ${preset.done} done)`
+    : `Start planned set (${plannedCount} ${qWord} in ${systemLabel(preset?.system ?? '')})`;
   if (!mode) return (
     <div className="card">
-      <p>{bank.length} questions available.</p>
-      {preset && plannedCount > 0 && !plannedUsed && <p><button disabled={!ready} onClick={() => { const pool = selectForTask(bank, latest, preset.system, preset.n); if (pool.length) setPlannedUsed(true); start('tutor', pool); }}>{plannedLabel}{!ready && ' (loading history…)'}</button></p>}
+      <h2>Practice questions</h2>
+      <p className="muted">{bank.length} questions available.</p>
+      {preset && plannedCount > 0 && !plannedUsed && <p><button className="primary" disabled={!ready} onClick={() => { const pool = selectForTask(bank, latest, preset.system, preset.n); if (pool.length) setPlannedUsed(true); start('tutor', pool); }}>{plannedLabel}{!ready && ' (loading history…)'}</button></p>}
       <button onClick={() => start('tutor', pickBlock(bank, BLOCK))}>Start tutor session ({blockSize} questions)</button>{' '}
       <button onClick={() => start('timed', pickBlock(bank, BLOCK))}>Start timed session ({blockSize} questions, {Math.round(timedLimitMs(blockSize) / 60000)} min)</button>
     </div>
@@ -177,7 +179,7 @@ export function Questions({ load = fetchQuestions, save = saveAttempts, preset, 
     const s = sessionSummary(session, answers);
     return (
       <div className="card">
-        <h2>{s.correct} of {s.total} correct ({s.pct}%)</h2>
+        <h2 className="summary-score">{s.correct} of {s.total} correct ({s.pct}%)</h2>
         {s.missed.length > 0 && <button onClick={() => start('tutor', s.missed)}>Review {s.missed.length} missed</button>}{' '}
         <button onClick={() => setMode(null)}>Done</button>
         {preset && <>{' '}<a href="#/today">Back to Today</a></>}
@@ -203,25 +205,33 @@ export function Questions({ load = fetchQuestions, save = saveAttempts, preset, 
 
   return (
     <div className="card">
-      <p><small>Q{idx + 1}/{session.length}{mode === 'timed' && ` · ${Math.floor(remaining / 60)}:${String(remaining % 60).padStart(2, '0')} left`}</small></p>
-      <p>{q.stem}</p>
+      <div className="q-top">
+        <small>Q{idx + 1}/{session.length}{mode === 'timed' && ` · ${Math.floor(remaining / 60)}:${String(remaining % 60).padStart(2, '0')} left`}</small>
+        <div className="meter" aria-hidden="true"><i style={{ width: `${((idx + (answered ? 1 : 0)) / session.length) * 100}%` }} /></div>
+      </div>
+      <p className="stem">{q.stem}</p>
       <ItemImage src={q.image_url} credit={q.image_credit} />
-      {q.choices.map((c, i) => (
-        <div key={i}><button onClick={() => choose(i)} disabled={!!answered && mode === 'tutor'} aria-pressed={mode === 'timed' ? answered?.chosen === i : undefined}
-          style={mode === 'timed' && answered?.chosen === i ? { fontWeight: 'bold', outline: '2px solid currentColor' } : undefined}>{c}</button>
+      <div className="choices">{q.choices.map((c, i) => (
+        <div key={i} className={`choice-row${answered && mode === 'tutor' ? (i === q.correct ? ' correct' : answered.chosen === i ? ' wrong' : '') : ''}`}>
+          <button className="choice" onClick={() => choose(i)} disabled={!!answered && mode === 'tutor'} aria-pressed={mode === 'timed' ? answered?.chosen === i : undefined}>{c}</button>
           {answered && mode === 'tutor' && (i === q.correct ? ' ✓' : answered.chosen === i ? ' ✗' : '')}</div>
-      ))}
+      ))}</div>
       {answered && canShowExplanation(mode, finished, true) && (
         <>
-          <p><Rich text={q.explanation} /></p>
-          {q.explanation_pt && (showPt ? <p lang="pt-BR"><Rich text={q.explanation_pt} /></p> : <button onClick={() => setShowPt(true)}>Ver em português</button>)}
-          <p>
-            <button onClick={() => flag(q.id)}>Flag as wrong</button>{' '}
-            <button onClick={() => setStatus(q.id, 'verified', 'Marked verified.')}>Mark verified</button>
-          </p>
+          <div className="explain">
+            <p><Rich text={q.explanation} /></p>
+            {q.explanation_pt && showPt && <p className="pt" lang="pt-BR"><Rich text={q.explanation_pt} /></p>}
+          </div>
+          <div className="q-nav">
+            {q.explanation_pt && !showPt && <button onClick={() => setShowPt(true)}>Ver em português</button>}
+            <span className="item-actions">
+              <button onClick={() => flag(q.id)}>Flag as wrong</button>
+              <button onClick={() => setStatus(q.id, 'verified', 'Marked verified.')}>Mark verified</button>
+            </span>
+          </div>
         </>
       )}
-      {answered && (last ? <button onClick={finish}>Finish</button> : <button onClick={next}>Next</button>)}
+      {answered && <p className="q-nav">{last ? <button className="primary" onClick={finish}>Finish</button> : <button className="primary" onClick={next}>Next</button>}</p>}
     </div>
   );
 }

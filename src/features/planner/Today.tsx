@@ -8,8 +8,9 @@ import { useToast } from '../../ui/Toast';
 import { Settings } from './Settings';
 import {
   buildPlan, daysLeft, DEFAULT_SEC_PER_CARD, DEFAULT_SEC_PER_QUESTION, lastStudyBySystem, latestPerQuestion, masteryBySystem,
-  medianSeconds, minutesDoneThisWeek, pickNote, rankSystems, todayMinutes, type Task,
+  medianSeconds, minutesByDayThisWeek, minutesDoneThisWeek, pickNote, rankSystems, todayMinutes, weekdayIndex, type Task,
 } from '../../engine/planner';
+import { systemLabel } from '../../ui/systemLabel';
 import { doneToday, parseSnapshot, type Snapshot } from '../../engine/progress';
 import { getLastUserId } from '../../db/lastUser';
 
@@ -104,6 +105,7 @@ export function Today({ load = loadToday, save = saveSettings, now = () => new D
       minutes, tasks: plan.tasks, latest, progress: doneToday(attempts, reviews, qSystem, at, plan.since),
       left: daysLeft(settings.target_date, at),
       done: minutesDoneThisWeek(attempts, reviews, at),
+      byDay: minutesByDayThisWeek(attempts, reviews, at), byWeekday: settings.minutes_by_weekday, dayIdx: weekdayIndex(at), mastery,
       planned: settings.minutes_by_weekday.reduce((a, b) => a + b, 0),
     };
   }, [data, override, today, user, rebuilds]);
@@ -124,7 +126,7 @@ export function Today({ load = loadToday, save = saveSettings, now = () => new D
     Math.min(t.count, t.kind === 'cards' ? view.progress.cards : view.progress.questions[t.system] ?? 0);
   const isDone = (t: Task) => (t.kind === 'note' ? isRead(t.system) : progressOf(t) >= t.count);
   const progressText = (t: Exclude<Task, { kind: 'note' }>) => <>
-    <b aria-hidden="true">{progressOf(t)}/{t.count}</b><span className="sr-only">{progressOf(t)} of {t.count} done</span></>;
+    <b className="task-count" aria-hidden="true">{progressOf(t)}/{t.count}</b><span className="sr-only">{progressOf(t)} of {t.count} done</span></>;
   const allDone = view.tasks.length > 0 && view.tasks.every(isDone);
   const overMax = (parseOverride(override) ?? 0) < Number(override);
   async function onSave(s: StudySettings) {
@@ -133,41 +135,94 @@ export function Today({ load = loadToday, save = saveSettings, now = () => new D
     toast.show('Saved');
   }
   const renderTask = (t: Task) => {
-    const mins = `(~${Math.round(t.minutes)} min)`;
-    if (t.kind === 'cards') return <><Link to="/cards">Review {t.count} flashcards</Link> {mins} {progressText(t)}</>;
+    const mins = <span className="meta">(~{Math.round(t.minutes)} min)</span>;
+    if (t.kind === 'cards') return <><div className="task-main"><Link to="/cards">Review {t.count} flashcards</Link> {mins}</div>{progressText(t)}</>;
     if (t.kind === 'note') {
       const n = pickNote(data.notes, data.questions, view.latest, t.system);
-      return <>Read <Link to="/notes">{n ? n.title : `a note in ${t.system}`}</Link> {mins}{' '}
-        <label><input type="checkbox" checked={isRead(t.system)} onChange={(e) => setRead(t.system, e.target.checked)} /> Mark read</label></>;
+      return <div className="task-main"><span>Read <Link to="/notes">{n ? n.title : `a note in ${systemLabel(t.system)}`}</Link></span>
+        <span className="meta">{mins}{' '}<label><input type="checkbox" checked={isRead(t.system)} onChange={(e) => setRead(t.system, e.target.checked)} /> Mark read</label></span></div>;
     }
     // Link and text reflect the remaining work; a finished task offers extra practice instead.
     const done = progressOf(t), left = t.count - done, base = `/questions?system=${encodeURIComponent(t.system)}`;
-    const [to, text] = done >= t.count ? [`${base}&n=${t.count}&practice=1`, `Practice ${t.count} more ${t.system} questions`]
-      : done > 0 ? [`${base}&n=${left}&done=${done}`, `Answer ${left} more ${t.system} questions`]
-      : [`${base}&n=${t.count}`, `Answer ${t.count} ${t.system} questions`];
-    return <><Link to={to}>{text}</Link> {mins} {progressText(t)}</>;
+    const [to, text] = done >= t.count ? [`${base}&n=${t.count}&practice=1`, `Practice ${t.count} more ${systemLabel(t.system)} questions`]
+      : done > 0 ? [`${base}&n=${left}&done=${done}`, `Answer ${left} more ${systemLabel(t.system)} questions`]
+      : [`${base}&n=${t.count}`, `Answer ${t.count} ${systemLabel(t.system)} questions`];
+    return <><div className="task-main"><Link to={to}>{text}</Link> {mins}</div>{progressText(t)}</>;
   };
 
+  const focus = new Set(view.tasks.flatMap((t) => (t.kind === 'questions' ? [t.system] : [])));
+  const started = Object.entries(view.mastery).filter(([, m]) => m.answered > 0).sort((a, b) => a[1].mastery - b[1].mastery);
+  const fresh = Object.entries(view.mastery).filter(([, m]) => m.answered === 0).sort((a, b) => a[0].localeCompare(b[0]));
+  const weekMax = Math.max(1, ...view.byDay, ...view.byWeekday);
+  const heading = now().toLocaleDateString('en-US', { weekday: 'long', month: 'long', day: 'numeric' });
+
+  const tasksDone = view.tasks.filter(isDone).length;
   return (
-    <div>
-      <div className="card">
-        <p>{daysLeftText(view.left)}</p>
-        {data.hasCompletedRun === false && <p><Link to="/diagnostic">Take the diagnostic</Link> to calibrate your plan.</p>}
-        <label>Minutes today <input type="number" min={0} max={600} value={override} placeholder={String(view.minutes)}
-          onChange={(e) => onOverride(e.target.value)} /></label>
-        <p role="status">{overMax ? 'Maximum is 600 minutes, using 600.' : ''}</p>
-        {view.minutes <= 0 ? <p>No study time set for today.</p> : !view.tasks.length ? <p>Nothing to do today.</p> : (<>
-          <ol className="today-tasks">{view.tasks.map((t, i) => {
-            const done = isDone(t);
-            return <li key={i} className={done ? 'done' : ''}>{done && <span role="img" aria-label="done">✓ </span>}{renderTask(t)}</li>;
-          })}</ol>
-          {allDone && <p>All done for today.</p>}
-          <button onClick={onRebuild}>Rebuild plan</button>
-        </>)}
-        <p>{view.done} of {view.planned} min this week</p>
-        <progress aria-label="Minutes this week" max={view.planned || 1} value={Math.min(view.done, view.planned)} />
+    <div className="today">
+      <div className="today-head">
+        <div>
+          <p className="muted" style={{ margin: 0 }}>{heading}</p>
+          <h1>Your plan</h1>
+        </div>
       </div>
-      <details><summary>Plan settings</summary><Settings value={data.settings} onSave={onSave} /></details>
+      <p role="status" className="warn-line">{overMax ? 'Maximum is 600 minutes, using 600.' : ''}</p>
+      {data.hasCompletedRun === false && <p className="callout"><span><Link to="/diagnostic">Take the diagnostic</Link> to calibrate your plan.</span></p>}
+      <div className="bento">
+        <section className="tile t-count">
+          <h2>Exam countdown</h2>
+          <p className={view.left !== null && view.left >= 0 ? 'big' : 'muted'}>{daysLeftText(view.left)}</p>
+          {data.settings.target_date && <p className="meta">Target date: {new Date(`${data.settings.target_date}T00:00:00`).toLocaleDateString('en-US', { month: 'long', day: 'numeric', year: 'numeric' })}</p>}
+        </section>
+        <section className="tile t-prog">
+          <h2>Today</h2>
+          <p className="big">{view.tasks.length ? `${tasksDone} of ${view.tasks.length} done` : `${view.minutes} min`}</p>
+          <label className="minutes-field">Minutes today <input type="number" min={0} max={600} value={override} placeholder={String(view.minutes)}
+            onChange={(e) => onOverride(e.target.value)} /></label>
+        </section>
+        <section className="tile t-week">
+          <div className="panel-head"><h2>This week</h2><span className="meta">Monday to Sunday</span></div>
+          <div className="week" aria-hidden="true">{view.byDay.map((m, i) => (
+            <div key={i} className={`day${i === view.dayIdx ? ' now' : ''}`}>
+              <div className="col"><div className="plan" style={{ height: `${(view.byWeekday[i] / weekMax) * 100}%` }} /><div className="did" style={{ height: `${(m / weekMax) * 100}%` }} /></div>
+              <span className="lbl">{'MTWTFSS'[i]}</span>
+            </div>))}</div>
+          <p className="week-total">{view.done} of {view.planned} min this week</p>
+          <progress aria-label="Minutes this week" max={view.planned || 1} value={Math.min(view.done, view.planned)} />
+        </section>
+        <section className="tile t-plan">
+          <div className="panel-head"><h2>Your tasks</h2><span className="meta">{view.minutes} min planned</span></div>
+          {view.minutes <= 0 ? <p className="empty">No study time set for today.</p> : !view.tasks.length ? <p className="empty">Nothing to do today.</p> : (<>
+            <ol className="today-tasks">{view.tasks.map((t, i) => {
+              const done = isDone(t);
+              return <li key={i} className={done ? 'done' : ''}>
+                {done ? <span className="task-status" role="img" aria-label="done">✓</span> : <span className="task-status" aria-hidden="true" />}
+                {renderTask(t)}</li>;
+            })}</ol>
+            {allDone && <p className="all-done">All done for today.</p>}
+            <div className="plan-foot"><span className="meta">Plans update with your answers.</span><button onClick={onRebuild}>Rebuild plan</button></div>
+          </>)}
+        </section>
+        <section className="tile t-mastery">
+          <div className="panel-head"><h2>Where you stand</h2><span className="meta">Weakest first</span></div>
+          <ul className="mastery">
+            {started.map(([sys, m]) => (
+              <li key={sys}>
+                <span className="name">{systemLabel(sys)}{focus.has(sys) && <span className="focus">In plan</span>}</span>
+                <span className="num">{Math.round(m.mastery * 100)}% · {m.answered} answered</span>
+                <span className="bar"><i className={m.mastery < 0.5 ? 'low' : m.mastery < 0.7 ? 'mid' : ''} style={{ width: `${Math.round(m.mastery * 100)}%` }} /></span>
+              </li>))}
+            {fresh.map(([sys]) => (
+              <li key={sys} className="fresh">
+                <span className="name">{systemLabel(sys)}{focus.has(sys) && <span className="focus">In plan</span>}</span>
+                <span className="num">Not started</span>
+                <span className="bar" />
+              </li>))}
+          </ul>
+        </section>
+        <section className="tile t-settings">
+          <details><summary>Plan settings</summary><Settings value={data.settings} onSave={onSave} /></details>
+        </section>
+      </div>
     </div>
   );
 }

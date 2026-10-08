@@ -1,6 +1,6 @@
 import {
   latestPerQuestion, masteryBySystem, lastStudyBySystem, rankSystems, medianSeconds, buildPlan,
-  weekdayIndex, weekStart, minutesDoneThisWeek, daysLeft, todayMinutes, pickNote, selectForTask, DAY_MS,
+  weekdayIndex, weekStart, minutesDoneThisWeek, minutesByDayThisWeek, daysLeft, todayMinutes, pickNote, selectForTask, DAY_MS,
   MIN_SEC_PER_CARD, MIN_SEC_PER_QUESTION,
 } from './planner';
 
@@ -107,6 +107,20 @@ test('minutesDoneThisWeek sums attempts and reviews inside the local week only',
     [{ question_id: 'a', correct: true, duration_ms: 120_000, answered_at: inWeek }, { question_id: 'b', correct: true, duration_ms: 999_000, answered_at: before }],
     [{ card_id: 'c', duration_ms: 60_000, reviewed_at: inWeek }], now);
   expect(done).toBe(3);
+});
+
+test('minutesByDayThisWeek buckets by local weekday, Monday first, and ignores other weeks', () => {
+  const now = new Date(2026, 9, 7, 12); // Wed
+  const mon = new Date(2026, 9, 5, 23, 30).toISOString(); // late Monday night stays Monday
+  const wed = new Date(2026, 9, 7, 8).toISOString();
+  const sun = new Date(2026, 9, 11, 9).toISOString();
+  const prevSun = new Date(2026, 9, 4, 9).toISOString();
+  const nextMon = new Date(2026, 9, 12, 0, 5).toISOString();
+  const by = minutesByDayThisWeek(
+    [{ question_id: 'a', correct: true, duration_ms: 120_000, answered_at: mon }, { question_id: 'b', correct: true, duration_ms: 600_000, answered_at: prevSun }],
+    [{ card_id: 'c', duration_ms: 60_000, reviewed_at: wed }, { card_id: 'd', duration_ms: 180_000, reviewed_at: sun }, { card_id: 'e', duration_ms: 900_000, reviewed_at: nextMon }], now);
+  expect(by).toEqual([2, 0, 1, 0, 0, 0, 3]);
+  expect(minutesByDayThisWeek([], [], now)).toEqual([0, 0, 0, 0, 0, 0, 0]);
 });
 
 test('daysLeft and todayMinutes', () => {

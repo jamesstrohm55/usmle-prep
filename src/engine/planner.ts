@@ -123,6 +123,19 @@ export function minutesDoneThisWeek(attempts: Attempt[], reviews: Review[], now:
   return Math.round(ms / 60_000);
 }
 
+// Minutes studied on each local weekday (Monday first) of the week containing `now`.
+export function minutesByDayThisWeek(attempts: Attempt[], reviews: Review[], now: Date): number[] {
+  const start = weekStart(now).getTime();
+  const ms = [0, 0, 0, 0, 0, 0, 0];
+  const add = (iso: string, d: number) => {
+    const t = Date.parse(iso);
+    const day = Math.floor((new Date(t).setHours(0, 0, 0, 0) - start) / DAY_MS + 0.5); // +0.5: a 23/25 h DST day still maps to its own index
+    if (day >= 0 && day < 7) ms[day] += d;
+  };
+  attempts.forEach((a) => add(a.answered_at, a.duration_ms));
+  reviews.forEach((r) => add(r.reviewed_at, r.duration_ms));
+  return ms.map((m) => Math.round(m / 60_000));
+}
 export function daysLeft(target: string | null, now: Date): number | null {
   if (!target || !/^\d{4}-\d{2}-\d{2}$/.test(target)) return null;
   const [y, m, d] = target.split('-').map(Number);
