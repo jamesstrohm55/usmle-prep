@@ -36,7 +36,7 @@
 ## File structure
 
 - Create `src/engine/blueprint.ts`, `src/engine/diagnostic.ts`, `src/engine/planner.ts` and their `.test.ts` files.
-- Create `supabase/migrations/20261007000001_planner.sql`; modify `supabase/tests/rls.test.ts`.
+- Create `supabase/migrations/20261008023950_planner.sql`; modify `supabase/tests/rls.test.ts`.
 - Modify `src/db/queries.ts` (settings, attempts, reviews, runs); add tests in `src/db/queries.test.ts`.
 - Create `src/features/planner/Today.tsx`, `Settings.tsx` (+ tests), `src/features/diagnostic/Diagnostic.tsx` (+ test).
 - Modify `src/features/questions/Questions.tsx` (+ test), `src/App.tsx`.
@@ -592,7 +592,7 @@ git commit -m "feat: planner engine (mastery, priority, plan, week helpers)"
 ### Task 3: Migration and RLS tests (local only)
 
 **Files:**
-- Create: `supabase/migrations/20261007000001_planner.sql`
+- Create: `supabase/migrations/20261008023950_planner.sql`
 - Modify: `supabase/tests/rls.test.ts` (add tests inside the existing `describe`)
 
 **Interfaces:**
@@ -642,7 +642,7 @@ select session_id, question_id, count(*) from attempts group by 1, 2 having coun
 ```
 Expected: zero rows. If any rows come back, STOP and report to James: the unique index cannot be created until they are resolved.
 
-- [ ] **Step 3: Write the migration** `supabase/migrations/20261007000001_planner.sql`
+- [ ] **Step 3: Write the migration** `supabase/migrations/20261008023950_planner.sql`
 
 ```sql
 -- Diagnostic and planner: per-user settings and diagnostic runs (additive).
@@ -684,7 +684,7 @@ Expected: all pass including the three new tests. If Docker is unavailable, say 
 - [ ] **Step 5: Commit** (migration file and tests only; do NOT run `supabase db push` yet)
 
 ```bash
-git add supabase/migrations/20261007000001_planner.sql supabase/tests/rls.test.ts
+git add supabase/migrations/20261008023950_planner.sql supabase/tests/rls.test.ts
 git commit -m "feat: study_settings and diagnostic_runs tables, unique answer per session"
 ```
 
