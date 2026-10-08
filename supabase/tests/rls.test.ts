@@ -156,4 +156,37 @@ describe.skipIf(!process.env.LOCAL_API_URL)('RLS (needs local Supabase)', () => 
       expect(error?.code === '42501' || (data ?? []).length === 0, `${t} leaked rows`).toBe(true);
     }
   });
+
+  test('study_settings: own row only, bad minutes rejected', async () => {
+    const ok = await vanessa.client.from('study_settings').insert({ target_date: '2027-01-15' });
+    expect(ok.error).toBeNull();
+    expect((await other.client.from('study_settings').select('*')).data).toEqual([]);
+    const forged = await other.client.from('study_settings').insert({ user_id: vanessa.id });
+    expect(forged.error).not.toBeNull();
+    const bad = await other.client.from('study_settings').insert({ minutes_by_weekday: [1, 2, 3] });
+    expect(bad.error).not.toBeNull();
+    const big = await other.client.from('study_settings').insert({ minutes_by_weekday: [0, 0, 0, 0, 0, 0, 601] });
+    expect(big.error).not.toBeNull();
+  });
+
+  test('diagnostic_runs: private, one in-progress run per user, status can move to completed', async () => {
+    const ids = [crypto.randomUUID(), crypto.randomUUID()];
+    const a = await vanessa.client.from('diagnostic_runs').insert({ question_ids: ids, seed: 's1' }).select('id').single();
+    expect(a.error).toBeNull();
+    const second = await vanessa.client.from('diagnostic_runs').insert({ question_ids: ids, seed: 's2' });
+    expect(second.error).not.toBeNull();
+    expect((await other.client.from('diagnostic_runs').select('*')).data).toEqual([]);
+    const done = await vanessa.client.from('diagnostic_runs').update({ status: 'completed', completed_at: new Date().toISOString() }).eq('id', a.data!.id).select();
+    expect(done.data).toHaveLength(1);
+    const again = await vanessa.client.from('diagnostic_runs').insert({ question_ids: ids, seed: 's3' });
+    expect(again.error).toBeNull();
+  });
+
+  test('attempts: the same question cannot be answered twice in one session', async () => {
+    const { data: q } = await admin.from('questions').insert({ track: 'step1', system: 'cardio', discipline: 'path', slug: `dq-${run}`, stem: 's', choices: ['a', 'b'], correct: 0, explanation: 'e' }).select('id').single();
+    const session_id = crypto.randomUUID();
+    const row = { question_id: q!.id, chosen: 0, correct: true, mode: 'timed', session_id };
+    expect((await vanessa.client.from('attempts').insert(row)).error).toBeNull();
+    expect((await vanessa.client.from('attempts').insert(row)).error?.code).toBe('23505');
+  });
 });
