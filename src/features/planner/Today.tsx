@@ -27,7 +27,7 @@ const writeOverride = (key: string, v: string) => {
   try { if (v) localStorage.setItem(key, v); else localStorage.removeItem(key); } catch { /* storage unavailable: override lasts for this visit only */ }
 };
 // Empty, non-numeric or negative input means "use the weekday default".
-const parseOverride = (v: string): number | null => { const n = Number(v); return v.trim() !== '' && Number.isFinite(n) && n >= 0 ? n : null; };
+const parseOverride = (v: string): number | null => { const n = Number(v); return v.trim() !== '' && Number.isFinite(n) && n >= 0 ? Math.min(600, n) : null; };
 const lastDurations = (rows: { duration_ms: number }[]) => rows.slice(-200).map((r) => r.duration_ms);
 
 function daysLeftText(n: number | null) {
@@ -42,7 +42,12 @@ export function Today({ load = loadToday, save = saveSettings, now = () => new D
   const toast = useToast();
   const [data, setData] = useState<TodayData | null>(null);
   const [error, setError] = useState<string | null>(null);
-  const [override, setOverride] = useState(() => readOverride(`today-minutes:${dayKey(now())}`));
+  const nowRef = useRef(now);
+  nowRef.current = now; // an inline `now` must not retrigger the plan memo
+  const today = dayKey(now());
+  const [stored, setStored] = useState<{ day: string; v: string } | null>(null);
+  // Override belongs to a day: after midnight, read the new day's value instead of reusing yesterday's.
+  const override = stored && stored.day === today ? stored.v : readOverride(`today-minutes:${today}`);
   const alive = useRef(true);
   const loadRef = useRef(load);
 
@@ -55,7 +60,7 @@ export function Today({ load = loadToday, save = saveSettings, now = () => new D
 
   const view = useMemo(() => {
     if (!data) return null;
-    const at = now();
+    const at = nowRef.current();
     const { questions, cards, states, attempts, reviews, settings } = data;
     const latest = latestPerQuestion(attempts);
     const available: Record<string, number> = {};
@@ -76,12 +81,12 @@ export function Today({ load = loadToday, save = saveSettings, now = () => new D
       done: minutesDoneThisWeek(attempts, reviews, at),
       planned: settings.minutes_by_weekday.reduce((a, b) => a + b, 0),
     };
-  }, [data, override, now]);
+  }, [data, override, today]);
 
   if (error) return <p>Could not load your plan: {error} <button onClick={refresh}>Retry</button></p>;
   if (!data || !view) return <p>Loading…</p>;
 
-  const onOverride = (v: string) => { setOverride(v); writeOverride(`today-minutes:${dayKey(now())}`, v); };
+  const onOverride = (v: string) => { setStored({ day: today, v }); writeOverride(`today-minutes:${today}`, v); };
   async function onSave(s: StudySettings) {
     await save(s);
     setData((d) => (d ? { ...d, settings: s } : d));
@@ -104,7 +109,7 @@ export function Today({ load = loadToday, save = saveSettings, now = () => new D
         {data.hasCompletedRun === false && <p><Link to="/diagnostic">Take the diagnostic</Link> to calibrate your plan.</p>}
         <label>Minutes today <input type="number" min={0} max={600} value={override} placeholder={String(view.minutes)}
           onChange={(e) => onOverride(e.target.value)} /></label>
-        {view.minutes <= 0 ? <p>No study time set for today.</p> : (
+        {view.minutes <= 0 ? <p>No study time set for today.</p> : !view.tasks.length ? <p>Nothing to do today.</p> : (
           <ol>{view.tasks.map((t, i) => <li key={i}>{renderTask(t)}</li>)}</ol>
         )}
         <p>{view.done} of {view.planned} min this week</p>

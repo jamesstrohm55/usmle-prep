@@ -3,6 +3,12 @@ import { MemoryRouter } from 'react-router-dom';
 import { Today, type TodayData } from './Today';
 import { ToastProvider } from '../../ui/Toast';
 import { DEFAULT_SETTINGS } from '../../db/queries';
+import * as planner from '../../engine/planner';
+
+vi.mock('../../engine/planner', async (orig) => {
+  const m = await orig<typeof import('../../engine/planner')>();
+  return { ...m, buildPlan: vi.fn(m.buildPlan) };
+});
 
 const NOW = new Date(2026, 9, 7, 12); // Wednesday, local
 const SYS = 'Renal & Urinary';
@@ -129,4 +135,47 @@ test('saving settings calls save and toasts', async () => {
   fireEvent.click(screen.getByText('Save'));
   await waitFor(() => expect(save).toHaveBeenCalled());
   expect(await screen.findByText('Saved')).toBeTruthy();
+});
+
+test('a new inline now() does not recompute the plan without data or override changes', async () => {
+  const d = data();
+  const mk = () => (
+    <ToastProvider><MemoryRouter><Today load={async () => d} save={vi.fn()} now={() => new Date(NOW)} /></MemoryRouter></ToastProvider>
+  );
+  const { rerender } = render(mk());
+  await screen.findByText(/Answer 10/);
+  const calls = vi.mocked(planner.buildPlan).mock.calls.length;
+  rerender(mk());
+  rerender(mk());
+  expect(vi.mocked(planner.buildPlan).mock.calls.length).toBe(calls);
+});
+
+test('crossing midnight reads the new day override and writes under the new key', async () => {
+  localStorage.setItem('today-minutes:2026-10-07', '10');
+  localStorage.setItem('today-minutes:2026-10-08', '30');
+  let clock = new Date(NOW);
+  const mk = () => (
+    <ToastProvider><MemoryRouter><Today load={async () => data({ questions: qs(40) })} save={vi.fn()} now={() => clock} /></MemoryRouter></ToastProvider>
+  );
+  const { rerender } = render(mk());
+  expect(await screen.findByText(/Answer 6 /)).toBeTruthy(); // 10 min
+  clock = new Date(2026, 9, 8, 0, 5);
+  rerender(mk());
+  expect(screen.getByText(/Answer 20 /)).toBeTruthy(); // 30 min from the new key
+  fireEvent.change(screen.getByLabelText(/minutes today/i), { target: { value: '15' } });
+  expect(localStorage.getItem('today-minutes:2026-10-08')).toBe('15');
+  expect(localStorage.getItem('today-minutes:2026-10-07')).toBe('10');
+});
+
+test('override is capped at 600 minutes', async () => {
+  show(data({ questions: qs(1000) }));
+  await screen.findByText(/Answer 40 /);
+  fireEvent.change(screen.getByLabelText(/minutes today/i), { target: { value: '5000' } });
+  expect(screen.getByText(/Answer 400 /)).toBeTruthy(); // 600 min / 90 s
+});
+
+test('minutes set but nothing to do shows a message instead of an empty list', async () => {
+  show(data({ questions: [], cards: [] }));
+  expect(await screen.findByText(/Nothing to do today/)).toBeTruthy();
+  expect(screen.queryAllByRole('listitem')).toHaveLength(0);
 });
