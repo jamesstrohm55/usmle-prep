@@ -551,6 +551,70 @@ test('a row that fails during the 23505 fallback offers a Retry of the whole uns
   expect(save.mock.calls[5][0]).toEqual(save.mock.calls[1][0]); // both rows, not just the last one to fail
 });
 
+type Row = { question_id: string };
+const ids = (rows: Row[]) => rows.map((r) => r.question_id);
+const fk = () => Object.assign(new Error('violates foreign key'), { code: '23503' });
+
+test('a server-rejected row (23503) does not poison later carried batches: they fall back to one row at a time', async () => {
+  vi.spyOn(Math, 'random').mockReturnValue(0.999999);
+  const saved: string[] = [];
+  const save = vi.fn(async (rows: Row[]) => { if (ids(rows).includes('1')) throw fk(); saved.push(...ids(rows)); });
+  wrap(<Questions load={async () => [q('1'), q('2'), q('3')]} save={save as never} />);
+  fireEvent.click(await screen.findByText(/Start tutor session/));
+  fireEvent.click(screen.getByText('B1'));
+  await screen.findByText(/Could not save your answer: violates foreign key/);
+  fireEvent.click(screen.getByText('Next'));
+  fireEvent.click(screen.getByText('B1'));
+  await act(async () => {});
+  fireEvent.click(screen.getByText('Next'));
+  fireEvent.click(screen.getByText('B1'));
+  await act(async () => {});
+  expect(save.mock.calls.map((c) => ids(c[0]))).toEqual([['1'], ['1', '2'], ['1'], ['2'], ['1', '3'], ['1'], ['3']]);
+  for (const [rows] of save.mock.calls) expect(new Set(ids(rows)).size).toBe(rows.length); // no row twice in one call
+  expect(saved).toEqual(['2', '3']);
+  expect(screen.getByText(/Could not save your answer/)).toBeTruthy(); // row 1 still offers Retry
+});
+
+test('a codeless network error on a carried batch does not fall back to one row at a time', async () => {
+  vi.spyOn(Math, 'random').mockReturnValue(0.999999);
+  const save = vi.fn().mockRejectedValue(new TypeError('Failed to fetch'));
+  wrap(<Questions load={async () => [q('1'), q('2')]} save={save} />);
+  fireEvent.click(await screen.findByText(/Start tutor session/));
+  fireEvent.click(screen.getByText('B1'));
+  await screen.findByRole('alert');
+  fireEvent.click(screen.getByText('Next'));
+  fireEvent.click(screen.getByText('B1'));
+  await act(async () => {});
+  expect(save.mock.calls.map((c) => ids(c[0]))).toEqual([['1'], ['1', '2']]);
+  expect(screen.getByText(/Could not save your answer: Failed to fetch/)).toBeTruthy();
+  await act(async () => { fireEvent.click(screen.getByText('Retry')); });
+  expect(save.mock.calls.map((c) => ids(c[0]))).toEqual([['1'], ['1', '2'], ['1', '2']]);
+});
+
+test('Finish with a poison row still saves the good rows', async () => {
+  vi.spyOn(Math, 'random').mockReturnValue(0.999999);
+  const saved: string[] = [];
+  let offlineOnce = true;
+  const save = vi.fn(async (rows: Row[]) => {
+    if (ids(rows).includes('1')) throw fk();
+    if (offlineOnce) { offlineOnce = false; throw new TypeError('Failed to fetch'); } // row 2's first send
+    saved.push(...ids(rows));
+  });
+  wrap(<Questions load={async () => [q('1'), q('2')]} save={save as never} />);
+  fireEvent.click(await screen.findByText(/Start tutor session/));
+  fireEvent.click(screen.getByText('B1'));
+  await screen.findByRole('alert');
+  fireEvent.click(screen.getByText('Next'));
+  fireEvent.click(screen.getByText('B1'));
+  await act(async () => {});
+  expect(saved).toEqual([]);
+  await act(async () => { fireEvent.click(screen.getByText('Finish')); });
+  await waitFor(() => expect(saved).toEqual(['2']));
+  expect(screen.getByText(/2 of 2/)).toBeTruthy();
+  expect(save.mock.calls.slice(-3).map((c) => ids(c[0]))).toEqual([['1', '2'], ['1'], ['2']]);
+  expect(screen.getByText(/Could not save results: violates foreign key/)).toBeTruthy();
+});
+
 test('a save that fails with 23505 counts as saved: no toast, no retry', async () => {
   const save = vi.fn().mockRejectedValue(Object.assign(new Error('duplicate key'), { code: '23505' }));
   wrap(<Questions load={async () => [q('1')]} save={save} />);

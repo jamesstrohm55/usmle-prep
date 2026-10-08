@@ -95,13 +95,12 @@ export function Questions({ load = fetchQuestions, save = saveAttempts, preset, 
       todo.forEach((p) => { p.inFlight = null; });
       if (r.ok) { todo.forEach((p) => { p.done = true; }); return; }
       const err = r.e as { code?: string; message?: string } | null | undefined;
+      // A multi-row insert is all-or-nothing. A server rejection (any error code: 23505 duplicate, 23503
+      // deleted question, ...) may be one bad row, so retry one row at a time and let the good rows land.
+      // Codeless network errors keep the batch: per-row sends while offline only multiply failures.
+      if (err?.code && todo.length > 1) return Promise.all(todo.map((p) => send([p], failMsg, retryPs)));
       // 23505 = unique (session_id, question_id): an earlier insert committed but its response was lost.
-      // A multi-row insert is all-or-nothing, so fall back to one row at a time to find which are missing.
-      if (err?.code === '23505') {
-        if (todo.length === 1) todo[0].done = true;
-        else return Promise.all(todo.map((p) => send([p], failMsg, retryPs)));
-        return;
-      }
+      if (err?.code === '23505') { todo[0].done = true; return; }
       const msg = err?.message || (err ? String(err) : 'unknown error');
       if (alive.current) toast.show(`${failMsg}: ${msg}`, () => send(retryPs, failMsg));
     }).then(() => {});
