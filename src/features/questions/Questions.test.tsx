@@ -635,7 +635,7 @@ test('a data-exception row (22003, e.g. out-of-range duration) is rejected alone
   expect(save.mock.calls.map((c) => ids(c[0]))).toEqual([['1'], ['2']]);
 });
 
-test('a rejected row names its question, and the Finish summary lists it', async () => {
+test('a rejected row names its question (Q2), and the Finish summary lists it', async () => {
   vi.spyOn(Math, 'random').mockReturnValue(0.999999);
   const save = vi.fn(async (rows: Row[]) => { if (ids(rows).includes('2')) throw fk(); });
   wrap(<Questions load={async () => [q('1'), q('2')]} save={save as never} />);
@@ -644,7 +644,7 @@ test('a rejected row names its question, and the Finish summary lists it', async
   await act(async () => {});
   fireEvent.click(screen.getByText('Next'));
   fireEvent.click(screen.getByText('B1'));
-  await screen.findByText(/Could not save your answer: violates foreign key \(question 2\)/);
+  await screen.findByText(/Could not save your answer: violates foreign key \(Q2\)/);
   await act(async () => { fireEvent.click(screen.getByText('Finish')); });
   expect(screen.getByText(/1 rejected by the server \(of 2\)\. Rejected: Q2\./)).toBeTruthy();
 });
@@ -663,7 +663,7 @@ test('a rejection toast keeps Retry when another answer is still unsaved, so tha
   fireEvent.click(screen.getByText('Next'));
   fireEvent.click(screen.getByText('B1')); // batch [1,2] splits: 1 fails offline, 2 is rejected
   await act(async () => {});
-  expect(screen.getByText(/rejected for good \(question 2\)|violates foreign key \(question 2\)/)).toBeTruthy();
+  expect(screen.getByText(/violates foreign key \(Q2\)/)).toBeTruthy();
   offline = false;
   save.mockClear();
   await act(async () => { fireEvent.click(screen.getByText('Retry')); });
@@ -684,6 +684,50 @@ test('the Finish summary of an old session does not appear in a new session', as
   fireEvent.click(screen.getByText(/Start tutor session/)); // a new session begins while the old saves are in flight
   await act(async () => { ds[0].reject(new TypeError('Failed to fetch')); ds[1].reject(new TypeError('Failed to fetch')); });
   expect(screen.queryByText(/Could not save results: \d+ not saved/)).toBeNull();
+});
+
+test('the Finish summary waits for a Retry clicked meanwhile, instead of counting it as unsaved', async () => {
+  vi.spyOn(Math, 'random').mockReturnValue(0.999999);
+  const d3 = deferred(); const d1 = deferred();
+  let n1 = 0;
+  const save = vi.fn(async (rows: Row[]) => {
+    const k = ids(rows).join(',');
+    if (k === '1,2' || k === '2') throw fk();
+    if (k === '1,3') throw Object.assign(new Error('check violation'), { code: '23514' }); // splits the batch
+    if (k === '3') return d3.promise; // still in flight when Finish is pressed
+    if (++n1 <= 3) throw new TypeError('Failed to fetch');
+    return d1.promise; // the Retry
+  });
+  wrap(<Questions load={async () => [q('1'), q('2'), q('3')]} save={save as never} />);
+  fireEvent.click(await screen.findByText(/Start tutor session/));
+  for (let i = 0; i < 3; i++) {
+    fireEvent.click(screen.getByText('B1'));
+    await act(async () => {});
+    if (i < 2) fireEvent.click(screen.getByText('Next'));
+  }
+  await act(async () => { fireEvent.click(screen.getByText('Finish')); }); // waits on question 3's save
+  await act(async () => { fireEvent.click(screen.getByText('Retry')); }); // question 1 goes back in flight
+  await act(async () => { d3.resolve(); });
+  expect(screen.queryByText(/not saved/)).toBeNull(); // not reported while its Retry is still out
+  await act(async () => { d1.resolve(); });
+  expect(screen.getByText(/Could not save results: 1 rejected by the server \(of 3\)\. Rejected: Q2\./)).toBeTruthy();
+  expect(screen.queryByText(/not saved/)).toBeNull();
+});
+
+test('a row rejected after a new session began is not labelled with a question number', async () => {
+  vi.spyOn(Math, 'random').mockReturnValue(0.999999);
+  const d = deferred();
+  const save = vi.fn().mockReturnValueOnce(d.promise).mockResolvedValue(undefined);
+  wrap(<Questions load={async () => [q('1')]} save={save} />);
+  fireEvent.click(await screen.findByText(/Start tutor session/));
+  fireEvent.click(screen.getByText('B1'));
+  await act(async () => { fireEvent.click(screen.getByText('Finish')); });
+  fireEvent.click(screen.getByText('Done'));
+  fireEvent.click(screen.getByText(/Start tutor session/));
+  await act(async () => { d.reject(fk()); });
+  const toast = await screen.findByRole('alert');
+  expect(toast.textContent).toMatch(/violates foreign key/);
+  expect(toast.textContent).not.toMatch(/\(Q\d/);
 });
 
 test('a coded non-integrity error (auth/RLS/5xx) on a carried batch does not fall back to one row at a time', async () => {

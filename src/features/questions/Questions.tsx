@@ -11,7 +11,7 @@ import { uuid } from '../../ui/uuid';
 
 // One answer's row, built once when answered so a Retry re-sends it unchanged and never reads another session's state.
 // rejected = the server refused this row for good (integrity error): it is never re-sent and offers no Retry.
-type Pending = { row: AttemptInsert; label: string; done: boolean; inFlight: Promise<void> | null; rejected?: string };
+type Pending = { row: AttemptInsert; n: number; done: boolean; inFlight: Promise<void> | null; rejected?: string };
 
 const BLOCK = 40;
 
@@ -111,7 +111,9 @@ export function Questions({ load = fetchQuestions, save = saveAttempts, preset, 
         if (!alive.current) return;
         // The toast holds one message, so keep a Retry for any other row that still can be saved.
         const others = retryPs.some((r) => !r.done && !r.rejected && !r.inFlight);
-        toast.show(`${failMsg}: ${msg} (question ${todo[0].label.slice(1)})`, others ? () => send(retryPs, failMsg) : undefined);
+        // The number only means something in the session on screen (a row from an earlier session is unnamed).
+        const where = todo[0].row.session_id === sessionId.current ? ` (Q${todo[0].n})` : '';
+        toast.show(`${failMsg}: ${msg}${where}`, others ? () => send(retryPs, failMsg) : undefined);
         return;
       }
       if (alive.current) toast.show(`${failMsg}: ${msg}`, () => send(retryPs, failMsg));
@@ -146,7 +148,7 @@ export function Questions({ load = fetchQuestions, save = saveAttempts, preset, 
       // One plain failure keeps its own toast (it names the reason); a summary only adds counts for several or rejected rows.
       if (!alive.current || (!unsaved && !rejected.length) || (unsaved === 1 && !rejected.length)) return;
       const parts = [unsaved && `${unsaved} not saved`, rejected.length && `${rejected.length} rejected by the server`].filter(Boolean).join(', ');
-      const which = rejected.length ? `. Rejected: ${rejected.map((p) => p.label).join(', ')}.` : '';
+      const which = rejected.length ? `. Rejected: ${rejected.map((p) => `Q${p.n}`).join(', ')}.` : '';
       toast.show(`Could not save results: ${parts} (of ${ps.length})${which}`, unsaved ? () => send(ps, 'Could not save results').then(report) : undefined);
     };
     Promise.all(ps.map((p) => p.inFlight)).then(() => send(ps, 'Could not save results')).then(report);
@@ -193,7 +195,7 @@ export function Questions({ load = fetchQuestions, save = saveAttempts, preset, 
     const a = gradeAnswer(q, i, Date.now() - shownAt.current);
     answersRef.current = [...answersRef.current, a];
     setAnswers(answersRef.current);
-    const p: Pending = { label: `Q${idx + 1}`, row: { question_id: a.questionId, chosen: a.chosen, correct: a.correct, duration_ms: a.durationMs, mode: modeRef.current!, session_id: sessionId.current }, done: false, inFlight: null };
+    const p: Pending = { n: idx + 1, row: { question_id: a.questionId, chosen: a.chosen, correct: a.correct, duration_ms: a.durationMs, mode: modeRef.current!, session_id: sessionId.current }, done: false, inFlight: null };
     pendingRef.current.push(p);
     send(pendingRef.current, 'Could not save your answer'); // also carries earlier rows whose save failed
   }
