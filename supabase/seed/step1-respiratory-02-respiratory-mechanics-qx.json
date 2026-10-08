@@ -1,0 +1,182 @@
+{
+  "cards": [],
+  "questions": [
+    {
+      "slug": "q-respiratory-mechanics-qx-frc-calculation",
+      "track": "step1",
+      "system": "respiratory",
+      "discipline": "physiology",
+      "tags": [
+        "respiratory-mechanics",
+        "lung-volumes"
+      ],
+      "stem": "A 34-year-old man volunteers for a lung function study. Spirometry shows a vital capacity of 4.6 L and an expiratory reserve volume of 1.1 L. Body plethysmography shows a total lung capacity of 6.0 L. What is his functional residual capacity?",
+      "choices": [
+        "1.1 L",
+        "1.4 L",
+        "2.5 L",
+        "3.5 L",
+        "4.6 L"
+      ],
+      "correct": 2,
+      "explanation": "Spirometry cannot measure the **residual volume**, so it must be derived: RV = TLC − VC = 6.0 − 4.6 = 1.4 L. **FRC** = RV + ERV = 1.4 + 1.1 = **2.5 L**. The tempting 1.4 L is the RV alone, the volume left after a maximal exhalation, while FRC is the volume left after a quiet exhalation. 3.5 L is the inspiratory capacity (VC − ERV), and 4.6 L is the vital capacity.",
+      "explanation_pt": "A espirometria não mede o **volume residual**, então ele precisa ser calculado: VR = CPT − CV = 6,0 − 4,6 = 1,4 L. **CRF** = VR + VRE = 1,4 + 1,1 = **2,5 L**. O valor tentador de 1,4 L é apenas o VR, o volume que sobra após uma expiração máxima, enquanto a CRF é o volume que sobra após uma expiração em repouso. 3,5 L é a capacidade inspiratória (CV − VRE), e 4,6 L é a capacidade vital."
+    },
+    {
+      "slug": "q-respiratory-mechanics-qx-open-pneumothorax-recoil",
+      "track": "step1",
+      "system": "respiratory",
+      "discipline": "physiology",
+      "tags": [
+        "respiratory-mechanics",
+        "elastic-recoil",
+        "pneumothorax"
+      ],
+      "stem": "A 24-year-old man is stabbed in the right side of the chest. Air moves freely in and out of the wound with each breath. Chest x-ray shows a collapsed right lung. The right hemithorax looks slightly larger than the left, with wider spaces between the ribs. Which change best explains these findings?",
+      "choices": [
+        "Intrapleural pressure becomes atmospheric, so the lung recoils in and the chest wall springs out",
+        "Intrapleural pressure becomes more negative, so the lung recoils inward and the chest wall moves inward",
+        "Intrapleural pressure rises to atmospheric, so the lung and the chest wall both recoil inward",
+        "Alveolar surface tension rises, so the lung collapses while the chest wall stays at its resting size",
+        "Lung compliance rises, so the lung empties while intrapleural pressure stays negative"
+      ],
+      "correct": 0,
+      "explanation": "At **FRC**, the negative intrapleural pressure couples the lung to the chest wall, and the **inward recoil of the lung** balances the **outward recoil of the chest wall**. When air enters the pleural space, intrapleural pressure becomes atmospheric and the coupling is lost: the lung collapses under its own recoil, and the chest wall **springs outward** toward its own resting volume, which is larger than FRC. The tempting choice with both moving inward ignores that the chest wall, left alone, tends to expand.",
+      "explanation_pt": "Na **CRF**, a pressão intrapleural negativa acopla o pulmão à parede torácica, e a **retração do pulmão para dentro** equilibra a **tendência elástica da parede torácica para fora**. Quando o ar entra no espaço pleural, a pressão intrapleural se iguala à atmosférica e o acoplamento se perde: o pulmão colapsa pela própria retração, e a parede torácica **se expande para fora** em direção ao seu próprio volume de repouso, que é maior que a CRF. A opção tentadora em que ambos se movem para dentro ignora que a parede torácica, sozinha, tende a se expandir."
+    },
+    {
+      "slug": "q-respiratory-mechanics-qx-surfactant-compliance",
+      "track": "step1",
+      "system": "respiratory",
+      "discipline": "physiology",
+      "tags": [
+        "respiratory-mechanics",
+        "surfactant",
+        "compliance",
+        "laplace"
+      ],
+      "stem": "A boy is born at 29 weeks of gestation. Within an hour he has grunting, nasal flaring and chest wall retractions. He is intubated and needs high inflation pressures to move air. Surfactant is given through the endotracheal tube. Afterward, the same tidal volume is reached with a much lower inflation pressure. Which change best explains this improvement?",
+      "choices": [
+        "Lower airway resistance from wider conducting airways",
+        "Higher chest wall compliance from softer ribs",
+        "Stronger elastic recoil from new elastic fibers",
+        "Higher surface tension that holds small alveoli open",
+        "Higher lung compliance from lower surface tension"
+      ],
+      "correct": 4,
+      "explanation": "By the **law of Laplace** (P = 2T/r), high surface tension gives small alveoli a high collapsing pressure, so the lungs of a preterm infant are stiff. **Surfactant** lowers surface tension, most in small alveoli, which keeps them open and **raises lung compliance**: less pressure is needed for the same volume. The tempting choice of lower airway resistance is wrong because surfactant acts at the air-liquid surface of the alveoli; the problem was stiff lungs, not narrow airways.",
+      "explanation_pt": "Pela **lei de Laplace** (P = 2T/r), a tensão superficial alta dá aos alvéolos pequenos uma pressão de colapso alta, por isso os pulmões do prematuro são rígidos. O **surfactante** reduz a tensão superficial, mais nos alvéolos pequenos, o que os mantém abertos e **aumenta a complacência pulmonar**: é preciso menos pressão para o mesmo volume. A opção tentadora de menor resistência das vias aéreas está errada porque o surfactante age na interface ar-líquido dos alvéolos; o problema era pulmão rígido, não via aérea estreita."
+    },
+    {
+      "slug": "q-respiratory-mechanics-qx-apneusis-pons",
+      "track": "step1",
+      "system": "respiratory",
+      "discipline": "physiology",
+      "tags": [
+        "respiratory-mechanics",
+        "control-of-breathing",
+        "brainstem"
+      ],
+      "stem": "In a physiology experiment on an anesthetized animal, the brainstem is cut across between the upper and the lower pons. Both vagus nerves are also cut. Afterward, the animal takes very long, deep inspirations that are held for many seconds, separated by short expirations. Loss of input from which structure best explains this breathing pattern?",
+      "choices": [
+        "Dorsal respiratory group of the medulla",
+        "Ventral respiratory group of the medulla",
+        "Apneustic center of the lower pons",
+        "Pneumotaxic center of the upper pons",
+        "Central chemoreceptors of the medulla"
+      ],
+      "correct": 3,
+      "explanation": "Inspiration is normally switched off by the **pneumotaxic center** in the upper pons and by lung stretch signals carried in the **vagus** (**Hering-Breuer reflex**). With both removed, the **apneustic center** in the lower pons acts unopposed and prolongs inspiration (**apneusis**). The apneustic center is the tempting choice, but it lies below the cut and is still working; its unopposed activity causes the pattern. The medullary groups and central chemoreceptors are also intact below the cut.",
+      "explanation_pt": "A inspiração normalmente é encerrada pelo **centro pneumotáxico** na ponte superior e pelos sinais de estiramento pulmonar levados pelo **vago** (**reflexo de Hering-Breuer**). Sem ambos, o **centro apnêustico** na ponte inferior age sem oposição e prolonga a inspiração (**apneuse**). O centro apnêustico é a opção tentadora, mas ele fica abaixo do corte e continua funcionando; é a sua atividade sem oposição que causa o padrão. Os grupos do bulbo e os quimiorreceptores centrais também estão intactos abaixo do corte."
+    },
+    {
+      "slug": "q-respiratory-mechanics-qx-chronic-hypercapnia-csf",
+      "track": "step1",
+      "system": "respiratory",
+      "discipline": "physiology",
+      "tags": [
+        "respiratory-mechanics",
+        "control-of-breathing",
+        "chemoreceptors"
+      ],
+      "stem": "A 66-year-old man with severe COPD comes for a routine visit. His chronic cough and exertional dyspnea are stable. Arterial blood gas on room air shows pH 7.36, PaCO2 60 mm Hg, PaO2 58 mm Hg, and HCO3- 33 mEq/L. His central chemoreceptors respond much less to this PaCO2 than they would if his PaCO2 had risen suddenly to the same level. Which mechanism best explains this difference?",
+      "choices": [
+        "Loss of glomus cells in the carotid bodies",
+        "A rise in CSF bicarbonate that normalizes CSF pH",
+        "Poor diffusion of CO2 from blood across the blood-brain barrier",
+        "Direct inhibition of medullary neurons by hypoxemia",
+        "Increased excretion of bicarbonate by the kidneys"
+      ],
+      "correct": 1,
+      "explanation": "**Central chemoreceptors** sense **H+ in the CSF**, not CO2 itself. In **chronic hypercapnia**, bicarbonate rises in the blood (renal compensation) and, over days, in the **CSF**, so CSF pH returns toward normal and the CO2 drive weakens; the **peripheral chemoreceptors** sensing low PaO2 then play a larger role. The tempting choice is poor CO2 diffusion, but CO2 crosses the blood-brain barrier easily; it is H+ and bicarbonate that cross slowly. The kidneys retain bicarbonate here, as his HCO3- of 33 shows.",
+      "explanation_pt": "Os **quimiorreceptores centrais** detectam o **H+ no LCR**, não o CO2 em si. Na **hipercapnia crônica**, o bicarbonato aumenta no sangue (compensação renal) e, ao longo de dias, no **LCR**, então o pH do LCR volta para perto do normal e o estímulo do CO2 enfraquece; os **quimiorreceptores periféricos**, que detectam PaO2 baixa, passam a ter papel maior. A opção tentadora é a difusão ruim do CO2, mas o CO2 atravessa a barreira hematoencefálica com facilidade; são o H+ e o bicarbonato que atravessam devagar. Aqui os rins retêm bicarbonato, como mostra o HCO3- de 33."
+    },
+    {
+      "slug": "q-respiratory-mechanics-qx-work-of-breathing-fibrosis",
+      "track": "step1",
+      "system": "respiratory",
+      "discipline": "physiology",
+      "tags": [
+        "respiratory-mechanics",
+        "work-of-breathing",
+        "compliance"
+      ],
+      "stem": "A 61-year-old man with idiopathic pulmonary fibrosis breathes at a rate of 28/min with small tidal volumes at rest. Pulmonary function tests show a low TLC, a normal-to-high FEV1/FVC, and low lung compliance. Which statement best explains why he breathes this way?",
+      "choices": [
+        "It lowers the work of moving air against airway resistance",
+        "It raises the alveolar ventilation for each liter of minute ventilation",
+        "It lowers the elastic work needed to stretch stiff lungs",
+        "It lowers the anatomic dead space of each breath",
+        "It raises the PaCO2 to stimulate the central chemoreceptors"
+      ],
+      "correct": 2,
+      "explanation": "**Elastic work** grows with the size of each breath, and it is high when **compliance is low**. Small tidal volumes keep elastic work down, and a fast rate keeps minute ventilation up. The tempting choice about alveolar ventilation is backward: at the same minute ventilation, **rapid shallow breathing** gives less alveolar ventilation, because the fixed dead space takes a larger share of each breath. Lowering **resistive work** is the reason patients with airway obstruction breathe slowly and deeply.",
+      "explanation_pt": "O **trabalho elástico** cresce com o tamanho de cada respiração e é alto quando a **complacência está baixa**. Volumes correntes pequenos mantêm o trabalho elástico baixo, e uma frequência alta mantém o volume-minuto. A opção tentadora sobre ventilação alveolar está invertida: com o mesmo volume-minuto, a **respiração rápida e superficial** dá menos ventilação alveolar, porque o espaço morto fixo ocupa uma parte maior de cada respiração. Reduzir o **trabalho resistivo** é o motivo pelo qual pacientes com obstrução respiram de forma lenta e profunda."
+    },
+    {
+      "slug": "q-respiratory-mechanics-qx-rapid-shallow-paco2",
+      "track": "step1",
+      "system": "respiratory",
+      "discipline": "physiology",
+      "tags": [
+        "respiratory-mechanics",
+        "dead-space",
+        "alveolar-ventilation"
+      ],
+      "stem": "A 52-year-old man fractures three left ribs in a fall. Because of pain, he now takes rapid, shallow breaths. Before the injury: tidal volume 500 mL, rate 12/min, PaCO2 40 mm Hg. Now: tidal volume 250 mL, rate 30/min. His anatomic dead space is 150 mL, and he has no alveolar dead space. His CO2 production has not changed. Which PaCO2 is expected now?",
+      "choices": [
+        "32 mm Hg",
+        "40 mm Hg",
+        "48 mm Hg",
+        "56 mm Hg",
+        "64 mm Hg"
+      ],
+      "correct": 3,
+      "explanation": "**PaCO2** varies inversely with **alveolar ventilation** when CO2 production is constant. Before: (500 − 150) × 12 = 4.2 L/min; now: (250 − 150) × 30 = 3.0 L/min. So PaCO2 = 40 × 4.2/3.0 = **56 mm Hg**. The tempting 32 mm Hg uses minute ventilation, which rose from 6.0 to 7.5 L/min, but the extra breaths mostly move dead space air.",
+      "explanation_pt": "A **PaCO2** varia de forma inversa à **ventilação alveolar** quando a produção de CO2 é constante. Antes: (500 − 150) × 12 = 4,2 L/min; agora: (250 − 150) × 30 = 3,0 L/min. Assim, PaCO2 = 40 × 4,2/3,0 = **56 mm Hg**. O valor tentador de 32 mm Hg usa o volume-minuto, que subiu de 6,0 para 7,5 L/min, mas as respirações extras movem principalmente ar do espaço morto."
+    },
+    {
+      "slug": "q-respiratory-mechanics-qx-fixed-airway-flow-volume",
+      "track": "step1",
+      "system": "respiratory",
+      "discipline": "physiology",
+      "tags": [
+        "respiratory-mechanics",
+        "spirometry",
+        "flow-volume-loop"
+      ],
+      "stem": "A 47-year-old woman was intubated for 3 weeks in an intensive care unit last year. She now has slowly worsening dyspnea on exertion and a harsh noise both when she breathes in and when she breathes out. Lung volumes are normal. A flow-volume loop shows that peak flow is cut off into a flat plateau on both the expiratory and the inspiratory limbs. Which lesion best explains these findings?",
+      "choices": [
+        "Paralysis of one vocal cord",
+        "Fixed narrowing of the trachea",
+        "Loss of elastic recoil in emphysema",
+        "Floppy wall of the intrathoracic trachea",
+        "Spasm of medium-sized bronchi"
+      ],
+      "correct": 1,
+      "explanation": "A **fixed** upper airway lesion, such as tracheal stenosis after prolonged intubation, does not change size with airway pressure, so it limits flow in both directions and **flattens both limbs** of the loop. A **variable extrathoracic** lesion, like vocal cord paralysis, narrows mainly during inspiration and flattens only the inspiratory limb; a **variable intrathoracic** lesion, like a floppy trachea (tracheomalacia), narrows during expiration and flattens only the expiratory limb. Emphysema and bronchospasm give a **scooped** expiratory limb, not a plateau.",
+      "explanation_pt": "Uma lesão **fixa** da via aérea superior, como a estenose traqueal após intubação prolongada, não muda de calibre com a pressão na via aérea, então limita o fluxo nos dois sentidos e **achata os dois ramos** da curva. Uma lesão **variável extratorácica**, como a paralisia de corda vocal, estreita principalmente na inspiração e achata só o ramo inspiratório; uma lesão **variável intratorácica**, como a traqueia flácida (traqueomalácia), estreita na expiração e achata só o ramo expiratório. Enfisema e broncoespasmo dão um ramo expiratório **côncavo** (*scooped*), não um platô."
+    }
+  ],
+  "notes": []
+}

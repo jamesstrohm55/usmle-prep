@@ -1,0 +1,184 @@
+{
+  "cards": [],
+  "questions": [
+    {
+      "slug": "q-respiratory-infections-qx-gray-hepatization",
+      "track": "step1",
+      "system": "respiratory",
+      "discipline": "pathology",
+      "tags": [
+        "respiratory-infections",
+        "pneumonia",
+        "lobar-stages"
+      ],
+      "stem": "A 68-year-old man is admitted with 2 days of high fever, shaking chills and cough with rust-colored sputum. Chest x-ray shows dense consolidation of the whole right lower lobe. Blood cultures grow Gram-positive lancet-shaped diplococci. Despite treatment, he dies on the fifth day of his illness. At autopsy, the right lower lobe is firm and dry, and its cut surface is grayish-brown. Which microscopic finding is most likely in this lobe?",
+      "choices": [
+        "Dilated alveolar capillaries, edema fluid in the alveoli and few neutrophils",
+        "Alveoli packed with intact red cells, neutrophils and fibrin",
+        "Alveoli filled with fibrin and neutrophils, with red cells breaking down",
+        "Macrophages removing digested exudate as normal alveoli return",
+        "Hyaline membranes lining the alveolar ducts and alveoli"
+      ],
+      "correct": 2,
+      "explanation": "Pneumococcal **lobar pneumonia** passes through congestion, red hepatization, **gray hepatization** and resolution. Around days 4 to 8, the red cells in the exudate break down while **fibrin** and neutrophils remain, so the firm, dry lobe turns gray-brown. Red hepatization (about days 2 to 4) also has fibrin and neutrophils, but its **intact red cells** make the lobe red and liver-like. Hyaline membranes mark diffuse alveolar damage (ARDS), not a stage of lobar pneumonia.",
+      "explanation_pt": "A **pneumonia lobar** pneumocócica passa por congestão, hepatização vermelha, **hepatização cinzenta** e resolução. Por volta do 4º ao 8º dia, as hemácias do exsudato se desintegram, enquanto **fibrina** e neutrófilos permanecem, por isso o lobo firme e seco fica cinza-acastanhado. A hepatização vermelha (aproximadamente 2º ao 4º dia) também tem fibrina e neutrófilos, mas as **hemácias íntegras** deixam o lobo vermelho e com aspecto de fígado. Membranas hialinas indicam dano alveolar difuso (SDRA), não uma fase da pneumonia lobar."
+    },
+    {
+      "slug": "q-respiratory-infections-qx-empyema-drainage",
+      "track": "step1",
+      "system": "respiratory",
+      "discipline": "pathology",
+      "tags": [
+        "respiratory-infections",
+        "pleural-effusion",
+        "empyema"
+      ],
+      "stem": "A 58-year-old woman with type 2 diabetes was diagnosed with right lower lobe pneumonia 10 days ago and started oral antibiotics. Her cough is better, but the fever continues, and she now has right-sided pleuritic chest pain. Temperature is 38.9°C (102°F). At the right base, breath sounds and tactile fremitus are decreased and percussion is dull. Chest x-ray shows a moderate right pleural effusion. Thoracentesis yields cloudy yellow fluid: pH 6.9; glucose 30 mg/dL (serum 160 mg/dL); LDH 2,100 U/L (serum 220 U/L); protein 4.8 g/dL (serum 7.0 g/dL). The Gram stain of the fluid shows Gram-positive cocci in chains. Which is the most appropriate next step in management?",
+      "choices": [
+        "Broader oral antibiotics and a repeat x-ray in 2 weeks",
+        "Chest tube drainage plus intravenous antibiotics",
+        "A loop diuretic to reduce the fluid volume",
+        "Bronchoscopy to look for an obstructing tumor",
+        "Talc pleurodesis to close the pleural space"
+      ],
+      "correct": 1,
+      "explanation": "The fluid is an **exudate** (fluid-to-serum protein ratio about 0.7, LDH ratio about 9.5), and the **very low pH and glucose** with bacteria on Gram stain show an infected pleural space (**complicated parapneumonic effusion or empyema**). Antibiotics alone do not clear an infected closed space, so the fluid must be **drained** with a chest tube while antibiotics continue. Switching to broader oral antibiotics is tempting, but it leaves the infected fluid in place, and the fever will persist. Diuretics treat transudates such as heart failure effusions, and pleurodesis is used for recurrent malignant effusions.",
+      "explanation_pt": "O líquido é um **exsudato** (relação proteína pleural/sérica de cerca de 0,7 e de LDH de cerca de 9,5), e o **pH e a glicose muito baixos**, com bactérias no Gram, mostram um espaço pleural infectado (**derrame parapneumônico complicado ou empiema**). Antibióticos isolados não esterilizam um espaço fechado infectado, por isso o líquido precisa ser **drenado** com dreno de tórax enquanto se mantêm os antibióticos. Trocar por antibióticos orais de espectro mais amplo é tentador, mas o líquido infectado permanece e a febre persiste. Diuréticos tratam transudatos, como os da insuficiência cardíaca, e a pleurodese é usada em derrames neoplásicos recorrentes."
+    },
+    {
+      "slug": "q-respiratory-infections-qx-pcp-adjunct-steroids",
+      "track": "step1",
+      "system": "respiratory",
+      "discipline": "microbiology",
+      "tags": [
+        "respiratory-infections",
+        "pneumocystis",
+        "hiv"
+      ],
+      "stem": "A 34-year-old man with HIV stopped his antiretroviral therapy 1 year ago. He has had 3 weeks of dry cough, fever and shortness of breath that gets worse when he walks. His CD4+ count is 60/mm³. Chest x-ray shows diffuse ground-glass infiltrates in both lungs, spreading out from the hila. Arterial blood gas on room air: pH 7.47, PaO2 58 mm Hg, PaCO2 30 mm Hg. Serum LDH is high. A silver stain of induced sputum shows cup-shaped cysts. Trimethoprim-sulfamethoxazole is started. Adding which drug is most likely to lower his risk of death?",
+      "choices": [
+        "Azithromycin",
+        "Fluconazole",
+        "Ganciclovir",
+        "Pyrimethamine",
+        "Prednisone"
+      ],
+      "correct": 4,
+      "explanation": "This is ***Pneumocystis jirovecii*** pneumonia with marked hypoxemia (PaO2 58 mm Hg; the A-a gradient is about 150 − 30/0.8 − 58 ≈ 55 mm Hg). When the organisms die, the lung inflammation briefly gets worse, so in moderate to severe disease an early **corticosteroid** such as prednisone, given with trimethoprim-sulfamethoxazole, lowers the risk of respiratory failure and death. Fluconazole is tempting because *Pneumocystis* is a fungus, but its membrane uses cholesterol instead of **ergosterol**, so azoles do not work. Azithromycin is prophylaxis for *Mycobacterium avium* complex, and pyrimethamine treats toxoplasmosis.",
+      "explanation_pt": "Trata-se de pneumonia por ***Pneumocystis jirovecii*** com hipoxemia importante (PaO2 de 58 mmHg; o gradiente A-a é de cerca de 150 − 30/0,8 − 58 ≈ 55 mmHg). Quando os microrganismos morrem, a inflamação pulmonar piora transitoriamente; por isso, na doença moderada a grave, um **corticoide** precoce, como a prednisona, associado ao sulfametoxazol-trimetoprima, reduz o risco de insuficiência respiratória e de morte. O fluconazol é tentador porque o *Pneumocystis* é um fungo, mas sua membrana usa colesterol em vez de **ergosterol**, e os azólicos não funcionam. A azitromicina é profilaxia para o complexo *Mycobacterium avium*, e a pirimetamina trata a toxoplasmose."
+    },
+    {
+      "slug": "q-respiratory-infections-qx-latent-tb-not-contagious",
+      "track": "step1",
+      "system": "respiratory",
+      "discipline": "microbiology",
+      "tags": [
+        "respiratory-infections",
+        "tuberculosis",
+        "latent-infection"
+      ],
+      "stem": "A 26-year-old nurse born in the United States has a positive interferon-γ release assay on routine screening at work. The same test was negative 2 years ago. She has no cough, fever, night sweats or weight loss. She has never received the BCG vaccine. Her exam is normal, and a chest x-ray shows clear lungs without enlarged hilar nodes. An HIV test is negative. Which statement best describes her condition?",
+      "choices": [
+        "Active pulmonary tuberculosis that needs airborne isolation now",
+        "A false-positive result caused by earlier BCG vaccination",
+        "Contained infection with dormant bacilli; not contagious",
+        "Primary tuberculosis with a Ghon complex in the lung",
+        "Cured past infection with no remaining risk of reactivation"
+      ],
+      "correct": 2,
+      "explanation": "A positive IGRA shows **T-cell memory** to *M. tuberculosis*, and with no symptoms and a normal chest x-ray it means **latent tuberculosis infection**: a small number of dormant bacilli are walled off inside granulomas. She does not shed bacilli into her airways, so she is **not contagious** and needs no isolation, but she keeps a lifelong risk of **reactivation**, which is why treatment of latent infection is offered. Active tuberculosis is the tempting answer after a new positive test, but it needs symptoms or an abnormal x-ray; the test alone cannot separate latent from active disease. BCG does not affect the IGRA, and she was never vaccinated.",
+      "explanation_pt": "Um IGRA positivo mostra **memória de células T** contra o *M. tuberculosis* e, sem sintomas e com radiografia de tórax normal, indica **infecção latente por tuberculose**: um pequeno número de bacilos dormentes fica contido dentro de granulomas. Ela não elimina bacilos nas vias aéreas, por isso **não é contagiante** e não precisa de isolamento, mas mantém risco por toda a vida de **reativação**, motivo pelo qual se oferece tratamento da infecção latente. A tuberculose ativa é a resposta tentadora após um teste recém-positivo, mas exige sintomas ou radiografia alterada; o teste isolado não distingue infecção latente de doença ativa. A BCG não interfere no IGRA, e ela nunca foi vacinada."
+    },
+    {
+      "slug": "q-respiratory-infections-qx-klebsiella-currant-jelly",
+      "track": "step1",
+      "system": "respiratory",
+      "discipline": "microbiology",
+      "tags": [
+        "respiratory-infections",
+        "klebsiella",
+        "lobar-pneumonia"
+      ],
+      "stem": "A 58-year-old man with alcohol use disorder has had 2 days of high fever, chills and cough. He coughs up thick, dark red sputum that looks like jelly. Temperature is 39.4°C (103°F). Chest x-ray shows dense consolidation of the right upper lobe, and the minor fissure bulges downward. A Gram stain of the sputum shows plump Gram-negative rods surrounded by a clear halo. Which organism is most likely causing his pneumonia?",
+      "choices": [
+        "Klebsiella pneumoniae",
+        "Streptococcus pneumoniae",
+        "Haemophilus influenzae",
+        "Legionella pneumophila",
+        "Pseudomonas aeruginosa"
+      ],
+      "correct": 0,
+      "explanation": "Thick *currant jelly* sputum, upper-lobe consolidation with a **bulging fissure** and encapsulated Gram-negative rods in a man with alcohol use disorder point to ***Klebsiella pneumoniae***. Its thick **polysaccharide capsule** resists phagocytosis, and the dense, necrotizing exudate swells the lobe, so abscesses and cavities are common. *S. pneumoniae* is tempting because it also causes lobar pneumonia in heavy drinkers, but it is a Gram-positive lancet-shaped diplococcus and gives rust-colored sputum. *Legionella* stains poorly with Gram stain, and *Pseudomonas* mainly affects hospitalized, ventilated or cystic fibrosis patients.",
+      "explanation_pt": "Escarro espesso em *geleia de groselha*, consolidação do lobo superior com **abaulamento da cisura** e bacilos gram-negativos encapsulados em homem com transtorno por uso de álcool apontam para ***Klebsiella pneumoniae***. Sua espessa **cápsula polissacarídica** resiste à fagocitose, e o exsudato denso e necrosante aumenta o volume do lobo, por isso abscessos e cavitações são comuns. O *S. pneumoniae* é tentador porque também causa pneumonia lobar em etilistas, mas é um diplococo gram-positivo lanceolado e produz escarro cor de ferrugem. A *Legionella* cora mal pelo Gram, e a *Pseudomonas* acomete principalmente pacientes hospitalizados, em ventilação mecânica ou com fibrose cística."
+    },
+    {
+      "slug": "q-respiratory-infections-qx-aspergilloma-cavity",
+      "track": "step1",
+      "system": "respiratory",
+      "discipline": "pathology",
+      "tags": [
+        "respiratory-infections",
+        "fungi",
+        "aspergilloma",
+        "hemoptysis"
+      ],
+      "stem": "A 61-year-old man completed treatment for cavitary pulmonary tuberculosis 10 years ago. Over the past 2 months he has coughed up small amounts of blood several times. He has no fever or weight loss, and three sputum smears for acid-fast bacilli are negative. Chest x-ray shows a round opacity inside an old cavity in the left upper lobe, with a thin crescent of air above it. On CT done with the patient lying face down, the opacity has moved to the lowest part of the cavity. Which is the most likely diagnosis?",
+      "choices": [
+        "Reactivation tuberculosis",
+        "Aspergilloma",
+        "Cavitating squamous cell carcinoma",
+        "Lung abscess from oral anaerobes",
+        "Invasive pulmonary aspergillosis"
+      ],
+      "correct": 1,
+      "explanation": "A round mass that **moves with position** inside an **old tuberculous cavity**, with a crescent of air around it and repeated **hemoptysis**, is an **aspergilloma** (fungus ball): *Aspergillus* hyphae colonize the cavity without invading the lung. A cavitating squamous cell carcinoma is tempting in an older man with hemoptysis, but the tumor grows from the cavity wall and cannot roll to the dependent side. Invasive aspergillosis affects neutropenic or immunosuppressed patients who are febrile and very ill, and negative smears without fever or weight loss argue against reactivation tuberculosis.",
+      "explanation_pt": "Uma massa arredondada que **se move com a posição** dentro de uma **cavidade tuberculosa antiga**, com um crescente aéreo ao redor e **hemoptises** repetidas, é um **aspergiloma** (bola fúngica): hifas de *Aspergillus* colonizam a cavidade sem invadir o pulmão. Um carcinoma epidermoide cavitado é tentador em homem mais velho com hemoptise, mas o tumor cresce a partir da parede da cavidade e não rola para o lado dependente. A aspergilose invasiva acomete neutropênicos ou imunossuprimidos febris e muito doentes, e baciloscopias negativas sem febre nem perda de peso falam contra reativação da tuberculose."
+    },
+    {
+      "slug": "q-respiratory-infections-qx-post-influenza-mechanism",
+      "track": "step1",
+      "system": "respiratory",
+      "discipline": "pathology",
+      "tags": [
+        "respiratory-infections",
+        "influenza",
+        "secondary-bacterial-pneumonia"
+      ],
+      "stem": "A 74-year-old woman develops fever, muscle aches and a dry cough during a winter outbreak of influenza A in her nursing home. She improves over the next 4 days. On day 7, her fever returns, she becomes short of breath, and she coughs up purulent sputum. Chest x-ray shows new patchy infiltrates in both lungs, some with early cavities. Sputum culture grows Staphylococcus aureus. Which effect of the viral infection most directly allowed this second infection?",
+      "choices": [
+        "Antiviral antibodies that cross-react with alveolar walls",
+        "Destruction of neutrophil precursors in the bone marrow",
+        "Consumption of serum complement by viral immune complexes",
+        "Death of ciliated airway cells, which impairs mucus clearance",
+        "Low serum IgG caused by viral infection of B cells"
+      ],
+      "correct": 3,
+      "explanation": "Influenza virus infects and kills the **ciliated columnar epithelium** of the airways. The bare mucosa loses the **mucociliary escalator**, and bacteria such as ***S. aureus***, *S. pneumoniae* and *H. influenzae* can attach and invade, which explains the classic course: improvement, then a new fever with purulent sputum. *S. aureus* often causes a **necrotizing**, cavitating pneumonia. Influenza does not destroy marrow precursors or cause low IgG; the defect is a local barrier failure, not a systemic immunodeficiency.",
+      "explanation_pt": "O vírus influenza infecta e mata o **epitélio colunar ciliado** das vias aéreas. A mucosa desnuda perde a **depuração mucociliar**, e bactérias como ***S. aureus***, *S. pneumoniae* e *H. influenzae* conseguem aderir e invadir, o que explica a evolução clássica: melhora e depois nova febre com escarro purulento. O *S. aureus* frequentemente causa pneumonia **necrosante**, com cavitação. O influenza não destrói precursores medulares nem causa IgG baixa; o defeito é uma falha da barreira local, não uma imunodeficiência sistêmica."
+    },
+    {
+      "slug": "q-respiratory-infections-qx-lung-abscess-treatment",
+      "track": "step1",
+      "system": "respiratory",
+      "discipline": "microbiology",
+      "tags": [
+        "respiratory-infections",
+        "aspiration",
+        "lung-abscess",
+        "anaerobes"
+      ],
+      "stem": "A 49-year-old man with alcohol use disorder and many decayed teeth has had 3 weeks of low-grade fever, night sweats, a 4-kg weight loss and cough with large amounts of foul-smelling sputum. Five weeks ago he was found unconscious after a night of heavy drinking. Chest x-ray shows a thick-walled cavity with an air-fluid level in the posterior segment of the right upper lobe. Three sputum smears for acid-fast bacilli are negative. Which is the most appropriate antibiotic treatment?",
+      "choices": [
+        "Clindamycin",
+        "Metronidazole",
+        "Azithromycin",
+        "Gentamicin",
+        "Rifampin, isoniazid, pyrazinamide and ethambutol"
+      ],
+      "correct": 0,
+      "explanation": "Aspiration during reduced consciousness, poor dentition, **foul-smelling sputum** and a cavity with an **air-fluid level** in a dependent segment point to a **lung abscess** from mixed mouth flora (anaerobes such as *Peptostreptococcus*, *Prevotella* and *Fusobacterium*, plus oral streptococci). **Clindamycin** covers both the anaerobes and the oral streptococci. Metronidazole is tempting because it kills anaerobes well, but alone it misses the **microaerophilic and aerobic streptococci** in these abscesses and fails more often. Gentamicin needs oxygen to enter bacteria, so it has no anaerobic activity, and negative smears plus the foul sputum argue against tuberculosis.",
+      "explanation_pt": "Broncoaspiração durante rebaixamento da consciência, dentes em mau estado, **escarro fétido** e cavidade com **nível hidroaéreo** em segmento dependente apontam para **abscesso pulmonar** por flora oral mista (anaeróbios como *Peptostreptococcus*, *Prevotella* e *Fusobacterium*, além de estreptococos orais). A **clindamicina** cobre tanto os anaeróbios quanto os estreptococos orais. O metronidazol é tentador porque mata bem os anaeróbios, mas isolado não cobre os **estreptococos microaerófilos e aeróbios** desses abscessos e falha com mais frequência. A gentamicina precisa de oxigênio para entrar na bactéria, por isso não age sobre anaeróbios, e as baciloscopias negativas com escarro fétido falam contra tuberculose."
+    }
+  ],
+  "notes": []
+}

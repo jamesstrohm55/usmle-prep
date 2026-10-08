@@ -1,0 +1,178 @@
+{
+  "cards": [],
+  "questions": [
+    {
+      "slug": "q-lung-anatomy-embryology-qx-pulmonary-sequestration",
+      "track": "step1",
+      "system": "respiratory",
+      "discipline": "embryology",
+      "tags": [
+        "lung-anatomy-embryology",
+        "congenital-malformations",
+        "pulmonary-sequestration"
+      ],
+      "stem": "A 9-year-old boy has had three episodes of pneumonia in the left lower lobe in the past 2 years. Between episodes he is well and grows normally. Sweat chloride testing is normal. CT angiography of the chest shows a cystic mass in the posterior basal part of the left lower lobe. The mass has no connection to the bronchial tree, and its blood comes from an artery that arises directly from the descending thoracic aorta. Which condition is most likely?",
+      "choices": [
+        "Bronchogenic cyst",
+        "Pulmonary sequestration",
+        "Congenital pulmonary airway malformation",
+        "Bronchiectasis from primary ciliary dyskinesia",
+        "Congenital lobar emphysema"
+      ],
+      "correct": 1,
+      "explanation": "**Pulmonary sequestration** is a mass of lung tissue that has **no connection to the airways** and gets its blood from a **systemic artery**, often the descending aorta. The type inside the lung (intralobar) is usually in a **lower lobe**, more often the left, and presents with **repeated infections**. A congenital pulmonary airway malformation (formerly called congenital cystic adenomatoid malformation) also forms cysts in a lobe, but it connects to the airways and is supplied by the pulmonary artery. A bronchogenic cyst is usually in the mediastinum and has no aortic feeding artery.",
+      "explanation_pt": "O **sequestro pulmonar** é uma massa de tecido pulmonar **sem conexão com as vias aéreas** e irrigada por uma **artéria sistêmica**, muitas vezes a aorta descendente. O tipo localizado dentro do pulmão (intralobar) costuma ficar em um **lobo inferior**, mais frequentemente o esquerdo, e se manifesta com **infecções de repetição**. A malformação adenomatoide cística congênita (malformação congênita das vias aéreas pulmonares) também forma cistos em um lobo, mas se comunica com as vias aéreas e é irrigada pela artéria pulmonar. O cisto broncogênico geralmente fica no mediastino e não tem artéria nutridora vinda da aorta."
+    },
+    {
+      "slug": "q-lung-anatomy-embryology-qx-bronchogenic-cyst",
+      "track": "step1",
+      "system": "respiratory",
+      "discipline": "embryology",
+      "tags": [
+        "lung-anatomy-embryology",
+        "congenital-malformations",
+        "bronchogenic-cyst"
+      ],
+      "stem": "A 34-year-old woman has a dry cough and a feeling of pressure behind the sternum. CT of the chest shows a round, thin-walled, fluid-filled cyst 4 cm wide in the middle mediastinum, just below the carina. It does not connect to the airways. The cyst is removed. Under the microscope, its wall is lined by ciliated pseudostratified columnar epithelium and contains plates of hyaline cartilage, smooth muscle and seromucous glands. Abnormal development of which structure most likely produced this lesion?",
+      "choices": [
+        "Third pharyngeal pouch",
+        "Pericardial coelom",
+        "Dorsal foregut",
+        "Ventral foregut",
+        "Notochord"
+      ],
+      "correct": 3,
+      "explanation": "This is a **bronchogenic cyst**. It forms from **abnormal budding of the ventral foregut**, the respiratory diverticulum that makes the airways, so its wall looks like a bronchus: **respiratory epithelium, cartilage**, smooth muscle and glands. An esophageal duplication cyst comes from the dorsal foregut and can lie in the same area, but its wall has two layers of smooth muscle like the esophagus and **no cartilage**. A pericardial cyst is lined by flat mesothelium and usually sits at the cardiophrenic angle.",
+      "explanation_pt": "Trata-se de **cisto broncogênico**. Ele se forma por **brotamento anormal do intestino anterior ventral**, o divertículo respiratório que origina as vias aéreas, por isso sua parede lembra um brônquio: **epitélio respiratório, cartilagem**, músculo liso e glândulas. O cisto de duplicação esofágica vem do intestino anterior dorsal e pode ficar na mesma região, mas sua parede tem duas camadas de músculo liso, como o esôfago, e **não tem cartilagem**. O cisto pericárdico é revestido por mesotélio achatado e costuma ficar no ângulo cardiofrênico."
+    },
+    {
+      "slug": "q-lung-anatomy-embryology-qx-canalicular-stage",
+      "track": "step1",
+      "system": "respiratory",
+      "discipline": "embryology",
+      "tags": [
+        "lung-anatomy-embryology",
+        "lung-development"
+      ],
+      "stem": "A girl is born at 23 weeks of gestation after preterm labor that could not be stopped. She needs intubation, surfactant and mechanical ventilation, and she survives. Earlier in fetal life, her lungs could not have supported any gas exchange. Which developmental event of the stage her lungs had reached at birth first made gas exchange possible?",
+      "choices": [
+        "Growth of respiratory bronchioles with nearby capillaries",
+        "Branching of the airways down to the terminal bronchioles",
+        "Splitting of the lung bud into the two main bronchi",
+        "Formation of thin-walled terminal sacs",
+        "Multiplication of true alveoli after birth"
+      ],
+      "correct": 0,
+      "explanation": "At 23 weeks the lungs are in the **canalicular stage** (about weeks 16-25). In this stage **respiratory bronchioles** form, **capillaries** grow close to the airspaces and **pneumocytes** appear, so some gas exchange becomes possible near its end. Branching down to the terminal bronchioles happens in the earlier **pseudoglandular** stage, which has no gas-exchanging surface. Terminal sacs (saccular stage) and true alveoli (alveolar stage) come later, from about week 26 onward.",
+      "explanation_pt": "Com 23 semanas, os pulmões estão na **fase canalicular** (cerca das semanas 16-25). Nessa fase se formam os **bronquíolos respiratórios**, os **capilares** crescem perto dos espaços aéreos e surgem os **pneumócitos**, por isso alguma troca gasosa se torna possível perto do fim da fase. A ramificação até os bronquíolos terminais ocorre antes, na fase **pseudoglandular**, que não tem superfície de troca gasosa. Os sacos terminais (fase sacular) e os alvéolos verdadeiros (fase alveolar) vêm depois, a partir de cerca da semana 26."
+    },
+    {
+      "slug": "q-lung-anatomy-embryology-qx-antenatal-corticosteroids",
+      "track": "step1",
+      "system": "respiratory",
+      "discipline": "physiology",
+      "tags": [
+        "lung-anatomy-embryology",
+        "surfactant",
+        "neonatal-rds"
+      ],
+      "stem": "A 31-year-old woman at 30 weeks of gestation is in preterm labor that cannot be stopped. Amniotic fluid testing shows: lecithin 4.2 mg/dL, sphingomyelin 3.0 mg/dL, lecithin:sphingomyelin ratio 1.4. She is given two intramuscular injections of a corticosteroid, 24 hours apart, and delivers 2 days later. Which effect of this drug in the fetus most directly lowers the newborn's risk of respiratory distress?",
+      "choices": [
+        "Relaxation of bronchial smooth muscle",
+        "Suppression of neutrophil activity in the alveoli",
+        "Faster closure of the ductus arteriosus",
+        "Higher oxygen affinity of fetal hemoglobin",
+        "Faster maturation of type II pneumocytes"
+      ],
+      "correct": 4,
+      "explanation": "An L:S ratio of 1.4 (4.2 / 3.0) is below 2, so the fetal lungs are **immature**. Corticosteroids given to the mother cross the placenta and **speed up maturation of type II pneumocytes**, which then make more **surfactant** and lower alveolar surface tension. The anti-inflammatory effect of corticosteroids is real, but neonatal respiratory distress syndrome is caused by surfactant deficiency, not by neutrophil-driven injury. Corticosteroids do not act as bronchodilators, and closure of the ductus is not the mechanism of protection.",
+      "explanation_pt": "Uma relação L/E de 1,4 (4,2 / 3,0) está abaixo de 2, portanto os pulmões fetais estão **imaturos**. Os corticosteroides dados à mãe atravessam a placenta e **aceleram a maturação dos pneumócitos tipo II**, que passam a produzir mais **surfactante** e reduzem a tensão superficial alveolar. O efeito anti-inflamatório dos corticosteroides existe, mas a síndrome do desconforto respiratório neonatal é causada pela deficiência de surfactante, e não por lesão mediada por neutrófilos. Os corticosteroides não agem como broncodilatadores, e o fechamento do canal arterial não é o mecanismo de proteção."
+    },
+    {
+      "slug": "q-lung-anatomy-embryology-qx-club-cells",
+      "track": "step1",
+      "system": "respiratory",
+      "discipline": "anatomy",
+      "tags": [
+        "lung-anatomy-embryology",
+        "histology"
+      ],
+      "stem": "A pathologist examines normal lung tissue removed together with a small peripheral nodule from a 60-year-old woman. In a terminal bronchiole there is no cartilage and there are no glands. Between the ciliated cuboidal cells are non-ciliated, dome-shaped cells that bulge into the lumen. Electron microscopy of these cells shows apical secretory granules and abundant smooth endoplasmic reticulum. Which function is most typical of these cells?",
+      "choices": [
+        "Making most of the phospholipid in alveolar surfactant",
+        "Secreting thick mucus that traps inhaled particles",
+        "Breaking down inhaled toxins with cytochrome P450 enzymes",
+        "Engulfing and digesting particles that reach the alveoli",
+        "Forming a thin barrier for diffusion of oxygen and CO2"
+      ],
+      "correct": 2,
+      "explanation": "These are **club cells** (formerly Clara cells) of the bronchioles. Their **smooth endoplasmic reticulum** holds **cytochrome P450** enzymes that break down inhaled toxins; they also secrete protective proteins and act as **progenitor cells** for the bronchiolar lining. Club cells secrete some surfactant proteins, but most surfactant phospholipid comes from **type II pneumocytes**, which store it in lamellar bodies. Goblet cells make mucus in larger airways and become rare in terminal bronchioles.",
+      "explanation_pt": "Estas são as **células club** (antigas células de Clara) dos bronquíolos. Seu **retículo endoplasmático liso** contém enzimas do **citocromo P450**, que degradam toxinas inaladas; elas também secretam proteínas protetoras e atuam como **células progenitoras** do revestimento bronquiolar. As células club secretam algumas proteínas do surfactante, mas a maior parte dos fosfolipídios do surfactante vem dos **pneumócitos tipo II**, que os armazenam em corpos lamelares. As células caliciformes produzem muco nas vias aéreas maiores e se tornam raras nos bronquíolos terminais."
+    },
+    {
+      "slug": "q-lung-anatomy-embryology-qx-phrenic-nerve-block",
+      "track": "step1",
+      "system": "respiratory",
+      "discipline": "anatomy",
+      "tags": [
+        "lung-anatomy-embryology",
+        "diaphragm",
+        "phrenic-nerve"
+      ],
+      "stem": "A 45-year-old man receives a right interscalene nerve block with a local anesthetic before shoulder surgery. Thirty minutes later he feels short of breath, and it is worse when he lies flat. Findings: respiratory rate 24/min, oxygen saturation 93% on room air, blood pressure 132/80 mm Hg, pulse 96/min. His voice is normal. Breath sounds are reduced at the right lung base. Chest x-ray shows the right hemidiaphragm much higher than the left. On fluoroscopy, when he sniffs quickly, the right hemidiaphragm moves up while the left moves down. The nerve affected in this patient runs down the neck on the front surface of which muscle?",
+      "choices": [
+        "Middle scalene",
+        "Anterior scalene",
+        "Sternocleidomastoid",
+        "Longus colli",
+        "Levator scapulae"
+      ],
+      "correct": 1,
+      "explanation": "A high right hemidiaphragm that moves **upward** on a quick sniff (**paradoxical motion**) means the **right phrenic nerve** (**C3-C5**) is blocked. The phrenic nerve runs down on the front of the **anterior scalene muscle**, just in front of the groove between the anterior and middle scalenes where an interscalene block is injected, so the anesthetic often reaches it. The brachial plexus passes between the anterior and middle scalenes, and the long thoracic nerve passes through the middle scalene, but neither moves the diaphragm. His normal voice shows that the recurrent laryngeal nerve was spared.",
+      "explanation_pt": "Um hemidiafragma direito elevado que se move **para cima** durante uma fungada rápida (**movimento paradoxal**) indica bloqueio do **nervo frênico direito** (**C3-C5**). O nervo frênico desce sobre a face anterior do **músculo escaleno anterior**, logo à frente do sulco entre os escalenos anterior e médio onde o bloqueio interescalênico é injetado, por isso o anestésico muitas vezes o atinge. O plexo braquial passa entre os escalenos anterior e médio, e o nervo torácico longo atravessa o escaleno médio, mas nenhum dos dois move o diafragma. A voz normal mostra que o nervo laríngeo recorrente foi poupado."
+    },
+    {
+      "slug": "q-lung-anatomy-embryology-qx-esophageal-hiatus",
+      "track": "step1",
+      "system": "respiratory",
+      "discipline": "anatomy",
+      "tags": [
+        "lung-anatomy-embryology",
+        "diaphragm"
+      ],
+      "stem": "A 58-year-old woman has had heartburn after meals for several years. A barium swallow shows the gastroesophageal junction and the upper part of the stomach above the diaphragm. They have moved up through the normal opening that the esophagus uses, at about the level of the T10 vertebra. Which other structure normally passes through this same opening?",
+      "choices": [
+        "Thoracic duct",
+        "Inferior vena cava",
+        "Azygos vein",
+        "Vagal trunks",
+        "Right phrenic nerve"
+      ],
+      "correct": 3,
+      "explanation": "This is a **sliding hiatal hernia** through the **esophageal hiatus** at **T10**. The **anterior and posterior vagal trunks** pass through this opening together with the esophagus. The **thoracic duct** and **azygos vein** pass with the **aorta** through the aortic hiatus at **T12**, behind the diaphragm. The **inferior vena cava** passes at **T8**, and the right phrenic nerve usually goes through the diaphragm with it, not through the esophageal opening.",
+      "explanation_pt": "Trata-se de **hérnia de hiato por deslizamento** pelo **hiato esofágico** em **T10**. Os **troncos vagais anterior e posterior** passam por essa abertura junto com o esôfago. O **ducto torácico** e a **veia ázigo** passam com a **aorta** pelo hiato aórtico em **T12**, atrás do diafragma. A **veia cava inferior** passa em **T8**, e o nervo frênico direito geralmente atravessa o diafragma junto com ela, e não pela abertura do esôfago."
+    },
+    {
+      "slug": "q-lung-anatomy-embryology-qx-laplace-alveoli",
+      "track": "step1",
+      "system": "respiratory",
+      "discipline": "physiology",
+      "tags": [
+        "lung-anatomy-embryology",
+        "surfactant"
+      ],
+      "stem": "A neonatologist uses a simple model to explain why alveoli collapse in a preterm infant without surfactant. Two alveoli share the same airway. Alveolus A has a radius of 50 µm, and alveolus B has a radius of 100 µm. Both have the same surface tension, 50 dyn/cm, because neither contains surfactant. Pressure inside each alveolus follows the law of Laplace: pressure = 2 x surface tension / radius. What will most likely happen in this model?",
+      "choices": [
+        "Air moves from A into B, and A collapses",
+        "Air moves from B into A, and B collapses",
+        "No air moves, because the surface tension is the same in both",
+        "Air moves from A into B, and B collapses",
+        "Both alveoli expand until they reach the same radius"
+      ],
+      "correct": 0,
+      "explanation": "With the same surface tension, pressure is inversely related to radius: the **smaller** alveolus A (radius 50 µm) has **twice the pressure** of B (radius 100 µm). Air flows from high to low pressure, so **A empties into B and collapses** (atelectasis). Equal surface tension does not mean equal pressure, because the radii differ. **Surfactant** prevents this: as an alveolus gets smaller, surfactant is packed more densely, surface tension falls more, and the pressures stay close to equal.",
+      "explanation_pt": "Com a mesma tensão superficial, a pressão é inversamente proporcional ao raio: o alvéolo **menor** A (raio de 50 µm) tem **o dobro da pressão** de B (raio de 100 µm). O ar flui da pressão maior para a menor, então **A se esvazia em B e colapsa** (atelectasia). Tensão superficial igual não significa pressão igual, porque os raios são diferentes. O **surfactante** impede isso: à medida que o alvéolo diminui, o surfactante fica mais concentrado, a tensão superficial cai mais e as pressões se mantêm quase iguais."
+    }
+  ],
+  "notes": []
+}

@@ -1,0 +1,184 @@
+{
+  "cards": [],
+  "questions": [
+    {
+      "slug": "q-lung-neoplasia-airway-qx-ectopic-acth-hypokalemia",
+      "track": "step1",
+      "system": "respiratory",
+      "discipline": "pathology",
+      "tags": [
+        "lung-neoplasia-airway",
+        "small-cell",
+        "paraneoplastic",
+        "ectopic-acth"
+      ],
+      "stem": "A 63-year-old man with a 50-pack-year smoking history has 6 weeks of muscle weakness, swelling of both legs and a 7-kg weight loss. He looks thin, with no striae or fat pad over the upper back. His skin is darker than before. Blood pressure is 172/98 mm Hg. Labs show sodium 147 mEq/L, potassium 2.4 mEq/L, chloride 100 mEq/L, bicarbonate 34 mEq/L and glucose 260 mg/dL. Plasma ACTH is very high. Plasma renin and aldosterone are both low. CT of the chest shows a central left lung mass with bulky mediastinal lymph nodes. Which mechanism best explains his hypokalemia and hypertension?",
+      "choices": [
+        "Aldosterone secretion by an adrenal cortical adenoma",
+        "Cortisol excess that saturates renal 11β-HSD2 and activates mineralocorticoid receptors",
+        "Renin secretion by the tumor that raises angiotensin II and aldosterone",
+        "Tumor secretion of ADH that increases potassium loss through the renal collecting duct cells",
+        "Insulin release from hyperglycemia that shifts potassium into cells"
+      ],
+      "correct": 1,
+      "explanation": "A central mass with bulky nodes, very high **ACTH** and darker skin point to **ectopic ACTH** from **small cell carcinoma**. The cortisol level is so high that renal **11β-HSD2** cannot inactivate it all, so cortisol binds **mineralocorticoid receptors** and causes potassium loss, metabolic alkalosis and hypertension. An aldosterone-producing adenoma is the tempting answer, but aldosterone here is low, as is renin. The rapid course explains why classic Cushing features such as striae have not developed.",
+      "explanation_pt": "Massa central com linfonodos volumosos, **ACTH** muito alto e pele mais escura indicam **ACTH ectópico** por **carcinoma de pequenas células**. O cortisol fica tão alto que a **11β-HSD2** renal não consegue inativá-lo todo; assim, o cortisol se liga aos **receptores de mineralocorticoide** e causa perda de potássio, alcalose metabólica e hipertensão. O adenoma produtor de aldosterona é a resposta tentadora, mas aqui a aldosterona está baixa, assim como a renina. A evolução rápida explica por que os sinais clássicos de Cushing, como as estrias, ainda não surgiram."
+    },
+    {
+      "slug": "q-lung-neoplasia-airway-qx-egfr-targeted-therapy",
+      "track": "step1",
+      "system": "respiratory",
+      "discipline": "pathology",
+      "tags": [
+        "lung-neoplasia-airway",
+        "adenocarcinoma",
+        "targeted-therapy"
+      ],
+      "stem": "A 48-year-old woman who has never smoked has 2 months of cough. CT shows a 3-cm mass in the periphery of the right upper lobe. Biopsy shows gland-forming tumor cells that make mucin and stain for TTF-1. Molecular testing finds an activating mutation in the kinase domain of the epidermal growth factor receptor (EGFR) gene. No ALK rearrangement is found. Which drug acts most directly on the protein made by the mutated gene?",
+      "choices": [
+        "Crizotinib",
+        "Trastuzumab",
+        "Imatinib",
+        "Erlotinib",
+        "Bevacizumab"
+      ],
+      "correct": 3,
+      "explanation": "A peripheral, mucin-producing, TTF-1-positive tumor in a nonsmoker is **adenocarcinoma**, the lung cancer most likely to carry an **EGFR** mutation. **Erlotinib** (like gefitinib and osimertinib) is a small-molecule **tyrosine kinase inhibitor** that blocks the intracellular kinase domain of EGFR. Crizotinib is the tempting answer because it is also a lung adenocarcinoma drug, but it targets **ALK** fusion proteins, which this tumor lacks. Trastuzumab targets HER2, imatinib targets BCR-ABL and KIT, and bevacizumab binds VEGF.",
+      "explanation_pt": "Tumor periférico, produtor de mucina e positivo para TTF-1 em não fumante é **adenocarcinoma**, o câncer de pulmão com maior chance de ter mutação de **EGFR**. O **erlotinibe** (assim como o gefitinibe e o osimertinibe) é um **inibidor de tirosina-quinase** de pequena molécula que bloqueia o domínio quinase intracelular do EGFR. O crizotinibe é a resposta tentadora, pois também é usado no adenocarcinoma de pulmão, mas age sobre proteínas de fusão de **ALK**, ausentes neste tumor. O trastuzumabe age sobre o HER2, o imatinibe sobre BCR-ABL e KIT, e o bevacizumabe se liga ao VEGF."
+    },
+    {
+      "slug": "q-lung-neoplasia-airway-qx-bronchial-carcinoid-syndrome",
+      "track": "step1",
+      "system": "respiratory",
+      "discipline": "pathology",
+      "tags": [
+        "lung-neoplasia-airway",
+        "carcinoid",
+        "neuroendocrine"
+      ],
+      "stem": "A 38-year-old woman who has never smoked has 5 months of episodes of facial flushing, wheezing and watery diarrhea. During an episode, blood pressure is 102/64 mm Hg and pulse is 112/min. A 24-hour urine 5-HIAA level is high, and serum chromogranin A is high. CT shows a 4-cm mass inside the left main bronchus. CT and MRI of the liver are normal. Why can this tumor cause these symptoms without liver metastases?",
+      "choices": [
+        "Tumor venous blood reaches the systemic circulation without passing through the liver",
+        "Bronchial tumors make a form of serotonin that monoamine oxidase cannot break down",
+        "Lung tissue converts tryptophan into serotonin faster than liver tissue does",
+        "Small liver metastases that are too small to see on CT or MRI release the serotonin into veins",
+        "The tumor secretes histamine only, which the liver does not inactivate"
+      ],
+      "correct": 0,
+      "explanation": "This is a **bronchial carcinoid** with **carcinoid syndrome** (high **5-HIAA**). Serotonin from gut carcinoids drains into the portal vein and is broken down by **monoamine oxidase** in the liver, so syndrome usually needs liver metastases. A lung tumor drains through the pulmonary veins into the **systemic circulation**, so it skips the liver's first-pass breakdown. Hidden liver metastases are the tempting answer, but no extra explanation is needed when the tumor's own drainage already bypasses the liver.",
+      "explanation_pt": "Trata-se de um **carcinoide brônquico** com **síndrome carcinoide** (**5-HIAA** alto). A serotonina dos carcinoides intestinais drena para a veia porta e é degradada pela **monoamina oxidase** no fígado; por isso, a síndrome em geral exige metástases hepáticas. Um tumor pulmonar drena pelas veias pulmonares diretamente para a **circulação sistêmica**, escapando da degradação hepática de primeira passagem. Metástases hepáticas ocultas são a resposta tentadora, mas não é preciso supô-las quando a própria drenagem do tumor já evita o fígado."
+    },
+    {
+      "slug": "q-lung-neoplasia-airway-qx-svc-obstruction",
+      "track": "step1",
+      "system": "respiratory",
+      "discipline": "anatomy",
+      "tags": [
+        "lung-neoplasia-airway",
+        "svc-syndrome",
+        "mediastinum"
+      ],
+      "stem": "A 58-year-old man who smokes has 3 weeks of swelling of the face, neck and both arms. The swelling and a feeling of fullness in his head are worse in the morning and when he bends forward. Exam shows distended neck veins and many dilated veins over the upper chest wall. When he raises both arms above his head for 1 minute, his face becomes dark red. His legs are not swollen. CT shows a large right paratracheal mass. Compression of which vessel best explains his findings?",
+      "choices": [
+        "Left brachiocephalic vein",
+        "Inferior vena cava",
+        "Right subclavian vein",
+        "Azygos vein",
+        "Superior vena cava"
+      ],
+      "correct": 4,
+      "explanation": "Swelling of the **face, neck and both arms**, distended neck veins, chest wall collaterals and a positive **Pemberton sign** describe **superior vena cava syndrome**. The SVC drains the head, neck and both upper limbs, and a right paratracheal tumor (often **small cell carcinoma** or lymphoma) can compress it. Compression of one brachiocephalic or subclavian vein is tempting, but it would affect only one side. The inferior vena cava drains the legs, which are normal here.",
+      "explanation_pt": "Edema da **face, pescoço e dos dois braços**, estase jugular, circulação colateral na parede torácica e **sinal de Pemberton** positivo descrevem a **síndrome da veia cava superior**. A VCS drena cabeça, pescoço e os dois membros superiores, e um tumor paratraqueal direito (muitas vezes **carcinoma de pequenas células** ou linfoma) pode comprimi-la. A compressão de uma veia braquiocefálica ou subclávia é tentadora, mas afetaria só um lado. A veia cava inferior drena os membros inferiores, que aqui estão normais."
+    },
+    {
+      "slug": "q-lung-neoplasia-airway-qx-hamartoma-nodule",
+      "track": "step1",
+      "system": "respiratory",
+      "discipline": "pathology",
+      "tags": [
+        "lung-neoplasia-airway",
+        "solitary-nodule",
+        "hamartoma"
+      ],
+      "stem": "A 52-year-old man has a chest CT after a car accident. It shows a 1.8-cm round nodule with smooth edges in the periphery of the left lower lobe. The nodule contains clumps of calcification that look like popcorn and areas with the density of fat. A CT from 3 years earlier shows the same nodule at the same size. He has no symptoms. If the nodule were removed, the specimen would most likely show which finding?",
+      "choices": [
+        "Central caseous necrosis surrounded by epithelioid macrophages",
+        "Tumor glands that grow along intact alveolar walls",
+        "Disorganized mature cartilage, fat and smooth muscle with clefts lined by respiratory epithelium",
+        "Nests of uniform cells with salt-and-pepper chromatin that stain for chromogranin and synaptophysin",
+        "Sheets of large cells with keratin pearls and intercellular bridges"
+      ],
+      "correct": 2,
+      "explanation": "A smooth, stable nodule with **popcorn calcification** and **fat** is a **pulmonary hamartoma**, the most common benign lung tumor. It contains mature **cartilage**, fat, smooth muscle and clefts lined by **respiratory epithelium**, tissues normally found in the bronchial wall, arranged in a disorganized mass. An old granuloma is the tempting answer because it is also calcified and stable, but its calcification is central or laminated, and it does not contain fat.",
+      "explanation_pt": "Nódulo liso, estável, com **calcificação em pipoca** e **gordura** é um **hamartoma pulmonar**, o tumor benigno de pulmão mais comum. Ele contém **cartilagem** madura, gordura, músculo liso e fendas revestidas por **epitélio respiratório**, tecidos normalmente presentes na parede brônquica, dispostos de forma desorganizada. Um granuloma antigo é a resposta tentadora, pois também é calcificado e estável, mas sua calcificação é central ou laminada e ele não contém gordura."
+    },
+    {
+      "slug": "q-lung-neoplasia-airway-qx-laryngeal-squamous",
+      "track": "step1",
+      "system": "respiratory",
+      "discipline": "pathology",
+      "tags": [
+        "lung-neoplasia-airway",
+        "upper-airway",
+        "laryngeal-cancer"
+      ],
+      "stem": "A 62-year-old man who smokes 1 pack of cigarettes a day and drinks 6 beers a day has 3 months of hoarseness that has not improved. He has no fever or cough. Laryngoscopy shows an irregular, white, ulcerated mass on the right true vocal cord. The right cord moves less than the left one. A biopsy is taken. Which finding is most likely on the biopsy?",
+      "choices": [
+        "Gland-forming tumor cells that make mucin",
+        "Invasive nests of squamous cells with keratin pearls and intercellular bridges",
+        "Papillary fronds of benign squamous epithelium with koilocytes and no invasion of the stroma",
+        "Loose, swollen stroma with dilated vessels under an intact surface epithelium",
+        "Epithelioid granulomas with central caseous necrosis"
+      ],
+      "correct": 1,
+      "explanation": "Persistent hoarseness and an ulcerated mass on the true vocal cord in a man who smokes and drinks point to **laryngeal squamous cell carcinoma**. **Smoking** and **alcohol** act together to raise the risk, and the tumor shows **keratin pearls** and **intercellular bridges**. A laryngeal papilloma is the tempting answer because it is also squamous and grows on the vocal cords, but it is a benign **HPV 6/11** lesion that does not invade or reduce cord movement.",
+      "explanation_pt": "Rouquidão persistente e massa ulcerada na prega vocal verdadeira em homem tabagista e etilista indicam **carcinoma escamoso (epidermoide) de laringe**. O **tabagismo** e o **álcool** agem em conjunto para aumentar o risco, e o tumor mostra **pérolas córneas** e **pontes intercelulares**. O papiloma laríngeo é a resposta tentadora, pois também é escamoso e cresce nas pregas vocais, mas é uma lesão benigna por **HPV 6/11** que não invade nem reduz a mobilidade da prega."
+    },
+    {
+      "slug": "q-lung-neoplasia-airway-qx-nasopharyngeal-eustachian",
+      "track": "step1",
+      "system": "respiratory",
+      "discipline": "anatomy",
+      "tags": [
+        "lung-neoplasia-airway",
+        "upper-airway",
+        "nasopharyngeal-carcinoma",
+        "ebv"
+      ],
+      "stem": "A 45-year-old man who moved from southern China 10 years ago has 3 months of fullness and reduced hearing in his right ear. He has had no fever or ear pain. Otoscopy shows a dull, retracted right eardrum with amber fluid behind it. The left ear is normal. Rinne test on the right shows bone conduction louder than air conduction. A firm, painless lymph node is felt high in the right side of the neck. Endoscopy shows a mass in the lateral wall of the nasopharynx. Which mechanism best explains his ear findings?",
+      "choices": [
+        "Invasion of the facial nerve in the middle ear",
+        "Compression of the cochlear nerve in the internal acoustic meatus",
+        "Bacterial infection that spreads into the middle ear from the mastoid air cells",
+        "Blockage of the opening of the eustachian (pharyngotympanic) tube",
+        "Obstruction of the external auditory canal by tumor"
+      ],
+      "correct": 3,
+      "explanation": "A mass in the lateral nasopharynx with a high neck node in a man from southern China suggests **nasopharyngeal carcinoma**, linked to **EBV**. The tumor blocks the nasopharyngeal opening of the **eustachian tube**, so the middle ear cannot ventilate and fills with fluid: **one-sided serous otitis media** with **conductive** hearing loss. Cochlear nerve compression is tempting, but it gives **sensorineural** loss with a normal eardrum, and Rinne would show air conduction louder than bone conduction.",
+      "explanation_pt": "Massa na parede lateral da nasofaringe com linfonodo cervical alto em homem do sul da China sugere **carcinoma de nasofaringe**, associado ao **EBV**. O tumor obstrui o óstio nasofaríngeo da **tuba auditiva**; assim, a orelha média não é ventilada e se enche de líquido: **otite média serosa unilateral** com perda auditiva **condutiva**. A compressão do nervo coclear é tentadora, mas causa perda **neurossensorial** com membrana timpânica normal, e o teste de Rinne mostraria a condução aérea maior que a óssea."
+    },
+    {
+      "slug": "q-lung-neoplasia-airway-qx-multiple-metastases",
+      "track": "step1",
+      "system": "respiratory",
+      "discipline": "pathology",
+      "tags": [
+        "lung-neoplasia-airway",
+        "metastasis",
+        "lung-cancer"
+      ],
+      "stem": "A 66-year-old woman who has never smoked had surgery for colon adenocarcinoma 3 years ago. She now has mild shortness of breath and a 4-kg weight loss. Chest CT shows 9 round, well-defined nodules of different sizes in both lungs, most of them in the lower lobes and near the pleura. Serum carcinoembryonic antigen (CEA) is rising. What is the most likely cause of the nodules?",
+      "choices": [
+        "Multifocal primary adenocarcinoma of the lung",
+        "Multiple bronchial carcinoid tumors",
+        "Metastases from her earlier colon cancer",
+        "Multiple pulmonary hamartomas",
+        "Small cell carcinoma with spread inside the lung"
+      ],
+      "correct": 2,
+      "explanation": "In the lung, **metastases** are more common than primary lung cancer. They classically appear as **multiple, round, well-defined nodules** of different sizes, mostly in the **lower lobes** and periphery, where blood flow is greatest. A history of colon cancer and a rising **CEA** support this. Multifocal primary adenocarcinoma is the tempting answer in a nonsmoker, but many round nodules in both lungs after a known cancer point first to spread through the blood.",
+      "explanation_pt": "No pulmão, **metástases** são mais comuns que o câncer primário. Classicamente aparecem como **nódulos múltiplos, arredondados e bem definidos** de tamanhos variados, sobretudo nos **lobos inferiores** e na periferia, onde o fluxo sanguíneo é maior. A história de câncer de cólon e o **CEA** em elevação reforçam o diagnóstico. O adenocarcinoma primário multifocal é a resposta tentadora em não fumante, mas vários nódulos arredondados nos dois pulmões após um câncer conhecido apontam primeiro para disseminação hematogênica."
+    }
+  ],
+  "notes": []
+}

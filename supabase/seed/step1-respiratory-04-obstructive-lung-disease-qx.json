@@ -1,0 +1,182 @@
+{
+  "cards": [],
+  "questions": [
+    {
+      "slug": "q-obstructive-lung-disease-qx-chronic-bronchitis-glands",
+      "track": "step1",
+      "system": "respiratory",
+      "discipline": "pathology",
+      "tags": [
+        "obstructive-lung-disease",
+        "chronic-bronchitis",
+        "histology"
+      ],
+      "stem": "A 59-year-old man with a 45-pack-year smoking history has had a cough with thick sputum for most of each year for the past 6 years. He now has worsening shortness of breath. His lips are bluish, and he has pitting edema of both ankles. Scattered rhonchi and wheezes are heard. Arterial blood gas on room air: pH 7.37, PaCO2 52 mm Hg, PaO2 56 mm Hg, HCO3- 29 mEq/L. A biopsy of a large bronchus is taken during bronchoscopy. Which finding is most likely?",
+      "choices": [
+        "Thickened basement membrane with many eosinophils and enlarged smooth muscle bundles",
+        "Loss of cartilage and muscle with permanent widening of the bronchial lumen",
+        "Noncaseating granulomas in the bronchial submucosa",
+        "Enlarged submucosal mucous glands that fill a larger fraction of the wall",
+        "Sheets of small round blue cells beneath an intact mucosa"
+      ],
+      "correct": 3,
+      "explanation": "Years of productive cough in a smoker, with cyanosis, edema and a compensated **chronic respiratory acidosis** (high PaCO2, high HCO3-), is **chronic bronchitis**, the classic *blue bloater*. Its hallmark is **mucous gland hyperplasia**, which raises the **Reid index** above 0.4. A thick basement membrane with many eosinophils and smooth muscle hypertrophy is the remodeling of **asthma**, an episodic, reversible disease driven by eosinophils. Permanent widening of the lumen with loss of cartilage describes bronchiectasis.",
+      "explanation_pt": "Anos de tosse produtiva em um fumante, com cianose, edema e **acidose respiratória crônica** compensada (PaCO2 alta, HCO3- alto), indicam **bronquite crônica**, o clássico *blue bloater*. Sua marca é a **hiperplasia das glândulas mucosas**, que eleva o **índice de Reid** acima de 0,4. Membrana basal espessa com muitos eosinófilos e hipertrofia do músculo liso é o remodelamento da **asma**, uma doença episódica e reversível mediada por eosinófilos. A dilatação permanente da luz com perda de cartilagem descreve a bronquiectasia."
+    },
+    {
+      "slug": "q-obstructive-lung-disease-qx-methacholine-challenge",
+      "track": "step1",
+      "system": "respiratory",
+      "discipline": "pathology",
+      "tags": [
+        "obstructive-lung-disease",
+        "asthma",
+        "pulmonary-function"
+      ],
+      "stem": "A 21-year-old woman has had episodes of cough, wheeze and chest tightness for 4 months. The episodes happen in cold weather and after she runs, and they stop within an hour. She has no symptoms today, and her lungs are clear. She has never smoked. Spirometry today: FEV1 94% of predicted, FVC 96% of predicted, FEV1/FVC 0.83, with no significant change after a bronchodilator. Which test is most likely to confirm the suspected diagnosis?",
+      "choices": [
+        "Sweat chloride measurement",
+        "Inhalation challenge with methacholine",
+        "Serum alpha-1 antitrypsin level",
+        "Diffusing capacity for carbon monoxide",
+        "High-resolution CT of the chest"
+      ],
+      "correct": 1,
+      "explanation": "Episodes of wheeze set off by cold air and exercise, with normal lungs between them, suggest **asthma**. When baseline spirometry is normal, there is no obstruction to reverse, so a **methacholine challenge** is used: this **muscarinic (M3) agonist** narrows hyperresponsive airways at low concentrations and makes the FEV1 fall. A **DLCO** would not help, because it is normal (or even high) in asthma; a low DLCO points to emphysema or interstitial disease.",
+      "explanation_pt": "Crises de sibilância desencadeadas por ar frio e exercício, com pulmões normais entre elas, sugerem **asma**. Quando a espirometria basal é normal, não há obstrução a ser revertida, então se usa o **teste de broncoprovocação com metacolina**: esse **agonista muscarínico (M3)** estreita as vias aéreas hiper-responsivas em baixas concentrações e faz o VEF1 cair. A **DLCO** não ajudaria, porque é normal (ou até alta) na asma; DLCO baixa aponta para enfisema ou doença intersticial."
+    },
+    {
+      "slug": "q-obstructive-lung-disease-qx-asthma-rising-paco2",
+      "track": "step1",
+      "system": "respiratory",
+      "discipline": "physiology",
+      "tags": [
+        "obstructive-lung-disease",
+        "asthma",
+        "blood-gas"
+      ],
+      "stem": "A 17-year-old boy with asthma has had 2 days of worsening wheeze despite frequent use of his albuterol inhaler. In the emergency department he sits upright and can say only 1 or 2 words at a time. Over the next hour he becomes drowsy, and his breath sounds become very faint. Respirations are 30/min, and pulse is 128/min. Arterial blood gas on room air: pH 7.34, PaCO2 44 mm Hg, PaO2 66 mm Hg, HCO3- 23 mEq/L. Which value most strongly suggests that he is close to respiratory failure?",
+      "choices": [
+        "PaO2 of 66 mm Hg",
+        "Pulse of 128/min",
+        "HCO3- of 23 mEq/L",
+        "Respiratory rate of 30/min",
+        "PaCO2 of 44 mm Hg"
+      ],
+      "correct": 4,
+      "explanation": "During an asthma attack, the patient hyperventilates, so the **PaCO2 should be low**. A PaCO2 that has risen back to the \"normal\" range means that **respiratory muscle fatigue** and severe obstruction no longer allow enough ventilation; with drowsiness and a quiet chest, it signals **impending respiratory failure**. Mild **hypoxemia** is common even in moderate attacks, because of **V/Q mismatch**, and it usually corrects with oxygen. Tachycardia and tachypnea are expected in any significant attack.",
+      "explanation_pt": "Durante uma crise de asma, o paciente hiperventila, então a **PaCO2 deveria estar baixa**. Uma PaCO2 que voltou à faixa \"normal\" significa que a **fadiga da musculatura respiratória** e a obstrução grave já não permitem ventilação suficiente; com sonolência e tórax silencioso, ela sinaliza **insuficiência respiratória iminente**. A **hipoxemia** leve é comum mesmo em crises moderadas, por **distúrbio V/Q**, e geralmente se corrige com oxigênio. Taquicardia e taquipneia são esperadas em qualquer crise importante."
+    },
+    {
+      "slug": "q-obstructive-lung-disease-qx-kartagener-dynein",
+      "track": "step1",
+      "system": "respiratory",
+      "discipline": "pathology",
+      "tags": [
+        "obstructive-lung-disease",
+        "bronchiectasis",
+        "primary-ciliary-dyskinesia"
+      ],
+      "stem": "A 9-year-old girl has had a daily wet cough and repeated sinus and ear infections since early childhood. She has been treated for pneumonia 3 times. Her heart sounds are loudest to the right of the sternum, and the liver edge is felt below the left costal margin. Chest CT shows dilated, thick-walled bronchi in both lower lobes. Her sweat chloride level is normal. A defect in which protein most likely explains her lung disease?",
+      "choices": [
+        "CFTR chloride channel",
+        "Alpha-1 antitrypsin",
+        "Axonemal dynein",
+        "NADPH oxidase",
+        "Bruton tyrosine kinase"
+      ],
+      "correct": 2,
+      "explanation": "Bronchiectasis, chronic sinusitis and ear infections with **situs inversus** (heart on the right, liver on the left) mean **Kartagener syndrome**, a form of **primary ciliary dyskinesia**. Defective **dynein arms** make cilia move poorly, so mucus is not cleared; during embryonic life, abnormal ciliary motion also fails to set left-right orientation. **CFTR** defects also cause bronchiectasis, but the normal sweat chloride and the situs inversus argue against cystic fibrosis.",
+      "explanation_pt": "Bronquiectasia, sinusite crônica e otites com **situs inversus** (coração à direita, fígado à esquerda) indicam **síndrome de Kartagener**, uma forma de **discinesia ciliar primária**. **Braços de dineína** defeituosos fazem os cílios se moverem mal, e o muco não é eliminado; na vida embrionária, o movimento ciliar anormal também falha em definir a orientação esquerda-direita. Defeitos do **CFTR** também causam bronquiectasia, mas o cloreto no suor normal e o situs inversus falam contra fibrose cística."
+    },
+    {
+      "slug": "q-obstructive-lung-disease-qx-bronchiectasis-hemoptysis",
+      "track": "step1",
+      "system": "respiratory",
+      "discipline": "pathology",
+      "tags": [
+        "obstructive-lung-disease",
+        "bronchiectasis",
+        "hemoptysis"
+      ],
+      "stem": "A 52-year-old woman had severe measles pneumonia as a child. For many years she has coughed up large amounts of foul-smelling, purulent sputum every day, and her fingers are clubbed. Chest CT shows dilated, thick-walled bronchi in the left lower lobe that do not taper toward the periphery. Today she coughs up about 200 mL of bright red blood. Her blood pressure is 118/72 mm Hg, and her pulse is 104/min. Bleeding from which vessels is most likely?",
+      "choices": [
+        "Bronchial arteries",
+        "Pulmonary arteries",
+        "Pulmonary veins",
+        "Alveolar capillaries",
+        "Bronchial veins"
+      ],
+      "correct": 0,
+      "explanation": "Daily purulent sputum, clubbing and dilated bronchi that do not taper after a severe childhood infection mean **bronchiectasis**. Chronic inflammation makes the **bronchial arteries** enlarge and form new vessels in the damaged wall; these vessels carry blood at **systemic pressure**, so they are the usual source of **massive hemoptysis**. The **pulmonary arteries** carry most of the blood flow to the lungs, which makes them tempting, but they are a **low-pressure** system and are rarely the source in bronchiectasis. The main exception is a **Rasmussen aneurysm**, a pulmonary artery branch weakened by an old tuberculous cavity.",
+      "explanation_pt": "Escarro purulento diário, baqueteamento digital e brônquios dilatados que não se afilam após uma infecção grave na infância indicam **bronquiectasia**. A inflamação crônica faz as **artérias brônquicas** se hipertrofiarem e formarem novos vasos na parede lesada; esses vasos levam sangue em **pressão sistêmica**, por isso são a fonte habitual da **hemoptise maciça**. As **artérias pulmonares** levam a maior parte do fluxo sanguíneo aos pulmões, o que as torna uma opção tentadora, mas são um sistema de **baixa pressão** e raramente são a fonte na bronquiectasia. A principal exceção é o **aneurisma de Rasmussen**, um ramo da artéria pulmonar enfraquecido por uma cavidade tuberculosa antiga."
+    },
+    {
+      "slug": "q-obstructive-lung-disease-qx-a1at-liver-globules",
+      "track": "step1",
+      "system": "respiratory",
+      "discipline": "pathology",
+      "tags": [
+        "obstructive-lung-disease",
+        "alpha-1-antitrypsin",
+        "liver"
+      ],
+      "stem": "A 47-year-old woman who has never smoked has 2 years of increasing shortness of breath on exertion. In the last month her abdomen has become swollen. Exam shows spider angiomas, ascites and a prolonged expiratory phase. Spirometry shows an obstructive pattern. Chest CT shows emphysema that is worst at the lung bases. A liver biopsy is done. Which finding is most likely in her hepatocytes?",
+      "choices": [
+        "Eosinophilic cytoplasmic tangles of keratin filaments",
+        "Granules that stain blue with Prussian blue",
+        "Pale, finely granular cytoplasm that looks like ground glass",
+        "Round globules that stay PAS-positive after diastase",
+        "Large fat droplets that push the nucleus to one side"
+      ],
+      "correct": 3,
+      "explanation": "Lower-lobe emphysema in a nonsmoker plus **cirrhosis** points to **alpha-1 antitrypsin deficiency** (PiZZ). The misfolded Z protein polymerizes in the **endoplasmic reticulum** of hepatocytes and forms globules that are **PAS-positive and diastase-resistant** (diastase removes glycogen, but not this protein). **Mallory-Denk bodies** (keratin tangles) are tempting because she has cirrhosis, but they suggest alcohol-related or fatty liver disease and do not explain basal emphysema in a nonsmoker.",
+      "explanation_pt": "Enfisema de lobos inferiores em uma não fumante associado a **cirrose** aponta para **deficiência de alfa-1 antitripsina** (PiZZ). A proteína Z mal dobrada se polimeriza no **retículo endoplasmático** dos hepatócitos e forma glóbulos **PAS-positivos e resistentes à diástase** (a diástase remove o glicogênio, mas não essa proteína). Os **corpúsculos de Mallory-Denk** (emaranhados de queratina) são tentadores porque ela tem cirrose, mas sugerem doença hepática alcoólica ou esteatótica e não explicam enfisema basal em uma não fumante."
+    },
+    {
+      "slug": "q-obstructive-lung-disease-qx-cf-sweat-duct",
+      "track": "step1",
+      "system": "respiratory",
+      "discipline": "physiology",
+      "tags": [
+        "obstructive-lung-disease",
+        "cystic-fibrosis",
+        "ion-transport"
+      ],
+      "stem": "A 6-month-old girl is evaluated for poor weight gain and frequent oily, foul-smelling stools. She has had 2 episodes of cough with wheezing. On 2 separate days, her sweat chloride level is well above the normal range. Her mother asks why her sweat is salty when the main problem in the lungs is thick mucus. Which mechanism best explains the high sweat chloride?",
+      "choices": [
+        "The secretory coil of the sweat gland releases extra chloride into the duct",
+        "The sweat duct cannot take chloride back from the primary sweat",
+        "The sweat duct actively pumps chloride into the sweat",
+        "Aldosterone cannot act on the sweat duct epithelium",
+        "Too much water is reabsorbed from the sweat duct"
+      ],
+      "correct": 1,
+      "explanation": "In **cystic fibrosis**, **CFTR** is defective. Primary sweat is made in the coil with a near-plasma salt content; as it flows through the **duct**, CFTR normally **reabsorbs chloride** (and sodium follows through ENaC), so normal sweat is low in salt. Without CFTR, chloride stays in the duct, so **sweat chloride is high**. The coil does not secrete extra chloride; in the **airways** the defect works in the opposite direction, with too little chloride secretion and more sodium absorption, which dehydrates the mucus.",
+      "explanation_pt": "Na **fibrose cística**, o **CFTR** é defeituoso. O suor primário é produzido na porção secretora com um teor de sal próximo ao do plasma; ao passar pelo **ducto**, o CFTR normalmente **reabsorve cloreto** (e o sódio o acompanha pelo ENaC), então o suor normal tem pouco sal. Sem o CFTR, o cloreto fica no ducto, e o **cloreto no suor é alto**. A porção secretora não secreta cloreto em excesso; nas **vias aéreas** o defeito atua no sentido oposto, com menos secreção de cloreto e mais absorção de sódio, o que desidrata o muco."
+    },
+    {
+      "slug": "q-obstructive-lung-disease-qx-smoking-protease",
+      "track": "step1",
+      "system": "respiratory",
+      "discipline": "pathology",
+      "tags": [
+        "obstructive-lung-disease",
+        "emphysema",
+        "pathophysiology"
+      ],
+      "stem": "A 63-year-old man with a 55-pack-year smoking history has 3 years of slowly worsening shortness of breath. His serum alpha-1 antitrypsin level is normal. Chest CT shows emphysema that is most severe in the upper lobes; the destruction is centered on the respiratory bronchioles, and the distal alveoli are relatively spared. Which process most directly destroyed his alveolar walls?",
+      "choices": [
+        "Mast cell release of histamine after IgE cross-linking",
+        "Misfolded antiprotease trapped inside hepatocytes",
+        "Neutrophil elastase left unopposed by antiprotease",
+        "Hyperplasia of mucous glands in the large bronchi",
+        "Excess collagen made by fibroblasts in alveolar septa"
+      ],
+      "correct": 2,
+      "explanation": "Upper-lobe **centriacinar** emphysema is the pattern of **smoking**. Smoke recruits **neutrophils and macrophages** that release **elastase** and other proteases, and smoke **oxidants inactivate alpha-1 antitrypsin**, so a local **protease-antiprotease imbalance** develops even when the serum level is normal. Antiprotease trapped in hepatocytes describes inherited alpha-1 antitrypsin deficiency, which causes a low serum level and **panacinar**, lower-lobe disease. Mucous gland hyperplasia is the lesion of chronic bronchitis and does not destroy alveolar walls.",
+      "explanation_pt": "O enfisema **centroacinar** de lobos superiores é o padrão do **tabagismo**. A fumaça recruta **neutrófilos e macrófagos** que liberam **elastase** e outras proteases, e os **oxidantes da fumaça inativam a alfa-1 antitripsina**, então surge um **desequilíbrio protease-antiprotease** local mesmo com nível sérico normal. Antiprotease retida nos hepatócitos descreve a deficiência hereditária de alfa-1 antitripsina, que causa nível sérico baixo e doença **panacinar** de lobos inferiores. A hiperplasia das glândulas mucosas é a lesão da bronquite crônica e não destrói paredes alveolares."
+    }
+  ],
+  "notes": []
+}
