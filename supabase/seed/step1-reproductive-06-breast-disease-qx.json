@@ -1,0 +1,182 @@
+{
+  "cards": [],
+  "questions": [
+    {
+      "slug": "q-breast-disease-qx-traumatic-fat-necrosis",
+      "track": "step1",
+      "system": "reproductive",
+      "discipline": "pathology",
+      "tags": [
+        "breast-disease",
+        "benign-lesions",
+        "fat-necrosis"
+      ],
+      "stem": "A 52-year-old woman notices a firm lump in her left breast. Four months ago she was in a car crash, and the seat belt left a large bruise across this breast. She has no abdominal pain. Exam shows a 2-cm firm, irregular, nontender mass with slight retraction of the overlying skin. Mammography shows an irregular density with coarse calcifications. Core biopsy shows fat cells without nuclei, surrounded by foamy macrophages, multinucleated giant cells and calcium deposits. No malignant cells are seen. Which process most likely produced this lesion?",
+      "choices": [
+        "Trauma that ruptures fat cells and draws in macrophages",
+        "Lipase released into the blood that digests fat",
+        "Estrogen-driven overgrowth of both stroma and duct epithelium",
+        "Tumor cells blocking dermal lymphatic vessels",
+        "Keratin plugging of ducts after squamous metaplasia"
+      ],
+      "correct": 0,
+      "explanation": "This is **fat necrosis** of the breast, which is usually **traumatic (nonenzymatic)**: injury breaks fat cells, the released lipid draws in **foamy macrophages** and giant cells, and later **fibrosis and calcification** form a hard mass with skin retraction that can mimic carcinoma. **Enzymatic** fat necrosis from **lipase** is the classic process in acute pancreatitis, and nothing here suggests pancreatic disease. Estrogen-driven growth of stroma and ducts describes a fibroadenoma, which would not contain dead fat and macrophages.",
+      "explanation_pt": "Trata-se de **necrose gordurosa** da mama, que em geral é **traumática (não enzimática)**: a lesão rompe os adipócitos, o lipídio liberado atrai **macrófagos espumosos** e células gigantes, e depois **fibrose e calcificação** formam um nódulo endurecido com retração da pele que pode simular carcinoma. A necrose gordurosa **enzimática** por **lipase** é o processo clássico da pancreatite aguda, e nada aqui sugere doença pancreática. O crescimento de estroma e ductos estimulado pelo estrogênio descreve o fibroadenoma, que não conteria gordura necrótica nem macrófagos."
+    },
+    {
+      "slug": "q-breast-disease-qx-lactational-abscess-coagulase",
+      "track": "step1",
+      "system": "reproductive",
+      "discipline": "pathology",
+      "tags": [
+        "breast-disease",
+        "mastitis",
+        "staphylococcus-aureus"
+      ],
+      "stem": "A 27-year-old woman who is breastfeeding her 3-week-old son has had pain in her right breast and fever for 2 days. Her right nipple has been cracked since the first week after delivery. The upper outer part of the breast is red, warm and very tender, with a 3-cm fluctuant area. Her temperature is 39.1°C (102.4°F), pulse is 104/min, and the leukocyte count is 16,500/mm3 with 84% neutrophils. Pus aspirated from the fluctuant area shows gram-positive cocci in clusters that are catalase-positive. Which bacterial product best explains why this infection formed a walled-off collection of pus?",
+      "choices": [
+        "Streptokinase that dissolves fibrin and helps spread",
+        "M protein that blocks complement deposition",
+        "IgA protease that cleaves mucosal antibody",
+        "Coagulase that forms fibrin around the bacteria",
+        "A sialic acid capsule that resists phagocytosis"
+      ],
+      "correct": 3,
+      "explanation": "**Acute lactational mastitis** usually starts when ***Staphylococcus aureus*** from the skin or the infant's mouth enters through a **cracked nipple**; gram-positive, catalase-positive cocci in clusters fit this organism. Its **coagulase** activates prothrombin, which turns fibrinogen into **fibrin**; the fibrin walls off the infection and helps form an **abscess**. **Streptokinase** and hyaluronidase belong to *Streptococcus pyogenes* and do the opposite: they help infection spread through tissue, as in cellulitis. M protein is also a *S. pyogenes* factor, and *S. pyogenes* is catalase-negative and grows in chains.",
+      "explanation_pt": "A **mastite lactacional aguda** geralmente começa quando o ***Staphylococcus aureus*** da pele ou da boca do lactente entra por uma **fissura mamilar**; cocos gram-positivos, catalase-positivos e em cachos são compatíveis com esse microrganismo. Sua **coagulase** ativa a protrombina, que converte fibrinogênio em **fibrina**; a fibrina delimita a infecção e favorece a formação de **abscesso**. A **estreptoquinase** e a hialuronidase pertencem ao *Streptococcus pyogenes* e fazem o contrário: ajudam a infecção a se espalhar pelos tecidos, como na celulite. A proteína M também é um fator do *S. pyogenes*, que é catalase-negativo e cresce em cadeias."
+    },
+    {
+      "slug": "q-breast-disease-qx-periductal-mastitis-smoker",
+      "track": "step1",
+      "system": "reproductive",
+      "discipline": "pathology",
+      "tags": [
+        "breast-disease",
+        "benign-lesions",
+        "periductal-mastitis"
+      ],
+      "stem": "A 38-year-old woman has had a painful lump next to her left areola for 2 weeks. She had a lump in the same place 1 year ago; it was drained but came back. She is not pregnant and has never breastfed. She has smoked 1 pack of cigarettes per day for 20 years. Exam shows a 2-cm tender, red, fluctuant mass at the edge of the areola, an inverted nipple and a small opening in the areolar skin that drains pus. Which change in the lactiferous ducts most likely started this process?",
+      "choices": [
+        "Apocrine metaplasia of the cells lining small cysts",
+        "Duct dilation with thick secretions and plasma cells",
+        "Atypical cells that partly fill the duct lumen",
+        "Papillary growth on a fibrovascular core",
+        "Squamous metaplasia with keratin plugging"
+      ],
+      "correct": 4,
+      "explanation": "A recurring **subareolar abscess** with a draining tract in a **smoker** who is not lactating is **periductal mastitis**. Smoking is linked to **squamous metaplasia** of the lactiferous ducts; **keratin** plugs the duct, the duct dilates and ruptures, and keratin in the stroma causes intense inflammation and fistulas. **Duct ectasia** also affects subareolar ducts and can invert the nipple, but it is typical of older, multiparous women, shows thick secretions with plasma cells, and is not tied to smoking or recurrent abscesses. Apocrine metaplasia is part of nonproliferative fibrocystic change.",
+      "explanation_pt": "Um **abscesso subareolar** recorrente com trajeto fistuloso em **tabagista** que não está amamentando é **mastite periductal**. O tabagismo está associado à **metaplasia escamosa** dos ductos lactíferos; a **queratina** obstrui o ducto, que se dilata e se rompe, e a queratina no estroma provoca inflamação intensa e fístulas. A **ectasia ductal** também afeta os ductos subareolares e pode causar inversão do mamilo, mas é típica de mulheres mais velhas e multíparas, mostra secreção espessa com plasmócitos e não está ligada ao tabagismo nem a abscessos recorrentes. A metaplasia apócrina faz parte da alteração fibrocística não proliferativa."
+    },
+    {
+      "slug": "q-breast-disease-qx-atypical-ductal-hyperplasia-risk",
+      "track": "step1",
+      "system": "reproductive",
+      "discipline": "pathology",
+      "tags": [
+        "breast-disease",
+        "benign-lesions",
+        "cancer-risk"
+      ],
+      "stem": "A 46-year-old woman has a mammogram that shows a new cluster of fine calcifications in the right breast. Core needle biopsy shows some ducts partly filled by a uniform population of cells that form rigid bridges and round, punched-out spaces. The cells do not fill the whole duct, the basement membrane is intact, and there is no invasion. The pathologist reports atypical ductal hyperplasia. Which statement best describes her future risk of breast carcinoma?",
+      "choices": [
+        "No higher than that of the general population",
+        "Moderately increased, in both breasts",
+        "Slightly increased, and only in the right breast",
+        "Increased only in the biopsied area, so removing it ends the risk",
+        "Nearly certain progression to invasive carcinoma within a few years"
+      ],
+      "correct": 1,
+      "explanation": "**Atypical ductal hyperplasia** is a **proliferative lesion with atypia**: it has some, but not all, features of low-grade DCIS. It brings a **moderate** rise in carcinoma risk, and the risk applies to **both breasts** (somewhat more on the biopsied side), so it is a marker of risk as well as a possible precursor. A **slight** rise is the pattern of proliferative change **without** atypia (usual ductal hyperplasia, sclerosing adenosis), so that choice is the tempting one but understates the risk. Most women with atypical hyperplasia never develop invasive cancer, so progression is far from certain.",
+      "explanation_pt": "A **hiperplasia ductal atípica** é uma **lesão proliferativa com atipia**: tem algumas, mas não todas, as características do CDIS de baixo grau. Traz aumento **moderado** do risco de carcinoma, e o risco vale para **ambas as mamas** (um pouco mais no lado biopsiado), por isso é um marcador de risco além de possível precursora. O aumento **discreto** é o padrão da alteração proliferativa **sem** atipia (hiperplasia ductal usual, adenose esclerosante), por isso essa alternativa é tentadora, mas subestima o risco. A maioria das mulheres com hiperplasia atípica nunca desenvolve câncer invasivo, então a progressão está longe de ser certa."
+    },
+    {
+      "slug": "q-breast-disease-qx-lobular-unusual-metastases",
+      "track": "step1",
+      "system": "reproductive",
+      "discipline": "pathology",
+      "tags": [
+        "breast-disease",
+        "carcinoma",
+        "metastasis"
+      ],
+      "stem": "A 64-year-old woman has had nausea, abdominal bloating and early satiety for 2 months. CT shows ascites, thickened peritoneum and masses in both ovaries. Five years ago she was treated for a left breast cancer; at that time, mammography showed only a vague area of distortion, with no distinct mass. Biopsy of a peritoneal nodule shows small, uniform tumor cells; some contain a mucin vacuole that pushes the nucleus aside. The tumor cells are estrogen receptor-positive. Which description best fits her original breast tumor?",
+      "choices": [
+        "Irregular glands and nests in a dense fibrous stroma",
+        "Tumor cells floating in pools of extracellular mucin",
+        "Small discohesive cells invading in single file",
+        "Ducts filled by malignant cells with central necrosis",
+        "Leaf-like fronds of hypercellular stroma with epithelium"
+      ],
+      "correct": 2,
+      "explanation": "**Invasive lobular carcinoma** loses **E-cadherin**, so its cells are **discohesive** and invade in **single file**; it often forms no clear mass on mammography. It also has an unusual pattern of spread to the **peritoneum, GI tract, ovaries** and meninges, and its cells can look like **signet-ring** cells; the estrogen receptor positivity supports a breast origin over gastric cancer. **Invasive ductal carcinoma**, with glands in a fibrous stroma, is more common, but it usually forms a hard mass and spreads mainly to bone, lung, liver and brain. Mucinous carcinoma has pools of extracellular mucin, not intracellular vacuoles in discohesive cells.",
+      "explanation_pt": "O **carcinoma lobular invasivo** perde a **E-caderina**, por isso suas células são **não coesas** e invadem em **fila indiana**; muitas vezes não forma nódulo definido na mamografia. Também tem um padrão incomum de disseminação para **peritônio, trato GI, ovários** e meninges, e suas células podem parecer **células em anel de sinete**; a positividade para receptor de estrogênio favorece origem mamária em vez de câncer gástrico. O **carcinoma ductal invasivo**, com glândulas em estroma fibroso, é mais comum, mas geralmente forma nódulo duro e se dissemina sobretudo para osso, pulmão, fígado e cérebro. O carcinoma mucinoso tem lagos de muco extracelular, e não vacúolos intracelulares em células não coesas."
+    },
+    {
+      "slug": "q-breast-disease-qx-inflammatory-dermal-lymphatics",
+      "track": "step1",
+      "system": "reproductive",
+      "discipline": "pathology",
+      "tags": [
+        "breast-disease",
+        "carcinoma",
+        "inflammatory"
+      ],
+      "stem": "A 49-year-old woman has had a swollen, red, heavy left breast for 5 weeks. She is not breastfeeding. A 10-day course of oral antibiotics for presumed mastitis did not help. Exam shows redness and warmth over more than half of the breast, and the skin is thick with many small pits. No discrete mass is felt, but a firm left axillary lymph node is present. Her temperature is 37.0°C (98.6°F), and the leukocyte count is 7,400/mm3 with a normal differential. A skin punch biopsy is performed. Which finding best explains her skin changes?",
+      "choices": [
+        "Neutrophils filling the lactiferous ducts",
+        "Fibrous tumor tissue shortening the suspensory ligaments",
+        "Noncaseating granulomas centered on the lobules",
+        "Clusters of tumor cells inside dermal lymphatics",
+        "Large clear malignant cells within the epidermis"
+      ],
+      "correct": 3,
+      "explanation": "A red, warm, swollen breast with *peau d'orange* skin, no fever, a normal leukocyte count and no response to antibiotics is **inflammatory breast cancer**. **Tumor emboli** block the **dermal lymphatics**, causing lymphedema; the skin swells around the hair follicles, which stay tethered and look like pits. **Shortened suspensory (Cooper) ligaments** cause focal skin dimpling over an underlying carcinoma, not diffuse redness and swelling. Neutrophils in the ducts would fit bacterial mastitis, which the normal temperature, normal leukocyte count and failed antibiotics argue against.",
+      "explanation_pt": "Mama vermelha, quente e edemaciada, com pele em *peau d'orange* (casca de laranja), sem febre, com leucócitos normais e sem resposta a antibióticos é **câncer de mama inflamatório**. **Êmbolos tumorais** obstruem os **linfáticos dérmicos** e causam linfedema; a pele incha ao redor dos folículos pilosos, que ficam presos e parecem pequenas depressões. O **encurtamento dos ligamentos suspensores (de Cooper)** causa retração focal da pele sobre um carcinoma subjacente, e não vermelhidão e edema difusos. Neutrófilos nos ductos seriam compatíveis com mastite bacteriana, contra a qual falam a temperatura normal, os leucócitos normais e a falha dos antibióticos."
+    },
+    {
+      "slug": "q-breast-disease-qx-intraductal-papilloma-discharge",
+      "track": "step1",
+      "system": "reproductive",
+      "discipline": "pathology",
+      "tags": [
+        "breast-disease",
+        "benign-lesions",
+        "nipple-discharge"
+      ],
+      "stem": "A 41-year-old woman has noticed spots of blood on her bra for 3 weeks. Gentle pressure at one point near the edge of the right areola makes bloody fluid come out of a single duct opening on the nipple. No mass is palpable, and the nipple and areolar skin look normal. Ultrasound shows a 6-mm solid lesion inside a dilated duct just under the areola. A urine pregnancy test is negative, and serum prolactin is normal. Which is the most likely diagnosis?",
+      "choices": [
+        "Paget disease of the nipple",
+        "Duct ectasia",
+        "Intraductal papilloma",
+        "Fibroadenoma",
+        "Prolactinoma"
+      ],
+      "correct": 2,
+      "explanation": "**Bloody discharge from a single duct**, with a small solid lesion inside a **large subareolar duct** and no palpable mass, is classic for an **intraductal papilloma**. It is a benign papillary growth on a fibrovascular core, covered by epithelial and **myoepithelial** cells. **Duct ectasia** is the most tempting choice because the duct is dilated, but it causes thick, often multicolored discharge from several ducts in older multiparous women, with no solid lesion inside the duct. **Paget disease** causes an eczema-like, crusted nipple, and a **prolactinoma** causes milky, usually bilateral discharge with high prolactin.",
+      "explanation_pt": "**Derrame sanguinolento por um único ducto**, com pequena lesão sólida dentro de um **ducto subareolar de grande calibre** e sem nódulo palpável, é clássico de **papiloma intraductal**. É uma proliferação papilar benigna sobre um eixo fibrovascular, revestida por células epiteliais e **mioepiteliais**. A **ectasia ductal** é a alternativa mais tentadora porque o ducto está dilatado, mas causa secreção espessa, muitas vezes de cores variadas, por vários ductos em mulheres mais velhas e multíparas, sem lesão sólida dentro do ducto. A **doença de Paget** causa mamilo eczematoso e com crostas, e o **prolactinoma** causa derrame lácteo, geralmente bilateral, com prolactina elevada."
+    },
+    {
+      "slug": "q-breast-disease-qx-obesity-aromatase-inhibitor",
+      "track": "step1",
+      "system": "reproductive",
+      "discipline": "pathology",
+      "tags": [
+        "breast-disease",
+        "carcinoma",
+        "hormone-therapy"
+      ],
+      "stem": "A 63-year-old woman is diagnosed with estrogen receptor-positive invasive ductal carcinoma. Her last menstrual period was at age 52, and she has never used hormone therapy. Her BMI is 38 kg/m2, and she has gained 25 kg since menopause. Her oncologist chooses a drug that lowers the amount of estrogen her body makes, rather than one that blocks the estrogen receptor. Which drug fits this plan?",
+      "choices": [
+        "Tamoxifen",
+        "Anastrozole",
+        "Leuprolide",
+        "Raloxifene",
+        "Fulvestrant"
+      ],
+      "correct": 1,
+      "explanation": "After menopause, most estrogen is **estrone**, made when **aromatase in adipose tissue** converts adrenal **androstenedione**; this is why **postmenopausal obesity** raises the risk of **ER-positive** breast cancer. **Anastrozole** is an **aromatase inhibitor**, so it lowers estrogen production at this source. **Tamoxifen** is the tempting choice, but it is a selective estrogen receptor modulator that blocks the receptor in the breast without lowering estrogen levels; raloxifene works the same way, and fulvestrant destroys the receptor. **Leuprolide** suppresses ovarian estrogen through the pituitary, which does not help once the ovaries have stopped making it.",
+      "explanation_pt": "Após a menopausa, a maior parte do estrogênio é **estrona**, formada quando a **aromatase do tecido adiposo** converte a **androstenediona** adrenal; por isso a **obesidade na pós-menopausa** aumenta o risco de câncer de mama **RE positivo**. O **anastrozol** é um **inibidor da aromatase**, então reduz a produção de estrogênio nessa fonte. O **tamoxifeno** é a alternativa tentadora, mas é um modulador seletivo do receptor de estrogênio que bloqueia o receptor na mama sem reduzir os níveis de estrogênio; o raloxifeno age da mesma forma, e o fulvestranto degrada o receptor. A **leuprorrelina** suprime o estrogênio ovariano via hipófise, o que não ajuda quando os ovários já pararam de produzi-lo."
+    }
+  ],
+  "notes": []
+}

@@ -1,0 +1,186 @@
+{
+  "cards": [],
+  "questions": [
+    {
+      "slug": "q-female-reproductive-physiology-qx-ovulation-timing",
+      "track": "step1",
+      "system": "reproductive",
+      "discipline": "physiology",
+      "tags": [
+        "female-reproductive-physiology",
+        "menstrual-cycle",
+        "ovulation"
+      ],
+      "stem": "A 27-year-old woman wants to know when she is most likely to be fertile. For several years her menstrual cycles have been very regular, and each one lasts 35 days, counted from the first day of one period to the first day of the next. She is healthy and takes no medications. On which day of her cycle does ovulation most likely occur?",
+      "choices": [
+        "Day 14",
+        "Day 17",
+        "Day 21",
+        "Day 24",
+        "Day 28"
+      ],
+      "correct": 2,
+      "explanation": "The **luteal phase** is fairly fixed at about **14 days**, because the corpus luteum has a set life span without hCG. So ovulation happens about 14 days **before** the next period: 35 − 14 = **day 21**. Day 14 is the tempting answer, but it is only correct for a 28-day cycle; in longer cycles the extra days are added to the **follicular phase**.",
+      "explanation_pt": "A **fase lútea** é bastante fixa, com cerca de **14 dias**, porque o corpo lúteo tem vida definida sem hCG. Assim, a ovulação ocorre cerca de 14 dias **antes** da próxima menstruação: 35 − 14 = **dia 21**. O dia 14 é a resposta tentadora, mas só vale para um ciclo de 28 dias; em ciclos mais longos, os dias a mais entram na **fase folicular**."
+    },
+    {
+      "slug": "q-female-reproductive-physiology-qx-bbt-early-pregnancy",
+      "track": "step1",
+      "system": "reproductive",
+      "discipline": "physiology",
+      "tags": [
+        "female-reproductive-physiology",
+        "ovulation",
+        "pregnancy",
+        "hcg"
+      ],
+      "stem": "A 30-year-old woman has charted her morning oral temperature each day while trying to conceive. Her cycles are usually 28 to 30 days long. This cycle, her temperature rose by about 0.3°C on day 16 and has stayed at the higher level every day since. Today is cycle day 34, and her period has not started. Which process best explains why her temperature is still elevated?",
+      "choices": [
+        "A second LH surge causing a new follicle to luteinize and secrete",
+        "Estradiol from a persistent dominant follicle acting on the hypothalamus",
+        "Progesterone made by the placenta after it replaced the corpus luteum",
+        "Human placental lactogen raising the maternal metabolic rate",
+        "hCG keeping the corpus luteum active through LH receptors"
+      ],
+      "correct": 4,
+      "explanation": "The temperature rise reflects **progesterone** from the **corpus luteum**. Without pregnancy, the corpus luteum regresses after about 14 days, progesterone falls and the period starts. Here the rise has lasted 18 days, so she is probably pregnant: **hCG** from the **syncytiotrophoblast** binds **LH receptors** and rescues the corpus luteum. The placenta does not take over progesterone production until about **weeks 8-10**, so placental progesterone cannot explain the finding this early.",
+      "explanation_pt": "A elevação da temperatura reflete a **progesterona** do **corpo lúteo**. Sem gestação, o corpo lúteo regride após cerca de 14 dias, a progesterona cai e a menstruação começa. Aqui a elevação já dura 18 dias, então ela provavelmente está grávida: o **hCG** do **sinciciotrofoblasto** se liga aos **receptores de LH** e resgata o corpo lúteo. A placenta só assume a produção de progesterona por volta de **8-10 semanas**, então a progesterona placentária não explica o achado tão cedo."
+    },
+    {
+      "slug": "q-female-reproductive-physiology-qx-progestin-withdrawal-bleeding",
+      "track": "step1",
+      "system": "reproductive",
+      "discipline": "physiology",
+      "tags": [
+        "female-reproductive-physiology",
+        "menstrual-cycle",
+        "endometrium"
+      ],
+      "stem": "A 24-year-old woman has had no menstrual periods for 5 months. A pregnancy test is negative. She is given an oral progestin once daily for 10 days. Three days after the last tablet, she has vaginal bleeding that lasts 4 days. Which process most directly causes this bleeding?",
+      "choices": [
+        "Spiral artery constriction with ischemia of the functional layer",
+        "Estrogen-driven growth of the endometrium that outgrows its blood supply",
+        "Shedding of the basal layer after loss of estrogen receptors",
+        "Rupture of a follicle releasing blood into the uterine cavity",
+        "Direct toxic damage to the endometrial capillaries by the progestin itself"
+      ],
+      "correct": 0,
+      "explanation": "Bleeding after a progestin course is **withdrawal bleeding**: when progesterone falls, the endometrium releases **prostaglandins**, the **spiral arteries** constrict, and the **functional layer** becomes ischemic and sheds. The same thing happens in a normal cycle when the corpus luteum regresses. Bleeding after withdrawal also shows that her endometrium had been primed by **estrogen**. Estrogen breakthrough bleeding is the tempting choice, but it happens with unopposed estrogen, not as a timed response after a progestin is stopped; the **basal layer** is not shed and regenerates the endometrium.",
+      "explanation_pt": "O sangramento após o uso de progestágeno por 10 dias é **sangramento por privação**: quando a progesterona cai, o endométrio libera **prostaglandinas**, as **artérias espiraladas** se contraem e a **camada funcional** fica isquêmica e descama. O mesmo ocorre no ciclo normal quando o corpo lúteo regride. O sangramento após a suspensão também mostra que o endométrio dela havia sido preparado pelo **estrogênio**. O sangramento por disrupção estrogênica é a opção tentadora, mas ocorre com estrogênio sem oposição, não como resposta programada após suspender um progestágeno; a **camada basal** não descama e regenera o endométrio."
+    },
+    {
+      "slug": "q-female-reproductive-physiology-qx-physiologic-anemia-pregnancy",
+      "track": "step1",
+      "system": "reproductive",
+      "discipline": "physiology",
+      "tags": [
+        "female-reproductive-physiology",
+        "pregnancy",
+        "maternal-physiology"
+      ],
+      "stem": "A healthy 28-year-old woman at 30 weeks of gestation has routine blood tests. Before pregnancy her hemoglobin was 13.5 g/dL. Results now: hemoglobin 11.4 g/dL, MCV 89 fL, reticulocyte count 1.5%, serum ferritin normal, creatinine 0.5 mg/dL, and urea nitrogen 7 mg/dL. She feels well. Which mechanism best explains the change in her hemoglobin?",
+      "choices": [
+        "Iron deficiency from transfer of iron to the fetus",
+        "Plasma volume rising more than red cell mass",
+        "Shortened red cell survival from placental hemolysis",
+        "Reduced erythropoietin from the higher glomerular filtration rate",
+        "Folate deficiency from the higher demand of pregnancy"
+      ],
+      "correct": 1,
+      "explanation": "In pregnancy, **plasma volume** rises more than **red cell mass**, so hemoglobin falls by **dilution** even though total red cell mass actually increases. Her normal MCV, normal ferritin and normal reticulocyte count fit this picture. Iron deficiency is the tempting answer because it is common in pregnancy, but it would give low ferritin and, later, small red cells. The low creatinine and urea nitrogen reflect the normal rise in **GFR**; erythropoietin actually rises in pregnancy.",
+      "explanation_pt": "Na gestação, o **volume plasmático** aumenta mais que a **massa eritrocitária**, então a hemoglobina cai por **diluição**, embora a massa total de hemácias aumente. VCM, ferritina e reticulócitos normais combinam com esse quadro. A deficiência de ferro é a resposta tentadora porque é comum na gestação, mas daria ferritina baixa e, depois, hemácias pequenas. Creatinina e nitrogênio ureico baixos refletem o aumento normal da **TFG**; a eritropoetina na verdade aumenta na gestação."
+    },
+    {
+      "slug": "q-female-reproductive-physiology-qx-retained-placenta-lactation",
+      "track": "step1",
+      "system": "reproductive",
+      "discipline": "physiology",
+      "tags": [
+        "female-reproductive-physiology",
+        "lactation",
+        "placenta",
+        "progesterone"
+      ],
+      "stem": "A 29-year-old woman delivered a healthy baby 6 days ago. The placenta came out in pieces. She has tried to breastfeed every 2 to 3 hours, but her breasts have stayed soft and no milk has come in. She has ongoing vaginal bleeding. Ultrasound shows placental tissue still in the uterus. Her serum prolactin is high. Which hormone is most likely preventing milk production?",
+      "choices": [
+        "Estriol",
+        "Oxytocin",
+        "Dopamine",
+        "Progesterone",
+        "Human chorionic gonadotropin"
+      ],
+      "correct": 3,
+      "explanation": "During pregnancy, high **progesterone** blocks the action of prolactin on the breast, so milk production starts only after the placenta is delivered and progesterone falls; retained placental tissue keeps progesterone up and **delays lactogenesis** despite high prolactin. Estriol is the tempting answer, but the placenta can make estriol only from **fetal** adrenal androgens, so after delivery it stops, while progesterone is still made from maternal cholesterol. Dopamine inhibits prolactin release, but her prolactin is already high, so the problem is at the breast. Oxytocin causes **milk ejection** (letdown) from myoepithelial cells, not milk production.",
+      "explanation_pt": "Durante a gestação, a **progesterona** alta bloqueia a ação da prolactina na mama, então a produção de leite só começa após a saída da placenta e a queda da progesterona; restos placentários mantêm a progesterona elevada e **retardam a lactogênese**, apesar da prolactina alta. O estriol é a resposta tentadora, mas a placenta só produz estriol a partir de andrógenos da suprarrenal **fetal**, então ele cessa após o parto, enquanto a progesterona continua sendo produzida a partir do colesterol materno. A dopamina inibe a liberação de prolactina, mas a prolactina dela já está alta, então o problema está na mama. A ocitocina causa a **ejeção do leite** pelas células mioepiteliais, não a produção."
+    },
+    {
+      "slug": "q-female-reproductive-physiology-qx-placental-estriol-synthesis",
+      "track": "step1",
+      "system": "reproductive",
+      "discipline": "physiology",
+      "tags": [
+        "female-reproductive-physiology",
+        "placenta",
+        "pregnancy",
+        "steroidogenesis"
+      ],
+      "stem": "A 26-year-old woman at 20 weeks of gestation has a maternal serum screening test. Her unconjugated estriol is far below the expected range. Ultrasound shows a fetus without a skull vault or cerebral hemispheres. The fetal adrenal glands are very small. The placenta has the enzymes to make progesterone from cholesterol, but it depends on the fetus for the androgen it turns into estriol. Which enzyme activity does the placenta lack?",
+      "choices": [
+        "Aromatase",
+        "17α-hydroxylase/17,20-lyase",
+        "3β-hydroxysteroid dehydrogenase",
+        "Cholesterol side-chain cleavage",
+        "Steroid sulfatase"
+      ],
+      "correct": 1,
+      "explanation": "The placenta lacks **17α-hydroxylase/17,20-lyase (CYP17)**, so it cannot turn progesterone into androgens. Instead, the **fetal adrenal** makes **DHEA-S**, the **fetal liver** 16α-hydroxylates it, and the placenta removes the sulfate and **aromatizes** the product into **estriol**. With **anencephaly**, there is little fetal ACTH, the fetal adrenals stay small, and estriol is low. Steroid sulfatase is the tempting answer because its rare deficiency also lowers estriol, but a normal placenta has it, and here the small fetal adrenals explain the low estriol; aromatase is also present and performs the final step.",
+      "explanation_pt": "A placenta não tem **17α-hidroxilase/17,20-liase (CYP17)**, então não transforma progesterona em andrógenos. Em vez disso, a **suprarrenal fetal** produz **DHEA-S**, o **fígado fetal** o 16α-hidroxila, e a placenta remove o sulfato e **aromatiza** o produto em **estriol**. Na **anencefalia**, há pouco ACTH fetal, as suprarrenais fetais ficam pequenas e o estriol fica baixo. A sulfatase esteroide é a resposta tentadora porque sua deficiência rara também reduz o estriol, mas a placenta normal a possui, e aqui as suprarrenais fetais pequenas explicam o estriol baixo; a aromatase também está presente e faz a etapa final."
+    },
+    {
+      "slug": "q-female-reproductive-physiology-qx-lactational-amenorrhea",
+      "track": "step1",
+      "system": "reproductive",
+      "discipline": "physiology",
+      "tags": [
+        "female-reproductive-physiology",
+        "lactation",
+        "gnrh"
+      ],
+      "stem": "A 32-year-old woman delivered a healthy baby 4 months ago. She breastfeeds only, day and night, about every 3 hours. She has had no menstrual period since delivery. A pregnancy test is negative. Serum prolactin is high, and LH, FSH and estradiol are low. Thyroid function is normal. Which mechanism best explains her amenorrhea?",
+      "choices": [
+        "Prolactin suppressing pulsatile GnRH release",
+        "Oxytocin blocking LH receptors on ovarian theca cells",
+        "Loss of ovarian follicles after the pregnancy",
+        "Ischemic necrosis of the anterior pituitary after delivery",
+        "Dopamine excess inhibiting gonadotroph cells"
+      ],
+      "correct": 0,
+      "explanation": "Frequent suckling keeps **prolactin** high, and prolactin suppresses **pulsatile GnRH** release, so LH, FSH and estradiol stay low and she does not ovulate (**lactational amenorrhea**). Sheehan syndrome is the tempting answer because it also follows delivery, but pituitary necrosis would cause **low prolactin** and failure to lactate. Follicle loss would give high FSH, and dopamine actually lowers prolactin.",
+      "explanation_pt": "A sucção frequente mantém a **prolactina** alta, e a prolactina suprime a liberação **pulsátil de GnRH**, então LH, FSH e estradiol ficam baixos e ela não ovula (**amenorreia lactacional**). A síndrome de Sheehan é a resposta tentadora porque também ocorre após o parto, mas a necrose hipofisária causaria **prolactina baixa** e falha da lactação. A perda de folículos daria FSH alto, e a dopamina na verdade reduz a prolactina."
+    },
+    {
+      "slug": "q-female-reproductive-physiology-qx-hpl-maternal-metabolism",
+      "track": "step1",
+      "system": "reproductive",
+      "discipline": "physiology",
+      "tags": [
+        "female-reproductive-physiology",
+        "pregnancy",
+        "placenta",
+        "maternal-physiology"
+      ],
+      "stem": "A healthy 31-year-old woman at 32 weeks of gestation takes part in a metabolic study. Compared with her own values before pregnancy, after an overnight fast her plasma glucose is lower and her free fatty acids and ketones are higher. After a meal, her glucose and insulin both rise higher and stay up longer than before pregnancy. Which placental hormone contributes most to these changes?",
+      "choices": [
+        "Human chorionic gonadotropin",
+        "Relaxin",
+        "Corticotropin-releasing hormone",
+        "Human placental lactogen",
+        "Estriol"
+      ],
+      "correct": 3,
+      "explanation": "**Human placental lactogen (hPL)** from the syncytiotrophoblast rises through the second half of pregnancy. It causes maternal **insulin resistance**, so glucose stays higher after meals and goes to the fetus, and it promotes **lipolysis**, so the mother burns fat and makes ketones when fasting. The fetus keeps taking glucose overnight, which explains the lower fasting glucose. hCG is the tempting choice because it is the best-known placental hormone, but it peaks in the **first trimester** and its main role is to rescue the corpus luteum.",
+      "explanation_pt": "O **lactogênio placentário humano (hPL)**, do sinciciotrofoblasto, sobe ao longo da segunda metade da gestação. Ele causa **resistência à insulina** materna, então a glicose fica mais alta após as refeições e vai para o feto, e estimula a **lipólise**, então a mãe queima gordura e produz cetonas em jejum. O feto continua captando glicose durante a noite, o que explica a glicemia de jejum mais baixa. O hCG é a opção tentadora por ser o hormônio placentário mais conhecido, mas tem pico no **primeiro trimestre** e sua principal função é resgatar o corpo lúteo."
+    }
+  ],
+  "notes": []
+}

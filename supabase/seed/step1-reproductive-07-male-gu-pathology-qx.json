@@ -1,0 +1,184 @@
+{
+  "cards": [],
+  "questions": [
+    {
+      "slug": "q-male-gu-pathology-qx-yolk-sac-tumor-child",
+      "track": "step1",
+      "system": "reproductive",
+      "discipline": "pathology",
+      "tags": [
+        "male-gu-pathology",
+        "testicular-tumors",
+        "tumor-markers"
+      ],
+      "stem": "A 20-month-old boy is brought to the clinic because his mother noticed that the left side of his scrotum has grown over 6 weeks. He does not seem to be in pain. Exam shows a firm, nontender mass within the left testis that does not transilluminate. Serum alpha-fetoprotein (AFP) is far above the normal range for his age, and beta-hCG is normal. After orchiectomy, the tumor shows a lace-like network of flat cells and small structures in which a central blood vessel is wrapped by a layer of tumor cells inside a clear space. What is the most likely diagnosis?",
+      "choices": [
+        "Mature teratoma",
+        "Yolk sac tumor",
+        "Seminoma",
+        "Embryonal carcinoma",
+        "Leydig cell tumor"
+      ],
+      "correct": 1,
+      "explanation": "A testicular mass in a **toddler** with a high **AFP** and glomerulus-like structures (*Schiller-Duval bodies*) in a lace-like (reticular) pattern is a **yolk sac tumor**, the most common malignant testicular germ cell tumor of young children. Teratoma is the other common testicular tumor in young boys, but it is made of mature tissues from several germ layers (skin, cartilage, gut glands) and does not raise AFP this much. Seminoma is very rare before puberty, and embryonal carcinoma usually affects young adults.",
+      "explanation_pt": "Massa testicular em uma **criança pequena** com **AFP** alta e estruturas semelhantes a glomérulos (*corpúsculos de Schiller-Duval*) em padrão rendilhado (reticular) indica **tumor do saco vitelino**, o tumor germinativo testicular maligno mais comum em crianças pequenas. O teratoma é o outro tumor testicular comum em meninos pequenos, mas é formado por tecidos maduros de vários folhetos germinativos (pele, cartilagem, glândulas intestinais) e não eleva tanto a AFP. O seminoma é muito raro antes da puberdade, e o carcinoma embrionário costuma acometer adultos jovens."
+    },
+    {
+      "slug": "q-male-gu-pathology-qx-choriocarcinoma-gynecomastia",
+      "track": "step1",
+      "system": "reproductive",
+      "discipline": "pathology",
+      "tags": [
+        "male-gu-pathology",
+        "testicular-tumors",
+        "choriocarcinoma",
+        "gynecomastia"
+      ],
+      "stem": "A 27-year-old man has 1 month of tender enlargement of both breasts and 1 week of coughing up small amounts of blood. Exam shows a firm, painless 1.5-cm nodule in the left testis. Chest CT shows many nodules in both lungs. Laboratory results: beta-hCG 210,000 mIU/mL (normal below 5), AFP 4 ng/mL (normal below 10), estradiol high, total testosterone normal, TSH and free T4 normal, liver enzymes normal. Which mechanism best explains his breast enlargement?",
+      "choices": [
+        "hCG stimulates LH receptors, raising testicular estrogen",
+        "Tumor cells release prolactin that acts on breast tissue",
+        "Liver metastases slow the clearance of estrogen",
+        "hCG acts on TSH receptors and raises thyroid hormone",
+        "Tumor destroys Leydig cells and lowers androgen output"
+      ],
+      "correct": 0,
+      "explanation": "A very high **hCG** with a normal AFP, early **blood-borne lung metastases** and hemoptysis point to testicular **choriocarcinoma**. hCG is structurally similar to **LH**, so it stimulates Leydig cell LH receptors and increases **aromatase** activity; the higher estrogen-to-androgen ratio causes **gynecomastia**. hCG can also stimulate the TSH receptor, and hyperthyroidism can cause gynecomastia, but his TSH and free T4 are normal. His normal liver enzymes and testosterone also argue against liver failure or Leydig cell loss.",
+      "explanation_pt": "Um **hCG** muito alto com AFP normal, **metástases pulmonares hematogênicas** precoces e hemoptise indicam **coriocarcinoma** testicular. O hCG tem estrutura semelhante à do **LH**, por isso estimula os receptores de LH das células de Leydig e aumenta a atividade da **aromatase**; a maior relação estrogênio/androgênio causa **ginecomastia**. O hCG também pode estimular o receptor de TSH, e o hipertireoidismo pode causar ginecomastia, mas o TSH e o T4 livre estão normais. As enzimas hepáticas e a testosterona normais também falam contra insuficiência hepática ou perda de células de Leydig."
+    },
+    {
+      "slug": "q-male-gu-pathology-qx-leydig-cell-tumor-puberty",
+      "track": "step1",
+      "system": "reproductive",
+      "discipline": "pathology",
+      "tags": [
+        "male-gu-pathology",
+        "testicular-tumors",
+        "sex-cord-stromal"
+      ],
+      "stem": "A 7-year-old boy is evaluated because over 6 months he has grown pubic hair, his voice has deepened, his penis has enlarged and he has grown much faster than his classmates. Exam shows a firm 1.5-cm nodule in the right testis; the left testis is of prepubertal size. Laboratory results: serum testosterone in the adult male range, LH and FSH low, beta-hCG and AFP normal. The right testis is removed. Which finding is most likely on microscopy of the nodule?",
+      "choices": [
+        "Glomerulus-like structures with a central blood vessel",
+        "Small rosettes of granulosa-like cells around eosinophilic fluid",
+        "Sheets of clear cells with lymphocytes in fibrous septa",
+        "A mix of cytotrophoblasts and syncytiotrophoblasts",
+        "Polygonal cells with rod-shaped pink crystals in the cytoplasm"
+      ],
+      "correct": 4,
+      "explanation": "High testosterone with **suppressed LH and FSH** means **peripheral** (gonadotropin-independent) precocious puberty, and the source is the testicular nodule: a **Leydig cell tumor**. Its large polygonal cells with pink cytoplasm may contain *Reinke crystals*. An hCG-secreting tumor such as choriocarcinoma can also drive testosterone production through LH receptors, but his hCG is normal. Central precocious puberty would raise LH and FSH and enlarge both testes.",
+      "explanation_pt": "Testosterona alta com **LH e FSH suprimidos** indica puberdade precoce **periférica** (independente de gonadotrofinas), e a fonte é o nódulo testicular: um **tumor de células de Leydig**. Suas células grandes e poligonais, de citoplasma eosinofílico, podem conter *cristais de Reinke*. Um tumor secretor de hCG, como o coriocarcinoma, também pode estimular a produção de testosterona pelos receptores de LH, mas o hCG está normal. A puberdade precoce central elevaria LH e FSH e aumentaria os dois testículos."
+    },
+    {
+      "slug": "q-male-gu-pathology-qx-testicular-lymphoma-older-man",
+      "track": "step1",
+      "system": "reproductive",
+      "discipline": "pathology",
+      "tags": [
+        "male-gu-pathology",
+        "testicular-tumors",
+        "lymphoma"
+      ],
+      "stem": "A 69-year-old man has noticed painless enlargement of both testes over 2 months. He has also had night sweats and has lost 5 kg. Both testes are firm and enlarged. Serum AFP and beta-hCG are normal; lactate dehydrogenase is elevated. Biopsy shows sheets of large atypical cells that spread between seminiferous tubules, many of which are preserved. The atypical cells stain negative for placental alkaline phosphatase. What is the most likely diagnosis?",
+      "choices": [
+        "Seminoma",
+        "Leydig cell tumor",
+        "Large B-cell lymphoma",
+        "Embryonal carcinoma",
+        "Sertoli cell tumor"
+      ],
+      "correct": 2,
+      "explanation": "**Lymphoma** is the most common testicular tumor in men **over 60** and is often **bilateral**; most cases are **diffuse large B-cell lymphoma**, suggested here by age, bilateral disease and B symptoms. The cells typically grow between tubules and spare many of them. Seminoma also forms sheets of cells with normal AFP, but it affects younger men, is rarely bilateral at diagnosis and its cells are PLAP-positive.",
+      "explanation_pt": "O **linfoma** é o tumor testicular mais comum em homens **acima de 60 anos** e muitas vezes é **bilateral**; a maioria é **linfoma difuso de grandes células B**, aqui sugerido pela idade, pela doença bilateral e pelos sintomas B. As células costumam crescer entre os túbulos e poupar muitos deles. O seminoma também forma lençóis de células com AFP normal, mas acomete homens mais jovens, raramente é bilateral ao diagnóstico, e suas células são PLAP positivas."
+    },
+    {
+      "slug": "q-male-gu-pathology-qx-acute-prostatitis-organism",
+      "track": "step1",
+      "system": "reproductive",
+      "discipline": "pathology",
+      "tags": [
+        "male-gu-pathology",
+        "prostate",
+        "prostatitis"
+      ],
+      "stem": "A 61-year-old man has 2 days of fever, chills, burning on urination, frequency and pain between the scrotum and anus. He has one long-term sexual partner. Temperature is 39.2°C. Gentle digital rectal exam shows a warm, boggy and very tender prostate. Laboratory results: leukocyte count 16,500/mm3 with mostly neutrophils; urinalysis with many leukocytes and positive nitrite; serum PSA, drawn before the rectal exam, markedly elevated. Which organism most likely caused this condition?",
+      "choices": [
+        "Chlamydia trachomatis",
+        "Staphylococcus saprophyticus",
+        "Neisseria gonorrhoeae",
+        "Escherichia coli",
+        "Mycobacterium tuberculosis"
+      ],
+      "correct": 3,
+      "explanation": "Fever, dysuria, perineal pain and a **warm, tender, boggy prostate** are **acute bacterial prostatitis**. In older men it is usually caused by **E. coli** and other gram-negative rods that ascend from the urethra; a **positive nitrite** fits, because these bacteria reduce nitrate to nitrite. *C. trachomatis* and *N. gonorrhoeae* are the main concern in young, sexually active men and do not make the nitrite test positive. The high PSA comes from the inflamed gland and does not mean cancer.",
+      "explanation_pt": "Febre, disúria, dor perineal e **próstata quente, dolorosa e amolecida** (*boggy*) indicam **prostatite bacteriana aguda**. No homem mais velho, costuma ser causada por **E. coli** e outros bacilos gram-negativos que ascendem pela uretra; o **nitrito positivo** é compatível, pois essas bactérias reduzem nitrato a nitrito. *C. trachomatis* e *N. gonorrhoeae* são a principal preocupação em homens jovens sexualmente ativos e não tornam o nitrito positivo. O PSA alto vem da glândula inflamada e não indica câncer."
+    },
+    {
+      "slug": "q-male-gu-pathology-qx-penile-scc-hpv",
+      "track": "step1",
+      "system": "reproductive",
+      "discipline": "pathology",
+      "tags": [
+        "male-gu-pathology",
+        "penis",
+        "squamous-cell-carcinoma"
+      ],
+      "stem": "A 66-year-old man has a painless sore on the penis that has slowly grown over 5 months. He has never been circumcised and has not been able to pull back his foreskin fully for years. Exam shows a 2-cm firm, ulcerated, warty mass on the glans and firm, enlarged lymph nodes in both groins. Biopsy shows nests of atypical squamous cells with keratin pearls that invade the underlying tissue. Infection with which agent is most strongly linked to this tumor?",
+      "choices": [
+        "Herpes simplex virus type 2",
+        "Human papillomavirus",
+        "Treponema pallidum",
+        "Klebsiella granulomatis",
+        "Haemophilus ducreyi"
+      ],
+      "correct": 1,
+      "explanation": "Invasive nests of keratinizing atypical squamous cells mean **squamous cell carcinoma of the penis**, which spreads to the **inguinal nodes**. A large share of cases is linked to **high-risk HPV** (types **16** and **18**), and lack of circumcision and **phimosis** (retained smegma, chronic inflammation) add risk. *Klebsiella granulomatis* causes granuloma inguinale, a painless, beefy-red ulcer that can look like cancer, but its biopsy shows macrophages with *Donovan bodies*, not malignant squamous cells.",
+      "explanation_pt": "Ninhos invasivos de células escamosas atípicas queratinizadas indicam **carcinoma espinocelular do pênis**, que se dissemina para os **linfonodos inguinais**. Uma grande parte dos casos está ligada ao **HPV de alto risco** (tipos **16** e **18**), e a falta de circuncisão e a **fimose** (retenção de esmegma, inflamação crônica) aumentam o risco. A *Klebsiella granulomatis* causa a donovanose (granuloma inguinal), uma úlcera indolor, vermelho-viva e de aspecto carnoso, que pode parecer câncer, mas a biópsia mostra macrófagos com *corpúsculos de Donovan*, e não células escamosas malignas."
+    },
+    {
+      "slug": "q-male-gu-pathology-qx-peyronie-plaque",
+      "track": "step1",
+      "system": "reproductive",
+      "discipline": "pathology",
+      "tags": [
+        "male-gu-pathology",
+        "penis",
+        "peyronie-disease"
+      ],
+      "stem": "A 57-year-old man with type 2 diabetes has noticed over 6 months that his penis bends upward during erection. Erections were painful at first; now the bend makes intercourse difficult. Exam of the flaccid penis shows a firm, nontender, flat area of thickening on the upper (dorsal) shaft. He also has thick cords in both palms that keep his ring fingers partly bent. Which process best explains the penile finding?",
+      "choices": [
+        "Fibrous plaque formation in the tunica albuginea",
+        "Thrombosis of the superficial dorsal penile vein",
+        "Squamous carcinoma invading the corpus spongiosum",
+        "Scarring of the urethra after gonococcal urethritis",
+        "Chronic Candida inflammation of the glans and foreskin"
+      ],
+      "correct": 0,
+      "explanation": "A curved, at first painful erection with a palpable plaque is **Peyronie disease**: fibroblast proliferation and collagen deposition form a **fibrous plaque in the tunica albuginea**, which cannot stretch, so the penis bends toward the plaque. It is linked to **Dupuytren contracture** (the palmar cords), another fibroproliferative disorder, and to diabetes. Thrombosis of the dorsal vein (penile Mondor disease) causes a tender cord-like vein under the skin, not curvature from a plaque in the erectile sheath.",
+      "explanation_pt": "Ereção curva, inicialmente dolorosa, com placa palpável indica **doença de Peyronie**: proliferação de fibroblastos e depósito de colágeno formam uma **placa fibrosa na túnica albugínea**, que não se distende, e o pênis se curva para o lado da placa. Ela se associa à **contratura de Dupuytren** (os cordões palmares), outro distúrbio fibroproliferativo, e ao diabetes. A trombose da veia dorsal (doença de Mondor peniana) causa um cordão venoso doloroso sob a pele, e não curvatura por placa na bainha dos corpos cavernosos."
+    },
+    {
+      "slug": "q-male-gu-pathology-qx-gleason-architecture",
+      "track": "step1",
+      "system": "reproductive",
+      "discipline": "pathology",
+      "tags": [
+        "male-gu-pathology",
+        "prostate",
+        "prostate-cancer",
+        "grading"
+      ],
+      "stem": "A 66-year-old man has a serum PSA that has risen on three tests over 2 years. Digital rectal exam shows a firm area on the posterior prostate. Needle biopsy of the peripheral zone shows small, crowded glands that invade between normal glands; they have lost their basal cell layer, and their nuclei have prominent nucleoli. The pathologist reports a Gleason score. On which feature of the tumor is this score based?",
+      "choices": [
+        "Number of mitoses in each high-power field",
+        "Degree of nuclear size and shape variation",
+        "Architectural pattern of the tumor glands",
+        "Depth of tumor invasion into the capsule",
+        "Size of the largest single tumor focus"
+      ],
+      "correct": 2,
+      "explanation": "The **Gleason** system grades prostate adenocarcinoma by the **architectural pattern of its glands** at low magnification, from well-formed separate glands to fused glands, sheets and single cells; the score adds the two main patterns (primary and secondary). Most other grading systems rely heavily on **nuclear pleomorphism**, but Gleason grading does not use nuclear features. Capsule invasion and tumor size describe **stage** (extent of spread), not grade.",
+      "explanation_pt": "O sistema de **Gleason** gradua o adenocarcinoma de próstata pelo **padrão arquitetural das glândulas** em pequeno aumento, desde glândulas bem formadas e separadas até glândulas fundidas, lençóis e células isoladas; o escore soma os dois padrões principais (primário e secundário). A maioria dos outros sistemas de graduação se baseia muito no **pleomorfismo nuclear**, mas a graduação de Gleason não usa características nucleares. A invasão da cápsula e o tamanho do tumor descrevem o **estadiamento** (extensão da doença), e não o grau."
+    }
+  ],
+  "notes": []
+}

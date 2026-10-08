@@ -1,0 +1,183 @@
+{
+  "cards": [],
+  "questions": [
+    {
+      "slug": "q-reproductive-anatomy-embryology-qx-swyer-syndrome",
+      "track": "step1",
+      "system": "reproductive",
+      "discipline": "pathology",
+      "tags": [
+        "reproductive-anatomy-embryology",
+        "disorders-of-sex-development",
+        "gonadal-dysgenesis"
+      ],
+      "stem": "A 16-year-old girl is evaluated because she has never had a menstrual period and has no breast development. She is 165 cm tall and has no webbed neck or other dysmorphic features. External genitalia are normal female, and pelvic ultrasound shows a small uterus of normal shape. Laboratory studies show: karyotype 46,XY; FSH high; LH high; estradiol undetectable; testosterone low, in the female range. Laparoscopy shows a thin band of fibrous tissue in place of each gonad. Which mechanism best explains her findings?",
+      "choices": [
+        "A nonfunctional androgen receptor in androgen target tissues",
+        "Absent 5α-reductase activity in genital skin",
+        "Loss of one sex chromosome during meiosis",
+        "Failure of testis determination in the bipotential gonad",
+        "Failure of the paramesonephric ducts to develop"
+      ],
+      "correct": 3,
+      "explanation": "This is **46,XY complete gonadal dysgenesis (Swyer syndrome)**, for example from an **SRY** mutation: the bipotential gonad never becomes a testis and remains a **streak gonad**. With no Sertoli cells there is no AMH, so the uterus forms; with no Leydig cells there is no testosterone, so the external genitalia are female; with no estrogen the breasts do not develop and FSH and LH rise. **Androgen insensitivity** is the tempting choice, but those testes make AMH (so there is no uterus) and male-range testosterone that aromatase turns into estrogen (so the breasts develop). Streak gonads that contain Y material carry a high risk of **gonadoblastoma**, so they are removed.",
+      "explanation_pt": "Trata-se de **disgenesia gonadal completa 46,XY (síndrome de Swyer)**, por exemplo, por mutação do **SRY**: a gônada bipotencial nunca vira testículo e permanece como **gônada em fita**. Sem células de Sertoli não há AMH, então o útero se forma; sem células de Leydig não há testosterona, então a genitália externa é feminina; sem estrogênio as mamas não se desenvolvem e o FSH e o LH sobem. A **insensibilidade androgênica** é a opção tentadora, mas nela os testículos produzem AMH (por isso não há útero) e testosterona na faixa masculina, que a aromatase converte em estrogênio (por isso as mamas se desenvolvem). Gônadas em fita com material do Y têm alto risco de **gonadoblastoma**, por isso são retiradas."
+    },
+    {
+      "slug": "q-reproductive-anatomy-embryology-qx-persistent-mullerian-duct",
+      "track": "step1",
+      "system": "reproductive",
+      "discipline": "embryology",
+      "tags": [
+        "reproductive-anatomy-embryology",
+        "disorders-of-sex-development",
+        "anti-mullerian-hormone"
+      ],
+      "stem": "A 2-year-old boy has surgery for a right inguinal hernia. His penis and scrotum look normal, and the left testis is in the scrotum. Inside the hernia sac, the surgeon finds the right testis together with a small uterus and a fallopian tube. A normal vas deferens runs beside the uterus on each side. Laboratory studies show: karyotype 46,XY; testosterone and LH normal for age. Which mechanism best explains these findings?",
+      "choices": [
+        "Failed anti-Müllerian hormone signaling",
+        "Absent testosterone secretion by fetal Leydig cells",
+        "Deficient conversion of testosterone to dihydrotestosterone",
+        "Loss-of-function mutation of the SRY gene",
+        "Excess androgen production by the fetal adrenal cortex"
+      ],
+      "correct": 0,
+      "explanation": "This is **persistent Müllerian duct syndrome**: a 46,XY boy with normal male external genitalia and Wolffian structures, but the **paramesonephric ducts** did not regress, so a uterus and tubes are present. The cause is a defect in the **AMH gene** of the Sertoli cells (serum AMH low) or in the **AMH receptor** (serum AMH normal or high). Leydig cell failure is the tempting choice, but the normal penis and the vas deferens show that fetal testosterone and DHT worked. The uterus often pulls a testis into the inguinal canal, so these boys present with hernia or cryptorchidism.",
+      "explanation_pt": "Trata-se da **síndrome de persistência dos ductos de Müller**: menino 46,XY com genitália externa masculina e estruturas de Wolff normais, mas os **ductos paramesonéfricos** não regrediram, então há útero e tubas. A causa é um defeito no **gene do AMH** das células de Sertoli (AMH sérico baixo) ou no **receptor do AMH** (AMH sérico normal ou alto). A falha das células de Leydig é a opção tentadora, mas o pênis normal e o ducto deferente mostram que a testosterona e a DHT fetais funcionaram. O útero muitas vezes puxa um testículo para o canal inguinal, então esses meninos se apresentam com hérnia ou criptorquidia."
+    },
+    {
+      "slug": "q-reproductive-anatomy-embryology-qx-mullerian-agenesis-kidney",
+      "track": "step1",
+      "system": "reproductive",
+      "discipline": "embryology",
+      "tags": [
+        "reproductive-anatomy-embryology",
+        "mullerian-agenesis",
+        "renal-anomalies",
+        "primary-amenorrhea"
+      ],
+      "stem": "A 16-year-old girl has never had a menstrual period. She is of average height, and her breast development and pubic and axillary hair are normal for her age. The vagina is short and ends in a blind pouch. Pelvic MRI shows two normal ovaries but no uterus. Laboratory studies show: karyotype 46,XX; FSH and LH normal; estradiol normal for a woman of reproductive age; total testosterone in the normal female range. Further imaging is most likely to show which additional finding?",
+      "choices": [
+        "Coarctation of the aorta",
+        "Bilateral testes in the inguinal canals",
+        "Absent olfactory bulbs",
+        "Bilateral adrenal hyperplasia",
+        "Absence of one kidney"
+      ],
+      "correct": 4,
+      "explanation": "This is **Müllerian agenesis (MRKH)**: the paramesonephric ducts fail, so the uterus and upper vagina are missing, but the ovaries come from the gonadal ridge, so hormones and puberty are normal. The paramesonephric ducts form next to the mesonephric ducts and need them to grow, so **kidney anomalies** such as unilateral renal agenesis or a pelvic kidney are common, and the kidneys should be imaged. Inguinal testes are the tempting choice because **androgen insensitivity** also causes a blind vagina without a uterus, but those patients are 46,XY with sparse pubic hair and male-range testosterone. Aortic coarctation fits Turner syndrome, which causes short stature and absent puberty.",
+      "explanation_pt": "Trata-se de **agenesia mülleriana (MRKH)**: os ductos paramesonéfricos falham, então faltam o útero e a parte superior da vagina, mas os ovários vêm da crista gonadal, então os hormônios e a puberdade são normais. Os ductos paramesonéfricos se formam ao lado dos ductos mesonéfricos e dependem deles para crescer, por isso **anomalias renais** como agenesia renal unilateral ou rim pélvico são comuns, e os rins devem ser avaliados por imagem. Testículos inguinais são a opção tentadora porque a **insensibilidade androgênica** também causa vagina em fundo cego sem útero, mas essas pacientes são 46,XY, com pelos pubianos escassos e testosterona na faixa masculina. A coarctação da aorta combina com a síndrome de Turner, que causa baixa estatura e ausência de puberdade."
+    },
+    {
+      "slug": "q-reproductive-anatomy-embryology-qx-epispadias-exstrophy",
+      "track": "step1",
+      "system": "reproductive",
+      "discipline": "embryology",
+      "tags": [
+        "reproductive-anatomy-embryology",
+        "external-genitalia",
+        "bladder-exstrophy"
+      ],
+      "stem": "A newborn boy has an open defect in the lower abdominal wall. The red, moist mucosa of the back wall of the bladder is exposed, and urine drips from it. The pubic bones are widely separated. The penis is short and broad, and the urethra opens as a groove along its upper (dorsal) surface. Which developmental error best explains the position of the urethral opening?",
+      "choices": [
+        "Failure of the urethral folds to fuse on the ventral penis",
+        "Formation of the genital tubercle too far caudally",
+        "Persistence of the allantois as a patent urachus",
+        "Failure of the labioscrotal swellings to fuse",
+        "Incomplete regression of the paramesonephric ducts"
+      ],
+      "correct": 1,
+      "explanation": "A dorsal urethral opening is **epispadias**, which comes from a **genital tubercle** that forms too far caudally, so the urethral groove ends up on the upper surface. It is part of the **exstrophy-epispadias complex**, in which the lower abdominal wall fails to close over the bladder. Failure of the **urethral folds** to fuse is the tempting choice, but it causes **hypospadias**, with the opening on the ventral side. A patent urachus leaks urine at the umbilicus, not through an exposed bladder.",
+      "explanation_pt": "Meato uretral dorsal é **epispádia**, que resulta de um **tubérculo genital** formado em posição muito caudal, de modo que o sulco uretral fica na face superior. Faz parte do **complexo extrofia-epispádia**, em que a parede abdominal inferior não se fecha sobre a bexiga. A falha de fusão das **pregas uretrais** é a opção tentadora, mas causa **hipospádia**, com o meato na face ventral. O úraco persistente vaza urina pelo umbigo, não por uma bexiga exposta."
+    },
+    {
+      "slug": "q-reproductive-anatomy-embryology-qx-bartholin-homolog",
+      "track": "step1",
+      "system": "reproductive",
+      "discipline": "embryology",
+      "tags": [
+        "reproductive-anatomy-embryology",
+        "genital-homologues",
+        "urogenital-sinus"
+      ],
+      "stem": "A 26-year-old woman has had 3 days of pain and swelling at the vaginal opening. Exam shows a tender, fluctuant 3-cm mass in the posterior part of the right labium minus, beside the vaginal opening. The duct opens into the vestibule. Drainage gives thick pus. The gland involved develops from the same embryologic tissue as which male structure?",
+      "choices": [
+        "Prostate",
+        "Seminal vesicle",
+        "Bulbourethral gland",
+        "Glans penis",
+        "Ampulla of the vas deferens"
+      ],
+      "correct": 2,
+      "explanation": "This is an abscess of a **Bartholin (greater vestibular) gland**. Bartholin glands and **bulbourethral glands** both bud from the **urogenital sinus** and both release mucus during sexual arousal. The prostate is the tempting choice because it also comes from the urogenital sinus, but its female homologue is the **paraurethral (Skene) glands**, which open beside the urethral meatus. The seminal vesicles and the ampulla of the vas deferens come from the mesonephric duct, and the glans penis matches the glans of the clitoris.",
+      "explanation_pt": "Trata-se de abscesso de **glândula de Bartholin (vestibular maior)**. As glândulas de Bartholin e as **glândulas bulbouretrais** brotam do **seio urogenital** e ambas liberam muco durante a excitação sexual. A próstata é a opção tentadora porque também vem do seio urogenital, mas sua homóloga feminina são as **glândulas parauretrais (de Skene)**, que se abrem ao lado do meato uretral. As glândulas seminais e a ampola do ducto deferente vêm do ducto mesonéfrico, e a glande do pênis corresponde à glande do clitóris."
+    },
+    {
+      "slug": "q-reproductive-anatomy-embryology-qx-vulvar-lymph-drainage",
+      "track": "step1",
+      "system": "reproductive",
+      "discipline": "anatomy",
+      "tags": [
+        "reproductive-anatomy-embryology",
+        "lymphatic-drainage",
+        "vulva"
+      ],
+      "stem": "A 72-year-old woman has a 2-cm ulcerated mass on the right labium majus. Biopsy shows invasive squamous cell carcinoma. The tumor does not reach the vagina or the urethra. If the cancer has spread through lymphatics, which lymph node group is most likely to be involved first?",
+      "choices": [
+        "Internal iliac (hypogastric) nodes",
+        "Superficial inguinal nodes",
+        "Para-aortic nodes",
+        "Obturator nodes",
+        "Presacral nodes"
+      ],
+      "correct": 1,
+      "explanation": "The vulva, the perineal skin and the vagina below the hymen drain first to the **superficial inguinal nodes**, then to the deep inguinal and pelvic nodes; so groin nodes are examined and sampled in vulvar cancer. **Para-aortic** nodes are the tempting choice, but they drain the **ovary** (and testis), whose lymphatics follow the gonadal vessels back to their origin near the kidneys. Internal iliac and obturator nodes receive lymph from the cervix and the upper vagina, not from the labia.",
+      "explanation_pt": "A vulva, a pele do períneo e a vagina abaixo do hímen drenam primeiro para os **linfonodos inguinais superficiais**, depois para os inguinais profundos e os pélvicos; por isso os linfonodos da virilha são examinados e amostrados no câncer de vulva. Os linfonodos **para-aórticos** são a opção tentadora, mas drenam o **ovário** (e o testículo), cujos linfáticos seguem os vasos gonadais até a origem deles, perto dos rins. Os linfonodos ilíacos internos e obturadores recebem linfa do colo uterino e da parte superior da vagina, não dos lábios."
+    },
+    {
+      "slug": "q-reproductive-anatomy-embryology-qx-pudendal-block-landmark",
+      "track": "step1",
+      "system": "reproductive",
+      "discipline": "anatomy",
+      "tags": [
+        "reproductive-anatomy-embryology",
+        "pudendal-nerve",
+        "labor-analgesia"
+      ],
+      "stem": "A 28-year-old woman in the second stage of labor needs a forceps delivery and has no epidural. The physician places two fingers in the vagina and feels a bony point on the side wall of the pelvis on each side. Local anesthetic is injected through the vaginal wall just medial to and behind each of these points. Afterward the perineum and lower vagina are numb, but she still feels her uterine contractions. Which landmark guided the injections?",
+      "choices": [
+        "Ischial tuberosity",
+        "Sacral promontory",
+        "Ischial spine",
+        "Pubic symphysis",
+        "Tip of the coccyx"
+      ],
+      "correct": 2,
+      "explanation": "The **pudendal nerve** (S2-S4) leaves the pelvis through the greater sciatic foramen, curves around the **ischial spine** and the sacrospinous ligament, passes through the lesser sciatic foramen and enters the pudendal (Alcock) canal; the ischial spine is easy to feel through the vaginal wall. The block numbs the perineum and lower vagina, but pain from uterine contractions travels in visceral afferent fibers to **T10-L1**, so contractions are still felt. The ischial tuberosity is the tempting choice, but it is the lower bone we sit on, below the point where the nerve turns around the spine.",
+      "explanation_pt": "O **nervo pudendo** (S2-S4) sai da pelve pelo forame isquiático maior, contorna a **espinha isquiática** e o ligamento sacroespinal, passa pelo forame isquiático menor e entra no canal pudendo (de Alcock); a espinha isquiática é fácil de palpar pela parede vaginal. O bloqueio anestesia o períneo e a parte inferior da vagina, mas a dor das contrações uterinas segue por fibras aferentes viscerais até **T10-L1**, então as contrações continuam sendo sentidas. A tuberosidade isquiática é a opção tentadora, mas é o osso mais baixo, sobre o qual sentamos, abaixo do ponto em que o nervo contorna a espinha."
+    },
+    {
+      "slug": "q-reproductive-anatomy-embryology-qx-communicating-hydrocele",
+      "track": "step1",
+      "system": "reproductive",
+      "discipline": "embryology",
+      "tags": [
+        "reproductive-anatomy-embryology",
+        "testicular-descent",
+        "hydrocele"
+      ],
+      "stem": "A 4-month-old boy is brought to the clinic because his right scrotum is swollen. His parents say the swelling is small in the morning and larger in the evening and after he cries. Exam shows a soft, nontender scrotal mass that glows when a light is held against it. Both testes are normal in size and in the scrotum, and no bowel sounds are heard over the mass. Failure of which embryologic structure to close best explains this finding?",
+      "choices": [
+        "Gubernaculum",
+        "Urachus",
+        "Paramesonephric duct",
+        "Mesonephric duct",
+        "Processus vaginalis"
+      ],
+      "correct": 4,
+      "explanation": "This is a **communicating hydrocele**. The **processus vaginalis** is a pouch of peritoneum that goes ahead of the testis through the inguinal canal; it normally closes and leaves only the tunica vaginalis around the testis. When it stays open, peritoneal fluid moves in and out, so the size changes during the day; a wider opening lets bowel through, which is an **indirect inguinal hernia**. The gubernaculum is the tempting choice, but it guides testicular descent, and its failure would leave the testis outside the scrotum (cryptorchidism).",
+      "explanation_pt": "Trata-se de **hidrocele comunicante**. O **processo vaginal** é uma bolsa de peritônio que precede o testículo pelo canal inguinal; normalmente ele se fecha e deixa apenas a túnica vaginal em volta do testículo. Quando continua aberto, o líquido peritoneal entra e sai, então o tamanho varia ao longo do dia; uma abertura mais larga deixa passar alças intestinais, o que é uma **hérnia inguinal indireta**. O gubernáculo é a opção tentadora, mas ele guia a descida do testículo, e sua falha deixaria o testículo fora do escroto (criptorquidia)."
+    }
+  ],
+  "notes": []
+}

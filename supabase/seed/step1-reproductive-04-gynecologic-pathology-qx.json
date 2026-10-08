@@ -1,0 +1,182 @@
+{
+  "cards": [],
+  "questions": [
+    {
+      "slug": "q-gynecologic-pathology-qx-cervical-cancer-ureters",
+      "track": "step1",
+      "system": "reproductive",
+      "discipline": "pathology",
+      "tags": [
+        "gynecologic-pathology",
+        "cervix",
+        "cervical-carcinoma"
+      ],
+      "stem": "A 52-year-old woman has never had cervical screening. She has had bleeding after intercourse for 1 year. Exam shows a large, friable cervical mass that is fixed to both pelvic side walls. For 2 weeks she has had fatigue, nausea and very little urine. Four months ago her serum creatinine was 0.9 mg/dL. Today: BUN 92 mg/dL, creatinine 5.8 mg/dL, potassium 6.1 mEq/L. A bladder catheter drains only 40 mL of urine. Ultrasound shows dilated renal pelvises and calyces in both kidneys. What is the most likely mechanism of her kidney failure?",
+      "choices": [
+        "Immune complex deposition in the glomeruli",
+        "Tumor cells infiltrating both renal cortices",
+        "Obstruction of the bladder outlet by tumor at the urethra",
+        "Compression of both ureters by tumor in the parametria",
+        "Tubular necrosis caused by low renal blood flow"
+      ],
+      "correct": 3,
+      "explanation": "Advanced **cervical carcinoma** spreads sideways into the **parametria** and surrounds the **ureters** as they pass beside the cervix. Obstruction of both ureters causes **bilateral hydronephrosis** and postrenal kidney failure, a classic cause of death in this cancer. Bladder outlet obstruction is the tempting choice, but the bladder would be full; here the catheter finds an almost empty bladder, so the block is above it.",
+      "explanation_pt": "O **carcinoma de colo do útero** avançado se estende lateralmente para os **paramétrios** e envolve os **ureteres** no trajeto ao lado do colo. A obstrução dos dois ureteres causa **hidronefrose bilateral** e insuficiência renal pós-renal, uma causa clássica de morte nesse câncer. A obstrução da saída da bexiga é a alternativa tentadora, mas a bexiga estaria cheia; aqui a sonda encontra a bexiga quase vazia, então a obstrução está acima dela."
+    },
+    {
+      "slug": "q-gynecologic-pathology-qx-serous-endometrial-tp53",
+      "track": "step1",
+      "system": "reproductive",
+      "discipline": "pathology",
+      "tags": [
+        "gynecologic-pathology",
+        "endometrium",
+        "endometrial-carcinoma"
+      ],
+      "stem": "A 73-year-old woman has vaginal bleeding. Her menopause was at age 50, and she has never taken hormones. Her BMI is 21 kg/m2. A hysterectomy is done. The tumor is made of very atypical cells in papillary clusters with slit-like spaces and scattered psammoma bodies. The endometrium around the tumor is thin and atrophic. Tumor deposits are already present on the omentum. Which genetic change is most likely in this tumor?",
+      "choices": [
+        "Loss of PTEN function",
+        "Mutation of TP53",
+        "Microsatellite instability from MLH1 silencing",
+        "Activating mutation of BRAF",
+        "Activating mutation of KRAS"
+      ],
+      "correct": 1,
+      "explanation": "An older, thin woman with no estrogen excess, an **atrophic** background endometrium, papillary architecture with **psammoma bodies** and early spread fits **serous endometrial carcinoma**. Its key early event is a **TP53** mutation, often starting in a tiny precursor on the atrophic surface. Loss of **PTEN** is the tempting choice, but it is the typical change of the estrogen-driven **endometrioid** type, which arises from atypical hyperplasia.",
+      "explanation_pt": "Mulher idosa e magra, sem excesso de estrogênio, com endométrio de fundo **atrófico**, arquitetura papilar com **corpos psamomatosos** e disseminação precoce corresponde a **carcinoma seroso do endométrio**. O evento precoce principal é a mutação do **TP53**, muitas vezes começando em um pequeno precursor na superfície atrófica. A perda do **PTEN** é a alternativa tentadora, mas é a alteração típica do tipo **endometrioide**, dependente de estrogênio, que surge de hiperplasia atípica."
+    },
+    {
+      "slug": "q-gynecologic-pathology-qx-endometrioid-pten",
+      "track": "step1",
+      "system": "reproductive",
+      "discipline": "pathology",
+      "tags": [
+        "gynecologic-pathology",
+        "endometrium",
+        "endometrial-carcinoma"
+      ],
+      "stem": "A 59-year-old woman has had light vaginal bleeding for 1 month. Her last menstrual period was 8 years ago, and she takes no hormones. Her BMI is 42 kg/m2, and she has type 2 diabetes. Endometrial biopsy shows a well-differentiated endometrioid adenocarcinoma next to areas of atypical hyperplasia. Which genetic change is most likely in this tumor?",
+      "choices": [
+        "Mutation of TP53",
+        "Amplification of ERBB2 (HER2)",
+        "Loss of PTEN function",
+        "Loss of BRCA1 function",
+        "Activating mutation of BRAF"
+      ],
+      "correct": 2,
+      "explanation": "Severe obesity after menopause gives **unopposed estrogen** from **aromatization** of androstenedione to estrone in fat. This drives **atypical hyperplasia** and then well-differentiated **endometrioid carcinoma**. The most common genetic change in this pathway is loss of the tumor suppressor **PTEN**, which often appears already in the hyperplasia. TP53 mutation is the tempting choice, but it is typical of **serous carcinoma** in thin older women with an atrophic endometrium.",
+      "explanation_pt": "A obesidade grave após a menopausa gera **estrogênio sem oposição** pela **aromatização** da androstenediona em estrona no tecido adiposo. Isso leva a **hiperplasia atípica** e depois a **carcinoma endometrioide** bem diferenciado. A alteração genética mais comum nessa via é a perda do supressor tumoral **PTEN**, muitas vezes já presente na hiperplasia. A mutação do TP53 é a alternativa tentadora, mas é típica do **carcinoma seroso** em mulheres idosas e magras com endométrio atrófico."
+    },
+    {
+      "slug": "q-gynecologic-pathology-qx-meigs-fibroma",
+      "track": "step1",
+      "system": "reproductive",
+      "discipline": "pathology",
+      "tags": [
+        "gynecologic-pathology",
+        "ovary",
+        "sex-cord-stromal-tumors"
+      ],
+      "stem": "A 63-year-old woman has 2 months of abdominal swelling and shortness of breath. Exam shows ascites, dullness at the right lung base and a firm right adnexal mass. Imaging shows a 10-cm solid right ovarian mass and a right pleural effusion. Cytology of the pleural fluid and the ascitic fluid shows no malignant cells. At surgery, the mass is smooth and white on cut section, and there are no peritoneal implants. After the mass is removed, the ascites and the effusion go away within weeks. Which histologic finding is most likely in the mass?",
+      "choices": [
+        "Bundles of bland spindle cells that produce collagen",
+        "Papillary fronds with psammoma bodies",
+        "Signet-ring cells within a cellular stroma",
+        "Small cells arranged around eosinophilic Call-Exner bodies",
+        "Cysts lined by tall mucin-filled columnar cells"
+      ],
+      "correct": 0,
+      "explanation": "A solid ovarian mass with **ascites** and a **right pleural effusion** that both resolve after removal of the tumor is **Meigs syndrome**, most often due to an **ovarian fibroma**: a benign sex cord-stromal tumor of bland spindle fibroblasts. Serous carcinoma is the tempting choice because ascites and an effusion suggest spread, but the fluids have no malignant cells, there are no implants, and the fluids clear after surgery. Signet-ring cells would suggest a metastatic (Krukenberg) tumor.",
+      "explanation_pt": "Massa ovariana sólida com **ascite** e **derrame pleural à direita** que desaparecem após a retirada do tumor é a **síndrome de Meigs**, causada mais frequentemente por um **fibroma ovariano**: tumor benigno do cordão sexual-estroma, formado por fibroblastos fusiformes sem atipia. O carcinoma seroso é a alternativa tentadora, pois ascite e derrame sugerem disseminação, mas os líquidos não têm células malignas, não há implantes e eles somem após a cirurgia. Células em anel de sinete sugeririam um tumor metastático (de Krukenberg)."
+    },
+    {
+      "slug": "q-gynecologic-pathology-qx-struma-ovarii",
+      "track": "step1",
+      "system": "reproductive",
+      "discipline": "pathology",
+      "tags": [
+        "gynecologic-pathology",
+        "ovary",
+        "germ-cell-tumors"
+      ],
+      "stem": "A 39-year-old woman has 2 months of palpitations, heat intolerance, tremor and a 5-kg weight loss. The thyroid gland is normal in size and not tender, and she has no eye findings. Laboratory results: TSH below 0.01 mU/L (normal 0.4-4.0), free T4 3.1 ng/dL (normal 0.8-1.8), serum thyroglobulin elevated, 24-hour radioiodine uptake over the neck 1% (normal 10-30%). A whole-body radioiodine scan shows strong uptake in a 6-cm left adnexal mass. The mass is removed. Which histologic finding is most likely?",
+      "choices": [
+        "Papillae with overlapping clear nuclei and psammoma bodies",
+        "Sheets of large clear cells separated by septa with lymphocytes",
+        "Teratoma made mostly of colloid-filled thyroid follicles",
+        "Clusters of mucin-filled signet-ring cells",
+        "Small cells with grooved nuclei around eosinophilic spaces"
+      ],
+      "correct": 2,
+      "explanation": "Thyrotoxicosis with almost no uptake in the neck but strong uptake in an adnexal mass means the thyroid hormone is made in the ovary: **struma ovarii**, a **teratoma** made mainly of mature **thyroid tissue**. The high **thyroglobulin** also rules out hidden levothyroxine use, which suppresses thyroglobulin, and the ovarian uptake separates it from painless thyroiditis. Papillae with psammoma bodies are the tempting choice because they suggest thyroid tissue, but that is papillary thyroid carcinoma, which only rarely arises in struma and does not explain the pattern here.",
+      "explanation_pt": "Tireotoxicose com captação quase nula no pescoço, mas captação intensa em uma massa anexial, indica que o hormônio tireoidiano é produzido no ovário: **estruma ovariano**, um **teratoma** formado principalmente por **tecido tireoidiano** maduro. A **tireoglobulina** elevada também exclui o uso oculto de levotiroxina, que suprime a tireoglobulina, e a captação ovariana a diferencia da tireoidite indolor. Papilas com corpos psamomatosos são a alternativa tentadora, porque lembram tecido tireoidiano, mas correspondem ao carcinoma papilífero de tireoide, que só raramente surge em um estruma e não explica o quadro."
+    },
+    {
+      "slug": "q-gynecologic-pathology-qx-yolk-sac-afp",
+      "track": "step1",
+      "system": "reproductive",
+      "discipline": "pathology",
+      "tags": [
+        "gynecologic-pathology",
+        "ovary",
+        "germ-cell-tumors"
+      ],
+      "stem": "A 17-year-old girl has 3 weeks of lower abdominal pain and swelling. Imaging shows a 14-cm solid and cystic right ovarian mass. A pregnancy test is negative. Serum tumor markers: alpha-fetoprotein 4,200 ng/mL (normal below 10), beta-hCG below 5 mIU/mL (normal below 5), LDH 310 U/L (normal 140-280). The mass is removed. Which histologic finding is most likely?",
+      "choices": [
+        "Sheets of large clear cells separated by septa with lymphocytes",
+        "Perivascular structures that look like primitive glomeruli",
+        "Cytotrophoblast and syncytiotrophoblast without chorionic villi",
+        "Mature skin with hair follicles and sebaceous glands",
+        "Small cells with grooved nuclei around eosinophilic spaces"
+      ],
+      "correct": 1,
+      "explanation": "A young woman with a large ovarian mass and a very high **AFP** has a **yolk sac tumor**. Its classic finding is the **Schiller-Duval body**: a central blood vessel covered by tumor cells inside a space, like a primitive glomerulus. Dysgerminoma is the tempting choice because LDH is mildly high, but dysgerminoma does not make AFP; its marker is LDH, with sheets of clear cells and lymphocytes. Choriocarcinoma would raise hCG, not AFP.",
+      "explanation_pt": "Mulher jovem com massa ovariana volumosa e **AFP** muito elevada tem um **tumor do saco vitelino**. Seu achado clássico é o **corpúsculo de Schiller-Duval**: um vaso central revestido por células tumorais dentro de um espaço, semelhante a um glomérulo primitivo. O disgerminoma é a alternativa tentadora, porque a LDH está levemente alta, mas o disgerminoma não produz AFP; seu marcador é a LDH, com lençóis de células claras e linfócitos. O coriocarcinoma elevaria o hCG, e não a AFP."
+    },
+    {
+      "slug": "q-gynecologic-pathology-qx-brca-tubal-origin",
+      "track": "step1",
+      "system": "reproductive",
+      "discipline": "pathology",
+      "tags": [
+        "gynecologic-pathology",
+        "ovary",
+        "epithelial-tumors"
+      ],
+      "stem": "A 41-year-old woman carries a pathogenic BRCA1 mutation. Her mother died of high-grade serous carcinoma involving the ovaries and peritoneum. She has no symptoms, and she chooses removal of both ovaries and fallopian tubes to lower her cancer risk. The organs look normal. Complete sectioning finds one microscopic focus of highly atypical epithelial cells without invasion. Where is this precursor lesion most likely located?",
+      "choices": [
+        "Fimbria of a fallopian tube",
+        "Surface epithelium of an ovary",
+        "Lining of a corpus luteum cyst",
+        "Hilus cells of an ovary",
+        "Endometrium of the uterine fundus"
+      ],
+      "correct": 0,
+      "explanation": "Most **high-grade serous carcinomas** of the \"ovary\" begin as **serous tubal intraepithelial carcinoma (STIC)** in the **fimbriae** of the fallopian tube, especially in **BRCA** carriers. The cells then shed onto the ovary and the peritoneum. Ovarian surface epithelium is the tempting choice because the cancer is named ovarian, but careful study of risk-reducing surgery specimens most often finds the earliest lesion in the tube. This is why the tubes are removed together with the ovaries.",
+      "explanation_pt": "A maioria dos **carcinomas serosos de alto grau** do \"ovário\" começa como **carcinoma seroso intraepitelial tubário (STIC)** nas **fímbrias** da tuba uterina, sobretudo em portadoras de **BRCA**. As células depois se desprendem para o ovário e o peritônio. O epitélio de superfície do ovário é a alternativa tentadora, porque o câncer é chamado de ovariano, mas o estudo cuidadoso das peças de cirurgia redutora de risco encontra a lesão mais precoce, na maioria das vezes, na tuba. Por isso as tubas são retiradas junto com os ovários."
+    },
+    {
+      "slug": "q-gynecologic-pathology-qx-lichen-sclerosus-scc",
+      "track": "step1",
+      "system": "reproductive",
+      "discipline": "pathology",
+      "tags": [
+        "gynecologic-pathology",
+        "vulva",
+        "lichen-sclerosus"
+      ],
+      "stem": "A 68-year-old woman has had vulvar itching and pain with intercourse for 3 years. Exam shows thin, white, shiny, wrinkled skin over the labia and around the anus, with loss of the labia minora. Biopsy shows a thin epidermis with loss of the rete ridges, a pale band of homogenized collagen in the upper dermis, and lymphocytes beneath this band. She is at increased long-term risk for which tumor at this site?",
+      "choices": [
+        "Extramammary Paget disease",
+        "Clear cell adenocarcinoma",
+        "Malignant melanoma",
+        "Squamous cell carcinoma",
+        "Basal cell carcinoma"
+      ],
+      "correct": 3,
+      "explanation": "Thin, white, parchment-like vulvar skin with **homogenized dermal collagen** is **lichen sclerosus**. Chronic inflammation in this skin raises the risk of **HPV-negative vulvar squamous cell carcinoma** in older women, usually through a differentiated intraepithelial precursor. Clear cell adenocarcinoma is the tempting choice among genital cancers, but it is linked to in-utero **DES** exposure and arises in the vagina or cervix, not from lichen sclerosus.",
+      "explanation_pt": "Pele vulvar fina, branca, com aspecto de pergaminho e **colágeno dérmico homogeneizado** é **líquen escleroso**. A inflamação crônica nessa pele aumenta o risco de **carcinoma espinocelular vulvar HPV-negativo** em mulheres mais velhas, em geral por meio de um precursor intraepitelial diferenciado. O adenocarcinoma de células claras é a alternativa tentadora entre os cânceres genitais, mas está associado à exposição intrauterina ao **DES** e surge na vagina ou no colo do útero, e não a partir do líquen escleroso."
+    }
+  ],
+  "notes": []
+}

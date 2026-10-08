@@ -1,0 +1,183 @@
+{
+  "cards": [],
+  "questions": [
+    {
+      "slug": "q-sti-pelvic-infections-qx-fitz-hugh-curtis",
+      "track": "step1",
+      "system": "reproductive",
+      "discipline": "pathology",
+      "tags": [
+        "sti-pelvic-infections",
+        "pid",
+        "complications"
+      ],
+      "stem": "A 23-year-old woman has had pain in the right upper abdomen for 3 days. The pain is sharp and worse when she takes a deep breath. For 1 week before that she had lower abdominal pain and a yellow vaginal discharge. Temperature is 38.3°C. There is tenderness below the right costal margin. Pelvic exam shows mucopurulent cervical discharge and marked pain when the cervix is moved. Laboratory results: leukocytes 14,200/µL, AST 32 U/L, ALT 29 U/L, alkaline phosphatase 88 U/L, total bilirubin 0.7 mg/dL, lipase normal. Urine hCG is negative. Ultrasound shows a normal gallbladder with no stones and a normal liver. Which structure is most likely inflamed and causing her upper abdominal pain?",
+      "choices": [
+        "Hepatocytes within the liver lobules",
+        "Wall of the gallbladder and cystic duct",
+        "Liver capsule and the nearby peritoneum",
+        "Pleura over the right lower lobe",
+        "Lining of the common bile duct"
+      ],
+      "correct": 2,
+      "explanation": "PID with right upper quadrant pain, normal liver enzymes and a normal gallbladder is **Fitz-Hugh-Curtis syndrome**: gonococcal or chlamydial infection spreads up the paracolic gutter to the **liver capsule** and adjacent peritoneum (**perihepatitis**). Hepatitis is the tempting answer, but inflamed hepatocytes would raise AST and ALT; here the parenchyma is spared. Cholecystitis is unlikely with a normal ultrasound, and pleuritic pain comes from the inflamed capsule under the diaphragm, not from the lung.",
+      "explanation_pt": "DIP com dor no quadrante superior direito, enzimas hepáticas normais e vesícula normal é a **síndrome de Fitz-Hugh-Curtis**: a infecção gonocócica ou por clamídia sobe pela goteira parietocólica até a **cápsula hepática** e o peritônio adjacente (**peri-hepatite**). Hepatite é a resposta tentadora, mas a inflamação dos hepatócitos elevaria AST e ALT; aqui o parênquima está preservado. Colecistite é improvável com ultrassom normal, e a dor pleurítica vem da cápsula inflamada sob o diafragma, não do pulmão."
+    },
+    {
+      "slug": "q-sti-pelvic-infections-qx-chlamydia-obligate-intracellular",
+      "track": "step1",
+      "system": "reproductive",
+      "discipline": "microbiology",
+      "tags": [
+        "sti-pelvic-infections",
+        "chlamydia",
+        "cervicitis"
+      ],
+      "stem": "A 20-year-old woman has had light bleeding after intercourse and a yellow vaginal discharge for 2 weeks. Speculum exam shows a red cervix that bleeds easily when touched, with mucopurulent discharge from the cervical os. Gram stain of the discharge shows many neutrophils but no organisms. Giemsa-stained cervical cells show inclusions in the cytoplasm of epithelial cells. Cultures on blood agar, chocolate agar and Thayer-Martin medium show no growth. Which feature of the causative organism best explains why it did not grow on these media?",
+      "choices": [
+        "It needs hemin and NAD that are missing from standard agar",
+        "It lacks a cell wall and needs sterols such as cholesterol in the medium",
+        "It needs iron and cysteine in a charcoal-based medium",
+        "It grows only at 42°C in a low-oxygen atmosphere",
+        "It depends on host cells for ATP and divides only inside them"
+      ],
+      "correct": 4,
+      "explanation": "Cytoplasmic inclusions in cervical epithelial cells with neutrophils but no visible bacteria point to **Chlamydia trachomatis**. It is an **obligate intracellular** organism: it cannot make enough of its own **ATP**, so the reticulate body divides only inside a host-cell inclusion, and it needs cell culture or NAAT, not agar. *Mycoplasma genitalium* also escapes Gram stain and routine agar, but it lacks a cell wall and lives attached to the cell surface, not in cytoplasmic inclusions. Chocolate agar contains hemin and NAD, which *Haemophilus* needs, and iron with cysteine is the need of *Legionella*.",
+      "explanation_pt": "Inclusões citoplasmáticas em células epiteliais do colo, com neutrófilos mas sem bactérias visíveis, indicam **Chlamydia trachomatis**. Ela é **intracelular obrigatória**: não produz **ATP** suficiente, então o corpo reticulado só se divide dentro de uma inclusão na célula hospedeira, e o diagnóstico exige cultura celular ou NAAT (teste de amplificação de ácidos nucleicos), não ágar. O *Mycoplasma genitalium* também escapa do Gram e do ágar de rotina, mas não tem parede celular e vive aderido à superfície da célula, não em inclusões citoplasmáticas. O ágar chocolate contém hemina e NAD, de que o *Haemophilus* precisa, e ferro com cisteína é a necessidade da *Legionella*."
+    },
+    {
+      "slug": "q-sti-pelvic-infections-qx-lymphogranuloma-venereum",
+      "track": "step1",
+      "system": "reproductive",
+      "discipline": "microbiology",
+      "tags": [
+        "sti-pelvic-infections",
+        "chlamydia",
+        "lymphogranuloma-venereum",
+        "genital-ulcers"
+      ],
+      "stem": "A 29-year-old man has had painful swelling in his left groin and fever for 1 week. Four weeks ago he noticed a small painless blister on his penis that healed in a few days. He has had several new sexual partners. Temperature is 38.1°C. There is a large, tender, matted mass of lymph nodes in the left groin. Nodes lie both above and below the inguinal ligament, with a skin fold between them. One node is fluctuant and drains pus through a small opening in the skin. No genital ulcer is present now. Which organism is the most likely cause?",
+      "choices": [
+        "Chlamydia trachomatis serovars D through K",
+        "Chlamydia trachomatis serovar L2",
+        "Haemophilus ducreyi",
+        "Klebsiella granulomatis",
+        "Treponema pallidum"
+      ],
+      "correct": 1,
+      "explanation": "A small painless primary lesion that heals, followed weeks later by painful, suppurating inguinal nodes on both sides of the inguinal ligament (*groove sign*), is **lymphogranuloma venereum** from *C. trachomatis* serovars **L1-L3**. These serovars infect **mononuclear phagocytes** and spread to the **lymphatics** and nodes. Serovars D-K are the tempting answer, but they stay in mucosal epithelium and cause urethritis or cervicitis, not buboes. Chancroid also gives fluctuant nodes, but its ulcer is painful and is still present when the nodes swell; the syphilis chancre gives firm, non-tender, non-suppurating nodes.",
+      "explanation_pt": "Uma lesão primária pequena e indolor que cicatriza, seguida semanas depois por linfonodos inguinais dolorosos e supurativos dos dois lados do ligamento inguinal (*groove sign*, sinal do sulco), é o **linfogranuloma venéreo** por *C. trachomatis* sorotipos **L1-L3**. Esses sorotipos infectam **fagócitos mononucleares** e se espalham pelos **linfáticos** e linfonodos. Os sorotipos D-K são a resposta tentadora, mas ficam no epitélio mucoso e causam uretrite ou cervicite, não bubões. O cancro mole também causa linfonodos flutuantes, mas sua úlcera é dolorosa e ainda está presente quando os linfonodos aumentam; o cancro duro da sífilis causa linfonodos firmes, indolores e sem supuração."
+    },
+    {
+      "slug": "q-sti-pelvic-infections-qx-granuloma-inguinale",
+      "track": "step1",
+      "system": "reproductive",
+      "discipline": "microbiology",
+      "tags": [
+        "sti-pelvic-infections",
+        "genital-ulcers",
+        "granuloma-inguinale"
+      ],
+      "stem": "A 36-year-old man returns after a year of work in Papua New Guinea. For 6 weeks he has had a slowly growing sore on the shaft of his penis. It does not hurt. Exam shows a 3-cm ulcer with a bright red, granular base that bleeds easily when touched. There is a firm swelling under the skin of the left groin, but no enlarged lymph nodes are felt. Darkfield microscopy is negative, and RPR is nonreactive. A stained crush preparation of tissue from the ulcer edge shows large mononuclear cells filled with small rod-shaped bacteria that stain darker at both ends. Which organism is the most likely cause?",
+      "choices": [
+        "Treponema pallidum",
+        "Haemophilus ducreyi",
+        "Leishmania braziliensis",
+        "Klebsiella granulomatis",
+        "Chlamydia trachomatis serovar L2"
+      ],
+      "correct": 3,
+      "explanation": "A painless, **beefy red** ulcer that bleeds easily, a subcutaneous groin swelling without true lymphadenopathy (*pseudobubo*), and rods with bipolar staining inside macrophages (**Donovan bodies**) define **granuloma inguinale** from **Klebsiella granulomatis**. *Leishmania* is tempting because it also fills macrophages, but its amastigotes are protozoa with a nucleus and a kinetoplast, not small rods, and it usually causes a crusted skin ulcer in exposed areas. Syphilis is unlikely with a negative darkfield and RPR, chancroid is painful, and LGV causes a small transient lesion followed by real suppurative nodes.",
+      "explanation_pt": "Úlcera indolor, **vermelho-carne**, que sangra facilmente, com tumefação subcutânea na virilha sem linfadenopatia verdadeira (*pseudobubão*) e bastonetes de coloração bipolar dentro de macrófagos (**corpúsculos de Donovan**) definem a **donovanose** por **Klebsiella granulomatis**. A *Leishmania* é tentadora porque também ocupa macrófagos, mas suas amastigotas são protozoários com núcleo e cinetoplasto, não bastonetes pequenos, e em geral causa úlcera crostosa em áreas expostas da pele. Sífilis é improvável com campo escuro e RPR negativos, o cancro mole é doloroso e o linfogranuloma venéreo causa uma lesão pequena e transitória seguida de linfonodos realmente supurativos."
+    },
+    {
+      "slug": "q-sti-pelvic-infections-qx-jarisch-herxheimer",
+      "track": "step1",
+      "system": "reproductive",
+      "discipline": "microbiology",
+      "tags": [
+        "sti-pelvic-infections",
+        "syphilis",
+        "treatment-reaction"
+      ],
+      "stem": "A 26-year-old man has a non-itchy rash on his trunk, palms and soles and has painless enlarged lymph nodes. RPR is reactive at a high titer, and a treponemal test is reactive. He receives one intramuscular injection of benzathine penicillin G. Five hours later he has chills, headache, muscle aches and a temperature of 38.9°C, and his rash looks redder. Blood pressure is 112/70 mm Hg and pulse is 108/min. He has no hives, no wheezing and no swelling of the lips or tongue. The symptoms go away within 24 hours without specific treatment. Which mechanism best explains this reaction?",
+      "choices": [
+        "Cytokine release triggered by products of killed spirochetes",
+        "IgE on mast cells cross-linked by penicillin antigens",
+        "Drug-antibody immune complexes deposited in the walls of small vessels",
+        "T cells sensitized to penicillin attacking the skin",
+        "Spread of surviving spirochetes into the nervous system"
+      ],
+      "correct": 0,
+      "explanation": "Fever, chills, myalgia and a brighter rash a few hours after the first dose of treatment for **secondary syphilis** is the **Jarisch-Herxheimer reaction**. Dying spirochetes release **lipoproteins** and other products that trigger a burst of **TNF-α, IL-6 and IL-8**; it is self-limited and is not a drug allergy. An IgE-mediated penicillin reaction is the tempting answer, but it would cause hives, wheezing, angioedema or hypotension, not fever. Immune-complex serum sickness and T-cell-mediated drug rashes appear days to weeks after exposure, not within hours.",
+      "explanation_pt": "Febre, calafrios, mialgia e exantema mais intenso poucas horas após a primeira dose do tratamento da **sífilis secundária** caracterizam a **reação de Jarisch-Herxheimer**. Os espiroquetas mortos liberam **lipoproteínas** e outros produtos que desencadeiam uma descarga de **TNF-α, IL-6 e IL-8**; a reação é autolimitada e não é alergia ao fármaco. Uma reação à penicilina mediada por IgE é a resposta tentadora, mas causaria urticária, sibilância, angioedema ou hipotensão, não febre. A doença do soro por imunocomplexos e as erupções medicamentosas mediadas por linfócitos T surgem dias a semanas após a exposição, não em horas."
+    },
+    {
+      "slug": "q-sti-pelvic-infections-qx-congenital-syphilis-late",
+      "track": "step1",
+      "system": "reproductive",
+      "discipline": "microbiology",
+      "tags": [
+        "sti-pelvic-infections",
+        "syphilis",
+        "congenital-infection"
+      ],
+      "stem": "A 9-year-old girl is brought to the clinic for a school checkup. She was adopted at age 4, and no records of her mother's pregnancy exist. Her upper central incisors are small, widely spaced and have a notch in the middle of each biting edge. Her nasal bridge is flat and sunken. Both tibiae are bowed forward. Her mother by adoption says the girl was often treated for a bloody runny nose as an infant. Which additional finding is most likely in this child?",
+      "choices": [
+        "Cataracts that were present at birth",
+        "Calcifications along the lateral ventricles",
+        "Hydrocephalus with scattered brain calcifications",
+        "Inflammation and clouding of the corneal stroma",
+        "Scars on the skin in a dermatomal pattern"
+      ],
+      "correct": 3,
+      "explanation": "Notched incisors (**Hutchinson teeth**), **saddle nose**, **saber shins** and infant *snuffles* point to **congenital syphilis**. Its late form also causes **interstitial keratitis** (inflamed, cloudy corneal stroma) and **sensorineural deafness**; teeth, keratitis and deafness form the Hutchinson triad. Congenital cataracts are tempting because they are also a classic congenital eye finding, but they belong to **rubella**. Periventricular calcifications suggest CMV, hydrocephalus with scattered calcifications suggests toxoplasmosis, and dermatomal scars suggest congenital varicella.",
+      "explanation_pt": "Incisivos entalhados (**dentes de Hutchinson**), **nariz em sela**, **tíbia em sabre** e *snuffles* (rinite) no lactente indicam **sífilis congênita**. A forma tardia também causa **ceratite intersticial** (estroma da córnea inflamado e opaco) e **surdez neurossensorial**; dentes, ceratite e surdez formam a tríade de Hutchinson. A catarata congênita é tentadora por ser também um achado ocular congênito clássico, mas pertence à **rubéola**. Calcificações periventriculares sugerem CMV, hidrocefalia com calcificações difusas sugere toxoplasmose, e cicatrizes em dermátomo sugerem varicela congênita."
+    },
+    {
+      "slug": "q-sti-pelvic-infections-qx-epididymitis-older-man",
+      "track": "step1",
+      "system": "reproductive",
+      "discipline": "microbiology",
+      "tags": [
+        "sti-pelvic-infections",
+        "epididymitis",
+        "urinary-tract-infection"
+      ],
+      "stem": "A 71-year-old man has had pain and swelling of the right scrotum for 3 days. The pain began slowly. He also has burning on urination and frequency. He has benign prostatic hyperplasia with a weak urinary stream. He has had one sexual partner, his wife, for 40 years. Temperature is 38.4°C. The right epididymis, behind the testis, is swollen and very tender. The testis lies in a normal position, and the cremasteric reflex is present. Lifting the scrotum eases the pain. Urinalysis: leukocyte esterase positive, nitrite positive, 50-100 leukocytes per high-power field and many bacteria. Gram stain of the urine shows gram-negative rods. Which organism is the most likely cause?",
+      "choices": [
+        "Escherichia coli",
+        "Chlamydia trachomatis",
+        "Neisseria gonorrhoeae",
+        "Staphylococcus saprophyticus",
+        "Mumps virus"
+      ],
+      "correct": 0,
+      "explanation": "**Epididymitis** in an **older man** with outflow obstruction from BPH usually comes from **urinary pathogens** that reflux from the infected urine into the ejaculatory duct and vas deferens, most often **E. coli** and other enteric gram-negative rods. A positive nitrite test fits these nitrate-reducing organisms. *C. trachomatis* is the tempting answer because it is the most common cause of epididymitis, but that is in **young, sexually active men**, and it gives no organisms on Gram stain and a negative nitrite. Gonococci are gram-negative diplococci, *S. saprophyticus* is a gram-positive coccus of young women, and mumps causes orchitis rather than epididymitis with bacteriuria.",
+      "explanation_pt": "A **epididimite** no **homem idoso** com obstrução urinária por HPB costuma vir de **patógenos urinários** que refluem da urina infectada para o ducto ejaculatório e o ducto deferente, mais frequentemente **E. coli** e outros bacilos gram-negativos entéricos. O nitrito positivo combina com esses organismos que reduzem nitrato. A *C. trachomatis* é a resposta tentadora por ser a causa mais comum de epididimite, mas em **homens jovens sexualmente ativos**, e ela não aparece no Gram e dá nitrito negativo. Gonococos são diplococos gram-negativos, o *S. saprophyticus* é um coco gram-positivo de mulheres jovens, e a caxumba causa orquite, e não epididimite com bacteriúria."
+    },
+    {
+      "slug": "q-sti-pelvic-infections-qx-candida-after-antibiotics",
+      "track": "step1",
+      "system": "reproductive",
+      "discipline": "microbiology",
+      "tags": [
+        "sti-pelvic-infections",
+        "vaginitis",
+        "candidiasis"
+      ],
+      "stem": "A 31-year-old woman has had vulvar itching and burning for 4 days. Last week she finished a 10-day course of amoxicillin-clavulanate for sinusitis. She has no other medical problems. The vulva is red and swollen, and thick, white, clumpy discharge sticks to the vaginal walls. There is no odor. Results: vaginal pH 4.2; amine (*whiff*) test negative; saline wet mount shows a few neutrophils, no clue cells and no motile organisms; potassium hydroxide preparation shows budding yeast cells and pseudohyphae. Which mechanism best explains why this infection developed?",
+      "choices": [
+        "Rise in vaginal pH that favors anaerobic bacteria",
+        "Loss of lactobacilli that normally limit fungal overgrowth",
+        "Thinning of the vaginal epithelium caused by low estrogen levels",
+        "Sexual transmission of an organism from a new partner",
+        "Fall in CD4+ T cells that normally control yeast"
+      ],
+      "correct": 1,
+      "explanation": "Budding yeast with **pseudohyphae**, thick white discharge, itching and a **normal pH** (4.5 or lower) indicate **vulvovaginal candidiasis** from *Candida albicans*. Broad-spectrum antibiotics kill the protective **lactobacilli**, which normally keep the pH low and compete with yeast, so *Candida* from the normal flora overgrows. A rise in pH with anaerobic overgrowth is the tempting answer, but that describes bacterial vaginosis, which has clue cells and a positive whiff test. *Candida* vaginitis is not mainly sexually transmitted, low estrogen gives atrophic vaginitis, and nothing in this healthy woman suggests HIV.",
+      "explanation_pt": "Leveduras em brotamento com **pseudo-hifas**, corrimento branco e espesso, prurido e **pH normal** (4,5 ou menos) indicam **candidíase vulvovaginal** por *Candida albicans*. Antibióticos de amplo espectro eliminam os **lactobacilos** protetores, que normalmente mantêm o pH baixo e competem com as leveduras, e então a *Candida* da flora normal prolifera. Aumento do pH com supercrescimento de anaeróbios é a resposta tentadora, mas descreve a vaginose bacteriana, que tem clue cells (células-guia) e teste das aminas positivo. A vaginite por *Candida* não é principalmente sexualmente transmissível, a falta de estrogênio causa vaginite atrófica, e nada nesta mulher saudável sugere HIV."
+    }
+  ],
+  "notes": []
+}

@@ -1,0 +1,182 @@
+{
+  "cards": [],
+  "questions": [
+    {
+      "slug": "q-reproductive-pharmacology-qx-finasteride-labs",
+      "track": "step1",
+      "system": "reproductive",
+      "discipline": "pharmacology",
+      "tags": [
+        "reproductive-pharmacology",
+        "bph",
+        "5-alpha-reductase"
+      ],
+      "stem": "A 66-year-old man has had a weak urine stream and has woken up twice a night to urinate for 2 years. Digital rectal exam shows a smooth, rubbery, symmetrically enlarged prostate. He starts a once-daily oral drug. Six months later his urinary symptoms are milder, and ultrasound shows a smaller prostate. Before treatment, serum PSA was 3.8 ng/mL and total testosterone was 480 ng/dL. Now PSA is 1.8 ng/mL, total testosterone is 530 ng/dL, serum dihydrotestosterone is much lower than before, and LH is unchanged. Which drug did he most likely start?",
+      "choices": [
+        "Tamsulosin",
+        "Leuprolide",
+        "Flutamide",
+        "Finasteride",
+        "Tadalafil"
+      ],
+      "correct": 3,
+      "explanation": "**Finasteride** inhibits **5-alpha-reductase**, so less testosterone is converted to **DHT**. The prostate slowly shrinks, **PSA falls by about half**, and testosterone stays normal or rises a little. Tamsulosin is the most tempting choice because it also treats BPH, but it only relaxes prostate smooth muscle through **alpha-1A blockade**; it does not shrink the gland or change DHT or PSA. Flutamide blocks the androgen receptor, so LH and testosterone rise, and leuprolide lowers testosterone.",
+      "explanation_pt": "A **finasterida** inibe a **5-alfa-redutase**, e menos testosterona é convertida em **DHT**. A próstata diminui lentamente, o **PSA cai para cerca da metade** e a testosterona fica normal ou sobe um pouco. A tansulosina é a alternativa mais tentadora porque também trata a HPB, mas apenas relaxa o músculo liso prostático por **bloqueio alfa-1A**; não reduz a glândula nem altera DHT ou PSA. A flutamida bloqueia o receptor androgênico, então LH e testosterona sobem, e a leuprorrelina reduz a testosterona."
+    },
+    {
+      "slug": "q-reproductive-pharmacology-qx-clomiphene-mechanism",
+      "track": "step1",
+      "system": "reproductive",
+      "discipline": "pharmacology",
+      "tags": [
+        "reproductive-pharmacology",
+        "infertility",
+        "serms"
+      ],
+      "stem": "A 27-year-old woman has had about five menstrual periods a year since menarche. She has tried to become pregnant for 18 months. She has acne and mild hirsutism, and ultrasound shows many small follicles at the edge of both ovaries. Her partner's semen analysis is normal. She takes an oral drug for 5 days early in her cycle. During those days her serum FSH and estradiol both rise above her baseline, and a dominant follicle forms later. She reports hot flashes and, on two evenings, blurred vision with flickering lights that went away after the course. Which mechanism best describes this drug?",
+      "choices": [
+        "Inhibition of aromatase in ovarian granulosa cells",
+        "Continuous stimulation of pituitary GnRH receptors",
+        "Blockade of estrogen receptors in the hypothalamus",
+        "Direct activation of LH receptors on theca cells",
+        "Activation of PPAR-gamma to improve insulin sensitivity"
+      ],
+      "correct": 2,
+      "explanation": "**Clomiphene** blocks **hypothalamic estrogen receptors**, so the brain no longer senses estrogen feedback. GnRH, FSH and LH rise and drive follicle growth, and **visual disturbances** and hot flashes are typical adverse effects. Letrozole is the most tempting choice because it also induces ovulation, but by blocking **aromatase** it **lowers** estradiol during the treatment days instead of raising it. Continuous GnRH receptor stimulation would suppress FSH and LH, not raise them.",
+      "explanation_pt": "O **clomifeno** bloqueia os **receptores de estrogênio do hipotálamo**, e o cérebro deixa de perceber o feedback estrogênico. GnRH, FSH e LH aumentam e estimulam o crescimento folicular, e **distúrbios visuais** e fogachos são efeitos adversos típicos. O letrozol é a alternativa mais tentadora porque também induz ovulação, mas, ao bloquear a **aromatase**, ele **reduz** o estradiol nos dias de tratamento em vez de aumentá-lo. A estimulação contínua dos receptores de GnRH suprimiria FSH e LH, e não os aumentaria."
+    },
+    {
+      "slug": "q-reproductive-pharmacology-qx-levonorgestrel-emergency",
+      "track": "step1",
+      "system": "reproductive",
+      "discipline": "pharmacology",
+      "tags": [
+        "reproductive-pharmacology",
+        "contraception",
+        "emergency-contraception"
+      ],
+      "stem": "A 22-year-old woman comes to a pharmacy 30 hours after a condom broke during intercourse. Her cycles are regular every 28 days, and her last period started 11 days ago. A home pregnancy test is negative. She takes a single tablet of levonorgestrel. Which effect is the main way this drug prevents pregnancy?",
+      "choices": [
+        "Stimulation of uterine contractions that expel a fertilized egg",
+        "Delay or blunting of the LH surge so that no egg is released",
+        "Direct toxicity to sperm and eggs inside the uterine tubes",
+        "Blockade of progesterone receptors so that the decidua breaks down",
+        "Changes in the endometrium that stop a fertilized egg from implanting"
+      ],
+      "correct": 1,
+      "explanation": "Levonorgestrel emergency contraception works mainly **before ovulation**: it **delays or blunts the LH surge**, so no egg is released while sperm are still alive. The most tempting answer is blocking implantation, but the drug does not reliably change the endometrium and works poorly once ovulation has already happened; it does **not** end an implanted pregnancy. Direct toxicity to sperm and eggs is how the **copper IUD** works, and progesterone receptor blockade that breaks down the decidua describes **mifepristone**.",
+      "explanation_pt": "A contracepção de emergência com levonorgestrel age principalmente **antes da ovulação**: ela **retarda ou atenua o pico de LH**, e nenhum óvulo é liberado enquanto os espermatozoides ainda estão vivos. A resposta mais tentadora é o bloqueio da implantação, mas o fármaco não altera o endométrio de forma confiável e funciona mal quando a ovulação já ocorreu; ele **não** interrompe uma gestação já implantada. A toxicidade direta para espermatozoides e óvulos é o mecanismo do **DIU de cobre**, e o bloqueio do receptor de progesterona que desfaz a decídua descreve a **mifepristona**."
+    },
+    {
+      "slug": "q-reproductive-pharmacology-qx-mifepristone-mechanism",
+      "track": "step1",
+      "system": "reproductive",
+      "discipline": "pharmacology",
+      "tags": [
+        "reproductive-pharmacology",
+        "medical-abortion",
+        "progesterone"
+      ],
+      "stem": "A 26-year-old woman has an intrauterine pregnancy of 7 weeks confirmed by ultrasound and chooses a medical abortion. In the clinic she swallows one tablet of a first drug. One day later, at home, she places misoprostol tablets in her cheeks. Several hours after that she has cramping and heavy bleeding and passes tissue. A follow-up visit confirms a complete abortion. Which mechanism best describes the first drug?",
+      "choices": [
+        "Activation of prostaglandin E1 receptors in the myometrium",
+        "Inhibition of dihydrofolate reductase in trophoblast cells",
+        "Activation of oxytocin receptors in the myometrium",
+        "Agonism at alpha-adrenergic and serotonin receptors",
+        "Blockade of progesterone receptors in the decidua"
+      ],
+      "correct": 4,
+      "explanation": "The first drug is **mifepristone**, a **progesterone receptor antagonist**. Without progesterone support the **decidua breaks down**, the embryo detaches, the cervix softens, and the uterus becomes more sensitive to the prostaglandin E1 analog **misoprostol** given next. Methotrexate is the most tempting choice because it can also end early pregnancies (and treats ectopic pregnancy), but it is usually given as an **injection**, and misoprostol then follows **3 to 7 days** later, not one day later. Prostaglandin E1 activation describes misoprostol itself, the second drug.",
+      "explanation_pt": "O primeiro fármaco é a **mifepristona**, um **antagonista do receptor de progesterona**. Sem o suporte da progesterona, a **decídua se desfaz**, o embrião se descola, o colo uterino amolece e o útero fica mais sensível ao análogo de prostaglandina E1 **misoprostol**, dada em seguida. O metotrexato é a alternativa mais tentadora porque também pode interromper gestações iniciais (e trata gravidez ectópica), mas costuma ser dado por **injeção**, e o misoprostol vem **3 a 7 dias** depois, e não um dia depois. A ativação de receptores de prostaglandina E1 descreve o próprio misoprostol, o segundo fármaco."
+    },
+    {
+      "slug": "q-reproductive-pharmacology-qx-terbutaline-tocolysis",
+      "track": "step1",
+      "system": "reproductive",
+      "discipline": "pharmacology",
+      "tags": [
+        "reproductive-pharmacology",
+        "tocolytics",
+        "beta-agonists"
+      ],
+      "stem": "A 30-year-old woman at 30 weeks of gestation has regular painful contractions and a dilating cervix. At admission, pulse is 88/min, blood glucose is 92 mg/dL and serum potassium is 4.0 mEq/L. She receives a drug to slow the contractions. One hour later she reports palpitations, tremor and anxiety. Pulse is now 134/min and blood pressure is 116/60 mm Hg. The fetal heart rate is 172/min. Repeat blood glucose is 188 mg/dL and serum potassium is 3.1 mEq/L. Which drug was most likely given?",
+      "choices": [
+        "Terbutaline",
+        "Nifedipine",
+        "Indomethacin",
+        "Magnesium sulfate",
+        "Betamethasone"
+      ],
+      "correct": 0,
+      "explanation": "**Terbutaline** is a **beta-2 agonist** that relaxes the myometrium. Beta stimulation causes maternal and fetal **tachycardia** and tremor, raises **glucose** (glycogenolysis) and moves **potassium into cells** through the Na+/K+-ATPase. Nifedipine is the most tempting choice because it can cause reflex tachycardia, but it does not cause hyperglycemia or hypokalemia. Betamethasone can raise glucose, but it is given to mature the fetal lungs, not to stop contractions, and it does not cause this rapid tremor and hypokalemia.",
+      "explanation_pt": "A **terbutalina** é um **agonista beta-2** que relaxa o miométrio. A estimulação beta causa **taquicardia** materna e fetal e tremor, eleva a **glicemia** (glicogenólise) e desloca o **potássio para dentro das células** pela Na+/K+-ATPase. O nifedipino é a alternativa mais tentadora porque pode causar taquicardia reflexa, mas não causa hiperglicemia nem hipocalemia. A betametasona pode elevar a glicemia, mas é dada para amadurecer os pulmões fetais, não para inibir contrações, e não causa esse tremor rápido com hipocalemia."
+    },
+    {
+      "slug": "q-reproductive-pharmacology-qx-oxytocin-hyponatremia",
+      "track": "step1",
+      "system": "reproductive",
+      "discipline": "pharmacology",
+      "tags": [
+        "reproductive-pharmacology",
+        "uterotonics",
+        "hyponatremia"
+      ],
+      "stem": "A 31-year-old woman at 41 weeks of gestation has labor induced with a continuous intravenous oxytocin infusion diluted in 5% dextrose in water. Labor progresses slowly, and the infusion runs for about 20 hours. She then develops headache, vomiting and confusion, followed by a generalized seizure. Blood pressure is 124/78 mm Hg, and her urine has no protein. Serum sodium is 119 mEq/L (it was 137 mEq/L at admission), blood glucose is 96 mg/dL, serum osmolality is 248 mOsm/kg and urine osmolality is 520 mOsm/kg. Which mechanism best explains her low sodium?",
+      "choices": [
+        "Water shift out of cells caused by a high plasma glucose",
+        "Inhibition of the Na+-K+-2Cl- cotransporter in the loop of Henle",
+        "Release of natriuretic peptide causing urinary sodium loss",
+        "Activation of V2 receptors with free water reabsorption",
+        "Excess aldosterone effect in the cortical collecting duct"
+      ],
+      "correct": 3,
+      "explanation": "**Oxytocin** is structurally very similar to **ADH**, and at high doses for many hours it activates **V2 receptors** in the collecting duct. **Aquaporin-2** channels are inserted into the luminal membrane, free water is kept, and with large volumes of electrolyte-free fluid this causes **dilutional hyponatremia** (water intoxication) and seizures; the concentrated urine with low serum osmolality fits. Hyperglycemia is the most tempting choice because dextrose was infused, but her glucose is normal and a glucose-driven shift would not lower serum osmolality. Her normal blood pressure and absent proteinuria make eclampsia unlikely.",
+      "explanation_pt": "A **ocitocina** tem estrutura muito parecida com a do **ADH** e, em doses altas por muitas horas, ativa os **receptores V2** do ducto coletor. Canais de **aquaporina-2** são inseridos na membrana luminal, a água livre é retida e, com grandes volumes de líquido sem eletrólitos, surge **hiponatremia dilucional** (intoxicação hídrica) com convulsões; a urina concentrada com osmolalidade sérica baixa é compatível. A hiperglicemia é a alternativa mais tentadora porque foi infundido soro glicosado, mas a glicemia está normal, e um desvio causado pela glicose não reduziria a osmolalidade sérica. A PA normal e a ausência de proteinúria tornam eclâmpsia improvável."
+    },
+    {
+      "slug": "q-reproductive-pharmacology-qx-methylergonovine-hypertension",
+      "track": "step1",
+      "system": "reproductive",
+      "discipline": "pharmacology",
+      "tags": [
+        "reproductive-pharmacology",
+        "uterotonics",
+        "postpartum-hemorrhage"
+      ],
+      "stem": "A 34-year-old woman has a vaginal delivery. Fifteen minutes after the placenta is delivered, she has heavy vaginal bleeding, and the uterus feels soft and boggy. Her blood pressure before delivery was 118/74 mm Hg. She has mild intermittent asthma. Uterine massage and an oxytocin infusion do not stop the bleeding, so a second drug is given by intramuscular injection. Twenty minutes later the uterus is firm and the bleeding has slowed, but she has a severe headache and chest tightness. Blood pressure is 182/108 mm Hg. The lungs are clear. Which drug was most likely given?",
+      "choices": [
+        "Carboprost",
+        "Methylergonovine",
+        "Misoprostol",
+        "Tranexamic acid",
+        "Terbutaline"
+      ],
+      "correct": 1,
+      "explanation": "**Methylergonovine** is an **ergot alkaloid** that contracts uterine smooth muscle and also causes strong **vasoconstriction** (alpha-adrenergic and serotonin receptor effects). This can cause a sharp rise in **blood pressure**, headache and even **coronary vasospasm**, so it is avoided in hypertension and preeclampsia. Carboprost is the most tempting choice because it is also a second-line uterotonic, but as a **PGF2-alpha** analog its typical problem is **bronchospasm**, which is why it is avoided in asthma; her lungs are clear. Tranexamic acid reduces fibrinolysis and does not raise blood pressure.",
+      "explanation_pt": "A **metilergometrina** é um **alcaloide do ergot** que contrai o músculo liso uterino e também causa intensa **vasoconstrição** (efeitos em receptores alfa-adrenérgicos e de serotonina). Isso pode elevar muito a **pressão arterial** e causar cefaleia e até **vasoespasmo coronariano**, por isso é evitada na hipertensão e na pré-eclâmpsia. A carboprosta é a alternativa mais tentadora porque também é um uterotônico de segunda linha, mas, como análogo da **PGF2-alfa**, seu problema típico é o **broncoespasmo**, por isso é evitada na asma; os pulmões estão limpos. O ácido tranexâmico reduz a fibrinólise e não eleva a pressão arterial."
+    },
+    {
+      "slug": "q-reproductive-pharmacology-qx-ocp-hypertension",
+      "track": "step1",
+      "system": "reproductive",
+      "discipline": "pharmacology",
+      "tags": [
+        "reproductive-pharmacology",
+        "contraception",
+        "adverse-effects"
+      ],
+      "stem": "A 25-year-old woman comes for a routine visit. She started a combined oral contraceptive containing ethinyl estradiol 8 months ago. A year ago her blood pressure was 114/72 mm Hg. Today it is 146/94 mm Hg, and it was similar at a visit 2 weeks ago. She has no other medical problems, takes no other drugs or supplements, and drinks little alcohol. Serum potassium and creatinine are normal, and urinalysis is normal. Which mechanism most likely explains her higher blood pressure?",
+      "choices": [
+        "Increased hepatic synthesis of angiotensinogen",
+        "Activation of mineralocorticoid receptors by the progestin",
+        "Direct estrogen-induced constriction of resistance arterioles",
+        "Increased sex hormone-binding globulin lowering free androgens",
+        "Increased thyroxine-binding globulin causing excess free T4"
+      ],
+      "correct": 0,
+      "explanation": "**Estrogen** makes the liver produce more proteins, including **angiotensinogen**. More substrate leads to more **angiotensin II**, which causes vasoconstriction and sodium retention, so blood pressure rises in some users; it usually falls again after the pill is stopped. Progestin mineralocorticoid activity is the most tempting choice, but the progestins in pills have little or no mineralocorticoid effect, and some (drospirenone) actually block the mineralocorticoid receptor. Estrogen tends to **dilate** arterioles through nitric oxide, and the higher TBG raises total T4, not free T4.",
+      "explanation_pt": "O **estrogênio** faz o fígado produzir mais proteínas, incluindo o **angiotensinogênio**. Mais substrato leva a mais **angiotensina II**, que causa vasoconstrição e retenção de sódio, e a pressão arterial sobe em algumas usuárias; geralmente volta a cair após a suspensão da pílula. A atividade mineralocorticoide do progestagênio é a alternativa mais tentadora, mas os progestagênios das pílulas têm pouco ou nenhum efeito mineralocorticoide, e alguns (drospirenona) na verdade bloqueiam o receptor mineralocorticoide. O estrogênio tende a **dilatar** as arteríolas via óxido nítrico, e o aumento da TBG eleva o T4 total, não o T4 livre."
+    }
+  ],
+  "notes": []
+}
