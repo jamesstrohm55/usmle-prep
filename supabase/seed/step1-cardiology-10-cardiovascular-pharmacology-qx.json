@@ -1,0 +1,186 @@
+{
+  "cards": [],
+  "questions": [
+    {
+      "slug": "q-cardiovascular-pharmacology-qx-hydralazine-lupus-acetylator",
+      "track": "step1",
+      "system": "cardiovascular",
+      "discipline": "pharmacology",
+      "tags": [
+        "cardiovascular-pharmacology",
+        "vasodilators",
+        "drug-induced-lupus",
+        "pharmacogenetics"
+      ],
+      "stem": "A 63-year-old man has heart failure with reduced ejection fraction. Eight months ago, a combination of two vasodilators was added to his treatment. He now has 6 weeks of pain in the joints of both hands, low-grade fever and sharp chest pain that gets worse with deep breaths. Exam shows a pericardial friction rub. There is no rash, and urinalysis is normal. Antinuclear antibodies and anti-histone antibodies are positive. Anti-double-stranded DNA antibodies are negative. Patients with which characteristic have the highest risk of this adverse effect?",
+      "choices": [
+        "Loss-of-function variant of CYP2C19",
+        "Deficiency of thiopurine methyltransferase",
+        "Slow hepatic N-acetylation",
+        "Deficiency of glucose-6-phosphate dehydrogenase",
+        "Carriage of the HLA-B 57:01 allele"
+      ],
+      "correct": 2,
+      "explanation": "Arthritis, serositis, positive **anti-histone** antibodies, negative anti-dsDNA and no kidney disease point to **drug-induced lupus** from **hydralazine**, which is given with isosorbide dinitrate in HFrEF. Hydralazine is inactivated by **N-acetyltransferase** (phase II), so **slow acetylators** reach higher drug levels and have a higher lupus risk, like with procainamide and isoniazid. G6PD deficiency is a genetic risk for drug-induced oxidative hemolysis, not for an autoimmune lupus syndrome.",
+      "explanation_pt": "Artrite, serosite, anticorpos **anti-histona** positivos, anti-DNA de dupla hélice negativo e ausência de doença renal indicam **lúpus induzido por fármaco** pela **hidralazina**, usada com dinitrato de isossorbida na ICFEr. A hidralazina é inativada pela **N-acetiltransferase** (fase II); por isso, os **acetiladores lentos** atingem níveis mais altos do fármaco e têm maior risco de lúpus, como ocorre com a procainamida e a isoniazida. A deficiência de G6PD é um risco genético para hemólise oxidativa por fármacos, e não para uma síndrome lúpica autoimune."
+    },
+    {
+      "slug": "q-cardiovascular-pharmacology-qx-nitroprusside-cyanide",
+      "track": "step1",
+      "system": "cardiovascular",
+      "discipline": "pharmacology",
+      "tags": [
+        "cardiovascular-pharmacology",
+        "vasodilators",
+        "toxicity",
+        "acid-base"
+      ],
+      "stem": "A 57-year-old man is admitted to the intensive care unit with a hypertensive emergency. He receives a continuous intravenous infusion of a fast-acting drug that dilates both arteries and veins. On day 3 he becomes confused and agitated, and his breathing is fast and deep. Blood pressure is now 128/78 mm Hg. Arterial pH is 7.24, PaCO2 is 24 mm Hg and bicarbonate is 10 mEq/L. Sodium is 140 mEq/L, chloride is 104 mEq/L and lactate is 9 mmol/L (normal < 2). Central venous oxygen saturation is 88% (normal about 70%). Which mechanism best explains these findings?",
+      "choices": [
+        "Inhibition of cytochrome c oxidase in the electron transport chain",
+        "Oxidation of hemoglobin iron from the ferrous to the ferric state",
+        "Uncoupling of the mitochondrial proton gradient from ATP synthesis",
+        "Inhibition of the mitochondrial ATP synthase by the parent drug",
+        "Tissue hypoperfusion caused by an excessive fall in cardiac output"
+      ],
+      "correct": 0,
+      "explanation": "**Nitroprusside** releases **cyanide** as it breaks down, especially with long infusions. Cyanide blocks **cytochrome c oxidase** (complex IV), so cells cannot use oxygen: this causes lactic acidosis with a high anion gap (140 - 104 - 10 = 26) and **high venous O2 saturation**. **Methemoglobinemia** also causes tissue hypoxia, but it does so by lowering oxygen delivery, so venous saturation would be low, not high. Treatment includes stopping the infusion and giving **hydroxocobalamin** or **sodium thiosulfate**.",
+      "explanation_pt": "O **nitroprussiato** libera **cianeto** ao ser degradado, sobretudo em infusões prolongadas. O cianeto bloqueia a **citocromo c oxidase** (complexo IV), e as células não conseguem usar o oxigênio: isso causa acidose lática com ânion gap elevado (140 - 104 - 10 = 26) e **saturação venosa de O2 alta**. A **metemoglobinemia** também causa hipóxia tecidual, mas o faz reduzindo a oferta de oxigênio, e a saturação venosa seria baixa, não alta. O tratamento inclui suspender a infusão e administrar **hidroxocobalamina** ou **tiossulfato de sódio**."
+    },
+    {
+      "slug": "q-cardiovascular-pharmacology-qx-lidocaine-cns-toxicity",
+      "track": "step1",
+      "system": "cardiovascular",
+      "discipline": "pharmacology",
+      "tags": [
+        "cardiovascular-pharmacology",
+        "antiarrhythmics",
+        "toxicity"
+      ],
+      "stem": "A 71-year-old man is in the coronary care unit 2 days after an anterior myocardial infarction. He had several episodes of sustained monomorphic ventricular tachycardia, so a continuous intravenous antiarrhythmic infusion was started. He also has worsening heart failure, and his liver is enlarged and congested. Twelve hours later he reports numbness around his mouth and ringing in his ears. He then becomes confused and has a generalized seizure. ECG shows sinus rhythm with a normal QRS duration and a normal QT interval. Which drug was most likely infused?",
+      "choices": [
+        "Procainamide",
+        "Amiodarone",
+        "Sotalol",
+        "Lidocaine",
+        "Esmolol"
+      ],
+      "correct": 3,
+      "explanation": "**Lidocaine** (class **Ib**) blocks sodium channels mainly in depolarized, **ischemic** ventricular tissue and has little effect on the QRS and QT in normal tissue. It is cleared by the liver, and liver blood flow falls in heart failure, so it can accumulate and cause **CNS toxicity**: perioral numbness, tinnitus, confusion and **seizures**. Procainamide (class Ia) would widen the QRS and prolong the QT, and it is known for drug-induced lupus with long-term use.",
+      "explanation_pt": "A **lidocaína** (classe **Ib**) bloqueia canais de sódio principalmente no tecido ventricular despolarizado e **isquêmico**, com pouco efeito sobre o QRS e o QT no tecido normal. Ela é eliminada pelo fígado, e o fluxo sanguíneo hepático cai na insuficiência cardíaca; por isso, pode se acumular e causar **toxicidade no SNC**: dormência perioral, zumbido, confusão e **convulsões**. A procainamida (classe Ia) alargaria o QRS e prolongaria o QT, e é conhecida por causar lúpus induzido por fármaco no uso prolongado."
+    },
+    {
+      "slug": "q-cardiovascular-pharmacology-qx-flecainide-structural-disease",
+      "track": "step1",
+      "system": "cardiovascular",
+      "discipline": "pharmacology",
+      "tags": [
+        "cardiovascular-pharmacology",
+        "antiarrhythmics",
+        "proarrhythmia"
+      ],
+      "stem": "A 66-year-old man had a myocardial infarction 3 years ago. His left ventricular ejection fraction is 40%, and the anterior wall does not move on echocardiography. He now has paroxysmal atrial fibrillation, and a new drug to keep sinus rhythm was started 3 weeks ago. Since then, his QRS duration has increased from 92 ms to 138 ms, and it becomes wider when his heart rate rises. Today he collapses while walking uphill. The monitor shows a wide-complex monomorphic ventricular tachycardia. Which drug was most likely started?",
+      "choices": [
+        "Sotalol",
+        "Flecainide",
+        "Amiodarone",
+        "Metoprolol",
+        "Digoxin"
+      ],
+      "correct": 1,
+      "explanation": "**Flecainide** (class **Ic**) strongly blocks sodium channels and unbinds slowly, so the QRS widens more at faster heart rates (**use dependence**). Around an old infarct **scar**, this slowed conduction promotes reentrant ventricular tachycardia, so class Ic drugs are avoided in **structural heart disease**. Sotalol is also proarrhythmic, but it prolongs the QT and causes polymorphic **torsades de pointes**, not progressive QRS widening.",
+      "explanation_pt": "A **flecainida** (classe **Ic**) bloqueia fortemente os canais de sódio e se dissocia deles lentamente; por isso, o QRS alarga mais em frequências cardíacas maiores (**dependência de uso**). Ao redor de uma **cicatriz** de infarto antigo, essa condução lenta favorece taquicardia ventricular por reentrada, e os fármacos da classe Ic são evitados na **cardiopatia estrutural**. O sotalol também é pró-arrítmico, mas prolonga o QT e causa **torsades de pointes** polimórfica, e não alargamento progressivo do QRS."
+    },
+    {
+      "slug": "q-cardiovascular-pharmacology-qx-dihydropyridine-edema",
+      "track": "step1",
+      "system": "cardiovascular",
+      "discipline": "pharmacology",
+      "tags": [
+        "cardiovascular-pharmacology",
+        "calcium-channel-blockers",
+        "adverse-effects"
+      ],
+      "stem": "A 72-year-old woman has hypertension. Six weeks ago, she started amlodipine. She now has swelling of both ankles that is worse in the evening. She has no shortness of breath. Jugular venous pressure is normal, the lungs are clear, and there is pitting edema of both ankles. Her weight has not changed. Serum albumin, creatinine and urinalysis are normal. Which mechanism best explains her edema?",
+      "choices": [
+        "Retention of sodium and water by the kidneys, expanding volume",
+        "Low plasma oncotic pressure from protein loss",
+        "Increased capillary permeability from bradykinin buildup",
+        "Reduced lymphatic drainage of the lower limbs",
+        "Arteriolar dilation raising capillary hydrostatic pressure"
+      ],
+      "correct": 4,
+      "explanation": "**Dihydropyridine** calcium channel blockers dilate **precapillary arterioles** much more than venules. More pressure reaches the capillaries, **hydrostatic pressure** rises, and fluid leaks into the ankles. This is not volume overload: weight and jugular venous pressure are normal, so diuretics help little, while adding an ACE inhibitor or ARB (which also dilates venules) often reduces the edema. Bradykinin-related swelling is typical of ACE inhibitor **angioedema** of the face and lips, not of dependent ankle edema.",
+      "explanation_pt": "Os bloqueadores dos canais de cálcio **di-hidropiridínicos** dilatam muito mais as **arteríolas pré-capilares** do que as vênulas. Mais pressão chega aos capilares, a **pressão hidrostática** sobe e há extravasamento de líquido nos tornozelos. Não é hipervolemia: o peso e a pressão venosa jugular estão normais; por isso, diuréticos ajudam pouco, e associar IECA ou BRA (que também dilatam as vênulas) muitas vezes reduz o edema. O edema mediado por bradicinina é típico do **angioedema** de face e lábios por IECA, e não do edema de tornozelos dependente da gravidade."
+    },
+    {
+      "slug": "q-cardiovascular-pharmacology-qx-statin-fibrate-rhabdomyolysis",
+      "track": "step1",
+      "system": "cardiovascular",
+      "discipline": "pharmacology",
+      "tags": [
+        "cardiovascular-pharmacology",
+        "lipid-lowering",
+        "adverse-effects",
+        "drug-interactions"
+      ],
+      "stem": "A 60-year-old man with type 2 diabetes takes atorvastatin. His fasting triglycerides were 640 mg/dL, so a second lipid-lowering drug was added. Five weeks later he has diffuse muscle pain, weakness and dark urine. Creatine kinase is 18,400 U/L (normal < 200). Creatinine is 2.3 mg/dL (baseline 1.0 mg/dL), and potassium is 5.6 mEq/L. The urine dipstick is strongly positive for blood, but urine microscopy shows no red blood cells. Which drug was most likely added?",
+      "choices": [
+        "Ezetimibe",
+        "Evolocumab",
+        "Cholestyramine",
+        "Gemfibrozil",
+        "Omega-3 fatty acids"
+      ],
+      "correct": 3,
+      "explanation": "Very high CK, acute kidney injury, hyperkalemia and a heme-positive dipstick without red cells (**myoglobinuria**) mean **rhabdomyolysis**. **Gemfibrozil**, a fibrate that activates **PPAR-alpha** and lowers triglycerides, raises statin blood levels and also has its own muscle toxicity, so the combination carries the highest myopathy risk. Omega-3 fatty acids also lower triglycerides, but they do not cause myopathy. Cholestyramine can raise triglycerides, and ezetimibe and evolocumab mainly lower LDL.",
+      "explanation_pt": "CK muito elevada, lesão renal aguda, hipercalemia e fita urinária positiva para sangue sem hemácias (**mioglobinúria**) indicam **rabdomiólise**. A **genfibrozila**, um fibrato que ativa o **PPAR-alfa** e reduz os triglicerídeos, aumenta os níveis sanguíneos da estatina e tem toxicidade muscular própria; por isso, essa associação tem o maior risco de miopatia. Os ácidos graxos ômega-3 também reduzem os triglicerídeos, mas não causam miopatia. A colestiramina pode elevar os triglicerídeos, e a ezetimiba e o evolocumabe reduzem principalmente o LDL."
+    },
+    {
+      "slug": "q-cardiovascular-pharmacology-qx-clopidogrel-poor-metabolizer",
+      "track": "step1",
+      "system": "cardiovascular",
+      "discipline": "pharmacology",
+      "tags": [
+        "cardiovascular-pharmacology",
+        "antiplatelets",
+        "pharmacogenetics"
+      ],
+      "stem": "A 59-year-old man received a coronary stent after a myocardial infarction. He takes aspirin and clopidogrel every day, and pill counts confirm good adherence. Three weeks later he has another myocardial infarction caused by stent thrombosis. Genetic testing shows two loss-of-function alleles of a hepatic cytochrome P450 enzyme. Which mechanism best explains the treatment failure?",
+      "choices": [
+        "Reduced conversion of clopidogrel to its active form",
+        "Faster hepatic inactivation of active clopidogrel",
+        "Mutation that blocks clopidogrel binding to P2Y12",
+        "Rapid regeneration of COX-1 in circulating platelets",
+        "Reduced absorption of aspirin in the small intestine"
+      ],
+      "correct": 0,
+      "explanation": "**Clopidogrel** is a **prodrug**. The liver enzyme **CYP2C19** converts it to the active metabolite that irreversibly blocks the platelet **P2Y12** receptor. Poor metabolizers make little active drug, so platelets stay reactive and stent thrombosis risk rises; **ticagrelor**, which does not need this activation, is an option. Faster inactivation would need more enzyme activity, not loss-of-function alleles.",
+      "explanation_pt": "O **clopidogrel** é um **pró-fármaco**. A enzima hepática **CYP2C19** o converte no metabólito ativo, que bloqueia de forma irreversível o receptor plaquetário **P2Y12**. Os metabolizadores lentos produzem pouco fármaco ativo; as plaquetas continuam reativas e o risco de trombose do stent aumenta; o **ticagrelor**, que não precisa dessa ativação, é uma opção. Uma inativação mais rápida exigiria mais atividade enzimática, e não alelos com perda de função."
+    },
+    {
+      "slug": "q-cardiovascular-pharmacology-qx-methyldopa-hemolysis",
+      "track": "step1",
+      "system": "cardiovascular",
+      "discipline": "pharmacology",
+      "tags": [
+        "cardiovascular-pharmacology",
+        "antihypertensives",
+        "pregnancy",
+        "adverse-effects"
+      ],
+      "stem": "A 30-year-old woman at 30 weeks of gestation has chronic hypertension. Since early pregnancy, she has taken an antihypertensive drug that is often used in pregnancy. She now has fatigue and mild jaundice. Hemoglobin is 8.9 g/dL, reticulocytes are 7%, and indirect bilirubin is 3.1 mg/dL. LDH is high and haptoglobin is low. The blood smear shows spherocytes. The direct antiglobulin (Coombs) test is positive for IgG and negative for C3. Platelet count and liver enzymes are normal. What is the mechanism of action of the drug most likely responsible?",
+      "choices": [
+        "Blockade of beta-1, beta-2 and alpha-1 receptors",
+        "Stimulation of central alpha-2 adrenergic receptors",
+        "Blockade of L-type calcium channels in arteriolar muscle",
+        "Direct relaxation of arteriolar smooth muscle",
+        "Inhibition of angiotensin-converting enzyme"
+      ],
+      "correct": 1,
+      "explanation": "This is **warm autoimmune hemolytic anemia** (IgG-positive Coombs test, spherocytes); normal platelets and liver enzymes argue against HELLP syndrome. **Methyldopa**, a **central alpha-2 agonist** used for hypertension in pregnancy, can cause a positive direct Coombs test and, less often, hemolytic anemia. Labetalol (beta and alpha-1 blocker) is also common in pregnancy, but it does not cause autoimmune hemolysis. Hydralazine is linked to drug-induced lupus, and ACE inhibitors are avoided in pregnancy.",
+      "explanation_pt": "Trata-se de **anemia hemolítica autoimune a quente** (Coombs positivo para IgG, esferócitos); plaquetas e enzimas hepáticas normais falam contra síndrome HELLP. A **metildopa**, um **agonista alfa-2 central** usado para hipertensão na gestação, pode causar teste de Coombs direto positivo e, com menor frequência, anemia hemolítica. O labetalol (bloqueador beta e alfa-1) também é comum na gestação, mas não causa hemólise autoimune. A hidralazina está associada ao lúpus induzido por fármaco, e os IECA são evitados na gestação."
+    }
+  ],
+  "notes": []
+}

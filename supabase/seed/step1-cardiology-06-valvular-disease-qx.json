@@ -1,0 +1,182 @@
+{
+  "cards": [],
+  "questions": [
+    {
+      "slug": "q-valvular-disease-qx-ms-hoarseness",
+      "track": "step1",
+      "system": "cardiovascular",
+      "discipline": "pathology",
+      "tags": [
+        "valvular-disease",
+        "mitral-stenosis",
+        "left-atrial-enlargement"
+      ],
+      "stem": "A 41-year-old woman had rheumatic fever as a child. She now has 4 months of hoarseness and some difficulty swallowing solid food. She also has palpitations. Her pulse is irregularly irregular at 104/min. At the apex there is a loud S1, an extra sound shortly after S2 and a low-pitched mid-diastolic rumble. Laryngoscopy shows that one vocal cord does not move. Chest x-ray shows a very large left atrium. Compression of which structure best explains her hoarseness?",
+      "choices": [
+        "Right recurrent laryngeal nerve",
+        "Left recurrent laryngeal nerve",
+        "External branch of the superior laryngeal nerve",
+        "Left phrenic nerve",
+        "Cervical sympathetic chain"
+      ],
+      "correct": 1,
+      "explanation": "Loud S1, an **opening snap** and a mid-diastolic rumble are **mitral stenosis**, and the pressure load has made the **left atrium** very large. The **left recurrent laryngeal nerve** loops under the aortic arch and runs between the aorta and the pulmonary artery, where a huge left atrium or a dilated pulmonary artery can press on it (*cardiovocal* or **Ortner syndrome**); the same atrium can push on the esophagus and cause dysphagia. The right recurrent laryngeal nerve loops around the right subclavian artery, at the root of the neck, far from the left atrium. The phrenic nerve supplies the diaphragm, not the larynx.",
+      "explanation_pt": "B1 hiperfonética, **estalido de abertura** e ruflar mesodiastólico indicam **estenose mitral**, e a sobrecarga de pressão deixou o **átrio esquerdo** muito aumentado. O **nervo laríngeo recorrente esquerdo** contorna o arco aórtico e passa entre a aorta e a artéria pulmonar, onde um átrio esquerdo gigante ou uma artéria pulmonar dilatada podem comprimi-lo (síndrome *cardiovocal* ou **síndrome de Ortner**); o mesmo átrio pode comprimir o esôfago e causar disfagia. O nervo laríngeo recorrente direito contorna a artéria subclávia direita, na base do pescoço, longe do átrio esquerdo. O nervo frênico inerva o diafragma, e não a laringe."
+    },
+    {
+      "slug": "q-valvular-disease-qx-ms-pregnancy",
+      "track": "step1",
+      "system": "cardiovascular",
+      "discipline": "physiology",
+      "tags": [
+        "valvular-disease",
+        "mitral-stenosis",
+        "pregnancy"
+      ],
+      "stem": "A 27-year-old woman is 30 weeks pregnant. She grew up in a region where rheumatic fever is common. Before this pregnancy she had no symptoms. Now she is short of breath when she lies flat and when she climbs one flight of stairs. Her vital signs are: blood pressure 108/66 mm Hg, pulse 118/min and regular, respiratory rate 24/min, and oxygen saturation 93% on room air. There are crackles at both lung bases. At the apex, an opening snap is followed by a low-pitched diastolic rumble. Echocardiography shows a narrow mitral valve orifice and normal left ventricular function. Which factor best explains why her symptoms started during pregnancy?",
+      "choices": [
+        "Lower systemic vascular resistance",
+        "Compression of the inferior vena cava by the uterus",
+        "Thickening of the valve leaflets by pregnancy hormones",
+        "A faster heart rate with a shorter diastole",
+        "Reduced left ventricular contractility"
+      ],
+      "correct": 3,
+      "explanation": "In **mitral stenosis**, blood needs time to cross the narrow valve, and it can only do so in **diastole**. Pregnancy raises the **heart rate** and the blood volume; tachycardia shortens diastole much more than systole, so the left atrium cannot empty, **left atrial pressure** rises and fluid moves into the lungs. Reduced left ventricular contractility is unlikely because the echo shows normal function; in pure mitral stenosis the left ventricle is protected and underfilled. Lower vascular resistance and caval compression lower the load on the heart, and hormones do not thicken the leaflets.",
+      "explanation_pt": "Na **estenose mitral**, o sangue precisa de tempo para atravessar a valva estreita, e só consegue fazê-lo na **diástole**. A gestação aumenta a **frequência cardíaca** e a volemia; a taquicardia encurta muito mais a diástole do que a sístole, então o átrio esquerdo não consegue esvaziar, a **pressão no átrio esquerdo** sobe e há congestão pulmonar. A redução da contratilidade do ventrículo esquerdo é improvável porque o ecocardiograma mostra função normal; na estenose mitral pura, o ventrículo esquerdo fica protegido e pouco preenchido. A menor resistência vascular e a compressão da veia cava reduzem a carga sobre o coração, e os hormônios não espessam os folhetos."
+    },
+    {
+      "slug": "q-valvular-disease-qx-heyde-vwf",
+      "track": "step1",
+      "system": "cardiovascular",
+      "discipline": "pathology",
+      "tags": [
+        "valvular-disease",
+        "aortic-stenosis",
+        "von-willebrand-factor"
+      ],
+      "stem": "A 76-year-old man has 3 months of fatigue and several episodes of black stools. Blood pressure is 118/84 mm Hg and pulse is 92/min. His carotid pulses are weak and rise slowly. There is a harsh crescendo-decrescendo systolic murmur at the right upper sternal border that radiates to both carotid arteries, and S2 is soft. Laboratory results: hemoglobin 8.9 g/dL, mean corpuscular volume 74 fL, platelet count 240,000/mm³, and normal prothrombin time and partial thromboplastin time. Colonoscopy shows several small, recently bleeding vascular lesions in the cecum. Which mechanism most likely makes his bleeding worse?",
+      "choices": [
+        "Platelet consumption on the rough surface of the calcified valve",
+        "Vitamin K deficiency from poor intake",
+        "Shear-stress cleavage of large von Willebrand factor multimers",
+        "Autoantibodies against factor VIII",
+        "Hemolysis of red cells by the turbulent jet across the valve"
+      ],
+      "correct": 2,
+      "explanation": "Weak, slow-rising carotid pulses (*pulsus parvus et tardus*) with a crescendo-decrescendo murmur radiating to the carotids are **aortic stenosis**. Its link with bleeding **angiodysplasia** of the colon is called **Heyde syndrome**: the fast jet through the narrow valve unfolds the **largest von Willebrand factor multimers**, which are then cut by the protease ADAMTS13, causing an **acquired von Willebrand disease**. Platelet consumption is unlikely because the platelet count is normal. Aortic stenosis can cause some hemolysis, but that does not explain the bleeding, and the low MCV points to iron loss from the gut.",
+      "explanation_pt": "Pulsos carotídeos fracos e de ascensão lenta (*pulsus parvus et tardus*) com sopro em crescendo-decrescendo irradiado para as carótidas indicam **estenose aórtica**. Sua associação com sangramento por **angiodisplasia** do cólon é a **síndrome de Heyde**: o jato rápido pela valva estreita desdobra os **maiores multímeros do fator de von Willebrand**, que são então clivados pela protease ADAMTS13, causando **doença de von Willebrand adquirida**. O consumo de plaquetas é improvável porque a contagem de plaquetas está normal. A estenose aórtica pode causar alguma hemólise, mas isso não explica o sangramento, e o VCM baixo aponta para perda de ferro pelo trato digestivo."
+    },
+    {
+      "slug": "q-valvular-disease-qx-turner-bicuspid",
+      "track": "step1",
+      "system": "cardiovascular",
+      "discipline": "pathology",
+      "tags": [
+        "valvular-disease",
+        "bicuspid-aortic-valve",
+        "turner-syndrome"
+      ],
+      "stem": "A 19-year-old woman is evaluated for short stature and absent menstrual periods. She has a webbed neck, a broad chest with widely spaced nipples and low-set ears. Blood pressure in the right arm is 152/88 mm Hg, and in the right leg it is 112/76 mm Hg. Her femoral pulses are weak and delayed. There is an ejection click and a short systolic murmur at the right upper sternal border. Serum follicle-stimulating hormone (FSH) is high. Which valve abnormality is most likely present?",
+      "choices": [
+        "Pulmonic valve stenosis",
+        "Mitral valve prolapse",
+        "Rheumatic mitral stenosis",
+        "Ebstein anomaly of the tricuspid valve",
+        "Bicuspid aortic valve"
+      ],
+      "correct": 4,
+      "explanation": "Short stature, a webbed neck, **ovarian failure** (high FSH) and **coarctation of the aorta** (arm pressure higher than leg pressure, weak delayed femoral pulses) point to **Turner syndrome**. The most common valve lesion in Turner syndrome is a **bicuspid aortic valve**, which gives an ejection click and a murmur at the right upper sternal border. Pulmonic stenosis is the classic valve lesion of **Noonan syndrome**, which can look similar, but Noonan syndrome usually does not cause ovarian failure, and its click is heard at the left upper sternal border.",
+      "explanation_pt": "Baixa estatura, pescoço alado, **insuficiência ovariana** (FSH alto) e **coarctação da aorta** (pressão no braço maior que na perna, pulsos femorais fracos e atrasados) apontam para **síndrome de Turner**. A lesão valvar mais comum na síndrome de Turner é a **valva aórtica bicúspide**, que produz clique de ejeção e sopro na borda esternal direita alta. A estenose pulmonar é a lesão valvar clássica da **síndrome de Noonan**, que pode ter aparência semelhante, mas a síndrome de Noonan geralmente não causa insuficiência ovariana, e seu clique é audível na borda esternal esquerda alta."
+    },
+    {
+      "slug": "q-valvular-disease-qx-handgrip-mr",
+      "track": "step1",
+      "system": "cardiovascular",
+      "discipline": "physiology",
+      "tags": [
+        "valvular-disease",
+        "maneuvers",
+        "mitral-regurgitation"
+      ],
+      "stem": "A 63-year-old man had an anterior myocardial infarction 2 years ago. He now has a blowing holosystolic murmur at the apex that radiates to the left axilla. Echocardiography shows a dilated left ventricle and a central jet of blood leaking back through the mitral valve. During the exam he squeezes a handgrip device as hard as he can for 1 minute, and the murmur becomes louder. Which effect of this maneuver best explains the change?",
+      "choices": [
+        "Higher afterload that diverts blood into the left atrium",
+        "Greater venous return that raises right-sided stroke volume",
+        "A slower heart rate that lengthens the filling period",
+        "A smaller left ventricle that narrows the outflow tract",
+        "Higher contractility that closes the leaflets more firmly"
+      ],
+      "correct": 0,
+      "explanation": "Sustained **handgrip** squeezes the arterioles and raises **systemic vascular resistance**, so the left ventricle meets more **afterload**. In **mitral regurgitation**, the blood then takes the easier path back into the low-pressure left atrium, and the murmur gets louder (the same is true for aortic regurgitation and VSD). More venous return is the effect of **inspiration** and makes right-sided murmurs louder; handgrip does not mainly act on preload. A smaller left ventricle with a narrower outflow tract is how standing or Valsalva makes the HCM murmur louder.",
+      "explanation_pt": "A **manobra de preensão manual** (*handgrip*) sustentada contrai as arteríolas e eleva a **resistência vascular sistêmica**, então o ventrículo esquerdo enfrenta mais **pós-carga**. Na **insuficiência mitral**, o sangue toma então o caminho mais fácil, de volta para o átrio esquerdo de baixa pressão, e o sopro aumenta (o mesmo vale para a insuficiência aórtica e a CIV). Mais retorno venoso é o efeito da **inspiração** e aumenta os sopros de câmaras direitas; o handgrip não age principalmente sobre a pré-carga. Um ventrículo esquerdo menor, com via de saída mais estreita, é o mecanismo pelo qual o ortostatismo ou a manobra de Valsalva aumentam o sopro da CMH."
+    },
+    {
+      "slug": "q-valvular-disease-qx-chorea-prophylaxis",
+      "track": "step1",
+      "system": "cardiovascular",
+      "discipline": "microbiology",
+      "tags": [
+        "valvular-disease",
+        "rheumatic-fever",
+        "sydenham-chorea"
+      ],
+      "stem": "An 11-year-old girl has 3 weeks of sudden, jerky, purposeless movements of her arms and face. The movements stop during sleep. Her parents say she cries easily and her handwriting has become messy. When she squeezes the doctor's fingers, her grip tightens and relaxes again and again. Two years ago she was treated for joint pain that moved from joint to joint and for a heart murmur. Now there is a soft holosystolic murmur at the apex. Antistreptolysin O titer is normal. Which intervention best prevents further damage to her heart valves?",
+      "choices": [
+        "Long-term aspirin",
+        "Tonsillectomy",
+        "Daily oral corticosteroids",
+        "Long-term penicillin prophylaxis",
+        "Haloperidol until the movements stop"
+      ],
+      "correct": 3,
+      "explanation": "**Sydenham chorea** (jerky movements, emotional changes, *milkmaid grip*) is a major Jones criterion of **acute rheumatic fever**, here a recurrence in a child with earlier carditis. Chorea appears months after the throat infection, so the antistreptolysin O titer may already be normal. Each new group A streptococcal infection can trigger a new attack and more valve scarring, so **long-term penicillin prophylaxis** (secondary prevention) protects the valves. Aspirin relieves the arthritis but does not prevent new infections or new attacks.",
+      "explanation_pt": "A **coreia de Sydenham** (movimentos abruptos, alterações emocionais, *milkmaid grip* ou sinal da ordenhadeira) é um critério maior de Jones da **febre reumática aguda**, aqui uma recorrência em uma criança com cardite prévia. A coreia surge meses após a infecção de garganta, então o título de antiestreptolisina O pode já estar normal. Cada nova infecção por estreptococo do grupo A pode desencadear um novo surto e mais cicatrização valvar, então a **profilaxia prolongada com penicilina** (profilaxia secundária) protege as valvas. O ácido acetilsalicílico alivia a artrite, mas não previne novas infecções nem novos surtos."
+    },
+    {
+      "slug": "q-valvular-disease-qx-ankylosing-ar-remodeling",
+      "track": "step1",
+      "system": "cardiovascular",
+      "discipline": "pathology",
+      "tags": [
+        "valvular-disease",
+        "aortic-regurgitation",
+        "ventricular-remodeling"
+      ],
+      "stem": "A 47-year-old man has 1 year of increasing shortness of breath on exertion. Since his early twenties he has had low back pain and morning stiffness that last more than an hour and improve with exercise. Forward bending of his lower spine is reduced. Blood pressure is 168/52 mm Hg and pulse is 78/min. A high-pitched decrescendo diastolic murmur begins right after S2. Echocardiography shows a dilated aortic root and a jet of blood flowing back into the left ventricle in diastole. Which change in the left ventricle is most likely?",
+      "choices": [
+        "Eccentric hypertrophy with new sarcomeres added in series",
+        "Concentric hypertrophy with new sarcomeres added in parallel",
+        "Myocyte disarray with asymmetric septal thickening",
+        "Myocardial atrophy from a reduced workload",
+        "Endocardial fibroelastosis with a small, stiff cavity"
+      ],
+      "correct": 0,
+      "explanation": "Inflammatory back pain that improves with exercise points to **ankylosing spondylitis**, which can inflame the aortic root and valve and cause **aortic regurgitation**. Aortic regurgitation is a **volume overload**, so the left ventricle grows by adding sarcomeres **in series**, giving a large chamber with **eccentric hypertrophy**. The high systolic pressure comes from the large stroke volume; concentric hypertrophy with sarcomeres added in parallel is the response to a **pressure overload**, such as aortic stenosis or long-standing hypertension. Myocyte disarray with septal thickening is hypertrophic cardiomyopathy.",
+      "explanation_pt": "Dor lombar inflamatória que melhora com exercício aponta para **espondilite anquilosante**, que pode inflamar a raiz da aorta e a valva e causar **insuficiência aórtica**. A insuficiência aórtica é uma **sobrecarga de volume**, então o ventrículo esquerdo cresce adicionando sarcômeros **em série**, gerando uma cavidade grande com **hipertrofia excêntrica**. A pressão sistólica alta vem do grande volume sistólico; a hipertrofia concêntrica, com sarcômeros adicionados em paralelo, é a resposta a uma **sobrecarga de pressão**, como na estenose aórtica ou na hipertensão de longa data. Desarranjo de miócitos com espessamento septal é a cardiomiopatia hipertrófica."
+    },
+    {
+      "slug": "q-valvular-disease-qx-as-exertional-syncope",
+      "track": "step1",
+      "system": "cardiovascular",
+      "discipline": "physiology",
+      "tags": [
+        "valvular-disease",
+        "aortic-stenosis",
+        "syncope"
+      ],
+      "stem": "A 70-year-old woman fainted while walking quickly to catch a bus. She woke up after a few seconds and was not confused. For several months she has had chest tightness when she exercises. Blood pressure is 116/76 mm Hg and pulse is 76/min and regular. There is a late-peaking systolic murmur at the right upper sternal border that radiates to the carotid arteries. Cardiac catheterization shows: left ventricular pressure 196/14 mm Hg, aortic pressure 116/74 mm Hg, and pulmonary capillary wedge pressure 12 mm Hg. Which mechanism best explains her fainting?",
+      "choices": [
+        "Dynamic outflow obstruction by a thick septum",
+        "Fixed outflow obstruction that limits cardiac output",
+        "Vasovagal reflex triggered by anxiety about missing the bus",
+        "Left atrial thrombus that blocks the mitral valve orifice",
+        "Pulmonary embolism from a leg vein thrombus"
+      ],
+      "correct": 1,
+      "explanation": "The left ventricle generates 196 mm Hg but the aorta reaches only 116 mm Hg, a systolic gradient of **80 mm Hg** across the aortic valve; with a late-peaking murmur radiating to the carotids, this is **aortic stenosis**. During exercise the muscle arterioles dilate, but the **fixed obstruction** stops cardiac output from rising enough, so blood pressure falls and the brain is underperfused (**exertional syncope**). Dynamic obstruction by a thick septum is hypertrophic cardiomyopathy, which usually affects younger patients and gives a murmur that does not radiate to the carotids. The normal wedge pressure argues against a left atrial problem blocking the mitral valve.",
+      "explanation_pt": "O ventrículo esquerdo gera 196 mm Hg, mas a aorta atinge apenas 116 mm Hg, um gradiente sistólico de **80 mm Hg** através da valva aórtica; com sopro de pico tardio irradiado para as carótidas, trata-se de **estenose aórtica**. No exercício, as arteríolas musculares dilatam, mas a **obstrução fixa** impede que o débito cardíaco aumente o suficiente, então a pressão arterial cai e o cérebro fica hipoperfundido (**síncope de esforço**). A obstrução dinâmica por um septo espesso é a cardiomiopatia hipertrófica, que costuma acometer pacientes mais jovens e produz sopro que não irradia para as carótidas. A pressão de oclusão da artéria pulmonar normal fala contra um problema no átrio esquerdo obstruindo a valva mitral."
+    }
+  ],
+  "notes": []
+}

@@ -1,0 +1,180 @@
+{
+  "cards": [],
+  "questions": [
+    {
+      "slug": "q-vascular-hypertension-qx-bilateral-ras-ace-inhibitor",
+      "track": "step1",
+      "system": "cardiovascular",
+      "discipline": "pathology",
+      "tags": [
+        "vascular-hypertension",
+        "secondary-hypertension",
+        "renal-artery-stenosis"
+      ],
+      "stem": "A 71-year-old man has had hypertension that is hard to control for 2 years. He has smoked for 50 years and has coronary artery disease. Last year he was admitted twice for sudden pulmonary edema. A bruit is heard in the upper abdomen. Lisinopril is added to his treatment. His labs before the new drug and 10 days later are: serum creatinine 1.1 mg/dL, then 2.3 mg/dL; potassium 4.4 mEq/L, then 5.4 mEq/L. Urinalysis is normal both times, with no white cells and no casts. Which underlying condition best explains the change in his kidney function?",
+      "choices": [
+        "Acute interstitial nephritis caused by the new drug",
+        "Unilateral fibromuscular dysplasia of a renal artery",
+        "Hypertensive nephrosclerosis with hyaline arteriolosclerosis",
+        "Bilateral atherosclerotic renal artery stenosis",
+        "Primary hyperaldosteronism from an adrenal adenoma"
+      ],
+      "correct": 3,
+      "explanation": "When both renal arteries are narrowed, GFR depends on **angiotensin II constricting the efferent arteriole**; an ACE inhibitor removes this support, so creatinine and potassium rise sharply. An older smoker with atherosclerosis, resistant hypertension, **recurrent sudden pulmonary edema** and an abdominal bruit fits **bilateral atherosclerotic renal artery stenosis**. Acute interstitial nephritis is the tempting choice, but it usually shows white cells or white cell casts in the urine, often with fever, rash or eosinophilia; here the normal urine and quick timing point to a hemodynamic effect. With stenosis on one side only, the healthy kidney usually keeps total GFR close to normal.",
+      "explanation_pt": "Quando as duas artérias renais estão estreitadas, a TFG depende da **angiotensina II contraindo a arteríola eferente**; o IECA retira esse suporte, e a creatinina e o potássio sobem de forma acentuada. Um tabagista idoso com aterosclerose, hipertensão resistente, **edema pulmonar súbito recorrente** e sopro abdominal sugere **estenose aterosclerótica bilateral de artérias renais**. A nefrite intersticial aguda é a alternativa mais tentadora, mas costuma mostrar leucócitos ou cilindros leucocitários na urina, muitas vezes com febre, exantema ou eosinofilia; aqui, a urina normal e a evolução rápida indicam um efeito hemodinâmico. Com estenose de um só lado, o rim saudável geralmente mantém a TFG total próxima do normal."
+    },
+    {
+      "slug": "q-vascular-hypertension-qx-fibromuscular-dysplasia-lesion",
+      "track": "step1",
+      "system": "cardiovascular",
+      "discipline": "pathology",
+      "tags": [
+        "vascular-hypertension",
+        "secondary-hypertension",
+        "renal-artery-stenosis"
+      ],
+      "stem": "A 29-year-old woman has a blood pressure of 168/104 mm Hg at a routine visit. Her blood pressure was normal 1 year ago. She takes no medications or supplements and does not smoke. Arm pulses are strong and equal, and blood pressure is the same in both arms. A bruit is heard in the upper abdomen, just to the right of the midline. ESR is normal. Serum potassium is 3.3 mEq/L, and plasma renin activity is high. Which lesion is most likely present in her renal artery?",
+      "choices": [
+        "Cholesterol-rich atherosclerotic plaque at the origin of the artery and in the nearby aorta",
+        "Noninflammatory fibrous thickening of the media with segments of narrowing and dilation",
+        "Granulomatous inflammation of the aortic wall extending into the arterial origin, with giant cells",
+        "Segmental necrotizing inflammation of the arterial wall with fibrinoid necrosis and small aneurysms",
+        "Pink, glassy thickening of small arteriolar walls caused by leaked plasma proteins"
+      ],
+      "correct": 1,
+      "explanation": "New hypertension in a young woman with an abdominal bruit, **high renin** and low potassium suggests **fibromuscular dysplasia**, a **noninflammatory, nonatherosclerotic** disease that most often thickens the **media** and gives a \"**string of beads**\" look on angiography. Takayasu arteritis is the tempting choice because it can also narrow the renal arteries in young women, but it is a granulomatous vasculitis with a high ESR and usually weak or unequal arm pulses. Atherosclerotic plaque at the origin of the artery is the typical cause in older adults with vascular risk factors.",
+      "explanation_pt": "Hipertensão de início recente em mulher jovem com sopro abdominal, **renina alta** e potássio baixo sugere **displasia fibromuscular**, doença **não inflamatória e não aterosclerótica** que geralmente espessa a **camada média** e dá aspecto em \"**colar de contas**\" (*string of beads*) na angiografia. A arterite de Takayasu é a alternativa mais tentadora, pois também pode estreitar as artérias renais em mulheres jovens, mas é uma vasculite granulomatosa com VHS elevada e, em geral, pulsos fracos ou assimétricos nos braços. A placa aterosclerótica na origem da artéria é a causa típica em adultos mais velhos com fatores de risco vascular."
+    },
+    {
+      "slug": "q-vascular-hypertension-qx-malignant-hypertension-arterioles",
+      "track": "step1",
+      "system": "cardiovascular",
+      "discipline": "pathology",
+      "tags": [
+        "vascular-hypertension",
+        "hypertensive-emergency",
+        "arteriolosclerosis"
+      ],
+      "stem": "A 39-year-old man comes to the emergency department with a severe headache and blurred vision for 2 days. He stopped his blood pressure medicines 6 months ago. Blood pressure is 238/136 mm Hg. Funduscopic exam shows flame-shaped hemorrhages, cotton-wool spots and swollen optic discs. Labs show serum creatinine 3.4 mg/dL (1.0 mg/dL one year ago), hemoglobin 10.8 g/dL with schistocytes on the blood smear, and 2+ protein with red blood cells on urinalysis. Which change in the small arteries and arterioles of his kidneys best explains his acute kidney injury?",
+      "choices": [
+        "Homogeneous pink thickening of arteriolar walls from leaked plasma proteins",
+        "Granulomas with multinucleated giant cells in the arterial wall",
+        "Calcium deposits in the arterial media without narrowing of the lumen",
+        "Cholesterol crystals blocking the lumen of small arteries",
+        "Concentric smooth muscle layers with fibrinoid necrosis of the wall"
+      ],
+      "correct": 4,
+      "explanation": "Very high blood pressure with acute damage to the retina (papilledema, hemorrhages), kidneys and red cells (microangiopathic hemolysis) is a **hypertensive emergency** (malignant hypertension). Its arteriolar lesion is **hyperplastic arteriolosclerosis**: concentric \"**onion-skin**\" layers of smooth muscle, often with **fibrinoid necrosis**, which narrow the lumen and cause acute kidney injury. Hyaline arteriolosclerosis is the tempting choice, but it is the slow change of long-standing mild hypertension, diabetes and aging and does not explain this acute picture.",
+      "explanation_pt": "Pressão arterial muito elevada com lesão aguda da retina (papiledema, hemorragias), dos rins e das hemácias (hemólise microangiopática) caracteriza uma **emergência hipertensiva** (hipertensão maligna). A lesão arteriolar típica é a **arteriolosclerose hiperplásica**: camadas concêntricas de músculo liso \"**em casca de cebola**\" (*onion-skinning*), muitas vezes com **necrose fibrinoide**, que estreitam a luz e causam lesão renal aguda. A arteriolosclerose hialina é a alternativa mais tentadora, mas é a alteração lenta da hipertensão crônica leve, do diabetes e do envelhecimento, e não explica este quadro agudo."
+    },
+    {
+      "slug": "q-vascular-hypertension-qx-monckeberg-noncompressible",
+      "track": "step1",
+      "system": "cardiovascular",
+      "discipline": "pathology",
+      "tags": [
+        "vascular-hypertension",
+        "arteriosclerosis"
+      ],
+      "stem": "A 76-year-old man has type 2 diabetes and chronic kidney disease. He walks 3 km every day without leg pain. His foot pulses are easy to feel, and the skin of his feet is warm and normal. A foot x-ray, taken after a minor injury, shows two thin parallel lines of calcium along the arteries. When the ankle-brachial index is measured, the cuff cannot compress the ankle arteries, and the ankle pressure reads much higher than the arm pressure. Which condition best explains these findings?",
+      "choices": [
+        "Mönckeberg medial calcific sclerosis",
+        "Atherosclerotic peripheral artery disease",
+        "Hyaline arteriolosclerosis",
+        "Thromboangiitis obliterans",
+        "Calciphylaxis (calcific uremic arteriolopathy)"
+      ],
+      "correct": 0,
+      "explanation": "**Mönckeberg medial calcific sclerosis** is calcium in the **media** of muscular arteries; it is common in older adults and in people with **diabetes** or **chronic kidney disease**. The **lumen stays open**, so he has no claudication and normal pulses, but the stiff arteries cannot be compressed, which gives **falsely high ankle pressures** and *tram-track* lines on x-ray. Atherosclerotic peripheral artery disease is the tempting choice, but intimal plaques narrow the lumen and cause claudication, weak pulses and a low ankle-brachial index. Calciphylaxis also occurs in kidney disease, but it presents with painful skin necrosis.",
+      "explanation_pt": "A **esclerose calcificante da média de Mönckeberg** é a deposição de cálcio na **camada média** de artérias musculares; é comum em idosos e em pessoas com **diabetes** ou **doença renal crônica**. A **luz permanece pérvia**, por isso ele não tem claudicação e os pulsos são normais, mas as artérias rígidas são incompressíveis, o que gera **pressões falsamente elevadas no tornozelo** e linhas paralelas (*tram-track*) na radiografia. A doença arterial periférica aterosclerótica é a alternativa mais tentadora, mas as placas da íntima estreitam a luz e causam claudicação, pulsos fracos e índice tornozelo-braquial baixo. A calcifilaxia também ocorre na doença renal, mas se manifesta com necrose cutânea dolorosa."
+    },
+    {
+      "slug": "q-vascular-hypertension-qx-aaa-risk-factor",
+      "track": "step1",
+      "system": "cardiovascular",
+      "discipline": "pathology",
+      "tags": [
+        "vascular-hypertension",
+        "aneurysm"
+      ],
+      "stem": "A 69-year-old man has an ultrasound because his doctor felt a pulsatile, nontender mass above his umbilicus. The scan shows a 4.8-cm dilation of the abdominal aorta below the renal arteries. He has hypertension and high LDL cholesterol. He has smoked one pack of cigarettes a day for 45 years. He does not have diabetes. His vital signs are normal. Which factor is most strongly linked to both the development and the growth of this lesion?",
+      "choices": [
+        "Hypertension",
+        "High LDL cholesterol",
+        "Cigarette smoking",
+        "Obesity",
+        "Diabetes mellitus"
+      ],
+      "correct": 2,
+      "explanation": "This is an **infrarenal abdominal aortic aneurysm**. **Cigarette smoking** is its strongest modifiable risk factor: it is linked to forming the aneurysm and to faster growth and rupture, so stopping smoking is a key step. Hypertension is the tempting choice, and it does add risk through atherosclerosis and wall stress, but its link is weaker than that of smoking. **Diabetes** is associated with a *lower* risk of AAA, not a higher one.",
+      "explanation_pt": "Trata-se de um **aneurisma de aorta abdominal infrarrenal**. O **tabagismo** é o fator de risco modificável mais forte: está ligado à formação do aneurisma e a crescimento e ruptura mais rápidos, por isso parar de fumar é um passo fundamental. A hipertensão é a alternativa mais tentadora e aumenta o risco pela aterosclerose e pelo estresse na parede, mas sua associação é mais fraca que a do tabagismo. O **diabetes** está associado a um risco *menor* de AAA, e não maior."
+    },
+    {
+      "slug": "q-vascular-hypertension-qx-syphilitic-aortitis",
+      "track": "step1",
+      "system": "cardiovascular",
+      "discipline": "pathology",
+      "tags": [
+        "vascular-hypertension",
+        "aneurysm",
+        "aortitis"
+      ],
+      "stem": "A 64-year-old man has had a hoarse voice and a dry cough for 3 months. At age 28 he had a painless genital sore that healed without treatment. Blood pressure is 148/84 mm Hg. His pupils are small and irregular; they constrict when he focuses on a near object but not in bright light. A chest x-ray shows a dilated ascending aorta and aortic arch with thin, linear calcification of the wall. Serum RPR and a treponemal antibody test are both positive. Which change in the aortic wall most likely caused the dilation?",
+      "choices": [
+        "Narrowed vasa vasorum surrounded by plasma cells, causing ischemia of the media",
+        "Fragmented elastic fibers and pools of mucoid material in the media from abnormal fibrillin",
+        "Granulomatous inflammation of the media with multinucleated giant cells",
+        "Atherosclerotic plaque that weakens the media of the infrarenal aorta",
+        "An intimal tear that lets blood separate the layers of the media"
+      ],
+      "correct": 0,
+      "explanation": "Positive treponemal tests, a past painless chancre, **Argyll Robertson pupils** and a dilated ascending aorta and arch (the hoarseness comes from stretching of the left recurrent laryngeal nerve) point to **syphilitic aortitis** of tertiary syphilis. **Obliterative endarteritis of the vasa vasorum**, with **plasma cells** around them, starves the media of blood; the media scars, the aortic root dilates and the valve ring stretches, and the intima takes on a wrinkled *tree-bark* look. Cystic medial degeneration (for example, in Marfan syndrome) is the tempting choice because it also dilates the aortic root, but the history and positive serology point to syphilis.",
+      "explanation_pt": "Testes treponêmicos positivos, um cancro indolor no passado, **pupilas de Argyll Robertson** e dilatação da aorta ascendente e do arco (a rouquidão vem do estiramento do nervo laríngeo recorrente esquerdo) indicam **aortite sifilítica** da sífilis terciária. A **endarterite obliterante dos vasa vasorum**, com **plasmócitos** ao redor, priva a camada média de sangue; a média cicatriza, a raiz da aorta se dilata e o anel valvar se distende, e a íntima adquire aspecto enrugado em \"casca de árvore\" (*tree-bark*). A degeneração cística da média (por exemplo, na síndrome de Marfan) é a alternativa mais tentadora porque também dilata a raiz da aorta, mas a história e a sorologia positiva indicam sífilis."
+    },
+    {
+      "slug": "q-vascular-hypertension-qx-gca-vision-loss",
+      "track": "step1",
+      "system": "cardiovascular",
+      "discipline": "pathology",
+      "tags": [
+        "vascular-hypertension",
+        "vasculitis",
+        "giant-cell-arteritis"
+      ],
+      "stem": "A 75-year-old woman has had a new headache over her right temple for 3 weeks. Her jaw hurts when she chews, and her shoulders are stiff in the morning. This morning she suddenly lost vision in her right eye. Her right temporal artery is tender, with a weak pulse. ESR is 104 mm/h. Funduscopic exam shows a pale, swollen right optic disc. Occlusion of which vessels most likely caused her vision loss?",
+      "choices": [
+        "Central retinal vein",
+        "Branches of the middle cerebral artery",
+        "Superficial temporal artery",
+        "Posterior ciliary arteries",
+        "Posterior cerebral artery"
+      ],
+      "correct": 3,
+      "explanation": "In **giant cell arteritis**, vision loss usually comes from inflammation and occlusion of the **posterior ciliary arteries**, branches of the **ophthalmic artery** that supply the optic nerve head. The result is an ischemic optic neuropathy with a **pale, swollen disc**, and the other eye is at risk, so high-dose glucocorticoids are started at once. The superficial temporal artery is the tempting choice because it is inflamed and is the biopsy site, but it does not supply the eye. A central retinal vein occlusion would show widespread retinal hemorrhages and swollen veins, not a pale swollen disc.",
+      "explanation_pt": "Na **arterite de células gigantes**, a perda visual geralmente resulta da inflamação e oclusão das **artérias ciliares posteriores**, ramos da **artéria oftálmica** que irrigam a cabeça do nervo óptico. O resultado é uma neuropatia óptica isquêmica com **disco pálido e edemaciado**, e o outro olho fica em risco, por isso o glicocorticoide em dose alta é iniciado imediatamente. A artéria temporal superficial é a alternativa mais tentadora porque está inflamada e é o local da biópsia, mas não irriga o olho. A oclusão da veia central da retina mostraria hemorragias retinianas difusas e veias ingurgitadas, e não um disco pálido e edemaciado."
+    },
+    {
+      "slug": "q-vascular-hypertension-qx-takayasu-vs-coarctation",
+      "track": "step1",
+      "system": "cardiovascular",
+      "discipline": "pathology",
+      "tags": [
+        "vascular-hypertension",
+        "vasculitis",
+        "takayasu"
+      ],
+      "stem": "A 26-year-old woman has had 4 months of fatigue, low-grade fevers and joint pain. Her left arm aches when she brushes her hair. Blood pressure readings are: right arm 146/88 mm Hg; left arm 104/70 mm Hg; right leg 152/92 mm Hg. The left radial pulse is weak. Femoral pulses are strong and not delayed. A bruit is heard above the left clavicle. Hemoglobin is 10.9 g/dL, and ESR is 72 mm/h. What is the most likely diagnosis?",
+      "choices": [
+        "Coarctation of the aorta",
+        "Takayasu arteritis",
+        "Giant cell arteritis",
+        "Fibromuscular dysplasia",
+        "Atherosclerotic subclavian stenosis"
+      ],
+      "correct": 1,
+      "explanation": "A young woman with **systemic symptoms**, anemia, a high ESR, **arm claudication**, a weak radial pulse, a **blood pressure difference between the arms** and a subclavian bruit has **Takayasu arteritis**, a granulomatous vasculitis of the aortic arch and its branches. Coarctation of the aorta is the tempting choice because of the abnormal pressures, but it causes high pressure in the arms with **weak, delayed femoral pulses** and lower leg pressures, and it does not raise the ESR. Giant cell arteritis has similar histology but occurs after age 50.",
+      "explanation_pt": "Uma mulher jovem com **sintomas sistêmicos**, anemia, VHS elevada, **claudicação de membro superior**, pulso radial fraco, **diferença de pressão arterial entre os braços** e sopro na artéria subclávia tem **arterite de Takayasu**, vasculite granulomatosa do arco aórtico e seus ramos. A coarctação da aorta é a alternativa mais tentadora pelas pressões alteradas, mas causa pressão alta nos braços com **pulsos femorais fracos e atrasados** e pressões menores nas pernas, e não eleva a VHS. A arterite de células gigantes tem histologia semelhante, mas ocorre após os 50 anos."
+    }
+  ],
+  "notes": []
+}
