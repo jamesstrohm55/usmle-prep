@@ -1,0 +1,182 @@
+{
+  "cards": [],
+  "questions": [
+    {
+      "slug": "q-renal-filtration-clearance-qx-glucose-excretion",
+      "track": "step1",
+      "system": "renal",
+      "discipline": "physiology",
+      "tags": [
+        "renal-filtration-clearance",
+        "transport-maximum",
+        "glucose"
+      ],
+      "stem": "A 41-year-old woman with poorly controlled type 1 diabetes takes part in a kidney physiology study. Her transport maximum (Tm) for glucose was measured earlier at 375 mg/min. During the study her values are stable: inulin clearance 100 mL/min, plasma glucose 500 mg/dL, urine flow 3 mL/min. What is her rate of glucose excretion in the urine?",
+      "choices": [
+        "0 mg/min",
+        "25 mg/min",
+        "125 mg/min",
+        "375 mg/min",
+        "500 mg/min"
+      ],
+      "correct": 2,
+      "explanation": "Filtered load = GFR × plasma glucose = 100 mL/min × 5 mg/mL (500 mg/dL) = **500 mg/min**. This is above the **Tm** of 375 mg/min, so the transporters are saturated and reabsorb only 375 mg/min; **excretion = 500 − 375 = 125 mg/min**. Answering 0 assumes the proximal tubule always reabsorbs all filtered glucose, which is true only below the threshold; 375 is the amount reabsorbed and 500 is the amount filtered, not the amount excreted.",
+      "explanation_pt": "Carga filtrada = TFG × glicemia = 100 mL/min × 5 mg/mL (500 mg/dL) = **500 mg/min**. Isso está acima do **Tm** de 375 mg/min, então os transportadores estão saturados e reabsorvem apenas 375 mg/min; **excreção = 500 − 375 = 125 mg/min**. Responder 0 supõe que o túbulo proximal sempre reabsorve toda a glicose filtrada, o que só vale abaixo do limiar; 375 é a quantidade reabsorvida e 500 é a quantidade filtrada, não a excretada."
+    },
+    {
+      "slug": "q-renal-filtration-clearance-qx-protein-binding",
+      "track": "step1",
+      "system": "renal",
+      "discipline": "physiology",
+      "tags": [
+        "renal-filtration-clearance",
+        "clearance",
+        "protein-binding"
+      ],
+      "stem": "A 36-year-old man volunteers in a study of drug Y. In plasma, 80% of drug Y is bound to albumin; the unbound drug is freely filtered. At steady state his values are: inulin clearance 120 mL/min, total plasma concentration of Y 0.25 mg/mL, urine concentration of Y 3 mg/mL, urine flow 2 mL/min. How do his kidneys most likely handle drug Y?",
+      "choices": [
+        "Filtration of the unbound drug, with no net tubular transport",
+        "Filtration of the unbound drug, plus net tubular reabsorption",
+        "Filtration of the unbound drug, plus net tubular secretion",
+        "Filtration of both bound and unbound drug, plus net tubular reabsorption",
+        "Tubular secretion only, with no glomerular filtration"
+      ],
+      "correct": 0,
+      "explanation": "Unbound Y = 20% × 0.25 = 0.05 mg/mL, so the **filtered load = 120 × 0.05 = 6 mg/min**. Excretion = 3 mg/mL × 2 mL/min = **6 mg/min**: what is filtered equals what is excreted, so there is **no net tubular transport**. Clearance based on total plasma Y (6 / 0.25 = 24 mL/min) is far below the GFR, which tempts the answer of net reabsorption, but the low clearance is fully explained by **protein binding**, because albumin-bound drug is not filtered.",
+      "explanation_pt": "Y livre = 20% × 0,25 = 0,05 mg/mL, então a **carga filtrada = 120 × 0,05 = 6 mg/min**. Excreção = 3 mg/mL × 2 mL/min = **6 mg/min**: o que é filtrado é igual ao que é excretado, portanto **não há transporte tubular líquido**. A depuração calculada com o Y plasmático total (6 / 0,25 = 24 mL/min) fica muito abaixo da TFG, o que leva a pensar em reabsorção líquida, mas a depuração baixa é totalmente explicada pela **ligação a proteínas**, já que o fármaco ligado à albumina não é filtrado."
+    },
+    {
+      "slug": "q-renal-filtration-clearance-qx-pah-saturation",
+      "track": "step1",
+      "system": "renal",
+      "discipline": "physiology",
+      "tags": [
+        "renal-filtration-clearance",
+        "renal-plasma-flow",
+        "tubular-secretion"
+      ],
+      "stem": "In an animal study, para-aminohippuric acid (PAH) is infused, and its plasma concentration is raised step by step from low to very high levels. A flow probe on the renal artery shows that renal blood flow does not change and the arterial pressure is stable. At low plasma PAH, the renal extraction of PAH is about 0.9. At the highest plasma PAH, the extraction is about 0.4, and PAH clearance is much lower than at the start. What best explains the fall in PAH clearance?",
+      "choices": [
+        "Reabsorption of PAH in the proximal tubule",
+        "Reduced glomerular filtration of PAH",
+        "Constriction of the afferent arteriole by PAH",
+        "Saturation of PAH secretion in the proximal tubule",
+        "Reduced renal plasma flow at the highest plasma PAH levels"
+      ],
+      "correct": 3,
+      "explanation": "PAH clearance estimates renal plasma flow only because the proximal tubule **secretes** almost all PAH that escapes filtration. Secretion uses **organic anion transporters** with a **Tm**; at very high plasma PAH they **saturate**, so less PAH is removed in one pass (extraction falls) and PAH clearance **underestimates RPF**, and at very high levels it approaches the GFR. The flow probe shows unchanged renal blood flow, so a real fall in renal plasma flow (or arteriolar constriction) does not explain the result.",
+      "explanation_pt": "A depuração de PAH estima o fluxo plasmático renal apenas porque o túbulo proximal **secreta** quase todo o PAH que escapa da filtração. A secreção usa **transportadores de ânions orgânicos** com um **Tm**; com PAH plasmático muito alto eles **saturam**, então menos PAH é removido em uma passagem (a extração cai) e a depuração de PAH **subestima o FPR**, e em níveis muito altos se aproxima da TFG. O medidor de fluxo mostra fluxo sanguíneo renal inalterado, então uma queda real do fluxo plasmático renal (ou constrição arteriolar) não explica o resultado."
+    },
+    {
+      "slug": "q-renal-filtration-clearance-qx-peritubular-oncotic",
+      "track": "step1",
+      "system": "renal",
+      "discipline": "physiology",
+      "tags": [
+        "renal-filtration-clearance",
+        "filtration-fraction",
+        "starling-forces"
+      ],
+      "stem": "A 23-year-old man has had 2 days of watery diarrhea and has drunk little. He is thirsty and dizzy when he stands. Blood pressure is 98/60 mm Hg and pulse is 112/min. Laboratory studies show: hematocrit 50%, serum sodium 145 mEq/L, BUN 38 mg/dL, creatinine 1.3 mg/dL. Angiotensin II levels are high. Which change in Starling forces most directly increases the uptake of fluid reabsorbed by his proximal tubule into the peritubular capillaries?",
+      "choices": [
+        "Increased peritubular capillary hydrostatic pressure",
+        "Increased peritubular capillary oncotic pressure",
+        "Decreased peritubular capillary oncotic pressure",
+        "Decreased Bowman space hydrostatic pressure",
+        "Decreased glomerular capillary oncotic pressure"
+      ],
+      "correct": 1,
+      "explanation": "Angiotensin II constricts the **efferent arteriole**, so a larger share of plasma is filtered (**higher FF**). The blood that leaves the glomerulus is therefore richer in protein, which **raises the oncotic pressure in the peritubular capillaries** and pulls more of the proximal reabsorbate into them, helping to restore volume. Higher peritubular hydrostatic pressure would have the opposite effect: it opposes uptake and is typical of volume expansion, not depletion.",
+      "explanation_pt": "A angiotensina II contrai a **arteríola eferente**, então uma fração maior do plasma é filtrada (**FF maior**). Assim, o sangue que sai do glomérulo fica mais rico em proteínas, o que **aumenta a pressão oncótica nos capilares peritubulares** e atrai para eles mais líquido reabsorvido no túbulo proximal, ajudando a restaurar o volume. Uma pressão hidrostática peritubular maior teria o efeito oposto: ela se opõe à captação e é típica da expansão de volume, não da depleção."
+    },
+    {
+      "slug": "q-renal-filtration-clearance-qx-sglt2-tubuloglomerular",
+      "track": "step1",
+      "system": "renal",
+      "discipline": "pharmacology",
+      "tags": [
+        "renal-filtration-clearance",
+        "tubuloglomerular-feedback",
+        "sglt2-inhibitors"
+      ],
+      "stem": "A 62-year-old man with type 2 diabetes and albuminuria has taken losartan for 2 years at a stable dose. Empagliflozin is added. Three weeks later he has glucose in his urine, his serum creatinine has risen from 1.10 to 1.25 mg/dL, and urine albumin has decreased. Serum potassium is normal. Which mechanism best explains the small fall in his GFR after the new drug?",
+      "choices": [
+        "Efferent arteriolar dilation from less angiotensin II action",
+        "Afferent arteriolar dilation from more prostaglandin synthesis",
+        "Efferent arteriolar constriction from more angiotensin II action",
+        "Progressive thickening of the glomerular basement membrane",
+        "Afferent arteriolar constriction signaled by the macula densa"
+      ],
+      "correct": 4,
+      "explanation": "SGLT2 inhibitors block **Na⁺-glucose reabsorption in the proximal tubule**, so more **NaCl reaches the macula densa**. Through **tubuloglomerular feedback** (mainly adenosine), the **afferent arteriole constricts**, glomerular capillary pressure falls, GFR drops a little, and hyperfiltration and albuminuria decrease. Efferent dilation from less angiotensin II action is the losartan effect, which was already present at a stable dose before the new drug.",
+      "explanation_pt": "Os inibidores da SGLT2 (iSGLT2) bloqueiam a **reabsorção de Na⁺ e glicose no túbulo proximal**, então mais **NaCl chega à mácula densa**. Pelo **feedback tubuloglomerular** (principalmente via adenosina), a **arteríola aferente se contrai**, a pressão no capilar glomerular cai, a TFG diminui um pouco e a hiperfiltração e a albuminúria diminuem. A dilatação eferente por menor ação da angiotensina II é o efeito da losartana, que já existia em dose estável antes do novo fármaco."
+    },
+    {
+      "slug": "q-renal-filtration-clearance-qx-trimethoprim-creatinine",
+      "track": "step1",
+      "system": "renal",
+      "discipline": "pharmacology",
+      "tags": [
+        "renal-filtration-clearance",
+        "creatinine",
+        "trimethoprim"
+      ],
+      "stem": "A 45-year-old woman with recurrent urinary tract infections starts daily trimethoprim-sulfamethoxazole as prophylaxis. Two weeks later routine tests show that serum creatinine has risen from 0.9 to 1.2 mg/dL. BUN is unchanged at 14 mg/dL, and serum potassium is 5.2 mEq/L. Urinalysis shows no protein, cells, casts or crystals. A GFR estimate based on cystatin C is unchanged from baseline. She feels well. What best explains the rise in serum creatinine?",
+      "choices": [
+        "Acute interstitial nephritis caused by the sulfonamide",
+        "Tubular obstruction by sulfonamide crystals",
+        "Less tubular secretion of creatinine",
+        "Afferent arteriolar constriction that lowers the GFR",
+        "More creatinine released from skeletal muscle"
+      ],
+      "correct": 2,
+      "explanation": "Normally a small part of urinary creatinine comes from **proximal tubular secretion** by organic cation transporters. **Trimethoprim** (like cimetidine) **blocks this secretion**, so serum creatinine rises while the **true GFR is unchanged**, as shown by the stable BUN and cystatin C estimate. Acute interstitial nephritis would lower the GFR and usually leave white cells or white cell casts in the urine; the bland urinalysis argues against it. The mild hyperkalemia fits trimethoprim's amiloride-like block of ENaC.",
+      "explanation_pt": "Normalmente, uma pequena parte da creatinina urinária vem da **secreção tubular proximal** por transportadores de cátions orgânicos. A **trimetoprima** (assim como a cimetidina) **bloqueia essa secreção**, então a creatinina sérica sobe enquanto a **TFG real não muda**, como mostram o BUN e a estimativa por cistatina C estáveis. A nefrite intersticial aguda reduziria a TFG e costuma deixar leucócitos ou cilindros leucocitários na urina; o exame de urina sem alterações fala contra ela. A hipercalemia leve combina com o bloqueio do ENaC pela trimetoprima, semelhante ao da amilorida."
+    },
+    {
+      "slug": "q-renal-filtration-clearance-qx-glomerular-oncotic",
+      "track": "step1",
+      "system": "renal",
+      "discipline": "physiology",
+      "tags": [
+        "renal-filtration-clearance",
+        "starling-forces",
+        "glomerular-filtration"
+      ],
+      "stem": "In a physiology study, a healthy 28-year-old man receives a large infusion of protein-free isotonic saline. Serum albumin falls from 4.4 to 3.6 g/dL. Renal plasma flow and arterial pressure are kept constant, and there is no urinary obstruction. His GFR rises. Which change in Starling forces most directly explains the higher GFR?",
+      "choices": [
+        "Higher hydrostatic pressure in Bowman space",
+        "Lower filtration coefficient (Kf) of the glomerulus",
+        "Higher oncotic pressure in the peritubular capillaries",
+        "Lower oncotic pressure in the glomerular capillaries",
+        "Constriction of the afferent arteriole"
+      ],
+      "correct": 3,
+      "explanation": "Diluting plasma proteins **lowers the oncotic pressure in the glomerular capillaries**, the main force that opposes filtration, so the **net filtration pressure and GFR rise** even with constant flow and pressure. Higher pressure in Bowman space and a lower Kf would both lower the GFR, and so would afferent constriction. Higher peritubular oncotic pressure affects proximal reabsorption, not filtration, and after a saline load it falls rather than rises.",
+      "explanation_pt": "A diluição das proteínas plasmáticas **reduz a pressão oncótica nos capilares glomerulares**, a principal força que se opõe à filtração, então a **pressão efetiva de filtração e a TFG aumentam** mesmo com fluxo e pressão constantes. Uma pressão maior no espaço de Bowman e um Kf menor reduziriam a TFG, assim como a constrição da arteríola aferente. Uma pressão oncótica peritubular maior afeta a reabsorção proximal, não a filtração, e após uma carga de soro fisiológico ela cai em vez de subir."
+    },
+    {
+      "slug": "q-renal-filtration-clearance-qx-myogenic-autoregulation",
+      "track": "step1",
+      "system": "renal",
+      "discipline": "physiology",
+      "tags": [
+        "renal-filtration-clearance",
+        "autoregulation",
+        "myogenic-response"
+      ],
+      "stem": "In a physiology experiment, a dog kidney is removed, so it has no nerve supply, and it is perfused with a blood-free solution. The solution contains a high concentration of furosemide and losartan. When the perfusion pressure is raised from 100 to 150 mm Hg, the flow through the kidney rises only a little. Which mechanism best explains this stable flow?",
+      "choices": [
+        "Tubuloglomerular feedback through the macula densa",
+        "Efferent arteriolar constriction by angiotensin II",
+        "Afferent arteriolar constriction by sympathetic nerves",
+        "Efferent arteriolar dilation by atrial natriuretic peptide",
+        "Stretch-induced contraction of afferent arteriolar muscle"
+      ],
+      "correct": 4,
+      "explanation": "When the afferent arteriole is stretched by higher pressure, its smooth muscle **contracts** (the **myogenic response**), raising resistance so that flow stays nearly constant. This is the only mechanism left here: the kidney is **denervated**, losartan blocks angiotensin II action, and furosemide blocks the **NKCC2 transporter of the macula densa**, which stops it from sensing NaCl. Tubuloglomerular feedback is the most tempting answer, but it depends on that NaCl sensing, so it cannot work in this preparation.",
+      "explanation_pt": "Quando a arteríola aferente é distendida por uma pressão maior, seu músculo liso **se contrai** (a **resposta miogênica**), aumentando a resistência para que o fluxo fique quase constante. É o único mecanismo que resta aqui: o rim está **desnervado**, a losartana bloqueia a ação da angiotensina II e a furosemida bloqueia o **transportador NKCC2 da mácula densa**, que deixa de detectar o NaCl. O feedback tubuloglomerular é a resposta mais tentadora, mas depende dessa detecção de NaCl, então não funciona nessa preparação."
+    }
+  ],
+  "notes": []
+}

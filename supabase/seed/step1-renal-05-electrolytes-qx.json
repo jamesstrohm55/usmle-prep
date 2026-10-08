@@ -1,0 +1,182 @@
+{
+  "cards": [],
+  "questions": [
+    {
+      "slug": "q-electrolytes-qx-cerebral-salt-wasting",
+      "track": "step1",
+      "system": "renal",
+      "discipline": "pathology",
+      "tags": [
+        "electrolytes",
+        "hyponatremia",
+        "cerebral-salt-wasting"
+      ],
+      "stem": "A 52-year-old woman is in the intensive care unit 6 days after a subarachnoid hemorrhage from a ruptured aneurysm. Over the last 3 days, her urine output has risen to about 2.5 L/day and she has lost 2.5 kg. Blood pressure is 104/66 mm Hg lying down and 86/58 mm Hg sitting up; pulse rises from 92/min to 118/min. Her mucous membranes are dry. Today serum Na+ is 127 mEq/L (139 mEq/L three days ago), glucose is 100 mg/dL, BUN is 28 mg/dL (12 mg/dL three days ago), and creatinine is 1.0 mg/dL. Measured serum osmolality is 268 mOsm/kg, urine osmolality is 520 mOsm/kg, and urine Na+ is 110 mEq/L. TSH and morning cortisol are normal. She receives no diuretics. What is the most likely cause of her hyponatremia?",
+      "choices": [
+        "Syndrome of inappropriate ADH secretion",
+        "Cerebral salt wasting",
+        "Central diabetes insipidus",
+        "Primary adrenal insufficiency",
+        "Primary polydipsia"
+      ],
+      "correct": 1,
+      "explanation": "After **subarachnoid hemorrhage**, the kidney can lose large amounts of sodium (**cerebral salt wasting**). The result is hypotonic hyponatremia with a **high urine Na+** and concentrated urine, plus clear **volume depletion**: orthostasis, weight loss and a rising BUN. **SIADH** is the tempting answer because the urine findings are the same, but SIADH patients are **euvolemic**, with a low or normal BUN and no orthostasis. Central DI would raise serum Na+ and dilute the urine, and normal cortisol argues against adrenal insufficiency.",
+      "explanation_pt": "Após **hemorragia subaracnóidea**, o rim pode perder grandes quantidades de sódio (**síndrome cerebral perdedora de sal**). O resultado é hiponatremia hipotônica com **Na+ urinário alto** e urina concentrada, mas com clara **hipovolemia**: hipotensão ortostática, perda de peso e BUN (nitrogênio ureico) em ascensão. A **SIADH** é a resposta tentadora porque os achados urinários são iguais, mas na SIADH o paciente está **euvolêmico**, com BUN baixo ou normal e sem hipotensão ortostática. O DI central elevaria o Na+ sérico e diluiria a urina, e o cortisol normal fala contra insuficiência adrenal."
+    },
+    {
+      "slug": "q-electrolytes-qx-pseudohyponatremia-lipids",
+      "track": "step1",
+      "system": "renal",
+      "discipline": "pathology",
+      "tags": [
+        "electrolytes",
+        "hyponatremia",
+        "pseudohyponatremia"
+      ],
+      "stem": "A 41-year-old man with poorly controlled type 2 diabetes and heavy alcohol use is admitted with severe epigastric pain that spreads to his back. He has many small yellow papules on his buttocks and elbows. He is alert, and his neurologic exam is normal. His blood sample looks milky after it is spun. Serum Na+ is 126 mEq/L, glucose is 162 mg/dL, BUN is 14 mg/dL, and lipase is markedly elevated. Measured serum osmolality is 290 mOsm/kg (normal 275-295). Blood ethanol is undetectable. Which of the following best explains the low serum Na+ value?",
+      "choices": [
+        "Movement of water out of cells caused by high plasma glucose",
+        "ADH release stimulated by pain and nausea",
+        "Lipid displacing plasma water in the measured sample",
+        "Renal sodium loss from an osmotic diuresis",
+        "Dilution from intravenous fluids given before the blood draw"
+      ],
+      "correct": 2,
+      "explanation": "Milky serum, eruptive xanthomas and pancreatitis point to severe **hypertriglyceridemia**. With a **normal measured osmolality**, the low Na+ is **pseudohyponatremia**: lipid fills part of the sample volume, and the usual indirect method reports too little Na+, although the Na+ in plasma water is normal (a direct ion-selective electrode would show this). The tempting choice, true hyponatremia from ADH release, would make measured osmolality low. A glucose of 162 mg/dL is far too low to pull enough water out of cells to explain this.",
+      "explanation_pt": "Soro leitoso, xantomas eruptivos e pancreatite indicam **hipertrigliceridemia** grave. Com **osmolalidade medida normal**, o Na+ baixo é **pseudo-hiponatremia**: o lipídio ocupa parte do volume da amostra, e o método indireto habitual informa Na+ menor que o real, embora o Na+ na água plasmática esteja normal (um eletrodo íon-seletivo direto mostraria isso). A opção tentadora, hiponatremia verdadeira por liberação de ADH, deixaria a osmolalidade medida baixa. Uma glicemia de 162 mg/dL é baixa demais para retirar água suficiente das células e explicar esse valor."
+    },
+    {
+      "slug": "q-electrolytes-qx-effective-osmolality",
+      "track": "step1",
+      "system": "renal",
+      "discipline": "physiology",
+      "tags": [
+        "electrolytes",
+        "osmolality",
+        "hyperglycemia"
+      ],
+      "stem": "A 68-year-old man with type 2 diabetes is brought to the emergency department after 5 days of passing large amounts of urine and 1 day of confusion. Serum Na+ is 128 mEq/L, K+ is 5.0 mEq/L, glucose is 900 mg/dL, BUN is 56 mg/dL, and creatinine is 2.0 mg/dL. Serum ketones are negative. Which value best estimates his effective serum osmolality (tonicity), the value that drives water movement across brain cell membranes?",
+      "choices": [
+        "178 mOsm/kg",
+        "256 mOsm/kg",
+        "276 mOsm/kg",
+        "306 mOsm/kg",
+        "326 mOsm/kg"
+      ],
+      "correct": 3,
+      "explanation": "Effective osmolality counts only solutes that **stay outside cells**: **2 × Na+ + glucose/18** = 256 + 50 = **306 mOsm/kg**. **Urea** crosses cell membranes freely, so it is an **ineffective osmole** and does not move water. The tempting answer, 326 mOsm/kg, is the total calculated osmolality, which wrongly adds BUN/2.8 (20). The value 276 counts urea and leaves out glucose, and 256 ignores glucose, which pulls water out of cells and lowers serum Na+ even though plasma is **hypertonic**.",
+      "explanation_pt": "A osmolalidade efetiva inclui apenas solutos que **permanecem fora das células**: **2 × Na+ + glicose/18** = 256 + 50 = **306 mOsm/kg**. A **ureia** atravessa livremente as membranas celulares; por isso é um **osmol inefetivo** e não desloca água. A resposta tentadora, 326 mOsm/kg, é a osmolalidade calculada total, que soma por engano BUN/2,8 (20). O valor 276 inclui a ureia e omite a glicose, e 256 ignora a glicose, que puxa água para fora das células e reduz o Na+ sérico mesmo com o plasma **hipertônico**."
+    },
+    {
+      "slug": "q-electrolytes-qx-hypercalcemia-nephrogenic-di",
+      "track": "step1",
+      "system": "renal",
+      "discipline": "pathology",
+      "tags": [
+        "electrolytes",
+        "diabetes-insipidus",
+        "hypercalcemia"
+      ],
+      "stem": "A 63-year-old woman with metastatic breast cancer has had strong thirst and has passed about 5 L of urine per day for 3 weeks. She also has constipation and back pain. She does not take lithium. Serum Na+ is 147 mEq/L, K+ is 4.0 mEq/L, glucose is 98 mg/dL, and calcium is 13.6 mg/dL with normal albumin. During a supervised water deprivation test, her serum osmolality rises to 302 mOsm/kg, but urine osmolality only rises from 160 to 190 mOsm/kg. After desmopressin, urine osmolality is 205 mOsm/kg. What is the most likely cause of her polyuria?",
+      "choices": [
+        "Collecting duct resistance to ADH",
+        "Tumor destruction of the posterior pituitary gland",
+        "Osmotic diuresis from glucose in the tubular fluid",
+        "Compulsive water drinking that suppresses ADH release",
+        "Ectopic ADH secretion by metastatic tumor cells"
+      ],
+      "correct": 0,
+      "explanation": "The urine stays dilute during water deprivation and **barely changes after desmopressin**, so this is **nephrogenic DI**. Her **hypercalcemia** (likely from bone metastases or PTHrP) activates the **calcium-sensing receptor** in the kidney, which weakens the medullary concentration gradient and reduces **aquaporin-2** in the collecting duct. Breast cancer can spread to the posterior pituitary and cause central DI, the tempting distractor, but then desmopressin would sharply raise urine osmolality. Ectopic ADH would cause hyponatremia, not hypernatremia with dilute urine.",
+      "explanation_pt": "A urina continua diluída na privação hídrica e **quase não muda após desmopressina**; logo, trata-se de **DI nefrogênico**. A **hipercalcemia** (provavelmente por metástases ósseas ou PTHrP) ativa o **receptor sensor de cálcio** no rim, o que enfraquece o gradiente de concentração medular e reduz a **aquaporina-2** no ducto coletor. O câncer de mama pode metastatizar para a neuro-hipófise e causar DI central, o distrator tentador, mas nesse caso a desmopressina elevaria muito a osmolalidade urinária. ADH ectópico causaria hiponatremia, e não hipernatremia com urina diluída."
+    },
+    {
+      "slug": "q-electrolytes-qx-refeeding-hypophosphatemia",
+      "track": "step1",
+      "system": "renal",
+      "discipline": "physiology",
+      "tags": [
+        "electrolytes",
+        "phosphate",
+        "refeeding"
+      ],
+      "stem": "A 19-year-old woman with anorexia nervosa and a BMI of 13.8 kg/m2 is admitted to the hospital. Tube feeding rich in carbohydrate is started. On day 3, she has new muscle weakness, shortness of breath, leg swelling and confusion. Lab results are shown: serum phosphate 3.1 mg/dL on admission and 0.9 mg/dL on day 3 (normal 2.5-4.5); K+ 3.8 mEq/L on admission and 2.9 mEq/L on day 3; Mg2+ 1.9 mg/dL on admission and 1.2 mg/dL on day 3. She has no vomiting or diarrhea. Which mechanism best explains the fall in serum phosphate?",
+      "choices": [
+        "Increased renal phosphate excretion driven by high PTH",
+        "Poor intestinal phosphate absorption from vitamin D deficiency",
+        "Phosphate binding to calcium in the intestinal lumen",
+        "Phosphate loss in stool from feeding-related diarrhea",
+        "Insulin-driven uptake of phosphate into cells"
+      ],
+      "correct": 4,
+      "explanation": "This is **refeeding syndrome**. Carbohydrate triggers **insulin** release, and cells take up **phosphate** (with K+ and Mg2+) to phosphorylate glucose and make **ATP**, in a body whose total stores are already depleted. Low phosphate causes ATP shortage: muscle and **respiratory weakness**, **heart failure**, confusion and hemolysis. Poor absorption from vitamin D deficiency is tempting in malnutrition, but it would not explain a sharp fall within 3 days of feeding.",
+      "explanation_pt": "Trata-se da **síndrome de realimentação**. O carboidrato estimula a liberação de **insulina**, e as células captam **fosfato** (com K+ e Mg2+) para fosforilar a glicose e produzir **ATP**, num organismo cujos estoques corporais totais já estão depletados. O fosfato baixo causa falta de ATP: fraqueza muscular e **respiratória**, **insuficiência cardíaca**, confusão e hemólise. A má absorção por deficiência de vitamina D é tentadora na desnutrição, mas não explicaria uma queda abrupta em 3 dias de alimentação."
+    },
+    {
+      "slug": "q-electrolytes-qx-hypermagnesemia-reflexes",
+      "track": "step1",
+      "system": "renal",
+      "discipline": "pathology",
+      "tags": [
+        "electrolytes",
+        "magnesium",
+        "hypermagnesemia"
+      ],
+      "stem": "A 79-year-old woman with chronic kidney disease (creatinine 3.4 mg/dL) has taken a magnesium-containing laxative several times a day for 2 weeks for constipation. She is now drowsy and weak. Blood pressure is 88/54 mm Hg, pulse is 50/min, and respirations are 10/min. Patellar and biceps reflexes are absent. Serum Mg2+ is 8.6 mg/dL (normal 1.7-2.2), calcium is 9.0 mg/dL, and K+ is 4.8 mEq/L. Which mechanism best explains her absent reflexes?",
+      "choices": [
+        "Autoantibodies against presynaptic voltage-gated calcium channels",
+        "Prolonged depolarization of muscle membranes by high extracellular K+",
+        "Blocked Ca2+ entry into motor nerve terminals",
+        "Segmental demyelination of peripheral motor nerves",
+        "Cleavage of SNARE proteins by a bacterial toxin"
+      ],
+      "correct": 2,
+      "explanation": "The kidneys excrete magnesium, so **chronic kidney disease** plus a **magnesium laxative** leads to **hypermagnesemia**. High Mg2+ **competes with Ca2+ at presynaptic terminals**, so less **acetylcholine** is released and reflexes are lost; it also blocks Ca2+ channels in blood vessels and the heart, which lowers blood pressure and heart rate. Lambert-Eaton syndrome also reduces acetylcholine release and reflexes, but it is a slow autoimmune disease, not an acute illness that follows a laxative. Her K+ is normal, and nothing suggests botulism or demyelination.",
+      "explanation_pt": "Os rins excretam o magnésio; por isso, **doença renal crônica** mais **laxante com magnésio** levam à **hipermagnesemia**. O Mg2+ alto **compete com o Ca2+ nos terminais pré-sinápticos**; assim, menos **acetilcolina** é liberada e os reflexos desaparecem. Ele também bloqueia canais de Ca2+ nos vasos e no coração, o que reduz a pressão arterial e a frequência cardíaca. A síndrome de Lambert-Eaton também reduz a liberação de acetilcolina e os reflexos, mas é uma doença autoimune lenta, e não um quadro agudo após laxante. O K+ está normal, e nada sugere botulismo ou desmielinização."
+    },
+    {
+      "slug": "q-electrolytes-qx-thyrotoxic-periodic-paralysis",
+      "track": "step1",
+      "system": "renal",
+      "discipline": "physiology",
+      "tags": [
+        "electrolytes",
+        "potassium",
+        "hypokalemia"
+      ],
+      "stem": "A 27-year-old man wakes up at night and cannot move his legs. The evening before, he exercised hard and then ate a large meal of rice and sweet drinks. For several months he has lost weight and had palpitations and heat intolerance. Pulse is 118/min. He has a fine tremor and symmetric flaccid weakness of the hip and thigh muscles with reduced reflexes; sensation is normal. Serum K+ is 1.9 mEq/L, bicarbonate is 24 mEq/L, and Mg2+ is normal. Urine K+ excretion is low. ECG shows sinus tachycardia, flat T waves and U waves. TSH is undetectable, and free T4 is high. Which mechanism best explains his hypokalemia?",
+      "choices": [
+        "Shift of K+ into cells by the Na+/K+-ATPase",
+        "Renal K+ wasting caused by excess aldosterone",
+        "K+ loss in sweat during intense exercise",
+        "K+ loss in stool from rapid intestinal transit",
+        "Renal K+ loss through ROMK channels due to low magnesium"
+      ],
+      "correct": 0,
+      "explanation": "This is **thyrotoxic periodic paralysis**. Thyroid hormone and β-adrenergic activity increase **Na+/K+-ATPase** activity in muscle, and **insulin** after a carbohydrate meal and rest after exercise add to it, so K+ moves **into cells** suddenly. Total body K+ is normal, which is why **urine K+ is low**. Aldosterone excess is tempting, but it causes renal K+ wasting with a high urine K+, metabolic alkalosis and usually hypertension.",
+      "explanation_pt": "Trata-se de **paralisia periódica tireotóxica**. O hormônio tireoidiano e a atividade β-adrenérgica aumentam a atividade da **Na+/K+-ATPase** no músculo, e a **insulina** após refeição rica em carboidrato e o repouso após exercício reforçam esse efeito; assim, o K+ entra **nas células** de forma súbita. O K+ corporal total está normal, por isso o **K+ urinário é baixo**. O excesso de aldosterona é tentador, mas causa perda renal de K+ com K+ urinário alto, alcalose metabólica e geralmente hipertensão."
+    },
+    {
+      "slug": "q-electrolytes-qx-citrate-transfusion-hypocalcemia",
+      "track": "step1",
+      "system": "renal",
+      "discipline": "physiology",
+      "tags": [
+        "electrolytes",
+        "calcium",
+        "hypocalcemia"
+      ],
+      "stem": "A 34-year-old man is in the operating room after a car crash that ruptured his spleen. Over 90 minutes he receives 14 units of packed red blood cells, 10 units of plasma and 2 units of platelets. His blood pressure stays low despite the transfusions, and the ECG now shows a prolonged QT interval. Arterial pH is 7.36. Total serum calcium is 8.6 mg/dL, albumin is 3.6 g/dL, ionized calcium is 0.78 mmol/L (normal 1.12-1.32), K+ is 5.1 mEq/L, and Mg2+ is 1.8 mg/dL. Which mechanism best explains his low ionized calcium?",
+      "choices": [
+        "Increased binding of calcium to albumin from a high blood pH",
+        "Dilution of plasma calcium by the transfused fluids",
+        "Calcium binding to citrate from the blood products",
+        "Suppression of PTH release by severe trauma",
+        "Calcium deposition into injured muscle and soft tissue"
+      ],
+      "correct": 2,
+      "explanation": "Stored blood products contain **citrate**, an anticoagulant that **binds Ca2+**. When blood is given faster than the liver can metabolize citrate, **ionized calcium** falls, while **total calcium**, which includes the citrate-bound calcium, stays near normal. Low ionized calcium weakens heart contraction and vessel tone and **prolongs the QT**. More binding to albumin is tempting, but it needs alkalosis, and his pH is normal; simple dilution would lower total calcium as well.",
+      "explanation_pt": "Os hemocomponentes armazenados contêm **citrato**, um anticoagulante que **liga o Ca2+**. Quando o sangue é infundido mais rápido do que o fígado consegue metabolizar o citrato, o **cálcio ionizado** cai, enquanto o **cálcio total**, que inclui o cálcio ligado ao citrato, permanece quase normal. O cálcio ionizado baixo reduz a contratilidade cardíaca e o tônus vascular e **prolonga o QT**. A maior ligação à albumina é tentadora, mas exige alcalose, e o pH dele está normal; a simples diluição também reduziria o cálcio total."
+    }
+  ],
+  "notes": []
+}

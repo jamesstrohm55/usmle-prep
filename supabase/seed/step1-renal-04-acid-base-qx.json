@@ -1,0 +1,182 @@
+{
+  "cards": [],
+  "questions": [
+    {
+      "slug": "q-acid-base-qx-delta-delta-uremia-vomiting",
+      "track": "step1",
+      "system": "renal",
+      "discipline": "physiology",
+      "tags": [
+        "acid-base",
+        "mixed-disorders",
+        "anion-gap"
+      ],
+      "stem": "A 55-year-old man with end-stage kidney disease on hemodialysis has missed his sessions for 1 week. For the last 4 days he has vomited several times each day. He is weak and nauseated. Serum studies show Na+ 140 mEq/L, K+ 4.8 mEq/L, Cl- 94 mEq/L, HCO3- 22 mEq/L, urea nitrogen 110 mg/dL, and creatinine 11 mg/dL. Arterial blood gas shows pH 7.36 and PaCO2 40 mm Hg. Which best describes his acid-base status?",
+      "choices": [
+        "High anion gap metabolic acidosis with appropriate respiratory compensation",
+        "High anion gap metabolic acidosis with a respiratory acidosis",
+        "High anion gap metabolic acidosis with a metabolic alkalosis",
+        "Normal anion gap metabolic acidosis with a metabolic alkalosis",
+        "Normal acid-base status"
+      ],
+      "correct": 2,
+      "explanation": "The **anion gap is 24** (140 − [94 + 22]), so uremic acids have been added. The gap rose by about 12 above normal, but HCO3- fell by only 2; this **delta-delta** mismatch means something has added HCO3-, here a **metabolic alkalosis** from vomiting. Simple metabolic acidosis with compensation is the most tempting choice because the PaCO2 of 40 fits the Winter formula (1.5 × 22 + 8 = 41 ± 2), but a pure acidosis with this gap would leave HCO3- near 12. A normal pH and HCO3- do not mean normal acid-base status when the anion gap is high.",
+      "explanation_pt": "O **ânion gap é 24** (140 − [94 + 22]), então houve acréscimo de ácidos urêmicos. O gap subiu cerca de 12 acima do normal, mas o HCO3- caiu só 2; essa discrepância no **delta-delta** indica que algo acrescentou HCO3-, aqui uma **alcalose metabólica** pelos vômitos. A acidose metabólica simples com compensação é a opção mais tentadora, porque a PaCO2 de 40 corresponde à fórmula de Winter (1,5 × 22 + 8 = 41 ± 2), mas uma acidose pura com esse gap deixaria o HCO3- perto de 12. pH e HCO3- normais não significam equilíbrio ácido-base normal quando o ânion gap está alto."
+    },
+    {
+      "slug": "q-acid-base-qx-urine-anion-gap-stones",
+      "track": "step1",
+      "system": "renal",
+      "discipline": "pathology",
+      "tags": [
+        "acid-base",
+        "renal-tubular-acidosis",
+        "urine-anion-gap"
+      ],
+      "stem": "A 32-year-old woman has 2 months of fatigue and muscle weakness. She has no diarrhea and takes no medications, laxatives, or diuretics. Serum studies show Na+ 139 mEq/L, K+ 3.0 mEq/L, Cl- 115 mEq/L, and HCO3- 16 mEq/L. Arterial pH is 7.32 and PaCO2 is 32 mm Hg. Urine pH is 6.8. Urine electrolytes show Na+ 45 mEq/L, K+ 30 mEq/L, and Cl- 55 mEq/L. This patient is at greatest risk of which complication?",
+      "choices": [
+        "Calcium phosphate kidney stones",
+        "Uric acid kidney stones",
+        "Cystine kidney stones",
+        "Struvite stones from urease-producing bacteria",
+        "Calcium oxalate stones from increased gut oxalate absorption"
+      ],
+      "correct": 0,
+      "explanation": "She has a **normal anion gap** acidosis (139 − [115 + 16] = 8) with hypokalemia. The **urine anion gap** is positive (45 + 30 − 55 = +20), which means the kidney is excreting little **NH4+**; together with a urine pH above 5.5, this points to **distal (type 1) RTA**. Alkaline urine, high urine calcium, and low urine citrate favor **calcium phosphate stones**. Calcium oxalate stones from gut oxalate absorption are tempting, but that pattern follows fat malabsorption, and GI HCO3- loss would give a **negative** urine anion gap.",
+      "explanation_pt": "Ela tem acidose com **ânion gap normal** (139 − [115 + 16] = 8) e hipocalemia. O **ânion gap urinário** é positivo (45 + 30 − 55 = +20), o que significa que o rim excreta pouco **NH4+**; junto com pH urinário acima de 5,5, isso indica **ATR distal (tipo 1)**. Urina alcalina, cálcio urinário alto e citrato urinário baixo favorecem **cálculos de fosfato de cálcio**. Cálculos de oxalato de cálcio por absorção intestinal de oxalato são tentadores, mas esse quadro ocorre na má absorção de gorduras, e a perda intestinal de HCO3- daria ânion gap urinário **negativo**."
+    },
+    {
+      "slug": "q-acid-base-qx-chronic-respiratory-acidosis",
+      "track": "step1",
+      "system": "renal",
+      "discipline": "physiology",
+      "tags": [
+        "acid-base",
+        "compensation",
+        "respiratory-disorders"
+      ],
+      "stem": "A 66-year-old woman with severe COPD comes for a routine visit. She has had no recent change in her breathing, sputum, or medications. She uses home oxygen at night. Arterial blood gas on room air shows pH 7.34, PaCO2 60 mm Hg, PaO2 58 mm Hg, and HCO3- 31 mEq/L. Which best describes her acid-base status?",
+      "choices": [
+        "Acute respiratory acidosis",
+        "Respiratory acidosis with a superimposed metabolic alkalosis",
+        "Metabolic alkalosis with respiratory compensation",
+        "Chronic respiratory acidosis with renal compensation",
+        "Respiratory acidosis with a superimposed metabolic acidosis"
+      ],
+      "correct": 3,
+      "explanation": "The pH is low and the PaCO2 is high, so the primary process is **respiratory acidosis**. Over days, the kidneys excrete more acid and make new HCO3-, raising it by about 3.5-4 mEq/L for each 10 mm Hg rise in PaCO2; a 20 mm Hg rise predicts a HCO3- of about 31-32, which matches. In an **acute** process, HCO3- would rise only to about 26, and the pH would be much lower. An added metabolic alkalosis is tempting because HCO3- is high, but her value is exactly what **chronic compensation** predicts, and a metabolic alkalosis as the primary disorder would not give a low pH.",
+      "explanation_pt": "O pH está baixo e a PaCO2 alta, então o processo primário é **acidose respiratória**. Ao longo de dias, os rins excretam mais ácido e geram HCO3- novo, elevando-o em cerca de 3,5-4 mEq/L para cada 10 mmHg de aumento da PaCO2; um aumento de 20 mmHg prevê HCO3- de cerca de 31-32, o que corresponde ao achado. Em um processo **agudo**, o HCO3- subiria só para cerca de 26, e o pH seria muito mais baixo. Uma alcalose metabólica associada é tentadora porque o HCO3- está alto, mas o valor dela é exatamente o previsto pela **compensação crônica**, e uma alcalose metabólica como distúrbio primário não daria pH baixo."
+    },
+    {
+      "slug": "q-acid-base-qx-paradoxical-aciduria",
+      "track": "step1",
+      "system": "renal",
+      "discipline": "physiology",
+      "tags": [
+        "acid-base",
+        "metabolic-alkalosis",
+        "contraction-alkalosis"
+      ],
+      "stem": "A 60-year-old man has vomited undigested food several times a day for 1 week. Endoscopy later shows gastric outlet obstruction from a scarred duodenal ulcer. Blood pressure is 98/60 mm Hg, and his mucous membranes are dry. Serum studies show Na+ 134 mEq/L, K+ 2.9 mEq/L, Cl- 88 mEq/L, and HCO3- 36 mEq/L. Arterial pH is 7.51 and PaCO2 is 47 mm Hg. Urine Cl- is 8 mEq/L, and urine pH is 5.0. Which mechanism best explains his acidic urine?",
+      "choices": [
+        "Increased HCO3- secretion by beta-intercalated cells",
+        "Aldosterone-driven H+ secretion in the collecting duct",
+        "Impaired HCO3- reabsorption by the proximal convoluted tubule",
+        "Loss of H+ secretion by alpha-intercalated cells",
+        "Suppression of renin release by the high plasma pH"
+      ],
+      "correct": 1,
+      "explanation": "Vomiting removes HCl and causes **volume depletion**, so the kidney keeps as much Na+ as it can; the low urine Cl- confirms a **chloride-responsive** alkalosis. High **aldosterone** (and hypokalemia) increase H+ secretion in the collecting duct, so the urine is acidic despite alkalemia: **paradoxical aciduria**. Increased HCO3- secretion by beta-intercalated cells is the tempting choice because it is the normal answer to alkalosis, but it would make the urine alkaline; volume depletion blocks this correction. Renin is high, not suppressed, in volume depletion.",
+      "explanation_pt": "Os vômitos removem HCl e causam **hipovolemia**, então o rim retém Na+ intensamente; o Cl- urinário baixo confirma alcalose **responsiva a cloreto**. A **aldosterona** alta (e a hipocalemia) aumentam a secreção de H+ no ducto coletor, então a urina fica ácida apesar da alcalemia: **acidúria paradoxal**. O aumento da secreção de HCO3- pelas células intercaladas beta é a opção tentadora, porque é a resposta normal à alcalose, mas deixaria a urina alcalina; a hipovolemia bloqueia essa correção. A renina está alta, e não suprimida, na hipovolemia."
+    },
+    {
+      "slug": "q-acid-base-qx-chronic-respiratory-alkalosis-altitude",
+      "track": "step1",
+      "system": "renal",
+      "discipline": "physiology",
+      "tags": [
+        "acid-base",
+        "compensation",
+        "respiratory-disorders"
+      ],
+      "stem": "A 30-year-old man has worked at a mountain research station at 4,300 m (14,100 ft) for 3 weeks. He feels well. Arterial blood gas shows pH 7.42, PaCO2 30 mm Hg, PaO2 52 mm Hg, and HCO3- 19 mEq/L. Which best describes his acid-base status?",
+      "choices": [
+        "Acute respiratory alkalosis",
+        "Respiratory alkalosis with a superimposed metabolic acidosis",
+        "Metabolic acidosis with appropriate respiratory compensation",
+        "Respiratory alkalosis with a superimposed metabolic alkalosis",
+        "Chronic respiratory alkalosis with renal compensation"
+      ],
+      "correct": 4,
+      "explanation": "Low PaO2 at high altitude drives **hyperventilation**, so the primary process is **respiratory alkalosis**. Over several days, the kidneys excrete more HCO3- and lower it by about 4-5 mEq/L for each 10 mm Hg fall in PaCO2; a 10 mm Hg fall predicts a HCO3- of about 19-20, which matches and brings the pH close to normal. An added metabolic acidosis is tempting because HCO3- is low, but the value is exactly what **chronic compensation** predicts. In an **acute** process, HCO3- would fall only to about 22, and the pH would be about 7.49.",
+      "explanation_pt": "A PaO2 baixa em grande altitude estimula a **hiperventilação**, então o processo primário é **alcalose respiratória**. Ao longo de alguns dias, os rins excretam mais HCO3- e o reduzem em cerca de 4-5 mEq/L para cada 10 mmHg de queda da PaCO2; uma queda de 10 mmHg prevê HCO3- de cerca de 19-20, o que corresponde ao achado e aproxima o pH do normal. Uma acidose metabólica associada é tentadora porque o HCO3- está baixo, mas o valor é exatamente o previsto pela **compensação crônica**. Em um processo **agudo**, o HCO3- cairia só para cerca de 22, e o pH ficaria em torno de 7,49."
+    },
+    {
+      "slug": "q-acid-base-qx-proximal-rta-fanconi",
+      "track": "step1",
+      "system": "renal",
+      "discipline": "pathology",
+      "tags": [
+        "acid-base",
+        "renal-tubular-acidosis",
+        "fanconi-syndrome"
+      ],
+      "stem": "A 64-year-old man has back pain and anemia. Serum protein electrophoresis shows a monoclonal spike, and his urine contains free kappa light chains. Serum studies show Na+ 139 mEq/L, K+ 3.2 mEq/L, Cl- 113 mEq/L, HCO3- 17 mEq/L, glucose 92 mg/dL, and phosphate 2.0 mg/dL (normal 2.5-4.5). Urine dipstick is positive for glucose. Urine pH is 5.2. If intravenous sodium bicarbonate is given to raise his plasma HCO3- to normal, which change is most likely?",
+      "choices": [
+        "Urine pH stays below 5.5 because distal H+ secretion is intact",
+        "Serum potassium rises as the acidosis is corrected",
+        "Glucose disappears from the urine",
+        "More HCO3- appears in the urine, and urine pH rises",
+        "Serum phosphate returns to normal"
+      ],
+      "correct": 3,
+      "explanation": "He has a **normal anion gap** acidosis (139 − [113 + 17] = 9) with **glucosuria despite normal blood glucose** and low phosphate: **Fanconi syndrome** from light chains, causing **proximal (type 2) RTA**. The damaged proximal tubule has a **lower HCO3- threshold**, so when plasma HCO3- is raised above it, the extra filtered HCO3- escapes into the urine and urine pH rises. A urine pH that stays below 5.5 is tempting because his urine is acidic now, but that holds only while plasma HCO3- is low enough for the tubule to reabsorb what is filtered. Bicarbonate does not fix the proximal defect, so glucosuria and phosphate loss continue, and the extra HCO3- in the urine increases K+ loss.",
+      "explanation_pt": "Ele tem acidose com **ânion gap normal** (139 − [113 + 17] = 9), com **glicosúria apesar de glicemia normal** e fosfato baixo: **síndrome de Fanconi** pelas cadeias leves, que causa **ATR proximal (tipo 2)**. O túbulo proximal lesado tem um **limiar de HCO3- mais baixo**, então, quando o HCO3- plasmático sobe acima dele, o excesso de HCO3- filtrado vai para a urina e o pH urinário sobe. Um pH urinário que continua abaixo de 5,5 é tentador porque a urina dele está ácida agora, mas isso só vale enquanto o HCO3- plasmático está baixo o bastante para o túbulo reabsorver o que é filtrado. O bicarbonato não corrige o defeito proximal, então a glicosúria e a perda de fosfato continuam, e o HCO3- a mais na urina aumenta a perda de K+."
+    },
+    {
+      "slug": "q-acid-base-qx-saline-hyperchloremic-acidosis",
+      "track": "step1",
+      "system": "renal",
+      "discipline": "physiology",
+      "tags": [
+        "acid-base",
+        "normal-anion-gap",
+        "iv-fluids"
+      ],
+      "stem": "A 58-year-old man is on the surgical ward 1 day after a long abdominal operation. Because his urine output was low during surgery, he received 7 L of 0.9% sodium chloride over 24 hours. He has no diarrhea. Blood pressure is 128/76 mm Hg, and serum lactate is normal. Serum studies show Na+ 141 mEq/L, K+ 4.0 mEq/L, Cl- 115 mEq/L, and HCO3- 17 mEq/L. Arterial pH is 7.33 and PaCO2 is 33 mm Hg. Which mechanism best explains his acidosis?",
+      "choices": [
+        "Dilution of plasma HCO3- by chloride-rich fluid",
+        "Lactic acid production from poor tissue perfusion during surgery",
+        "Loss of HCO3- in fluid from the bowel",
+        "Reduced H+ secretion by alpha-intercalated cells of the kidney",
+        "Accumulation of ketoacids from fasting before and after surgery"
+      ],
+      "correct": 0,
+      "explanation": "The **anion gap is normal** (141 − [115 + 17] = 9) and Cl- is high, so this is a **hyperchloremic** acidosis. 0.9% saline contains 154 mEq/L each of Na+ and Cl- and no HCO3-, so large volumes **dilute plasma HCO3-** while raising Cl-. The PaCO2 of 33 fits the Winter formula (1.5 × 17 + 8 = 33.5 ± 2), so compensation is appropriate. Lactic acidosis is the most tempting choice after surgery, but it would raise the anion gap, and his blood pressure and lactate are normal.",
+      "explanation_pt": "O **ânion gap é normal** (141 − [115 + 17] = 9) e o Cl- está alto, então trata-se de acidose **hiperclorêmica**. O soro fisiológico 0,9% contém 154 mEq/L de Na+ e de Cl- e nenhum HCO3-, então grandes volumes **diluem o HCO3- plasmático** enquanto elevam o Cl-. A PaCO2 de 33 corresponde à fórmula de Winter (1,5 × 17 + 8 = 33,5 ± 2), então a compensação é adequada. A acidose lática é a opção mais tentadora após cirurgia, mas aumentaria o ânion gap, e a pressão arterial e o lactato dele estão normais."
+    },
+    {
+      "slug": "q-acid-base-qx-winter-respiratory-acidosis",
+      "track": "step1",
+      "system": "renal",
+      "discipline": "physiology",
+      "tags": [
+        "acid-base",
+        "mixed-disorders",
+        "compensation"
+      ],
+      "stem": "A 68-year-old man with amyotrophic lateral sclerosis and weak respiratory muscles is admitted with aspiration pneumonia. He is drowsy, and his breathing is shallow. Blood pressure is 78/44 mm Hg, and serum lactate is high. Serum studies show Na+ 138 mEq/L, Cl- 100 mEq/L, and HCO3- 14 mEq/L. Arterial blood gas shows pH 7.17 and PaCO2 40 mm Hg. Which best describes his acid-base status?",
+      "choices": [
+        "High anion gap metabolic acidosis with appropriate respiratory compensation",
+        "High anion gap metabolic acidosis with a respiratory acidosis",
+        "High anion gap metabolic acidosis with a respiratory alkalosis",
+        "Normal anion gap metabolic acidosis with a respiratory acidosis",
+        "High anion gap metabolic acidosis with a metabolic alkalosis"
+      ],
+      "correct": 1,
+      "explanation": "The **anion gap is 24** (138 − [100 + 14]) from **lactic acidosis** in shock. By the **Winter formula**, the expected PaCO2 is 1.5 × 14 + 8 = 29 (± 2), so a PaCO2 of 40 is too high: his weak muscles cannot hyperventilate, and a **respiratory acidosis** is added. Appropriate compensation is the most tempting choice because 40 is a normal PaCO2, but in metabolic acidosis a normal PaCO2 means compensation has failed. The gap rose by about 12 and HCO3- fell by about 10, so there is no hidden metabolic alkalosis.",
+      "explanation_pt": "O **ânion gap é 24** (138 − [100 + 14]) pela **acidose lática** do choque. Pela **fórmula de Winter**, a PaCO2 esperada é 1,5 × 14 + 8 = 29 (± 2), então uma PaCO2 de 40 é alta demais: a musculatura fraca não consegue hiperventilar, e soma-se uma **acidose respiratória**. A compensação adequada é a opção mais tentadora porque 40 é uma PaCO2 normal, mas na acidose metabólica uma PaCO2 normal significa falha da compensação. O gap subiu cerca de 12 e o HCO3- caiu cerca de 10, então não há alcalose metabólica oculta."
+    }
+  ],
+  "notes": []
+}

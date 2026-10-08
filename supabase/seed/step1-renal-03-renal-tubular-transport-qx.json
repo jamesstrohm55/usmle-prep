@@ -1,0 +1,186 @@
+{
+  "cards": [],
+  "questions": [
+    {
+      "slug": "q-renal-tubular-transport-qx-bartter-nkcc2",
+      "track": "step1",
+      "system": "renal",
+      "discipline": "physiology",
+      "tags": [
+        "renal-tubular-transport",
+        "thick-ascending-limb",
+        "hypokalemia"
+      ],
+      "stem": "A 6-year-old boy is evaluated for poor growth, frequent urination and constant thirst. He was born at 33 weeks after a pregnancy complicated by polyhydramnios. He takes no medications. Blood pressure is 96/58 mm Hg. Serum results: sodium 135 mEq/L, potassium 2.8 mEq/L, chloride 92 mEq/L, bicarbonate 32 mEq/L, magnesium 1.9 mg/dL and calcium 9.4 mg/dL. Urine chloride is high and the urine calcium-to-creatinine ratio is high. Kidney ultrasound shows medullary nephrocalcinosis. Plasma renin and aldosterone are both high. A defect in which transporter best explains these findings?",
+      "choices": [
+        "Na-Cl cotransporter in the distal convoluted tubule",
+        "Epithelial Na+ channel in the collecting duct",
+        "H+-ATPase in alpha-intercalated cells",
+        "Na-phosphate cotransporter in the proximal tubule",
+        "Na-K-2Cl cotransporter in the thick ascending limb"
+      ],
+      "correct": 4,
+      "explanation": "Hypokalemic metabolic alkalosis with low-normal blood pressure, high renin and aldosterone, **high urine calcium** and **nephrocalcinosis**, starting before birth (polyhydramnios), is **Bartter syndrome**: loss of the **Na-K-2Cl cotransporter (NKCC2)** in the thick ascending limb, which acts like a lifelong loop diuretic. Without NKCC2, K+ recycling through ROMK stops, the lumen-positive voltage is lost and paracellular Ca2+ reabsorption falls, so calcium is lost in the urine. The Na-Cl cotransporter is the tempting answer (**Gitelman syndrome**), but Gitelman usually appears later, with **low** urine calcium and low magnesium. An ENaC defect causing salt wasting would raise potassium, not lower it.",
+      "explanation_pt": "Alcalose metabólica hipocalêmica com pressão normal-baixa, renina e aldosterona altas, **cálcio urinário alto** e **nefrocalcinose**, com início antes do nascimento (poli-hidrâmnio), indica **síndrome de Bartter**: perda do **cotransportador Na-K-2Cl (NKCC2)** no ramo ascendente espesso, que funciona como um diurético de alça por toda a vida. Sem o NKCC2, a reciclagem de K+ pelo ROMK para, a voltagem positiva no lúmen se perde e a reabsorção paracelular de Ca2+ cai, de modo que o cálcio é perdido na urina. O cotransportador Na-Cl é a resposta tentadora (**síndrome de Gitelman**), mas a Gitelman costuma surgir mais tarde, com cálcio urinário **baixo** e magnésio baixo. Um defeito do ENaC com perda de sal elevaria o potássio, em vez de reduzi-lo."
+    },
+    {
+      "slug": "q-renal-tubular-transport-qx-liddle-enac",
+      "track": "step1",
+      "system": "renal",
+      "discipline": "physiology",
+      "tags": [
+        "renal-tubular-transport",
+        "collecting-duct",
+        "aldosterone",
+        "hypertension"
+      ],
+      "stem": "A 17-year-old boy has blood pressure of 164/102 mm Hg at a sports physical. His father had a stroke at age 40 from high blood pressure. Serum potassium is 3.1 mEq/L and bicarbonate is 30 mEq/L. Plasma renin activity and aldosterone are both low. Genital exam and growth are normal. Spironolactone does not change his blood pressure or potassium, but amiloride normalizes both. Which mechanism best explains his disease?",
+      "choices": [
+        "Autonomous aldosterone secretion by an adrenal adenoma",
+        "Excess 11-deoxycorticosterone from 11-beta-hydroxylase deficiency",
+        "Cortisol binding mineralocorticoid receptors because 11-beta-HSD2 is deficient",
+        "Too many active Na+ channels kept in the apical membrane of principal cells",
+        "Loss of Na-Cl cotransporter function in the distal convoluted tubule"
+      ],
+      "correct": 3,
+      "explanation": "This is **Liddle syndrome**: a gain-of-function mutation in **ENaC** stops the channel from being removed and degraded, so principal cells reabsorb too much Na+ and secrete K+ and H+ even though renin and aldosterone are suppressed. Because the problem is in the channel itself, the ENaC blocker **amiloride** works and the mineralocorticoid receptor blocker spironolactone does not. **11-beta-HSD2 deficiency** (apparent mineralocorticoid excess) is the tempting choice, since it also gives low renin and low aldosterone, but there the excess signal comes through the mineralocorticoid receptor, so spironolactone would help. An adenoma would make aldosterone high, and NCC loss causes low, not high, blood pressure.",
+      "explanation_pt": "Trata-se da **síndrome de Liddle**: uma mutação com ganho de função no **ENaC** impede que o canal seja retirado da membrana e degradado; assim, as células principais reabsorvem Na+ em excesso e secretam K+ e H+ mesmo com renina e aldosterona suprimidas. Como o problema está no próprio canal, a **amilorida**, que bloqueia o ENaC, funciona, e a espironolactona, que bloqueia o receptor de mineralocorticoide, não. A **deficiência de 11-beta-HSD2** (excesso aparente de mineralocorticoide) é a alternativa tentadora, pois também cursa com renina e aldosterona baixas, mas nela o sinal em excesso passa pelo receptor de mineralocorticoide, e a espironolactona ajudaria. Um adenoma elevaria a aldosterona, e a perda do NCC causa pressão baixa, e não alta."
+    },
+    {
+      "slug": "q-renal-tubular-transport-qx-tenofovir-osteomalacia",
+      "track": "step1",
+      "system": "renal",
+      "discipline": "physiology",
+      "tags": [
+        "renal-tubular-transport",
+        "proximal-tubule",
+        "fanconi-syndrome",
+        "phosphate"
+      ],
+      "stem": "A 46-year-old man with HIV infection has taken an antiretroviral regimen that includes tenofovir disoproxil fumarate for 6 years. He now has bone pain in his hips and feet. Serum glucose is 92 mg/dL, sodium 138 mEq/L, potassium 3.2 mEq/L, chloride 112 mEq/L, bicarbonate 18 mEq/L and phosphate 1.8 mg/dL (normal 2.5-4.5). Urine dipstick shows 2+ glucose, and urine chromatography shows many amino acids. Urine phosphate excretion is high. Which process best explains his bone pain?",
+      "choices": [
+        "Osteoclast activation by lytic bone metastases",
+        "Poor bone mineralization from urinary phosphate loss",
+        "Avascular necrosis from antiretroviral-associated hyperlipidemia",
+        "Loss of bone mass from low estrogen levels",
+        "Osteitis fibrosa from high PTH in chronic kidney disease"
+      ],
+      "correct": 1,
+      "explanation": "Glucose in the urine with a **normal blood glucose**, plus **phosphaturia**, **aminoaciduria** and a normal anion gap acidosis (138 - 112 - 18 = 8) is **Fanconi syndrome** from tenofovir injury to the **proximal tubule**, which normally reclaims most filtered phosphate through Na-phosphate cotransporters. Ongoing urinary phosphate loss keeps serum phosphate low, so new bone matrix cannot mineralize: this is **osteomalacia**, with bone pain and small fractures in the hips and feet. Avascular necrosis is the tempting choice in a patient with HIV and hip pain, but it does not explain the low phosphate or the pain in the feet. Osteitis fibrosa from chronic kidney disease would come with **high**, not low, serum phosphate.",
+      "explanation_pt": "Glicose na urina com **glicemia normal**, além de **fosfatúria**, **aminoacidúria** e acidose com ânion gap normal (138 - 112 - 18 = 8), caracteriza a **síndrome de Fanconi** por lesão do **túbulo proximal** causada pelo tenofovir; esse segmento normalmente recupera a maior parte do fosfato filtrado por meio dos cotransportadores Na-fosfato. A perda urinária contínua de fosfato mantém o fosfato sérico baixo, e a nova matriz óssea não consegue se mineralizar: é a **osteomalácia**, com dor óssea e pequenas fraturas nos quadris e nos pés. A necrose avascular é a alternativa tentadora em um paciente com HIV e dor no quadril, mas não explica o fosfato baixo nem a dor nos pés. A osteíte fibrosa da doença renal crônica viria com fosfato sérico **alto**, e não baixo."
+    },
+    {
+      "slug": "q-renal-tubular-transport-qx-free-water-clearance-calc",
+      "track": "step1",
+      "system": "renal",
+      "discipline": "physiology",
+      "tags": [
+        "renal-tubular-transport",
+        "free-water-clearance",
+        "adh"
+      ],
+      "stem": "A healthy 28-year-old man in a physiology study drinks 1.5 L of water in 15 minutes. One hour later, his urine flow is 8 mL/min, urine osmolality is 70 mOsm/kg and plasma osmolality is 280 mOsm/kg. What is his free water clearance at this time?",
+      "choices": [
+        "-6 mL/min",
+        "-2 mL/min",
+        "+2 mL/min",
+        "+6 mL/min",
+        "+8 mL/min"
+      ],
+      "correct": 3,
+      "explanation": "Osmolar clearance is (Uosm × V) / Posm = (70 × 8) / 280 = **2 mL/min**, so free water clearance is V - Cosm = 8 - 2 = **+6 mL/min**. The positive value means the kidneys are excreting solute-free water: the water load lowered plasma osmolality, ADH fell, and with few aquaporin-2 channels in the collecting duct the dilute fluid from the diluting segments passes straight into the urine. +2 mL/min is the tempting answer, but that is the osmolar clearance, not the free water clearance; a negative value would mean concentrated urine and ADH effect.",
+      "explanation_pt": "A depuração osmolar é (Uosm × V) / Posm = (70 × 8) / 280 = **2 mL/min**, então a depuração de água livre é V - Cosm = 8 - 2 = **+6 mL/min**. O valor positivo indica que os rins excretam água livre de solutos: a sobrecarga hídrica reduziu a osmolalidade plasmática, o ADH caiu e, com poucos canais de aquaporina-2 no ducto coletor, o líquido diluído dos segmentos diluidores segue direto para a urina. +2 mL/min é a resposta tentadora, mas esse é o valor da depuração osmolar, e não da depuração de água livre; um valor negativo indicaria urina concentrada e efeito do ADH."
+    },
+    {
+      "slug": "q-renal-tubular-transport-qx-urea-low-protein",
+      "track": "step1",
+      "system": "renal",
+      "discipline": "physiology",
+      "tags": [
+        "renal-tubular-transport",
+        "urine-concentration",
+        "urea-recycling"
+      ],
+      "stem": "In a physiology study, healthy adult volunteers eat a very low-protein diet for 3 weeks. Their blood urea nitrogen falls from 14 to 5 mg/dL. Before the diet, an overnight water deprivation test raised their urine osmolality to about 1100 mOsm/kg. After the diet, the same test raises it to only about 750 mOsm/kg. Plasma ADH rises normally during deprivation, and desmopressin does not raise urine osmolality further. Which change best explains the lower maximal urine osmolality?",
+      "choices": [
+        "Reduced insertion of aquaporin-2 in collecting duct principal cells",
+        "Reduced ADH release from the posterior pituitary",
+        "Reduced Na-K-2Cl transport in the thick ascending limb",
+        "Faster vasa recta blood flow that washes out the medullary gradient",
+        "Less urea available to build up in the inner medullary interstitium"
+      ],
+      "correct": 4,
+      "explanation": "Much of the osmolality deep in the inner medulla comes from **urea**: ADH opens urea transporters in the inner medullary collecting duct, urea moves into the interstitium and is recycled, and this adds to the NaCl gradient built by the countercurrent multiplier. With little dietary protein, the liver makes little urea, so the papilla is less concentrated and urine cannot reach its usual maximum. Vasa recta washout is the tempting answer, but nothing in the study changes medullary blood flow. Normal ADH and no extra rise with desmopressin rule out a problem with ADH release, and urine that still reaches 750 mOsm/kg shows that aquaporin-2 channels are working.",
+      "explanation_pt": "Grande parte da osmolalidade na medula interna profunda vem da **ureia**: o ADH abre transportadores de ureia no ducto coletor medular interno, a ureia passa ao interstício e é reciclada, somando-se ao gradiente de NaCl formado pelo multiplicador em contracorrente. Com pouca proteína na dieta, o fígado produz pouca ureia, a papila fica menos concentrada e a urina não atinge seu máximo habitual. A \"lavagem\" do gradiente pelos vasa recta é a resposta tentadora, mas nada no estudo altera o fluxo sanguíneo medular. O ADH normal e a ausência de aumento adicional com a desmopressina afastam um problema na liberação do ADH, e a urina que ainda chega a 750 mOsm/kg mostra que os canais de aquaporina-2 funcionam."
+    },
+    {
+      "slug": "q-renal-tubular-transport-qx-thiazide-hyponatremia",
+      "track": "step1",
+      "system": "renal",
+      "discipline": "physiology",
+      "tags": [
+        "renal-tubular-transport",
+        "distal-tubule",
+        "hyponatremia",
+        "urine-dilution"
+      ],
+      "stem": "A 76-year-old woman is brought to the clinic with 3 days of nausea and mild confusion. Three weeks ago she started hydrochlorothiazide for hypertension. She drinks a lot of tea. Blood pressure is 128/76 mm Hg and there is no edema. Serum sodium is 121 mEq/L, potassium 3.3 mEq/L, plasma osmolality 254 mOsm/kg and urine osmolality 410 mOsm/kg. Which effect of this drug best explains why it causes low sodium more often than loop diuretics do?",
+      "choices": [
+        "It impairs urine dilution in the distal tubule but spares the medullary gradient",
+        "It abolishes the medullary osmotic gradient by blocking the thick ascending limb",
+        "It blocks V2 receptors on principal cells and lowers cAMP in the collecting duct",
+        "It reduces insertion of aquaporin-2 into the apical membrane of principal cells",
+        "It inhibits carbonic anhydrase and NaHCO3 reabsorption in the proximal tubule"
+      ],
+      "correct": 0,
+      "explanation": "Thiazides block the **Na-Cl cotransporter** in the **distal convoluted tubule**, a water-impermeable segment that normally helps make tubular fluid dilute, so the kidney cannot excrete free water well. The **thick ascending limb still builds the medullary gradient**, so when ADH is present the collecting duct still reabsorbs water and the urine stays concentrated (410 mOsm/kg here). Blocking the thick ascending limb is the tempting choice, but that is what loop diuretics do: they wash out the medullary gradient, the urine cannot be concentrated much, and hyponatremia is less common. Blocking V2 receptors or aquaporin-2 would make the urine dilute and raise, not lower, serum sodium.",
+      "explanation_pt": "Os tiazídicos bloqueiam o **cotransportador Na-Cl** no **túbulo contorcido distal**, um segmento impermeável à água que normalmente ajuda a diluir o líquido tubular; assim, o rim não consegue excretar bem a água livre. O **ramo ascendente espesso continua formando o gradiente medular**, então, na presença de ADH, o ducto coletor ainda reabsorve água e a urina segue concentrada (410 mOsm/kg aqui). O bloqueio do ramo ascendente espesso é a alternativa tentadora, mas é isso que os diuréticos de alça fazem: eles desfazem o gradiente medular, a urina não se concentra muito e a hiponatremia é menos comum. Bloquear receptores V2 ou a aquaporina-2 deixaria a urina diluída e elevaria o sódio sérico, em vez de reduzi-lo."
+    },
+    {
+      "slug": "q-renal-tubular-transport-qx-loop-diuretic-k-secretion",
+      "track": "step1",
+      "system": "renal",
+      "discipline": "physiology",
+      "tags": [
+        "renal-tubular-transport",
+        "collecting-duct",
+        "hypokalemia",
+        "diuretics"
+      ],
+      "stem": "A 64-year-old man with heart failure starts furosemide for leg edema. His serum potassium was 4.3 mEq/L before treatment. Two weeks later, it is 3.0 mEq/L, and his 24-hour urine potassium excretion is high. He eats a normal diet and has no vomiting or diarrhea. Which change in the collecting duct contributes most to his potassium loss?",
+      "choices": [
+        "Less Na+ entry through ENaC, which makes the lumen less negative",
+        "Inhibition of ROMK K+ channels in the apical membrane of principal cells",
+        "More Na+ and fluid reach principal cells and make the lumen more negative",
+        "Increased H+/K+-ATPase activity in the apical membrane of alpha-intercalated cells",
+        "Direct blockade of the basolateral Na+/K+-ATPase of principal cells"
+      ],
+      "correct": 2,
+      "explanation": "Blocking the thick ascending limb sends more **Na+ and fluid** to the collecting duct. **Principal cells** take up more Na+ through **ENaC**, which makes the lumen **more negative** and drives K+ out through **ROMK** channels; the faster flow also keeps luminal K+ low, and aldosterone stimulated by volume loss adds to the effect. More H+/K+-ATPase activity in alpha-intercalated cells is the tempting choice, but that pump **reabsorbs** K+ and would protect against hypokalemia. Inhibiting ROMK or the Na+/K+-ATPase would reduce K+ secretion, not increase it.",
+      "explanation_pt": "O bloqueio do ramo ascendente espesso envia mais **Na+ e líquido** ao ducto coletor. As **células principais** captam mais Na+ pelo **ENaC**, o que deixa o lúmen **mais negativo** e impulsiona a saída de K+ pelos canais **ROMK**; o fluxo mais rápido também mantém baixo o K+ no lúmen, e a aldosterona estimulada pela perda de volume reforça o efeito. O aumento da H+/K+-ATPase nas células intercaladas alfa é a alternativa tentadora, mas essa bomba **reabsorve** K+ e protegeria contra a hipocalemia. Inibir o ROMK ou a Na+/K+-ATPase reduziria a secreção de K+, em vez de aumentá-la."
+    },
+    {
+      "slug": "q-renal-tubular-transport-qx-tf-p-inulin",
+      "track": "step1",
+      "system": "renal",
+      "discipline": "physiology",
+      "tags": [
+        "renal-tubular-transport",
+        "proximal-tubule",
+        "micropuncture"
+      ],
+      "stem": "In a micropuncture study, tubular fluid is sampled at the end of the proximal convoluted tubule. Inulin is infused to steady state. The tubular fluid-to-plasma (TF/P) concentration ratio of inulin at this site is 3.0, and the TF/P ratio of sodium is 1.0. About what percentage of the filtered water has been reabsorbed by the end of the proximal tubule?",
+      "choices": [
+        "33%",
+        "50%",
+        "67%",
+        "75%",
+        "90%"
+      ],
+      "correct": 2,
+      "explanation": "Inulin is filtered freely and is neither reabsorbed nor secreted, so its concentration in the tubule rises only as water is removed. A TF/P inulin of 3.0 means one-third of the filtered water is still in the tubule, so 1 - 1/3 = **about 67%** has been reabsorbed. A TF/P sodium of 1.0 shows that Na+ and water left together, which is the **isosmotic** reabsorption typical of the proximal tubule. 33% is the tempting answer, but that is the fraction of filtered water that remains, not the fraction reabsorbed.",
+      "explanation_pt": "A inulina é filtrada livremente e não é reabsorvida nem secretada; por isso, sua concentração no túbulo só aumenta quando a água é retirada. Uma TF/P de inulina de 3,0 significa que um terço da água filtrada ainda está no túbulo, então 1 - 1/3 = **cerca de 67%** da água foi reabsorvida. Uma TF/P de sódio de 1,0 mostra que Na+ e água saíram juntos, a reabsorção **isosmótica** típica do túbulo proximal. 33% é a resposta tentadora, mas é a fração da água filtrada que permanece, e não a fração reabsorvida."
+    }
+  ],
+  "notes": []
+}

@@ -1,0 +1,183 @@
+{
+  "cards": [],
+  "questions": [
+    {
+      "slug": "q-renal-pharmacology-qx-mannitol-pulmonary-edema",
+      "track": "step1",
+      "system": "renal",
+      "discipline": "pharmacology",
+      "tags": [
+        "renal-pharmacology",
+        "osmotic-diuretics",
+        "adverse-effects"
+      ],
+      "stem": "A 72-year-old man with heart failure with reduced ejection fraction is admitted after a fall with a head injury. CT shows brain edema, and he receives an intravenous infusion of mannitol to lower intracranial pressure. Two hours later, he becomes short of breath. Respiratory rate is 30/min and oxygen saturation falls from 96% to 86% on the same oxygen flow. There are crackles over both lungs, and jugular venous pressure is high. Which effect of the drug best explains his breathing problem?",
+      "choices": [
+        "Direct depression of myocardial contractility",
+        "Higher capillary permeability from an allergic reaction",
+        "Water pulled from cells, expanding plasma volume",
+        "Sodium retention caused by increased aldosterone release",
+        "Lower plasma oncotic pressure from loss of albumin in urine"
+      ],
+      "correct": 2,
+      "explanation": "**Mannitol** stays in the extracellular fluid and pulls water out of cells, so **plasma volume expands** before the diuresis begins. A failing left ventricle cannot handle this extra volume, so **pulmonary edema** develops; this is why mannitol is avoided in heart failure and anuria. An allergic reaction could also cause sudden dyspnea, but it would not raise jugular venous pressure, and mannitol does not depress the heart muscle.",
+      "explanation_pt": "O **manitol** permanece no líquido extracelular e retira água das células, por isso o **volume plasmático se expande** antes do início da diurese. Um ventrículo esquerdo insuficiente não suporta esse volume extra, e surge **edema pulmonar**; por isso o manitol é evitado na insuficiência cardíaca e na anúria. Uma reação alérgica também poderia causar dispneia súbita, mas não causaria **estase jugular**, e o manitol não deprime o músculo cardíaco."
+    },
+    {
+      "slug": "q-renal-pharmacology-qx-thiazide-hypercalcemia",
+      "track": "step1",
+      "system": "renal",
+      "discipline": "pharmacology",
+      "tags": [
+        "renal-pharmacology",
+        "thiazides",
+        "electrolytes"
+      ],
+      "stem": "A 58-year-old woman started a new once-daily drug for hypertension 6 weeks ago. She feels well. Serum studies show sodium 133 mEq/L, potassium 3.3 mEq/L, chloride 95 mEq/L, bicarbonate 30 mEq/L, calcium 10.7 mg/dL (reference 8.5-10.2), uric acid 7.9 mg/dL and PTH 9 pg/mL (reference 10-65). Her 24-hour urine calcium is low. Which mechanism best explains her serum calcium level?",
+      "choices": [
+        "Autonomous PTH secretion by a parathyroid adenoma",
+        "More calcium reabsorption in the distal convoluted tubule",
+        "Less paracellular calcium reabsorption in the thick ascending limb",
+        "Increased calcitriol production by activated macrophages",
+        "Bone resorption driven by PTH-related peptide"
+      ],
+      "correct": 1,
+      "explanation": "The pattern of mild **hypercalcemia** with **low urine calcium**, plus hypokalemia, metabolic alkalosis, mild hyponatremia and **hyperuricemia**, fits a **thiazide**. Blocking the NaCl cotransporter in the **distal convoluted tubule** lowers cell sodium, which increases **calcium reabsorption** there. A parathyroid adenoma is the most tempting choice, but PTH would be high or inappropriately normal, not suppressed, and urine calcium would usually be normal or high. Less calcium reabsorption in the thick ascending limb is the loop diuretic effect, which raises urine calcium and lowers serum calcium.",
+      "explanation_pt": "O padrão de **hipercalcemia** leve com **cálcio urinário baixo**, além de hipocalemia, alcalose metabólica, hiponatremia leve e **hiperuricemia**, é típico de um **tiazídico**. O bloqueio do cotransportador de NaCl no **túbulo contorcido distal** reduz o sódio celular, o que aumenta a **reabsorção de cálcio** nesse segmento. O adenoma de paratireoide é a opção mais tentadora, mas o PTH estaria alto ou inadequadamente normal, e não suprimido, e o cálcio urinário costuma ser normal ou alto. A menor reabsorção de cálcio no ramo ascendente espesso é o efeito do diurético de alça, que aumenta o cálcio urinário e reduz o cálcio sérico."
+    },
+    {
+      "slug": "q-renal-pharmacology-qx-acyclovir-crystal-nephropathy",
+      "track": "step1",
+      "system": "renal",
+      "discipline": "pharmacology",
+      "tags": [
+        "renal-pharmacology",
+        "nephrotoxicity",
+        "antivirals"
+      ],
+      "stem": "A 52-year-old woman is treated for herpes simplex encephalitis with high-dose intravenous acyclovir. She has been drinking very little. On day 2, her serum creatinine has risen from 0.8 to 2.0 mg/dL, and she has mild flank discomfort. She has no rash, and blood eosinophils are normal. Urine microscopy shows many needle-shaped crystals and no white blood cell casts. Which process best explains her kidney injury?",
+      "choices": [
+        "Hypersensitivity inflammation of the renal interstitium",
+        "Immune complex deposition in the glomeruli",
+        "Constriction of the afferent arterioles",
+        "Drug crystals blocking the tubular lumen",
+        "Drug buildup inside proximal tubular cells"
+      ],
+      "correct": 3,
+      "explanation": "**Acyclovir** dissolves poorly in urine. With a **high intravenous dose** and **low fluid intake**, it forms **needle-shaped crystals** that block the tubules, usually within the first **1-2 days**, causing **crystal nephropathy**. Interstitial nephritis is the most tempting choice, but it usually appears after about a week of the drug and gives white blood cell casts, not crystals. Prevention is **good hydration** and a slower infusion.",
+      "explanation_pt": "O **aciclovir** é pouco solúvel na urina. Com **dose intravenosa alta** e **baixa ingestão de líquidos**, ele forma **cristais em forma de agulha** que obstruem os túbulos, geralmente nos primeiros **1-2 dias**, causando **nefropatia por cristais**. A nefrite intersticial é a opção mais tentadora, mas costuma surgir após cerca de uma semana de uso do fármaco e produz cilindros leucocitários, e não cristais. A prevenção é **boa hidratação** e infusão mais lenta."
+    },
+    {
+      "slug": "q-renal-pharmacology-qx-amphotericin-distal-rta",
+      "track": "step1",
+      "system": "renal",
+      "discipline": "pharmacology",
+      "tags": [
+        "renal-pharmacology",
+        "nephrotoxicity",
+        "acid-base"
+      ],
+      "stem": "A 45-year-old woman with poorly controlled diabetes is treated for rhinocerebral mucormycosis with intravenous amphotericin B. Her diabetic ketoacidosis resolved on the first hospital day. On day 10, she feels weak. Serum studies show sodium 139 mEq/L, potassium 2.8 mEq/L, chloride 113 mEq/L, bicarbonate 17 mEq/L and low magnesium. Serum ketones are negative. Urine pH is 6.6. Which mechanism best explains her acid-base disorder?",
+      "choices": [
+        "Back-leak of secreted H+ through distal tubule membranes",
+        "Reduced bicarbonate reabsorption in the proximal tubule",
+        "Reduced aldosterone effect on collecting duct principal cells",
+        "Accumulation of ketoacids from insulin deficiency",
+        "Loss of bicarbonate from the gastrointestinal tract"
+      ],
+      "correct": 0,
+      "explanation": "The anion gap is normal (139 − 113 − 17 = 9), potassium is low and urine pH stays **above 5.5** despite acidosis: this is **distal (type 1) RTA**. **Amphotericin B** binds membrane sterols and makes pores, so hydrogen ions secreted into the distal tubule and collecting duct **leak back** into the cells and the urine cannot be acidified. Proximal RTA is the most tempting choice, but there the distal nephron still works, so in a steady state with low serum bicarbonate the urine can be acidified below 5.5; a persistently high urine pH points to a distal defect. Ketoacidosis would raise the anion gap, and low aldosterone effect would raise potassium.",
+      "explanation_pt": "O ânion gap é normal (139 − 113 − 17 = 9), o potássio está baixo e o pH urinário fica **acima de 5,5** apesar da acidose: trata-se de **ATR distal (tipo 1)**. A **anfotericina B** se liga aos esteróis da membrana e forma poros, por isso os íons hidrogênio secretados no túbulo distal e no ducto coletor **sofrem retrodifusão** para as células, e a urina não consegue ser acidificada. A ATR proximal é a opção mais tentadora, mas nela o néfron distal funciona, então, em equilíbrio e com bicarbonato sérico baixo, a urina consegue ser acidificada abaixo de 5,5; um pH urinário persistentemente alto indica um defeito distal. A cetoacidose elevaria o ânion gap, e um efeito reduzido da aldosterona elevaria o potássio."
+    },
+    {
+      "slug": "q-renal-pharmacology-qx-loop-resistance-metolazone",
+      "track": "step1",
+      "system": "renal",
+      "discipline": "pharmacology",
+      "tags": [
+        "renal-pharmacology",
+        "diuretics",
+        "heart-failure"
+      ],
+      "stem": "A 69-year-old man with heart failure has had worsening leg edema for 3 weeks despite taking high-dose oral furosemide for many months and following a low-salt diet. Metolazone is added. Over the next 3 days, his urine output rises sharply and he loses 4 kg, and serum potassium falls from 4.1 to 3.0 mEq/L. Which adaptation to long-term loop diuretic use best explains the strong response to the added drug?",
+      "choices": [
+        "Upregulation of carbonic anhydrase in the proximal tubule",
+        "Downregulation of V2 receptors in the collecting duct",
+        "Loss of prostaglandin synthesis in the renal medulla",
+        "New water permeability in the thick ascending limb",
+        "More sodium reabsorption by enlarged distal tubule cells"
+      ],
+      "correct": 4,
+      "explanation": "With long-term **loop diuretic** use, more sodium reaches the **distal convoluted tubule**, whose cells **hypertrophy** and reabsorb more of it, which blunts the diuresis (**diuretic resistance**). Metolazone is a **thiazide-like** diuretic that blocks this segment, so adding it gives a strong diuresis (**sequential nephron blockade**). Downregulation of V2 receptors is the most tempting choice, but it would cause dilute urine, not the large sodium loss that drives this response. The main risks are severe **hypokalemia** and hyponatremia.",
+      "explanation_pt": "Com o uso prolongado de **diurético de alça**, chega mais sódio ao **túbulo contorcido distal**, cujas células **hipertrofiam** e reabsorvem mais sódio, o que reduz a diurese (**resistência aos diuréticos**). A metolazona é um diurético **tiazídico-símile** que bloqueia esse segmento, por isso, quando associada, produz diurese intensa (**bloqueio sequencial do néfron**). A redução dos receptores V2 é a opção mais tentadora, mas causaria urina diluída, e não a grande perda de sódio que explica essa resposta. Os principais riscos são **hipocalemia** grave e hiponatremia."
+    },
+    {
+      "slug": "q-renal-pharmacology-qx-tolvaptan-aquaresis",
+      "track": "step1",
+      "system": "renal",
+      "discipline": "pharmacology",
+      "tags": [
+        "renal-pharmacology",
+        "adh",
+        "hyponatremia"
+      ],
+      "stem": "A 63-year-old man with small cell lung cancer has confusion. He appears euvolemic. Serum sodium is 124 mEq/L, serum osmolality is 258 mOsm/kg, and urine osmolality is 480 mOsm/kg. Fluid restriction does not help. He starts an oral drug. Over the next 24 hours, urine volume rises, urine osmolality falls to 140 mOsm/kg, and daily urine sodium excretion is almost unchanged. Serum sodium rises to 129 mEq/L. Which action of the drug explains these changes?",
+      "choices": [
+        "Inhibition of the Na-K-2Cl cotransporter in the thick ascending limb",
+        "Blockade of V2 receptors on collecting duct principal cells",
+        "Blockade of epithelial sodium channels in the collecting duct",
+        "Suppression of ADH release from the posterior pituitary",
+        "Blockade of V1a receptors on vascular smooth muscle"
+      ],
+      "correct": 1,
+      "explanation": "The drug is **tolvaptan**, an oral **V2 receptor antagonist**. Without V2 signaling, principal cells insert fewer **aquaporin-2** channels, so the kidney excretes **free water** with little change in sodium excretion (**aquaresis**), and serum sodium rises; it must not rise too fast because of the risk of **osmotic demyelination**. A loop diuretic can also help in SIADH, but it works by increasing **sodium** excretion, which did not change here. V1a blockade affects vessels, not water handling, and the ADH in SIADH from lung cancer comes from the tumor, not the pituitary.",
+      "explanation_pt": "O fármaco é a **tolvaptana**, um **antagonista oral do receptor V2**. Sem a sinalização V2, as células principais inserem menos canais de **aquaporina-2**, então o rim excreta **água livre** quase sem mudar a excreção de sódio (**aquarese**), e o sódio sérico sobe; ele não deve subir rápido demais pelo risco de **desmielinização osmótica**. Um diurético de alça também pode ajudar na SIADH, mas age aumentando a excreção de **sódio**, que aqui não mudou. O bloqueio V1a atua nos vasos, e não no manejo da água, e o ADH da SIADH por câncer de pulmão vem do tumor, e não da hipófise."
+    },
+    {
+      "slug": "q-renal-pharmacology-qx-sglt2-euglycemic-ketoacidosis",
+      "track": "step1",
+      "system": "renal",
+      "discipline": "pharmacology",
+      "tags": [
+        "renal-pharmacology",
+        "sglt2-inhibitors",
+        "acid-base"
+      ],
+      "stem": "A 56-year-old man with type 2 diabetes is admitted for bowel surgery. He has taken nothing by mouth for 2 days and has vomited several times. He takes two oral drugs for diabetes and kept taking both until the day of surgery. He is breathing deeply. Results are shown: glucose 190 mg/dL, sodium 137 mEq/L, chloride 101 mEq/L, bicarbonate 12 mEq/L, serum beta-hydroxybutyrate markedly elevated, lactate 1.3 mmol/L (normal) and creatinine 0.9 mg/dL. Urine glucose is 4+. Which drug most likely contributed to this condition?",
+      "choices": [
+        "Metformin",
+        "Glipizide",
+        "Sitagliptin",
+        "Rosiglitazone",
+        "Dapagliflozin"
+      ],
+      "correct": 4,
+      "explanation": "He has an **anion gap metabolic acidosis** (137 − 101 − 12 = 24) from **ketoacids** while glucose is only mildly high: **euglycemic ketoacidosis**. **SGLT2 inhibitors** such as dapagliflozin keep wasting glucose in the urine (**glucosuria**), so blood glucose stays near normal, insulin falls and glucagon rises, which drives **ketone production**; fasting and surgery are classic triggers. Metformin is the most tempting choice because it causes an anion gap acidosis too, but that is **lactic acidosis**, and his lactate and kidney function are normal.",
+      "explanation_pt": "Ele tem **acidose metabólica com ânion gap elevado** (137 − 101 − 12 = 24) por **cetoácidos**, com glicose apenas levemente alta: **cetoacidose euglicêmica**. Os **inibidores de SGLT2**, como a dapagliflozina, continuam eliminando glicose na urina (**glicosúria**), então a glicemia fica perto do normal, a insulina cai e o glucagon sobe, o que estimula a **produção de cetonas**; jejum e cirurgia são desencadeantes clássicos. A metformina é a opção mais tentadora porque também causa acidose com ânion gap elevado, mas por **acidose lática**, e o lactato e a função renal dele estão normais."
+    },
+    {
+      "slug": "q-renal-pharmacology-qx-trimethoprim-hyperkalemia",
+      "track": "step1",
+      "system": "renal",
+      "discipline": "pharmacology",
+      "tags": [
+        "renal-pharmacology",
+        "potassium-sparing",
+        "adverse-effects",
+        "electrolytes"
+      ],
+      "stem": "An 80-year-old woman with a complicated urinary tract infection is treated with high-dose oral trimethoprim-sulfamethoxazole. She takes no other new drugs. On day 5, serum potassium is 6.1 mEq/L, up from 4.2 mEq/L at the start of treatment. Serum creatinine is 1.0 mg/dL, up slightly from 0.9 mg/dL. Hemoglobin, LDH and bilirubin are unchanged, and the blood sample is not hemolyzed. Which mechanism best explains her potassium level?",
+      "choices": [
+        "Blockade of mineralocorticoid receptors in principal cells",
+        "Inhibition of renin release from juxtaglomerular cells",
+        "Blockade of epithelial sodium channels in principal cells",
+        "Potassium release from red blood cells that are breaking down",
+        "Inhibition of the Na-K ATPase in skeletal muscle cells"
+      ],
+      "correct": 2,
+      "explanation": "**Trimethoprim** has a structure similar to **amiloride** and blocks **ENaC** in collecting duct principal cells. Less sodium enters the cells, the lumen becomes less negative, and **potassium secretion falls**, so hyperkalemia develops, mostly with high doses. Mineralocorticoid receptor blockade is the most tempting choice because it also causes hyperkalemia, but that is the mechanism of spironolactone, not trimethoprim. Her small creatinine rise is expected because trimethoprim also reduces **tubular secretion of creatinine** without a true fall in GFR.",
+      "explanation_pt": "A **trimetoprima** tem estrutura semelhante à da **amilorida** e bloqueia o **ENaC** nas células principais do ducto coletor. Entra menos sódio nas células, o lúmen fica menos negativo e a **secreção de potássio cai**, por isso surge hipercalemia, sobretudo com doses altas. O bloqueio do receptor mineralocorticoide é a opção mais tentadora porque também causa hipercalemia, mas esse é o mecanismo da espironolactona, e não da trimetoprima. A pequena elevação da creatinina é esperada porque a trimetoprima também reduz a **secreção tubular de creatinina**, sem queda real da TFG."
+    }
+  ],
+  "notes": []
+}

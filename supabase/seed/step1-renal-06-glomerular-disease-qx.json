@@ -1,0 +1,186 @@
+{
+  "cards": [],
+  "questions": [
+    {
+      "slug": "q-glomerular-disease-qx-psgn-impetigo-mechanism",
+      "track": "step1",
+      "system": "renal",
+      "discipline": "pathology",
+      "tags": [
+        "glomerular-disease",
+        "psgn",
+        "nephritic-syndrome",
+        "hypersensitivity"
+      ],
+      "stem": "An 8-year-old boy has had puffy eyes and dark brown urine for 2 days. Three weeks ago he had crusted, honey-colored sores around his nose that healed without treatment. Blood pressure is 142/92 mm Hg. Laboratory results: serum creatinine 1.3 mg/dL (normal for age about 0.5 mg/dL), C3 low, C4 normal, ANA negative. Urinalysis shows red blood cells, red blood cell casts and 2+ protein. Which mechanism best explains his kidney injury?",
+      "choices": [
+        "Antibodies against bacterial M protein that cross-react with glomerular cell proteins",
+        "Deposition of immune complexes in the glomerulus with activation of complement",
+        "Direct invasion of the glomerular capillaries by group A streptococci",
+        "Bacterial exotoxin that damages the endothelium of glomerular capillaries",
+        "Sensitized T cells that release cytokines and recruit macrophages to the kidney"
+      ],
+      "correct": 1,
+      "explanation": "Nephritic syndrome about **3 weeks after impetigo**, with **low C3 and normal C4**, is **post-streptococcal GN**. It is a **type III hypersensitivity** reaction: streptococcal antigens and antibodies form **immune complexes** in the glomerulus (subepithelial humps), activate complement and attract neutrophils. Cross-reacting anti-M protein antibodies (molecular mimicry, type II) explain **rheumatic fever**, which follows pharyngitis, not skin infection. A toxin injuring glomerular endothelium fits Shiga toxin-related hemolytic uremic syndrome, which would show anemia and low platelets.",
+      "explanation_pt": "Síndrome nefrítica cerca de **3 semanas após impetigo**, com **C3 baixo e C4 normal**, é **GN pós-estreptocócica**. É uma reação de **hipersensibilidade tipo III**: antígenos estreptocócicos e anticorpos formam **imunocomplexos** no glomérulo (corcovas subepiteliais), ativam o complemento e atraem neutrófilos. Anticorpos anti-proteína M com reação cruzada (mimetismo molecular, tipo II) explicam a **febre reumática**, que ocorre após faringite, e não após infecção de pele. Uma toxina que lesa o endotélio glomerular corresponde à síndrome hemolítico-urêmica associada à toxina Shiga, que teria anemia e plaquetopenia."
+    },
+    {
+      "slug": "q-glomerular-disease-qx-iga-nephropathy-synpharyngitic",
+      "track": "step1",
+      "system": "renal",
+      "discipline": "pathology",
+      "tags": [
+        "glomerular-disease",
+        "iga-nephropathy",
+        "nephritic-syndrome"
+      ],
+      "stem": "A 23-year-old man notices red-brown urine on the second day of a sore throat with fever. He had two similar episodes in the past 3 years, each during a cold, and the urine cleared within a few days. He has no rash, joint pain or abdominal pain. He has normal hearing and no family history of kidney disease. Blood pressure is 126/78 mm Hg. Serum creatinine is 1.0 mg/dL. C3 and C4 are normal. Urinalysis shows many red blood cells, some dysmorphic, and 1+ protein. Which immunofluorescence pattern is most likely on renal biopsy?",
+      "choices": [
+        "Linear IgG along the glomerular basement membrane",
+        "Granular IgG and C3 in large subepithelial humps",
+        "Little or no immunoglobulin or complement staining",
+        "Granular IgA deposits in the mesangium",
+        "IgG, IgA, IgM, C3 and C1q in all compartments"
+      ],
+      "correct": 3,
+      "explanation": "Episodes of visible hematuria that start **during** an upper respiratory infection (1-3 days), with **normal complement**, suggest **IgA nephropathy**. Biopsy shows **mesangial IgA** deposits with mesangial proliferation. Post-streptococcal GN gives granular IgG and C3 humps, but it starts **2-3 weeks after** the infection and C3 is low. The *full-house* pattern of all immunoglobulins and C1q is typical of lupus nephritis, which would also lower C3 and C4.",
+      "explanation_pt": "Episódios de hematúria macroscópica que começam **durante** uma infecção de vias aéreas superiores (1-3 dias), com **complemento normal**, sugerem **nefropatia por IgA**. A biópsia mostra depósitos de **IgA mesangial** com proliferação mesangial. A GN pós-estreptocócica mostra depósitos granulares de IgG e C3 em corcovas, mas começa **2-3 semanas após** a infecção e o C3 está baixo. O padrão *full-house*, com todas as imunoglobulinas e C1q, é típico da nefrite lúpica, que também reduziria C3 e C4."
+    },
+    {
+      "slug": "q-glomerular-disease-qx-alport-gene",
+      "track": "step1",
+      "system": "renal",
+      "discipline": "pathology",
+      "tags": [
+        "glomerular-disease",
+        "alport-syndrome",
+        "genetics"
+      ],
+      "stem": "A 10-year-old boy has had microscopic hematuria on three urine tests over 2 years. He recently failed a school hearing test, and audiometry shows bilateral high-frequency sensorineural hearing loss. His maternal uncle started dialysis at age 30. His mother has microscopic hematuria but normal kidney function. Blood pressure and serum creatinine are normal. Electron microscopy of a renal biopsy shows a glomerular basement membrane that is thin in some areas and thick and split into layers in others. A mutation in which gene product is most likely?",
+      "choices": [
+        "Alpha-5 chain of type IV collagen",
+        "Nephrin of the podocyte slit diaphragm",
+        "Alpha-1 chain of type I collagen",
+        "Fibrillin-1 of microfibrils",
+        "Polycystin-1 of tubular cells"
+      ],
+      "correct": 0,
+      "explanation": "Hematuria, **sensorineural hearing loss** and a GBM that is **thin, thick and split** (*basket-weave*) define **Alport syndrome**. Affected males on the maternal side and a mildly affected mother fit the common **X-linked** form, caused by mutations in **COL4A5**, the alpha-5 chain of type IV collagen. Nephrin mutations cause congenital nephrotic syndrome with heavy proteinuria from infancy, not isolated hematuria with deafness. Type I collagen defects cause osteogenesis imperfecta, which can also cause hearing loss but not this GBM lesion.",
+      "explanation_pt": "Hematúria, **perda auditiva neurossensorial** e MBG **fina, espessada e lamelada** (aspecto em *basket-weave*, ou cesta trançada) definem a **síndrome de Alport**. Homens afetados do lado materno e mãe levemente afetada correspondem à forma **ligada ao X**, a mais comum, causada por mutações do **COL4A5**, a cadeia alfa-5 do colágeno tipo IV. Mutações da nefrina causam síndrome nefrótica congênita, com proteinúria maciça desde os primeiros meses de vida, e não hematúria isolada com surdez. Defeitos do colágeno tipo I causam osteogênese imperfeita, que também pode causar perda auditiva, mas não essa lesão da MBG."
+    },
+    {
+      "slug": "q-glomerular-disease-qx-renal-vein-thrombosis",
+      "track": "step1",
+      "system": "renal",
+      "discipline": "pathology",
+      "tags": [
+        "glomerular-disease",
+        "nephrotic-syndrome",
+        "complications",
+        "membranous-nephropathy"
+      ],
+      "stem": "A 52-year-old man with biopsy-proven membranous nephropathy has sudden pain in the left flank and visible blood in the urine. Two months ago his serum creatinine was 1.0 mg/dL. Laboratory results now: serum albumin 1.7 g/dL, 24-hour urine protein 11 g, total cholesterol 390 mg/dL, platelet count 260,000/mm3, serum creatinine 1.8 mg/dL. Doppler ultrasonography shows a clot in the left renal vein. Which mechanism most likely contributed to the clot?",
+      "choices": [
+        "Antibodies against heparin and platelet factor 4",
+        "Resistance of factor V to inactivation by protein C",
+        "Low hepatic synthesis of fibrinogen and factor VIII",
+        "Antibodies against phospholipid-binding proteins",
+        "Urinary loss of antithrombin III"
+      ],
+      "correct": 4,
+      "explanation": "**Renal vein thrombosis** is a classic complication of nephrotic syndrome, especially **membranous nephropathy**. Small anticoagulant proteins such as **antithrombin III** leak into the urine, while the liver makes more fibrinogen and other clotting factors. The liver response is an **increase** in clotting factor synthesis, not a decrease. Factor V Leiden and antiphospholipid antibodies are inherited or autoimmune causes of thrombosis that the nephrotic state does not explain, and he has not received heparin.",
+      "explanation_pt": "A **trombose de veia renal** é uma complicação clássica da síndrome nefrótica, sobretudo da **nefropatia membranosa**. Proteínas anticoagulantes pequenas, como a **antitrombina III**, são perdidas na urina, enquanto o fígado produz mais fibrinogênio e outros fatores de coagulação. A resposta hepática é um **aumento** da síntese de fatores de coagulação, e não uma redução. O fator V de Leiden e os anticorpos antifosfolípides são causas hereditárias ou autoimunes de trombose que o estado nefrótico não explica, e ele não recebeu heparina."
+    },
+    {
+      "slug": "q-glomerular-disease-qx-minimal-change-charge-barrier",
+      "track": "step1",
+      "system": "renal",
+      "discipline": "pathology",
+      "tags": [
+        "glomerular-disease",
+        "minimal-change-disease",
+        "nephrotic-syndrome",
+        "filtration-barrier"
+      ],
+      "stem": "A 4-year-old boy has had swelling around his eyes for 1 week, which began a few days after a cold. He now has ankle edema. Blood pressure is 98/60 mm Hg. Urinalysis shows 4+ protein and no blood. Serum albumin is 1.6 g/dL, and C3 is normal. Urine protein electrophoresis shows that almost all of the lost protein is albumin, with very little IgG. His edema resolves after a course of corticosteroids. Which change in the glomerular filtration barrier best explains this pattern of protein loss?",
+      "choices": [
+        "Immune complex deposits that break the basement membrane",
+        "Defective type IV collagen that splits the basement membrane",
+        "Loss of negative charge on the filtration barrier",
+        "Thickening of the basement membrane by glycated proteins",
+        "Necrosis of capillary walls with crescent formation"
+      ],
+      "correct": 2,
+      "explanation": "A steroid-responsive nephrotic syndrome in a young child is typically **minimal change disease**. Podocyte injury causes **foot process effacement** and **loss of the negative (anionic) charge** of the barrier, so small negatively charged **albumin** passes, while large proteins such as IgG stay in the blood (**selective proteinuria**). Immune complex injury damages the membrane itself, so larger proteins such as IgG leak too (**non-selective** proteinuria). Crescents are seen in rapidly progressive GN, which causes a nephritic picture.",
+      "explanation_pt": "Síndrome nefrótica responsiva a corticoides em criança pequena é tipicamente **doença de lesões mínimas**. A lesão do podócito causa **apagamento dos pedicelos** e **perda da carga negativa (aniônica)** da barreira, de modo que a **albumina**, pequena e com carga negativa, passa, enquanto proteínas grandes, como a IgG, permanecem no sangue (**proteinúria seletiva**). A lesão por imunocomplexos danifica a própria membrana, de modo que proteínas maiores, como a IgG, também passam (proteinúria **não seletiva**). Os crescentes ocorrem na GN rapidamente progressiva, que causa quadro nefrítico."
+    },
+    {
+      "slug": "q-glomerular-disease-qx-hiv-collapsing-fsgs",
+      "track": "step1",
+      "system": "renal",
+      "discipline": "pathology",
+      "tags": [
+        "glomerular-disease",
+        "fsgs",
+        "nephrotic-syndrome",
+        "hiv"
+      ],
+      "stem": "A 38-year-old Black man with untreated HIV infection has had swelling of his legs for 6 weeks. His CD4+ count is 90/mm3. Blood pressure is 124/76 mm Hg. Urinalysis shows 4+ protein and few red blood cells. Serum creatinine has risen from 1.1 to 2.6 mg/dL in 3 months. Ultrasonography shows large, bright (echogenic) kidneys. Renal biopsy shows glomerular capillary loops that have collapsed, with large, crowded podocytes over them and dilated tubules full of protein casts. What is the most likely diagnosis?",
+      "choices": [
+        "Focal segmental glomerulosclerosis",
+        "Membranous nephropathy",
+        "Minimal change disease",
+        "Renal AA amyloidosis",
+        "Membranoproliferative glomerulonephritis"
+      ],
+      "correct": 0,
+      "explanation": "**HIV-associated nephropathy** is the **collapsing variant of FSGS**: heavy proteinuria, fast loss of kidney function, **large echogenic kidneys**, collapsed capillary tufts under hypertrophied podocytes, and dilated tubules. It is much more common in people of African ancestry. Minimal change disease also shows foot process effacement, but light microscopy is normal and kidney function is usually preserved. Membranous nephropathy is classically linked to hepatitis B rather than HIV and shows a thick GBM with subepithelial deposits.",
+      "explanation_pt": "A **nefropatia associada ao HIV** é a **variante colapsante da GESF**: proteinúria maciça, perda rápida da função renal, **rins aumentados e hiperecogênicos**, alças capilares colapsadas sob podócitos hipertrofiados e túbulos dilatados. É muito mais frequente em pessoas de ascendência africana. A doença de lesões mínimas também mostra apagamento dos pedicelos, mas a microscopia óptica é normal e a função renal costuma estar preservada. A nefropatia membranosa associa-se classicamente à hepatite B, e não ao HIV, e mostra MBG espessada com depósitos subepiteliais."
+    },
+    {
+      "slug": "q-glomerular-disease-qx-aa-amyloidosis-precursor",
+      "track": "step1",
+      "system": "renal",
+      "discipline": "pathology",
+      "tags": [
+        "glomerular-disease",
+        "amyloidosis",
+        "nephrotic-syndrome"
+      ],
+      "stem": "A 63-year-old woman has had rheumatoid arthritis for 25 years, with many years of poor disease control and a persistently high C-reactive protein. She now has leg edema and foamy urine. Urinalysis shows 4+ protein and no red blood cells. Serum albumin is 2.0 g/dL. Serum and urine immunofixation show no monoclonal protein. Renal biopsy shows pink amorphous material in the glomeruli and vessel walls. With Congo red stain, it shows apple-green birefringence under polarized light. Which protein is the most likely precursor of this material?",
+      "choices": [
+        "Immunoglobulin light chain",
+        "Serum amyloid A",
+        "Transthyretin",
+        "Beta-2 microglobulin",
+        "Amyloid precursor protein"
+      ],
+      "correct": 1,
+      "explanation": "Long-standing **chronic inflammation** (rheumatoid arthritis, chronic infection, familial Mediterranean fever) drives the liver to make the acute-phase protein **serum amyloid A**, which deposits as **AA amyloid**; the kidney is the most common target and the patient presents with nephrotic syndrome. Light chain (AL) amyloidosis is the most tempting answer, but it comes from a plasma cell clone, and immunofixation would show a **monoclonal protein**. Beta-2 microglobulin amyloid occurs in long-term dialysis patients and mainly affects joints and the carpal tunnel.",
+      "explanation_pt": "A **inflamação crônica** de longa duração (artrite reumatoide, infecção crônica, febre familiar do Mediterrâneo) leva o fígado a produzir a proteína de fase aguda **amiloide A sérica**, que se deposita como **amiloide AA**; o rim é o alvo mais comum e a paciente apresenta síndrome nefrótica. A amiloidose de cadeias leves (AL) é a alternativa mais tentadora, mas vem de um clone de plasmócitos, e a imunofixação mostraria uma **proteína monoclonal**. O amiloide de beta-2 microglobulina ocorre em pacientes em diálise por muitos anos e acomete principalmente articulações e o túnel do carpo."
+    },
+    {
+      "slug": "q-glomerular-disease-qx-lupus-class-iv-deposits",
+      "track": "step1",
+      "system": "renal",
+      "discipline": "pathology",
+      "tags": [
+        "glomerular-disease",
+        "lupus-nephritis",
+        "nephritic-syndrome"
+      ],
+      "stem": "A 26-year-old woman with systemic lupus erythematosus has new swelling of her legs. Blood pressure is 158/98 mm Hg. Laboratory results: serum creatinine 1.9 mg/dL (0.8 mg/dL 6 months ago), C3 and C4 low, anti-double-stranded DNA titer high. Urinalysis shows red blood cell casts and 3+ protein. Renal biopsy shows proliferative lesions in more than half of the glomeruli, with thick, rigid-looking capillary walls (wire loops). Immunofluorescence shows IgG, IgA, IgM, C3 and C1q. Where are the immune deposits that form the wire loops most likely located?",
+      "choices": [
+        "Along the GBM in a smooth linear band",
+        "Only in the mesangium",
+        "On the outer side of the GBM, under podocytes",
+        "Inside the GBM as a dense ribbon",
+        "Between the endothelium and the GBM"
+      ],
+      "correct": 4,
+      "explanation": "Active nephritis with low C3 and C4, high anti-dsDNA, a *full-house* IF pattern and proliferation in over half of the glomeruli is **diffuse proliferative lupus nephritis (class IV)**. Large **subendothelial** immune complex deposits thicken the capillary walls into *wire loops*; their position near the blood side attracts inflammatory cells, which explains the nephritic picture. **Subepithelial** deposits (under podocytes) are typical of membranous lupus nephritis (class V), which presents mainly as nephrotic syndrome. Deposits only in the mesangium correspond to the mild classes I-II.",
+      "explanation_pt": "Nefrite ativa com C3 e C4 baixos, anti-DNA nativo elevado, IF *full-house* e proliferação em mais da metade dos glomérulos é **nefrite lúpica proliferativa difusa (classe IV)**. Grandes depósitos **subendoteliais** de imunocomplexos espessam as paredes capilares, formando lesões em *alça de arame* (*wire loop*); por estarem do lado do sangue, atraem células inflamatórias, o que explica o quadro nefrítico. Depósitos **subepiteliais** (sob os podócitos) são típicos da nefrite lúpica membranosa (classe V), que se apresenta principalmente como síndrome nefrótica. Depósitos apenas no mesângio correspondem às classes leves I-II."
+    }
+  ],
+  "notes": []
+}

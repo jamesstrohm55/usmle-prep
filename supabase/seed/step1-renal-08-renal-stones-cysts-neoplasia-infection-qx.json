@@ -1,0 +1,182 @@
+{
+  "cards": [],
+  "questions": [
+    {
+      "slug": "q-renal-stones-neoplasia-qx-cystinuria-transport",
+      "track": "step1",
+      "system": "renal",
+      "discipline": "pathology",
+      "tags": [
+        "renal-stones-neoplasia",
+        "nephrolithiasis",
+        "cystinuria"
+      ],
+      "stem": "A 14-year-old boy has his third episode of severe, wave-like left flank pain that spreads to the groin. His first kidney stone was found at age 9, and his older sister also forms stones. A plain x-ray shows only a faint opacity along the left ureter. Urine microscopy shows flat, six-sided crystals, and a urine cyanide-nitroprusside test turns red-purple. Plasma amino acid levels, serum electrolytes and kidney function are normal. Which mechanism best explains his stones?",
+      "choices": [
+        "Deficiency of cystathionine beta-synthase in the liver",
+        "Defective efflux of cystine out of lysosomes",
+        "Defective reabsorption of dibasic amino acids in the proximal tubule",
+        "Defective transport of neutral amino acids in the intestine and kidney",
+        "Deficiency of hypoxanthine-guanine phosphoribosyltransferase"
+      ],
+      "correct": 2,
+      "explanation": "Stones from childhood, an affected sister, faintly radiopaque stones, **hexagonal** crystals and a positive **cyanide-nitroprusside** test point to **cystinuria**. This autosomal recessive defect of a **proximal tubule** (and gut) transporter blocks reabsorption of **cystine, ornithine, lysine and arginine**, and the poorly soluble cystine precipitates in urine. **Homocystinuria** (cystathionine beta-synthase deficiency) can also give a positive nitroprusside test, but it raises plasma homocysteine and methionine and causes lens dislocation and thrombosis, not stones. **Cystinosis** traps cystine inside lysosomes and causes Fanconi syndrome rather than cystine stones.",
+      "explanation_pt": "Cálculos desde a infância, uma irmã afetada, cálculos discretamente radiopacos, cristais **hexagonais** e teste do **cianeto-nitroprussiato** positivo apontam para **cistinúria**. Esse defeito autossômico recessivo de um transportador do **túbulo proximal** (e do intestino) impede a reabsorção de **cistina, ornitina, lisina e arginina**, e a cistina, pouco solúvel, precipita na urina. A **homocistinúria** (deficiência de cistationina beta-sintase) também pode dar teste do nitroprussiato positivo, mas eleva a homocisteína e a metionina plasmáticas e causa luxação do cristalino e trombose, não cálculos. A **cistinose** retém a cistina dentro dos lisossomos e causa síndrome de Fanconi, e não cálculos de cistina."
+    },
+    {
+      "slug": "q-renal-stones-neoplasia-qx-enteric-hyperoxaluria",
+      "track": "step1",
+      "system": "renal",
+      "discipline": "pathology",
+      "tags": [
+        "renal-stones-neoplasia",
+        "nephrolithiasis",
+        "calcium-oxalate"
+      ],
+      "stem": "A 42-year-old woman has Crohn disease. Five years ago, most of her terminal ileum was removed. She has three or four loose, greasy, foul-smelling stools a day. She now has her second episode of renal colic, and the stone she passes is radiopaque. She takes no vitamin supplements and has no toxic exposures. Serum calcium is normal. Her 24-hour urine shows oxalate 92 mg (normal less than 45), calcium 150 mg (normal less than 250) and a urine volume of 1.1 L. Which mechanism best explains her high urinary oxalate?",
+      "choices": [
+        "Unabsorbed fat binds gut calcium, so free oxalate is absorbed in the colon",
+        "An inherited liver enzyme defect increases oxalate production from glyoxylate",
+        "Ingested ethylene glycol is converted to oxalic acid in the liver",
+        "Metabolic acidosis increases oxalate secretion by the proximal tubule",
+        "Excess vitamin D increases gut absorption of both calcium and oxalate"
+      ],
+      "correct": 0,
+      "explanation": "With ileal disease or resection, fat is not absorbed. Unabsorbed **fatty acids bind calcium** in the gut lumen, so calcium can no longer hold oxalate in the stool, and the **free oxalate is absorbed in the colon** (enteric hyperoxaluria); the result is **calcium oxalate** stones. **Primary hyperoxaluria** also causes very high urinary oxalate, but it is an inherited liver enzyme defect that usually shows up in childhood and has nothing to do with bowel disease. Her normal urinary calcium and lack of supplements also argue against a vitamin D cause.",
+      "explanation_pt": "Na doença ou ressecção ileal, a gordura não é absorvida. Os **ácidos graxos não absorvidos se ligam ao cálcio** na luz intestinal, então o cálcio não consegue mais reter o oxalato nas fezes, e o **oxalato livre é absorvido no cólon** (hiperoxalúria entérica); o resultado são cálculos de **oxalato de cálcio**. A **hiperoxalúria primária** também causa oxalato urinário muito alto, mas é um defeito enzimático hepático hereditário que em geral aparece na infância e não tem relação com doença intestinal. O cálcio urinário normal e a ausência de suplementos também falam contra uma causa ligada à vitamina D."
+    },
+    {
+      "slug": "q-renal-stones-neoplasia-qx-uric-acid-urine-ph",
+      "track": "step1",
+      "system": "renal",
+      "discipline": "pathology",
+      "tags": [
+        "renal-stones-neoplasia",
+        "nephrolithiasis",
+        "uric-acid"
+      ],
+      "stem": "A 56-year-old man with a history of gout has sudden, severe left flank pain and red urine. A plain abdominal x-ray shows no stone. A non-contrast CT shows a 6-mm stone in the left ureter. Urinalysis shows pH 5.0, specific gravity 1.028, many red blood cells and a negative nitrite. Serum uric acid is 9.4 mg/dL (normal 3.5-7.2). Which statement best explains why this stone formed?",
+      "choices": [
+        "Alkaline urine lowers the solubility of calcium phosphate",
+        "Urease splits urea into ammonia and raises urine pH",
+        "Low urine citrate allows calcium to bind oxalate",
+        "Acidic urine keeps uric acid in its least soluble form",
+        "A tubular transport defect wastes cystine into urine"
+      ],
+      "correct": 3,
+      "explanation": "A stone that is invisible on plain x-ray but seen on CT, in a man with **gout**, high serum uric acid and **acidic, concentrated urine**, is a **uric acid** stone. In acidic urine, most uric acid stays in its **undissociated form**, which is much less soluble than urate, so it crystallizes; this is also why alkalinizing the urine helps dissolve these stones. **Calcium oxalate** stones are the most common type overall, and low citrate favors them, but they are radiopaque and would show on the plain film.",
+      "explanation_pt": "Um cálculo invisível na radiografia simples, mas visível na TC, em um homem com **gota**, ácido úrico sérico alto e **urina ácida e concentrada**, é um cálculo de **ácido úrico**. Na urina ácida, a maior parte do ácido úrico fica na **forma não dissociada**, muito menos solúvel que o urato, e por isso cristaliza; é também por isso que alcalinizar a urina ajuda a dissolver esses cálculos. Os cálculos de **oxalato de cálcio** são os mais comuns em geral, e o citrato baixo os favorece, mas eles são radiopacos e apareceriam na radiografia simples."
+    },
+    {
+      "slug": "q-renal-stones-neoplasia-qx-wilms-beckwith-wiedemann",
+      "track": "step1",
+      "system": "renal",
+      "discipline": "pathology",
+      "tags": [
+        "renal-stones-neoplasia",
+        "wilms-tumor",
+        "beckwith-wiedemann"
+      ],
+      "stem": "A 3-year-old boy is brought to the clinic because his mother felt a firm mass in his belly while bathing him. At birth he was large for gestational age, had an omphalocele and had low blood glucose for several days. On exam his tongue is large, and his right arm and leg are longer and wider than the left. A smooth mass fills the left flank and does not cross the midline. Urine homovanillic acid and vanillylmandelic acid are normal. CT shows a solid mass arising from the left kidney. Which genetic region is most likely altered?",
+      "choices": [
+        "WT1 gene on chromosome 11p13",
+        "MYCN oncogene on the short arm of chromosome 2",
+        "VHL gene on chromosome 3p",
+        "RB1 gene on chromosome 13q14",
+        "Imprinted genes on chromosome 11p15"
+      ],
+      "correct": 4,
+      "explanation": "A large tongue, one-sided overgrowth (**hemihyperplasia**), omphalocele and neonatal hypoglycemia define **Beckwith-Wiedemann syndrome**. It is caused by abnormal **imprinting at 11p15** (a region that includes the growth gene **IGF2**) and raises the risk of **Wilms tumor**, which this renal mass is. **WT1 at 11p13** is the tempting answer, but its loss goes with **WAGR** (aniridia, genitourinary anomalies, developmental delay) and Denys-Drash syndrome, not with overgrowth. Normal urine catecholamine metabolites and a mass arising from the kidney argue against neuroblastoma (MYCN).",
+      "explanation_pt": "Língua grande, crescimento excessivo de um lado do corpo (**hemi-hiperplasia**), onfalocele e hipoglicemia neonatal definem a **síndrome de Beckwith-Wiedemann**. Ela é causada por alteração do **imprinting em 11p15** (região que inclui o gene de crescimento **IGF2**) e aumenta o risco de **tumor de Wilms**, que é esta massa renal. O **WT1 em 11p13** é a resposta tentadora, mas sua perda se associa à síndrome **WAGR** (aniridia, anomalias geniturinárias, atraso do desenvolvimento) e à síndrome de Denys-Drash, não a crescimento excessivo. Os metabólitos urinários de catecolaminas normais e a massa originada do rim falam contra neuroblastoma (MYCN)."
+    },
+    {
+      "slug": "q-renal-stones-neoplasia-qx-rcc-erythrocytosis",
+      "track": "step1",
+      "system": "renal",
+      "discipline": "pathology",
+      "tags": [
+        "renal-stones-neoplasia",
+        "renal-cell-carcinoma",
+        "paraneoplastic"
+      ],
+      "stem": "A 59-year-old man has 3 months of headaches and a flushed face. He takes no medicines or supplements, has never smoked and does not snore. Exam shows a palpable right flank mass; the spleen is not enlarged. Hemoglobin is 18.6 g/dL, hematocrit 56%, leukocyte count 7,000/mm3 and platelet count 250,000/mm3. Oxygen saturation on room air is 98%. CT shows a 7-cm solid mass in the right kidney. Which mechanism best explains his high hemoglobin?",
+      "choices": [
+        "Acquired JAK2 mutation in marrow stem cells",
+        "Erythropoietin release driven by low blood oxygen",
+        "Tumor secretion of erythropoietin",
+        "Reduced plasma volume with a normal red cell mass",
+        "Androgen stimulation of red cell production"
+      ],
+      "correct": 2,
+      "explanation": "A kidney mass with a high hemoglobin but normal white cells, platelets, spleen size and oxygen saturation suggests **renal cell carcinoma** making **erythropoietin**, a paraneoplastic **secondary erythrocytosis**. Loss of **VHL** lets **HIF** build up in tumor cells, and HIF switches on the erythropoietin gene. **Polycythemia vera** (JAK2) is the tempting answer, but it usually also raises white cells and platelets, enlarges the spleen and gives a **low** erythropoietin level. Normal oxygen saturation argues against hypoxia-driven erythropoietin release.",
+      "explanation_pt": "Uma massa renal com hemoglobina alta, mas leucócitos, plaquetas, tamanho do baço e saturação de oxigênio normais, sugere **carcinoma de células renais** produzindo **eritropoetina**, uma **eritrocitose secundária** paraneoplásica. A perda do **VHL** faz o **HIF** se acumular nas células tumorais, e o HIF ativa o gene da eritropoetina. A **policitemia vera** (JAK2) é a resposta tentadora, mas em geral também eleva leucócitos e plaquetas, aumenta o baço e cursa com eritropoetina **baixa**. A saturação de oxigênio normal fala contra liberação de eritropoetina causada por hipóxia."
+    },
+    {
+      "slug": "q-renal-stones-neoplasia-qx-sterile-pyuria-chlamydia",
+      "track": "step1",
+      "system": "renal",
+      "discipline": "microbiology",
+      "tags": [
+        "renal-stones-neoplasia",
+        "urinary-tract-infection",
+        "sterile-pyuria"
+      ],
+      "stem": "A 22-year-old man has 5 days of burning with urination and a small amount of clear, watery discharge from the urethra. He has a new sexual partner and does not use condoms. He has no fever and no flank pain. Urine dipstick shows positive leukocyte esterase and negative nitrite, and microscopy shows many white blood cells. A standard urine culture shows no growth after 48 hours. Gram stain of the urethral discharge shows many neutrophils but no organisms. Which organism is the most likely cause?",
+      "choices": [
+        "Neisseria gonorrhoeae",
+        "Chlamydia trachomatis",
+        "Escherichia coli",
+        "Staphylococcus saprophyticus",
+        "Enterococcus faecalis"
+      ],
+      "correct": 1,
+      "explanation": "Urethritis with **sterile pyuria** (white cells but a negative routine culture) in a sexually active young man suggests **Chlamydia trachomatis**. It is an **obligate intracellular** bacterium, so it does not grow on standard culture media and is not seen on Gram stain. **Neisseria gonorrhoeae** is the most tempting choice, but it usually causes a thicker, purulent discharge, and Gram stain would show **gram-negative diplococci inside neutrophils**. E. coli, S. saprophyticus and Enterococcus all grow on a routine urine culture.",
+      "explanation_pt": "Uretrite com **piúria estéril** (leucócitos, mas cultura de rotina negativa) em um homem jovem sexualmente ativo sugere **Chlamydia trachomatis**. É uma bactéria **intracelular obrigatória**, por isso não cresce nos meios de cultura habituais e não aparece no Gram. A **Neisseria gonorrhoeae** é a escolha mais tentadora, mas em geral causa secreção mais espessa e purulenta, e o Gram mostraria **diplococos gram-negativos dentro de neutrófilos**. E. coli, S. saprophyticus e Enterococcus crescem na urocultura de rotina."
+    },
+    {
+      "slug": "q-renal-stones-neoplasia-qx-arpkd-fibrocystin",
+      "track": "step1",
+      "system": "renal",
+      "discipline": "pathology",
+      "tags": [
+        "renal-stones-neoplasia",
+        "polycystic-kidney",
+        "potter-sequence"
+      ],
+      "stem": "A newborn girl has trouble breathing right after birth and needs mechanical ventilation. The pregnancy was complicated by very low amniotic fluid. She has a flattened nose, a small, recessed chin and abnormally positioned feet. Huge, smooth masses fill both flanks. Ultrasound shows two very large, bright kidneys with many tiny cysts; no large cysts are seen, and the liver has dilated bile ducts. Neither parent has kidney disease. Abnormal function of which protein most likely causes her condition?",
+      "choices": [
+        "Polycystin-1",
+        "Polycystin-2",
+        "Hamartin",
+        "Fibrocystin",
+        "WT1 transcription factor"
+      ],
+      "correct": 3,
+      "explanation": "Huge kidneys with tiny cysts at birth, **oligohydramnios** with **Potter sequence** (flat face, limb deformities, lung hypoplasia), bile duct changes and unaffected parents point to **autosomal recessive PKD**. It is caused by mutations in **PKHD1**, which encodes **fibrocystin**, a protein of the primary cilia in collecting duct and bile duct cells; survivors develop **congenital hepatic fibrosis**. **Polycystin-1** (PKD1) is the tempting answer, but it causes the autosomal dominant form, which usually appears in adults with large cysts and an affected parent.",
+      "explanation_pt": "Rins enormes com cistos minúsculos ao nascer, **oligoidrâmnio** com **sequência de Potter** (face achatada, deformidades dos membros, hipoplasia pulmonar), alterações dos ductos biliares e pais não afetados apontam para **doença renal policística autossômica recessiva**. Ela é causada por mutações no **PKHD1**, que codifica a **fibrocistina**, proteína dos cílios primários das células dos ductos coletores e dos ductos biliares; os sobreviventes desenvolvem **fibrose hepática congênita**. A **policistina-1** (PKD1) é a resposta tentadora, mas causa a forma autossômica dominante, que em geral aparece em adultos, com cistos grandes e um genitor afetado."
+    },
+    {
+      "slug": "q-renal-stones-neoplasia-qx-angiomyolipoma-tsc",
+      "track": "step1",
+      "system": "renal",
+      "discipline": "pathology",
+      "tags": [
+        "renal-stones-neoplasia",
+        "angiomyolipoma",
+        "tuberous-sclerosis"
+      ],
+      "stem": "A 31-year-old woman has sudden left flank pain and feels lightheaded. She had seizures as a child. Exam shows many small red-brown bumps over her nose and cheeks and several pale, leaf-shaped patches on her trunk. Blood pressure is 96/60 mm Hg and pulse is 112/min. Hemoglobin is 9.1 g/dL. CT shows bleeding around the left kidney from a mass that contains areas of fat density, and smaller masses of the same kind are present in both kidneys. Which tumor is most likely?",
+      "choices": [
+        "Angiomyolipoma",
+        "Clear cell renal cell carcinoma",
+        "Renal oncocytoma",
+        "Wilms tumor",
+        "Urothelial carcinoma of the renal pelvis"
+      ],
+      "correct": 0,
+      "explanation": "Childhood seizures, facial **angiofibromas** and pale **ash-leaf** patches point to **tuberous sclerosis** (TSC1 or TSC2). Its classic kidney tumor is **angiomyolipoma**, a benign tumor made of blood vessels, smooth muscle and **fat** (the fat density on CT); these tumors are often multiple and bilateral, and large ones can bleed. **Clear cell renal cell carcinoma** is the tempting answer because it is often multiple and bilateral in **von Hippel-Lindau** disease, but it does not contain fat on CT.",
+      "explanation_pt": "Convulsões na infância, **angiofibromas** faciais e **máculas hipomelanóticas em folha de freixo** (*ash-leaf*) apontam para **esclerose tuberosa** (TSC1 ou TSC2). Seu tumor renal clássico é o **angiomiolipoma**, um tumor benigno formado por vasos sanguíneos, músculo liso e **gordura** (a densidade de gordura na TC); esses tumores costumam ser múltiplos e bilaterais, e os grandes podem sangrar. O **carcinoma de células renais de células claras** é a resposta tentadora porque costuma ser múltiplo e bilateral na doença de **von Hippel-Lindau**, mas não contém gordura na TC."
+    }
+  ],
+  "notes": []
+}

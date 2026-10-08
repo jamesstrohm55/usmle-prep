@@ -1,0 +1,182 @@
+{
+  "cards": [],
+  "questions": [
+    {
+      "slug": "q-renal-anatomy-embryology-qx-hysterectomy-ureter",
+      "track": "step1",
+      "system": "renal",
+      "discipline": "anatomy",
+      "tags": [
+        "renal-anatomy-embryology",
+        "ureter",
+        "surgical-anatomy"
+      ],
+      "stem": "A 46-year-old woman has a total abdominal hysterectomy for large uterine fibroids. Five days later she reports a constant watery leak from the vagina, although she still passes urine normally. She has mild left flank pain. The leaking fluid has a high creatinine level. CT urography shows contrast leaking from the distal left ureter, about 2 cm lateral to the cervix. This injury most likely happened while the surgeon was ligating which vessel?",
+      "choices": [
+        "Ovarian artery",
+        "Internal pudendal artery",
+        "Uterine artery",
+        "Obturator artery",
+        "Inferior epigastric artery"
+      ],
+      "correct": 2,
+      "explanation": "Near the cervix, the **ureter** passes **under the uterine artery** (*water under the bridge*), so a clamp or suture on the uterine artery can catch it. A constant vaginal leak with normal voiding and a creatinine-rich fluid suggests a **ureterovaginal fistula** after ureteral injury. The **ovarian artery** is ligated when the ovaries are also removed, and the ureter lies close to it, but that happens higher up, at the **pelvic brim** in the suspensory ligament, not next to the cervix.",
+      "explanation_pt": "Perto do colo uterino, o **ureter** passa **por baixo da artéria uterina** (*water under the bridge*), de modo que uma pinça ou ligadura na artéria uterina pode atingi-lo. Perda vaginal contínua com micção normal e líquido rico em creatinina sugere **fístula ureterovaginal** após lesão do ureter. A **artéria ovariana** é ligada quando os ovários também são retirados, e o ureter fica perto dela, mas isso ocorre mais acima, na **borda da pelve**, no ligamento suspensor do ovário, e não ao lado do colo."
+    },
+    {
+      "slug": "q-renal-anatomy-embryology-qx-nutcracker-varicocele",
+      "track": "step1",
+      "system": "renal",
+      "discipline": "anatomy",
+      "tags": [
+        "renal-anatomy-embryology",
+        "renal-vessels",
+        "nutcracker-syndrome"
+      ],
+      "stem": "A thin 19-year-old man has had episodes of blood in his urine and dull left flank pain for 6 months. Urine culture is negative, and there are no red cell casts or protein in the urine. On exam, there is a soft mass of dilated veins above the left testis that grows when he stands. CT shows that the left renal vein is narrowed where it passes between the aorta and the superior mesenteric artery, and it is dilated on the kidney side of that point. Which anatomic fact best explains why the scrotal finding is on the left side?",
+      "choices": [
+        "The left testicular vein drains into the left renal vein",
+        "The left testicular artery arises from the left renal artery",
+        "The left testicular vein drains directly into the inferior vena cava",
+        "The left testicular vein drains into the left internal iliac vein",
+        "The left testicular vein passes between the aorta and the superior mesenteric artery"
+      ],
+      "correct": 0,
+      "explanation": "This is **nutcracker syndrome**: the **left renal vein** is squeezed between the aorta and the SMA, and pressure rises in the vein on the kidney side of the narrow point. The **left testicular (gonadal) vein** empties into the left renal vein, so the high pressure passes back into the pampiniform plexus and causes a **left varicocele**. The testicular vein itself does not pass between the aorta and the SMA; only the left renal vein does. On the right side, the testicular vein drains directly into the IVC.",
+      "explanation_pt": "Trata-se da **síndrome de quebra-nozes** (*nutcracker*): a **veia renal esquerda** é comprimida entre a aorta e a AMS, e a pressão sobe na veia do lado do rim, antes do ponto de estreitamento. A **veia testicular (gonadal) esquerda** desemboca na veia renal esquerda, então a pressão alta é transmitida ao plexo pampiniforme e causa **varicocele esquerda**. A própria veia testicular não passa entre a aorta e a AMS; somente a veia renal esquerda passa. À direita, a veia testicular drena diretamente na VCI."
+    },
+    {
+      "slug": "q-renal-anatomy-embryology-qx-multicystic-dysplastic-kidney",
+      "track": "step1",
+      "system": "renal",
+      "discipline": "embryology",
+      "tags": [
+        "renal-anatomy-embryology",
+        "congenital-anomalies",
+        "kidney-development"
+      ],
+      "stem": "A 3-week-old boy is seen because a routine exam found a firm mass in his left flank. Amniotic fluid volume was normal during the pregnancy. He feeds well, and his blood pressure is normal. Ultrasound of the left side shows many cysts of different sizes that do not connect with each other, with no normal renal tissue between them. A nuclear scan shows no function in the left kidney. The right kidney is normal on both studies. Which process best explains the left-sided finding?",
+      "choices": [
+        "Autosomal dominant mutation in the polycystin-1 gene",
+        "Autosomal recessive mutation in the fibrocystin gene",
+        "Complete failure of the ureteric bud to form",
+        "Faulty signaling between ureteric bud and mesenchyme",
+        "Bladder outlet obstruction by posterior urethral valves"
+      ],
+      "correct": 3,
+      "explanation": "This is **multicystic dysplastic kidney**: the ureteric bud and metanephric mesenchyme fail to interact normally, so the kidney forms as a **nonfunctional mass of cysts** and connective tissue. It is usually **unilateral**, and the normal other kidney keeps the amniotic fluid normal. **Failure of the ureteric bud to form** would give **renal agenesis**, with no kidney tissue at all, not a cystic mass. Polycystin-1 and fibrocystin defects cause ADPKD and ARPKD, which affect **both** kidneys.",
+      "explanation_pt": "Trata-se de **rim displásico multicístico**: o broto ureteral e o mesênquima metanéfrico não interagem normalmente, e o rim se forma como uma **massa de cistos sem função** e tecido conjuntivo. Em geral é **unilateral**, e o outro rim, normal, mantém o líquido amniótico normal. A **falha na formação do broto ureteral** daria **agenesia renal**, sem nenhum tecido renal, e não uma massa cística. Defeitos da policistina-1 e da fibrocistina causam DRPAD e DRPAR, que afetam **os dois** rins."
+    },
+    {
+      "slug": "q-renal-anatomy-embryology-qx-patent-urachus",
+      "track": "step1",
+      "system": "renal",
+      "discipline": "embryology",
+      "tags": [
+        "renal-anatomy-embryology",
+        "urachus",
+        "bladder"
+      ],
+      "stem": "A 12-day-old girl is brought in because the area where her umbilical cord fell off stays wet. Her mother sees clear, pale yellow fluid coming from the umbilicus, and more of it comes out when the baby cries. There is no redness, and the baby is feeding well. A sample of the fluid is tested: creatinine in the fluid is 32 mg/dL, while serum creatinine is 0.3 mg/dL. Failure of which embryonic structure to close best explains these findings?",
+      "choices": [
+        "Vitelline duct",
+        "Allantois",
+        "Umbilical vein",
+        "Processus vaginalis",
+        "Umbilical arteries"
+      ],
+      "correct": 1,
+      "explanation": "The fluid has about **100 times** the serum creatinine, so it is **urine**. Urine from the umbilicus means a **patent urachus**: the **allantois** (urachus) did not close into the median umbilical ligament, so the bladder still connects to the umbilicus. Crying raises abdominal pressure and pushes more urine out. A patent **vitelline duct** also leaks at the umbilicus, but the discharge is **meconium or stool**, because that duct connects to the small bowel.",
+      "explanation_pt": "O líquido tem cerca de **100 vezes** a creatinina sérica, portanto é **urina**. Saída de urina pelo umbigo indica **úraco pérvio**: o **alantoide** (úraco) não se fechou para formar o ligamento umbilical mediano, e a bexiga continua ligada ao umbigo. O choro aumenta a pressão abdominal e empurra mais urina para fora. O **ducto vitelino** pérvio também drena pelo umbigo, mas a secreção é **mecônio ou fezes**, porque esse ducto se liga ao intestino delgado."
+    },
+    {
+      "slug": "q-renal-anatomy-embryology-qx-urachal-adenocarcinoma",
+      "track": "step1",
+      "system": "renal",
+      "discipline": "embryology",
+      "tags": [
+        "renal-anatomy-embryology",
+        "urachus",
+        "bladder-cancer"
+      ],
+      "stem": "A 52-year-old man has painless blood in his urine for 2 months. He has also noticed thick mucus in his urine. He has never smoked and has never lived outside the United States. Cystoscopy shows a mass at the dome of the bladder. CT shows that the mass extends upward from the dome along the midline of the anterior abdominal wall toward the umbilicus. Which histologic type is this tumor most likely to be?",
+      "choices": [
+        "Urothelial carcinoma",
+        "Squamous cell carcinoma",
+        "Small cell carcinoma",
+        "Leiomyosarcoma",
+        "Adenocarcinoma"
+      ],
+      "correct": 4,
+      "explanation": "A tumor at the **bladder dome** that grows along the midline toward the umbilicus arises from a **urachal remnant**. Urachal tumors are usually **adenocarcinomas**, often mucin-producing, which explains the mucus in the urine. **Urothelial carcinoma** is the most common bladder cancer overall, but its location at the dome with midline extension and mucin points to the urachus. Squamous cell carcinoma is linked to *Schistosoma haematobium* and chronic irritation, which this man does not have.",
+      "explanation_pt": "Um tumor na **cúpula vesical** que cresce pela linha média em direção ao umbigo se origina de um **remanescente do úraco**. Os tumores do úraco são geralmente **adenocarcinomas**, muitas vezes produtores de muco, o que explica o muco na urina. O **carcinoma urotelial** é o câncer de bexiga mais comum no geral, mas a localização na cúpula com extensão pela linha média e a produção de muco apontam para o úraco. O carcinoma de células escamosas está ligado ao *Schistosoma haematobium* e à irritação crônica, ausentes neste paciente."
+    },
+    {
+      "slug": "q-renal-anatomy-embryology-qx-jg-cell-tumor",
+      "track": "step1",
+      "system": "renal",
+      "discipline": "anatomy",
+      "tags": [
+        "renal-anatomy-embryology",
+        "juxtaglomerular-apparatus",
+        "secondary-hyperaldosteronism"
+      ],
+      "stem": "A 22-year-old woman has headaches and muscle weakness. Her blood pressure is 188/114 mm Hg on several visits. Labs: potassium 2.8 mEq/L (normal 3.5-5.0), bicarbonate 31 mEq/L (normal 22-28), plasma renin activity 16 ng/mL/h (normal 0.5-4.0), and aldosterone 45 ng/dL (normal 4-31). Doppler ultrasound shows normal flow in both renal arteries. CT shows a 2-cm solid mass in the cortex of the right kidney, and both adrenal glands are normal. From which cells does this mass most likely arise?",
+      "choices": [
+        "Macula densa cells of the thick ascending limb",
+        "Extraglomerular mesangial cells at the glomerular vascular pole",
+        "Zona glomerulosa cells of the adrenal cortex",
+        "Modified smooth muscle cells of the afferent arteriole",
+        "Epithelial cells of the proximal convoluted tubule"
+      ],
+      "correct": 3,
+      "explanation": "High **renin** drives high aldosterone (**secondary hyperaldosteronism**), with hypertension, hypokalemia and metabolic alkalosis. With normal renal arteries and a small renal cortical mass, the cause is a **juxtaglomerular cell tumor (reninoma)**. **JG cells** are modified smooth muscle cells in the wall of the **afferent arteriole**, and they are the cells that make renin. The **macula densa** senses NaCl and signals JG cells, but it does not secrete renin; a **zona glomerulosa** tumor would cause high aldosterone with **low** renin.",
+      "explanation_pt": "A **renina** alta eleva a aldosterona (**hiperaldosteronismo secundário**), com hipertensão, hipocalemia e alcalose metabólica. Com artérias renais normais e uma pequena massa cortical no rim, a causa é um **tumor de células justaglomerulares (reninoma)**. As **células JG** são células musculares lisas modificadas da parede da **arteríola aferente** e são as células que produzem renina. A **mácula densa** detecta o NaCl e sinaliza para as células JG, mas não secreta renina; um tumor da **zona glomerulosa** causaria aldosterona alta com renina **baixa**."
+    },
+    {
+      "slug": "q-renal-anatomy-embryology-qx-upj-obstruction",
+      "track": "step1",
+      "system": "renal",
+      "discipline": "anatomy",
+      "tags": [
+        "renal-anatomy-embryology",
+        "ureter",
+        "hydronephrosis"
+      ],
+      "stem": "A 2-month-old boy is evaluated because prenatal ultrasound showed a dilated left kidney. He is growing well and has a normal urine stream. Ultrasound now shows a markedly dilated left renal pelvis and calyces. The left ureter is not dilated and is hard to see. The bladder wall is normal in thickness, and the bladder empties completely. The right kidney and ureter are normal. A voiding cystourethrogram shows no reflux. At which site is the obstruction most likely located?",
+      "choices": [
+        "Posterior urethra",
+        "Ureteropelvic junction",
+        "Crossing of the iliac vessels at the pelvic brim",
+        "Ureterovesical junction",
+        "Bladder neck"
+      ],
+      "correct": 1,
+      "explanation": "Dilation that stops at the renal pelvis, with a **normal-caliber ureter** below it, places the block at the **ureteropelvic junction**. **UPJ obstruction** is a common cause of hydronephrosis found before birth. A block at the **ureterovesical junction** would also dilate the whole ureter above it (megaureter). **Posterior urethral valves** or a bladder neck block would affect **both** kidneys and cause a thick-walled bladder that does not empty well.",
+      "explanation_pt": "Uma dilatação que termina na pelve renal, com **ureter de calibre normal** abaixo dela, localiza o bloqueio na **junção ureteropélvica**. A **obstrução da JUP** é uma causa comum de hidronefrose detectada antes do nascimento. Um bloqueio na **junção ureterovesical** dilataria também todo o ureter acima dele (megaureter). **Válvulas de uretra posterior** ou um bloqueio do colo vesical afetariam **os dois** rins e causariam bexiga de parede espessa que não esvazia bem."
+    },
+    {
+      "slug": "q-renal-anatomy-embryology-qx-mesonephric-duct",
+      "track": "step1",
+      "system": "renal",
+      "discipline": "embryology",
+      "tags": [
+        "renal-anatomy-embryology",
+        "kidney-development",
+        "mesonephric-duct"
+      ],
+      "stem": "A 29-year-old man is evaluated after 2 years of trying to conceive with his partner. Testes are normal in size, and serum testosterone is normal. The right vas deferens is easy to feel, but the left one cannot be felt. Ultrasound shows no left kidney and no left seminal vesicle; the right kidney and right seminal vesicle are normal. Semen analysis shows sperm in a low number. A sweat chloride test is normal. A defect in which embryonic structure best explains all of his findings?",
+      "choices": [
+        "Mesonephric (Wolffian) duct",
+        "Paramesonephric (Müllerian) duct",
+        "Urogenital sinus",
+        "Metanephric mesenchyme",
+        "Genital tubercle"
+      ],
+      "correct": 0,
+      "explanation": "The **ureteric bud** grows out of the **mesonephric duct**, and in males the same duct becomes the epididymis, **vas deferens** and **seminal vesicle**. An early defect of the left mesonephric duct therefore causes **left renal agenesis** together with an absent left vas deferens and seminal vesicle. A **metanephric mesenchyme** defect could explain the missing kidney but not the missing genital ducts. The **paramesonephric duct** forms female internal organs and regresses in males; the missing kidney on the same side points to a mesonephric duct defect rather than a **CFTR**-related cause, which usually leaves the kidneys normal.",
+      "explanation_pt": "O **broto ureteral** surge como projeção do **ducto mesonéfrico**, e no homem esse mesmo ducto forma o epidídimo, o **ducto deferente** e a **vesícula seminal**. Um defeito precoce do ducto mesonéfrico esquerdo causa, portanto, **agenesia renal esquerda** junto com ausência do ducto deferente e da vesícula seminal esquerdos. Um defeito do **mesênquima metanéfrico** explicaria a falta do rim, mas não a dos ductos genitais. O **ducto paramesonéfrico** forma os órgãos internos femininos e regride no homem; a ausência do rim do mesmo lado aponta para um defeito do ducto mesonéfrico, e não para uma causa ligada ao **CFTR**, que em geral deixa os rins normais."
+    }
+  ],
+  "notes": []
+}
