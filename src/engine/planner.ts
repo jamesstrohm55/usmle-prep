@@ -16,11 +16,13 @@ export const NOTE_MINUTES = 6;
 export const MIN_SET = 5;
 const OUTLIER_MS = 600_000; // a tab left open must not skew her pace
 
+const ts = (iso: string) => { const t = Date.parse(iso); return Number.isNaN(t) ? -Infinity : t; };
+
 export function latestPerQuestion(attempts: Attempt[]): Map<string, Attempt> {
   const m = new Map<string, Attempt>();
   for (const a of attempts) {
     const p = m.get(a.question_id);
-    if (!p || Date.parse(a.answered_at) > Date.parse(p.answered_at)) m.set(a.question_id, a);
+    if (!p || ts(a.answered_at) > ts(p.answered_at)) m.set(a.question_id, a);
   }
   return m;
 }
@@ -66,7 +68,7 @@ export function medianSeconds(durationsMs: number[], fallback: number): number {
   const d = durationsMs.filter((x) => x > 0 && x <= OUTLIER_MS).sort((a, b) => a - b);
   if (!d.length) return fallback;
   const mid = Math.floor(d.length / 2);
-  return Math.round((d.length % 2 ? d[mid] : (d[mid - 1] + d[mid]) / 2) / 1000);
+  return Math.max(1, Math.round((d.length % 2 ? d[mid] : (d[mid - 1] + d[mid]) / 2) / 1000));
 }
 
 export function buildPlan(i: {
@@ -91,12 +93,12 @@ export function buildPlan(i: {
     if (count > 0) tasks.push(set(focus, count));
     return tasks;
   }
-  tasks.push({ kind: 'note', system: focus, minutes: NOTE_MINUTES });
   const rest = left - NOTE_MINUTES;
   let focusCount = fit(rest * 0.6, focus);
   let secondCount = fit(rest * 0.4, second);
   if (secondCount < MIN_SET) { focusCount = fit(rest, focus); secondCount = 0; }
-  if (focusCount > 0) tasks.push(set(focus, focusCount));
+  if (focusCount <= 0) return tasks; // no lone note without a focus set
+  tasks.push({ kind: 'note', system: focus, minutes: NOTE_MINUTES }, set(focus, focusCount));
   if (secondCount > 0) tasks.push(set(second, secondCount));
   return tasks;
 }
@@ -118,7 +120,7 @@ export function minutesDoneThisWeek(attempts: Attempt[], reviews: Review[], now:
 }
 
 export function daysLeft(target: string | null, now: Date): number | null {
-  if (!target) return null;
+  if (!target || !/^\d{4}-\d{2}-\d{2}$/.test(target)) return null;
   const [y, m, d] = target.split('-').map(Number);
   const today = new Date(now.getFullYear(), now.getMonth(), now.getDate()).getTime();
   return Math.round((new Date(y, m - 1, d).getTime() - today) / DAY_MS);

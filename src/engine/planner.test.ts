@@ -138,3 +138,25 @@ test('selectForTask: unseen first, then missed, then the rest; only the system; 
   expect(ids[2]).toBe('b');
   expect(selectForTask(qs, latest, 'renal', 0)).toEqual([]);
 });
+
+test('latestPerQuestion: an unparsable timestamp never pins the question', () => {
+  const m = latestPerQuestion([at('a', false, 'garbage'), at('a', true, '2026-10-01T00:00:00Z')]);
+  expect(m.get('a')!.correct).toBe(true);
+  const all = latestPerQuestion([at('a', false, 'x'), at('a', true, 'y')]);
+  expect(all.get('a')!.correct).toBe(false);
+});
+
+test('daysLeft: malformed targets give null', () => {
+  const now = new Date(2026, 9, 7, 12);
+  for (const t of ['', 'garbage', '2026-10-10T00:00:00Z']) expect(daysLeft(t, now)).toBeNull();
+});
+
+test('medianSeconds never drops below 1 when there is data', () => {
+  expect(medianSeconds([300], 90)).toBe(1);
+});
+
+test('buildPlan: no lone note when the focus system has no questions', () => {
+  const p = buildPlan({ ...base, minutes: 60, dueCards: 5, ranked: ['renal', 'nervous'], available: { renal: 0, nervous: 40 } });
+  expect(p.some((t) => t.kind === 'note')).toBe(false);
+  expect(p.map((t) => t.kind)).toEqual(['cards']);
+});
