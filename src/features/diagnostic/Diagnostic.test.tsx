@@ -133,7 +133,8 @@ test('pause shows the sitting review with explanations; Back shows Resume', asyn
 test('answering the last question completes the run and shows per-system results', async () => {
   // 11 answered: all 8 cardiovascular (6 correct), 3 renal (all correct); r3 is left.
   const prior = [...rows(['c0', 'c1', 'c2', 'c3', 'c4', 'c5']), ...rows(['c6', 'c7'], false), ...rows(['r0', 'r1', 'r2'])];
-  const deps = setup({ runs: [mkRun('in_progress')] }, { fetchRunAttempts: vi.fn(async () => prior) });
+  const after = [...prior, { question_id: 'r3', chosen: 0, correct: false }]; // what the database holds once r3 is saved
+  const deps = setup({ runs: [mkRun('in_progress')] }, { fetchRunAttempts: vi.fn().mockResolvedValueOnce(prior).mockResolvedValue(after) });
   fireEvent.click(await screen.findByText('Resume'));
   expect(stemShown()).toBe('r3');
   fireEvent.click(screen.getByText('A1')); // wrong
@@ -206,4 +207,98 @@ test('a load failure shows Could not load and Retry', async () => {
   expect(await screen.findByText(/Could not load/)).toBeTruthy();
   fireEvent.click(screen.getByText('Retry'));
   expect(await screen.findByText('Start diagnostic')).toBeTruthy();
+});
+
+// --- review round 1 ---
+const deferred = () => { let resolve!: () => void; const promise = new Promise<void>((r) => { resolve = r; }); return { promise, resolve }; };
+
+test('a stale Retry from an abandoned run cannot touch the new run', async () => {
+  const save = vi.fn().mockRejectedValueOnce(new Error('offline')).mockResolvedValue(undefined);
+  const deps = setup({ runs: [mkRun('in_progress')] }, {
+    saveAttempts: save,
+    createRun: vi.fn(async (ids: string[], seed: string) => ({ ...mkRun('in_progress', ids), id: 'run-2', seed })),
+  });
+  fireEvent.click(await screen.findByText('Resume'));
+  fireEvent.click(screen.getByText('B1'));
+  await screen.findByRole('alert');
+  fireEvent.click(screen.getByText('Pause'));
+  fireEvent.click(screen.getByText('Back'));
+  vi.spyOn(window, 'confirm').mockReturnValueOnce(true);
+  fireEvent.click(screen.getByText('Start over'));
+  fireEvent.click(await screen.findByText('Start diagnostic'));
+  await screen.findByText('0 of 12 answered');
+  expect(screen.queryByText('Retry')).toBeNull();
+  fireEvent.click(screen.getByText('A1'));
+  await screen.findByText('1 of 12 answered');
+  expect(deps.saveAttempts).toHaveBeenCalledTimes(2);
+  expect(deps.saveAttempts.mock.calls[1][0][0].session_id).toBe('run-2');
+});
+
+const prior11 = [...rows(['c0', 'c1', 'c2', 'c3', 'c4', 'c5']), ...rows(['c6', 'c7'], false), ...rows(['r0', 'r1', 'r2'])];
+
+test('finishing reloads the run answers from the database for results and review', async () => {
+  const dup = Object.assign(new Error('duplicate key'), { code: '23505' });
+  // Another device already saved r3 as B1 (correct); here she clicks A1.
+  const fetchRunAttempts = vi.fn().mockResolvedValueOnce(prior11).mockResolvedValue([...prior11, { question_id: 'r3', chosen: 1, correct: true }]);
+  setup({ runs: [mkRun('in_progress')] }, { fetchRunAttempts, saveAttempts: vi.fn().mockRejectedValue(dup) });
+  fireEvent.click(await screen.findByText('Resume'));
+  fireEvent.click(screen.getByText('A1'));
+  expect(await screen.findByText(/Your answer: B1/)).toBeTruthy();
+  expect(fetchRunAttempts).toHaveBeenLastCalledWith('run-1');
+  fireEvent.click(screen.getByText('See results'));
+  expect(screen.getByText('10 of 12 correct')).toBeTruthy();
+});
+
+test('a failed reload after finishing shows a toast with Retry and keeps the answers', async () => {
+  const fetchRunAttempts = vi.fn().mockResolvedValueOnce(rows(ORDER.slice(0, 11))).mockRejectedValueOnce(new Error('offline'))
+    .mockResolvedValue(rows(ORDER));
+  const deps = setup({ runs: [mkRun('in_progress')] }, { fetchRunAttempts });
+  fireEvent.click(await screen.findByText('Resume'));
+  fireEvent.click(screen.getByText('B1'));
+  expect(await screen.findByRole('alert')).toBeTruthy();
+  expect(screen.getByText('exp-r3')).toBeTruthy();
+  fireEvent.click(screen.getByText('Retry'));
+  await waitFor(() => expect(fetchRunAttempts).toHaveBeenCalledTimes(3));
+  expect(deps.setRunStatus).toHaveBeenCalledTimes(1); // completion is not re-sent once it landed
+  fireEvent.click(screen.getByText('See results'));
+  expect(screen.getByText('12 of 12 correct')).toBeTruthy();
+});
+
+test('progress counts only answers to questions still in the run (deleted question)', async () => {
+  setup({ runs: [mkRun('in_progress', ['gone', ...ORDER])] }, { fetchRunAttempts: vi.fn(async () => rows(['gone', 'c0'])) });
+  expect(await screen.findByText('1 of 12 answered')).toBeTruthy();
+  fireEvent.click(screen.getByText('Resume'));
+  expect(stemShown()).toBe('c1');
+});
+
+test('Pause is disabled while a save is in flight', async () => {
+  const d = deferred();
+  setup({ runs: [mkRun('in_progress')] }, { saveAttempts: vi.fn(() => d.promise) });
+  fireEvent.click(await screen.findByText('Resume'));
+  fireEvent.click(screen.getByText('B1'));
+  expect((screen.getByText('Pause') as HTMLButtonElement).disabled).toBe(true);
+  d.resolve();
+  await screen.findByText('1 of 12 answered');
+  expect((screen.getByText('Pause') as HTMLButtonElement).disabled).toBe(false);
+});
+
+test('Retry re-sends the same graded row', async () => {
+  let t = 1_000;
+  vi.spyOn(Date, 'now').mockImplementation(() => (t += 5_000));
+  const save = vi.fn().mockRejectedValueOnce(new Error('offline')).mockResolvedValue(undefined);
+  setup({ runs: [mkRun('in_progress')] }, { saveAttempts: save });
+  fireEvent.click(await screen.findByText('Resume'));
+  fireEvent.click(screen.getByText('B1'));
+  await screen.findByRole('alert');
+  fireEvent.click(screen.getByText('Retry'));
+  await screen.findByText('1 of 12 answered');
+  expect(save.mock.calls[1][0]).toEqual(save.mock.calls[0][0]);
+});
+
+test('Resume on a run with every answer saved marks it complete and shows results', async () => {
+  const deps = setup({ runs: [mkRun('in_progress')] }, { fetchRunAttempts: vi.fn(async () => rows(ORDER)) });
+  expect(await screen.findByText('12 of 12 answered')).toBeTruthy();
+  fireEvent.click(screen.getByText('Resume'));
+  expect(await screen.findByText('12 of 12 correct')).toBeTruthy();
+  expect(deps.setRunStatus).toHaveBeenCalledWith('run-1', 'completed');
 });

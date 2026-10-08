@@ -3,6 +3,7 @@ import {
   createRun, fetchAttempts, fetchQuestions, fetchRunAttempts, fetchRuns, saveAttempts, setRunStatus, type Run,
 } from '../../db/queries';
 import type { Question } from '../../db/models';
+import type { AttemptInsert } from '../../db/queries';
 import { sampleDiagnostic, summarizeRun } from '../../engine/diagnostic';
 import { latestPerQuestion } from '../../engine/planner';
 import { gradeAnswer, type Answer } from '../../engine/mcq';
@@ -21,7 +22,7 @@ export type DiagnosticDeps = {
   fetchRunAttempts: typeof fetchRunAttempts; saveAttempts: typeof saveAttempts;
 };
 const DEPS: DiagnosticDeps = { createRun, setRunStatus, fetchRunAttempts, saveAttempts };
-type RunAnswer = { question_id: string; correct: boolean };
+type RunAnswer = { question_id: string; chosen: number; correct: boolean };
 type View = 'home' | 'question' | 'review' | 'results';
 
 const pct = (n: number) => `${Math.round(n * 100)}%`;
@@ -35,6 +36,7 @@ export function Diagnostic({ load = loadDiagnostic, deps = DEPS }: { load?: () =
   const [answered, setAnswered] = useState<RunAnswer[]>([]); // every saved answer of the run, all sittings
   const [sitting, setSitting] = useState<Answer[]>([]);
   const [showPt, setShowPt] = useState(false);
+  const [saving, setSaving] = useState(false);
   const alive = useRef(true);
   const loadRef = useRef(load);
   const depsRef = useRef(deps);
@@ -42,12 +44,15 @@ export function Diagnostic({ load = loadDiagnostic, deps = DEPS }: { load?: () =
   // Refs mirror state so a double click or a late Retry can't act on stale values.
   const answeredIds = useRef(new Set<string>());
   const busy = useRef(false);
+  const runId = useRef<string | null>(null); // a late save or Retry for another run must not land here
   const shownAt = useRef(Date.now());
 
   useEffect(() => { alive.current = true; return () => { alive.current = false; }; }, []);
 
   const resetRun = (r: Run | null, rows: RunAnswer[]) => {
     answeredIds.current = new Set(rows.map((a) => a.question_id));
+    runId.current = r?.id ?? null;
+    toast.dismiss(); // a Retry from the previous run must not survive into this one
     setRun(r); setAnswered(rows); setSitting([]); setShowPt(false);
   };
 
@@ -71,7 +76,8 @@ export function Diagnostic({ load = loadDiagnostic, deps = DEPS }: { load?: () =
   // A question deleted from the bank since the draw is dropped rather than blocking the run.
   const runQs = run ? run.question_ids.map((id) => byId.get(id)).filter((q): q is Question => !!q) : [];
   const current = runQs.find((q) => !answeredIds.current.has(q.id));
-  const progress = <p>{answered.length} of {runQs.length} answered</p>;
+  const inRun = new Set(runQs.map((q) => q.id));
+  const progress = <p>{answered.filter((a) => inRun.has(a.question_id)).length} of {runQs.length} answered</p>;
 
   async function start() {
     if (busy.current) return;
@@ -89,36 +95,51 @@ export function Diagnostic({ load = loadDiagnostic, deps = DEPS }: { load?: () =
     } finally { busy.current = false; }
   }
 
-  function complete(r: Run) {
-    depsRef.current.setRunStatus(r.id, 'completed')
-      .catch((e) => { if (alive.current) toast.show(`Could not mark the diagnostic complete: ${(e as Error).message}`, () => complete(r)); });
+  // Mark complete, then reload the run's answers so results show what the database holds (a 23505 may hide a different choice).
+  function finish(r: Run) {
+    let marked = false;
+    const go = async () => {
+      try {
+        if (!marked) { await depsRef.current.setRunStatus(r.id, 'completed'); marked = true; }
+        const rows = await depsRef.current.fetchRunAttempts(r.id);
+        if (!alive.current || runId.current !== r.id) return;
+        answeredIds.current = new Set(rows.map((a) => a.question_id));
+        setAnswered(rows);
+      } catch (e) {
+        if (alive.current && runId.current === r.id) toast.show(`Could not finish the diagnostic: ${(e as Error).message}`, go);
+      }
+    };
+    go();
+    setRun({ ...r, status: 'completed' });
   }
 
-  async function choose(q: Question, chosen: number) {
-    const r = run!;
+  function choose(q: Question, chosen: number) {
     if (busy.current || answeredIds.current.has(q.id)) return;
-    busy.current = true;
     const a = gradeAnswer(q, chosen, Date.now() - shownAt.current);
+    const row: AttemptInsert = { question_id: q.id, chosen, correct: a.correct, duration_ms: a.durationMs, mode: 'timed', session_id: run!.id };
+    submit(run!, a, row);
+  }
+
+  // Graded once in choose; Retry re-sends the same row.
+  async function submit(r: Run, a: Answer, row: AttemptInsert) {
+    if (busy.current || runId.current !== r.id || answeredIds.current.has(a.questionId)) return;
+    busy.current = true; setSaving(true);
     try {
-      await depsRef.current.saveAttempts([{ question_id: q.id, chosen, correct: a.correct, duration_ms: a.durationMs, mode: 'timed', session_id: r.id }]);
+      await depsRef.current.saveAttempts([row]);
     } catch (e) {
       // 23505 = unique (session_id, question_id): an earlier save of this answer already landed.
       if ((e as { code?: string }).code !== '23505') {
-        if (alive.current) toast.show(`Could not save your answer: ${(e as Error).message}`, () => choose(q, chosen));
+        if (alive.current && runId.current === r.id) toast.show(`Could not save your answer: ${(e as Error).message}`, () => submit(r, a, row));
         return;
       }
-    } finally { busy.current = false; }
-    if (!alive.current || answeredIds.current.has(q.id)) return;
-    answeredIds.current.add(q.id);
+    } finally { busy.current = false; if (alive.current) setSaving(false); }
+    if (!alive.current || runId.current !== r.id || answeredIds.current.has(a.questionId)) return;
+    answeredIds.current.add(a.questionId);
     toast.dismiss();
-    setAnswered((xs) => [...xs, { question_id: q.id, correct: a.correct }]);
+    setAnswered((xs) => [...xs, { question_id: a.questionId, chosen: a.chosen, correct: a.correct }]);
     setSitting((xs) => [...xs, a]);
     shownAt.current = Date.now();
-    if (runQs.every((x) => answeredIds.current.has(x.id))) {
-      complete(r);
-      setRun({ ...r, status: 'completed' });
-      setView('review');
-    }
+    if (runQs.every((x) => answeredIds.current.has(x.id))) { finish(r); setView('review'); }
   }
 
   async function startOver() {
@@ -135,7 +156,7 @@ export function Diagnostic({ load = loadDiagnostic, deps = DEPS }: { load?: () =
       <p>{current.stem}</p>
       <ItemImage src={current.image_url} credit={current.image_credit} />
       {current.choices.map((c, i) => <div key={i}><button onClick={() => choose(current, i)}>{c}</button></div>)}
-      <p><button onClick={() => { setShowPt(false); setView('review'); }}>Pause</button></p>
+      <p><button disabled={saving} onClick={() => { setShowPt(false); setView('review'); }}>Pause</button></p>
     </div>
   );
 
@@ -146,10 +167,11 @@ export function Diagnostic({ load = loadDiagnostic, deps = DEPS }: { load?: () =
         <button onClick={() => setShowPt(true)}>Ver em português</button>}
       {sitting.map((a) => {
         const q = byId.get(a.questionId)!;
+        const chosen = answered.find((x) => x.question_id === q.id)?.chosen ?? a.chosen; // database wins after the reload
         return (
           <div key={q.id}>
             <p>{q.stem}</p>
-            <p>Your answer: {q.choices[a.chosen]}</p>
+            <p>Your answer: {q.choices[chosen]}</p>
             <p>Correct answer: {q.choices[q.correct]}</p>
             <p><Rich text={q.explanation} /></p>
             {showPt && q.explanation_pt && <p lang="pt-BR"><Rich text={q.explanation_pt} /></p>}
@@ -183,7 +205,7 @@ export function Diagnostic({ load = loadDiagnostic, deps = DEPS }: { load?: () =
       {progress}
       <button onClick={() => {
         // Every answer saved but the completion call never landed (closed tab): finish it now.
-        if (!current) { complete(run); setRun({ ...run, status: 'completed' }); setView('results'); return; }
+        if (!current) { finish(run); setView('results'); return; }
         setSitting([]); setShowPt(false); shownAt.current = Date.now(); setView('question');
       }}>Resume</button>{' '}
       <button onClick={startOver}>Start over</button>
