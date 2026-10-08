@@ -1,7 +1,7 @@
 import { doneToday, parseSnapshot } from './progress';
 
 const NOW = new Date(2026, 9, 7, 12); // local
-const iso = (...a: [number, number, number, number, number]) => new Date(2026, ...a).toISOString();
+const iso = (month: number, day: number, h: number, m: number) => new Date(2026, month, day, h, m).toISOString();
 const att = (q: string, when: string) => ({ question_id: q, correct: true, duration_ms: 60_000, answered_at: when });
 const rev = (c: string, when: string) => ({ card_id: c, duration_ms: 10_000, reviewed_at: when });
 const qSystem = new Map([['q1', 'renal'], ['q2', 'renal'], ['q3', 'nervous']]);
