@@ -1,6 +1,7 @@
 import {
   latestPerQuestion, masteryBySystem, lastStudyBySystem, rankSystems, medianSeconds, buildPlan,
   weekdayIndex, weekStart, minutesDoneThisWeek, daysLeft, todayMinutes, pickNote, selectForTask, DAY_MS,
+  MIN_SEC_PER_CARD, MIN_SEC_PER_QUESTION,
 } from './planner';
 
 const at = (q: string, correct: boolean, when: string, ms = 60_000) => ({ question_id: q, correct, duration_ms: ms, answered_at: when });
@@ -153,6 +154,15 @@ test('daysLeft: malformed targets give null', () => {
 
 test('medianSeconds never drops below 1 when there is data', () => {
   expect(medianSeconds([300], 90)).toBe(1);
+});
+
+test('buildPlan: a tiny measured pace is clamped so rapid clicking cannot inflate the plan', () => {
+  const p = buildPlan({ ...base, minutes: 60, dueCards: 10_000, secPerCard: 1, secPerQuestion: 1 });
+  expect(p[0]).toMatchObject({ kind: 'cards', count: Math.floor((0.4 * 60 * 60) / MIN_SEC_PER_CARD) });
+  expect(total(p)).toBeLessThanOrEqual(60 + 1e-9);
+  for (const t of p) if (t.kind === 'questions') expect(t.minutes).toBe((t.count * MIN_SEC_PER_QUESTION) / 60);
+  expect(MIN_SEC_PER_CARD).toBe(8);
+  expect(MIN_SEC_PER_QUESTION).toBe(30);
 });
 
 test('buildPlan: no lone note when the focus system has no questions', () => {

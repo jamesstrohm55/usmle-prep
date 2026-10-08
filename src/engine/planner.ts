@@ -12,6 +12,9 @@ export type Task =
 export const DAY_MS = 86_400_000;
 export const DEFAULT_SEC_PER_CARD = 20;
 export const DEFAULT_SEC_PER_QUESTION = 90;
+// Floors on the measured pace: rapid test-clicking must not shrink the pace and balloon the plan.
+export const MIN_SEC_PER_CARD = 8;
+export const MIN_SEC_PER_QUESTION = 30;
 export const NOTE_MINUTES = 6;
 export const MIN_SET = 5;
 const OUTLIER_MS = 600_000; // a tab left open must not skew her pace
@@ -75,6 +78,7 @@ export function buildPlan(i: {
   minutes: number; dueCards: number; secPerCard: number; secPerQuestion: number;
   ranked: string[]; available: Record<string, number>;
 }): Task[] {
+  i = { ...i, secPerCard: Math.max(MIN_SEC_PER_CARD, i.secPerCard), secPerQuestion: Math.max(MIN_SEC_PER_QUESTION, i.secPerQuestion) };
   const tasks: Task[] = [];
   if (i.minutes <= 0) return tasks;
   let left = i.minutes;
