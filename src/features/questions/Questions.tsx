@@ -9,8 +9,8 @@ import { Rich } from '../../ui/Rich';
 import { ItemImage } from '../../ui/ItemImage';
 import { uuid } from '../../ui/uuid';
 
-// Everything a save needs, captured at finish time so a late Retry never reads another session's state.
-type Pending = { rows: AttemptInsert[]; done: boolean; inFlight: boolean };
+// One answer's row, built once when answered so a Retry re-sends it unchanged and never reads another session's state.
+type Pending = { row: AttemptInsert; done: boolean; inFlight: Promise<void> | null };
 
 const BLOCK = 40;
 
@@ -43,6 +43,7 @@ export function Questions({ load = fetchQuestions, save = saveAttempts, preset, 
   const finishedRef = useRef(false);
   const deadlineRef = useRef(0);
   const modeRef = useRef<Mode | null>(null);
+  const pendingRef = useRef<Pending[]>([]); // this session's answer rows; start() swaps in a fresh array
 
   const refresh = useCallback(() => {
     setLoadError(null);
@@ -71,7 +72,7 @@ export function Questions({ load = fetchQuestions, save = saveAttempts, preset, 
 
   function start(m: Mode, pool: Question[]) {
     if (!pool.length) return;
-    modeRef.current = m; answersRef.current = []; finishedRef.current = false;
+    modeRef.current = m; answersRef.current = []; finishedRef.current = false; pendingRef.current = [];
     deadlineRef.current = Date.now() + timedLimitMs(pool.length);
     setMode(m); setSession(pool); setIdx(0); setAnswers([]); setFinished(false); setShowPt(false);
     sessionId.current = uuid(); shownAt.current = Date.now();
@@ -80,14 +81,27 @@ export function Questions({ load = fetchQuestions, save = saveAttempts, preset, 
   const alive = useRef(true);
   useEffect(() => { alive.current = true; return () => { alive.current = false; }; }, []);
 
-  async function persist(p: Pending) {
-    if (!alive.current || p.done || p.inFlight) return;
-    p.inFlight = true;
-    try { await save(p.rows); p.done = true; } catch (e) {
+  // Inserts the rows of ps not yet saved or in flight, in one call. Touches no component state, so a
+  // Retry for an old session cannot reach the current one. Nothing new is sent or offered after unmount:
+  // a user switch remounts this screen, and a late Retry would write under the new user.
+  function send(ps: Pending[], failMsg: string): Promise<void> {
+    if (!alive.current) return Promise.resolve();
+    const todo = ps.filter((p) => !p.done && !p.inFlight);
+    if (!todo.length) return Promise.resolve();
+    const run = save(todo.map((p) => p.row)).then(() => null, (e: unknown) => e).then((err): Promise<unknown> | void => {
+      todo.forEach((p) => { p.inFlight = null; });
+      if (!err) { todo.forEach((p) => { p.done = true; }); return; }
       // 23505 = unique (session_id, question_id): an earlier insert committed but its response was lost.
-      if ((e as { code?: string }).code === '23505') p.done = true;
-      else toast.show(`Could not save results: ${(e as Error).message}`, () => persist(p));
-    } finally { p.inFlight = false; }
+      // A multi-row insert is all-or-nothing, so fall back to one row at a time to find which are missing.
+      if ((err as { code?: string }).code === '23505') {
+        if (todo.length === 1) todo[0].done = true;
+        else return Promise.all(todo.map((p) => send([p], failMsg)));
+        return;
+      }
+      if (alive.current) toast.show(`${failMsg}: ${(err as Error).message}`, () => send(ps, failMsg));
+    }).then(() => {});
+    todo.forEach((p) => { p.inFlight = run; });
+    return run;
   }
 
   function setStatus(id: string, status: 'flagged' | 'verified', ok: string, note?: string) {
@@ -104,12 +118,9 @@ export function Questions({ load = fetchQuestions, save = saveAttempts, preset, 
     if (finishedRef.current) return;
     finishedRef.current = true;
     setFinished(true);
-    if (!answersRef.current.length) return;
-    const mode = modeRef.current!, session_id = sessionId.current;
-    persist({
-      rows: answersRef.current.map((a) => ({ question_id: a.questionId, chosen: a.chosen, correct: a.correct, duration_ms: a.durationMs, mode, session_id })),
-      done: false, inFlight: false,
-    });
+    // Answers were saved as given; once in-flight saves settle, retry only the ones that failed.
+    const ps = pendingRef.current;
+    Promise.all(ps.map((p) => p.inFlight)).then(() => send(ps, 'Could not save results'));
   }
 
   if (loadError) return <p>Could not load questions: {loadError} <button onClick={refresh}>Retry</button></p>;
@@ -145,8 +156,12 @@ export function Questions({ load = fetchQuestions, save = saveAttempts, preset, 
 
   function choose(i: number) {
     if (finishedRef.current || answersRef.current.some((a) => a.questionId === q.id)) return;
-    answersRef.current = [...answersRef.current, gradeAnswer(q, i, Date.now() - shownAt.current)];
+    const a = gradeAnswer(q, i, Date.now() - shownAt.current);
+    answersRef.current = [...answersRef.current, a];
     setAnswers(answersRef.current);
+    const p: Pending = { row: { question_id: a.questionId, chosen: a.chosen, correct: a.correct, duration_ms: a.durationMs, mode: modeRef.current!, session_id: sessionId.current }, done: false, inFlight: null };
+    pendingRef.current.push(p);
+    send([p], 'Could not save your answer');
   }
   function next() { setIdx((n) => Math.min(n + 1, session.length - 1)); setShowPt(false); shownAt.current = Date.now(); }
 

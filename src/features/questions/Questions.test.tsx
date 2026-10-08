@@ -28,39 +28,157 @@ test('tutor mode shows the explanation right after answering', async () => {
   expect(screen.getByText('exp-1')).toBeTruthy();
 });
 
-test('timed mode hides explanations until the end, then summarizes and saves', async () => {
+test('timed mode hides explanations until the end while saving each answer as it goes', async () => {
   const save = vi.fn().mockResolvedValue(undefined);
   wrap(<Questions load={async () => [q('1'), q('2')]} save={save} />);
   fireEvent.click(await screen.findByText(/Start timed session/));
   fireEvent.click(screen.getByText('A1'));
   expect(screen.queryByText('exp-1')).toBeNull();
+  expect(save).toHaveBeenCalledTimes(1);
+  expect(save.mock.calls[0][0]).toHaveLength(1);
+  expect(save.mock.calls[0][0][0]).toMatchObject({ mode: 'timed', chosen: 0, correct: false });
   fireEvent.click(screen.getByText('Next'));
   fireEvent.click(screen.getByText('B1'));
-  fireEvent.click(screen.getByText('Finish'));
+  expect(screen.queryByText(/^exp-/)).toBeNull();
+  expect(save).toHaveBeenCalledTimes(2);
+  expect(save.mock.calls[1][0]).toHaveLength(1);
+  await act(async () => { fireEvent.click(screen.getByText('Finish')); });
   expect(await screen.findByText(/1 of 2/)).toBeTruthy();
+  expect(save).toHaveBeenCalledTimes(2); // everything already saved: Finish sends nothing
+});
+
+test('each answer is saved the moment it is given, one row with the session id and mode', async () => {
+  vi.spyOn(Math, 'random').mockReturnValue(0.999999); // identity shuffle
+  const save = vi.fn().mockResolvedValue(undefined);
+  wrap(<Questions load={async () => [q('1'), q('2')]} save={save} />);
+  fireEvent.click(await screen.findByText(/Start tutor session/));
+  fireEvent.click(screen.getByText('B1'));
   expect(save).toHaveBeenCalledTimes(1);
-  expect(save.mock.calls[0][0]).toHaveLength(2);
+  const [[row1]] = save.mock.calls[0];
+  expect(save.mock.calls[0][0]).toHaveLength(1);
+  expect(row1).toMatchObject({ question_id: '1', chosen: 1, correct: true, mode: 'tutor' });
+  expect(typeof row1.duration_ms).toBe('number');
+  expect(row1.session_id).toBeTruthy();
+  fireEvent.click(screen.getByText('Next'));
+  fireEvent.click(screen.getByText('A1'));
+  expect(save).toHaveBeenCalledTimes(2);
+  expect(save.mock.calls[1][0]).toEqual([expect.objectContaining({ question_id: '2', chosen: 0, correct: false, mode: 'tutor', session_id: row1.session_id })]);
+  await act(async () => { fireEvent.click(screen.getByText('Finish')); });
+  expect(screen.getByText(/1 of 2/)).toBeTruthy();
+  expect(save).toHaveBeenCalledTimes(2);
+});
+
+test('a failed answer save toasts, Retry re-sends the identical row, and answering continues', async () => {
+  vi.spyOn(Math, 'random').mockReturnValue(0.999999);
+  const save = vi.fn().mockRejectedValueOnce(new Error('offline')).mockResolvedValue(undefined);
+  wrap(<Questions load={async () => [q('1'), q('2')]} save={save} />);
+  fireEvent.click(await screen.findByText(/Start tutor session/));
+  fireEvent.click(screen.getByText('B1'));
+  expect((await screen.findByRole('alert')).textContent).toMatch('Could not save your answer: offline');
+  expect(screen.getByText('exp-1')).toBeTruthy(); // local answer kept
+  await new Promise((r) => setTimeout(r, 5)); // a recomputed duration would differ
+  await act(async () => { fireEvent.click(screen.getByText('Retry')); });
+  expect(save).toHaveBeenCalledTimes(2);
+  expect(save.mock.calls[1][0]).toEqual(save.mock.calls[0][0]);
+  fireEvent.click(screen.getByText('Next'));
+  fireEvent.click(screen.getByText('B1'));
+  expect(save).toHaveBeenCalledTimes(3);
+  await act(async () => { fireEvent.click(screen.getByText('Finish')); });
+  expect(save).toHaveBeenCalledTimes(3);
+});
+
+test('a failed answer save does not block answering the next question; Finish batches only the unsaved rows', async () => {
+  vi.spyOn(Math, 'random').mockReturnValue(0.999999);
+  const save = vi.fn().mockRejectedValueOnce(new Error('offline')).mockResolvedValue(undefined);
+  wrap(<Questions load={async () => [q('1'), q('2'), q('3')]} save={save} />);
+  fireEvent.click(await screen.findByText(/Start tutor session/));
+  fireEvent.click(screen.getByText('B1'));
+  await screen.findByRole('alert');
+  fireEvent.click(screen.getByText('Next'));
+  fireEvent.click(screen.getByText('B1'));
+  fireEvent.click(screen.getByText('Next'));
+  fireEvent.click(screen.getByText('A1'));
+  expect(save).toHaveBeenCalledTimes(3);
+  await act(async () => { fireEvent.click(screen.getByText('Finish')); });
+  expect(screen.getByText(/2 of 3/)).toBeTruthy();
+  expect(save).toHaveBeenCalledTimes(4);
+  expect(save.mock.calls[3][0]).toEqual(save.mock.calls[0][0]);
 });
 
 test('failed save of attempts toasts with retry and keeps the results visible', async () => {
-  const save = vi.fn().mockRejectedValueOnce(new Error('offline')).mockResolvedValue(undefined);
+  const save = vi.fn().mockRejectedValueOnce(new Error('offline')).mockRejectedValueOnce(new Error('still offline')).mockResolvedValue(undefined);
   wrap(<Questions load={async () => [q('1')]} save={save} />);
   fireEvent.click(await screen.findByText(/Start tutor session/));
   fireEvent.click(screen.getByText('B1'));
-  fireEvent.click(screen.getByText('Finish'));
-  expect(await screen.findByRole('alert')).toBeTruthy();
+  await screen.findByText(/Could not save your answer: offline/);
+  await act(async () => { fireEvent.click(screen.getByText('Finish')); });
+  expect((await screen.findByRole('alert')).textContent).toMatch('Could not save results: still offline');
   expect(screen.getByText(/1 of 1/)).toBeTruthy();
+  await act(async () => { fireEvent.click(screen.getByText('Retry')); });
+  expect(save).toHaveBeenCalledTimes(3);
+  expect(save.mock.calls[2][0]).toEqual(save.mock.calls[0][0]);
 });
 
-test('double-click Finish in one tick saves exactly once', async () => {
+test('Finish waits for an in-flight answer save and does not re-send it', async () => {
   const d = deferred();
   const save = vi.fn().mockReturnValue(d.promise);
   wrap(<Questions load={async () => [q('1')]} save={save} />);
   fireEvent.click(await screen.findByText(/Start tutor session/));
   fireEvent.click(screen.getByText('B1'));
-  const f = screen.getByText('Finish');
-  act(() => { f.click(); f.click(); });
+  await act(async () => { fireEvent.click(screen.getByText('Finish')); });
+  expect(screen.getByText(/1 of 1/)).toBeTruthy();
   await act(async () => { d.resolve(); });
+  expect(save).toHaveBeenCalledTimes(1);
+});
+
+test('Finish sends an in-flight answer save that then fails, once', async () => {
+  let reject!: (e: Error) => void;
+  const save = vi.fn().mockReturnValueOnce(new Promise<void>((_, r) => { reject = r; })).mockResolvedValue(undefined);
+  wrap(<Questions load={async () => [q('1')]} save={save} />);
+  fireEvent.click(await screen.findByText(/Start tutor session/));
+  fireEvent.click(screen.getByText('B1'));
+  await act(async () => { fireEvent.click(screen.getByText('Finish')); });
+  expect(save).toHaveBeenCalledTimes(1);
+  await act(async () => { reject(new Error('offline')); });
+  await waitFor(() => expect(save).toHaveBeenCalledTimes(2));
+  expect(save.mock.calls[1][0]).toEqual(save.mock.calls[0][0]);
+});
+
+test('double-click Finish in one tick sends the unsaved rows once', async () => {
+  const d = deferred();
+  const save = vi.fn().mockRejectedValueOnce(new Error('offline')).mockReturnValue(d.promise);
+  wrap(<Questions load={async () => [q('1')]} save={save} />);
+  fireEvent.click(await screen.findByText(/Start tutor session/));
+  fireEvent.click(screen.getByText('B1'));
+  await screen.findByRole('alert');
+  const f = screen.getByText('Finish');
+  await act(async () => { f.click(); f.click(); });
+  await act(async () => { d.resolve(); });
+  expect(save).toHaveBeenCalledTimes(2);
+});
+
+test('leaving mid-set keeps the answers already given saved', async () => {
+  const save = vi.fn().mockResolvedValue(undefined);
+  const { unmount } = wrap(<Questions load={async () => [q('1'), q('2'), q('3')]} save={save} />);
+  fireEvent.click(await screen.findByText(/Start tutor session/));
+  fireEvent.click(screen.getByText('B1'));
+  fireEvent.click(screen.getByText('Next'));
+  fireEvent.click(screen.getByText('B1'));
+  unmount();
+  await act(async () => {});
+  expect(save).toHaveBeenCalledTimes(2);
+  expect(new Set(save.mock.calls.map((c) => c[0][0].question_id)).size).toBe(2);
+});
+
+test('an answer save that fails after leaving the screen shows no Retry', async () => {
+  let reject!: (e: Error) => void;
+  const save = vi.fn().mockReturnValueOnce(new Promise<void>((_, r) => { reject = r; }));
+  const { rerender } = wrap(<Questions load={async () => [q('1'), q('2')]} save={save} />);
+  fireEvent.click(await screen.findByText(/Start tutor session/));
+  fireEvent.click(screen.getByText('B1'));
+  rerender(<ToastProvider><p>elsewhere</p></ToastProvider>); // provider stays, Questions unmounts
+  await act(async () => { reject(new Error('offline')); });
+  expect(screen.queryByRole('alert')).toBeNull();
   expect(save).toHaveBeenCalledTimes(1);
 });
 
@@ -69,45 +187,51 @@ test('retry after a later successful save is a no-op', async () => {
   wrap(<Questions load={async () => [q('1')]} save={save} />);
   fireEvent.click(await screen.findByText(/Start tutor session/));
   fireEvent.click(screen.getByText('B1'));
-  fireEvent.click(screen.getByText('Finish'));
   const retry = await screen.findByText(/retry/i);
   await act(async () => { fireEvent.click(retry); });
   expect(save).toHaveBeenCalledTimes(2);
   await act(async () => { fireEvent.click(retry); });
   expect(save).toHaveBeenCalledTimes(2);
+  await act(async () => { fireEvent.click(screen.getByText('Finish')); });
+  expect(save).toHaveBeenCalledTimes(2);
 });
 
-test('double-clicking a choice in one tick records one answer', async () => {
+test('double-clicking a choice in one tick records one answer and saves once', async () => {
   const save = vi.fn().mockResolvedValue(undefined);
   wrap(<Questions load={async () => [q('1')]} save={save} />);
   fireEvent.click(await screen.findByText(/Start timed session/));
   const b = screen.getByText('B1');
   act(() => { b.click(); b.click(); });
+  expect(save).toHaveBeenCalledTimes(1);
   fireEvent.click(screen.getByText('Finish'));
   await screen.findByText(/1 of 1/);
+  expect(save).toHaveBeenCalledTimes(1);
   expect(save.mock.calls[0][0]).toHaveLength(1);
 });
 
-test('old toast retry after a new session finished saves the FIRST session rows once', async () => {
-  const save = vi.fn().mockRejectedValueOnce(new Error('offline')).mockResolvedValue(undefined);
+test('old toast retry after a new session finished saves the FIRST session rows once and leaves the new session alone', async () => {
+  const save = vi.fn().mockRejectedValueOnce(new Error('offline')).mockRejectedValueOnce(new Error('offline')).mockResolvedValue(undefined);
   wrap(<Questions load={async () => [q('1')]} save={save} />);
   fireEvent.click(await screen.findByText(/Start timed session/));
   fireEvent.click(screen.getByText('A1'));
-  fireEvent.click(screen.getByText('Finish'));
+  await act(async () => { fireEvent.click(screen.getByText('Finish')); });
   const retry = await screen.findByText(/retry/i);
+  expect(save).toHaveBeenCalledTimes(2);
   fireEvent.click(await screen.findByText(/Review 1 missed/));
   fireEvent.click(screen.getByText('B1'));
   await act(async () => { fireEvent.click(screen.getByText('Finish')); });
-  expect(save).toHaveBeenCalledTimes(2);
-  await act(async () => { fireEvent.click(retry); });
   expect(save).toHaveBeenCalledTimes(3);
-  const [first, second, again] = save.mock.calls.map((c) => c[0]);
+  expect(screen.getByText(/1 of 1 correct \(100%\)/)).toBeTruthy();
+  await act(async () => { fireEvent.click(retry); });
+  expect(save).toHaveBeenCalledTimes(4);
+  const [first, , second, again] = save.mock.calls.map((c) => c[0]);
   expect(again).toEqual(first);
   expect(again[0].mode).toBe('timed');
-  expect(again[0].session_id).toBe(first[0].session_id);
   expect(second[0].session_id).not.toBe(first[0].session_id);
+  expect(second[0].mode).toBe('tutor');
+  expect(screen.getByText(/1 of 1 correct \(100%\)/)).toBeTruthy(); // new session's summary untouched
   await act(async () => { fireEvent.click(retry); });
-  expect(save).toHaveBeenCalledTimes(3);
+  expect(save).toHaveBeenCalledTimes(4);
 });
 
 test('double-click Retry sends one insert', async () => {
@@ -116,7 +240,6 @@ test('double-click Retry sends one insert', async () => {
   wrap(<Questions load={async () => [q('1')]} save={save} />);
   fireEvent.click(await screen.findByText(/Start tutor session/));
   fireEvent.click(screen.getByText('B1'));
-  fireEvent.click(screen.getByText('Finish'));
   const retry = await screen.findByText(/retry/i);
   act(() => { retry.click(); retry.click(); });
   await act(async () => { d.resolve(); });
@@ -215,6 +338,24 @@ test('timer expiry counts unanswered as missed, saves answered only, offers revi
   expect(screen.getByText('stem-2')).toBeTruthy();
 });
 
+test('timer expiry, like Finish, sends only the answers whose save failed', async () => {
+  vi.useFakeTimers({ shouldAdvanceTime: false });
+  vi.spyOn(Math, 'random').mockReturnValue(0.999999);
+  const save = vi.fn().mockRejectedValueOnce(new Error('offline')).mockResolvedValue(undefined);
+  wrap(<Questions load={async () => [q('1'), q('2')]} save={save} />);
+  await act(async () => { await vi.advanceTimersByTimeAsync(0); });
+  fireEvent.click(screen.getByText(/Start timed session/));
+  fireEvent.click(screen.getByText('B1'));
+  await act(async () => { await vi.advanceTimersByTimeAsync(0); });
+  fireEvent.click(screen.getByText('Next'));
+  fireEvent.click(screen.getByText('A1'));
+  expect(save).toHaveBeenCalledTimes(2);
+  await act(async () => { await vi.advanceTimersByTimeAsync(181_000); });
+  expect(screen.getByText(/1 of 2/)).toBeTruthy();
+  expect(save).toHaveBeenCalledTimes(3);
+  expect(save.mock.calls[2][0]).toEqual(save.mock.calls[0][0]);
+});
+
 test('no missed button when everything is correct', async () => {
   wrap(<Questions load={async () => [q('1')]} save={async () => {}} />);
   fireEvent.click(await screen.findByText(/Start tutor session/));
@@ -289,12 +430,34 @@ test('preset: planned button is disabled until history loads, then excludes seen
   expect(screen.getByText('stem-r2')).toBeTruthy();
 });
 
+test('a 23505 on the Finish batch re-sends each row alone, since a multi-row insert is all-or-nothing', async () => {
+  vi.spyOn(Math, 'random').mockReturnValue(0.999999);
+  const dup = Object.assign(new Error('duplicate key'), { code: '23505' });
+  const save = vi.fn()
+    .mockRejectedValueOnce(new Error('offline')).mockRejectedValueOnce(new Error('offline')) // both answers
+    .mockRejectedValueOnce(dup) // Finish batch: one of them had landed
+    .mockRejectedValueOnce(dup).mockResolvedValueOnce(undefined); // row 1 landed, row 2 now saves
+  wrap(<Questions load={async () => [q('1'), q('2')]} save={save} />);
+  fireEvent.click(await screen.findByText(/Start tutor session/));
+  fireEvent.click(screen.getByText('B1'));
+  fireEvent.click(screen.getByText('Next'));
+  fireEvent.click(screen.getByText('B1'));
+  await screen.findByRole('alert');
+  await act(async () => { fireEvent.click(screen.getByText('Finish')); });
+  await waitFor(() => expect(save).toHaveBeenCalledTimes(5));
+  expect(save.mock.calls[2][0]).toHaveLength(2);
+  expect(save.mock.calls[3][0]).toEqual(save.mock.calls[0][0]);
+  expect(save.mock.calls[4][0]).toEqual(save.mock.calls[1][0]);
+  expect(screen.queryByText(/Could not save results/)).toBeNull();
+});
+
 test('a save that fails with 23505 counts as saved: no toast, no retry', async () => {
   const save = vi.fn().mockRejectedValue(Object.assign(new Error('duplicate key'), { code: '23505' }));
   wrap(<Questions load={async () => [q('1')]} save={save} />);
   fireEvent.click(await screen.findByText(/Start tutor session/));
   fireEvent.click(screen.getByText('B1'));
-  fireEvent.click(screen.getByText('Finish'));
   await waitFor(() => expect(save).toHaveBeenCalledTimes(1));
+  await act(async () => { fireEvent.click(screen.getByText('Finish')); });
+  expect(save).toHaveBeenCalledTimes(1);
   expect(screen.queryByRole('alert')).toBeNull();
 });
