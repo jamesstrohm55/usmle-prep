@@ -3,7 +3,7 @@ create table study_settings (
   user_id uuid primary key references auth.users on delete cascade default auth.uid(),
   target_date date,
   minutes_by_weekday int[] not null default '{60,60,60,60,60,180,180}'
-    check (array_length(minutes_by_weekday, 1) = 7 and 0 <= all (minutes_by_weekday) and 600 >= all (minutes_by_weekday)),
+    check (array_length(minutes_by_weekday, 1) = 7 and 0 <= all (minutes_by_weekday) and 600 >= all (minutes_by_weekday) and array_position(minutes_by_weekday, null) is null),
   updated_at timestamptz not null default now()
 );
 
