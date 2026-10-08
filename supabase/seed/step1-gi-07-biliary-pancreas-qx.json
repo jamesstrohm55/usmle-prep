@@ -1,0 +1,182 @@
+{
+  "cards": [],
+  "questions": [
+    {
+      "slug": "q-biliary-pancreas-qx-pancreatitis-hypocalcemia",
+      "track": "step1",
+      "system": "gastrointestinal",
+      "discipline": "pathology",
+      "tags": [
+        "biliary-pancreas",
+        "acute-pancreatitis",
+        "hypocalcemia"
+      ],
+      "stem": "A 52-year-old woman is admitted with severe epigastric pain that goes to her back. Ultrasound shows gallstones. On day 2 she reports tingling around her mouth and in her fingers. When a blood pressure cuff is inflated on her arm, her wrist and fingers flex. Laboratory results: lipase 2,100 U/L (normal under 60), total calcium 6.9 mg/dL (normal 8.5-10.5), albumin 3.9 g/dL (normal 3.5-5.0), magnesium 2.0 mg/dL (normal 1.7-2.2), and phosphate 3.6 mg/dL (normal 2.5-4.5). Which mechanism best explains her calcium level?",
+      "choices": [
+        "Low PTH secretion caused by magnesium deficiency",
+        "Calcium bound by fatty acids released in fat necrosis",
+        "Low serum albumin that lowers total but not ionized calcium",
+        "Poor intestinal calcium absorption from vitamin D deficiency",
+        "Chelation of calcium by citrate in transfused blood"
+      ],
+      "correct": 1,
+      "explanation": "In acute pancreatitis, released **lipase** breaks down peripancreatic fat. The free fatty acids bind calcium and form calcium soaps (**saponification**), so serum calcium falls and can cause tetany (a positive **Trousseau sign**). Low albumin is the most tempting choice, but her albumin is normal, so the low total calcium is real. Her magnesium is normal, she received no transfusion, and vitamin D deficiency does not lower calcium within 2 days.",
+      "explanation_pt": "Na pancreatite aguda, a **lipase** liberada degrada a gordura peripancreática. Os ácidos graxos livres se ligam ao cálcio e formam sabões de cálcio (**saponificação**); o cálcio sérico cai e pode causar tetania (**sinal de Trousseau** positivo). A albumina baixa é a alternativa mais tentadora, mas a albumina dela é normal, então a queda do cálcio total é real. O magnésio é normal, ela não recebeu transfusão e a deficiência de vitamina D não reduz o cálcio em 2 dias."
+    },
+    {
+      "slug": "q-biliary-pancreas-qx-acalculous-cholecystitis",
+      "track": "step1",
+      "system": "gastrointestinal",
+      "discipline": "pathology",
+      "tags": [
+        "biliary-pancreas",
+        "cholecystitis",
+        "acalculous-cholecystitis"
+      ],
+      "stem": "A 45-year-old man has been in the intensive care unit for 12 days after burns over 40% of his body. He has received only parenteral nutrition and needed vasopressors for several days. He now has a new fever and tenderness in the right upper quadrant. Leukocyte count is 17,000/mm3. Ultrasound shows a distended gallbladder with a thick wall and fluid around it. There are no stones or sludge in the gallbladder, and the common bile duct is normal. Which process most likely started this condition?",
+      "choices": [
+        "A stone stuck in the cystic duct",
+        "Bacteria rising from the duodenum into the bile ducts",
+        "Autoimmune damage to small intrahepatic bile ducts",
+        "Bile stasis and ischemia of the gallbladder wall",
+        "A fistula between the gallbladder and the duodenum"
+      ],
+      "correct": 3,
+      "explanation": "This is **acute acalculous cholecystitis**, which occurs in critically ill patients (burns, trauma, sepsis, major surgery). Fasting and parenteral nutrition remove the **CCK** signal, so the gallbladder does not empty (**bile stasis**), and shock lowers blood flow to its wall (**ischemia**); infection often follows. Ascending infection from the duodenum causes **cholangitis** with a dilated, obstructed common bile duct, which this patient does not have. No stone was seen, so cystic duct obstruction by a stone is unlikely.",
+      "explanation_pt": "Trata-se de **colecistite aguda alitiásica**, que ocorre em pacientes graves (queimaduras, trauma, sepse, cirurgias de grande porte). O jejum e a nutrição parenteral eliminam o estímulo da **CCK**, então a vesícula não se esvazia (**estase biliar**), e o choque reduz o fluxo sanguíneo da parede (**isquemia**); a infecção costuma vir depois. A infecção ascendente a partir do duodeno causa **colangite**, com colédoco dilatado e obstruído, o que este paciente não tem. Nenhum cálculo foi visto, então a obstrução do ducto cístico por cálculo é improvável."
+    },
+    {
+      "slug": "q-biliary-pancreas-qx-hereditary-pancreatitis",
+      "track": "step1",
+      "system": "gastrointestinal",
+      "discipline": "pathology",
+      "tags": [
+        "biliary-pancreas",
+        "acute-pancreatitis",
+        "hereditary-pancreatitis"
+      ],
+      "stem": "A 19-year-old man is admitted for his fourth episode of acute pancreatitis since age 10. He does not drink alcohol and takes no drugs. Ultrasound shows no gallstones. Serum calcium and triglycerides are normal, and a sweat chloride test is normal. His father had the same attacks as a child and later developed chronic pancreatitis with diabetes. His paternal aunt and his paternal grandfather also had recurrent pancreatitis. Genetic testing finds a pathogenic variant. What is the most likely effect of this mutation?",
+      "choices": [
+        "Trypsinogen that resists inactivation once activated",
+        "A defective chloride channel in the pancreatic ducts",
+        "Absent lipoprotein lipase with very high chylomicrons",
+        "A calcium-sensing receptor that sets calcium too high",
+        "Absent enteropeptidase in the duodenal brush border"
+      ],
+      "correct": 0,
+      "explanation": "Recurrent pancreatitis from childhood in three generations (autosomal dominant pattern) suggests **hereditary pancreatitis**, usually a gain-of-function mutation in **cationic trypsinogen (PRSS1)**. The abnormal trypsin escapes normal inactivation inside the pancreas, so it activates other enzymes and causes **autodigestion**. CFTR mutations also cause pancreatitis, but cystic fibrosis is autosomal recessive and the sweat chloride test is normal; normal calcium and triglycerides argue against CASR and lipoprotein lipase defects. Enteropeptidase deficiency prevents trypsinogen activation and causes malabsorption, not pancreatitis.",
+      "explanation_pt": "Pancreatite recorrente desde a infância em três gerações (padrão autossômico dominante) sugere **pancreatite hereditária**, em geral por mutação com ganho de função no **tripsinogênio catiônico (PRSS1)**. A tripsina anormal escapa da inativação normal dentro do pâncreas, ativa outras enzimas e causa **autodigestão**. Mutações do CFTR também causam pancreatite, mas a fibrose cística é autossômica recessiva e o teste do suor é normal; cálcio e triglicerídeos normais afastam defeitos do CASR e da lipase lipoproteica. A deficiência de enteropeptidase impede a ativação do tripsinogênio e causa má absorção, não pancreatite."
+    },
+    {
+      "slug": "q-biliary-pancreas-qx-ileal-resection-gallstones",
+      "track": "step1",
+      "system": "gastrointestinal",
+      "discipline": "pathology",
+      "tags": [
+        "biliary-pancreas",
+        "gallstones",
+        "bile-acids"
+      ],
+      "stem": "A 38-year-old woman has Crohn disease. Three years ago, about 100 cm of her terminal ileum was removed. She now has several episodes of right upper quadrant pain that start after fatty meals and last 1-2 hours. Between episodes she feels well, and she has no fever. Liver tests are normal. Ultrasound shows several gallstones, but the stones are not visible on a plain abdominal x-ray. Which mechanism best explains her gallstones?",
+      "choices": [
+        "Excess unconjugated bilirubin in bile from hemolysis",
+        "Bacterial enzymes that deconjugate bilirubin in infected bile",
+        "Loss of bile acids, leaving bile oversaturated with cholesterol",
+        "Increased oxalate absorption in the colon",
+        "Increased calcium carbonate secretion by the gallbladder mucosa"
+      ],
+      "correct": 2,
+      "explanation": "Bile acids are reabsorbed in the **terminal ileum**. After ileal resection they are lost in the stool, the **bile acid pool shrinks**, and there is too little bile acid to keep cholesterol in solution, so **cholesterol stones** form; they are **radiolucent**, which fits the normal x-ray. Increased colonic oxalate absorption is a real effect of ileal disease, but it causes **calcium oxalate kidney stones**, not gallstones. Hemolysis gives black pigment stones, and biliary infection gives brown stones.",
+      "explanation_pt": "Os ácidos biliares são reabsorvidos no **íleo terminal**. Após a ressecção ileal eles são perdidos nas fezes, o **pool de ácidos biliares diminui** e não há ácido biliar suficiente para manter o colesterol em solução, então se formam **cálculos de colesterol**; eles são **radiotransparentes**, o que combina com a radiografia normal. O aumento da absorção colônica de oxalato é um efeito real da doença ileal, mas causa **cálculos renais de oxalato de cálcio**, não cálculos biliares. A hemólise forma cálculos pigmentares pretos, e a infecção biliar, cálculos castanhos."
+    },
+    {
+      "slug": "q-biliary-pancreas-qx-black-pigment-stone",
+      "track": "step1",
+      "system": "gastrointestinal",
+      "discipline": "pathology",
+      "tags": [
+        "biliary-pancreas",
+        "gallstones",
+        "hereditary-spherocytosis"
+      ],
+      "stem": "A 14-year-old girl has had three episodes of colicky right upper quadrant pain after meals. Since early childhood she has had mild anemia and episodes of yellow eyes. Her mother had her spleen removed as a young adult. Exam shows mild scleral icterus and a palpable spleen. Hemoglobin is 10.2 g/dL, reticulocytes are 9%, indirect bilirubin is high, and the blood smear shows small, round red cells without central pallor. Ultrasound shows several small stones in the gallbladder, and they are also visible on a plain abdominal x-ray. What are these stones mainly made of?",
+      "choices": [
+        "Cholesterol monohydrate",
+        "Calcium oxalate",
+        "Magnesium ammonium phosphate",
+        "Calcium salts of fatty acids",
+        "Calcium bilirubinate"
+      ],
+      "correct": 4,
+      "explanation": "This girl has **hereditary spherocytosis**. Chronic **hemolysis** delivers a large load of bilirubin to bile; unconjugated bilirubin precipitates with calcium as **calcium bilirubinate**, forming **black pigment stones**, which often contain enough calcium to be **radiopaque**. Cholesterol stones are the most common gallstones overall, but they have no link to hemolysis and are usually radiolucent. Calcium soaps of fatty acids are typical of brown stones, which form in infected bile ducts; calcium oxalate and struvite are kidney stone types.",
+      "explanation_pt": "Esta menina tem **esferocitose hereditária**. A **hemólise** crônica leva grande carga de bilirrubina à bile; a bilirrubina não conjugada precipita com o cálcio como **bilirrubinato de cálcio**, formando **cálculos pigmentares pretos**, que muitas vezes contêm cálcio suficiente para serem **radiopacos**. Os cálculos de colesterol são os cálculos biliares mais comuns, mas não têm relação com hemólise e geralmente são radiotransparentes. Sabões de cálcio são típicos dos cálculos castanhos, que se formam em vias biliares infectadas; oxalato de cálcio e estruvita são tipos de cálculo renal."
+    },
+    {
+      "slug": "q-biliary-pancreas-qx-somatostatinoma",
+      "track": "step1",
+      "system": "gastrointestinal",
+      "discipline": "pathology",
+      "tags": [
+        "biliary-pancreas",
+        "neuroendocrine-tumors",
+        "somatostatinoma"
+      ],
+      "stem": "A 58-year-old woman has had 1 year of increased thirst and frequent urination, with new hyperglycemia. For 6 months she has had bulky, greasy, foul-smelling stools and has lost 7 kg. She has no skin rash and no watery diarrhea. Fasting glucose is 192 mg/dL, and serum potassium is normal. Ultrasound shows several gallstones. CT shows a 4-cm solid mass in the head of the pancreas. Which hormone is most likely produced in excess by this tumor?",
+      "choices": [
+        "Glucagon",
+        "Vasoactive intestinal peptide",
+        "Gastrin",
+        "Somatostatin",
+        "Insulin"
+      ],
+      "correct": 3,
+      "explanation": "Diabetes, gallstones and steatorrhea together point to a **somatostatinoma**. Somatostatin **inhibits insulin** (hyperglycemia), **inhibits CCK** release so the gallbladder empties poorly (**gallstones**), and **inhibits pancreatic enzyme secretion** (**steatorrhea**). A glucagonoma also causes diabetes and weight loss, but it typically causes **necrolytic migratory erythema**, not gallstones and steatorrhea. VIPoma causes watery diarrhea with hypokalemia, and gastrinoma can cause steatorrhea but causes ulcers, not diabetes or gallstones.",
+      "explanation_pt": "Diabetes, cálculos biliares e esteatorreia juntos apontam para **somatostatinoma**. A somatostatina **inibe a insulina** (hiperglicemia), **inibe a liberação de CCK**, então a vesícula se esvazia mal (**cálculos biliares**), e **inibe a secreção enzimática pancreática** (**esteatorreia**). O glucagonoma também causa diabetes e perda de peso, mas tipicamente causa **eritema migratório necrolítico**, e não cálculos e esteatorreia. O VIPoma causa diarreia aquosa com hipocalemia, e o gastrinoma pode causar esteatorreia, mas causa úlceras, e não diabetes ou cálculos biliares."
+    },
+    {
+      "slug": "q-biliary-pancreas-qx-glucagonoma-alpha-cell",
+      "track": "step1",
+      "system": "gastrointestinal",
+      "discipline": "pathology",
+      "tags": [
+        "biliary-pancreas",
+        "neuroendocrine-tumors",
+        "glucagonoma"
+      ],
+      "stem": "A 55-year-old woman has had a painful rash for 6 months. Red, scaly patches with blisters and crusts appear on her groin, buttocks and legs, move to new areas, and heal with brown pigmentation. She has lost 9 kg and has a sore, smooth red tongue. Last month she had a deep vein thrombosis in her left leg. Fasting glucose is 168 mg/dL, and she has a mild normocytic anemia. CT shows a 5-cm mass in the tail of the pancreas. From which cells did this tumor most likely arise?",
+      "choices": [
+        "Alpha cells of the pancreatic islets",
+        "Beta cells of the pancreatic islets",
+        "Delta cells of the pancreatic islets",
+        "G cells of the duodenum",
+        "Enterochromaffin cells of the ileum"
+      ],
+      "correct": 0,
+      "explanation": "A migrating, blistering rash (**necrolytic migratory erythema**) with diabetes, weight loss, glossitis, anemia and venous thrombosis is the picture of a **glucagonoma**, a tumor of the islet **alpha cells**. Excess glucagon raises glucose and drives protein breakdown, which helps explain the weight loss and skin damage. Beta cell tumors (insulinomas) cause the opposite problem, **hypoglycemia**. Delta cell tumors (somatostatinomas) cause diabetes with gallstones and steatorrhea, but not this rash.",
+      "explanation_pt": "Um exantema migratório e bolhoso (**eritema migratório necrolítico**) com diabetes, perda de peso, glossite, anemia e trombose venosa é o quadro do **glucagonoma**, tumor das **células alfa** das ilhotas. O excesso de glucagon eleva a glicemia e aumenta o catabolismo proteico, o que ajuda a explicar a perda de peso e a lesão cutânea. Os tumores de células beta (insulinomas) causam o problema oposto, a **hipoglicemia**. Os tumores de células delta (somatostatinomas) causam diabetes com cálculos biliares e esteatorreia, mas não esse exantema."
+    },
+    {
+      "slug": "q-biliary-pancreas-qx-chronic-pancreatitis-vitamin-k",
+      "track": "step1",
+      "system": "gastrointestinal",
+      "discipline": "pathology",
+      "tags": [
+        "biliary-pancreas",
+        "chronic-pancreatitis",
+        "malabsorption"
+      ],
+      "stem": "A 50-year-old man has drunk heavily for 25 years. He has had years of recurrent epigastric pain that goes to his back. For 6 months he has had bulky, oily stools that are hard to flush, and he has lost weight. He now notices easy bruising and bleeding gums. He has no ascites, spider angiomas or jaundice. Laboratory results: prothrombin time 19 s (normal 11-13), aPTT 37 s (normal 25-35), platelets 240,000/mm3, albumin 3.8 g/dL, total bilirubin 0.8 mg/dL, and very low fecal elastase. CT shows a normal-appearing liver and multiple calcifications in the pancreas. Which mechanism best explains his bleeding?",
+      "choices": [
+        "Decreased hepatic synthesis of clotting factors from cirrhosis",
+        "Poor vitamin K absorption due to lack of pancreatic lipase",
+        "Antibodies that inhibit factor VIII",
+        "Consumption of clotting factors and platelets in small vessels",
+        "Low von Willebrand factor with poor platelet adhesion"
+      ],
+      "correct": 1,
+      "explanation": "Pancreatic calcifications and steatorrhea mean **chronic pancreatitis** with **exocrine insufficiency**; without lipase, fat is poorly digested, so the **fat-soluble vitamins** (A, D, E, K) are poorly absorbed. Low vitamin K means factors II, VII, IX and X are not **gamma-carboxylated**, so the **PT rises first** (factor VII has the shortest half-life). Cirrhosis is the tempting choice in a heavy drinker, but his albumin, bilirubin and liver imaging are normal, with no signs of portal hypertension. DIC would lower the platelet count, and von Willebrand disease does not prolong the PT.",
+      "explanation_pt": "Calcificações pancreáticas e esteatorreia indicam **pancreatite crônica** com **insuficiência exócrina**; sem lipase, a gordura é mal digerida e as **vitaminas lipossolúveis** (A, D, E, K) são mal absorvidas. Com pouca vitamina K, os fatores II, VII, IX e X não são **gama-carboxilados**, então o **TP se prolonga primeiro** (o fator VII tem a meia-vida mais curta). A cirrose é a alternativa tentadora em um paciente etilista crônico, mas a albumina, a bilirrubina e a imagem do fígado são normais, sem sinais de hipertensão portal. A CIVD reduziria as plaquetas, e a doença de von Willebrand não prolonga o TP."
+    }
+  ],
+  "notes": []
+}

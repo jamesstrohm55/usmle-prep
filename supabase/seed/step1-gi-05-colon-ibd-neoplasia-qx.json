@@ -1,0 +1,183 @@
+{
+  "cards": [],
+  "questions": [
+    {
+      "slug": "q-colon-ibd-neoplasia-qx-collagenous-colitis",
+      "track": "step1",
+      "system": "gastrointestinal",
+      "discipline": "pathology",
+      "tags": [
+        "colon-ibd-neoplasia",
+        "microscopic-colitis",
+        "diarrhea"
+      ],
+      "stem": "A 61-year-old woman has had 4 months of watery, nonbloody diarrhea, with 6 to 8 stools a day. She also wakes at night to pass stool. She has lost 1 kg. She takes naproxen every day for knee osteoarthritis. Her abdomen is soft and not tender. Laboratory results: hemoglobin 13.1 g/dL, C-reactive protein normal, TSH normal, tissue transglutaminase IgA negative, stool culture negative, C. difficile toxin negative. Colonoscopy shows normal-looking mucosa. Random colon biopsies show a thick band of collagen just under the surface epithelium and more lymphocytes than normal in the lamina propria. What is the most likely diagnosis?",
+      "choices": [
+        "Irritable bowel syndrome with diarrhea",
+        "Ulcerative colitis",
+        "Celiac disease",
+        "Collagenous colitis",
+        "Ischemic colitis"
+      ],
+      "correct": 3,
+      "explanation": "Chronic watery diarrhea with a normal-looking colon, a **thickened subepithelial collagen band** and extra lamina propria lymphocytes on biopsy is **collagenous colitis**, a form of **microscopic colitis**; it is most common in older women, and drugs such as **NSAIDs** are linked to it. **IBS** is tempting because colonoscopy looks normal, but IBS has normal histology and rarely wakes the patient at night to pass stool. Ulcerative colitis shows visible continuous inflammation from the rectum, and the negative tTG IgA argues against celiac disease.",
+      "explanation_pt": "Diarreia aquosa crônica com cólon de aspecto normal, **faixa de colágeno subepitelial espessada** e excesso de linfócitos na lâmina própria na biópsia é **colite colagenosa**, uma forma de **colite microscópica**; é mais comum em mulheres idosas, e fármacos como os **AINEs** estão associados a ela. A **SII** é tentadora porque a colonoscopia parece normal, mas na SII a histologia é normal e a diarreia raramente acorda o paciente à noite. A retocolite ulcerativa mostra inflamação contínua visível a partir do reto, e a anti-transglutaminase IgA negativa fala contra doença celíaca."
+    },
+    {
+      "slug": "q-colon-ibd-neoplasia-qx-diverticular-bleeding-mechanism",
+      "track": "step1",
+      "system": "gastrointestinal",
+      "discipline": "pathology",
+      "tags": [
+        "colon-ibd-neoplasia",
+        "diverticular-disease",
+        "lower-gi-bleeding"
+      ],
+      "stem": "A 74-year-old man suddenly passes a large amount of bright red blood and clots from the rectum. He has no abdominal pain and no fever. After intravenous fluids, his blood pressure is 118/72 mm Hg and pulse is 92/min. Upper endoscopy is normal. Colonoscopy shows many small outpouchings of the colon wall, mostly in the sigmoid colon. One outpouching has a visible vessel at its dome. How do these outpouchings form?",
+      "choices": [
+        "Luminal pressure pushes mucosa and submucosa through gaps where arteries enter the wall",
+        "A congenital outpouching forms that contains every layer of the bowel wall, including the muscle",
+        "Scarring from nearby inflamed lymph nodes pulls all layers of the bowel wall outward over time",
+        "Low blood flow thins the muscle layer in a watershed zone between two large colonic arteries",
+        "Deep inflammation creates sinus tracts through the wall that later open back into the lumen"
+      ],
+      "correct": 0,
+      "explanation": "Colonic diverticula are **false (pulsion) diverticula**: high intraluminal pressure, favored by a **low-fiber diet**, pushes **mucosa and submucosa** through weak points where the **vasa recta** penetrate the muscular wall. The vessel is stretched over the dome of the sac and can rupture, which gives **painless, often large, bleeding**. A sac with all layers, including muscle, is a **true diverticulum**, such as a Meckel diverticulum, not the common sigmoid type. Traction from inflamed lymph nodes describes some midesophageal diverticula.",
+      "explanation_pt": "Os divertículos colônicos são **falsos (de pulsão)**: a pressão intraluminal elevada, favorecida por **dieta pobre em fibras**, empurra **mucosa e submucosa** através de pontos fracos onde os **vasos retos** atravessam a parede muscular. O vaso fica esticado sobre a cúpula do saco e pode se romper, causando **sangramento indolor, muitas vezes volumoso**. Um saco com todas as camadas, incluindo a muscular, é um **divertículo verdadeiro**, como o divertículo de Meckel, e não o tipo sigmoide comum. A tração por linfonodos inflamados descreve alguns divertículos do esôfago médio."
+    },
+    {
+      "slug": "q-colon-ibd-neoplasia-qx-colovesical-fistula",
+      "track": "step1",
+      "system": "gastrointestinal",
+      "discipline": "pathology",
+      "tags": [
+        "colon-ibd-neoplasia",
+        "diverticular-disease",
+        "complications"
+      ],
+      "stem": "A 66-year-old man has had three urinary tract infections in 4 months. He now sees gas bubbles in the urine at the end of voiding, and sometimes small brown particles in the urine. Last year he had two episodes of left lower quadrant pain with fever that were treated with antibiotics. He does not have diabetes; fasting glucose is 92 mg/dL. Urinalysis: leukocyte esterase positive, nitrite positive, more than 50 leukocytes per high-power field. Urine culture grows Escherichia coli and Enterococcus faecalis. CT shows a thick-walled sigmoid colon with many outpouchings next to a thickened bladder wall, and air inside the bladder. What is the most likely underlying cause of his urinary findings?",
+      "choices": [
+        "Crohn disease",
+        "Urothelial carcinoma of the bladder",
+        "Emphysematous cystitis",
+        "Prostatic abscess",
+        "Complicated sigmoid diverticulitis"
+      ],
+      "correct": 4,
+      "explanation": "Gas (**pneumaturia**) and stool particles (**fecaluria**) in the urine, recurrent infections with **mixed bowel flora**, and earlier attacks of left lower quadrant pain point to a **colovesical fistula** from **sigmoid diverticulitis**, the most common cause of this fistula. **Emphysematous cystitis** also puts air in the bladder, but it occurs mostly in patients with diabetes, usually involves a single gas-forming organism, and does not cause stool particles in the urine. Crohn disease can cause fistulas, but it usually starts in younger patients and the CT shows sigmoid diverticula, not ileal disease.",
+      "explanation_pt": "Gás (**pneumatúria**) e partículas de fezes (**fecalúria**) na urina, infecções recorrentes por **flora intestinal mista** e crises prévias de dor em fossa ilíaca esquerda indicam **fístula colovesical** por **diverticulite sigmoide**, a causa mais comum dessa fístula. A **cistite enfisematosa** também coloca ar na bexiga, mas ocorre sobretudo em diabéticos, geralmente envolve um único microrganismo formador de gás e não causa partículas fecais na urina. A doença de Crohn pode causar fístulas, mas costuma começar em pacientes mais jovens, e a TC mostra divertículos no sigmoide, não doença ileal."
+    },
+    {
+      "slug": "q-colon-ibd-neoplasia-qx-appendicitis-pain-shift",
+      "track": "step1",
+      "system": "gastrointestinal",
+      "discipline": "pathology",
+      "tags": [
+        "colon-ibd-neoplasia",
+        "appendicitis",
+        "anatomy"
+      ],
+      "stem": "A 15-year-old boy has had abdominal pain for 1 day. It began as a dull, poorly localized ache around the umbilicus, with nausea and loss of appetite. About 12 hours later, the pain became sharp and constant in the right lower quadrant. It is now worse when he coughs or walks. Temperature is 38.0°C (100.4°F). There is tenderness with guarding at a point one-third of the way from the right anterior superior iliac spine to the umbilicus. What best explains the change in the character and location of his pain?",
+      "choices": [
+        "The inflamed appendix moved from the midline down to the right lower quadrant",
+        "Inflammation reached the parietal peritoneum, which has somatic sensory nerves",
+        "Pain fibers from the appendix began to enter the spinal cord at L1 instead of T10",
+        "The appendix ruptured and released pus into the whole peritoneal cavity",
+        "Swollen mesenteric lymph nodes began to press on the right ureter"
+      ],
+      "correct": 1,
+      "explanation": "Early distension of the appendix stimulates **visceral afferents** that enter the cord at about **T10**, so the brain feels vague **periumbilical** pain. When inflammation reaches the **parietal peritoneum**, which has **somatic** innervation, the pain becomes sharp, constant and well localized at **McBurney point**, and it worsens with movement. Rupture is the tempting answer, but free perforation usually causes diffuse peritonitis with rigidity of the whole abdomen, not a single point of tenderness. The appendix does not move, and its visceral fibers do not change spinal level.",
+      "explanation_pt": "A distensão inicial do apêndice estimula **aferentes viscerais** que entram na medula por volta de **T10**, e o cérebro percebe uma dor vaga **periumbilical**. Quando a inflamação atinge o **peritônio parietal**, que tem inervação **somática**, a dor fica aguda, contínua e bem localizada no **ponto de McBurney**, e piora com o movimento. A ruptura é a resposta tentadora, mas a perfuração livre geralmente causa peritonite difusa com rigidez de todo o abdome, não dor em um único ponto. O apêndice não se desloca, e suas fibras viscerais não mudam de nível medular."
+    },
+    {
+      "slug": "q-colon-ibd-neoplasia-qx-pyoderma-gangrenosum",
+      "track": "step1",
+      "system": "gastrointestinal",
+      "discipline": "pathology",
+      "tags": [
+        "colon-ibd-neoplasia",
+        "ibd",
+        "extraintestinal"
+      ],
+      "stem": "A 34-year-old woman has ulcerative colitis involving the whole colon. She currently has a flare, with 6 bloody stools a day. Two weeks ago she bumped her left shin on a table. A small pustule appeared at that spot and quickly grew into a very painful ulcer, now 4 cm wide. The ulcer has a raised, purple edge that is undermined, and a base covered with pus. Culture of the ulcer grows only normal skin flora. A biopsy from the edge shows a dense infiltrate of neutrophils, with no vasculitis and no organisms. What is the most likely diagnosis?",
+      "choices": [
+        "Erythema nodosum",
+        "Ecthyma gangrenosum",
+        "Pyoderma gangrenosum",
+        "Venous stasis ulcer",
+        "Sporotrichosis"
+      ],
+      "correct": 2,
+      "explanation": "A fast-growing, very painful ulcer with a **violaceous, undermined border** that starts as a pustule at a site of minor injury (**pathergy**), with sterile **neutrophilic** infiltrate on biopsy, is **pyoderma gangrenosum**, a classic extraintestinal finding of **inflammatory bowel disease**, often linked to ulcerative colitis. **Erythema nodosum** is the most common IBD skin finding, but it causes tender red **nodules** on the shins (a panniculitis) that do not ulcerate. Ecthyma gangrenosum is a *Pseudomonas* infection in neutropenic patients, and sporotrichosis follows a nodular, lymphatic path after a plant injury.",
+      "explanation_pt": "Uma úlcera de crescimento rápido, muito dolorosa, com **borda violácea e solapada** que começa como pústula em local de pequeno trauma (**patergia**), com infiltrado **neutrofílico** estéril na biópsia, é **pioderma gangrenoso**, achado extraintestinal clássico da **doença inflamatória intestinal**, frequentemente associado à retocolite ulcerativa. O **eritema nodoso** é o achado cutâneo mais comum na DII, mas causa **nódulos** vermelhos dolorosos na região pré-tibial (uma paniculite) que não ulceram. O ectima gangrenoso é uma infecção por *Pseudomonas* em pacientes neutropênicos, e a esporotricose segue um trajeto nodular linfático após lesão por planta."
+    },
+    {
+      "slug": "q-colon-ibd-neoplasia-qx-juvenile-polyposis-smad4",
+      "track": "step1",
+      "system": "gastrointestinal",
+      "discipline": "pathology",
+      "tags": [
+        "colon-ibd-neoplasia",
+        "polyps",
+        "genetics"
+      ],
+      "stem": "A 17-year-old boy has had bright red blood in his stool on and off for 1 year. He has also had frequent nosebleeds since childhood. Exam shows many small red spots on the lips, tongue and fingertips that fade with pressure; there are no dark brown or blue-gray spots. Hemoglobin is 10.2 g/dL and MCV is 71 fL. Colonoscopy shows about 30 round, smooth polyps on stalks in the colon and rectum. Histology shows dilated, mucus-filled cystic glands in a wide, inflamed lamina propria, without dysplasia. Chest CT shows a pulmonary arteriovenous malformation. A germline mutation in which gene is most likely?",
+      "choices": [
+        "APC",
+        "SMAD4",
+        "STK11",
+        "MUTYH",
+        "PTEN"
+      ],
+      "correct": 1,
+      "explanation": "Many **juvenile polyps** (hamartomas with **cystic, mucus-filled glands** in an expanded lamina propria) plus features of **hereditary hemorrhagic telangiectasia** (nosebleeds, mucosal **telangiectasias**, pulmonary AVM) indicate the **juvenile polyposis–HHT overlap syndrome**, caused by **SMAD4** mutation; SMAD4 acts in TGF-beta signaling. **STK11** is the tempting choice because Peutz-Jeghers also gives hamartomas and lip findings, but its lip spots are dark **pigmented macules**, and its polyps show branching smooth muscle, mostly in the small bowel. APC and MUTYH cause adenomatous polyps, and PTEN causes Cowden syndrome.",
+      "explanation_pt": "Muitos **pólipos juvenis** (hamartomas com **glândulas císticas cheias de muco** em lâmina própria expandida) mais sinais de **telangiectasia hemorrágica hereditária** (epistaxe, **telangiectasias** mucosas, MAV pulmonar) indicam a **síndrome de sobreposição polipose juvenil–THH**, causada por mutação em **SMAD4**; o SMAD4 atua na sinalização do TGF-beta. O **STK11** é a opção tentadora porque a Peutz-Jeghers também causa hamartomas e achados nos lábios, mas suas manchas labiais são **máculas pigmentadas** escuras, e seus pólipos mostram músculo liso ramificado, principalmente no intestino delgado. APC e MUTYH causam pólipos adenomatosos, e PTEN causa a síndrome de Cowden."
+    },
+    {
+      "slug": "q-colon-ibd-neoplasia-qx-sessile-serrated-braf",
+      "track": "step1",
+      "system": "gastrointestinal",
+      "discipline": "pathology",
+      "tags": [
+        "colon-ibd-neoplasia",
+        "polyps",
+        "colorectal-cancer"
+      ],
+      "stem": "A 67-year-old woman has a routine colonoscopy. In the cecum there is a flat, 1.8-cm lesion with a yellow mucus cap. It is hard to see against the nearby mucosa. Histology shows crypts with a saw-tooth outline along their whole length. The bases of the crypts are dilated and turn sideways in an L shape or an inverted-T shape. There is no conventional adenomatous dysplasia. Molecular testing of the lesion is most likely to show a mutation in which gene?",
+      "choices": [
+        "BRAF",
+        "APC",
+        "KRAS",
+        "TP53",
+        "MSH2"
+      ],
+      "correct": 0,
+      "explanation": "A flat, mucus-covered lesion in the **right colon** with **serrated crypts** and dilated, sideways-growing crypt bases is a **sessile serrated lesion**. These lesions typically carry a **BRAF** mutation and often show widespread **CpG island hypermethylation**, which can silence **MLH1** and lead to microsatellite-unstable cancer. **APC** is the tempting answer, but it starts the conventional pathway that produces tubular adenomas with dysplastic, crowded nuclei. KRAS and TP53 act later in the conventional adenoma-carcinoma sequence.",
+      "explanation_pt": "Lesão plana coberta por muco no **cólon direito**, com **criptas serrilhadas** e bases dilatadas que crescem lateralmente, é uma **lesão serrilhada séssil**. Essas lesões geralmente têm mutação em **BRAF** e muitas vezes mostram **hipermetilação extensa de ilhas CpG**, que pode silenciar o **MLH1** e levar a câncer com instabilidade de microssatélites. O **APC** é a resposta tentadora, mas ele inicia a via convencional que produz adenomas tubulares com núcleos displásicos e aglomerados. KRAS e TP53 atuam mais tarde na sequência adenoma-carcinoma convencional."
+    },
+    {
+      "slug": "q-colon-ibd-neoplasia-qx-colitis-associated-cancer",
+      "track": "step1",
+      "system": "gastrointestinal",
+      "discipline": "pathology",
+      "tags": [
+        "colon-ibd-neoplasia",
+        "ibd",
+        "colorectal-cancer",
+        "genetics"
+      ],
+      "stem": "A 46-year-old man has had ulcerative colitis of the whole colon for 22 years. A surveillance colonoscopy finds a flat, slightly raised area of high-grade dysplasia in the transverse colon. He has a colectomy. The pathologist finds adenocarcinoma that arose directly from flat dysplastic mucosa, with no preceding polyp. Several other areas of inflamed mucosa with low-grade dysplasia are also seen. Compared with the sporadic adenoma-carcinoma sequence, which gene is typically altered early in this pathway of cancer development?",
+      "choices": [
+        "KRAS",
+        "APC",
+        "BRAF",
+        "TP53",
+        "MLH1"
+      ],
+      "correct": 3,
+      "explanation": "In **colitis-associated cancer**, long-standing inflammation and oxidative DNA damage lead to **TP53** mutation **early**, often in inflamed mucosa before or with low-grade dysplasia, and cancer arises from **flat dysplasia** rather than from a polyp. **APC** is the tempting answer because it is the first step in sporadic colorectal cancer, but in colitis-associated cancer APC loss is uncommon and occurs late. BRAF and MLH1 belong mainly to the serrated and mismatch repair pathways.",
+      "explanation_pt": "No **câncer associado à colite**, a inflamação prolongada e o dano oxidativo ao DNA levam a mutação de **TP53** **precocemente**, muitas vezes em mucosa inflamada antes ou junto com a displasia de baixo grau, e o câncer surge de **displasia plana**, e não de um pólipo. O **APC** é a resposta tentadora porque é o primeiro passo no câncer colorretal esporádico, mas no câncer associado à colite a perda de APC é pouco frequente e tardia. BRAF e MLH1 pertencem principalmente às vias serrilhada e de reparo de erros de pareamento do DNA."
+    }
+  ],
+  "notes": []
+}

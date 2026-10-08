@@ -1,0 +1,150 @@
+{
+  "cards": [],
+  "questions": [
+    {
+      "slug": "q-liver-disease-qx-budd-chiari-site",
+      "track": "step1",
+      "system": "gastrointestinal",
+      "discipline": "pathology",
+      "tags": ["liver-disease", "portal-hypertension", "budd-chiari"],
+      "stem": "A 41-year-old woman has 3 months of right upper abdominal pain and a growing abdomen. For a year she has had itching after warm showers. Exam shows a large, tender liver, a palpable spleen and shifting dullness. The jugular venous pressure is normal, the lungs are clear, and there is no heart murmur. Hemoglobin is 19.4 g/dL and platelets are 610,000/µL. CT shows a large caudate lobe with small, patchy right and left lobes. Blockage at which site best explains her liver disease?",
+      "choices": [
+        "Main portal vein",
+        "Splenic vein",
+        "Hepatic sinusoids, from fibrous scarring",
+        "Hepatic veins",
+        "Tricuspid valve"
+      ],
+      "correct": 3,
+      "explanation": "Polycythemia vera (high hemoglobin, high platelets, itching after warm water) creates a clotting tendency, and thrombosis of the **hepatic veins** causes **Budd-Chiari syndrome**: a painful, congested, enlarged liver with ascites. The **caudate lobe** drains straight into the inferior vena cava through its own small veins, so it is spared and enlarges. Portal vein thrombosis is the tempting choice, because it also occurs in myeloproliferative disease, but it blocks flow before the liver, so the liver is not congested or tender and ascites is usually mild. A normal jugular venous pressure argues against a cardiac cause such as tricuspid disease.",
+      "explanation_pt": "A policitemia vera (hemoglobina alta, plaquetas altas, prurido após banho quente) causa tendência trombótica, e a trombose das **veias hepáticas** causa a **síndrome de Budd-Chiari**: fígado aumentado, congesto e doloroso, com ascite. O **lobo caudado** drena direto para a veia cava inferior por pequenas veias próprias, por isso é poupado e aumenta. A trombose da veia porta é a alternativa tentadora, pois também ocorre nas doenças mieloproliferativas, mas bloqueia o fluxo antes do fígado, então o fígado não fica congesto nem doloroso e a ascite costuma ser discreta. A ausência de estase jugular fala contra causa cardíaca, como doença da valva tricúspide."
+    },
+    {
+      "slug": "q-liver-disease-qx-saag-ascites",
+      "track": "step1",
+      "system": "gastrointestinal",
+      "discipline": "pathology",
+      "tags": ["liver-disease", "ascites", "portal-hypertension"],
+      "stem": "A 57-year-old man with obesity and type 2 diabetes has 2 months of a swollen abdomen. He does not drink alcohol. Exam shows shifting dullness, palmar erythema and a firm liver edge. The jugular venous pressure is normal. A diagnostic paracentesis is done. Serum albumin is 2.9 g/dL. The ascitic fluid shows albumin 0.8 g/dL, total protein 1.0 g/dL, 90 white cells/µL (mostly lymphocytes and mesothelial cells), and negative cytology. Which of the following is the most likely cause of the ascites?",
+      "choices": [
+        "Peritoneal carcinomatosis",
+        "Cirrhosis",
+        "Tuberculous peritonitis",
+        "Nephrotic syndrome",
+        "Right-sided heart failure"
+      ],
+      "correct": 1,
+      "explanation": "The **serum-ascites albumin gradient (SAAG)** is 2.9 − 0.8 = **2.1 g/dL**, which is high (1.1 g/dL or more) and means **portal hypertension**. The **low ascitic protein** points to a sinusoidal cause: in **cirrhosis** (here likely from MASLD) the scarred sinusoids leak little protein. Heart failure is the most tempting choice, because it also gives a high SAAG, but the open sinusoids of a congested liver leak protein-rich fluid, and his jugular venous pressure is normal. Carcinomatosis, tuberculosis and nephrotic syndrome all give a low SAAG.",
+      "explanation_pt": "O **gradiente de albumina soro-ascite (GASA)** é 2,9 − 0,8 = **2,1 g/dL**, que é alto (1,1 g/dL ou mais) e indica **hipertensão portal**. A **proteína baixa no líquido ascítico** aponta para causa sinusoidal: na **cirrose** (aqui provavelmente por MASLD/DHEM) os sinusoides fibrosados deixam passar pouca proteína. A insuficiência cardíaca é a alternativa mais tentadora, pois também dá GASA alto, mas os sinusoides abertos do fígado congesto deixam passar líquido rico em proteína, e ele não tem estase jugular. Carcinomatose, tuberculose e síndrome nefrótica dão GASA baixo."
+    },
+    {
+      "slug": "q-liver-disease-qx-sbp-organism",
+      "track": "step1",
+      "system": "gastrointestinal",
+      "discipline": "pathology",
+      "tags": ["liver-disease", "ascites", "cirrhosis"],
+      "stem": "A 63-year-old woman with cirrhosis from chronic hepatitis C and known ascites becomes confused over 2 days. Temperature is 38.2°C. The abdomen is distended and mildly tender everywhere, without guarding or rebound. An abdominal x-ray shows no free air. Paracentesis shows cloudy fluid with a very high neutrophil count. Culture grows a single organism. Which organism is most likely?",
+      "choices": [
+        "Staphylococcus aureus",
+        "Bacteroides fragilis",
+        "Candida albicans",
+        "Mycobacterium tuberculosis",
+        "Escherichia coli"
+      ],
+      "correct": 4,
+      "explanation": "This is **spontaneous bacterial peritonitis**: infection of ascites without a gut perforation. Gut bacteria **translocate** across the bowel wall into lymph and blood, and poor immune defense in cirrhosis lets them grow in the ascites. It is usually **monomicrobial**, and enteric gram-negative rods such as ***E. coli*** and *Klebsiella* are most common. *Bacteroides fragilis* is tempting because it is a gut organism, but anaerobes are rare in spontaneous peritonitis; many organisms including anaerobes suggest **secondary peritonitis** from a perforation, and tuberculous peritonitis gives a lymphocyte-rich fluid, not a neutrophil-rich one.",
+      "explanation_pt": "Trata-se de **peritonite bacteriana espontânea**: infecção da ascite sem perfuração intestinal. Bactérias intestinais fazem **translocação** pela parede do intestino para a linfa e o sangue, e a defesa imune deficiente na cirrose permite que cresçam na ascite. Costuma ser **monomicrobiana**, e bacilos gram-negativos entéricos como ***E. coli*** e *Klebsiella* são os mais comuns. *Bacteroides fragilis* é tentador por ser da flora intestinal, mas anaeróbios são raros na peritonite espontânea; vários microrganismos, incluindo anaeróbios, sugerem **peritonite secundária** por perfuração, e a peritonite tuberculosa dá líquido rico em linfócitos, e não em neutrófilos."
+    },
+    {
+      "slug": "q-liver-disease-qx-coagulopathy-synthesis",
+      "track": "step1",
+      "system": "gastrointestinal",
+      "discipline": "pathology",
+      "tags": ["liver-disease", "cirrhosis", "coagulopathy"],
+      "stem": "A 62-year-old man with alcoholic cirrhosis is in the hospital before a planned procedure. He is not bleeding. Labs: PT 21 seconds (normal 11-13.5), aPTT 41 seconds (normal 25-35), platelets 78,000/µL, fibrinogen 160 mg/dL (normal 200-400), and factor VIII activity 140% (normal 50-150%). The PT does not change after 3 days of intravenous vitamin K. Which of the following best explains his prolonged PT?",
+      "choices": [
+        "Reduced production of clotting factors by hepatocytes",
+        "Vitamin K deficiency from poor absorption of dietary fat",
+        "Consumption of clotting factors in disseminated intravascular coagulation",
+        "Trapping of platelets in an enlarged spleen",
+        "An acquired antibody that inhibits factor VIII"
+      ],
+      "correct": 0,
+      "explanation": "Hepatocytes make most clotting factors and fibrinogen, so a cirrhotic liver gives a long PT and a low fibrinogen. Because the cells themselves fail, **vitamin K does not correct the PT**. Vitamin K deficiency is the tempting choice, but in that case the liver can still make the factors once vitamin K is given, and the PT improves within days. **Factor VIII** is made mainly by endothelial cells, so it stays normal or high in liver disease but falls in DIC.",
+      "explanation_pt": "Os hepatócitos produzem a maioria dos fatores de coagulação e o fibrinogênio, então o fígado cirrótico causa TP prolongado e fibrinogênio baixo. Como as próprias células falham, **a vitamina K não corrige o TP**. A deficiência de vitamina K é a alternativa tentadora, mas nesse caso o fígado ainda consegue produzir os fatores depois que a vitamina K é administrada, e o TP melhora em poucos dias. O **fator VIII** é produzido principalmente por células endoteliais, então fica normal ou alto na doença hepática, mas cai na CIVD."
+    },
+    {
+      "slug": "q-liver-disease-qx-dubin-johnson-defect",
+      "track": "step1",
+      "system": "gastrointestinal",
+      "discipline": "pathology",
+      "tags": ["liver-disease", "jaundice", "bilirubin"],
+      "stem": "A 23-year-old woman notices yellow eyes 2 months after starting an oral contraceptive. She feels well and has no itching. Labs: total bilirubin 4.8 mg/dL, direct (conjugated) bilirubin 3.6 mg/dL, AST 24 U/L, ALT 20 U/L, alkaline phosphatase 78 U/L, and normal GGT. Hemoglobin and reticulocyte count are normal. Ultrasound shows normal bile ducts. A liver biopsy shows normal architecture, but the hepatocytes contain coarse dark brown-black pigment. Which step of bilirubin handling is defective?",
+      "choices": [
+        "Hepatocyte uptake of unconjugated bilirubin from the blood",
+        "Glucuronidation of bilirubin by UGT1A1 inside hepatocytes",
+        "Canalicular export of conjugated bilirubin",
+        "Bile flow through the large extrahepatic bile ducts",
+        "Conversion of heme to biliverdin by heme oxygenase"
+      ],
+      "correct": 2,
+      "explanation": "Mostly **conjugated** hyperbilirubinemia with normal enzymes, normal ducts and a **black-pigmented liver** is **Dubin-Johnson syndrome**. The **MRP2** pump on the canalicular membrane cannot export conjugated bilirubin into bile, so it backs up into the blood; estrogen and pregnancy can bring out the jaundice. Bile duct obstruction is the tempting choice, but it would raise alkaline phosphatase and GGT, cause itching and dilate the ducts. Poor uptake of unconjugated bilirubin or a UGT1A1 defect would raise mainly **unconjugated** bilirubin. **Rotor syndrome** also gives conjugated hyperbilirubinemia with normal enzymes, but the liver has a normal color.",
+      "explanation_pt": "Hiperbilirrubinemia predominantemente **conjugada (direta)** com enzimas normais, vias biliares normais e **fígado com pigmento negro** é a **síndrome de Dubin-Johnson**. A bomba **MRP2** da membrana canalicular não consegue exportar a bilirrubina conjugada para a bile, e ela reflui para o sangue; estrogênio e gestação podem desencadear a icterícia. A obstrução biliar é a alternativa tentadora, mas elevaria a fosfatase alcalina e a GGT, causaria prurido e dilataria as vias biliares. Captação deficiente de bilirrubina não conjugada ou defeito da UGT1A1 elevariam principalmente a bilirrubina **não conjugada**. A **síndrome de Rotor** também causa hiperbilirrubinemia conjugada com enzimas normais, mas o fígado tem cor normal."
+    },
+    {
+      "slug": "q-liver-disease-qx-crigler-najjar-phenobarbital",
+      "track": "step1",
+      "system": "gastrointestinal",
+      "discipline": "pathology",
+      "tags": ["liver-disease", "jaundice", "bilirubin"],
+      "stem": "A 5-year-old girl has had yellow skin for as long as her parents remember. Growth, development and neurologic exam are normal. Total bilirubin is 14 mg/dL with a direct (conjugated) fraction of 0.3 mg/dL. Hemoglobin, reticulocyte count, AST, ALT and alkaline phosphatase are normal. After 2 weeks of oral phenobarbital, total bilirubin falls to 6 mg/dL. Which of the following best explains the response?",
+      "choices": [
+        "Change of bilirubin into a water-soluble isomer in the skin",
+        "Less breakdown of red cells by splenic macrophages",
+        "Inhibition of heme oxygenase in macrophages",
+        "Induction of residual UGT1A1 enzyme activity",
+        "Greater binding of bilirubin to albumin in the plasma"
+      ],
+      "correct": 3,
+      "explanation": "Lifelong, marked **unconjugated** hyperbilirubinemia with normal development, no hemolysis and a good response to **phenobarbital** fits **Crigler-Najjar syndrome type II**. Phenobarbital **induces UGT1A1**, so the small amount of working enzyme conjugates more bilirubin. In **type I** there is no enzyme to induce, so phenobarbital does not help and kernicterus is a risk. Changing bilirubin into a water-soluble isomer is how **phototherapy** works, not phenobarbital; the normal hemoglobin and reticulocyte count also rule out hemolysis as the cause.",
+      "explanation_pt": "Hiperbilirrubinemia **não conjugada (indireta)** acentuada e de longa data, com desenvolvimento normal, sem hemólise e com boa resposta ao **fenobarbital**, indica **síndrome de Crigler-Najjar tipo II**. O fenobarbital **induz a UGT1A1**, então a pequena quantidade de enzima funcionante conjuga mais bilirrubina. No **tipo I** não há enzima para induzir, então o fenobarbital não ajuda e há risco de kernicterus. Transformar a bilirrubina em um isômero hidrossolúvel é o mecanismo da **fototerapia**, e não do fenobarbital; a hemoglobina e a contagem de reticulócitos normais também afastam hemólise."
+    },
+    {
+      "slug": "q-liver-disease-qx-reye-microvesicular",
+      "track": "step1",
+      "system": "gastrointestinal",
+      "discipline": "pathology",
+      "tags": ["liver-disease", "reye-syndrome", "steatosis"],
+      "stem": "A 7-year-old boy is recovering from chickenpox. His grandmother gave him aspirin tablets for fever. Four days later he starts vomiting many times, then becomes agitated and hard to wake. He has no jaundice. The liver edge is 3 cm below the costal margin. Labs: glucose 46 mg/dL, AST 410 U/L, ALT 380 U/L, total bilirubin 0.9 mg/dL, PT mildly prolonged, and a very high blood ammonia. Cerebrospinal fluid has normal cells and protein. Which liver biopsy finding is most likely?",
+      "choices": [
+        "Ballooned hepatocytes with Mallory-Denk bodies and neutrophils",
+        "Many tiny fat droplets in hepatocytes, with central nuclei",
+        "Bands of necrosis around the central veins without fat",
+        "Interface hepatitis with many plasma cells",
+        "Single large fat vacuoles that push the nucleus aside"
+      ],
+      "correct": 1,
+      "explanation": "**Aspirin** given to a child with a viral illness (varicella or influenza) can cause **Reye syndrome**. **Mitochondrial injury** blocks fatty acid beta-oxidation and the urea cycle, so the liver fills with **microvesicular fat**, and the child has **hypoglycemia**, **hyperammonemia** and brain swelling, usually without jaundice. Large single fat vacuoles (macrovesicular steatosis) are the tempting choice, but they are typical of alcohol, obesity and diabetes, not of acute mitochondrial failure. Centrilobular necrosis without fat fits acetaminophen poisoning or shock, which are not part of this story.",
+      "explanation_pt": "O **ácido acetilsalicílico** dado a uma criança com infecção viral (varicela ou influenza) pode causar a **síndrome de Reye**. A **lesão mitocondrial** bloqueia a beta-oxidação de ácidos graxos e o ciclo da ureia, então o fígado se enche de **gordura microvesicular**, e a criança tem **hipoglicemia**, **hiperamonemia** e edema cerebral, geralmente sem icterícia. Vacúolos de gordura grandes e únicos (esteatose macrovesicular) são a alternativa tentadora, mas são típicos de álcool, obesidade e diabetes, e não de falência mitocondrial aguda. Necrose centrolobular sem gordura combina com intoxicação por paracetamol ou choque, que não fazem parte desta história."
+    },
+    {
+      "slug": "q-liver-disease-qx-autoimmune-hepatitis",
+      "track": "step1",
+      "system": "gastrointestinal",
+      "discipline": "pathology",
+      "tags": ["liver-disease", "autoimmune-hepatitis", "serology"],
+      "stem": "A 26-year-old woman with Hashimoto thyroiditis has 5 weeks of fatigue and yellow eyes. She drinks no alcohol and takes only levothyroxine. Labs: AST 820 U/L, ALT 960 U/L, alkaline phosphatase 150 U/L (normal 40-120), total bilirubin 3.9 mg/dL, and a high serum IgG. HBsAg, anti-HAV IgM and anti-HCV are negative, and ceruloplasmin is normal. A liver biopsy shows lymphocytes and many plasma cells spilling from portal tracts into the nearby lobule. Which antibody is most likely present?",
+      "choices": [
+        "Antimitochondrial antibody",
+        "Anti-double-stranded DNA antibody",
+        "Anti-smooth muscle antibody",
+        "Anti-tissue transglutaminase antibody",
+        "Anticentromere antibody"
+      ],
+      "correct": 2,
+      "explanation": "A young woman with another autoimmune disease, a **hepatocellular** pattern (very high AST and ALT, only mildly raised ALP), **high IgG** and **interface hepatitis with plasma cells** has **autoimmune hepatitis** type 1, marked by **anti-smooth muscle** and antinuclear antibodies. Antimitochondrial antibody is the tempting choice, but it marks **primary biliary cholangitis**, a cholestatic disease of middle-aged women with itching and a very high ALP. Anti-double-stranded DNA marks systemic lupus erythematosus, not a primary liver disease.",
+      "explanation_pt": "Mulher jovem com outra doença autoimune, padrão **hepatocelular** (AST e ALT muito altas, FA só levemente elevada), **IgG alta** e **hepatite de interface com plasmócitos** tem **hepatite autoimune** tipo 1, marcada por anticorpos **antimúsculo liso** e antinucleares. O anticorpo antimitocôndria é a alternativa tentadora, mas marca a **colangite biliar primária**, doença colestática de mulheres de meia-idade com prurido e FA muito alta. O anti-DNA de dupla hélice marca o lúpus eritematoso sistêmico, e não uma doença hepática primária."
+    }
+  ],
+  "notes": []
+}

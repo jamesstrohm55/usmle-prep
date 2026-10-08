@@ -1,0 +1,183 @@
+{
+  "cards": [],
+  "questions": [
+    {
+      "slug": "q-gi-pharmacology-qx-milk-alkali-calcium-carbonate",
+      "track": "step1",
+      "system": "gastrointestinal",
+      "discipline": "pharmacology",
+      "tags": [
+        "gi-pharmacology",
+        "antacids",
+        "hypercalcemia"
+      ],
+      "stem": "A 63-year-old man is brought in because he has been confused and thirsty for 4 days. For 2 months he has treated his heartburn himself by chewing large amounts of one over-the-counter antacid every day. He takes no other drugs. Blood pressure is 104/66 mm Hg and his mucous membranes are dry. Serum calcium is 13.2 mg/dL, phosphate is 4.3 mg/dL, bicarbonate is 35 mEq/L, and creatinine is 2.2 mg/dL (it was 1.0 mg/dL a year ago). PTH is 6 pg/mL (low) and 25-hydroxyvitamin D is normal. Which antacid has he most likely been taking?",
+      "choices": [
+        "Aluminum hydroxide",
+        "Magnesium hydroxide",
+        "Sodium bicarbonate",
+        "Calcium carbonate",
+        "Bismuth subsalicylate"
+      ],
+      "correct": 3,
+      "explanation": "High calcium, **metabolic alkalosis** and acute kidney injury after heavy intake of absorbable calcium plus alkali is **milk-alkali syndrome**, classically from **calcium carbonate**. Hypercalcemia causes renal vasoconstriction and a urinary concentrating defect, so volume depletion and a lower GFR keep the alkalosis going; PTH is appropriately suppressed. The most tempting distractor is sodium bicarbonate, which can cause alkalosis but provides no calcium, so it cannot explain a calcium of 13.2 mg/dL with low PTH.",
+      "explanation_pt": "Cálcio elevado, **alcalose metabólica** e lesão renal aguda após grande ingestão de cálcio absorvível com álcali caracterizam a **síndrome leite-álcali**, classicamente pelo **carbonato de cálcio**. A hipercalcemia causa vasoconstrição renal e defeito de concentração urinária; a hipovolemia e a queda da TFG mantêm a alcalose, e o PTH fica adequadamente suprimido. O distrator mais tentador é o bicarbonato de sódio, que pode causar alcalose, mas não fornece cálcio e não explica cálcio de 13,2 mg/dL com PTH baixo."
+    },
+    {
+      "slug": "q-gi-pharmacology-qx-cimetidine-phenytoin",
+      "track": "step1",
+      "system": "gastrointestinal",
+      "discipline": "pharmacology",
+      "tags": [
+        "gi-pharmacology",
+        "h2-blockers",
+        "drug-interactions"
+      ],
+      "stem": "A 46-year-old man with epilepsy has taken phenytoin for 6 years without seizures or side effects. Ten days ago he bought an over-the-counter tablet for heartburn and has taken it twice a day since then. He now has double vision and an unsteady gait. Exam shows horizontal nystagmus on lateral gaze and a wide-based gait. His serum phenytoin level is about twice his usual value. Liver enzymes and albumin are normal. Which heartburn drug did he most likely take?",
+      "choices": [
+        "Cimetidine",
+        "Famotidine",
+        "Calcium carbonate",
+        "Sucralfate",
+        "Magnesium hydroxide"
+      ],
+      "correct": 0,
+      "explanation": "**Cimetidine** is an H2 blocker that also **inhibits several CYP450 enzymes**, so it slows the metabolism of drugs such as phenytoin, warfarin and theophylline. Phenytoin has **saturable kinetics** that become **zero-order** near the therapeutic range, so a small drop in clearance can raise the level sharply and cause **nystagmus, diplopia and ataxia**. The most tempting distractor is famotidine, which blocks the same receptor but does not meaningfully inhibit CYP450. Calcium and magnesium antacids and sucralfate can lower the absorption of some drugs but do not raise phenytoin levels this way.",
+      "explanation_pt": "A **cimetidina** é um bloqueador H2 que também **inibe várias enzimas do CYP450**, retardando o metabolismo de fármacos como fenitoína, varfarina e teofilina. A fenitoína tem **cinética saturável**, que passa a ser de **ordem zero** perto da faixa terapêutica, então uma pequena queda da depuração pode elevar muito o nível e causar **nistagmo, diplopia e ataxia**. O distrator mais tentador é a famotidina, que bloqueia o mesmo receptor, mas não inibe o CYP450 de forma relevante. Antiácidos de cálcio e magnésio e o sucralfato podem reduzir a absorção de alguns fármacos, mas não elevam o nível de fenitoína dessa forma."
+    },
+    {
+      "slug": "q-gi-pharmacology-qx-ppi-timing-active-pumps",
+      "track": "step1",
+      "system": "gastrointestinal",
+      "discipline": "pharmacology",
+      "tags": [
+        "gi-pharmacology",
+        "proton-pump-inhibitors",
+        "mechanism"
+      ],
+      "stem": "A 52-year-old woman has heartburn several times a week. Endoscopy shows mild erosive esophagitis and no Barrett esophagus. She was prescribed omeprazole once daily, but her symptoms improved only a little. She has been taking the capsule at bedtime, about 4 hours after dinner. Her physician tells her to take it 30 to 60 minutes before breakfast instead. Which property of the drug best explains this advice?",
+      "choices": [
+        "It competes with histamine at receptors on the parietal cell",
+        "It needs food in the stomach to be absorbed",
+        "It is activated by acid and binds only actively secreting pumps",
+        "It reversibly blocks the pump, so its effect lasts only a few hours",
+        "It neutralizes acid that is already in the stomach"
+      ],
+      "correct": 2,
+      "explanation": "**Proton pump inhibitors** are **prodrugs** that become active in the acidic canaliculi of parietal cells and bind **irreversibly** to the **H+/K+ ATPase**, but only to pumps that are **actively secreting**. A meal turns on the most pumps, so the dose works best shortly before the first meal; at bedtime, long after dinner, few pumps are active. The tempting idea that the drug needs food to be absorbed is wrong: the meal matters because it activates the target, not because it helps absorption. The effect also lasts much longer than the short plasma half-life, because the cell must make new pumps.",
+      "explanation_pt": "Os **inibidores da bomba de prótons** são **pró-fármacos** que se ativam nos canalículos ácidos das células parietais e se ligam de forma **irreversível** à **H+/K+ ATPase**, mas apenas às bombas **em secreção ativa**. A refeição ativa o maior número de bombas, por isso a dose funciona melhor pouco antes da primeira refeição; ao deitar, muito depois do jantar, poucas bombas estão ativas. A ideia tentadora de que o fármaco precisa de alimento para ser absorvido está errada: a refeição importa porque ativa o alvo, não porque ajuda a absorção. O efeito também dura muito mais que a curta meia-vida plasmática, porque a célula precisa sintetizar novas bombas."
+    },
+    {
+      "slug": "q-gi-pharmacology-qx-octreotide-gallstones",
+      "track": "step1",
+      "system": "gastrointestinal",
+      "discipline": "pharmacology",
+      "tags": [
+        "gi-pharmacology",
+        "somatostatin-analogs",
+        "adverse-effects",
+        "gallstones"
+      ],
+      "stem": "A 58-year-old man has a small-bowel neuroendocrine tumor with liver metastases. He had flushing and watery diarrhea, which improved after he started monthly injections of a long-acting somatostatin analog 14 months ago. He now has episodes of right upper quadrant pain after fatty meals. Temperature and liver enzymes are normal. He has had no bowel surgery. Ultrasound shows several gallstones, sludge and a large, distended gallbladder. Which mechanism best explains this complication?",
+      "choices": [
+        "Higher hepatic cholesterol secretion caused by an estrogen-like effect",
+        "Hemolysis that increases unconjugated bilirubin in bile",
+        "Loss of bile acids from a diseased terminal ileum",
+        "Bacterial deconjugation of bilirubin in infected bile ducts",
+        "Reduced CCK release and weak gallbladder contraction"
+      ],
+      "correct": 4,
+      "explanation": "**Octreotide** and other **somatostatin analogs** inhibit the release of **cholecystokinin** and directly reduce **gallbladder contraction**. Bile stays in the gallbladder for longer, sludge forms, and **cholesterol gallstones** develop; this is the classic long-term adverse effect. The most tempting distractor is ileal bile-acid loss, which also causes stones, but he has had no ileal resection, his diarrhea is controlled, and the large gallbladder with sludge points to drug-induced stasis. Hemolysis and bile-duct infection cause pigment stones, which this story does not support.",
+      "explanation_pt": "A **octreotida** e outros **análogos da somatostatina** inibem a liberação de **colecistocinina** e reduzem diretamente a **contração da vesícula biliar**. A bile fica parada por mais tempo, forma-se lama biliar e surgem **cálculos de colesterol**; este é o efeito adverso clássico do uso prolongado. O distrator mais tentador é a perda ileal de ácidos biliares, que também causa cálculos, mas ele não fez ressecção ileal, a diarreia está controlada e a vesícula grande com lama biliar aponta para estase induzida pelo fármaco. Hemólise e infecção das vias biliares causam cálculos pigmentados, o que esta história não sustenta."
+    },
+    {
+      "slug": "q-gi-pharmacology-qx-methylnaltrexone-peripheral",
+      "track": "step1",
+      "system": "gastrointestinal",
+      "discipline": "pharmacology",
+      "tags": [
+        "gi-pharmacology",
+        "opioid-induced-constipation",
+        "laxatives"
+      ],
+      "stem": "A 66-year-old woman with metastatic lung cancer takes oral morphine around the clock for bone pain. She has had no bowel movement for 6 days despite daily senna and polyethylene glycol. There are no signs of bowel obstruction. She receives a subcutaneous injection of a mu-opioid receptor antagonist and has a bowel movement 2 hours later. Her pain control does not change, and she has no sweating, yawning or agitation. Which property of this drug best explains these effects?",
+      "choices": [
+        "It is a partial agonist that keeps some analgesic effect",
+        "It cannot cross the blood-brain barrier and acts only peripherally",
+        "It binds kappa receptors in the brain instead of mu receptors",
+        "It is cleared by first-pass liver metabolism before it reaches the brain",
+        "It speeds up the hepatic metabolism of morphine"
+      ],
+      "correct": 1,
+      "explanation": "**Methylnaltrexone** is a **quaternary** (charged) derivative of naltrexone, so it **does not cross the blood-brain barrier**. It blocks **mu receptors in the gut wall** and reverses **opioid-induced constipation** without reducing central analgesia or causing withdrawal. The most tempting distractor is first-pass metabolism, which explains why oral naloxone acts mainly in the gut, but it cannot apply to a drug given by injection. It is avoided in **bowel obstruction**.",
+      "explanation_pt": "A **metilnaltrexona** é um derivado **quaternário** (com carga) da naltrexona, por isso **não atravessa a barreira hematoencefálica**. Bloqueia os **receptores mu da parede intestinal** e reverte a **constipação induzida por opioides** sem reduzir a analgesia central nem causar abstinência. O distrator mais tentador é o metabolismo de primeira passagem, que explica por que a naloxona oral age principalmente no intestino, mas isso não se aplica a um fármaco injetável. Deve ser evitada na **obstrução intestinal**."
+    },
+    {
+      "slug": "q-gi-pharmacology-qx-ursodiol-bariatric",
+      "track": "step1",
+      "system": "gastrointestinal",
+      "discipline": "pharmacology",
+      "tags": [
+        "gi-pharmacology",
+        "ursodiol",
+        "gallstones"
+      ],
+      "stem": "A 39-year-old woman has a body mass index of 46 kg/m2 and undergoes sleeve gastrectomy. She is expected to lose a large amount of weight quickly over the next months. A preoperative ultrasound showed no gallstones. Her surgeon starts an oral bile acid to lower her risk of forming gallstones during the weight loss. Which mechanism best explains how this drug prevents stones?",
+      "choices": [
+        "It lowers cholesterol secretion into bile",
+        "It binds bile acids in the gut lumen and blocks their reabsorption",
+        "It inhibits pancreatic lipase and reduces fat absorption",
+        "It activates PPAR-alpha and increases lipoprotein lipase activity",
+        "It stimulates gallbladder contraction through CCK receptors"
+      ],
+      "correct": 0,
+      "explanation": "**Ursodiol** (ursodeoxycholic acid) is a hydrophilic bile acid. It **reduces hepatic cholesterol secretion into bile** and lowers intestinal cholesterol absorption, so bile becomes **less saturated with cholesterol**; this prevents and can slowly dissolve **cholesterol stones**. Rapid weight loss raises biliary cholesterol and lowers gallbladder motility, which is why it is used after bariatric surgery. The most tempting distractor is PPAR-alpha activation, but **fibrates** actually push more cholesterol into bile and **raise** gallstone risk.",
+      "explanation_pt": "O **ácido ursodesoxicólico** é um ácido biliar hidrofílico. **Reduz a secreção hepática de colesterol na bile** e diminui a absorção intestinal de colesterol, de modo que a bile fica **menos saturada de colesterol**; isso previne e pode dissolver lentamente **cálculos de colesterol**. A perda rápida de peso aumenta o colesterol biliar e reduz a motilidade da vesícula, por isso ele é usado após cirurgia bariátrica. O distrator mais tentador é a ativação do PPAR-alfa, mas os **fibratos** levam mais colesterol para a bile e **aumentam** o risco de cálculos."
+    },
+    {
+      "slug": "q-gi-pharmacology-qx-senna-melanosis-coli",
+      "track": "step1",
+      "system": "gastrointestinal",
+      "discipline": "pharmacology",
+      "tags": [
+        "gi-pharmacology",
+        "laxatives",
+        "adverse-effects"
+      ],
+      "stem": "A 34-year-old woman has had watery diarrhea and muscle weakness for 6 months. She worries a lot about her weight, but she denies using any medicines. Serum potassium is 2.8 mEq/L. Colonoscopy shows dark brown, speckled pigmentation of the colonic mucosa. Biopsy shows many macrophages in the lamina propria that are filled with brown pigment, and there is no inflammation. Which agent is she most likely taking in secret?",
+      "choices": [
+        "Polyethylene glycol",
+        "Lactulose",
+        "Senna",
+        "Magnesium citrate",
+        "Psyllium"
+      ],
+      "correct": 2,
+      "explanation": "Long use of **anthraquinone** stimulant laxatives such as **senna** damages colonic epithelial cells. Macrophages take up the cell debris as brown **lipofuscin**-like pigment, which gives the dark mucosa of **melanosis coli**; it is harmless and fades after the drug is stopped. Stimulant laxatives make the colon secrete water and electrolytes, so abuse causes **hypokalemia**. The most tempting distractor is magnesium citrate, which is also misused, but it causes an osmotic diarrhea with a high stool gap and does not pigment the mucosa.",
+      "explanation_pt": "O uso prolongado de laxantes estimulantes **antraquinônicos**, como o **sene**, lesa as células epiteliais do cólon. Os macrófagos captam os restos celulares como um pigmento marrom semelhante à **lipofuscina**, o que dá a mucosa escura da **melanose coli**; ela é benigna e regride após a suspensão do fármaco. Os laxantes estimulantes fazem o cólon secretar água e eletrólitos, por isso o abuso causa **hipocalemia**. O distrator mais tentador é o citrato de magnésio, que também é usado de forma abusiva, mas causa diarreia osmótica com gap fecal alto e não pigmenta a mucosa."
+    },
+    {
+      "slug": "q-gi-pharmacology-qx-lactulose-ammonia-trapping",
+      "track": "step1",
+      "system": "gastrointestinal",
+      "discipline": "pharmacology",
+      "tags": [
+        "gi-pharmacology",
+        "hepatic-encephalopathy",
+        "laxatives"
+      ],
+      "stem": "A 61-year-old man with cirrhosis from hepatitis C is admitted with confusion and a flapping tremor. He has no fever, bleeding or abdominal pain. Serum ammonia is high. He is given an oral nonabsorbable disaccharide several times a day, and his mental status improves over 3 days as he passes two or three soft stools daily. Which mechanism best explains the main benefit of this drug?",
+      "choices": [
+        "It kills urease-producing bacteria by blocking their RNA polymerase",
+        "It increases urea cycle activity in the liver",
+        "It binds ammonia in the small intestine before absorption",
+        "It increases ammonia excretion by the kidney",
+        "It acidifies the colon and traps ammonia as ammonium"
+      ],
+      "correct": 4,
+      "explanation": "**Lactulose** is not absorbed. Colonic bacteria ferment it into **organic acids**, and the acid lumen converts **NH3 to NH4+**, a charged form that cannot cross the mucosa and is lost in stool. Its **osmotic laxative** effect also speeds transit and removes ammonia-producing bacteria. The most tempting distractor describes **rifaximin**, a poorly absorbed rifamycin that blocks bacterial RNA polymerase and is often added to lactulose, but it is an antibiotic, not a disaccharide.",
+      "explanation_pt": "A **lactulose** não é absorvida. As bactérias do cólon a fermentam em **ácidos orgânicos**, e o lúmen ácido converte **NH3 em NH4+**, uma forma com carga que não atravessa a mucosa e é eliminada nas fezes. Seu efeito de **laxante osmótico** também acelera o trânsito e remove bactérias produtoras de amônia. O distrator mais tentador descreve a **rifaximina**, uma rifamicina pouco absorvida que bloqueia a RNA polimerase bacteriana e costuma ser associada à lactulose, mas ela é um antibiótico, não um dissacarídeo."
+    }
+  ],
+  "notes": []
+}

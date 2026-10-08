@@ -1,0 +1,184 @@
+{
+  "cards": [],
+  "questions": [
+    {
+      "slug": "q-gi-infections-diarrhea-qx-etec-secretory-gap",
+      "track": "step1",
+      "system": "gastrointestinal",
+      "discipline": "microbiology",
+      "tags": [
+        "gi-infections-diarrhea",
+        "diarrhea-classification",
+        "etec"
+      ],
+      "stem": "A 24-year-old woman develops watery diarrhea 3 days after arriving in Mexico for a holiday. She has 6 to 8 loose stools a day with cramps, but no blood and no fever. The diarrhea continues while she takes nothing by mouth for 24 hours. Stool studies show: sodium 120 mEq/L, potassium 25 mEq/L, osmolality 290 mOsm/kg, and no fecal leukocytes. Stool culture grows a lactose-fermenting gram-negative rod, and the isolate makes a small heat-stable toxin but no heat-labile toxin. Which change inside her enterocytes best explains the diarrhea?",
+      "choices": [
+        "Increased cAMP from ADP-ribosylation of Gs alpha",
+        "Removal of an adenine from 28S rRNA in 60S subunits",
+        "Increased cGMP from activation of guanylyl cyclase C",
+        "Glucosylation of Rho GTPases that disrupts actin",
+        "Increased cAMP made by a bacterial adenylyl cyclase toxin"
+      ],
+      "correct": 2,
+      "explanation": "The stool osmotic gap is 290 − 2 × (120 + 25) = **0 mOsm/kg**, and the diarrhea continues during fasting, so this is **secretory diarrhea**. Traveler's diarrhea from **enterotoxigenic E. coli (ETEC)** that makes only the **heat-stable toxin (ST)** works by activating **guanylyl cyclase C**, which raises **cGMP** and drives chloride secretion through CFTR. Raised cAMP through Gs is the tempting choice, but that is how ETEC's **heat-labile toxin (LT)** and cholera toxin work, and this isolate makes no LT. Shiga-like toxin removes an adenine from rRNA, and C. difficile toxins glucosylate Rho; both damage cells and cause inflammatory diarrhea.",
+      "explanation_pt": "O gap osmótico fecal é 290 − 2 × (120 + 25) = **0 mOsm/kg**, e a diarreia persiste durante o jejum, por isso trata-se de **diarreia secretora**. A diarreia do viajante por **E. coli enterotoxigênica (ETEC)** que produz apenas a **toxina termoestável (ST)** age ativando a **guanilato ciclase C**, o que eleva o **GMPc** e estimula a secreção de cloreto pelo CFTR. O aumento de AMPc pela Gs é a opção tentadora, mas esse é o mecanismo da **toxina termolábil (LT)** da ETEC e da toxina colérica, e esta cepa não produz LT. A toxina Shiga-símile remove uma adenina do RNAr, e as toxinas do C. difficile glicosilam a Rho; ambas lesam as células e causam diarreia inflamatória."
+    },
+    {
+      "slug": "q-gi-infections-diarrhea-qx-yersinia-pseudoappendicitis",
+      "track": "step1",
+      "system": "gastrointestinal",
+      "discipline": "microbiology",
+      "tags": [
+        "gi-infections-diarrhea",
+        "yersinia",
+        "pseudoappendicitis"
+      ],
+      "stem": "A 9-year-old boy has 2 days of fever, diarrhea and pain in the right lower abdomen. In the week before, his family prepared and ate chitterlings (pork intestines) for a holiday meal. Temperature is 38.5°C (101.3°F), and there is tenderness in the right lower quadrant. He is taken to surgery for suspected appendicitis. The appendix looks normal, but the terminal ileum is inflamed and several mesenteric lymph nodes are enlarged. Stool culture grows a gram-negative rod that grows better when the sample is kept cold. Which organism is most likely responsible?",
+      "choices": [
+        "Yersinia enterocolitica",
+        "Campylobacter jejuni",
+        "Salmonella enterica serotype Enteritidis",
+        "Shigella sonnei",
+        "Escherichia coli O157:H7"
+      ],
+      "correct": 0,
+      "explanation": "**Yersinia enterocolitica** comes from **pork** (classically chitterlings) and raw milk and causes ileitis with **mesenteric adenitis** that mimics appendicitis (**pseudoappendicitis**). It multiplies at refrigerator temperature, so labs use **cold enrichment**. Campylobacter is the most tempting choice because it also causes fever, diarrhea and sometimes pseudoappendicitis, but it comes mainly from poultry and grows best at **42 °C**, not in the cold. Salmonella Enteritidis comes from poultry and eggs, and Shigella and E. coli O157:H7 cause colitis rather than a right-sided mesenteric lymph node picture.",
+      "explanation_pt": "A **Yersinia enterocolitica** vem da **carne suína** (classicamente as tripas de porco) e do leite cru e causa ileíte com **adenite mesentérica** que imita apendicite (**pseudoapendicite**). Ela se multiplica em temperatura de geladeira, por isso o laboratório usa **enriquecimento a frio**. O Campylobacter é a opção mais tentadora porque também causa febre, diarreia e às vezes pseudoapendicite, mas vem principalmente de aves e cresce melhor a **42 °C**, não no frio. A Salmonella Enteritidis vem de aves e ovos, e Shigella e E. coli O157:H7 causam colite, e não um quadro de linfonodos mesentéricos à direita."
+    },
+    {
+      "slug": "q-gi-infections-diarrhea-qx-shigella-daycare",
+      "track": "step1",
+      "system": "gastrointestinal",
+      "discipline": "microbiology",
+      "tags": [
+        "gi-infections-diarrhea",
+        "shigella",
+        "infective-dose"
+      ],
+      "stem": "A 3-year-old boy who attends a daycare center has had 2 days of fever, crampy abdominal pain and frequent small stools with blood and mucus. Five other children in his group became ill during the same week. No shared food item is identified. Temperature is 39.2°C (102.6°F). Stool microscopy shows many neutrophils. Stool culture grows a gram-negative rod that does not ferment lactose, does not make H2S, and is non-motile. Which property of this organism best explains how easily it spread among the children?",
+      "choices": [
+        "Heat-resistant spores that survive alcohol-based hand gels",
+        "A large reservoir in poultry, eggs and pet reptiles",
+        "Spread through respiratory droplets during coughing",
+        "A preformed toxin made in food kept at room temperature",
+        "Acid resistance, so that very few organisms cause disease"
+      ],
+      "correct": 4,
+      "explanation": "The lab profile (non-lactose fermenter, **no H2S**, **non-motile**) and bloody, neutrophil-rich stools point to **Shigella**. It survives gastric acid well, so a **very small inoculum** causes disease, and it spreads easily **person to person** by the fecal-oral route in daycare centers. The tempting choice is a reservoir in poultry, eggs and reptiles, but that describes non-typhoidal **Salmonella**, which is motile, makes H2S and needs a much larger dose; humans are the only reservoir of Shigella. Spores that resist alcohol describe C. difficile, and a preformed toxin fits S. aureus or emetic B. cereus food poisoning.",
+      "explanation_pt": "O perfil laboratorial (não fermentador de lactose, **sem H2S**, **imóvel**) e as fezes com sangue e ricas em neutrófilos indicam **Shigella**. Ela resiste bem ao ácido gástrico, por isso um **inóculo muito pequeno** causa doença, e ela se espalha facilmente **de pessoa a pessoa** pela via fecal-oral em creches. A opção tentadora é o reservatório em aves, ovos e répteis, mas isso descreve a **Salmonella** não tifoide, que é móvel, produz H2S e precisa de uma dose muito maior; o ser humano é o único reservatório da Shigella. Esporos resistentes ao álcool descrevem o C. difficile, e uma toxina pré-formada corresponde à intoxicação alimentar por S. aureus ou B. cereus emético."
+    },
+    {
+      "slug": "q-gi-infections-diarrhea-qx-reactive-arthritis-sterile",
+      "track": "step1",
+      "system": "gastrointestinal",
+      "discipline": "microbiology",
+      "tags": [
+        "gi-infections-diarrhea",
+        "reactive-arthritis",
+        "post-infectious-complications"
+      ],
+      "stem": "A 27-year-old man has 5 days of pain and swelling of the right knee and left ankle. He also has red, irritated eyes and burning on urination. Three weeks ago he had 4 days of fever and bloody diarrhea after eating undercooked chicken; it went away without treatment. Test results for gonorrhea and chlamydia are negative. Synovial fluid from the knee shows: leukocytes 16,000/mm3, mostly neutrophils; no crystals; Gram stain negative; culture with no growth. Which mechanism best explains his joint disease?",
+      "choices": [
+        "Bacteria carried in the blood that multiply in the synovium",
+        "An immune reaction to gut bacterial antigens with a sterile joint",
+        "Urate crystals that precipitate in the joint after dehydration",
+        "IgM autoantibodies against the Fc portion of IgG",
+        "Direct damage of the synovium by a circulating bacterial exotoxin"
+      ],
+      "correct": 1,
+      "explanation": "This is **reactive arthritis**: an asymmetric arthritis of large leg joints, with **conjunctivitis** and **urethritis**, weeks after an enteric infection (here probably **Campylobacter** from chicken; Salmonella, Shigella and Yersinia also cause it). The joint is inflamed by an **immune response** to bacterial antigens, often in **HLA-B27**-positive people, and the synovial fluid is **sterile** on culture. Septic arthritis is the tempting choice because the fluid is inflammatory, but the negative Gram stain and culture, the several joints and the eye and urethral findings argue against live bacteria in the joint. No crystals were seen, and IgM anti-IgG is rheumatoid factor, a marker of rheumatoid arthritis, which is a symmetric small-joint polyarthritis.",
+      "explanation_pt": "Trata-se de **artrite reativa**: artrite assimétrica de grandes articulações dos membros inferiores, com **conjuntivite** e **uretrite**, semanas após uma infecção entérica (aqui provavelmente **Campylobacter** do frango; Salmonella, Shigella e Yersinia também a causam). A articulação é inflamada por uma **resposta imune** a antígenos bacterianos, muitas vezes em pessoas **HLA-B27** positivas, e o líquido sinovial é **estéril** na cultura. A artrite séptica é a opção tentadora porque o líquido é inflamatório, mas o Gram e a cultura negativos, as várias articulações e os achados oculares e uretrais falam contra bactérias vivas na articulação. Não foram vistos cristais, e a IgM anti-IgG é o fator reumatoide, marcador da artrite reumatoide, que é uma poliartrite simétrica de pequenas articulações."
+    },
+    {
+      "slug": "q-gi-infections-diarrhea-qx-typhoid-carrier",
+      "track": "step1",
+      "system": "gastrointestinal",
+      "discipline": "microbiology",
+      "tags": [
+        "gi-infections-diarrhea",
+        "salmonella",
+        "typhoid",
+        "chronic-carrier"
+      ],
+      "stem": "Four members of a family develop rising fever over a week, headache, abdominal pain and constipation. Two have a relatively slow pulse for their fever, and one has faint pink spots on the abdomen. Blood cultures from all four grow Salmonella enterica serotype Typhi. None of them has traveled. The family's cook is a 58-year-old woman who has felt well for many years; she had a long febrile illness as a young woman. Her stool cultures repeatedly grow the same organism, and an ultrasound shows gallstones. Where does the organism most likely persist in the cook?",
+      "choices": [
+        "Peyer patches of the terminal ileum",
+        "Macrophages of the bone marrow",
+        "Wall of the urinary bladder",
+        "Gallbladder",
+        "Crypts of the sigmoid colon"
+      ],
+      "correct": 3,
+      "explanation": "**Salmonella Typhi** has only human hosts, so outbreaks without travel point to a **chronic carrier**, often a food handler. The carrier state is usually in the **gallbladder**, where the bacteria form biofilms on **gallstones** and are shed into the bile and stool for years. Peyer patches are the tempting choice because Typhi invades them during acute typhoid fever and can make them bleed or perforate, but they are not the site of long-term carriage. Bone marrow is a culture site in acute illness, and urinary carriage is uncommon and linked mainly to schistosomiasis of the bladder.",
+      "explanation_pt": "A **Salmonella Typhi** só tem hospedeiros humanos, por isso surtos sem viagem indicam um **portador crônico**, muitas vezes um manipulador de alimentos. O estado de portador costuma ficar na **vesícula biliar**, onde as bactérias formam biofilmes sobre **cálculos biliares** e são eliminadas na bile e nas fezes por anos. As placas de Peyer são a opção tentadora porque a Typhi as invade na febre tifoide aguda e pode causar sangramento ou perfuração, mas não são o local do estado de portador prolongado. A medula óssea é um local de cultura na doença aguda, e o estado de portador urinário é incomum e ligado principalmente à esquistossomose da bexiga."
+    },
+    {
+      "slug": "q-gi-infections-diarrhea-qx-c-perfringens-stew",
+      "track": "step1",
+      "system": "gastrointestinal",
+      "discipline": "microbiology",
+      "tags": [
+        "gi-infections-diarrhea",
+        "food-poisoning",
+        "c-perfringens"
+      ],
+      "stem": "About 40 people became ill after a community dinner. The main dish was a large pot of beef stew that was cooked the day before, cooled slowly at room temperature and kept warm for several hours before serving. Between 10 and 12 hours after the meal, the ill guests developed crampy abdominal pain and watery diarrhea. Few of them vomited, none had fever, and almost all recovered within 24 hours. Which organism most likely caused this outbreak?",
+      "choices": [
+        "Staphylococcus aureus",
+        "Clostridium perfringens",
+        "Salmonella enterica serotype Enteritidis",
+        "Norovirus",
+        "Clostridium botulinum"
+      ],
+      "correct": 1,
+      "explanation": "**Clostridium perfringens** spores survive cooking and then germinate while a large meat dish **cools slowly** or is **kept warm**. The swallowed bacteria release an **enterotoxin** in the small intestine, so watery diarrhea and cramps start about **8 to 16 hours** later and last about a day, with little vomiting or fever. S. aureus is the tempting choice for a shared-meal outbreak, but its **preformed toxin** causes sudden, heavy **vomiting** within about 1 to 6 hours. Salmonella usually causes fever and a longer illness, norovirus causes prominent vomiting, and botulism causes cranial nerve palsies and descending weakness.",
+      "explanation_pt": "Os esporos do **Clostridium perfringens** sobrevivem ao cozimento e depois germinam enquanto um grande prato de carne **esfria lentamente** ou é **mantido aquecido**. As bactérias ingeridas liberam uma **enterotoxina** no intestino delgado, por isso a diarreia aquosa e as cólicas começam cerca de **8 a 16 horas** depois e duram cerca de um dia, com pouco vômito ou febre. O S. aureus é a opção tentadora em um surto por refeição compartilhada, mas sua **toxina pré-formada** causa **vômitos** súbitos e intensos em cerca de 1 a 6 horas. A Salmonella costuma causar febre e doença mais longa, o norovírus causa vômitos proeminentes e o botulismo causa paralisia de nervos cranianos e fraqueza descendente."
+    },
+    {
+      "slug": "q-gi-infections-diarrhea-qx-norovirus-hand-gel",
+      "track": "step1",
+      "system": "gastrointestinal",
+      "discipline": "microbiology",
+      "tags": [
+        "gi-infections-diarrhea",
+        "viral-gastroenteritis",
+        "norovirus",
+        "infection-control"
+      ],
+      "stem": "In a nursing home, 30 residents and 9 staff members develop sudden vomiting, watery diarrhea and mild fever over 5 days. Each person is ill for 1 to 3 days. Bacterial stool cultures are negative. Staff have been cleaning their hands with alcohol-based gel between residents, but new cases keep appearing. A stool PCR test identifies a small virus with a single-stranded positive-sense RNA genome. Which feature of this virus best explains why the hand gel did not stop the outbreak?",
+      "choices": [
+        "A segmented double-stranded RNA genome",
+        "A spore core rich in calcium dipicolinate",
+        "Frequent reassortment of its genome segments",
+        "Latent infection of the intestinal nerve plexus",
+        "A capsid without a lipid envelope"
+      ],
+      "correct": 4,
+      "explanation": "**Norovirus** causes explosive outbreaks of vomiting and diarrhea in **nursing homes**, cruise ships and hospitals. It is a **nonenveloped** (+) ssRNA virus; alcohol works mainly by disrupting lipid envelopes, so a naked capsid resists alcohol gels, and handwashing with **soap and water** and bleach-based cleaning are preferred. A segmented dsRNA genome describes **rotavirus**, the tempting choice, but rotavirus mainly affects young children and the virus here has a single-stranded RNA genome. A spore core rich in calcium dipicolinate explains alcohol resistance of C. difficile, a bacterium, not a virus.",
+      "explanation_pt": "O **norovírus** causa surtos explosivos de vômitos e diarreia em **casas de repouso**, navios de cruzeiro e hospitais. É um vírus de RNA (+) de fita simples **não envelopado**; o álcool age principalmente desfazendo envelopes lipídicos, por isso um capsídeo nu resiste ao álcool em gel, e a lavagem das mãos com **água e sabão** e a limpeza com hipoclorito são preferidas. Um genoma de RNA de fita dupla segmentado descreve o **rotavírus**, a opção tentadora, mas o rotavírus afeta principalmente crianças pequenas e o vírus aqui tem genoma de RNA de fita simples. Um cerne de esporo rico em dipicolinato de cálcio explica a resistência do C. difficile ao álcool, que é uma bactéria, não um vírus."
+    },
+    {
+      "slug": "q-gi-infections-diarrhea-qx-cholera-oral-rehydration",
+      "track": "step1",
+      "system": "gastrointestinal",
+      "discipline": "microbiology",
+      "tags": [
+        "gi-infections-diarrhea",
+        "vibrio-cholerae",
+        "oral-rehydration"
+      ],
+      "stem": "A 30-year-old man in a crowded camp after a flood has had 1 day of painless, profuse, gray watery stools with flecks of mucus, and he has vomited twice. He is thirsty and weak. Blood pressure is 92/58 mm Hg and pulse is 118/min. Serum studies show: sodium 136 mEq/L, potassium 2.9 mEq/L, chloride 112 mEq/L, bicarbonate 14 mEq/L, and creatinine 1.6 mg/dL. Stool shows curved, motile gram-negative rods and no leukocytes. He improves with an oral solution that contains both glucose and sodium. Why does this solution work despite ongoing toxin activity?",
+      "choices": [
+        "Intact sodium-glucose cotransport in villous cells draws water",
+        "Glucose blocks binding of the toxin to its ganglioside receptor on enterocytes",
+        "Glucose lowers cAMP inside the crypt cells and stops chloride secretion",
+        "Sodium in the solution closes the CFTR chloride channels of the crypts",
+        "Glucose enters through GLUT5 and carries water through the tight junctions"
+      ],
+      "correct": 0,
+      "explanation": "**Cholera toxin** keeps Gs active and raises **cAMP**, so **CFTR** in the crypts secretes chloride and water, but the toxin does not damage the villi. The **SGLT1** sodium-glucose cotransporter still works, so glucose pulls sodium and then **water** back into the body; this is the basis of **oral rehydration solution**. The labs show the stool losses: **hypokalemia** and a **normal anion gap** metabolic acidosis (136 − 112 − 14 = 10) from bicarbonate loss. The tempting idea that glucose reduces cAMP or closes CFTR is wrong: secretion goes on, and the solution works by increasing absorption, not by blocking the toxin; GLUT5 carries fructose, not glucose.",
+      "explanation_pt": "A **toxina colérica** mantém a Gs ativa e eleva o **AMPc**, por isso o **CFTR** das criptas secreta cloreto e água, mas a toxina não lesa as vilosidades. O cotransportador sódio-glicose **SGLT1** continua funcionando, então a glicose leva sódio e depois **água** de volta para o organismo; essa é a base da **solução de reidratação oral**. Os exames mostram as perdas fecais: **hipocalemia** e acidose metabólica com **ânion gap normal** (136 − 112 − 14 = 10) por perda de bicarbonato. A ideia tentadora de que a glicose reduz o AMPc ou fecha o CFTR está errada: a secreção continua, e a solução age aumentando a absorção, não bloqueando a toxina; o GLUT5 transporta frutose, não glicose."
+    }
+  ],
+  "notes": []
+}
