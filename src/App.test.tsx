@@ -1,4 +1,4 @@
-import { render, screen } from '@testing-library/react';
+import { fireEvent, render, screen } from '@testing-library/react';
 
 const fetchRuns = vi.fn();
 vi.mock('./db/queries', () => ({ fetchRuns: () => fetchRuns(), clearCache: vi.fn() }));
@@ -53,4 +53,37 @@ test('the landing loading text is a status', () => {
   fetchRuns.mockReturnValue(new Promise(() => {}));
   render(<App />);
   expect(screen.getByRole('status').textContent).toBe('Loading…');
+});
+
+const navLabels = () => [...document.querySelectorAll('nav > a, nav > button')].map((e) => e.textContent);
+
+describe('EN/PT menu switch', () => {
+  beforeEach(() => localStorage.clear());
+
+  test('defaults to English and switches only the menu to Portuguese, then remembers it', () => {
+    window.location.hash = '#/cards';
+    const { unmount } = render(<App />);
+    expect(screen.getByRole('button', { name: 'EN' }).getAttribute('aria-pressed')).toBe('true');
+    fireEvent.click(screen.getByRole('button', { name: 'PT' }));
+    expect(navLabels()).toEqual(['Hoje', 'Diagnóstico', 'Cartões', 'Questões', 'Notas', 'Buscar', 'Importar / Exportar', 'Sair']);
+    expect(screen.getByRole('button', { name: 'PT' }).getAttribute('aria-pressed')).toBe('true');
+    expect(document.querySelector('nav')!.getAttribute('lang')).toBe('pt-BR');
+    expect(screen.getByText('CardsScreen')).toBeTruthy(); // the screen itself is untouched
+    unmount();
+    render(<App />); // a later visit starts in Portuguese
+    expect(navLabels()[0]).toBe('Hoje');
+    fireEvent.click(screen.getByRole('button', { name: 'EN' }));
+    expect(navLabels()[0]).toBe('Today');
+  });
+
+  test('a storage failure leaves the switch working for this visit', () => {
+    vi.spyOn(Storage.prototype, 'setItem').mockImplementation(() => { throw new Error('blocked'); });
+    vi.spyOn(Storage.prototype, 'getItem').mockImplementation(() => { throw new Error('blocked'); });
+    window.location.hash = '#/notes';
+    render(<App />);
+    expect(navLabels()[0]).toBe('Today');
+    fireEvent.click(screen.getByRole('button', { name: 'PT' }));
+    expect(navLabels()[0]).toBe('Hoje');
+    vi.restoreAllMocks();
+  });
 });

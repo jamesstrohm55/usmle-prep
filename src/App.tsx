@@ -13,17 +13,19 @@ import { Notes } from './features/notes/Notes';
 import { Search } from './features/search/Search';
 import { ImportExport } from './features/import-export/ImportExport';
 import { Icon, type IconName } from './ui/Icon';
+import { LangProvider, LangSwitch, MENU, useLang, type MenuKey } from './ui/lang';
 import { Loading } from './ui/Loading';
 
 function SignOut() {
   const toast = useToast();
+  const { lang } = useLang();
   const go = () => {
     markExplicitSignOut();
     supabase.auth.signOut()
       .catch((e: Error) => { markExplicitSignOut(false); toast.show(`Could not sign out: ${e.message}`); })
       .finally(clearCache);
   };
-  return <button onClick={go}><Icon name="out" />Sign out</button>;
+  return <button onClick={go}><Icon name="out" />{MENU[lang].signOut}</button>;
 }
 
 function Home() {
@@ -38,28 +40,33 @@ function Home() {
   return to ? <Navigate to={to} replace /> : <Loading />;
 }
 
-const NAV: [string, string, IconName][] = [
-  ['/today', 'Today', 'today'], ['/diagnostic', 'Diagnostic', 'diagnostic'], ['/cards', 'Cards', 'cards'],
-  ['/questions', 'Questions', 'questions'], ['/notes', 'Notes', 'notes'], ['/search', 'Search', 'search'], ['/data', 'Import / Export', 'data'],
+const NAV: [string, MenuKey, IconName][] = [
+  ['/today', 'today', 'today'], ['/diagnostic', 'diagnostic', 'diagnostic'], ['/cards', 'cards', 'cards'],
+  ['/questions', 'questions', 'questions'], ['/notes', 'notes', 'notes'], ['/search', 'search', 'search'], ['/data', 'data', 'data'],
 ];
 
 export function Shell({ children }: { children: ReactNode }) {
+  const { lang } = useLang();
   return (
     <div className="shell">
       <aside className="sidebar">
         <div className="brand"><span className="brand-mark"><Icon name="logo" size={19} /></span>USMLE Prep</div>
-        <nav>
-          {NAV.map(([to, label, icon]) => <NavLink key={to} to={to}><Icon name={icon} />{label}</NavLink>)}
+        <nav lang={lang === 'pt' ? 'pt-BR' : undefined}>
+          {NAV.map(([to, key, icon]) => <NavLink key={to} to={to}><Icon name={icon} />{MENU[lang][key]}</NavLink>)}
           <SignOut />
         </nav>
       </aside>
-      <main>{children}</main>
+      <div className="content">
+        <div className="topbar"><LangSwitch /></div>
+        <main>{children}</main>
+      </div>
     </div>
   );
 }
 
 export function App() {
   return (
+    <LangProvider>
     <ToastProvider>
       <AuthGate>
         <HashRouter>
@@ -78,5 +85,6 @@ export function App() {
         </HashRouter>
       </AuthGate>
     </ToastProvider>
+    </LangProvider>
   );
 }
