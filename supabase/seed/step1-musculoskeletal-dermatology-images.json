@@ -67,7 +67,7 @@
       "discipline": "pathology",
       "tags": ["images-musculoskeletal-dermatology", "clinical-photo", "inflammatory-dermatology"],
       "front": "A 30-year-old man has had these scaly lesions on both shins for years. Identify the condition. Name three histologic features.",
-      "back": "**Plaque psoriasis**: well-demarcated red plaques with **silvery scale**, often on extensor surfaces. Histology: **acanthosis** with elongated rete ridges, **parakeratosis** (nuclei kept in the stratum corneum), **neutrophil microabscesses** (Munro) and thin epidermis over the dermal papillae (the cause of pinpoint bleeding when scale is removed, the Auspitz sign).",
+      "back": "**Plaque psoriasis**: well-demarcated red plaques with **silvery scale**, often on extensor surfaces. Histology: **acanthosis** with elongated rete ridges, **parakeratosis** (nuclei kept in stratum corneum), **neutrophil microabscesses** (Munro) and thin epidermis over the dermal papillae (pinpoint bleeding when scale is removed: Auspitz sign).",
       "back_pt": "**Psoríase em placas**: placas vermelhas bem delimitadas com **escamas prateadas**, muitas vezes em superfícies extensoras. Histologia: **acantose** com cristas epidérmicas alongadas, **paraceratose** (núcleos mantidos no estrato córneo), **microabscessos de neutrófilos** (Munro) e epiderme fina sobre as papilas dérmicas (causa do sangramento puntiforme ao remover a escama, o sinal de Auspitz).",
       "image_url": "images/musculoskeletal-dermatology/psoriasis-1.jpg",
       "image_credit": "Drb206, CC BY 4.0, https://commons.wikimedia.org/wiki/File:Psoriasis_on_Human_shins.jpg"

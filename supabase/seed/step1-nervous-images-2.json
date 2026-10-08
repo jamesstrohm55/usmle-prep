@@ -43,7 +43,7 @@
       "discipline": "pathology",
       "tags": ["images-nervous", "histology", "cns-tumors"],
       "front": "This H&E section comes from a midline cerebellar mass in a 6-year-old boy with morning vomiting and an unsteady gait. Look at the crowded dark cells and the pink, fibrillary centers they surround. Name the tumor and these structures.",
-      "back": "**Medulloblastoma**: sheets of **small round blue cells** forming **Homer Wright rosettes** (tumor cells around a pink, fibrillary center with no lumen). It is a malignant embryonal tumor of the cerebellum in children; it can compress the fourth ventricle (hydrocephalus) and spread through the CSF (*drop metastases*).",
+      "back": "**Medulloblastoma**: sheets of **small round blue cells** forming **Homer Wright rosettes** (tumor cells around a pink, fibrillary center, no lumen). A malignant embryonal tumor of the cerebellum in children; it can compress the fourth ventricle (hydrocephalus) and spread via CSF (*drop metastases*).",
       "back_pt": "**Meduloblastoma**: lençóis de **pequenas células redondas e azuis** formando **rosetas de Homer Wright** (células tumorais ao redor de um centro rosado e fibrilar, sem luz). É um tumor embrionário maligno do cerebelo em crianças; pode comprimir o quarto ventrículo (hidrocefalia) e disseminar-se pelo LCR (metástases em gota, *drop metastases*).",
       "image_url": "images/nervous/medulloblastoma-1.jpg",
       "image_credit": "Jensflorian, CC BY-SA 3.0, https://commons.wikimedia.org/wiki/File:Medulloblastoma_with_rosettes.jpg"

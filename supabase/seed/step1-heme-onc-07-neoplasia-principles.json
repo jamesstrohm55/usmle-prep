@@ -31,7 +31,7 @@
     { "slug": "card-neoplasia-principles-apoptosis-pathways", "track": "step1", "system": "hematology-oncology", "discipline": "pathology", "tags": ["neoplasia-principles", "apoptosis"],
       "front": "How do the intrinsic and extrinsic apoptosis pathways differ?",
       "back": "**Intrinsic** (mitochondrial): DNA damage or growth factor loss lets BAX/BAK make pores in the mitochondrial membrane, so **cytochrome c** leaks out and activates **caspase 9**; **BCL2** blocks this. **Extrinsic**: **Fas ligand** binds **Fas** (CD95) and activates **caspase 8**. Both activate executioner caspases (e.g., caspase 3).",
-      "back_pt": "**Intrínseca** (mitocondrial): lesão do DNA ou falta de fatores de crescimento permite que BAX/BAK formem poros na membrana mitocondrial, e o **citocromo c** extravasa e ativa a **caspase 9**; o **BCL2** bloqueia esse passo. **Extrínseca**: o **ligante de Fas** se liga ao **Fas** (CD95) e ativa a **caspase 8**. Ambas ativam caspases executoras (ex.: caspase 3)." }
+      "back_pt": "**Intrínseca** (mitocondrial): lesão do DNA ou falta de fatores de crescimento deixa BAX/BAK formarem poros na mitocôndria, e o **citocromo c** extravasa e ativa a **caspase 9**; o **BCL2** bloqueia isso. **Extrínseca**: o **ligante de Fas** liga-se ao **Fas** (CD95) e ativa a **caspase 8**. Ambas ativam caspases executoras (ex.: caspase 3)." }
   ],
   "questions": [
     { "slug": "q-neoplasia-principles-two-hit-retinoblastoma", "track": "step1", "system": "hematology-oncology", "discipline": "pathology", "tags": ["neoplasia-principles", "tumor-suppressors", "retinoblastoma"],
