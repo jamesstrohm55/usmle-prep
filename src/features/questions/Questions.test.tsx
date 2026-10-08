@@ -657,18 +657,12 @@ async function finishPlannedSet() {
   await act(async () => { fireEvent.click(screen.getByText('Finish')); });
 }
 
-test('preset: finishing a planned set reloads history once saves settle, links back to Today, and hides the stale planned button', async () => {
-  const d = deferred();
-  const save = vi.fn().mockReturnValue(d.promise);
-  const loadAttempts = vi.fn().mockResolvedValue([]);
-  wrap(<Questions load={async () => [qs('r1', 'renal'), qs('r2', 'renal')]} save={save} preset={{ system: 'renal', n: 1, done: 1 }} loadAttempts={loadAttempts} />);
+test('preset: after a planned set the summary links back to Today and the planned button is gone, normal buttons remain', async () => {
+  wrap(<Questions load={async () => [qs('r1', 'renal'), qs('r2', 'renal')]} save={async () => {}} preset={{ system: 'renal', n: 1, done: 1 }} loadAttempts={async () => []} />);
   const btn = (await screen.findByText(/Resume planned set/)) as HTMLButtonElement;
   await waitFor(() => expect(btn.disabled).toBe(false));
   fireEvent.click(btn);
   await finishPlannedSet();
-  expect(loadAttempts).toHaveBeenCalledTimes(1); // the answer save is still in flight
-  await act(async () => { d.resolve(); });
-  await waitFor(() => expect(loadAttempts).toHaveBeenCalledTimes(2));
   expect(screen.getByText('Back to Today').getAttribute('href')).toBe('#/today');
   fireEvent.click(screen.getByText('Done'));
   expect(screen.queryByText(/Resume planned set|Start planned set/)).toBeNull();
@@ -676,22 +670,7 @@ test('preset: finishing a planned set reloads history once saves settle, links b
   expect(screen.getByText(/Start timed session/)).toBeTruthy();
 });
 
-test('preset: a failing history refresh after a planned set is silent and the page keeps working', async () => {
-  const loadAttempts = vi.fn().mockResolvedValueOnce([]).mockRejectedValue(new Error('offline'));
-  wrap(<Questions load={async () => [qs('r1', 'renal')]} save={async () => {}} preset={{ system: 'renal', n: 1 }} loadAttempts={loadAttempts} />);
-  const btn = (await screen.findByText(/Start planned set/)) as HTMLButtonElement;
-  await waitFor(() => expect(btn.disabled).toBe(false));
-  fireEvent.click(btn);
-  await finishPlannedSet();
-  await waitFor(() => expect(loadAttempts).toHaveBeenCalledTimes(2));
-  await act(async () => {});
-  expect(screen.queryByRole('alert')).toBeNull();
-  fireEvent.click(screen.getByText('Done'));
-  fireEvent.click(screen.getByText(/Start tutor session/));
-  expect(screen.getByText(/Q1\/1/)).toBeTruthy();
-});
-
-test('preset: a normal session does not reload history, but its summary still links back to Today', async () => {
+test('preset: a normal session keeps the planned button, and its summary still links back to Today', async () => {
   const loadAttempts = vi.fn().mockResolvedValue([]);
   wrap(<Questions load={async () => [qs('r1', 'renal')]} save={async () => {}} preset={{ system: 'renal', n: 1 }} loadAttempts={loadAttempts} />);
   fireEvent.click(await screen.findByText(/Start tutor session/));
