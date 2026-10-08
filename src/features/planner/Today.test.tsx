@@ -180,6 +180,165 @@ test('minutes set but nothing to do shows a message instead of an empty list', a
   expect(screen.queryAllByRole('listitem')).toHaveLength(0);
 });
 
+// --- progress, fixed day plan, mark read, pace clamp, override max ---
+
+const PLAN_KEY = 'plan:2026-10-07';
+const today = (h: number, m = 0) => new Date(2026, 9, 7, h, m).toISOString();
+const ans = (q: string, when = today(10), ms = 90_000) => ({ question_id: q, correct: true, duration_ms: ms, answered_at: when });
+const rv = (c: string, when = today(10), ms = 20_000) => ({ card_id: c, duration_ms: ms, reviewed_at: when });
+const item = (re: RegExp) => screen.getAllByRole('listitem').find((li) => re.test(li.textContent ?? ''))!;
+
+test('question task shows distinct questions answered today in its system', async () => {
+  const attempts = [
+    ...qs(12).map((q) => ans(q.id)), ans(`${SYS}-q0`), // a repeat does not count twice
+    ...qs(5, 'Nervous').map((q) => ans(q.id)), // another system does not count
+    ans(`${SYS}-q20`, new Date(2026, 9, 6, 23, 59).toISOString()), // yesterday does not count
+  ];
+  localStorage.setItem(PLAN_KEY, JSON.stringify({ minutes: 15, tasks: [{ kind: 'questions', system: SYS, count: 10, minutes: 15 }] }));
+  show(data({ questions: [...qs(40), ...qs(5, 'Nervous')], attempts, settings: wedSettings(15) }));
+  await screen.findByText(/Answer 10 /);
+  expect(item(/Answer 10/).textContent).toMatch(/12\/10/);
+});
+
+test('a finished task is checked and struck, and all done shows when every task is done', async () => {
+  show(data({ questions: qs(40), attempts: qs(10).map((q) => ans(q.id)), settings: wedSettings(15) }));
+  await screen.findByText(/Answer 10 /);
+  const li = item(/Answer 10/);
+  expect(li.textContent).toMatch(/✓/);
+  expect(li.className).toBe('done');
+  expect(screen.getByText('All done for today.')).toBeTruthy();
+});
+
+test('an unfinished task has no check and no all-done message', async () => {
+  show(data({ questions: qs(40), attempts: qs(3).map((q) => ans(q.id)), settings: wedSettings(15) }));
+  await screen.findByText(/Answer 10 /);
+  expect(item(/Answer 10/).textContent).toMatch(/3\/10/);
+  expect(item(/Answer 10/).textContent).not.toMatch(/✓/);
+  expect(screen.queryByText('All done for today.')).toBeNull();
+});
+
+test('flashcard task counts distinct cards reviewed today', async () => {
+  const past = new Date(2026, 9, 1).toISOString();
+  const states = new Map(cs(12).map((c) => [c.id, { due: past }]));
+  const reviews = [rv(`${SYS}-c0`), rv(`${SYS}-c0`), rv(`${SYS}-c1`), rv(`${SYS}-c2`, new Date(2026, 9, 6, 23, 59).toISOString())];
+  show(data({ states, cards: cs(12), reviews }));
+  await screen.findByText(/Review 12 flashcards/);
+  expect(item(/Review 12/).textContent).toMatch(/2\/12/);
+});
+
+test('the day plan is saved and reused even when the data changes', async () => {
+  const { unmount } = show(data({ questions: qs(40) }));
+  await screen.findByText(/Answer 40 /);
+  expect(JSON.parse(localStorage.getItem(PLAN_KEY)!)).toMatchObject({ minutes: 60, tasks: [{ kind: 'questions', count: 40 }] });
+  unmount();
+  // Later: questions all answered, more content, due cards appear. The plan stays put, progress moves.
+  const past = new Date(2026, 9, 1).toISOString();
+  show(data({ questions: qs(80), attempts: qs(40).map((q) => ans(q.id)), cards: cs(30), states: new Map(cs(30).map((c) => [c.id, { due: past }])) }));
+  await screen.findByText(/Answer 40 /);
+  expect(screen.queryByText(/Review \d+ flashcards/)).toBeNull();
+  expect(item(/Answer 40/).textContent).toMatch(/40\/40/);
+  expect(screen.getByText('All done for today.')).toBeTruthy();
+});
+
+test('a snapshot from another day or for other minutes is not used', async () => {
+  const stale = JSON.stringify({ minutes: 60, tasks: [{ kind: 'questions', system: SYS, count: 3, minutes: 4.5 }] });
+  localStorage.setItem('plan:2026-10-06', stale);
+  localStorage.setItem(PLAN_KEY, JSON.stringify({ minutes: 30, tasks: [{ kind: 'questions', system: SYS, count: 3, minutes: 4.5 }] }));
+  show(data({ questions: qs(40) }));
+  expect(await screen.findByText(/Answer 40 /)).toBeTruthy();
+  expect(JSON.parse(localStorage.getItem(PLAN_KEY)!).minutes).toBe(60);
+});
+
+test('changing minutes today rebuilds and resaves the plan', async () => {
+  show(data({ questions: qs(40) }));
+  await screen.findByText(/Answer 40 /);
+  fireEvent.change(screen.getByLabelText(/minutes today/i), { target: { value: '30' } });
+  expect(screen.getByText(/Answer 20 /)).toBeTruthy();
+  expect(JSON.parse(localStorage.getItem(PLAN_KEY)!)).toMatchObject({ minutes: 30, tasks: [{ count: 20 }] });
+});
+
+test('a corrupt snapshot is ignored and replaced', async () => {
+  localStorage.setItem(PLAN_KEY, '{oops');
+  show(data({ questions: qs(40) }));
+  expect(await screen.findByText(/Answer 40 /)).toBeTruthy();
+  expect(JSON.parse(localStorage.getItem(PLAN_KEY)!).minutes).toBe(60);
+});
+
+test('Rebuild plan discards the snapshot and recomputes from current data', async () => {
+  localStorage.setItem(PLAN_KEY, JSON.stringify({ minutes: 60, tasks: [{ kind: 'questions', system: SYS, count: 3, minutes: 4.5 }] }));
+  show(data({ questions: qs(40) }));
+  expect(await screen.findByText(/Answer 3 /)).toBeTruthy();
+  fireEvent.click(screen.getByRole('button', { name: 'Rebuild plan' }));
+  expect(screen.getByText(/Answer 40 /)).toBeTruthy();
+  expect(JSON.parse(localStorage.getItem(PLAN_KEY)!).tasks[0].count).toBe(40);
+});
+
+test('throwing storage: progress and Rebuild plan still work', async () => {
+  vi.spyOn(Storage.prototype, 'getItem').mockImplementation(() => { throw new Error('denied'); });
+  vi.spyOn(Storage.prototype, 'setItem').mockImplementation(() => { throw new Error('denied'); });
+  vi.spyOn(Storage.prototype, 'removeItem').mockImplementation(() => { throw new Error('denied'); });
+  show(data({ questions: qs(40), attempts: qs(5).map((q) => ans(q.id)) }));
+  await screen.findByText(/Answer 40 /);
+  expect(item(/Answer 40/).textContent).toMatch(/5\/40/);
+  fireEvent.click(screen.getByRole('button', { name: 'Rebuild plan' }));
+  expect(screen.getByText(/Answer 40 /)).toBeTruthy();
+});
+
+const noteDay = () => data({
+  notes: [{ id: 'n1', title: 'Nephron basics', system: SYS, tags: ['t1'] }],
+  questions: [...qs(40), ...qs(40, 'Skin')], settings: wedSettings(180), // ties rank alphabetically: Renal is the focus
+});
+
+test('the note task is marked read per day and remembered', async () => {
+  const { unmount } = show(noteDay());
+  await screen.findByText(/Nephron basics/);
+  const box = screen.getByRole('checkbox', { name: /mark read/i }) as HTMLInputElement;
+  expect(box.checked).toBe(false);
+  expect(item(/Nephron/).className).toBe('');
+  fireEvent.click(box);
+  expect(box.checked).toBe(true);
+  expect(item(/Nephron/).className).toBe('done');
+  const key = `note-done:2026-10-07:${SYS}`;
+  expect(localStorage.getItem(key)).toBe('1');
+  unmount();
+  show(noteDay());
+  await screen.findByText(/Nephron basics/);
+  expect((screen.getByRole('checkbox', { name: /mark read/i }) as HTMLInputElement).checked).toBe(true);
+  fireEvent.click(screen.getByRole('checkbox', { name: /mark read/i }));
+  expect(localStorage.getItem(key)).toBeNull();
+});
+
+test('mark read works with throwing storage for this visit', async () => {
+  vi.spyOn(Storage.prototype, 'getItem').mockImplementation(() => { throw new Error('denied'); });
+  vi.spyOn(Storage.prototype, 'setItem').mockImplementation(() => { throw new Error('denied'); });
+  show(noteDay());
+  await screen.findByText(/Nephron basics/);
+  fireEvent.click(screen.getByRole('checkbox', { name: /mark read/i }));
+  expect(item(/Nephron/).className).toBe('done');
+});
+
+test('a tiny measured card pace is clamped to 8 s per card', async () => {
+  const past = new Date(2026, 9, 1).toISOString();
+  const states = new Map(cs(1000).map((c) => [c.id, { due: past }]));
+  const reviews = cs(50).map((c) => rv(c.id, new Date(2026, 9, 5).toISOString(), 1000)); // 1 s per card
+  show(data({ states, cards: cs(1000), reviews }));
+  const li = (await screen.findAllByRole('listitem'))[0];
+  const n = Number(li.textContent!.match(/Review (\d+) flashcards/)![1]);
+  expect(n).toBeLessThanOrEqual(Math.floor((0.4 * 60 * 60) / 8));
+});
+
+test('override above 600 shows a maximum note and uses 600', async () => {
+  show(data({ questions: qs(1000) }));
+  await screen.findByText(/Answer 40 /);
+  const box = screen.getByLabelText(/minutes today/i);
+  expect(box.getAttribute('max')).toBe('600');
+  expect(screen.queryByText(/Maximum is 600/)).toBeNull();
+  fireEvent.change(box, { target: { value: '6010' } });
+  expect(screen.getByRole('status').textContent).toBe('Maximum is 600 minutes, using 600.');
+  fireEvent.change(box, { target: { value: '600' } });
+  expect(screen.queryByText(/Maximum is 600/)).toBeNull();
+});
+
 test('loading is a status and the weekly progress bar is labelled', async () => {
   show(data());
   expect(screen.getByRole('status')).toBeTruthy();
