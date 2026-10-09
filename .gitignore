@@ -7,3 +7,8 @@ dist
 .superpowers
 tsconfig.tsbuildinfo
 .content-work
+
+# local tooling (graphify knowledge graph, Claude Code config)
+graphify-out
+.claude
+CLAUDE.md
