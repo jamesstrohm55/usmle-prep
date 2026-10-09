@@ -124,3 +124,13 @@ describe('account in the top right', () => {
     expect(document.querySelector('.account')).toBeNull();
   });
 });
+
+test('a nearly invisible build version sits under Sign out, for checking which deploy is live', () => {
+  window.location.hash = '#/notes';
+  render(<App />);
+  const v = document.querySelector('.sidebar .version')!;
+  expect(v.textContent).toMatch(/^[0-9a-f]{7}$/); // short commit id
+  expect(v.getAttribute('title')).toMatch(/^Build [0-9a-f]{7} · \d{4}-\d{2}-\d{2}/);
+  expect(v.previousElementSibling!.tagName).toBe('NAV'); // directly below the menu that holds Sign out
+  expect(v.getAttribute('aria-hidden')).toBe('true'); // decoration for the owner, not screen-reader content
+});

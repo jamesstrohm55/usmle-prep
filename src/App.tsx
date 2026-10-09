@@ -56,6 +56,7 @@ export function Shell({ children }: { children: ReactNode }) {
           {NAV.map(([to, key, icon]) => <NavLink key={to} to={to}><Icon name={icon} />{MENU[lang][key]}</NavLink>)}
           <SignOut />
         </nav>
+        <div className="version" title={`Build ${__BUILD_SHA__} · ${__BUILD_DATE__} UTC`} aria-hidden="true">{__BUILD_SHA__}</div>
       </aside>
       <div className="content">
         <div className="topbar"><LangSwitch /><Account /></div>

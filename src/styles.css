@@ -345,3 +345,7 @@ a.button.primary:hover { background: var(--accent-hover); border-color: var(--ac
 .account .avatar { display: grid; place-items: center; background: var(--accent-soft); color: var(--accent); font-size: .74rem; font-weight: 700; }
 .account-name { font-size: .86rem; font-weight: 560; color: var(--ink); white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
 @media (max-width: 760px) { .account-name { display: none; } .account { padding-right: 3px; } }
+
+/* Build id under Sign out: there for the owner, practically invisible to everyone else. */
+.version { margin-top: 6px; text-align: center; font-size: .66rem; letter-spacing: .06em; font-variant-numeric: tabular-nums; color: var(--side-ink); opacity: .22; user-select: all; }
+@media (max-width: 760px) { .version { display: none; } }
