@@ -2,7 +2,10 @@ import { fireEvent, render, screen } from '@testing-library/react';
 
 const fetchRuns = vi.fn();
 vi.mock('./db/queries', () => ({ fetchRuns: () => fetchRuns(), clearCache: vi.fn() }));
-vi.mock('./db/client', () => ({ supabase: { auth: { signOut: vi.fn() } } }));
+const getSession = vi.fn();
+vi.mock('./db/client', () => ({
+  supabase: { auth: { signOut: vi.fn(), getSession: () => getSession(), onAuthStateChange: () => ({ data: { subscription: { unsubscribe: vi.fn() } } }) } },
+}));
 vi.mock('./features/auth/AuthGate', () => ({ AuthGate: ({ children }: { children: React.ReactNode }) => <>{children}</> }));
 vi.mock('./features/planner/Today', () => ({ Today: () => <div>TodayScreen</div> }));
 vi.mock('./features/diagnostic/Diagnostic', () => ({ Diagnostic: () => <div>DiagnosticScreen</div> }));
@@ -14,7 +17,7 @@ vi.mock('./features/import-export/ImportExport', () => ({ ImportExport: () => <d
 
 import { App } from './App';
 
-beforeEach(() => { fetchRuns.mockReset(); window.location.hash = '#/'; });
+beforeEach(() => { fetchRuns.mockReset(); getSession.mockReset(); getSession.mockResolvedValue({ data: { session: null } }); window.location.hash = '#/'; });
 
 test('landing with a completed run goes to Today', async () => {
   fetchRuns.mockResolvedValue([{ status: 'abandoned' }, { status: 'completed' }]);
@@ -85,5 +88,39 @@ describe('EN/PT menu switch', () => {
     fireEvent.click(screen.getByRole('button', { name: 'PT' }));
     expect(navLabels()[0]).toBe('Hoje');
     vi.restoreAllMocks();
+  });
+});
+
+describe('account in the top right', () => {
+  const session = (user: object) => getSession.mockResolvedValue({ data: { session: { user } } });
+
+  test('shows the Google account name and photo', async () => {
+    session({ email: 'v@x.co', user_metadata: { full_name: 'Vanessa Silva', avatar_url: 'https://lh3.example/photo.jpg' } });
+    window.location.hash = '#/notes';
+    render(<App />);
+    expect(await screen.findByText('Vanessa Silva')).toBeTruthy();
+    const img = document.querySelector('.account img') as HTMLImageElement;
+    expect(img.getAttribute('src')).toBe('https://lh3.example/photo.jpg');
+    expect(img.getAttribute('referrerpolicy')).toBe('no-referrer');
+  });
+
+  test('falls back to the name field, then the email, and to initials without a photo', async () => {
+    session({ email: 'jim@x.co', user_metadata: { name: 'James Strohm' } });
+    window.location.hash = '#/notes';
+    const { unmount } = render(<App />);
+    expect(await screen.findByText('James Strohm')).toBeTruthy();
+    expect(document.querySelector('.account img')).toBeNull();
+    expect(document.querySelector('.account .avatar')!.textContent).toBe('JS');
+    unmount();
+    session({ email: 'only@x.co' });
+    render(<App />);
+    expect(await screen.findByText('only@x.co')).toBeTruthy();
+  });
+
+  test('shows nothing when nobody is signed in', async () => {
+    window.location.hash = '#/notes';
+    render(<App />);
+    await screen.findByText('NotesScreen');
+    expect(document.querySelector('.account')).toBeNull();
   });
 });

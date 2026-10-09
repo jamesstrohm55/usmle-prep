@@ -13,6 +13,7 @@ import { Notes } from './features/notes/Notes';
 import { Search } from './features/search/Search';
 import { ImportExport } from './features/import-export/ImportExport';
 import { Icon, type IconName } from './ui/Icon';
+import { Account } from './ui/Account';
 import { LangProvider, LangSwitch, MENU, useLang, type MenuKey } from './ui/lang';
 import { Loading } from './ui/Loading';
 
@@ -57,7 +58,7 @@ export function Shell({ children }: { children: ReactNode }) {
         </nav>
       </aside>
       <div className="content">
-        <div className="topbar"><LangSwitch /></div>
+        <div className="topbar"><LangSwitch /><Account /></div>
         <main>{children}</main>
       </div>
     </div>
