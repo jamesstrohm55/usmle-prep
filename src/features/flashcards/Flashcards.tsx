@@ -9,6 +9,7 @@ import { ItemImage } from '../../ui/ItemImage';
 import { systemLabel } from '../../ui/systemLabel';
 import { Loading } from '../../ui/Loading';
 import { useT } from '../../ui/lang';
+import { errMsg } from '../../ui/errMsg';
 
 type States = Map<string, CardStateRow>;
 const loadData = async () => ({ cards: await fetchCards(), states: (await fetchCardStates()) as States });
@@ -39,7 +40,7 @@ export function Flashcards({ load = loadData, save = saveReview }: { load?: type
       setData(d);
       const states = new Map([...d.states].map(([id, r]) => [id, { due: new Date(r.due) }]));
       setQueue(buildQueue(d.cards.map((c) => c.id), states, new Date(), NEW_PER_SESSION));
-    }).catch((e) => setLoadError(e.message));
+    }).catch((e) => setLoadError(errMsg(e)));
   }, []);
   useEffect(refresh, [refresh]);
 
@@ -64,7 +65,7 @@ export function Flashcards({ load = loadData, save = saveReview }: { load?: type
       await save(current.id, toRow(card), rating, now.getTime() - shownAt.current);
     } catch (e) {
       // retry is a no-op if the card has since moved on (stale closure would re-save and skip a card)
-      toast.show(tr('Could not save your rating: {m}', { m: (e as Error).message }), () => { if (alive.current && turn.current === myTurn) rate(rating); });
+      toast.show(tr('Could not save your rating: {m}', { m: errMsg(e) }), () => { if (alive.current && turn.current === myTurn) rate(rating); });
       return;
     } finally {
       busy.current = false;
@@ -82,14 +83,14 @@ export function Flashcards({ load = loadData, save = saveReview }: { load?: type
   }
 
   const flag = (status: 'flagged' | 'verified', ok: string, note?: string) =>
-    setItemStatus('card', current!.id, status, note).then(() => toast.show(ok), (e) => toast.show(tr('Could not update status: {m}', { m: e.message })));
+    setItemStatus('card', current!.id, status, note).then(() => toast.show(ok), (e) => toast.show(tr('Could not update status: {m}', { m: errMsg(e) })));
   function flagWrong() {
     const note = window.prompt(tr('What is wrong? (optional)'));
     if (note === null) return; // cancelled: do not flag
     flag('flagged', tr('Flagged for review.'), note.trim() || undefined);
   }
 
-  if (loadError) return <p>{tr('Could not load cards:')} {loadError} <button onClick={refresh}>{tr('Retry')}</button></p>;
+  if (loadError) return <p role="alert">{tr('Could not load cards:')} {loadError} <button onClick={refresh}>{tr('Retry')}</button></p>;
   if (!data) return <Loading />;
   if (!current) return <p>{tr('Nothing due. Come back later, or add cards on the Import tab.')}</p>;
 

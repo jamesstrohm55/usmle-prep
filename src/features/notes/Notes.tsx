@@ -5,6 +5,7 @@ import { Rich } from '../../ui/Rich';
 import { systemLabel } from '../../ui/systemLabel';
 import { Loading } from '../../ui/Loading';
 import { useT } from '../../ui/lang';
+import { errMsg } from '../../ui/errMsg';
 
 export function Notes({ load = fetchNotes }: { load?: typeof fetchNotes }) {
   const tr = useT();
@@ -16,11 +17,11 @@ export function Notes({ load = fetchNotes }: { load?: typeof fetchNotes }) {
 
   const refresh = useCallback(() => {
     setError(null);
-    loadRef.current().then(setNotes).catch((e) => setError(e.message));
+    loadRef.current().then(setNotes).catch((e) => setError(errMsg(e)));
   }, []);
   useEffect(refresh, [refresh]);
 
-  if (error) return <p>{tr('Could not load notes:')} {error} <button onClick={refresh}>{tr('Retry')}</button></p>;
+  if (error) return <p role="alert">{tr('Could not load notes:')} {error} <button onClick={refresh}>{tr('Retry')}</button></p>;
   if (!notes) return <Loading />;
   if (!notes.length) return <p>{tr('No notes yet.')}</p>;
 

@@ -14,6 +14,7 @@ import { uuid } from '../../ui/uuid';
 import { systemLabel } from '../../ui/systemLabel';
 import { Loading } from '../../ui/Loading';
 import { useT } from '../../ui/lang';
+import { errMsg } from '../../ui/errMsg';
 
 export async function loadDiagnostic() {
   const [questions, attempts, runs] = await Promise.all([fetchQuestions(), fetchAttempts(), fetchRuns()]);
@@ -74,7 +75,7 @@ export function Diagnostic({ load = loadDiagnostic, deps = DEPS }: { load?: () =
       const rows = r ? await depsRef.current.fetchRunAttempts(r.id) : [];
       if (!alive.current) return;
       setData(d); resetRun(r, rows); setView(r?.status === 'completed' ? 'results' : 'home');
-    })().catch((e) => { if (alive.current) setError(e.message); });
+    })().catch((e) => { if (alive.current) setError(errMsg(e)); });
   }, []);
   useEffect(refresh, [refresh]);
 
@@ -103,7 +104,7 @@ export function Diagnostic({ load = loadDiagnostic, deps = DEPS }: { load?: () =
     } catch (e) {
       const msg = (e as { code?: string }).code === '23505'
         ? tr('A diagnostic is already in progress on another device. Reload to resume it.')
-        : tr('Could not start the diagnostic: {m}', { m: (e as Error).message });
+        : tr('Could not start the diagnostic: {m}', { m: errMsg(e) });
       toast.show(msg, start);
     } finally { busy.current = false; }
   }
@@ -119,7 +120,7 @@ export function Diagnostic({ load = loadDiagnostic, deps = DEPS }: { load?: () =
         answeredIds.current = new Set(rows.map((a) => a.question_id));
         setAnswered(rows);
       } catch (e) {
-        if (alive.current && runId.current === r.id) toast.show(tr('Could not finish the diagnostic: {m}', { m: (e as Error).message }), go);
+        if (alive.current && runId.current === r.id) toast.show(tr('Could not finish the diagnostic: {m}', { m: errMsg(e) }), go);
       }
     };
     go();
@@ -142,7 +143,7 @@ export function Diagnostic({ load = loadDiagnostic, deps = DEPS }: { load?: () =
     } catch (e) {
       // 23505 = unique (session_id, question_id): an earlier save of this answer already landed.
       if ((e as { code?: string }).code !== '23505') {
-        if (alive.current && runId.current === r.id) toast.show(tr('Could not save your answer: {m}', { m: (e as Error).message }), () => submit(r, a, row));
+        if (alive.current && runId.current === r.id) toast.show(tr('Could not save your answer: {m}', { m: errMsg(e) }), () => submit(r, a, row));
         return;
       }
     } finally { busy.current = false; if (alive.current) setSaving(false); }
@@ -161,7 +162,7 @@ export function Diagnostic({ load = loadDiagnostic, deps = DEPS }: { load?: () =
     try {
       await depsRef.current.setRunStatus(run!.id, 'abandoned');
       if (alive.current) { resetRun(null, []); setView('home'); }
-    } catch (e) { toast.show(tr('Could not start over: {m}', { m: (e as Error).message }), startOver); }
+    } catch (e) { toast.show(tr('Could not start over: {m}', { m: errMsg(e) }), startOver); }
   }
 
   if (view === 'question' && current) return (

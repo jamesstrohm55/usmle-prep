@@ -51,6 +51,7 @@ export const PT: Record<string, string> = {
   'Could not save:': 'Não foi possível salvar:',
   'Set a target date in Plan settings to see your countdown.': 'Defina a data da prova nas configurações do plano para ver a contagem regressiva.',
   'Your target date passed. Set a new one in Plan settings.': 'A data da prova já passou. Defina uma nova nas configurações do plano.',
+  'Exam day is today': 'A prova é hoje',
   '1 day left': 'falta 1 dia',
   '{n} days left': 'faltam {n} dias',
   'Could not load your plan:': 'Não foi possível carregar seu plano:',

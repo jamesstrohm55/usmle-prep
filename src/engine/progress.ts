@@ -7,7 +7,8 @@ export type Snapshot = { minutes: number; tasks: Task[]; since: number; hasCompl
 // Distinct cards reviewed and distinct questions answered (per system) during the local calendar day of `now`,
 // counting only activity at or after `since`.
 export function doneToday(attempts: Attempt[], reviews: Review[], qSystem: Map<string, string>, now: Date, since = -Infinity): Done {
-  const start = Math.max(since, new Date(now.getFullYear(), now.getMonth(), now.getDate()).getTime());
+  // A `since` in the future (clock moved back) would freeze progress at 0, so it is ignored: count from local midnight.
+  const start = Math.max(since > now.getTime() ? -Infinity : since, new Date(now.getFullYear(), now.getMonth(), now.getDate()).getTime());
   const end = new Date(now.getFullYear(), now.getMonth(), now.getDate() + 1).getTime();
   const today = (iso: string) => { const t = Date.parse(iso); return t >= start && t < end; };
   const cards = new Set(reviews.filter((r) => today(r.reviewed_at)).map((r) => r.card_id));

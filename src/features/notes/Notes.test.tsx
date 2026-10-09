@@ -42,3 +42,8 @@ test('failed load shows inline error with Retry, not endless Loading', async () 
   fireEvent.click(screen.getByText('Retry'));
   expect(await screen.findByText(/title-1/)).toBeTruthy();
 });
+
+test('a load that rejects with a plain string shows that text, not "undefined"', async () => {
+  wrap(<Notes load={() => Promise.reject('network down') as never} />);
+  expect(await screen.findByText(/Could not load notes: network down/)).toBeTruthy();
+});

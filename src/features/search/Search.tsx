@@ -6,6 +6,7 @@ import { ItemImage } from '../../ui/ItemImage';
 import { Rich } from '../../ui/Rich';
 import { Loading } from '../../ui/Loading';
 import { useT } from '../../ui/lang';
+import { errMsg } from '../../ui/errMsg';
 
 type Hit = Awaited<ReturnType<typeof search>>[number];
 type Row = Card | Question | Note;
@@ -54,7 +55,7 @@ function HitItem({ hit, lookup }: { hit: Hit; lookup: typeof lookupRow }) {
     setData({ state: 'loading' });
     lookup(hit.kind, hit.id).then(
       (row) => setData(row ? { state: 'ok', row } : { state: 'missing' }),
-      (e: Error) => setData({ state: 'error', msg: e.message }),
+      (e: unknown) => setData({ state: 'error', msg: errMsg(e) }),
     );
   }
   function toggle() {
@@ -96,7 +97,7 @@ export function Search({ load = search, lookup = lookupRow }: { load?: typeof se
       const r = await load(term);
       if (mine === seq.current) setHits(r);
     } catch (err) {
-      if (mine === seq.current) toast.show(tr('Search failed: {m}', { m: (err as Error).message }), () => run(term));
+      if (mine === seq.current) toast.show(tr('Search failed: {m}', { m: errMsg(err) }), () => run(term));
     }
   }
 

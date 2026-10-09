@@ -853,3 +853,27 @@ test('Portuguese: buttons and messages are translated, the question and answers 
   expect(screen.getByText(/^exp-/)).toBeTruthy(); // English explanation untouched
   localStorage.clear();
 });
+
+test('focus moves to the question text when a session starts and on Next, for keyboard and screen-reader users', async () => {
+  wrap(<Questions load={async () => [q('1'), q('2')]} save={async () => {}} />);
+  fireEvent.click(await screen.findByText(/Start tutor session/));
+  await waitFor(() => expect(document.activeElement?.textContent).toMatch(/^stem-/));
+  fireEvent.click(screen.getByText('B1'));
+  fireEvent.click(screen.getByText('Next'));
+  await waitFor(() => expect(document.activeElement?.className).toBe('stem'));
+  expect(document.activeElement?.textContent).toMatch(/^stem-/);
+});
+
+test('a question load error is announced as an alert', async () => {
+  wrap(<Questions load={() => Promise.reject(new Error('offline'))} save={async () => {}} />);
+  expect((await screen.findByRole('alert')).textContent).toMatch(/Could not load questions: offline/);
+});
+
+test('a timed-session clock tick does not pull focus away from the control the student is on', async () => {
+  wrap(<Questions load={async () => [q('1'), q('2')]} save={async () => {}} />);
+  fireEvent.click(await screen.findByText(/Start timed session/));
+  const choice = screen.getByText('C1');
+  choice.focus();
+  await act(async () => { await new Promise((r) => setTimeout(r, 1200)); }); // at least one 1 s clock tick re-renders the screen
+  expect(document.activeElement).toBe(choice);
+});

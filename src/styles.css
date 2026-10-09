@@ -205,6 +205,7 @@ p[role='status']:empty { margin: 0; }
 .q-top .meter { flex: 1; height: 6px; border-radius: 999px; background: var(--line-2); overflow: hidden; }
 .q-top .meter > i { display: block; height: 100%; background: var(--accent); border-radius: 999px; }
 .q-top small { font-variant-numeric: tabular-nums; white-space: nowrap; }
+.stem:focus { outline: none; }
 .stem { font-size: 1.06rem; line-height: 1.7; margin-bottom: 18px; }
 .choices { counter-reset: choice; display: flex; flex-direction: column; gap: 9px; margin-bottom: 8px; }
 .choice-row { display: flex; align-items: center; gap: 10px; font-weight: 700; }

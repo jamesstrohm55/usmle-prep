@@ -72,7 +72,7 @@ describe.skipIf(!process.env.LOCAL_API_URL)('RLS (needs local Supabase)', () => 
     expect(error).toBeNull();
     expect((await other.client.from('card_state').select('*')).data).toEqual([]);
     const forged = await other.client.from('card_state').insert({ ...row, user_id: vanessa.id });
-    expect(forged.error).not.toBeNull();
+    expect(forged.error?.code).toBe('42501'); // row-level security refuses a row for someone else
   });
 
   test('admin can write curated content; student flags are visible to admin only', async () => {
@@ -178,7 +178,7 @@ describe.skipIf(!process.env.LOCAL_API_URL)('RLS (needs local Supabase)', () => 
     const second = await vanessa.client.from('diagnostic_runs').insert({ question_ids: ids, seed: 's2' });
     expect(second.error?.code).toBe('23505');
     const steal = await vanessa.client.from('diagnostic_runs').update({ user_id: other.id }).eq('id', a.data!.id).select();
-    expect(steal.error !== null || steal.data!.length === 0).toBe(true);
+    expect(steal.error?.code).toBe('42501'); // moving her run to another user is refused outright, not silently ignored
     expect((await admin.from('diagnostic_runs').select('user_id').eq('id', a.data!.id).single()).data!.user_id).toBe(vanessa.id);
     expect((await other.client.from('diagnostic_runs').select('*')).data).toEqual([]);
     const done = await vanessa.client.from('diagnostic_runs').update({ status: 'completed', completed_at: new Date().toISOString() }).eq('id', a.data!.id).select();

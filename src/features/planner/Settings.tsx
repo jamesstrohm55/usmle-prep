@@ -1,6 +1,7 @@
 import { useState } from 'react';
 import type { Settings as StudySettings } from '../../db/queries';
 import { useT } from '../../ui/lang';
+import { errMsg } from '../../ui/errMsg';
 
 const DAYS = ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday'];
 const clampMin = (v: string) => Math.min(600, Math.max(0, Math.round(Number(v)) || 0));
@@ -15,7 +16,7 @@ export function Settings({ value, onSave }: { value: StudySettings; onSave: (s: 
   async function save() {
     setBusy(true); setError(null);
     try { await onSave({ target_date: date || null, minutes_by_weekday: mins.map(clampMin) }); }
-    catch (e) { setError((e as Error).message); }
+    catch (e) { setError(errMsg(e)); }
     finally { setBusy(false); }
   }
   return (

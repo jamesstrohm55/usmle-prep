@@ -5,6 +5,7 @@ import { useToast } from '../../ui/Toast';
 import { parseCardsCsv, parseQuestionsJson } from './parse';
 import { buildBackup, describeImport, importCards, importQuestions, type ImportProgress, type TableSpec } from './transfer';
 import { useT } from '../../ui/lang';
+import { errMsg } from '../../ui/errMsg';
 
 async function userId() {
   const { data } = await supabase.auth.getUser();
@@ -20,7 +21,6 @@ const fetchTable = (spec: TableSpec) =>
     return q.range(a, b);
   });
 
-const errMsg = (e: unknown) => (e instanceof Error ? e.message : String(e));
 
 export function ImportExport() {
   const toast = useToast();

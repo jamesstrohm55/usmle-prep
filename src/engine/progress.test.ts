@@ -74,3 +74,17 @@ test('parseSnapshot rejects other minutes, a changed diagnostic state, a bad sin
     snap({ tasks: [null] }),
   ]) expect(parseSnapshot(raw, 60, true)).toBeNull();
 });
+
+test('a since in the future (clock moved back) does not freeze progress: activity earlier today still counts', () => {
+  const future = NOW.getTime() + 36 * 3_600_000;
+  const d = doneToday(
+    [att('q1', iso(9, 7, 9, 0)), att('q2', iso(9, 7, 11, 55)), att('q3', iso(9, 6, 23, 0))],
+    [rev('c1', iso(9, 7, 9, 0)), rev('c2', iso(9, 6, 23, 0))],
+    qSystem, NOW, future,
+  );
+  expect(d.cards).toBe(1); // yesterday still excluded
+  expect(d.questions).toEqual({ renal: 2 });
+  // and the result does not depend on when Today happens to recompute
+  const later = new Date(NOW.getTime() + 5 * 60_000);
+  expect(doneToday([att('q1', iso(9, 7, 9, 0)), att('q2', iso(9, 7, 11, 55))], [], qSystem, later, future).questions).toEqual({ renal: 2 });
+});

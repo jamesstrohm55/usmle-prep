@@ -509,3 +509,9 @@ test('Portuguese: tile titles, plan text and settings follow the language, study
   expect(screen.getByRole('link', { name: /Responder 10 questões de/ })).toBeTruthy();
   expect(screen.queryByText('Your tasks')).toBeNull();
 });
+
+test('on the target date the countdown says it is exam day instead of "0 days left"', async () => {
+  show(data({ settings: { ...DEFAULT_SETTINGS, target_date: '2026-10-07' } }));
+  expect(await screen.findByText('Exam day is today')).toBeTruthy();
+  expect(screen.queryByText(/0 days left/)).toBeNull();
+});

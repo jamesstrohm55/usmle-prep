@@ -11,6 +11,7 @@ import { uuid } from '../../ui/uuid';
 import { systemLabel } from '../../ui/systemLabel';
 import { Loading } from '../../ui/Loading';
 import { useT } from '../../ui/lang';
+import { errMsg } from '../../ui/errMsg';
 
 // One answer's row, built once when answered so a Retry re-sends it unchanged and never reads another session's state.
 // rejected = the server refused this row for good (integrity error): it is never re-sent and offers no Retry.
@@ -48,13 +49,14 @@ export function Questions({ load = fetchQuestions, save = saveAttempts, preset, 
   const finishedRef = useRef(false);
   const deadlineRef = useRef(0);
   const modeRef = useRef<Mode | null>(null);
+  const stemRef = useRef<HTMLParagraphElement>(null);
   const pendingRef = useRef<Pending[]>([]); // this session's answer rows; start() swaps in a fresh array
   // Once used, the planned button's Resume numbers are stale for this visit, so it is hidden.
   const [plannedUsed, setPlannedUsed] = useState(false);
 
   const refresh = useCallback(() => {
     setLoadError(null);
-    load().then(setBank).catch((e) => setLoadError(e.message));
+    load().then(setBank).catch((e) => setLoadError(errMsg(e)));
   }, [load]);
   useEffect(refresh, [refresh]);
 
@@ -84,6 +86,10 @@ export function Questions({ load = fetchQuestions, save = saveAttempts, preset, 
     setMode(m); setSession(pool); setIdx(0); setAnswers([]); setFinished(false); setShowPt(false);
     sessionId.current = uuid(); shownAt.current = Date.now();
   }
+
+  // Move focus to the question text whenever a new question is shown (keyboard and screen-reader users).
+  const shownIdx = mode && !finished ? idx : -1;
+  useEffect(() => { if (shownIdx >= 0) stemRef.current?.focus(); }, [shownIdx, session]);
 
   const alive = useRef(true);
   // Unmount dismisses the toast: its Retry could no longer send (see send), so it must not linger.
@@ -128,7 +134,7 @@ export function Questions({ load = fetchQuestions, save = saveAttempts, preset, 
 
   function setStatus(id: string, status: 'flagged' | 'verified', ok: string, note?: string) {
     if (!alive.current) return;
-    setItemStatus('question', id, status, note).then(() => toast.show(ok)).catch((e) => toast.show(tr('Could not update question: {m}', { m: (e as Error).message }), () => setStatus(id, status, ok, note)));
+    setItemStatus('question', id, status, note).then(() => toast.show(ok)).catch((e) => toast.show(tr('Could not update question: {m}', { m: errMsg(e) }), () => setStatus(id, status, ok, note)));
   }
   function flag(id: string) {
     const note = window.prompt(tr('What is wrong? (optional)'));
@@ -158,7 +164,7 @@ export function Questions({ load = fetchQuestions, save = saveAttempts, preset, 
     Promise.all(ps.map((p) => p.inFlight)).then(() => send(ps, 'Could not save results')).then(report);
   }
 
-  if (loadError) return <p>{tr('Could not load questions:')} {loadError} <button onClick={refresh}>{tr('Retry')}</button></p>;
+  if (loadError) return <p role="alert">{tr('Could not load questions:')} {loadError} <button onClick={refresh}>{tr('Retry')}</button></p>;
   if (!bank) return <Loading />;
   if (!bank.length) return <p>{tr('No questions yet.')}</p>;
 
@@ -212,7 +218,7 @@ export function Questions({ load = fetchQuestions, save = saveAttempts, preset, 
         <small>Q{idx + 1}/{session.length}{mode === 'timed' && ` · ${tr('{time} left', { time: `${Math.floor(remaining / 60)}:${String(remaining % 60).padStart(2, '0')}` })}`}</small>
         <div className="meter" aria-hidden="true"><i style={{ width: `${((idx + (answered ? 1 : 0)) / session.length) * 100}%` }} /></div>
       </div>
-      <p className="stem">{q.stem}</p>
+      <p className="stem" ref={stemRef} tabIndex={-1}>{q.stem}</p>
       <ItemImage src={q.image_url} credit={q.image_credit} />
       <div className="choices">{q.choices.map((c, i) => (
         <div key={i} className={`choice-row${answered && mode === 'tutor' ? (i === q.correct ? ' correct' : answered.chosen === i ? ' wrong' : '') : ''}`}>
@@ -239,12 +245,15 @@ export function Questions({ load = fetchQuestions, save = saveAttempts, preset, 
   );
 }
 
+// A long day can plan hundreds of questions (600 minutes at 30 s each), so the URL accepts up to this many.
+const MAX_SET = 1000;
+
 export function QuestionsRoute() {
   const [p] = useSearchParams();
   const system = p.get('system') ?? '';
   const n = Number(p.get('n'));
   const ok = system && Number.isInteger(n) && n >= 1;
   const d = Number(p.get('done'));
-  const done = Number.isInteger(d) && d >= 0 && d <= 100 ? d : 0; // missing/garbled => 0
-  return <Questions preset={ok ? { system, n: Math.min(100, n), done, practice: p.get('practice') === '1' } : undefined} />;
+  const done = Number.isInteger(d) && d >= 0 ? Math.min(MAX_SET, d) : 0; // missing/garbled => 0, huge => clamped like n
+  return <Questions preset={ok ? { system, n: Math.min(MAX_SET, n), done, practice: p.get('practice') === '1' } : undefined} />;
 }

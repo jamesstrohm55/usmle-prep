@@ -15,6 +15,7 @@ import { useLang, useT, type Tr } from '../../ui/lang';
 import { doneToday, parseSnapshot, type Snapshot } from '../../engine/progress';
 import { getLastUserId } from '../../db/lastUser';
 import { Loading } from '../../ui/Loading';
+import { errMsg } from '../../ui/errMsg';
 
 // Stagger index for the tiles' blur-fade entrance (see .tile in styles.css).
 const at = (i: number) => ({ '--i': i }) as React.CSSProperties;
@@ -43,6 +44,7 @@ const lastDurations = (rows: { duration_ms: number }[]) => rows.slice(-200).map(
 function daysLeftText(n: number | null, tr: Tr) {
   if (n === null) return tr('Set a target date in Plan settings to see your countdown.');
   if (n < 0) return tr('Your target date passed. Set a new one in Plan settings.');
+  if (n === 0) return tr('Exam day is today');
   return n === 1 ? tr('1 day left') : tr('{n} days left', { n });
 }
 
@@ -71,7 +73,7 @@ export function Today({ load = loadToday, save = saveSettings, now = () => new D
   useEffect(() => { alive.current = true; return () => { alive.current = false; }; }, []);
   const refresh = useCallback(() => {
     setError(null);
-    loadRef.current().then((d) => { if (alive.current) setData(d); }).catch((e) => { if (alive.current) setError(e.message); });
+    loadRef.current().then((d) => { if (alive.current) setData(d); }).catch((e) => { if (alive.current) setError(errMsg(e)); });
   }, []);
   useEffect(refresh, [refresh]);
 
