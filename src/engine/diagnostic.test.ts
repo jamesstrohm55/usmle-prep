@@ -1,5 +1,5 @@
 import { SYSTEM_WEIGHTS, weightOf } from './blueprint';
-import { allocate, sampleDiagnostic, summarizeRun, seededRng, DIAGNOSTIC_SIZE } from './diagnostic';
+import { allocate, sampleDiagnostic, summarizeRun, seededRng, weakestFirst, DIAGNOSTIC_SIZE } from './diagnostic';
 
 const bank = (counts: Record<string, number>) =>
   Object.entries(counts).flatMap(([system, n]) => Array.from({ length: n }, (_, i) => ({ id: `${system}-${i}`, system })));
@@ -71,4 +71,23 @@ test('summarizeRun: per-system accuracy, low confidence under 5 answered, dedupe
 test('summarizeRun: unanswered system has null accuracy', () => {
   const s = summarizeRun(bank({ renal: 3 }), []);
   expect(s.bySystem[0].accuracy).toBeNull();
+});
+
+const res = (system: string, answered: number, correct: number) => ({
+  system, total: answered || 4, answered, correct, accuracy: answered ? correct / answered : null, lowConfidence: answered < 5,
+});
+
+test('weakestFirst: enough-data systems by accuracy, then low-confidence ones, then unanswered; ties by exam weight', () => {
+  const out = weakestFirst([
+    res('endocrine', 6, 6), res('cardiovascular', 8, 4), res('renal', 2, 0), res('nervous', 8, 4), res('psychiatry', 0, 0), res('immunology', 5, 3),
+  ]).map((r) => r.system);
+  // 50% cardio and nervous tie (nervous and cardiovascular weights are both 9, then alphabetical), 60% immunology, 100% endocrine;
+  // then the low-confidence renal; then the unanswered psychiatry.
+  expect(out).toEqual(['cardiovascular', 'nervous', 'immunology', 'endocrine', 'renal', 'psychiatry']);
+});
+
+test('weakestFirst does not change its input', () => {
+  const input = [res('renal', 8, 2), res('endocrine', 8, 8)];
+  weakestFirst(input);
+  expect(input.map((r) => r.system)).toEqual(['renal', 'endocrine']);
 });

@@ -80,3 +80,11 @@ export function summarizeRun(run: QLite[], attempts: { question_id: string; corr
     bySystem,
   };
 }
+
+// Results order for the student: systems with enough answers by accuracy (weakest first), then the low-confidence ones,
+// then systems she never reached. Ties go to the system that counts more on the exam, then by name.
+export function weakestFirst(rows: SystemResult[]): SystemResult[] {
+  const group = (r: SystemResult) => (r.answered === 0 ? 2 : r.lowConfidence ? 1 : 0);
+  return [...rows].sort((a, b) =>
+    group(a) - group(b) || (a.accuracy ?? 0) - (b.accuracy ?? 0) || weightOf(b.system) - weightOf(a.system) || a.system.localeCompare(b.system));
+}

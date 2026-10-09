@@ -357,3 +357,51 @@ test('a status update that touches no rows does not break finishing', async () =
   fireEvent.click(await screen.findByText('See results'));
   expect(await screen.findByText('1 of 1 correct')).toBeTruthy();
 });
+
+test('results: overall percentage, weakest system first with a bar each, a link to Today', async () => {
+  const custom = [
+    ...Array.from({ length: 8 }, (_, i) => q(`c${i}`, 'cardiovascular')),
+    ...Array.from({ length: 8 }, (_, i) => q(`n${i}`, 'nervous')),
+    ...Array.from({ length: 4 }, (_, i) => q(`r${i}`, 'renal')),
+  ];
+  const ids = custom.map((x) => x.id);
+  const answers = [
+    ...ids.filter((id) => id.startsWith('c')).map((id, i) => ({ question_id: id, chosen: 0, correct: i < 7 })), // 7 of 8
+    ...ids.filter((id) => id.startsWith('n')).map((id, i) => ({ question_id: id, chosen: 0, correct: i < 3 })), // 3 of 8
+    ...ids.filter((id) => id.startsWith('r')).map((id) => ({ question_id: id, chosen: 0, correct: true })), // 4 of 4, few answers
+  ];
+  setup({ questions: custom, runs: [mkRun('completed', ids)] }, { fetchRunAttempts: vi.fn(async () => answers) });
+  expect(await screen.findByText('14 of 20 correct')).toBeTruthy();
+  expect(screen.getByText('70% correct overall')).toBeTruthy();
+  const items = [...document.querySelectorAll('.results li')];
+  expect(items.map((li) => li.textContent)).toEqual([
+    'Nervous: 3 of 8 correct (38%)',
+    'Cardiovascular: 7 of 8 correct (88%)',
+    'Renal: 4 of 4 correct (100%) · low confidence',
+  ]);
+  expect([...document.querySelectorAll('.results .bar i')].map((i) => (i as HTMLElement).style.width)).toEqual(['38%', '88%', '100%']);
+  expect(screen.getByRole('link', { name: 'Go to Today' }).getAttribute('href')).toBe('#/today');
+});
+
+test('results: a system she never reached says "not answered" without a low-confidence flag, and unanswered questions count against the overall percentage', async () => {
+  const ids = ORDER.slice(0, 8).concat(ORDER.slice(8)); // 8 cardiovascular + 4 renal
+  const answers = rows(ORDER.slice(0, 8)); // all cardiovascular correct, no renal answered
+  setup({ runs: [mkRun('completed', ids)] }, { fetchRunAttempts: vi.fn(async () => answers) });
+  expect(await screen.findByText('8 of 12 correct')).toBeTruthy();
+  expect(screen.getByText('67% correct overall')).toBeTruthy(); // 8 of 12, not 100% of the answered ones
+  expect([...document.querySelectorAll('.results li')].map((li) => li.textContent)).toEqual([
+    'Cardiovascular: 8 of 8 correct (100%)',
+    'Renal: not answered',
+  ]);
+});
+
+test('results: keyboard focus lands on the results heading when the view switches', async () => {
+  const prior = rows(ORDER.slice(0, 11));
+  const after = [...prior, { question_id: 'r3', chosen: 0, correct: false }];
+  setup({ runs: [mkRun('in_progress')] }, { fetchRunAttempts: vi.fn().mockResolvedValueOnce(prior).mockResolvedValue(after) });
+  fireEvent.click(await screen.findByText('Resume'));
+  fireEvent.click(screen.getByText('A1'));
+  await screen.findByText('exp-r3');
+  fireEvent.click(screen.getByText('See results'));
+  await waitFor(() => expect(document.activeElement?.className).toBe('summary-score'));
+});

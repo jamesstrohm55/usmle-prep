@@ -4,7 +4,7 @@ import {
 } from '../../db/queries';
 import type { Question } from '../../db/models';
 import type { AttemptInsert } from '../../db/queries';
-import { sampleDiagnostic, summarizeRun } from '../../engine/diagnostic';
+import { sampleDiagnostic, summarizeRun, weakestFirst } from '../../engine/diagnostic';
 import { latestPerQuestion } from '../../engine/planner';
 import { gradeAnswer, type Answer } from '../../engine/mcq';
 import { useToast } from '../../ui/Toast';
@@ -50,6 +50,7 @@ export function Diagnostic({ load = loadDiagnostic, deps = DEPS }: { load?: () =
   const answeredIds = useRef(new Set<string>());
   const answeredThisVisit = useRef(new Set<string>()); // survives resetRun so a later draw skips them
   const stemRef = useRef<HTMLParagraphElement>(null);
+  const resultsRef = useRef<HTMLHeadingElement>(null);
   const busy = useRef(false);
   const runId = useRef<string | null>(null); // a late save or Retry for another run must not land here
   const shownAt = useRef(Date.now());
@@ -64,7 +65,8 @@ export function Diagnostic({ load = loadDiagnostic, deps = DEPS }: { load?: () =
   };
 
   const focusId = view === 'question' ? run?.question_ids.find((id) => !answeredIds.current.has(id)) : undefined;
-  useEffect(() => { stemRef.current?.focus(); }, [focusId, view]);
+  // Keyboard and screen-reader focus follows the view: the question text, or the results heading.
+  useEffect(() => { (view === 'results' ? resultsRef : stemRef).current?.focus(); }, [focusId, view]);
 
   const refresh = useCallback(() => {
     setError(null);
@@ -203,16 +205,28 @@ export function Diagnostic({ load = loadDiagnostic, deps = DEPS }: { load?: () =
 
   if (view === 'results' && run) {
     const s = summarizeRun(runQs, answered);
+    const overall = s.total ? Math.round((s.correct / s.total) * 100) : 0; // unanswered count as missed, like the headline
     return (
       <div className="card">
-        <h2 className="summary-score">{tr('{c} of {t} correct', { c: s.correct, t: s.total })}</h2>
-        <ul className="results">{s.bySystem.map((r) => (
+        <div className="results-head">
+          <div>
+            <h2 className="summary-score" ref={resultsRef} tabIndex={-1}>{tr('{c} of {t} correct', { c: s.correct, t: s.total })}</h2>
+            <p className="muted">{tr('{p}% correct overall', { p: overall })}</p>
+          </div>
+          <a className="button primary" href="#/today">{tr('Go to Today')}</a>
+        </div>
+        <ul className="results">{weakestFirst(s.bySystem).map((r) => (
           <li key={r.system}>
-            {systemLabel(r.system, tr)}: {r.accuracy === null ? tr('not answered') : tr('{c} of {a} correct ({p})', { c: r.correct, a: r.answered, p: pct(r.accuracy) })}
-            {r.lowConfidence && ` · ${tr('low confidence')}`}
+            <span>
+              {systemLabel(r.system, tr)}: {r.accuracy === null ? tr('not answered') : tr('{c} of {a} correct ({p})', { c: r.correct, a: r.answered, p: pct(r.accuracy) })}
+              {r.answered > 0 && r.lowConfidence && ` · ${tr('low confidence')}`}
+            </span>
+            <span className="bar" aria-hidden="true">
+              {r.accuracy !== null && <i className={r.accuracy < 0.5 ? 'low' : r.accuracy < 0.7 ? 'mid' : ''} style={{ width: pct(r.accuracy) }} />}
+            </span>
           </li>
         ))}</ul>
-        <button className="primary" onClick={start}>{tr('Start another diagnostic')}</button>
+        <p className="q-nav"><button onClick={start}>{tr('Start another diagnostic')}</button></p>
       </div>
     );
   }

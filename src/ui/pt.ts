@@ -120,6 +120,8 @@ export const PT: Record<string, string> = {
   '{c} of {a} correct ({p})': '{c} de {a} corretas ({p})',
   'low confidence': 'baixa confiança',
   'Start another diagnostic': 'Iniciar outro diagnóstico',
+  '{p}% correct overall': '{p}% de acertos no geral',
+  'Go to Today': 'Ir para Hoje',
   'Start over': 'Recomeçar',
   'Diagnostic': 'Diagnóstico',
   'The diagnostic samples about 100 questions across systems to find where you stand. Answer in short sittings: pause any time and resume later. Explanations appear when you pause or finish.': 'O diagnóstico seleciona cerca de 100 questões de todos os sistemas para mostrar onde você está. Responda em sessões curtas: pause quando quiser e retome depois. As explicações aparecem quando você pausa ou termina.',
