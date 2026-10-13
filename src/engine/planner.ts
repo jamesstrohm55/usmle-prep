@@ -165,3 +165,24 @@ export function selectForTask<Q extends { id: string; system: string }>(
   const rest = mine.filter((q) => latest.get(q.id)?.correct === true);
   return [...pickBlock(unseen, Infinity, rng), ...pickBlock(missed, Infinity, rng), ...pickBlock(rest, Infinity, rng)].slice(0, Math.max(0, n));
 }
+
+// A planned set picks up where the student left it: the questions she was given (`stored.ids`, in order), minus the ones
+// she has answered since, so the first one left is the question she was on. A question that was new to her when the set was
+// formed (`stored.fresh`) counts as answered once any attempt exists (no clock comparison, the server stamps attempts).
+// A carried-over question she had answered before (a missed one used to fill the set) is dropped only if re-answered after
+// `stored.at`. Fresh unseen questions top the set up to n.
+export function resumeSet<Q extends { id: string; system: string }>(
+  questions: Q[], latest: Map<string, Attempt>, system: string, n: number, stored: { at: number; ids: string[]; fresh: string[] } | null, rng: () => number = Math.random,
+): Q[] {
+  const byId = new Map(questions.map((q) => [q.id, q]));
+  const fresh = new Set(stored?.fresh ?? []);
+  const answeredSince = (id: string) => { const a = latest.get(id); return !!a && (fresh.has(id) || ts(a.answered_at) >= stored!.at); };
+  const kept: Q[] = [];
+  for (const id of stored?.ids ?? []) {
+    const q = byId.get(id);
+    if (q && q.system === system && !answeredSince(id) && !kept.includes(q)) kept.push(q);
+  }
+  if (kept.length >= n) return kept.slice(0, Math.max(0, n));
+  const have = new Set(kept.map((q) => q.id));
+  return [...kept, ...selectForTask(questions.filter((q) => !have.has(q.id)), latest, system, n - kept.length, rng)];
+}

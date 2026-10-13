@@ -3,7 +3,9 @@ import { useSearchParams } from 'react-router-dom';
 import { fetchAttempts, fetchQuestions, saveAttempts, setItemStatus, type AttemptInsert } from '../../db/queries';
 import type { Question } from '../../db/models';
 import { gradeAnswer, canShowExplanation, timedLimitMs, pickBlock, type Answer, type Mode } from '../../engine/mcq';
-import { latestPerQuestion, selectForTask } from '../../engine/planner';
+import { latestPerQuestion, resumeSet, selectForTask } from '../../engine/planner';
+import { getLastUserId } from '../../db/lastUser';
+import { dayKey, readKey, writeKey } from '../../ui/localKey';
 import { useToast } from '../../ui/Toast';
 import { Rich } from '../../ui/Rich';
 import { ItemImage } from '../../ui/ItemImage';
@@ -64,12 +66,13 @@ export function Questions({ load = fetchQuestions, save = saveAttempts, preset, 
   const [latest, setLatest] = useState<ReturnType<typeof latestPerQuestion>>(new Map());
   const hasPreset = !!preset;
   const [ready, setReady] = useState(!preset);
+  const historyOk = useRef(true);
   useEffect(() => {
     if (!hasPreset) return;
     let live = true;
     loadAttempts()
       .then((a) => { if (live) { setLatest(latestPerQuestion(a)); setReady(true); } })
-      .catch(() => { if (live) { setLatest(new Map()); setReady(true); } });
+      .catch(() => { if (live) { historyOk.current = false; setLatest(new Map()); setReady(true); } });
     return () => { live = false; };
   }, [hasPreset, loadAttempts]);
 
@@ -168,6 +171,24 @@ export function Questions({ load = fetchQuestions, save = saveAttempts, preset, 
   if (!bank) return <Loading />;
   if (!bank.length) return <p>{tr('No questions yet.')}</p>;
 
+  // Planned sets are remembered for the day, so leaving and coming back resumes at the same question. Practice sets are not.
+  const setKey = (system: string) => `${getLastUserId() ?? 'anon'}:set:${dayKey(new Date())}:${system}`;
+  function planned(all: Question[], p: NonNullable<typeof preset>): Question[] {
+    if (p.practice) return selectForTask(all, latest, p.system, p.n);
+    // Without her history nothing can be told apart as answered, so the stored order is not trusted.
+    if (!historyOk.current) return selectForTask(all, latest, p.system, p.n);
+    let stored: { at: number; ids: string[]; fresh: string[] } | null = null;
+    try {
+      const v = JSON.parse(readKey(setKey(p.system)));
+      const strings = (x: unknown) => Array.isArray(x) && x.every((y) => typeof y === 'string');
+      if (v && typeof v.at === 'number' && strings(v.ids) && strings(v.fresh)) stored = v;
+    } catch { /* none */ }
+    const pool = resumeSet(all, latest, p.system, p.n, stored);
+    // `at` is when this exact set was formed: later answers are dropped on the next return, earlier ones (fillers) stay.
+    writeKey(setKey(p.system), JSON.stringify({ at: Date.now(), ids: pool.map((x) => x.id), fresh: pool.filter((x) => !latest.has(x.id)).map((x) => x.id) }));
+    return pool;
+  }
+
   const blockSize = Math.min(BLOCK, bank.length);
   const plannedCount = preset ? Math.min(preset.n, bank.filter((q) => q.system === preset.system).length) : 0;
   const qWord = plannedCount === 1 ? tr('question') : tr('questions');
@@ -178,7 +199,7 @@ export function Questions({ load = fetchQuestions, save = saveAttempts, preset, 
     <div className="card">
       <h2>{tr('Practice questions')}</h2>
       <p className="muted">{tr('{n} questions available.', { n: bank.length })}</p>
-      {preset && plannedCount > 0 && !plannedUsed && <p><button className="primary" disabled={!ready} onClick={() => { const pool = selectForTask(bank, latest, preset.system, preset.n); if (pool.length) setPlannedUsed(true); start('tutor', pool); }}>{plannedLabel}{!ready && ` ${tr('(loading history…)')}`}</button></p>}
+      {preset && plannedCount > 0 && !plannedUsed && <p><button className="primary" disabled={!ready} onClick={() => { const pool = planned(bank, preset); if (pool.length) setPlannedUsed(true); start('tutor', pool); }}>{plannedLabel}{!ready && ` ${tr('(loading history…)')}`}</button></p>}
       <button onClick={() => start('tutor', pickBlock(bank, BLOCK))}>{tr('Start tutor session ({n} questions)', { n: blockSize })}</button>{' '}
       <button onClick={() => start('timed', pickBlock(bank, BLOCK))}>{tr('Start timed session ({n} questions, {m} min)', { n: blockSize, m: Math.round(timedLimitMs(blockSize) / 60000) })}</button>
     </div>

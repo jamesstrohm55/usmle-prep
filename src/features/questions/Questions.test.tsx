@@ -877,3 +877,43 @@ test('a timed-session clock tick does not pull focus away from the control the s
   await act(async () => { await new Promise((r) => setTimeout(r, 1200)); }); // at least one 1 s clock tick re-renders the screen
   expect(document.activeElement).toBe(choice);
 });
+
+test('leaving a planned set and coming back lands on the same question she was on', async () => {
+  localStorage.clear();
+  const bank = ['r1', 'r2', 'r3', 'r4'].map((id) => qs(id, 'renal'));
+  const random = vi.spyOn(Math, 'random').mockReturnValue(0.999999); // keeps the drawn order r1, r2, r3, r4
+  const first = wrap(<Questions load={async () => bank} save={async () => {}} preset={{ system: 'renal', n: 4 }} loadAttempts={async () => []} />);
+  fireEvent.click(await screen.findByText(/Start planned set \(4 questions in Renal\)/));
+  expect(screen.getByText('stem-r1')).toBeTruthy();
+  fireEvent.click(screen.getByText('B1'));
+  fireEvent.click(screen.getByText('Next'));
+  expect(screen.getByText('stem-r2')).toBeTruthy(); // she is on question 2, not yet answered, and leaves
+  first.unmount();
+
+  random.mockReturnValue(0); // a fresh draw would now start somewhere else
+  wrap(<Questions load={async () => bank} save={async () => {}} preset={{ system: 'renal', n: 3, done: 1 }} loadAttempts={async () => [{ ...att('r1', true), answered_at: new Date(Date.now() + 1000).toISOString() }]} />); // answered after the set was formed
+  fireEvent.click(await screen.findByText(/Resume planned set \(3 questions left in Renal, 1 done\)/));
+  expect(screen.getByText('stem-r2')).toBeTruthy();
+  expect(screen.getByText(/Q1\/3/)).toBeTruthy();
+  localStorage.clear();
+});
+
+test('a practice set is not remembered, so it never replaces the planned set to come back to', async () => {
+  localStorage.clear();
+  const bank = ['r1', 'r2'].map((id) => qs(id, 'renal'));
+  wrap(<Questions load={async () => bank} save={async () => {}} preset={{ system: 'renal', n: 2, done: 5, practice: true }} loadAttempts={async () => [att('r1', true), att('r2', true)]} />);
+  fireEvent.click(await screen.findByText(/Start practice set/));
+  expect(Object.keys(localStorage).filter((k) => k.includes(':set:'))).toEqual([]);
+});
+
+test('if her history cannot be loaded the remembered set is not used (it would restart at question 1 and lose the last one)', async () => {
+  localStorage.clear();
+  const bank = ['r1', 'r2', 'r3', 'r4'].map((id) => qs(id, 'renal'));
+  vi.spyOn(Math, 'random').mockReturnValue(0.999999);
+  const key = `anon:set:${new Date().getFullYear()}-${String(new Date().getMonth() + 1).padStart(2, '0')}-${String(new Date().getDate()).padStart(2, '0')}:renal`;
+  localStorage.setItem(key, JSON.stringify({ at: 0, ids: ['r2', 'r3', 'r4', 'r1'], fresh: ['r2', 'r3', 'r4', 'r1'] }));
+  wrap(<Questions load={async () => bank} save={async () => {}} preset={{ system: 'renal', n: 3, done: 1 }} loadAttempts={async () => { throw new Error('offline'); }} />);
+  fireEvent.click(await screen.findByText(/Resume planned set/));
+  expect(screen.getByText('stem-r1')).toBeTruthy(); // the ordinary fallback draw, not the stored order starting at r2
+  localStorage.clear();
+});

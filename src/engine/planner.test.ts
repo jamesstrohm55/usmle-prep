@@ -1,7 +1,7 @@
 import {
   latestPerQuestion, masteryBySystem, lastStudyBySystem, rankSystems, medianSeconds, buildPlan,
   weekdayIndex, weekStart, minutesDoneThisWeek, minutesByDayThisWeek, daysLeft, todayMinutes, pickNote, selectForTask, DAY_MS,
-  MIN_SEC_PER_CARD, MIN_SEC_PER_QUESTION,
+  MIN_SEC_PER_CARD, MIN_SEC_PER_QUESTION, resumeSet,
 } from './planner';
 
 const at = (q: string, correct: boolean, when: string, ms = 60_000) => ({ question_id: q, correct, duration_ms: ms, answered_at: when });
@@ -183,4 +183,61 @@ test('buildPlan: no lone note when the focus system has no questions', () => {
   const p = buildPlan({ ...base, minutes: 60, dueCards: 5, ranked: ['renal', 'nervous'], available: { renal: 0, nervous: 40 } });
   expect(p.some((t) => t.kind === 'note')).toBe(false);
   expect(p.map((t) => t.kind)).toEqual(['cards']);
+});
+
+describe('resumeSet: a planned set picks up where the student left it', () => {
+  const Q = (id: string, system = 'renal') => ({ id, system });
+  const bank = [Q('a'), Q('b'), Q('c'), Q('d'), Q('x', 'nervous')];
+  const AT = Date.parse('2026-10-09T09:00:00Z'); // when the set was stored
+  const answered = (when: string, ...ids: string[]) => new Map(ids.map((id) => [id, { question_id: id, correct: true, duration_ms: 1, answered_at: when }]));
+  const since = (...ids: string[]) => answered('2026-10-09T10:00:00Z', ...ids); // answered after the set was stored
+  const before = (...ids: string[]) => answered('2026-10-01T10:00:00Z', ...ids); // answered on an earlier day
+  const set = (ids: string[], fresh: string[] = ids) => ({ at: AT, ids, fresh }); // fresh = new to her when the set was formed
+  const ids = (qs: { id: string }[]) => qs.map((q) => q.id);
+
+  test('keeps the stored order and drops what was answered since, so the first one left is the question she was on', () => {
+    expect(ids(resumeSet(bank, since('c'), 'renal', 3, set(['c', 'a', 'd', 'b'])))).toEqual(['a', 'd', 'b']);
+  });
+
+  test('a question she answered on an earlier day (a missed one used to fill the set) is kept in place', () => {
+    // set stored as [u1=a, u2=b, m1=c, m2=d]; she answered a and b today, c and d long ago, and left while on c
+    expect(ids(resumeSet(bank, new Map([...before('c', 'd'), ...since('a', 'b')]), 'renal', 2, set(['a', 'b', 'c', 'd'], ['a', 'b'])))).toEqual(['c', 'd']);
+  });
+
+  test('ignores stored ids that were deleted or belong to another system', () => {
+    expect(ids(resumeSet(bank, new Map(), 'renal', 3, set(['gone', 'x', 'b', 'a']), () => 0.999999))).toEqual(['b', 'a', 'c']); // topped up from unseen
+  });
+
+  test('stored questions come first, then fresh unseen ones fill up to n, never repeating', () => {
+    const out = ids(resumeSet(bank, since('a'), 'renal', 3, set(['a', 'b']), () => 0.999999));
+    expect(out).toEqual(['b', 'c', 'd']); // b is carried over, c and d are new
+    expect(new Set(out).size).toBe(out.length);
+  });
+
+  test('when fewer questions are unanswered than n, answered ones fill the rest, as selectForTask does', () => {
+    expect(ids(resumeSet(bank, since('a'), 'renal', 4, set(['a', 'b']), () => 0.999999))).toEqual(['b', 'c', 'd', 'a']);
+  });
+
+  test('no stored set behaves like selectForTask', () => {
+    expect(ids(resumeSet(bank, new Map(), 'renal', 2, null, () => 0.999999))).toEqual(ids(selectForTask(bank, new Map(), 'renal', 2, () => 0.999999)));
+  });
+
+  test('a carried-over question she answered again since is dropped, one she did not is kept', () => {
+    const latest = new Map([...before('c', 'd'), ...since('c')]); // c re-answered in this session, d not
+    expect(ids(resumeSet(bank, latest, 'renal', 3, set(['b', 'c', 'd'], ['b'])))).toEqual(['b', 'd', 'a']);
+  });
+
+  test('a question that was new when the set was formed is dropped once answered, even if the clocks disagree', () => {
+    const skewed = answered('2026-10-09T08:59:00Z', 'a'); // stamped a minute before `at` (server clock behind the browser)
+    expect(ids(resumeSet(bank, skewed, 'renal', 3, set(['a', 'b', 'c'])))).toEqual(['b', 'c', 'd']);
+  });
+
+  test('stored questions beyond n are cut', () => {
+    expect(ids(resumeSet(bank, new Map(), 'renal', 2, set(['d', 'c', 'b', 'a'])))).toEqual(['d', 'c']);
+  });
+
+  test('a carried-over question whose attempt has an unreadable time does not count as answered since', () => {
+    const bad = new Map([['a', { question_id: 'a', correct: true, duration_ms: 1, answered_at: 'garbage' }]]);
+    expect(ids(resumeSet(bank, bad, 'renal', 2, set(['a', 'b'], ['b'])))).toEqual(['a', 'b']);
+  });
 });

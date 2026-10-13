@@ -16,11 +16,11 @@ import { doneToday, parseSnapshot, type Snapshot } from '../../engine/progress';
 import { getLastUserId } from '../../db/lastUser';
 import { Loading } from '../../ui/Loading';
 import { errMsg } from '../../ui/errMsg';
+import { dayKey, readKey, writeKey } from '../../ui/localKey';
 
 // Stagger index for the tiles' blur-fade entrance (see .tile in styles.css).
 const at = (i: number) => ({ '--i': i }) as React.CSSProperties;
 
-const dayKey = (d: Date) => `${d.getFullYear()}-${String(d.getMonth() + 1).padStart(2, '0')}-${String(d.getDate()).padStart(2, '0')}`;
 
 export async function loadToday() {
   const [questions, cards, states, notes, attempts, reviews, settings, runs] = await Promise.all([
@@ -31,11 +31,6 @@ export async function loadToday() {
 }
 export type TodayData = Awaited<ReturnType<typeof loadToday>>;
 
-const readKey = (key: string): string => { try { return localStorage.getItem(key) ?? ''; } catch { return ''; } };
-// Storage may be unavailable: the value then lasts for this visit only.
-const writeKey = (key: string, v: string) => {
-  try { if (v) localStorage.setItem(key, v); else localStorage.removeItem(key); } catch { /* visit only */ }
-};
 // Empty, non-numeric or negative input means "use the weekday default".
 const parseOverride = (v: string): number | null => { const n = Number(v); return v.trim() !== '' && Number.isFinite(n) && n >= 0 ? Math.min(600, n) : null; };
 const storedRun = (raw: string): boolean => { try { return JSON.parse(raw)?.hasCompletedRun === true; } catch { return false; } };
