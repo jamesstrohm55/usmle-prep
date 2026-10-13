@@ -148,7 +148,7 @@ export function Today({ load = loadToday, save = saveSettings, now = () => new D
     if (t.kind === 'cards') return <><div className="task-main"><Link to="/cards">{tr('Review {n} flashcards', { n: t.count })}</Link> {mins}</div>{progressText(t)}</>;
     if (t.kind === 'note') {
       const n = pickNote(data.notes, data.questions, view.latest, t.system);
-      return <div className="task-main"><span>{tr('Read')} <Link to="/notes">{n ? n.title : tr('a note in {s}', { s: systemLabel(t.system, tr) })}</Link></span>
+      return <div className="task-main"><span>{tr('Read')} <Link to={n ? `/notes?note=${encodeURIComponent(n.id)}` : '/notes'}>{n ? n.title : tr('a note in {s}', { s: systemLabel(t.system, tr) })}</Link></span>
         <span className="meta">{mins}{' '}<label><input type="checkbox" checked={isRead(t.system)} onChange={(e) => setRead(t.system, e.target.checked)} /> {tr('Mark read')}</label></span></div>;
     }
     // Link and text reflect the remaining work; a finished task offers extra practice instead.

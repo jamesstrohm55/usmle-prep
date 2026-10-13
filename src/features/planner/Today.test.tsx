@@ -105,7 +105,7 @@ test('due cards come first, questions and notes link to their screens', async ()
   expect(first.querySelector('a')!.getAttribute('href')).toBe('/cards');
   const q = screen.getAllByRole('link', { name: /Answer \d+ .*questions/ }).map((a) => a.getAttribute('href'));
   expect(q.some((h) => h!.startsWith(`/questions?system=${encodeURIComponent(SYS)}&n=`))).toBe(true);
-  expect(screen.getByRole('link', { name: /Nephron basics/ }).getAttribute('href')).toBe('/notes');
+  expect(screen.getByRole('link', { name: /Nephron basics/ }).getAttribute('href')).toMatch(/^\/notes\?note=n[12]$/); // that one note, not the list
 });
 
 test('future-due cards are not counted', async () => {
@@ -514,4 +514,12 @@ test('on the target date the countdown says it is exam day instead of "0 days le
   show(data({ settings: { ...DEFAULT_SETTINGS, target_date: '2026-10-07' } }));
   expect(await screen.findByText('Exam day is today')).toBeTruthy();
   expect(screen.queryByText(/0 days left/)).toBeNull();
+});
+
+test('the Read link opens just the assigned note; with no note to pick it falls back to the notes list', async () => {
+  const { unmount } = show(noteDay());
+  expect((await screen.findByRole('link', { name: 'Nephron basics' })).getAttribute('href')).toBe('/notes?note=n1');
+  unmount();
+  show({ ...noteDay(), notes: [] } as TodayData);
+  expect((await screen.findByRole('link', { name: /a note in/ })).getAttribute('href')).toBe('/notes');
 });

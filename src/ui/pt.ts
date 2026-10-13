@@ -144,6 +144,8 @@ export const PT: Record<string, string> = {
   // Notes
   'Could not load notes:': 'Não foi possível carregar as notas:',
   'No notes yet.': 'Ainda não há notas.',
+  'All notes': 'Todas as notas',
+  'That note is no longer available.': 'Essa nota não está mais disponível.',
   // Questions
   'Could not update question: {m}': 'Não foi possível atualizar a questão: {m}',
   '{n} not saved': '{n} não salvas',

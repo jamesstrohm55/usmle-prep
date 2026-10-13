@@ -47,3 +47,22 @@ test('a load that rejects with a plain string shows that text, not "undefined"',
   wrap(<Notes load={() => Promise.reject('network down') as never} />);
   expect(await screen.findByText(/Could not load notes: network down/)).toBeTruthy();
 });
+
+test('with `only`, just that note is shown, already open, with links back to Today and to all notes', async () => {
+  wrap(<Notes load={async () => [note('1'), note('2', 'corpo-2'), note('3')]} only="2" />);
+  expect(await screen.findByText('body-2')).toBeTruthy(); // expanded without a click
+  expect(screen.queryByText(/title-1/)).toBeNull();
+  expect(screen.queryByText(/title-3/)).toBeNull();
+  expect(screen.getByRole('button', { name: /title-2/ }).getAttribute('aria-expanded')).toBe('true');
+  expect(screen.getByRole('link', { name: 'All notes' }).getAttribute('href')).toBe('#/notes');
+  expect(screen.getByRole('link', { name: 'Back to Today' }).getAttribute('href')).toBe('#/today');
+  fireEvent.click(screen.getByText('Ver em português')); // the Portuguese reveal still works
+  expect(screen.getByText('corpo-2')).toBeTruthy();
+});
+
+test('with `only` naming a note that no longer exists, say so and offer the list', async () => {
+  wrap(<Notes load={async () => [note('1')]} only="gone" />);
+  expect(await screen.findByText('That note is no longer available.')).toBeTruthy();
+  expect(screen.queryByText(/title-1/)).toBeNull();
+  expect(screen.getByRole('link', { name: 'All notes' })).toBeTruthy();
+});

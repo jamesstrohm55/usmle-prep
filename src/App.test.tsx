@@ -11,7 +11,7 @@ vi.mock('./features/planner/Today', () => ({ Today: () => <div>TodayScreen</div>
 vi.mock('./features/diagnostic/Diagnostic', () => ({ Diagnostic: () => <div>DiagnosticScreen</div> }));
 vi.mock('./features/flashcards/Flashcards', () => ({ Flashcards: () => <div>CardsScreen</div> }));
 vi.mock('./features/questions/Questions', () => ({ QuestionsRoute: () => <div>QuestionsScreen</div> }));
-vi.mock('./features/notes/Notes', () => ({ Notes: () => <div>NotesScreen</div> }));
+vi.mock('./features/notes/Notes', () => ({ NotesRoute: () => <div>NotesScreen</div> }));
 vi.mock('./features/search/Search', () => ({ Search: () => <div>SearchScreen</div> }));
 vi.mock('./features/import-export/ImportExport', () => ({ ImportExport: () => <div>DataScreen</div> }));
 

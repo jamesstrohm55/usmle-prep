@@ -9,7 +9,7 @@ import { Today } from './features/planner/Today';
 import { Diagnostic } from './features/diagnostic/Diagnostic';
 import { Flashcards } from './features/flashcards/Flashcards';
 import { QuestionsRoute } from './features/questions/Questions';
-import { Notes } from './features/notes/Notes';
+import { NotesRoute } from './features/notes/Notes';
 import { Search } from './features/search/Search';
 import { ImportExport } from './features/import-export/ImportExport';
 import { Icon, type IconName } from './ui/Icon';
@@ -79,7 +79,7 @@ export function App() {
               <Route path="/diagnostic" element={<Diagnostic />} />
               <Route path="/cards" element={<Flashcards />} />
               <Route path="/questions" element={<QuestionsRoute />} />
-              <Route path="/notes" element={<Notes />} />
+              <Route path="/notes" element={<NotesRoute />} />
               <Route path="/search" element={<Search />} />
               <Route path="/data" element={<ImportExport />} />
             </Routes>
