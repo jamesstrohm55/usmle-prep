@@ -8,7 +8,9 @@ dist
 tsconfig.tsbuildinfo
 .content-work
 
-# local tooling (graphify knowledge graph, Claude Code config)
+# local tooling (graphify knowledge graph, Claude Code and Codex config)
 graphify-out
 .claude
 CLAUDE.md
+AGENTS.md
+.codex
